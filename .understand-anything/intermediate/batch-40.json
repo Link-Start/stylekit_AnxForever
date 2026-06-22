@@ -1,0 +1,99 @@
+{
+  "nodes": [
+    {
+      "id": "file:lib/submit/manifest-validator.ts",
+      "type": "file",
+      "name": "manifest-validator.ts",
+      "filePath": "lib/submit/manifest-validator.ts",
+      "summary": "Style submission manifest validation with Zod schema, detailed validation, and summary generation for style uploads.",
+      "tags": [
+        "validation",
+        "utility",
+        "schema-definition"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/submit/validator.ts",
+      "type": "file",
+      "name": "validator.ts",
+      "filePath": "lib/submit/validator.ts",
+      "summary": "Zod schema definitions for the style submission wizard form with field-level validation rules.",
+      "tags": [
+        "validation",
+        "schema-definition",
+        "form"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:tests/unit/lib/manifest-validator.test.ts",
+      "type": "file",
+      "name": "manifest-validator.test.ts",
+      "filePath": "tests/unit/lib/manifest-validator.test.ts",
+      "summary": "Unit tests for the manifest validator module covering validation logic and edge cases.",
+      "tags": [
+        "test",
+        "unit",
+        "validation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:tests/unit/lib/validator.test.ts",
+      "type": "file",
+      "name": "validator.test.ts",
+      "filePath": "tests/unit/lib/validator.test.ts",
+      "summary": "Unit tests for the validator module covering validation logic and edge cases.",
+      "tags": [
+        "test",
+        "unit",
+        "validation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:tools/submission/validate-manifest.ts",
+      "type": "file",
+      "name": "validate-manifest.ts",
+      "filePath": "tools/submission/validate-manifest.ts",
+      "summary": "CLI tool script for validating style submission manifest files against the manifest schema.",
+      "tags": [
+        "cli-tool",
+        "validation",
+        "script"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:lib/submit/manifest-validator.ts",
+      "target": "file:lib/submit/validator.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/unit/lib/manifest-validator.test.ts",
+      "target": "file:lib/submit/manifest-validator.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/unit/lib/validator.test.ts",
+      "target": "file:lib/submit/validator.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tools/submission/validate-manifest.ts",
+      "target": "file:lib/submit/manifest-validator.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

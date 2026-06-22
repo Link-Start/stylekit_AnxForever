@@ -1,0 +1,1050 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 33,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "lib/recipes/marble-luxury.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 154,
+      "nonEmptyLines": 151,
+      "exports": [
+        {
+          "name": "marbleLuxuryRecipes",
+          "line": 12,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/recipes/masonry-flow.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 210,
+      "nonEmptyLines": 207,
+      "exports": [
+        {
+          "name": "masonryFlowRecipes",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/recipes/material-design.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 207,
+      "nonEmptyLines": 204,
+      "exports": [
+        {
+          "name": "materialDesignRecipes",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/recipes/maximalism.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 164,
+      "nonEmptyLines": 161,
+      "exports": [
+        {
+          "name": "maximalismRecipes",
+          "line": 12,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/recipes/mecha.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 561,
+      "nonEmptyLines": 551,
+      "exports": [
+        {
+          "name": "mechaRecipes",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/recipes/medieval-manuscript.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 157,
+      "nonEmptyLines": 154,
+      "exports": [
+        {
+          "name": "medievalManuscriptRecipes",
+          "line": 12,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/recipes/memphis.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 420,
+      "nonEmptyLines": 414,
+      "exports": [
+        {
+          "name": "memphisRecipes",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/recipes/mid-century-modern.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 134,
+      "nonEmptyLines": 131,
+      "exports": [
+        {
+          "name": "midCenturyModernRecipes",
+          "line": 12,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/recipes/minimalist-flat.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 134,
+      "nonEmptyLines": 132,
+      "exports": [
+        {
+          "name": "minimalistFlatRecipes",
+          "line": 15,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/recipes/modern-gradient.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 214,
+      "nonEmptyLines": 211,
+      "exports": [
+        {
+          "name": "modernGradientRecipes",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/recipes/monochrome.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 123,
+      "nonEmptyLines": 120,
+      "exports": [
+        {
+          "name": "monochromeRecipes",
+          "line": 12,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/recipes/natural-organic.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 208,
+      "nonEmptyLines": 205,
+      "exports": [
+        {
+          "name": "naturalOrganicRecipes",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/recipes/neo-brutalist-playful.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 223,
+      "nonEmptyLines": 220,
+      "exports": [
+        {
+          "name": "neoBrutalistPlayfulRecipes",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/recipes/neo-brutalist-soft.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 215,
+      "nonEmptyLines": 212,
+      "exports": [
+        {
+          "name": "neoBrutalistSoftRecipes",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/recipes/neo-brutalist.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 371,
+      "nonEmptyLines": 365,
+      "exports": [
+        {
+          "name": "neoBrutalistRecipes",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/recipes/neon-gradient.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 478,
+      "nonEmptyLines": 471,
+      "exports": [
+        {
+          "name": "neonGradientRecipes",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/recipes/neon-samurai.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 631,
+      "nonEmptyLines": 623,
+      "exports": [
+        {
+          "name": "neonSamuraiRecipes",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/recipes/neon-tokyo.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 160,
+      "nonEmptyLines": 157,
+      "exports": [
+        {
+          "name": "neonTokyoRecipes",
+          "line": 13,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/recipes/neumorphism.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 377,
+      "nonEmptyLines": 371,
+      "exports": [
+        {
+          "name": "neumorphismRecipes",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/recipes/notion-style.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 213,
+      "nonEmptyLines": 210,
+      "exports": [
+        {
+          "name": "notionStyleRecipes",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/recipes/op-art.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 134,
+      "nonEmptyLines": 131,
+      "exports": [
+        {
+          "name": "opArtRecipes",
+          "line": 12,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/recipes/outrun.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 495,
+      "nonEmptyLines": 486,
+      "exports": [
+        {
+          "name": "outrunRecipes",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/recipes/paper-craft.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 153,
+      "nonEmptyLines": 150,
+      "exports": [
+        {
+          "name": "paperCraftRecipes",
+          "line": 13,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/recipes/parallax-sections.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 390,
+      "nonEmptyLines": 384,
+      "exports": [
+        {
+          "name": "parallaxSectionsRecipes",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/recipes/particle.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 159,
+      "nonEmptyLines": 158,
+      "exports": [
+        {
+          "name": "particleRecipes",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/recipes/pastel-goth.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 154,
+      "nonEmptyLines": 151,
+      "exports": [
+        {
+          "name": "pastelGothRecipes",
+          "line": 12,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/recipes/pixel-anime.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 681,
+      "nonEmptyLines": 673,
+      "exports": [
+        {
+          "name": "pixelAnimeRecipes",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/recipes/pixel-art.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 221,
+      "nonEmptyLines": 218,
+      "exports": [
+        {
+          "name": "pixelArtRecipes",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/recipes/pop-art.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 449,
+      "nonEmptyLines": 443,
+      "exports": [
+        {
+          "name": "popArtRecipes",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/recipes/registry.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 331,
+      "nonEmptyLines": 323,
+      "functions": [
+        {
+          "name": "getStyleRecipes",
+          "startLine": 287,
+          "endLine": 289,
+          "params": [
+            "styleSlug"
+          ]
+        },
+        {
+          "name": "getRecipe",
+          "startLine": 294,
+          "endLine": 301,
+          "params": [
+            "styleSlug",
+            "recipeId"
+          ]
+        },
+        {
+          "name": "getRecipeIds",
+          "startLine": 306,
+          "endLine": 310,
+          "params": [
+            "styleSlug"
+          ]
+        },
+        {
+          "name": "getStylesWithRecipes",
+          "startLine": 315,
+          "endLine": 317,
+          "params": []
+        },
+        {
+          "name": "hasRecipes",
+          "startLine": 322,
+          "endLine": 324,
+          "params": [
+            "styleSlug"
+          ]
+        },
+        {
+          "name": "registerRecipes",
+          "startLine": 329,
+          "endLine": 331,
+          "params": [
+            "recipes"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "getStyleRecipes",
+          "line": 287,
+          "isDefault": false
+        },
+        {
+          "name": "getRecipe",
+          "line": 294,
+          "isDefault": false
+        },
+        {
+          "name": "getRecipeIds",
+          "line": 306,
+          "isDefault": false
+        },
+        {
+          "name": "getStylesWithRecipes",
+          "line": 315,
+          "isDefault": false
+        },
+        {
+          "name": "hasRecipes",
+          "line": 322,
+          "isDefault": false
+        },
+        {
+          "name": "registerRecipes",
+          "line": 329,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getRecipeIds",
+          "callee": "Object.keys",
+          "lineNumber": 309
+        },
+        {
+          "caller": "getStylesWithRecipes",
+          "callee": "Object.keys",
+          "lineNumber": 316
+        }
+      ],
+      "metrics": {
+        "importCount": 128,
+        "exportCount": 6,
+        "functionCount": 6,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/recipes/renderer.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 286,
+      "nonEmptyLines": 241,
+      "functions": [
+        {
+          "name": "renderRecipe",
+          "startLine": 12,
+          "endLine": 75,
+          "params": [
+            "recipe",
+            "params"
+          ]
+        },
+        {
+          "name": "generateCode",
+          "startLine": 80,
+          "endLine": 107,
+          "params": [
+            "recipe",
+            "params",
+            "className"
+          ]
+        },
+        {
+          "name": "generatePreview",
+          "startLine": 112,
+          "endLine": 132,
+          "params": [
+            "recipe",
+            "params",
+            "className"
+          ]
+        },
+        {
+          "name": "buildSlotContent",
+          "startLine": 137,
+          "endLine": 162,
+          "params": [
+            "recipe",
+            "slots",
+            "format"
+          ]
+        },
+        {
+          "name": "buildAdditionalProps",
+          "startLine": 167,
+          "endLine": 189,
+          "params": [
+            "recipe",
+            "params"
+          ]
+        },
+        {
+          "name": "formatClassName",
+          "startLine": 194,
+          "endLine": 204,
+          "params": [
+            "className"
+          ]
+        },
+        {
+          "name": "getRecipeVariants",
+          "startLine": 209,
+          "endLine": 211,
+          "params": [
+            "recipe"
+          ]
+        },
+        {
+          "name": "getDefaultParams",
+          "startLine": 216,
+          "endLine": 226,
+          "params": [
+            "recipe"
+          ]
+        },
+        {
+          "name": "getDefaultSlots",
+          "startLine": 231,
+          "endLine": 243,
+          "params": [
+            "recipe"
+          ]
+        },
+        {
+          "name": "validateRenderParams",
+          "startLine": 248,
+          "endLine": 270,
+          "params": [
+            "recipe",
+            "params"
+          ]
+        },
+        {
+          "name": "generateExample",
+          "startLine": 275,
+          "endLine": 286,
+          "params": [
+            "recipe",
+            "variantId"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "renderRecipe",
+          "line": 12,
+          "isDefault": false
+        },
+        {
+          "name": "getRecipeVariants",
+          "line": 209,
+          "isDefault": false
+        },
+        {
+          "name": "getDefaultParams",
+          "line": 216,
+          "isDefault": false
+        },
+        {
+          "name": "getDefaultSlots",
+          "line": 231,
+          "isDefault": false
+        },
+        {
+          "name": "validateRenderParams",
+          "line": 248,
+          "isDefault": false
+        },
+        {
+          "name": "generateExample",
+          "line": 275,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "renderRecipe",
+          "callee": "param.options.find",
+          "lineNumber": 34
+        },
+        {
+          "caller": "renderRecipe",
+          "callee": "classGroups.params.push",
+          "lineNumber": 36
+        },
+        {
+          "caller": "renderRecipe",
+          "callee": "classGroups.params.push",
+          "lineNumber": 40
+        },
+        {
+          "caller": "renderRecipe",
+          "callee": "classGroups.params.push",
+          "lineNumber": 42
+        },
+        {
+          "caller": "renderRecipe",
+          "callee": "allClasses.join",
+          "lineNumber": 63
+        },
+        {
+          "caller": "renderRecipe",
+          "callee": "generateCode",
+          "lineNumber": 66
+        },
+        {
+          "caller": "renderRecipe",
+          "callee": "generatePreview",
+          "lineNumber": 67
+        },
+        {
+          "caller": "generateCode",
+          "callee": "formatClassName",
+          "lineNumber": 89
+        },
+        {
+          "caller": "generateCode",
+          "callee": "buildSlotContent",
+          "lineNumber": 92
+        },
+        {
+          "caller": "generateCode",
+          "callee": "[\"input\", \"img\", \"br\", \"hr\"].includes",
+          "lineNumber": 95
+        },
+        {
+          "caller": "generateCode",
+          "callee": "buildAdditionalProps",
+          "lineNumber": 98
+        },
+        {
+          "caller": "generatePreview",
+          "callee": "buildSlotContent",
+          "lineNumber": 121
+        },
+        {
+          "caller": "generatePreview",
+          "callee": "[\"input\", \"img\", \"br\", \"hr\"].includes",
+          "lineNumber": 124
+        },
+        {
+          "caller": "generatePreview",
+          "callee": "buildAdditionalProps",
+          "lineNumber": 127
+        },
+        {
+          "caller": "buildSlotContent",
+          "callee": "parts.push",
+          "lineNumber": 150
+        },
+        {
+          "caller": "buildSlotContent",
+          "callee": "parts.push",
+          "lineNumber": 152
+        },
+        {
+          "caller": "buildSlotContent",
+          "callee": "parts.push",
+          "lineNumber": 155
+        },
+        {
+          "caller": "buildSlotContent",
+          "callee": "parts.push",
+          "lineNumber": 157
+        },
+        {
+          "caller": "buildSlotContent",
+          "callee": "parts.join",
+          "lineNumber": 161
+        },
+        {
+          "caller": "buildAdditionalProps",
+          "callee": "props.push",
+          "lineNumber": 177
+        },
+        {
+          "caller": "buildAdditionalProps",
+          "callee": "props.push",
+          "lineNumber": 183
+        },
+        {
+          "caller": "buildAdditionalProps",
+          "callee": "props.join",
+          "lineNumber": 188
+        },
+        {
+          "caller": "formatClassName",
+          "callee": "className.split(\" \").filter",
+          "lineNumber": 195
+        },
+        {
+          "caller": "formatClassName",
+          "callee": "className.split",
+          "lineNumber": 195
+        },
+        {
+          "caller": "formatClassName",
+          "callee": "classes.join",
+          "lineNumber": 198
+        },
+        {
+          "caller": "formatClassName",
+          "callee": "classes.join",
+          "lineNumber": 199
+        },
+        {
+          "caller": "formatClassName",
+          "callee": "classes.join",
+          "lineNumber": 203
+        },
+        {
+          "caller": "getRecipeVariants",
+          "callee": "Object.keys",
+          "lineNumber": 210
+        },
+        {
+          "caller": "validateRenderParams",
+          "callee": "errors.push",
+          "lineNumber": 256
+        },
+        {
+          "caller": "validateRenderParams",
+          "callee": "errors.push",
+          "lineNumber": 262
+        },
+        {
+          "caller": "generateExample",
+          "callee": "Object.keys",
+          "lineNumber": 279
+        },
+        {
+          "caller": "generateExample",
+          "callee": "renderRecipe",
+          "lineNumber": 281
+        },
+        {
+          "caller": "generateExample",
+          "callee": "getDefaultParams",
+          "lineNumber": 283
+        },
+        {
+          "caller": "generateExample",
+          "callee": "getDefaultSlots",
+          "lineNumber": 284
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 6,
+        "functionCount": 11,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/recipes/retro-vintage.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 211,
+      "nonEmptyLines": 208,
+      "exports": [
+        {
+          "name": "retroVintageRecipes",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/recipes/risograph.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 416,
+      "nonEmptyLines": 410,
+      "exports": [
+        {
+          "name": "risographRecipes",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

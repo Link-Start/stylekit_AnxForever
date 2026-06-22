@@ -1,0 +1,119 @@
+{
+  "nodes": [
+    {
+      "id": "config:.env.example",
+      "type": "config",
+      "name": ".env.example",
+      "filePath": ".env.example",
+      "summary": "Environment variable template listing all required configuration keys with placeholder values for local development.",
+      "tags": [
+        "configuration",
+        "environment",
+        "development"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:.gitleaks.toml",
+      "type": "config",
+      "name": ".gitleaks.toml",
+      "filePath": ".gitleaks.toml",
+      "summary": "Gitleaks configuration for scanning Git commits and repositories for hardcoded secrets and credentials.",
+      "tags": [
+        "configuration",
+        "security",
+        "secrets-scanning"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:PRODUCT.md",
+      "type": "document",
+      "name": "PRODUCT.md",
+      "filePath": "PRODUCT.md",
+      "summary": "Product overview document describing the StyleKit platform's value proposition as a comprehensive design style library.",
+      "tags": [
+        "documentation",
+        "product",
+        "overview"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": "README.md",
+      "summary": "Main project README providing installation instructions, quick-start guide, feature overview, and links to documentation for the StyleKit design system.",
+      "tags": [
+        "documentation",
+        "overview",
+        "getting-started"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:package.json",
+      "type": "config",
+      "name": "package.json",
+      "filePath": "package.json",
+      "summary": "Package manifest defining the Next.js application dependencies, scripts, and metadata for the StyleKit design system project.",
+      "tags": [
+        "configuration",
+        "dependencies",
+        "build-system",
+        "node-js"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:pnpm-workspace.yaml",
+      "type": "config",
+      "name": "pnpm-workspace.yaml",
+      "filePath": "pnpm-workspace.yaml",
+      "summary": "pnpm workspace configuration defining the monorepo package structure.",
+      "tags": [
+        "configuration",
+        "monorepo",
+        "workspace"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "config:tsconfig.json",
+      "type": "config",
+      "name": "tsconfig.json",
+      "filePath": "tsconfig.json",
+      "summary": "TypeScript compiler configuration enabling strict mode with path aliases for the monorepo project.",
+      "tags": [
+        "configuration",
+        "typescript",
+        "build-system"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "document:README.md",
+      "target": "file:src/lib/styles/index.ts",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "config:package.json",
+      "target": "file:src/lib/styles/index.ts",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "config:tsconfig.json",
+      "target": "file:src/lib/styles/index.ts",
+      "type": "configures",
+      "direction": "forward",
+      "weight": 0.6
+    }
+  ]
+}

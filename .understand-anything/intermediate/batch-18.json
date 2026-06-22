@@ -1,0 +1,2621 @@
+{
+  "nodes": [
+    {
+      "id": "file:components/ui/resizable/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "components/ui/resizable/index.ts",
+      "summary": "Barrel file re-exporting the resizable UI primitive module.",
+      "tags": [
+        "component",
+        "ui",
+        "resizable",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/ui/select/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "components/ui/select/index.ts",
+      "summary": "Barrel file re-exporting the select UI primitive module.",
+      "tags": [
+        "component",
+        "ui",
+        "select",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/ui/table/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "components/ui/table/index.ts",
+      "summary": "Barrel file re-exporting the table UI primitive module.",
+      "tags": [
+        "component",
+        "ui",
+        "table",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/ui/toast/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "components/ui/toast/index.ts",
+      "summary": "Barrel file re-exporting the toast UI primitive module.",
+      "tags": [
+        "component",
+        "ui",
+        "toast",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/ui/tooltip/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "components/ui/tooltip/index.ts",
+      "summary": "Barrel file re-exporting the tooltip UI primitive module.",
+      "tags": [
+        "component",
+        "ui",
+        "tooltip",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/ui/tree/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "components/ui/tree/index.ts",
+      "summary": "Barrel file re-exporting the tree UI primitive module.",
+      "tags": [
+        "component",
+        "ui",
+        "tree",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/accessibility/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "lib/accessibility/index.ts",
+      "summary": "Module barrel exporting public API for the accessibility domain.",
+      "tags": [
+        "utility",
+        "accessibility",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/analytics/events.ts",
+      "type": "file",
+      "name": "events.ts",
+      "filePath": "lib/analytics/events.ts",
+      "summary": "Utility module providing events functionality.",
+      "tags": [
+        "utility",
+        "analytics",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/analytics/events.ts:trackEvent",
+      "type": "function",
+      "name": "trackEvent",
+      "filePath": "lib/analytics/events.ts",
+      "lineRange": [
+        57,
+        72
+      ],
+      "summary": "Function implementing the trackEvent logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/analytics/events.ts:trackPageView",
+      "type": "function",
+      "name": "trackPageView",
+      "filePath": "lib/analytics/events.ts",
+      "lineRange": [
+        74,
+        78
+      ],
+      "summary": "Function implementing the trackPageView logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/analytics/events.ts:queueInternalAnalyticsEvent",
+      "type": "function",
+      "name": "queueInternalAnalyticsEvent",
+      "filePath": "lib/analytics/events.ts",
+      "lineRange": [
+        96,
+        133
+      ],
+      "summary": "Function implementing the queueInternalAnalyticsEvent logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/analytics/events.ts:readStyleSlug",
+      "type": "function",
+      "name": "readStyleSlug",
+      "filePath": "lib/analytics/events.ts",
+      "lineRange": [
+        134,
+        144
+      ],
+      "summary": "Function implementing the readStyleSlug logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/analytics/events.ts:getOrCreateSessionId",
+      "type": "function",
+      "name": "getOrCreateSessionId",
+      "filePath": "lib/analytics/events.ts",
+      "lineRange": [
+        146,
+        160
+      ],
+      "summary": "Function implementing the getOrCreateSessionId logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/analytics/utm.ts",
+      "type": "file",
+      "name": "utm.ts",
+      "filePath": "lib/analytics/utm.ts",
+      "summary": "Utility module providing utm functionality.",
+      "tags": [
+        "utility",
+        "analytics",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/analytics/utm.ts:parseUtmParams",
+      "type": "function",
+      "name": "parseUtmParams",
+      "filePath": "lib/analytics/utm.ts",
+      "lineRange": [
+        32,
+        46
+      ],
+      "summary": "Function implementing the parseUtmParams logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/analytics/utm.ts:storeUtmParams",
+      "type": "function",
+      "name": "storeUtmParams",
+      "filePath": "lib/analytics/utm.ts",
+      "lineRange": [
+        51,
+        57
+      ],
+      "summary": "Function implementing the storeUtmParams logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/analytics/utm.ts:getUtmParams",
+      "type": "function",
+      "name": "getUtmParams",
+      "filePath": "lib/analytics/utm.ts",
+      "lineRange": [
+        62,
+        70
+      ],
+      "summary": "Function implementing the getUtmParams logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/analytics/utm.ts:captureUtmParams",
+      "type": "function",
+      "name": "captureUtmParams",
+      "filePath": "lib/analytics/utm.ts",
+      "lineRange": [
+        76,
+        86
+      ],
+      "summary": "Function implementing the captureUtmParams logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/analytics/utm.ts:useUtmParams",
+      "type": "function",
+      "name": "useUtmParams",
+      "filePath": "lib/analytics/utm.ts",
+      "lineRange": [
+        93,
+        102
+      ],
+      "summary": "Function implementing the useUtmParams logic within the module.",
+      "tags": [
+        "function",
+        "hook",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/auth/supabase-browser.ts",
+      "type": "file",
+      "name": "supabase-browser.ts",
+      "filePath": "lib/auth/supabase-browser.ts",
+      "summary": "Utility module providing supabase browser functionality.",
+      "tags": [
+        "utility",
+        "auth",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/auth/supabase-browser.ts:getAuthClient",
+      "type": "function",
+      "name": "getAuthClient",
+      "filePath": "lib/auth/supabase-browser.ts",
+      "lineRange": [
+        14,
+        24
+      ],
+      "summary": "Function implementing the getAuthClient logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/auth/use-user.ts",
+      "type": "file",
+      "name": "use-user.ts",
+      "filePath": "lib/auth/use-user.ts",
+      "summary": "Utility module providing use user functionality.",
+      "tags": [
+        "utility",
+        "auth",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/auth/use-user.ts:useUser",
+      "type": "function",
+      "name": "useUser",
+      "filePath": "lib/auth/use-user.ts",
+      "lineRange": [
+        52,
+        128
+      ],
+      "summary": "Function implementing the useUser logic within the module.",
+      "tags": [
+        "function",
+        "hook",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/backgrounds/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "lib/backgrounds/index.ts",
+      "summary": "Module barrel exporting public API for the backgrounds domain.",
+      "tags": [
+        "utility",
+        "backgrounds",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/backgrounds/index.ts:getBackgroundsByCategory",
+      "type": "function",
+      "name": "getBackgroundsByCategory",
+      "filePath": "lib/backgrounds/index.ts",
+      "lineRange": [
+        240,
+        242
+      ],
+      "summary": "Function implementing the getBackgroundsByCategory logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/backgrounds/index.ts:getBackgroundById",
+      "type": "function",
+      "name": "getBackgroundById",
+      "filePath": "lib/backgrounds/index.ts",
+      "lineRange": [
+        245,
+        247
+      ],
+      "summary": "Function implementing the getBackgroundById logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/backgrounds/index.ts:getBackgroundsByMood",
+      "type": "function",
+      "name": "getBackgroundsByMood",
+      "filePath": "lib/backgrounds/index.ts",
+      "lineRange": [
+        250,
+        254
+      ],
+      "summary": "Function implementing the getBackgroundsByMood logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/backgrounds/index.ts:getBackgroundCategories",
+      "type": "function",
+      "name": "getBackgroundCategories",
+      "filePath": "lib/backgrounds/index.ts",
+      "lineRange": [
+        257,
+        290
+      ],
+      "summary": "Function implementing the getBackgroundCategories logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/favorites/context.tsx",
+      "type": "file",
+      "name": "context.tsx",
+      "filePath": "lib/favorites/context.tsx",
+      "summary": "Utility module providing contextx functionality.",
+      "tags": [
+        "utility",
+        "favorites",
+        "code",
+        "typescript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:lib/favorites/context.tsx:fetchWithAuth",
+      "type": "function",
+      "name": "fetchWithAuth",
+      "filePath": "lib/favorites/context.tsx",
+      "lineRange": [
+        29,
+        45
+      ],
+      "summary": "Function implementing the fetchWithAuth logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/favorites/context.tsx:normalizeFavorites",
+      "type": "function",
+      "name": "normalizeFavorites",
+      "filePath": "lib/favorites/context.tsx",
+      "lineRange": [
+        47,
+        61
+      ],
+      "summary": "Function implementing the normalizeFavorites logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/favorites/context.tsx:readLocalFavorites",
+      "type": "function",
+      "name": "readLocalFavorites",
+      "filePath": "lib/favorites/context.tsx",
+      "lineRange": [
+        67,
+        78
+      ],
+      "summary": "Function implementing the readLocalFavorites logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/favorites/context.tsx:FavoritesProvider",
+      "type": "function",
+      "name": "FavoritesProvider",
+      "filePath": "lib/favorites/context.tsx",
+      "lineRange": [
+        88,
+        222
+      ],
+      "summary": "Function implementing the FavoritesProvider logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:lib/favorites/context.tsx:useFavorites",
+      "type": "function",
+      "name": "useFavorites",
+      "filePath": "lib/favorites/context.tsx",
+      "lineRange": [
+        224,
+        230
+      ],
+      "summary": "Function implementing the useFavorites logic within the module.",
+      "tags": [
+        "function",
+        "hook",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/github-stars.ts",
+      "type": "file",
+      "name": "github-stars.ts",
+      "filePath": "lib/github-stars.ts",
+      "summary": "Utility module providing github stars functionality.",
+      "tags": [
+        "utility",
+        "github-stars.ts",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/github-stars.ts:getCachedCount",
+      "type": "function",
+      "name": "getCachedCount",
+      "filePath": "lib/github-stars.ts",
+      "lineRange": [
+        14,
+        27
+      ],
+      "summary": "Function implementing the getCachedCount logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/github-stars.ts:subscribeGitHubStars",
+      "type": "function",
+      "name": "subscribeGitHubStars",
+      "filePath": "lib/github-stars.ts",
+      "lineRange": [
+        49,
+        56
+      ],
+      "summary": "Function implementing the subscribeGitHubStars logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/github-stars.ts:getGitHubStarsSnapshot",
+      "type": "function",
+      "name": "getGitHubStarsSnapshot",
+      "filePath": "lib/github-stars.ts",
+      "lineRange": [
+        58,
+        61
+      ],
+      "summary": "Function implementing the getGitHubStarsSnapshot logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/github-stars.ts:getGitHubStarsServerSnapshot",
+      "type": "function",
+      "name": "getGitHubStarsServerSnapshot",
+      "filePath": "lib/github-stars.ts",
+      "lineRange": [
+        63,
+        65
+      ],
+      "summary": "Function implementing the getGitHubStarsServerSnapshot logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/github-stars.ts:requestGitHubStars",
+      "type": "function",
+      "name": "requestGitHubStars",
+      "filePath": "lib/github-stars.ts",
+      "lineRange": [
+        67,
+        95
+      ],
+      "summary": "Function implementing the requestGitHubStars logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/github-stars.ts:formatGitHubStars",
+      "type": "function",
+      "name": "formatGitHubStars",
+      "filePath": "lib/github-stars.ts",
+      "lineRange": [
+        97,
+        103
+      ],
+      "summary": "Function implementing the formatGitHubStars logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/gradients/__tests__/index.test.ts",
+      "type": "file",
+      "name": "index.test.ts",
+      "filePath": "lib/gradients/__tests__/index.test.ts",
+      "summary": "Module barrel exporting public API for the gradients domain.",
+      "tags": [
+        "utility",
+        "gradients",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/gradients/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "lib/gradients/index.ts",
+      "summary": "Module barrel exporting public API for the gradients domain.",
+      "tags": [
+        "utility",
+        "gradients",
+        "code",
+        "typescript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:lib/gradients/index.ts:getGradientsByCategory",
+      "type": "function",
+      "name": "getGradientsByCategory",
+      "filePath": "lib/gradients/index.ts",
+      "lineRange": [
+        321,
+        323
+      ],
+      "summary": "Function implementing the getGradientsByCategory logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/gradients/index.ts:getGradientById",
+      "type": "function",
+      "name": "getGradientById",
+      "filePath": "lib/gradients/index.ts",
+      "lineRange": [
+        326,
+        328
+      ],
+      "summary": "Function implementing the getGradientById logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/gradients/index.ts:getGradientsByMood",
+      "type": "function",
+      "name": "getGradientsByMood",
+      "filePath": "lib/gradients/index.ts",
+      "lineRange": [
+        331,
+        335
+      ],
+      "summary": "Function implementing the getGradientsByMood logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/gradients/index.ts:generateGradientCSSVariables",
+      "type": "function",
+      "name": "generateGradientCSSVariables",
+      "filePath": "lib/gradients/index.ts",
+      "lineRange": [
+        338,
+        344
+      ],
+      "summary": "Function implementing the generateGradientCSSVariables logic within the module.",
+      "tags": [
+        "function",
+        "ssr",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/gradients/index.ts:getGradientCategories",
+      "type": "function",
+      "name": "getGradientCategories",
+      "filePath": "lib/gradients/index.ts",
+      "lineRange": [
+        347,
+        382
+      ],
+      "summary": "Function implementing the getGradientCategories logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/gradients/index.ts:recommendGradientsForStyle",
+      "type": "function",
+      "name": "recommendGradientsForStyle",
+      "filePath": "lib/gradients/index.ts",
+      "lineRange": [
+        385,
+        402
+      ],
+      "summary": "Function implementing the recommendGradientsForStyle logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/i18n/context.tsx",
+      "type": "file",
+      "name": "context.tsx",
+      "filePath": "lib/i18n/context.tsx",
+      "summary": "Utility module providing contextx functionality.",
+      "tags": [
+        "utility",
+        "i18n",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/i18n/context.tsx:persistLocale",
+      "type": "function",
+      "name": "persistLocale",
+      "filePath": "lib/i18n/context.tsx",
+      "lineRange": [
+        28,
+        38
+      ],
+      "summary": "Function implementing the persistLocale logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/i18n/context.tsx:I18nProvider",
+      "type": "function",
+      "name": "I18nProvider",
+      "filePath": "lib/i18n/context.tsx",
+      "lineRange": [
+        40,
+        70
+      ],
+      "summary": "Function implementing the I18nProvider logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/i18n/context.tsx:useI18n",
+      "type": "function",
+      "name": "useI18n",
+      "filePath": "lib/i18n/context.tsx",
+      "lineRange": [
+        72,
+        78
+      ],
+      "summary": "Function implementing the useI18n logic within the module.",
+      "tags": [
+        "function",
+        "hook",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/i18n/context.tsx:useTranslation",
+      "type": "function",
+      "name": "useTranslation",
+      "filePath": "lib/i18n/context.tsx",
+      "lineRange": [
+        80,
+        83
+      ],
+      "summary": "Function implementing the useTranslation logic within the module.",
+      "tags": [
+        "function",
+        "hook",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/security/sanitize-html.ts",
+      "type": "file",
+      "name": "sanitize-html.ts",
+      "filePath": "lib/security/sanitize-html.ts",
+      "summary": "Utility module providing sanitize html functionality.",
+      "tags": [
+        "utility",
+        "security",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/security/sanitize-html.ts:sanitizePreviewHtml",
+      "type": "function",
+      "name": "sanitizePreviewHtml",
+      "filePath": "lib/security/sanitize-html.ts",
+      "lineRange": [
+        52,
+        55
+      ],
+      "summary": "Function implementing the sanitizePreviewHtml logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/security/sanitize-html.ts:sanitizeCss",
+      "type": "function",
+      "name": "sanitizeCss",
+      "filePath": "lib/security/sanitize-html.ts",
+      "lineRange": [
+        61,
+        78
+      ],
+      "summary": "Function implementing the sanitizeCss logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/shadows/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "lib/shadows/index.ts",
+      "summary": "Module barrel exporting public API for the shadows domain.",
+      "tags": [
+        "utility",
+        "shadows",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/shadows/index.ts:getShadowsByCategory",
+      "type": "function",
+      "name": "getShadowsByCategory",
+      "filePath": "lib/shadows/index.ts",
+      "lineRange": [
+        319,
+        321
+      ],
+      "summary": "Function implementing the getShadowsByCategory logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/shadows/index.ts:getShadowById",
+      "type": "function",
+      "name": "getShadowById",
+      "filePath": "lib/shadows/index.ts",
+      "lineRange": [
+        323,
+        325
+      ],
+      "summary": "Function implementing the getShadowById logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/shadows/index.ts:getShadowCategories",
+      "type": "function",
+      "name": "getShadowCategories",
+      "filePath": "lib/shadows/index.ts",
+      "lineRange": [
+        327,
+        335
+      ],
+      "summary": "Function implementing the getShadowCategories logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/site/support.ts",
+      "type": "file",
+      "name": "support.ts",
+      "filePath": "lib/site/support.ts",
+      "summary": "Utility module providing support functionality.",
+      "tags": [
+        "utility",
+        "site",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/style-preview/preview-html.ts",
+      "type": "file",
+      "name": "preview-html.ts",
+      "filePath": "lib/style-preview/preview-html.ts",
+      "summary": "Preview component for the style-preview animation with shared wrapper and interactive display.",
+      "tags": [
+        "utility",
+        "preview",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/style-preview/preview-html.ts:generatePreviewHTML",
+      "type": "function",
+      "name": "generatePreviewHTML",
+      "filePath": "lib/style-preview/preview-html.ts",
+      "lineRange": [
+        39,
+        46
+      ],
+      "summary": "Function implementing the generatePreviewHTML logic within the module.",
+      "tags": [
+        "function",
+        "ssr",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/style-preview/preview-html.ts:closeSelfClosingBlockElements",
+      "type": "function",
+      "name": "closeSelfClosingBlockElements",
+      "filePath": "lib/style-preview/preview-html.ts",
+      "lineRange": [
+        48,
+        86
+      ],
+      "summary": "Function implementing the closeSelfClosingBlockElements logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/style-preview/preview-html.ts:findTagEnd",
+      "type": "function",
+      "name": "findTagEnd",
+      "filePath": "lib/style-preview/preview-html.ts",
+      "lineRange": [
+        88,
+        112
+      ],
+      "summary": "Function implementing the findTagEnd logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/style-preview/preview-html.ts:findTrailingSlashIndex",
+      "type": "function",
+      "name": "findTrailingSlashIndex",
+      "filePath": "lib/style-preview/preview-html.ts",
+      "lineRange": [
+        119,
+        129
+      ],
+      "summary": "Function implementing the findTrailingSlashIndex logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/styles/locale-content.ts",
+      "type": "file",
+      "name": "locale-content.ts",
+      "filePath": "lib/styles/locale-content.ts",
+      "summary": "Utility module providing locale content functionality.",
+      "tags": [
+        "utility",
+        "styles",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/styles/locale-content.ts:localizedString",
+      "type": "function",
+      "name": "localizedString",
+      "filePath": "lib/styles/locale-content.ts",
+      "lineRange": [
+        8,
+        17
+      ],
+      "summary": "Function implementing the localizedString logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/styles/locale-content.ts:localizedList",
+      "type": "function",
+      "name": "localizedList",
+      "filePath": "lib/styles/locale-content.ts",
+      "lineRange": [
+        19,
+        28
+      ],
+      "summary": "Function implementing the localizedList logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/styles/prompt-pair.ts",
+      "type": "file",
+      "name": "prompt-pair.ts",
+      "filePath": "lib/styles/prompt-pair.ts",
+      "summary": "Utility module providing prompt pair functionality.",
+      "tags": [
+        "utility",
+        "styles",
+        "code",
+        "typescript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:lib/styles/prompt-pair.ts:pickUnique",
+      "type": "function",
+      "name": "pickUnique",
+      "filePath": "lib/styles/prompt-pair.ts",
+      "lineRange": [
+        23,
+        37
+      ],
+      "summary": "Function implementing the pickUnique logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/styles/prompt-pair.ts:sanitizeEnglishRuleSource",
+      "type": "function",
+      "name": "sanitizeEnglishRuleSource",
+      "filePath": "lib/styles/prompt-pair.ts",
+      "lineRange": [
+        58,
+        82
+      ],
+      "summary": "Function implementing the sanitizeEnglishRuleSource logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/styles/prompt-pair.ts:normalizeEnglishSignal",
+      "type": "function",
+      "name": "normalizeEnglishSignal",
+      "filePath": "lib/styles/prompt-pair.ts",
+      "lineRange": [
+        84,
+        98
+      ],
+      "summary": "Function implementing the normalizeEnglishSignal logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/styles/prompt-pair.ts:resolvePromptKeywords",
+      "type": "function",
+      "name": "resolvePromptKeywords",
+      "filePath": "lib/styles/prompt-pair.ts",
+      "lineRange": [
+        111,
+        124
+      ],
+      "summary": "Function implementing the resolvePromptKeywords logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/styles/prompt-pair.ts:buildEnglishHardRules",
+      "type": "function",
+      "name": "buildEnglishHardRules",
+      "filePath": "lib/styles/prompt-pair.ts",
+      "lineRange": [
+        126,
+        137
+      ],
+      "summary": "Function implementing the buildEnglishHardRules logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/styles/prompt-pair.ts:resolveHardRuleSource",
+      "type": "function",
+      "name": "resolveHardRuleSource",
+      "filePath": "lib/styles/prompt-pair.ts",
+      "lineRange": [
+        139,
+        152
+      ],
+      "summary": "Function implementing the resolveHardRuleSource logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/styles/prompt-pair.ts:buildHardPrompt",
+      "type": "function",
+      "name": "buildHardPrompt",
+      "filePath": "lib/styles/prompt-pair.ts",
+      "lineRange": [
+        198,
+        217
+      ],
+      "summary": "Function implementing the buildHardPrompt logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/styles/prompt-pair.ts:buildSoftPrompt",
+      "type": "function",
+      "name": "buildSoftPrompt",
+      "filePath": "lib/styles/prompt-pair.ts",
+      "lineRange": [
+        219,
+        251
+      ],
+      "summary": "Function implementing the buildSoftPrompt logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/styles/prompt-pair.ts:buildPromptPair",
+      "type": "function",
+      "name": "buildPromptPair",
+      "filePath": "lib/styles/prompt-pair.ts",
+      "lineRange": [
+        253,
+        258
+      ],
+      "summary": "Function implementing the buildPromptPair logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/styles/scenarios.ts",
+      "type": "file",
+      "name": "scenarios.ts",
+      "filePath": "lib/styles/scenarios.ts",
+      "summary": "Utility module providing scenarios functionality.",
+      "tags": [
+        "utility",
+        "styles",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/styles/scenarios.ts:buildSearchText",
+      "type": "function",
+      "name": "buildSearchText",
+      "filePath": "lib/styles/scenarios.ts",
+      "lineRange": [
+        130,
+        143
+      ],
+      "summary": "Function implementing the buildSearchText logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/styles/scenarios.ts:scoreStyleScenarios",
+      "type": "function",
+      "name": "scoreStyleScenarios",
+      "filePath": "lib/styles/scenarios.ts",
+      "lineRange": [
+        145,
+        186
+      ],
+      "summary": "Function implementing the scoreStyleScenarios logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/styles/scenarios.ts:getStyleScenarios",
+      "type": "function",
+      "name": "getStyleScenarios",
+      "filePath": "lib/styles/scenarios.ts",
+      "lineRange": [
+        188,
+        193
+      ],
+      "summary": "Function implementing the getStyleScenarios logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/styles/scenarios.ts:getScenarioLabel",
+      "type": "function",
+      "name": "getScenarioLabel",
+      "filePath": "lib/styles/scenarios.ts",
+      "lineRange": [
+        195,
+        200
+      ],
+      "summary": "Function implementing the getScenarioLabel logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/styles/style-copy-identity.ts",
+      "type": "file",
+      "name": "style-copy-identity.ts",
+      "filePath": "lib/styles/style-copy-identity.ts",
+      "summary": "Utility module providing style copy identity functionality.",
+      "tags": [
+        "utility",
+        "styles",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/styles/style-copy-identity.ts:buildStyleCopyIdentity",
+      "type": "function",
+      "name": "buildStyleCopyIdentity",
+      "filePath": "lib/styles/style-copy-identity.ts",
+      "lineRange": [
+        6,
+        16
+      ],
+      "summary": "Function implementing the buildStyleCopyIdentity logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/swr/fetcher.ts",
+      "type": "file",
+      "name": "fetcher.ts",
+      "filePath": "lib/swr/fetcher.ts",
+      "summary": "Utility module providing fetcher functionality.",
+      "tags": [
+        "utility",
+        "swr",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/swr/fetcher.ts:fetcher",
+      "type": "function",
+      "name": "fetcher",
+      "filePath": "lib/swr/fetcher.ts",
+      "lineRange": [
+        4,
+        27
+      ],
+      "summary": "Function implementing the fetcher logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/swr/provider.tsx",
+      "type": "file",
+      "name": "provider.tsx",
+      "filePath": "lib/swr/provider.tsx",
+      "summary": "Utility module providing providerx functionality.",
+      "tags": [
+        "utility",
+        "swr",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/swr/provider.tsx:SWRProvider",
+      "type": "function",
+      "name": "SWRProvider",
+      "filePath": "lib/swr/provider.tsx",
+      "lineRange": [
+        10,
+        23
+      ],
+      "summary": "Function implementing the SWRProvider logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/typography/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "lib/typography/index.ts",
+      "summary": "Module barrel exporting public API for the typography domain.",
+      "tags": [
+        "utility",
+        "typography",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/typography/index.ts:getFontPairingsByCategory",
+      "type": "function",
+      "name": "getFontPairingsByCategory",
+      "filePath": "lib/typography/index.ts",
+      "lineRange": [
+        446,
+        448
+      ],
+      "summary": "Function implementing the getFontPairingsByCategory logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/typography/index.ts:getFontPairingById",
+      "type": "function",
+      "name": "getFontPairingById",
+      "filePath": "lib/typography/index.ts",
+      "lineRange": [
+        451,
+        453
+      ],
+      "summary": "Function implementing the getFontPairingById logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/typography/index.ts:getFontPairingsByMood",
+      "type": "function",
+      "name": "getFontPairingsByMood",
+      "filePath": "lib/typography/index.ts",
+      "lineRange": [
+        456,
+        460
+      ],
+      "summary": "Function implementing the getFontPairingsByMood logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/typography/index.ts:getTypographyCategories",
+      "type": "function",
+      "name": "getTypographyCategories",
+      "filePath": "lib/typography/index.ts",
+      "lineRange": [
+        463,
+        494
+      ],
+      "summary": "Function implementing the getTypographyCategories logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/typography/index.ts:generateGoogleFontsLink",
+      "type": "function",
+      "name": "generateGoogleFontsLink",
+      "filePath": "lib/typography/index.ts",
+      "lineRange": [
+        497,
+        506
+      ],
+      "summary": "Function implementing the generateGoogleFontsLink logic within the module.",
+      "tags": [
+        "function",
+        "ssr",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:tests/unit/components/pointer-interactions/pointer-interactions.test.tsx",
+      "type": "file",
+      "name": "pointer-interactions.test.tsx",
+      "filePath": "tests/unit/components/pointer-interactions/pointer-interactions.test.tsx",
+      "summary": "Test suite covering pointer-interactionsx component or utility.",
+      "tags": [
+        "test",
+        "unit",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:tests/unit/components/pointer-interactions/pointer-interactions.test.tsx:installMatchMedia",
+      "type": "function",
+      "name": "installMatchMedia",
+      "filePath": "tests/unit/components/pointer-interactions/pointer-interactions.test.tsx",
+      "lineRange": [
+        7,
+        21
+      ],
+      "summary": "Function implementing the installMatchMedia logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:tests/unit/components/style-preview/component-preview.test.ts",
+      "type": "file",
+      "name": "component-preview.test.ts",
+      "filePath": "tests/unit/components/style-preview/component-preview.test.ts",
+      "summary": "Test suite covering component-preview component or utility.",
+      "tags": [
+        "test",
+        "unit",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:tests/unit/lib/prompt-pair.test.ts",
+      "type": "file",
+      "name": "prompt-pair.test.ts",
+      "filePath": "tests/unit/lib/prompt-pair.test.ts",
+      "summary": "Test suite covering prompt-pair component or utility.",
+      "tags": [
+        "test",
+        "unit",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:tests/unit/lib/sanitize-html.test.ts",
+      "type": "file",
+      "name": "sanitize-html.test.ts",
+      "filePath": "tests/unit/lib/sanitize-html.test.ts",
+      "summary": "Test suite covering sanitize-html component or utility.",
+      "tags": [
+        "test",
+        "unit",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:lib/analytics/events.ts",
+      "target": "function:lib/analytics/events.ts:trackEvent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/analytics/events.ts",
+      "target": "function:lib/analytics/events.ts:trackEvent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/analytics/events.ts",
+      "target": "function:lib/analytics/events.ts:trackPageView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/analytics/events.ts",
+      "target": "function:lib/analytics/events.ts:trackPageView",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/analytics/events.ts",
+      "target": "function:lib/analytics/events.ts:queueInternalAnalyticsEvent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/analytics/events.ts",
+      "target": "function:lib/analytics/events.ts:readStyleSlug",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/analytics/events.ts",
+      "target": "function:lib/analytics/events.ts:getOrCreateSessionId",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/analytics/utm.ts",
+      "target": "function:lib/analytics/utm.ts:parseUtmParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/analytics/utm.ts",
+      "target": "function:lib/analytics/utm.ts:parseUtmParams",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/analytics/utm.ts",
+      "target": "function:lib/analytics/utm.ts:storeUtmParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/analytics/utm.ts",
+      "target": "function:lib/analytics/utm.ts:storeUtmParams",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/analytics/utm.ts",
+      "target": "function:lib/analytics/utm.ts:getUtmParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/analytics/utm.ts",
+      "target": "function:lib/analytics/utm.ts:getUtmParams",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/analytics/utm.ts",
+      "target": "function:lib/analytics/utm.ts:captureUtmParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/analytics/utm.ts",
+      "target": "function:lib/analytics/utm.ts:captureUtmParams",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/analytics/utm.ts",
+      "target": "function:lib/analytics/utm.ts:useUtmParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/analytics/utm.ts",
+      "target": "function:lib/analytics/utm.ts:useUtmParams",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/auth/supabase-browser.ts",
+      "target": "function:lib/auth/supabase-browser.ts:getAuthClient",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/auth/supabase-browser.ts",
+      "target": "function:lib/auth/supabase-browser.ts:getAuthClient",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/auth/use-user.ts",
+      "target": "function:lib/auth/use-user.ts:useUser",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/auth/use-user.ts",
+      "target": "function:lib/auth/use-user.ts:useUser",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/backgrounds/index.ts",
+      "target": "function:lib/backgrounds/index.ts:getBackgroundsByCategory",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/backgrounds/index.ts",
+      "target": "function:lib/backgrounds/index.ts:getBackgroundsByCategory",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/backgrounds/index.ts",
+      "target": "function:lib/backgrounds/index.ts:getBackgroundById",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/backgrounds/index.ts",
+      "target": "function:lib/backgrounds/index.ts:getBackgroundById",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/backgrounds/index.ts",
+      "target": "function:lib/backgrounds/index.ts:getBackgroundsByMood",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/backgrounds/index.ts",
+      "target": "function:lib/backgrounds/index.ts:getBackgroundsByMood",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/backgrounds/index.ts",
+      "target": "function:lib/backgrounds/index.ts:getBackgroundCategories",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/backgrounds/index.ts",
+      "target": "function:lib/backgrounds/index.ts:getBackgroundCategories",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/favorites/context.tsx",
+      "target": "function:lib/favorites/context.tsx:fetchWithAuth",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/favorites/context.tsx",
+      "target": "function:lib/favorites/context.tsx:normalizeFavorites",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/favorites/context.tsx",
+      "target": "function:lib/favorites/context.tsx:readLocalFavorites",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/favorites/context.tsx",
+      "target": "function:lib/favorites/context.tsx:FavoritesProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/favorites/context.tsx",
+      "target": "function:lib/favorites/context.tsx:FavoritesProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/favorites/context.tsx",
+      "target": "function:lib/favorites/context.tsx:useFavorites",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/favorites/context.tsx",
+      "target": "function:lib/favorites/context.tsx:useFavorites",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/github-stars.ts",
+      "target": "function:lib/github-stars.ts:getCachedCount",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/github-stars.ts",
+      "target": "function:lib/github-stars.ts:subscribeGitHubStars",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/github-stars.ts",
+      "target": "function:lib/github-stars.ts:subscribeGitHubStars",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/github-stars.ts",
+      "target": "function:lib/github-stars.ts:getGitHubStarsSnapshot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/github-stars.ts",
+      "target": "function:lib/github-stars.ts:getGitHubStarsSnapshot",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/github-stars.ts",
+      "target": "function:lib/github-stars.ts:getGitHubStarsServerSnapshot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/github-stars.ts",
+      "target": "function:lib/github-stars.ts:getGitHubStarsServerSnapshot",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/github-stars.ts",
+      "target": "function:lib/github-stars.ts:requestGitHubStars",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/github-stars.ts",
+      "target": "function:lib/github-stars.ts:requestGitHubStars",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/github-stars.ts",
+      "target": "function:lib/github-stars.ts:formatGitHubStars",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/github-stars.ts",
+      "target": "function:lib/github-stars.ts:formatGitHubStars",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/gradients/index.ts",
+      "target": "function:lib/gradients/index.ts:getGradientsByCategory",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/gradients/index.ts",
+      "target": "function:lib/gradients/index.ts:getGradientsByCategory",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/gradients/index.ts",
+      "target": "function:lib/gradients/index.ts:getGradientById",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/gradients/index.ts",
+      "target": "function:lib/gradients/index.ts:getGradientById",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/gradients/index.ts",
+      "target": "function:lib/gradients/index.ts:getGradientsByMood",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/gradients/index.ts",
+      "target": "function:lib/gradients/index.ts:getGradientsByMood",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/gradients/index.ts",
+      "target": "function:lib/gradients/index.ts:generateGradientCSSVariables",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/gradients/index.ts",
+      "target": "function:lib/gradients/index.ts:generateGradientCSSVariables",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/gradients/index.ts",
+      "target": "function:lib/gradients/index.ts:getGradientCategories",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/gradients/index.ts",
+      "target": "function:lib/gradients/index.ts:getGradientCategories",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/gradients/index.ts",
+      "target": "function:lib/gradients/index.ts:recommendGradientsForStyle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/gradients/index.ts",
+      "target": "function:lib/gradients/index.ts:recommendGradientsForStyle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/i18n/context.tsx",
+      "target": "function:lib/i18n/context.tsx:persistLocale",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/i18n/context.tsx",
+      "target": "function:lib/i18n/context.tsx:I18nProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/i18n/context.tsx",
+      "target": "function:lib/i18n/context.tsx:I18nProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/i18n/context.tsx",
+      "target": "function:lib/i18n/context.tsx:useI18n",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/i18n/context.tsx",
+      "target": "function:lib/i18n/context.tsx:useI18n",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/i18n/context.tsx",
+      "target": "function:lib/i18n/context.tsx:useTranslation",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/i18n/context.tsx",
+      "target": "function:lib/i18n/context.tsx:useTranslation",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/security/sanitize-html.ts",
+      "target": "function:lib/security/sanitize-html.ts:sanitizePreviewHtml",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/security/sanitize-html.ts",
+      "target": "function:lib/security/sanitize-html.ts:sanitizePreviewHtml",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/security/sanitize-html.ts",
+      "target": "function:lib/security/sanitize-html.ts:sanitizeCss",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/security/sanitize-html.ts",
+      "target": "function:lib/security/sanitize-html.ts:sanitizeCss",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/shadows/index.ts",
+      "target": "function:lib/shadows/index.ts:getShadowsByCategory",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/shadows/index.ts",
+      "target": "function:lib/shadows/index.ts:getShadowsByCategory",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/shadows/index.ts",
+      "target": "function:lib/shadows/index.ts:getShadowById",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/shadows/index.ts",
+      "target": "function:lib/shadows/index.ts:getShadowById",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/shadows/index.ts",
+      "target": "function:lib/shadows/index.ts:getShadowCategories",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/shadows/index.ts",
+      "target": "function:lib/shadows/index.ts:getShadowCategories",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/style-preview/preview-html.ts",
+      "target": "function:lib/style-preview/preview-html.ts:generatePreviewHTML",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/style-preview/preview-html.ts",
+      "target": "function:lib/style-preview/preview-html.ts:generatePreviewHTML",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/style-preview/preview-html.ts",
+      "target": "function:lib/style-preview/preview-html.ts:closeSelfClosingBlockElements",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/style-preview/preview-html.ts",
+      "target": "function:lib/style-preview/preview-html.ts:findTagEnd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/style-preview/preview-html.ts",
+      "target": "function:lib/style-preview/preview-html.ts:findTrailingSlashIndex",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/locale-content.ts",
+      "target": "function:lib/styles/locale-content.ts:localizedString",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/locale-content.ts",
+      "target": "function:lib/styles/locale-content.ts:localizedString",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/styles/locale-content.ts",
+      "target": "function:lib/styles/locale-content.ts:localizedList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/locale-content.ts",
+      "target": "function:lib/styles/locale-content.ts:localizedList",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/styles/prompt-pair.ts",
+      "target": "function:lib/styles/prompt-pair.ts:pickUnique",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/prompt-pair.ts",
+      "target": "function:lib/styles/prompt-pair.ts:sanitizeEnglishRuleSource",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/prompt-pair.ts",
+      "target": "function:lib/styles/prompt-pair.ts:normalizeEnglishSignal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/prompt-pair.ts",
+      "target": "function:lib/styles/prompt-pair.ts:resolvePromptKeywords",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/prompt-pair.ts",
+      "target": "function:lib/styles/prompt-pair.ts:resolvePromptKeywords",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/styles/prompt-pair.ts",
+      "target": "function:lib/styles/prompt-pair.ts:buildEnglishHardRules",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/prompt-pair.ts",
+      "target": "function:lib/styles/prompt-pair.ts:resolveHardRuleSource",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/prompt-pair.ts",
+      "target": "function:lib/styles/prompt-pair.ts:buildHardPrompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/prompt-pair.ts",
+      "target": "function:lib/styles/prompt-pair.ts:buildHardPrompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/styles/prompt-pair.ts",
+      "target": "function:lib/styles/prompt-pair.ts:buildSoftPrompt",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/prompt-pair.ts",
+      "target": "function:lib/styles/prompt-pair.ts:buildSoftPrompt",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/styles/prompt-pair.ts",
+      "target": "function:lib/styles/prompt-pair.ts:buildPromptPair",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/prompt-pair.ts",
+      "target": "function:lib/styles/prompt-pair.ts:buildPromptPair",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/styles/scenarios.ts",
+      "target": "function:lib/styles/scenarios.ts:buildSearchText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/scenarios.ts",
+      "target": "function:lib/styles/scenarios.ts:scoreStyleScenarios",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/scenarios.ts",
+      "target": "function:lib/styles/scenarios.ts:getStyleScenarios",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/scenarios.ts",
+      "target": "function:lib/styles/scenarios.ts:getStyleScenarios",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/styles/scenarios.ts",
+      "target": "function:lib/styles/scenarios.ts:getScenarioLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/scenarios.ts",
+      "target": "function:lib/styles/scenarios.ts:getScenarioLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/styles/style-copy-identity.ts",
+      "target": "function:lib/styles/style-copy-identity.ts:buildStyleCopyIdentity",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/style-copy-identity.ts",
+      "target": "function:lib/styles/style-copy-identity.ts:buildStyleCopyIdentity",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/swr/fetcher.ts",
+      "target": "function:lib/swr/fetcher.ts:fetcher",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/swr/fetcher.ts",
+      "target": "function:lib/swr/fetcher.ts:fetcher",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/swr/provider.tsx",
+      "target": "function:lib/swr/provider.tsx:SWRProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/swr/provider.tsx",
+      "target": "function:lib/swr/provider.tsx:SWRProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/typography/index.ts",
+      "target": "function:lib/typography/index.ts:getFontPairingsByCategory",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/typography/index.ts",
+      "target": "function:lib/typography/index.ts:getFontPairingsByCategory",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/typography/index.ts",
+      "target": "function:lib/typography/index.ts:getFontPairingById",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/typography/index.ts",
+      "target": "function:lib/typography/index.ts:getFontPairingById",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/typography/index.ts",
+      "target": "function:lib/typography/index.ts:getFontPairingsByMood",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/typography/index.ts",
+      "target": "function:lib/typography/index.ts:getFontPairingsByMood",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/typography/index.ts",
+      "target": "function:lib/typography/index.ts:getTypographyCategories",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/typography/index.ts",
+      "target": "function:lib/typography/index.ts:getTypographyCategories",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/typography/index.ts",
+      "target": "function:lib/typography/index.ts:generateGoogleFontsLink",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/typography/index.ts",
+      "target": "function:lib/typography/index.ts:generateGoogleFontsLink",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:tests/unit/components/pointer-interactions/pointer-interactions.test.tsx",
+      "target": "function:tests/unit/components/pointer-interactions/pointer-interactions.test.tsx:installMatchMedia",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/auth/use-user.ts",
+      "target": "file:lib/auth/supabase-browser.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/favorites/context.tsx",
+      "target": "file:lib/auth/supabase-browser.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/favorites/context.tsx",
+      "target": "file:lib/auth/use-user.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/gradients/__tests__/index.test.ts",
+      "target": "file:lib/gradients/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/i18n/context.tsx",
+      "target": "file:lib/i18n/routing.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/i18n/context.tsx",
+      "target": "file:lib/i18n/translations.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/prompt-pair.ts",
+      "target": "file:lib/i18n/translations.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/prompt-pair.ts",
+      "target": "file:lib/styles/style-copy-identity.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/scenarios.ts",
+      "target": "file:lib/i18n/translations.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/scenarios.ts",
+      "target": "file:lib/styles/meta-types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/swr/provider.tsx",
+      "target": "file:lib/swr/fetcher.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/unit/components/pointer-interactions/pointer-interactions.test.tsx",
+      "target": "file:components/pointer-interactions/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/unit/components/style-preview/component-preview.test.ts",
+      "target": "file:lib/style-preview/preview-html.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/unit/lib/prompt-pair.test.ts",
+      "target": "file:lib/styles/prompt-pair.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/unit/lib/sanitize-html.test.ts",
+      "target": "file:lib/security/sanitize-html.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

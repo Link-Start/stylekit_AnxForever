@@ -1,0 +1,821 @@
+{
+  "nodes": [
+    {
+      "id": "file:tests/unit/app/health-route.test.ts",
+      "type": "file",
+      "name": "health-route.test.ts",
+      "filePath": "tests/unit/app/health-route.test.ts",
+      "summary": "Vitest unit test for the API health check endpoint, verifying correct HTTP responses and status codes.",
+      "tags": [
+        "test",
+        "unit",
+        "api"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:tests/unit/lib/manifest-import.test.ts",
+      "type": "file",
+      "name": "manifest-import.test.ts",
+      "filePath": "tests/unit/lib/manifest-import.test.ts",
+      "summary": "Vitest unit test for the manifest import parser, testing BOM handling, JSON extraction, and repair strategies with various input formats.",
+      "tags": [
+        "test",
+        "unit",
+        "submission"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:tests/unit/lib/seq-id.test.ts",
+      "type": "file",
+      "name": "seq-id.test.ts",
+      "filePath": "tests/unit/lib/seq-id.test.ts",
+      "summary": "Vitest unit test for sequential ID generation, verifying uniqueness, ordering, and format constraints.",
+      "tags": [
+        "test",
+        "unit",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:tests/vitest.config.ts",
+      "type": "config",
+      "name": "vitest.config.ts",
+      "filePath": "tests/vitest.config.ts",
+      "summary": "Vitest test runner configuration with path aliases matching tsconfig, React testing library setup, and coverage configuration.",
+      "tags": [
+        "configuration",
+        "test",
+        "vitest"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:tests/vitest.setup.ts",
+      "type": "file",
+      "name": "vitest.setup.ts",
+      "filePath": "tests/vitest.setup.ts",
+      "summary": "Vitest global setup file that imports testing-library matchers for DOM assertions.",
+      "tags": [
+        "test",
+        "setup",
+        "vitest"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:tools/scripts/check-component-preview.cjs",
+      "type": "file",
+      "name": "check-component-preview.cjs",
+      "filePath": "tools/scripts/check-component-preview.cjs",
+      "summary": "CLI tool that scans style component code snippets for patterns likely to cause broken or blank previews, with configurable severity levels and JSON output.",
+      "tags": [
+        "script",
+        "linting",
+        "style"
+      ],
+      "complexity": "complex",
+      "languageNotes": "CommonJS script with brace/string-aware parsing for tracking nested template literals in style definition files."
+    },
+    {
+      "id": "function:tools/scripts/check-component-preview.cjs:findMatchingBrace",
+      "type": "function",
+      "name": "findMatchingBrace",
+      "filePath": "tools/scripts/check-component-preview.cjs",
+      "lineRange": [
+        25,
+        131
+      ],
+      "summary": "Parsing/analysis function: findMatchingBrace.",
+      "tags": [
+        "script",
+        "linting"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:tools/scripts/check-component-preview.cjs:findObjectBlockByKey",
+      "type": "function",
+      "name": "findObjectBlockByKey",
+      "filePath": "tools/scripts/check-component-preview.cjs",
+      "lineRange": [
+        137,
+        154
+      ],
+      "summary": "Parsing/analysis function: findObjectBlockByKey.",
+      "tags": [
+        "script",
+        "linting"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:tools/scripts/check-component-preview.cjs:parseComponentEntries",
+      "type": "function",
+      "name": "parseComponentEntries",
+      "filePath": "tools/scripts/check-component-preview.cjs",
+      "lineRange": [
+        159,
+        210
+      ],
+      "summary": "Parsing/analysis function: parseComponentEntries.",
+      "tags": [
+        "script",
+        "linting"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:tools/scripts/check-component-preview.cjs:extractTemplateField",
+      "type": "function",
+      "name": "extractTemplateField",
+      "filePath": "tools/scripts/check-component-preview.cjs",
+      "lineRange": [
+        216,
+        249
+      ],
+      "summary": "Parsing/analysis function: extractTemplateField.",
+      "tags": [
+        "script",
+        "linting"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:tools/scripts/check-component-preview.cjs:shouldSkipFile",
+      "type": "function",
+      "name": "shouldSkipFile",
+      "filePath": "tools/scripts/check-component-preview.cjs",
+      "lineRange": [
+        262,
+        277
+      ],
+      "summary": "Parsing/analysis function: shouldSkipFile.",
+      "tags": [
+        "script",
+        "linting"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:tools/scripts/check-component-preview.cjs:analyzeComponentCode",
+      "type": "function",
+      "name": "analyzeComponentCode",
+      "filePath": "tools/scripts/check-component-preview.cjs",
+      "lineRange": [
+        285,
+        346
+      ],
+      "summary": "Parsing/analysis function: analyzeComponentCode.",
+      "tags": [
+        "script",
+        "linting"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:tools/scripts/check-secrets.cjs",
+      "type": "file",
+      "name": "check-secrets.cjs",
+      "filePath": "tools/scripts/check-secrets.cjs",
+      "summary": "CLI tool that scans git-tracked files for potential secrets (API keys, tokens, passwords) using regex patterns, excluding binary files.",
+      "tags": [
+        "script",
+        "security",
+        "secrets"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:tools/scripts/check-secrets.cjs:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "tools/scripts/check-secrets.cjs",
+      "lineRange": [
+        133,
+        199
+      ],
+      "summary": "Function for secret detection: main.",
+      "tags": [
+        "script",
+        "security"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:tools/scripts/check-style-extractor.cjs",
+      "type": "file",
+      "name": "check-style-extractor.cjs",
+      "filePath": "tools/scripts/check-style-extractor.cjs",
+      "summary": "CLI integrity checker for the style extractor system, validating JavaScript file syntax, consistency between loader and registry, and style prompt safety rules.",
+      "tags": [
+        "script",
+        "testing",
+        "style-extractor"
+      ],
+      "complexity": "complex",
+      "languageNotes": "CommonJS script with manual backtick-aware parsing for template literal safety checks."
+    },
+    {
+      "id": "function:tools/scripts/check-style-extractor.cjs:collectJavaScriptFiles",
+      "type": "function",
+      "name": "collectJavaScriptFiles",
+      "filePath": "tools/scripts/check-style-extractor.cjs",
+      "lineRange": [
+        15,
+        30
+      ],
+      "summary": "Function for style extractor validation: collectJavaScriptFiles.",
+      "tags": [
+        "script",
+        "testing"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:tools/scripts/check-style-extractor.cjs:runSyntaxChecks",
+      "type": "function",
+      "name": "runSyntaxChecks",
+      "filePath": "tools/scripts/check-style-extractor.cjs",
+      "lineRange": [
+        32,
+        50
+      ],
+      "summary": "Function for style extractor validation: runSyntaxChecks.",
+      "tags": [
+        "script",
+        "testing"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:tools/scripts/check-style-extractor.cjs:getScriptCountFromLoader",
+      "type": "function",
+      "name": "getScriptCountFromLoader",
+      "filePath": "tools/scripts/check-style-extractor.cjs",
+      "lineRange": [
+        52,
+        63
+      ],
+      "summary": "Function for style extractor validation: getScriptCountFromLoader.",
+      "tags": [
+        "script",
+        "testing"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:tools/scripts/check-style-extractor.cjs:runConsistencyChecks",
+      "type": "function",
+      "name": "runConsistencyChecks",
+      "filePath": "tools/scripts/check-style-extractor.cjs",
+      "lineRange": [
+        65,
+        97
+      ],
+      "summary": "Function for style extractor validation: runConsistencyChecks.",
+      "tags": [
+        "script",
+        "testing"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:tools/scripts/check-style-extractor.cjs:collectStyleFiles",
+      "type": "function",
+      "name": "collectStyleFiles",
+      "filePath": "tools/scripts/check-style-extractor.cjs",
+      "lineRange": [
+        99,
+        114
+      ],
+      "summary": "Function for style extractor validation: collectStyleFiles.",
+      "tags": [
+        "script",
+        "testing"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:tools/scripts/check-style-extractor.cjs:findNextUnescapedBacktick",
+      "type": "function",
+      "name": "findNextUnescapedBacktick",
+      "filePath": "tools/scripts/check-style-extractor.cjs",
+      "lineRange": [
+        116,
+        133
+      ],
+      "summary": "Function for style extractor validation: findNextUnescapedBacktick.",
+      "tags": [
+        "script",
+        "testing"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:tools/scripts/check-style-extractor.cjs:lineNumberFromOffset",
+      "type": "function",
+      "name": "lineNumberFromOffset",
+      "filePath": "tools/scripts/check-style-extractor.cjs",
+      "lineRange": [
+        145,
+        159
+      ],
+      "summary": "Function for style extractor validation: lineNumberFromOffset.",
+      "tags": [
+        "script",
+        "testing"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:tools/scripts/check-style-extractor.cjs:runStylePromptSafetyChecks",
+      "type": "function",
+      "name": "runStylePromptSafetyChecks",
+      "filePath": "tools/scripts/check-style-extractor.cjs",
+      "lineRange": [
+        161,
+        223
+      ],
+      "summary": "Function for style extractor validation: runStylePromptSafetyChecks.",
+      "tags": [
+        "script",
+        "testing"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:tools/scripts/check-style-extractor.cjs:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "tools/scripts/check-style-extractor.cjs",
+      "lineRange": [
+        225,
+        290
+      ],
+      "summary": "Function for style extractor validation: main.",
+      "tags": [
+        "script",
+        "testing"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:tools/scripts/migrate-animations.mjs",
+      "type": "file",
+      "name": "migrate-animations.mjs",
+      "filePath": "tools/scripts/migrate-animations.mjs",
+      "summary": "Migration script that discovers animation slugs, generates camelCase component names, and migrates old animation files to new naming conventions.",
+      "tags": [
+        "script",
+        "migration",
+        "animation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:tools/scripts/migrate-animations.mjs:migrateOne",
+      "type": "function",
+      "name": "migrateOne",
+      "filePath": "tools/scripts/migrate-animations.mjs",
+      "lineRange": [
+        38,
+        127
+      ],
+      "summary": "Migration step: migrateOne.",
+      "tags": [
+        "script",
+        "migration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:tools/scripts/pr-lint-comment.ts",
+      "type": "file",
+      "name": "pr-lint-comment.ts",
+      "filePath": "tools/scripts/pr-lint-comment.ts",
+      "summary": "CLI tool that generates a lint report comment for pull requests, aggregating ESLint and TypeScript errors with file-by-file formatting.",
+      "tags": [
+        "script",
+        "pr",
+        "linting"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:tools/scripts/pr-lint-comment.ts:generatePRComment",
+      "type": "function",
+      "name": "generatePRComment",
+      "filePath": "tools/scripts/pr-lint-comment.ts",
+      "lineRange": [
+        38,
+        103
+      ],
+      "summary": "PR lint comment function: generatePRComment.",
+      "tags": [
+        "script",
+        "linting"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:tools/scripts/pr-lint-comment.ts:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "tools/scripts/pr-lint-comment.ts",
+      "lineRange": [
+        107,
+        128
+      ],
+      "summary": "PR lint comment function: main.",
+      "tags": [
+        "script",
+        "linting"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:tools/scripts/pre-commit-lint.sh",
+      "type": "file",
+      "name": "pre-commit-lint.sh",
+      "filePath": "tools/scripts/pre-commit-lint.sh",
+      "summary": "Git pre-commit hook script that runs ESLint on staged .tsx and .jsx files, blocking the commit if lint errors are found.",
+      "tags": [
+        "script",
+        "linting",
+        "git-hook"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:tools/scripts/setup-hooks.sh",
+      "type": "file",
+      "name": "setup-hooks.sh",
+      "filePath": "tools/scripts/setup-hooks.sh",
+      "summary": "Installation script that copies pre-commit-lint.sh into the .git/hooks directory and sets up the StyleKit pre-commit hook.",
+      "tags": [
+        "script",
+        "setup",
+        "git-hook"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:tools/scripts/smoke-check.mjs",
+      "type": "file",
+      "name": "smoke-check.mjs",
+      "filePath": "tools/scripts/smoke-check.mjs",
+      "summary": "CLI smoke test tool that checks a list of routes against a running Next.js server, reporting HTTP status codes and response times.",
+      "tags": [
+        "script",
+        "testing",
+        "smoke"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:tools/scripts/smoke-check.mjs:readOption",
+      "type": "function",
+      "name": "readOption",
+      "filePath": "tools/scripts/smoke-check.mjs",
+      "lineRange": [
+        15,
+        30
+      ],
+      "summary": "Smoke check utility: readOption.",
+      "tags": [
+        "script",
+        "testing"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:tools/scripts/smoke-check.mjs:parseRoutes",
+      "type": "function",
+      "name": "parseRoutes",
+      "filePath": "tools/scripts/smoke-check.mjs",
+      "lineRange": [
+        32,
+        51
+      ],
+      "summary": "Smoke check utility: parseRoutes.",
+      "tags": [
+        "script",
+        "testing"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:tools/scripts/smoke-check.mjs:parseSmokeArgs",
+      "type": "function",
+      "name": "parseSmokeArgs",
+      "filePath": "tools/scripts/smoke-check.mjs",
+      "lineRange": [
+        53,
+        75
+      ],
+      "summary": "Smoke check utility: parseSmokeArgs.",
+      "tags": [
+        "script",
+        "testing"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:tools/scripts/smoke-check.mjs:checkRoute",
+      "type": "function",
+      "name": "checkRoute",
+      "filePath": "tools/scripts/smoke-check.mjs",
+      "lineRange": [
+        81,
+        102
+      ],
+      "summary": "Smoke check utility: checkRoute.",
+      "tags": [
+        "script",
+        "testing"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:tools/scripts/smoke-check.mjs:runSmokeCheck",
+      "type": "function",
+      "name": "runSmokeCheck",
+      "filePath": "tools/scripts/smoke-check.mjs",
+      "lineRange": [
+        104,
+        147
+      ],
+      "summary": "Smoke check utility: runSmokeCheck.",
+      "tags": [
+        "script",
+        "testing"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:tools/scripts/smoke-next-start.mjs",
+      "type": "file",
+      "name": "smoke-next-start.mjs",
+      "filePath": "tools/scripts/smoke-next-start.mjs",
+      "summary": "CLI tool that starts a Next.js production server, waits for it to be ready, then runs the smoke check suite against it.",
+      "tags": [
+        "script",
+        "testing",
+        "smoke"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:tools/scripts/smoke-next-start.mjs:waitForReady",
+      "type": "function",
+      "name": "waitForReady",
+      "filePath": "tools/scripts/smoke-next-start.mjs",
+      "lineRange": [
+        36,
+        62
+      ],
+      "summary": "Startup utility: waitForReady.",
+      "tags": [
+        "script",
+        "testing"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:tests/unit/app/health-route.test.ts",
+      "target": "file:app/api/health/route.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/health/route.ts",
+      "target": "file:tests/unit/app/health-route.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:tests/unit/lib/manifest-import.test.ts",
+      "target": "file:lib/submit/manifest-import.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/submit/manifest-import.ts",
+      "target": "file:tests/unit/lib/manifest-import.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:tools/scripts/check-component-preview.cjs",
+      "target": "function:tools/scripts/check-component-preview.cjs:findMatchingBrace",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:tools/scripts/check-component-preview.cjs",
+      "target": "function:tools/scripts/check-component-preview.cjs:findObjectBlockByKey",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:tools/scripts/check-component-preview.cjs",
+      "target": "function:tools/scripts/check-component-preview.cjs:parseComponentEntries",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:tools/scripts/check-component-preview.cjs",
+      "target": "function:tools/scripts/check-component-preview.cjs:extractTemplateField",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:tools/scripts/check-component-preview.cjs",
+      "target": "function:tools/scripts/check-component-preview.cjs:shouldSkipFile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:tools/scripts/check-component-preview.cjs",
+      "target": "function:tools/scripts/check-component-preview.cjs:analyzeComponentCode",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:tools/scripts/check-secrets.cjs",
+      "target": "function:tools/scripts/check-secrets.cjs:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:tools/scripts/check-style-extractor.cjs",
+      "target": "function:tools/scripts/check-style-extractor.cjs:collectJavaScriptFiles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:tools/scripts/check-style-extractor.cjs",
+      "target": "function:tools/scripts/check-style-extractor.cjs:runSyntaxChecks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:tools/scripts/check-style-extractor.cjs",
+      "target": "function:tools/scripts/check-style-extractor.cjs:getScriptCountFromLoader",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:tools/scripts/check-style-extractor.cjs",
+      "target": "function:tools/scripts/check-style-extractor.cjs:runConsistencyChecks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:tools/scripts/check-style-extractor.cjs",
+      "target": "function:tools/scripts/check-style-extractor.cjs:collectStyleFiles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:tools/scripts/check-style-extractor.cjs",
+      "target": "function:tools/scripts/check-style-extractor.cjs:findNextUnescapedBacktick",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:tools/scripts/check-style-extractor.cjs",
+      "target": "function:tools/scripts/check-style-extractor.cjs:lineNumberFromOffset",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:tools/scripts/check-style-extractor.cjs",
+      "target": "function:tools/scripts/check-style-extractor.cjs:runStylePromptSafetyChecks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:tools/scripts/check-style-extractor.cjs",
+      "target": "function:tools/scripts/check-style-extractor.cjs:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:tools/scripts/migrate-animations.mjs",
+      "target": "function:tools/scripts/migrate-animations.mjs:migrateOne",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:tools/scripts/pr-lint-comment.ts",
+      "target": "function:tools/scripts/pr-lint-comment.ts:generatePRComment",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:tools/scripts/pr-lint-comment.ts",
+      "target": "function:tools/scripts/pr-lint-comment.ts:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:tools/scripts/setup-hooks.sh",
+      "target": "file:tools/scripts/pre-commit-lint.sh",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:tools/scripts/smoke-check.mjs",
+      "target": "function:tools/scripts/smoke-check.mjs:readOption",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:tools/scripts/smoke-check.mjs",
+      "target": "function:tools/scripts/smoke-check.mjs:parseRoutes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:tools/scripts/smoke-check.mjs",
+      "target": "function:tools/scripts/smoke-check.mjs:parseSmokeArgs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:tools/scripts/smoke-check.mjs",
+      "target": "function:tools/scripts/smoke-check.mjs:parseSmokeArgs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:tools/scripts/smoke-check.mjs",
+      "target": "function:tools/scripts/smoke-check.mjs:checkRoute",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:tools/scripts/smoke-check.mjs",
+      "target": "function:tools/scripts/smoke-check.mjs:runSmokeCheck",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:tools/scripts/smoke-check.mjs",
+      "target": "function:tools/scripts/smoke-check.mjs:runSmokeCheck",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:tools/scripts/smoke-next-start.mjs",
+      "target": "file:tools/scripts/smoke-check.mjs",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tools/scripts/smoke-next-start.mjs",
+      "target": "function:tools/scripts/smoke-next-start.mjs:waitForReady",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    }
+  ]
+}

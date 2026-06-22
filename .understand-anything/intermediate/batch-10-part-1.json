@@ -1,0 +1,346 @@
+{
+  "nodes": [
+    {
+      "id": "file:lib/recipes/marble-luxury.ts",
+      "type": "file",
+      "name": "marble-luxury.ts",
+      "filePath": "lib/recipes/marble-luxury.ts",
+      "summary": "Defines CSS recipe variants and slot configurations for the Marble Luxury design style, imported into the registry via the factory.",
+      "tags": [
+        "recipe",
+        "design-style",
+        "tailwind"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/recipes/masonry-flow.ts",
+      "type": "file",
+      "name": "masonry-flow.ts",
+      "filePath": "lib/recipes/masonry-flow.ts",
+      "summary": "Defines CSS recipe variants and slot configurations for the Masonry Flow design style, imported into the registry via the factory.",
+      "tags": [
+        "recipe",
+        "design-style",
+        "tailwind"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/recipes/material-design.ts",
+      "type": "file",
+      "name": "material-design.ts",
+      "filePath": "lib/recipes/material-design.ts",
+      "summary": "Defines CSS recipe variants and slot configurations for the Material Design design style, imported into the registry via the factory.",
+      "tags": [
+        "recipe",
+        "design-style",
+        "tailwind"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/recipes/maximalism.ts",
+      "type": "file",
+      "name": "maximalism.ts",
+      "filePath": "lib/recipes/maximalism.ts",
+      "summary": "Defines CSS recipe variants and slot configurations for the Maximalism design style, imported into the registry via the factory.",
+      "tags": [
+        "recipe",
+        "design-style",
+        "tailwind"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/recipes/mecha.ts",
+      "type": "file",
+      "name": "mecha.ts",
+      "filePath": "lib/recipes/mecha.ts",
+      "summary": "Defines CSS recipe variants and slot configurations for the Mecha design style, imported into the registry via the factory.",
+      "tags": [
+        "recipe",
+        "design-style",
+        "tailwind"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/recipes/medieval-manuscript.ts",
+      "type": "file",
+      "name": "medieval-manuscript.ts",
+      "filePath": "lib/recipes/medieval-manuscript.ts",
+      "summary": "Defines CSS recipe variants and slot configurations for the Medieval Manuscript design style, imported into the registry via the factory.",
+      "tags": [
+        "recipe",
+        "design-style",
+        "tailwind"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/recipes/memphis.ts",
+      "type": "file",
+      "name": "memphis.ts",
+      "filePath": "lib/recipes/memphis.ts",
+      "summary": "Defines CSS recipe variants and slot configurations for the Memphis design style, imported into the registry via the factory.",
+      "tags": [
+        "recipe",
+        "design-style",
+        "tailwind"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/recipes/mid-century-modern.ts",
+      "type": "file",
+      "name": "mid-century-modern.ts",
+      "filePath": "lib/recipes/mid-century-modern.ts",
+      "summary": "Defines CSS recipe variants and slot configurations for the Mid Century Modern design style, imported into the registry via the factory.",
+      "tags": [
+        "recipe",
+        "design-style",
+        "tailwind"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/recipes/minimalist-flat.ts",
+      "type": "file",
+      "name": "minimalist-flat.ts",
+      "filePath": "lib/recipes/minimalist-flat.ts",
+      "summary": "Defines CSS recipe variants and slot configurations for the Minimalist Flat design style, imported into the registry via the factory.",
+      "tags": [
+        "recipe",
+        "design-style",
+        "tailwind"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/recipes/modern-gradient.ts",
+      "type": "file",
+      "name": "modern-gradient.ts",
+      "filePath": "lib/recipes/modern-gradient.ts",
+      "summary": "Defines CSS recipe variants and slot configurations for the Modern Gradient design style, imported into the registry via the factory.",
+      "tags": [
+        "recipe",
+        "design-style",
+        "tailwind"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/recipes/monochrome.ts",
+      "type": "file",
+      "name": "monochrome.ts",
+      "filePath": "lib/recipes/monochrome.ts",
+      "summary": "Defines CSS recipe variants and slot configurations for the Monochrome design style, imported into the registry via the factory.",
+      "tags": [
+        "recipe",
+        "design-style",
+        "tailwind"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/recipes/natural-organic.ts",
+      "type": "file",
+      "name": "natural-organic.ts",
+      "filePath": "lib/recipes/natural-organic.ts",
+      "summary": "Defines CSS recipe variants and slot configurations for the Natural Organic design style, imported into the registry via the factory.",
+      "tags": [
+        "recipe",
+        "design-style",
+        "tailwind"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/recipes/neo-brutalist-playful.ts",
+      "type": "file",
+      "name": "neo-brutalist-playful.ts",
+      "filePath": "lib/recipes/neo-brutalist-playful.ts",
+      "summary": "Defines CSS recipe variants and slot configurations for the Neo Brutalist Playful design style, imported into the registry via the factory.",
+      "tags": [
+        "recipe",
+        "design-style",
+        "tailwind"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/recipes/neo-brutalist-soft.ts",
+      "type": "file",
+      "name": "neo-brutalist-soft.ts",
+      "filePath": "lib/recipes/neo-brutalist-soft.ts",
+      "summary": "Defines CSS recipe variants and slot configurations for the Neo Brutalist Soft design style, imported into the registry via the factory.",
+      "tags": [
+        "recipe",
+        "design-style",
+        "tailwind"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/recipes/neo-brutalist.ts",
+      "type": "file",
+      "name": "neo-brutalist.ts",
+      "filePath": "lib/recipes/neo-brutalist.ts",
+      "summary": "Defines CSS recipe variants and slot configurations for the Neo Brutalist design style, imported into the registry via the factory.",
+      "tags": [
+        "recipe",
+        "design-style",
+        "tailwind"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/recipes/neon-gradient.ts",
+      "type": "file",
+      "name": "neon-gradient.ts",
+      "filePath": "lib/recipes/neon-gradient.ts",
+      "summary": "Defines CSS recipe variants and slot configurations for the Neon Gradient design style, imported into the registry via the factory.",
+      "tags": [
+        "recipe",
+        "design-style",
+        "tailwind"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/recipes/neon-samurai.ts",
+      "type": "file",
+      "name": "neon-samurai.ts",
+      "filePath": "lib/recipes/neon-samurai.ts",
+      "summary": "Defines CSS recipe variants and slot configurations for the Neon Samurai design style, imported into the registry via the factory.",
+      "tags": [
+        "recipe",
+        "design-style",
+        "tailwind"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:lib/recipes/marble-luxury.ts",
+      "target": "file:lib/recipes/factory.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/recipes/masonry-flow.ts",
+      "target": "file:lib/recipes/factory.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/recipes/material-design.ts",
+      "target": "file:lib/recipes/factory.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/recipes/maximalism.ts",
+      "target": "file:lib/recipes/factory.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/recipes/mecha.ts",
+      "target": "file:lib/recipes/factory.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/recipes/medieval-manuscript.ts",
+      "target": "file:lib/recipes/factory.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/recipes/memphis.ts",
+      "target": "file:lib/recipes/factory.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/recipes/mid-century-modern.ts",
+      "target": "file:lib/recipes/factory.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/recipes/minimalist-flat.ts",
+      "target": "file:lib/recipes/factory.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/recipes/modern-gradient.ts",
+      "target": "file:lib/recipes/factory.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/recipes/monochrome.ts",
+      "target": "file:lib/recipes/factory.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/recipes/natural-organic.ts",
+      "target": "file:lib/recipes/factory.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/recipes/neo-brutalist-playful.ts",
+      "target": "file:lib/recipes/factory.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/recipes/neo-brutalist-soft.ts",
+      "target": "file:lib/recipes/factory.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/recipes/neo-brutalist.ts",
+      "target": "file:lib/recipes/factory.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/recipes/neon-gradient.ts",
+      "target": "file:lib/recipes/factory.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/recipes/neon-samurai.ts",
+      "target": "file:lib/recipes/factory.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

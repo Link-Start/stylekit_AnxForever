@@ -1,0 +1,856 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 8,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "app/api/auth/callback/__tests__/route.test.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 134,
+      "nonEmptyLines": 111,
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/api/auth/callback/route.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 111,
+      "nonEmptyLines": 97,
+      "functions": [
+        {
+          "name": "parseNextPath",
+          "startLine": 15,
+          "endLine": 18,
+          "params": [
+            "value"
+          ]
+        },
+        {
+          "name": "parseMetadata",
+          "startLine": 20,
+          "endLine": 25,
+          "params": [
+            "value"
+          ]
+        },
+        {
+          "name": "getPublicOrigin",
+          "startLine": 27,
+          "endLine": 47,
+          "params": [
+            "request"
+          ]
+        },
+        {
+          "name": "GET",
+          "startLine": 49,
+          "endLine": 111,
+          "params": [
+            "request"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "GET",
+          "line": 49,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "parseNextPath",
+          "callee": "value.startsWith",
+          "lineNumber": 16
+        },
+        {
+          "caller": "parseMetadata",
+          "callee": "Array.isArray",
+          "lineNumber": 21
+        },
+        {
+          "caller": "getPublicOrigin",
+          "callee": "requestOrigin.startsWith",
+          "lineNumber": 31
+        },
+        {
+          "caller": "getPublicOrigin",
+          "callee": "requestOrigin.startsWith",
+          "lineNumber": 32
+        },
+        {
+          "caller": "getPublicOrigin",
+          "callee": "process.env.NEXT_PUBLIC_BASE_URL?.trim",
+          "lineNumber": 37
+        },
+        {
+          "caller": "GET",
+          "callee": "getPublicOrigin",
+          "lineNumber": 51
+        },
+        {
+          "caller": "GET",
+          "callee": "searchParams.get",
+          "lineNumber": 52
+        },
+        {
+          "caller": "GET",
+          "callee": "parseNextPath",
+          "lineNumber": 53
+        },
+        {
+          "caller": "GET",
+          "callee": "searchParams.get",
+          "lineNumber": 53
+        },
+        {
+          "caller": "GET",
+          "callee": "NextResponse.redirect",
+          "lineNumber": 57
+        },
+        {
+          "caller": "GET",
+          "callee": "NextResponse.redirect",
+          "lineNumber": 63
+        },
+        {
+          "caller": "GET",
+          "callee": "cookies",
+          "lineNumber": 66
+        },
+        {
+          "caller": "GET",
+          "callee": "createServerClient",
+          "lineNumber": 67
+        },
+        {
+          "caller": "getAll",
+          "callee": "cookieStore.getAll",
+          "lineNumber": 70
+        },
+        {
+          "caller": "setAll",
+          "callee": "cookieStore.set",
+          "lineNumber": 74
+        },
+        {
+          "caller": "GET",
+          "callee": "supabase.auth.exchangeCodeForSession",
+          "lineNumber": 80
+        },
+        {
+          "caller": "GET",
+          "callee": "NextResponse.redirect",
+          "lineNumber": 83
+        },
+        {
+          "caller": "GET",
+          "callee": "supabase.auth.getUser",
+          "lineNumber": 92
+        },
+        {
+          "caller": "GET",
+          "callee": "getOrAssignSeqId",
+          "lineNumber": 94
+        },
+        {
+          "caller": "GET",
+          "callee": "createClient",
+          "lineNumber": 95
+        },
+        {
+          "caller": "GET",
+          "callee": "adminClient.auth.admin.updateUserById",
+          "lineNumber": 98
+        },
+        {
+          "caller": "GET",
+          "callee": "parseMetadata",
+          "lineNumber": 100
+        },
+        {
+          "caller": "GET",
+          "callee": "NextResponse.redirect",
+          "lineNumber": 110
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/api/auth/linuxdo/__tests__/route.test.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 43,
+      "nonEmptyLines": 34,
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/api/auth/linuxdo/callback/__tests__/route.test.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 286,
+      "nonEmptyLines": 252,
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/api/auth/linuxdo/callback/route.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 215,
+      "nonEmptyLines": 184,
+      "functions": [
+        {
+          "name": "parseNextPath",
+          "startLine": 15,
+          "endLine": 18,
+          "params": [
+            "value"
+          ]
+        },
+        {
+          "name": "parseMetadata",
+          "startLine": 20,
+          "endLine": 25,
+          "params": [
+            "value"
+          ]
+        },
+        {
+          "name": "buildTokenRedirectUri",
+          "startLine": 27,
+          "endLine": 45,
+          "params": [
+            "origin",
+            "stateValue",
+            "nextValue"
+          ]
+        },
+        {
+          "name": "getPublicOrigin",
+          "startLine": 47,
+          "endLine": 67,
+          "params": [
+            "request"
+          ]
+        },
+        {
+          "name": "GET",
+          "startLine": 69,
+          "endLine": 215,
+          "params": [
+            "request"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "GET",
+          "line": 69,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "parseNextPath",
+          "callee": "value.startsWith",
+          "lineNumber": 16
+        },
+        {
+          "caller": "parseMetadata",
+          "callee": "Array.isArray",
+          "lineNumber": 21
+        },
+        {
+          "caller": "buildTokenRedirectUri",
+          "callee": "encodeURIComponent",
+          "lineNumber": 44
+        },
+        {
+          "caller": "buildTokenRedirectUri",
+          "callee": "parseNextPath",
+          "lineNumber": 44
+        },
+        {
+          "caller": "getPublicOrigin",
+          "callee": "requestOrigin.startsWith",
+          "lineNumber": 51
+        },
+        {
+          "caller": "getPublicOrigin",
+          "callee": "requestOrigin.startsWith",
+          "lineNumber": 52
+        },
+        {
+          "caller": "getPublicOrigin",
+          "callee": "process.env.NEXT_PUBLIC_BASE_URL?.trim",
+          "lineNumber": 57
+        },
+        {
+          "caller": "GET",
+          "callee": "getPublicOrigin",
+          "lineNumber": 71
+        },
+        {
+          "caller": "GET",
+          "callee": "searchParams.get",
+          "lineNumber": 72
+        },
+        {
+          "caller": "GET",
+          "callee": "searchParams.get",
+          "lineNumber": 73
+        },
+        {
+          "caller": "GET",
+          "callee": "searchParams.get",
+          "lineNumber": 74
+        },
+        {
+          "caller": "GET",
+          "callee": "parseNextPath",
+          "lineNumber": 75
+        },
+        {
+          "caller": "GET",
+          "callee": "NextResponse.redirect",
+          "lineNumber": 79
+        },
+        {
+          "caller": "GET",
+          "callee": "NextResponse.redirect",
+          "lineNumber": 87
+        },
+        {
+          "caller": "GET",
+          "callee": "buildTokenRedirectUri",
+          "lineNumber": 92
+        },
+        {
+          "caller": "GET",
+          "callee": "exchangeCodeForToken",
+          "lineNumber": 93
+        },
+        {
+          "caller": "GET",
+          "callee": "getLinuxDoUser",
+          "lineNumber": 96
+        },
+        {
+          "caller": "GET",
+          "callee": "createClient",
+          "lineNumber": 100
+        },
+        {
+          "caller": "GET",
+          "callee": "avatarUrl.includes",
+          "lineNumber": 111
+        },
+        {
+          "caller": "GET",
+          "callee": "avatarUrl.replace",
+          "lineNumber": 112
+        },
+        {
+          "caller": "GET",
+          "callee": "avatarUrl.startsWith",
+          "lineNumber": 114
+        },
+        {
+          "caller": "GET",
+          "callee": "adminClient.auth.admin.createUser",
+          "lineNumber": 128
+        },
+        {
+          "caller": "GET",
+          "callee": "adminClient.auth.admin.listUsers",
+          "lineNumber": 139
+        },
+        {
+          "caller": "GET",
+          "callee": "listData?.users?.find",
+          "lineNumber": 144
+        },
+        {
+          "caller": "GET",
+          "callee": "parseMetadata",
+          "lineNumber": 148
+        },
+        {
+          "caller": "GET",
+          "callee": "adminClient.auth.admin.updateUserById",
+          "lineNumber": 151
+        },
+        {
+          "caller": "GET",
+          "callee": "getOrAssignSeqId",
+          "lineNumber": 162
+        },
+        {
+          "caller": "GET",
+          "callee": "adminClient.auth.admin.updateUserById",
+          "lineNumber": 164
+        },
+        {
+          "caller": "GET",
+          "callee": "adminClient.auth.admin.generateLink",
+          "lineNumber": 174
+        },
+        {
+          "caller": "GET",
+          "callee": "cookies",
+          "lineNumber": 186
+        },
+        {
+          "caller": "GET",
+          "callee": "createServerClient",
+          "lineNumber": 187
+        },
+        {
+          "caller": "getAll",
+          "callee": "cookieStore.getAll",
+          "lineNumber": 190
+        },
+        {
+          "caller": "setAll",
+          "callee": "cookieStore.set",
+          "lineNumber": 194
+        },
+        {
+          "caller": "GET",
+          "callee": "supabase.auth.verifyOtp",
+          "lineNumber": 200
+        },
+        {
+          "caller": "GET",
+          "callee": "NextResponse.redirect",
+          "lineNumber": 209
+        },
+        {
+          "caller": "GET",
+          "callee": "String",
+          "lineNumber": 211
+        },
+        {
+          "caller": "GET",
+          "callee": "console.error",
+          "lineNumber": 212
+        },
+        {
+          "caller": "GET",
+          "callee": "NextResponse.redirect",
+          "lineNumber": 213
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/api/auth/linuxdo/route.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 43,
+      "nonEmptyLines": 37,
+      "functions": [
+        {
+          "name": "parseNextPath",
+          "startLine": 11,
+          "endLine": 14,
+          "params": [
+            "value"
+          ]
+        },
+        {
+          "name": "getPublicOrigin",
+          "startLine": 16,
+          "endLine": 27,
+          "params": [
+            "request"
+          ]
+        },
+        {
+          "name": "GET",
+          "startLine": 29,
+          "endLine": 43,
+          "params": [
+            "request"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "GET",
+          "line": 29,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "parseNextPath",
+          "callee": "value.startsWith",
+          "lineNumber": 12
+        },
+        {
+          "caller": "getPublicOrigin",
+          "callee": "process.env.NEXT_PUBLIC_BASE_URL?.trim",
+          "lineNumber": 17
+        },
+        {
+          "caller": "GET",
+          "callee": "getPublicOrigin",
+          "lineNumber": 31
+        },
+        {
+          "caller": "GET",
+          "callee": "parseNextPath",
+          "lineNumber": 32
+        },
+        {
+          "caller": "GET",
+          "callee": "searchParams.get",
+          "lineNumber": 32
+        },
+        {
+          "caller": "GET",
+          "callee": "buildAuthorizationUrl",
+          "lineNumber": 36
+        },
+        {
+          "caller": "GET",
+          "callee": "authUrl.searchParams.set",
+          "lineNumber": 37
+        },
+        {
+          "caller": "GET",
+          "callee": "NextResponse.redirect",
+          "lineNumber": 38
+        },
+        {
+          "caller": "GET",
+          "callee": "NextResponse.redirect",
+          "lineNumber": 41
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/auth/linuxdo.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 103,
+      "nonEmptyLines": 88,
+      "functions": [
+        {
+          "name": "getBaseUrl",
+          "startLine": 12,
+          "endLine": 16,
+          "params": []
+        },
+        {
+          "name": "getCredentials",
+          "startLine": 42,
+          "endLine": 49,
+          "params": []
+        },
+        {
+          "name": "buildAuthorizationUrl",
+          "startLine": 51,
+          "endLine": 60,
+          "params": [
+            "redirectUri"
+          ]
+        },
+        {
+          "name": "exchangeCodeForToken",
+          "startLine": 62,
+          "endLine": 88,
+          "params": [
+            "code",
+            "redirectUri"
+          ]
+        },
+        {
+          "name": "getLinuxDoUser",
+          "startLine": 90,
+          "endLine": 103,
+          "params": [
+            "accessToken"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "buildAuthorizationUrl",
+          "line": 51,
+          "isDefault": false
+        },
+        {
+          "name": "exchangeCodeForToken",
+          "line": 62,
+          "isDefault": false
+        },
+        {
+          "name": "getLinuxDoUser",
+          "line": 90,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getBaseUrl",
+          "callee": "process.env.LINUXDO_BASE_URL?.trim",
+          "lineNumber": 13
+        },
+        {
+          "caller": "getBaseUrl",
+          "callee": "raw.replace",
+          "lineNumber": 15
+        },
+        {
+          "caller": "buildAuthorizationUrl",
+          "callee": "getCredentials",
+          "lineNumber": 52
+        },
+        {
+          "caller": "buildAuthorizationUrl",
+          "callee": "params.toString",
+          "lineNumber": 59
+        },
+        {
+          "caller": "exchangeCodeForToken",
+          "callee": "getCredentials",
+          "lineNumber": 66
+        },
+        {
+          "caller": "exchangeCodeForToken",
+          "callee": "fetch",
+          "lineNumber": 76
+        },
+        {
+          "caller": "exchangeCodeForToken",
+          "callee": "getBaseUrl",
+          "lineNumber": 76
+        },
+        {
+          "caller": "exchangeCodeForToken",
+          "callee": "body.toString",
+          "lineNumber": 79
+        },
+        {
+          "caller": "exchangeCodeForToken",
+          "callee": "res.text",
+          "lineNumber": 83
+        },
+        {
+          "caller": "exchangeCodeForToken",
+          "callee": "res.json",
+          "lineNumber": 87
+        },
+        {
+          "caller": "getLinuxDoUser",
+          "callee": "fetch",
+          "lineNumber": 93
+        },
+        {
+          "caller": "getLinuxDoUser",
+          "callee": "getBaseUrl",
+          "lineNumber": 93
+        },
+        {
+          "caller": "getLinuxDoUser",
+          "callee": "res.text",
+          "lineNumber": 98
+        },
+        {
+          "caller": "getLinuxDoUser",
+          "callee": "res.json",
+          "lineNumber": 102
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/auth/seq-id.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 106,
+      "nonEmptyLines": 86,
+      "functions": [
+        {
+          "name": "getAdminClient",
+          "startLine": 15,
+          "endLine": 29,
+          "params": []
+        },
+        {
+          "name": "normalizeSeqId",
+          "startLine": 31,
+          "endLine": 44,
+          "params": [
+            "value"
+          ]
+        },
+        {
+          "name": "assignViaRpc",
+          "startLine": 46,
+          "endLine": 56,
+          "params": [
+            "client",
+            "userId"
+          ]
+        },
+        {
+          "name": "assignViaUpsert",
+          "startLine": 58,
+          "endLine": 73,
+          "params": [
+            "client",
+            "userId"
+          ]
+        },
+        {
+          "name": "getOrAssignSeqId",
+          "startLine": 80,
+          "endLine": 106,
+          "params": [
+            "userId"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "getOrAssignSeqId",
+          "line": 80,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getAdminClient",
+          "callee": "createClient",
+          "lineNumber": 24
+        },
+        {
+          "caller": "normalizeSeqId",
+          "callee": "Number.isInteger",
+          "lineNumber": 32
+        },
+        {
+          "caller": "normalizeSeqId",
+          "callee": "Number.parseInt",
+          "lineNumber": 37
+        },
+        {
+          "caller": "normalizeSeqId",
+          "callee": "Number.isInteger",
+          "lineNumber": 38
+        },
+        {
+          "caller": "assignViaRpc",
+          "callee": "client.rpc",
+          "lineNumber": 47
+        },
+        {
+          "caller": "assignViaRpc",
+          "callee": "normalizeSeqId",
+          "lineNumber": 55
+        },
+        {
+          "caller": "assignViaUpsert",
+          "callee": "client\n    .from(\"user_seq_ids\")\n    .upsert({ user_id: userId }, { onConflict: \"user_id\" })\n    .select(\"seq_id\")\n    .single",
+          "lineNumber": 62
+        },
+        {
+          "caller": "assignViaUpsert",
+          "callee": "client\n    .from(\"user_seq_ids\")\n    .upsert({ user_id: userId }, { onConflict: \"user_id\" })\n    .select",
+          "lineNumber": 62
+        },
+        {
+          "caller": "assignViaUpsert",
+          "callee": "client\n    .from(\"user_seq_ids\")\n    .upsert",
+          "lineNumber": 62
+        },
+        {
+          "caller": "assignViaUpsert",
+          "callee": "client\n    .from",
+          "lineNumber": 62
+        },
+        {
+          "caller": "assignViaUpsert",
+          "callee": "normalizeSeqId",
+          "lineNumber": 72
+        },
+        {
+          "caller": "getOrAssignSeqId",
+          "callee": "getAdminClient",
+          "lineNumber": 81
+        },
+        {
+          "caller": "getOrAssignSeqId",
+          "callee": "assignViaRpc",
+          "lineNumber": 84
+        },
+        {
+          "caller": "getOrAssignSeqId",
+          "callee": "String",
+          "lineNumber": 95
+        },
+        {
+          "caller": "getOrAssignSeqId",
+          "callee": "message.includes",
+          "lineNumber": 97
+        },
+        {
+          "caller": "getOrAssignSeqId",
+          "callee": "message.includes",
+          "lineNumber": 98
+        },
+        {
+          "caller": "getOrAssignSeqId",
+          "callee": "assignViaUpsert",
+          "lineNumber": 104
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    }
+  ]
+}

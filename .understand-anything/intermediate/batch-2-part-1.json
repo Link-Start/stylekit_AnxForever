@@ -1,0 +1,2582 @@
+{
+  "nodes": [
+    {
+      "id": "file:app/animations/[slug]/opengraph-image.tsx",
+      "type": "file",
+      "name": "opengraph-image.tsx",
+      "filePath": "app/animations/[slug]/opengraph-image.tsx",
+      "summary": "opengraph-image.tsx",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/api/styles/[slug]/__tests__/core-routes.test.ts",
+      "type": "file",
+      "name": "core-routes.test.ts",
+      "filePath": "app/api/styles/[slug]/__tests__/core-routes.test.ts",
+      "summary": "Unit tests for styles API routes, covering core CRUD operations, rate limiting, and security validation.",
+      "tags": [
+        "test",
+        "api-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/api/styles/[slug]/claude-rules/route.ts",
+      "type": "file",
+      "name": "route.ts",
+      "filePath": "app/api/styles/[slug]/claude-rules/route.ts",
+      "summary": "API route returning Claude AI rules configuration for a specific style.",
+      "tags": [
+        "api-handler",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/api/styles/[slug]/cursorrules/route.ts",
+      "type": "file",
+      "name": "route.ts",
+      "filePath": "app/api/styles/[slug]/cursorrules/route.ts",
+      "summary": "API route returning Cursor IDE rules configuration for a specific style.",
+      "tags": [
+        "api-handler",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/api/styles/[slug]/md/route.ts",
+      "type": "file",
+      "name": "route.ts",
+      "filePath": "app/api/styles/[slug]/md/route.ts",
+      "summary": "API route generating structured markdown documentation for a style including tokens, recipes, and design guidelines.",
+      "tags": [
+        "api-handler",
+        "route"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/api/styles/[slug]/recipes/route.ts",
+      "type": "file",
+      "name": "route.ts",
+      "filePath": "app/api/styles/[slug]/recipes/route.ts",
+      "summary": "API route returning style recipes and community components with usage tracking.",
+      "tags": [
+        "api-handler",
+        "route"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/api/styles/[slug]/route.ts",
+      "type": "file",
+      "name": "route.ts",
+      "filePath": "app/api/styles/[slug]/route.ts",
+      "summary": "Primary API route returning full style data including recipes, accessibility scores, and versioning info.",
+      "tags": [
+        "api-handler",
+        "route"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/api/styles/[slug]/skill-pack/route.ts",
+      "type": "file",
+      "name": "route.ts",
+      "filePath": "app/api/styles/[slug]/skill-pack/route.ts",
+      "summary": "API route generating downloadable skill packs for a style.",
+      "tags": [
+        "api-handler",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/api/styles/[slug]/tokens/route.ts",
+      "type": "file",
+      "name": "route.ts",
+      "filePath": "app/api/styles/[slug]/tokens/route.ts",
+      "summary": "API route returning design tokens for a specific style.",
+      "tags": [
+        "api-handler",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/api/styles/[slug]/versions/route.ts",
+      "type": "file",
+      "name": "route.ts",
+      "filePath": "app/api/styles/[slug]/versions/route.ts",
+      "summary": "API route managing style versioning and retrieving version history.",
+      "tags": [
+        "api-handler",
+        "route"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/api/styles/__tests__/route.test.ts",
+      "type": "file",
+      "name": "route.test.ts",
+      "filePath": "app/api/styles/__tests__/route.test.ts",
+      "summary": "Unit tests for styles API routes, covering core CRUD operations, rate limiting, and security validation.",
+      "tags": [
+        "test",
+        "api-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/api/styles/route.ts",
+      "type": "file",
+      "name": "route.ts",
+      "filePath": "app/api/styles/route.ts",
+      "summary": "API route listing all available styles with metadata.",
+      "tags": [
+        "api-handler",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/blog/[slug]/opengraph-image.tsx",
+      "type": "file",
+      "name": "opengraph-image.tsx",
+      "filePath": "app/blog/[slug]/opengraph-image.tsx",
+      "summary": "opengraph-image.tsx",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/llms-full.txt/route.ts",
+      "type": "file",
+      "name": "route.ts",
+      "filePath": "app/llms-full.txt/route.ts",
+      "summary": "route.ts",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/llms.md/route.ts",
+      "type": "file",
+      "name": "route.ts",
+      "filePath": "app/llms.md/route.ts",
+      "summary": "route.ts",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/[slug]/opengraph-image.tsx",
+      "type": "file",
+      "name": "opengraph-image.tsx",
+      "filePath": "app/styles/[slug]/opengraph-image.tsx",
+      "summary": "opengraph-image.tsx",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/[slug]/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/[slug]/showcase/page.tsx",
+      "summary": "Style showcase page route with dynamic rendering and metadata.",
+      "tags": [
+        "page",
+        "showcase"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/export-dialog.tsx",
+      "type": "file",
+      "name": "export-dialog.tsx",
+      "filePath": "components/export-dialog.tsx",
+      "summary": "Component providing UI for exporting style tokens and configurations in various formats.",
+      "tags": [
+        "component",
+        "export"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/export/ide-export-buttons.tsx",
+      "type": "file",
+      "name": "ide-export-buttons.tsx",
+      "filePath": "components/export/ide-export-buttons.tsx",
+      "summary": "Component providing UI for exporting style tokens and configurations in various formats.",
+      "tags": [
+        "component",
+        "export"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/style-preview/style-pack-export.tsx",
+      "type": "file",
+      "name": "style-pack-export.tsx",
+      "filePath": "components/style-preview/style-pack-export.tsx",
+      "summary": "Component providing UI for exporting style tokens and configurations in various formats.",
+      "tags": [
+        "component",
+        "export"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/tokens-export-button.tsx",
+      "type": "file",
+      "name": "tokens-export-button.tsx",
+      "filePath": "components/tokens-export-button.tsx",
+      "summary": "Component providing UI for exporting style tokens and configurations in various formats.",
+      "tags": [
+        "component",
+        "export"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/accessibility/scorer.ts",
+      "type": "file",
+      "name": "scorer.ts",
+      "filePath": "lib/accessibility/scorer.ts",
+      "summary": "Accessibility scoring engine evaluating color contrast ratios and readability metrics for design styles.",
+      "tags": [
+        "accessibility",
+        "utility",
+        "scoring"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/accessibility/wcag.ts",
+      "type": "file",
+      "name": "wcag.ts",
+      "filePath": "lib/accessibility/wcag.ts",
+      "summary": "WCAG compliance utility library with color conversion, luminance calculation, and contrast ratio evaluation functions.",
+      "tags": [
+        "accessibility",
+        "wcag",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/analytics/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "lib/analytics/index.ts",
+      "summary": "Analytics barrel export providing tracking functions for style usage, trends, and popular combinations.",
+      "tags": [
+        "analytics",
+        "barrel"
+      ],
+      "complexity": "simple",
+      "languageNotes": "Barrel file re-exporting multiple modules."
+    },
+    {
+      "id": "file:lib/archetypes/auth.ts",
+      "type": "file",
+      "name": "auth.ts",
+      "filePath": "lib/archetypes/auth.ts",
+      "summary": "Auth module: archetypes/auth.",
+      "tags": [
+        "auth",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/archetypes/blog.ts",
+      "type": "file",
+      "name": "blog.ts",
+      "filePath": "lib/archetypes/blog.ts",
+      "summary": "Type definitions and layout class utilities for design archetypes including page structure options.",
+      "tags": [
+        "archetypes",
+        "data-model"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/archetypes/dashboard.ts",
+      "type": "file",
+      "name": "dashboard.ts",
+      "filePath": "lib/archetypes/dashboard.ts",
+      "summary": "Type definitions and layout class utilities for design archetypes including page structure options.",
+      "tags": [
+        "archetypes",
+        "data-model"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/archetypes/ecommerce.ts",
+      "type": "file",
+      "name": "ecommerce.ts",
+      "filePath": "lib/archetypes/ecommerce.ts",
+      "summary": "Type definitions and layout class utilities for design archetypes including page structure options.",
+      "tags": [
+        "archetypes",
+        "data-model"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/archetypes/form.ts",
+      "type": "file",
+      "name": "form.ts",
+      "filePath": "lib/archetypes/form.ts",
+      "summary": "Type definitions and layout class utilities for design archetypes including page structure options.",
+      "tags": [
+        "archetypes",
+        "data-model"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/archetypes/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "lib/archetypes/index.ts",
+      "summary": "Type definitions and layout class utilities for design archetypes including page structure options.",
+      "tags": [
+        "archetypes",
+        "data-model"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/archetypes/landing.ts",
+      "type": "file",
+      "name": "landing.ts",
+      "filePath": "lib/archetypes/landing.ts",
+      "summary": "Type definitions and layout class utilities for design archetypes including page structure options.",
+      "tags": [
+        "archetypes",
+        "data-model"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/archetypes/portfolio.ts",
+      "type": "file",
+      "name": "portfolio.ts",
+      "filePath": "lib/archetypes/portfolio.ts",
+      "summary": "Type definitions and layout class utilities for design archetypes including page structure options.",
+      "tags": [
+        "archetypes",
+        "data-model"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/archetypes/types.ts",
+      "type": "file",
+      "name": "types.ts",
+      "filePath": "lib/archetypes/types.ts",
+      "summary": "Type definitions and layout class utilities for design archetypes including page structure options.",
+      "tags": [
+        "archetypes",
+        "data-model"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/export/codesandbox.ts",
+      "type": "file",
+      "name": "codesandbox.ts",
+      "filePath": "lib/export/codesandbox.ts",
+      "summary": "CodeSandbox export utility building file structures and opening sandboxes for style previews.",
+      "tags": [
+        "export",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/export/figma-tokens.ts",
+      "type": "file",
+      "name": "figma-tokens.ts",
+      "filePath": "lib/export/figma-tokens.ts",
+      "summary": "Figma token export service generating Design Tokens format, Style Dictionary, and CSS variable outputs.",
+      "tags": [
+        "export",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/animations/[slug]/opengraph-image.tsx:generateStaticParams",
+      "type": "function",
+      "name": "generateStaticParams",
+      "filePath": "app/animations/[slug]/opengraph-image.tsx",
+      "lineRange": [
+        16,
+        18
+      ],
+      "summary": "generateStaticParams function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/animations/[slug]/opengraph-image.tsx:OGImage",
+      "type": "function",
+      "name": "OGImage",
+      "filePath": "app/animations/[slug]/opengraph-image.tsx",
+      "lineRange": [
+        20,
+        78
+      ],
+      "summary": "OGImage function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/api/styles/[slug]/claude-rules/route.ts:GET",
+      "type": "function",
+      "name": "GET",
+      "filePath": "app/api/styles/[slug]/claude-rules/route.ts",
+      "lineRange": [
+        4,
+        24
+      ],
+      "summary": "HTTP GET handler returning JSON response.",
+      "tags": [
+        "api-handler",
+        "route-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/api/styles/[slug]/cursorrules/route.ts:GET",
+      "type": "function",
+      "name": "GET",
+      "filePath": "app/api/styles/[slug]/cursorrules/route.ts",
+      "lineRange": [
+        4,
+        24
+      ],
+      "summary": "HTTP GET handler returning JSON response.",
+      "tags": [
+        "api-handler",
+        "route-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/api/styles/[slug]/md/route.ts:GET",
+      "type": "function",
+      "name": "GET",
+      "filePath": "app/api/styles/[slug]/md/route.ts",
+      "lineRange": [
+        11,
+        205
+      ],
+      "summary": "HTTP GET handler returning JSON response.",
+      "tags": [
+        "api-handler",
+        "route-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/api/styles/[slug]/recipes/route.ts:inferComponentElement",
+      "type": "function",
+      "name": "inferComponentElement",
+      "filePath": "app/api/styles/[slug]/recipes/route.ts",
+      "lineRange": [
+        17,
+        31
+      ],
+      "summary": "inferComponentElement function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/api/styles/[slug]/recipes/route.ts:buildCommunityRecipe",
+      "type": "function",
+      "name": "buildCommunityRecipe",
+      "filePath": "app/api/styles/[slug]/recipes/route.ts",
+      "lineRange": [
+        33,
+        90
+      ],
+      "summary": "buildCommunityRecipe function with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/api/styles/[slug]/recipes/route.ts:buildCommunityRecipes",
+      "type": "function",
+      "name": "buildCommunityRecipes",
+      "filePath": "app/api/styles/[slug]/recipes/route.ts",
+      "lineRange": [
+        92,
+        114
+      ],
+      "summary": "buildCommunityRecipes function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/api/styles/[slug]/recipes/route.ts:GET",
+      "type": "function",
+      "name": "GET",
+      "filePath": "app/api/styles/[slug]/recipes/route.ts",
+      "lineRange": [
+        116,
+        147
+      ],
+      "summary": "HTTP GET handler returning JSON response.",
+      "tags": [
+        "api-handler",
+        "route-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/api/styles/[slug]/route.ts:GET",
+      "type": "function",
+      "name": "GET",
+      "filePath": "app/api/styles/[slug]/route.ts",
+      "lineRange": [
+        19,
+        67
+      ],
+      "summary": "HTTP GET handler returning JSON response.",
+      "tags": [
+        "api-handler",
+        "route-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/api/styles/[slug]/skill-pack/route.ts:GET",
+      "type": "function",
+      "name": "GET",
+      "filePath": "app/api/styles/[slug]/skill-pack/route.ts",
+      "lineRange": [
+        5,
+        32
+      ],
+      "summary": "HTTP GET handler returning JSON response.",
+      "tags": [
+        "api-handler",
+        "route-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/api/styles/[slug]/tokens/route.ts:GET",
+      "type": "function",
+      "name": "GET",
+      "filePath": "app/api/styles/[slug]/tokens/route.ts",
+      "lineRange": [
+        15,
+        35
+      ],
+      "summary": "HTTP GET handler returning JSON response.",
+      "tags": [
+        "api-handler",
+        "route-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/api/styles/[slug]/versions/route.ts:GET",
+      "type": "function",
+      "name": "GET",
+      "filePath": "app/api/styles/[slug]/versions/route.ts",
+      "lineRange": [
+        7,
+        68
+      ],
+      "summary": "HTTP GET handler returning JSON response.",
+      "tags": [
+        "api-handler",
+        "route-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/api/styles/route.ts:GET",
+      "type": "function",
+      "name": "GET",
+      "filePath": "app/api/styles/route.ts",
+      "lineRange": [
+        4,
+        11
+      ],
+      "summary": "HTTP GET handler returning JSON response.",
+      "tags": [
+        "api-handler",
+        "route-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/blog/[slug]/opengraph-image.tsx:generateStaticParams",
+      "type": "function",
+      "name": "generateStaticParams",
+      "filePath": "app/blog/[slug]/opengraph-image.tsx",
+      "lineRange": [
+        15,
+        17
+      ],
+      "summary": "generateStaticParams function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/blog/[slug]/opengraph-image.tsx:OGImage",
+      "type": "function",
+      "name": "OGImage",
+      "filePath": "app/blog/[slug]/opengraph-image.tsx",
+      "lineRange": [
+        19,
+        93
+      ],
+      "summary": "OGImage function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/llms-full.txt/route.ts:GET",
+      "type": "function",
+      "name": "GET",
+      "filePath": "app/llms-full.txt/route.ts",
+      "lineRange": [
+        3,
+        12
+      ],
+      "summary": "HTTP GET handler returning JSON response.",
+      "tags": [
+        "api-handler",
+        "route-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/llms.md/route.ts:GET",
+      "type": "function",
+      "name": "GET",
+      "filePath": "app/llms.md/route.ts",
+      "lineRange": [
+        11,
+        61
+      ],
+      "summary": "HTTP GET handler returning JSON response.",
+      "tags": [
+        "api-handler",
+        "route-handler"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/[slug]/opengraph-image.tsx:generateStaticParams",
+      "type": "function",
+      "name": "generateStaticParams",
+      "filePath": "app/styles/[slug]/opengraph-image.tsx",
+      "lineRange": [
+        10,
+        12
+      ],
+      "summary": "generateStaticParams function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/[slug]/opengraph-image.tsx:OGImage",
+      "type": "function",
+      "name": "OGImage",
+      "filePath": "app/styles/[slug]/opengraph-image.tsx",
+      "lineRange": [
+        14,
+        121
+      ],
+      "summary": "OGImage function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/[slug]/showcase/page.tsx:generateMetadata",
+      "type": "function",
+      "name": "generateMetadata",
+      "filePath": "app/styles/[slug]/showcase/page.tsx",
+      "lineRange": [
+        10,
+        36
+      ],
+      "summary": "generateMetadata function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/styles/[slug]/showcase/page.tsx:DynamicShowcasePage",
+      "type": "function",
+      "name": "DynamicShowcasePage",
+      "filePath": "app/styles/[slug]/showcase/page.tsx",
+      "lineRange": [
+        42,
+        58
+      ],
+      "summary": "DynamicShowcasePage function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:components/export-dialog.tsx:ExportDialog",
+      "type": "function",
+      "name": "ExportDialog",
+      "filePath": "components/export-dialog.tsx",
+      "lineRange": [
+        32,
+        143
+      ],
+      "summary": "ExportDialog function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/export/ide-export-buttons.tsx:IdeExportButtons",
+      "type": "function",
+      "name": "IdeExportButtons",
+      "filePath": "components/export/ide-export-buttons.tsx",
+      "lineRange": [
+        52,
+        168
+      ],
+      "summary": "IdeExportButtons function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/style-preview/style-pack-export.tsx:StylePackExport",
+      "type": "function",
+      "name": "StylePackExport",
+      "filePath": "components/style-preview/style-pack-export.tsx",
+      "lineRange": [
+        25,
+        176
+      ],
+      "summary": "StylePackExport function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/tokens-export-button.tsx:TokensExportButton",
+      "type": "function",
+      "name": "TokensExportButton",
+      "filePath": "components/tokens-export-button.tsx",
+      "lineRange": [
+        11,
+        38
+      ],
+      "summary": "TokensExportButton function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/accessibility/scorer.ts:extractColorPairs",
+      "type": "function",
+      "name": "extractColorPairs",
+      "filePath": "lib/accessibility/scorer.ts",
+      "lineRange": [
+        49,
+        128
+      ],
+      "summary": "extractColorPairs function with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:lib/accessibility/scorer.ts:scoreContrast",
+      "type": "function",
+      "name": "scoreContrast",
+      "filePath": "lib/accessibility/scorer.ts",
+      "lineRange": [
+        134,
+        169
+      ],
+      "summary": "scoreContrast function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/accessibility/scorer.ts:scoreReadability",
+      "type": "function",
+      "name": "scoreReadability",
+      "filePath": "lib/accessibility/scorer.ts",
+      "lineRange": [
+        175,
+        241
+      ],
+      "summary": "scoreReadability function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:lib/accessibility/scorer.ts:scoreStyle",
+      "type": "function",
+      "name": "scoreStyle",
+      "filePath": "lib/accessibility/scorer.ts",
+      "lineRange": [
+        258,
+        276
+      ],
+      "summary": "scoreStyle function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/accessibility/scorer.ts:scoreAllStyles",
+      "type": "function",
+      "name": "scoreAllStyles",
+      "filePath": "lib/accessibility/scorer.ts",
+      "lineRange": [
+        281,
+        290
+      ],
+      "summary": "scoreAllStyles function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/accessibility/wcag.ts:hexToRgb",
+      "type": "function",
+      "name": "hexToRgb",
+      "filePath": "lib/accessibility/wcag.ts",
+      "lineRange": [
+        8,
+        21
+      ],
+      "summary": "hexToRgb function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/accessibility/wcag.ts:relativeLuminance",
+      "type": "function",
+      "name": "relativeLuminance",
+      "filePath": "lib/accessibility/wcag.ts",
+      "lineRange": [
+        39,
+        41
+      ],
+      "summary": "relativeLuminance function with 3 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/accessibility/wcag.ts:contrastRatio",
+      "type": "function",
+      "name": "contrastRatio",
+      "filePath": "lib/accessibility/wcag.ts",
+      "lineRange": [
+        48,
+        59
+      ],
+      "summary": "contrastRatio function with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/accessibility/wcag.ts:meetsAA",
+      "type": "function",
+      "name": "meetsAA",
+      "filePath": "lib/accessibility/wcag.ts",
+      "lineRange": [
+        66,
+        68
+      ],
+      "summary": "meetsAA function with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/accessibility/wcag.ts:meetsAAA",
+      "type": "function",
+      "name": "meetsAAA",
+      "filePath": "lib/accessibility/wcag.ts",
+      "lineRange": [
+        75,
+        77
+      ],
+      "summary": "meetsAAA function with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/accessibility/wcag.ts:extractHexFromClass",
+      "type": "function",
+      "name": "extractHexFromClass",
+      "filePath": "lib/accessibility/wcag.ts",
+      "lineRange": [
+        83,
+        134
+      ],
+      "summary": "extractHexFromClass function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:lib/archetypes/index.ts:getAllArchetypes",
+      "type": "function",
+      "name": "getAllArchetypes",
+      "filePath": "lib/archetypes/index.ts",
+      "lineRange": [
+        36,
+        38
+      ],
+      "summary": "getAllArchetypes function with 0 parameters.",
+      "tags": [
+        "getter",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/archetypes/index.ts:getArchetype",
+      "type": "function",
+      "name": "getArchetype",
+      "filePath": "lib/archetypes/index.ts",
+      "lineRange": [
+        43,
+        45
+      ],
+      "summary": "getArchetype function with 1 parameters.",
+      "tags": [
+        "getter",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/archetypes/index.ts:getArchetypesByCategory",
+      "type": "function",
+      "name": "getArchetypesByCategory",
+      "filePath": "lib/archetypes/index.ts",
+      "lineRange": [
+        50,
+        53
+      ],
+      "summary": "getArchetypesByCategory function with 1 parameters.",
+      "tags": [
+        "getter",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/archetypes/index.ts:getArchetypeCategories",
+      "type": "function",
+      "name": "getArchetypeCategories",
+      "filePath": "lib/archetypes/index.ts",
+      "lineRange": [
+        58,
+        60
+      ],
+      "summary": "getArchetypeCategories function with 0 parameters.",
+      "tags": [
+        "getter",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/archetypes/index.ts:getArchetypesByTag",
+      "type": "function",
+      "name": "getArchetypesByTag",
+      "filePath": "lib/archetypes/index.ts",
+      "lineRange": [
+        65,
+        67
+      ],
+      "summary": "getArchetypesByTag function with 1 parameters.",
+      "tags": [
+        "getter",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/archetypes/index.ts:getArchetypesForStyle",
+      "type": "function",
+      "name": "getArchetypesForStyle",
+      "filePath": "lib/archetypes/index.ts",
+      "lineRange": [
+        72,
+        76
+      ],
+      "summary": "getArchetypesForStyle function with 1 parameters.",
+      "tags": [
+        "getter",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/archetypes/index.ts:searchArchetypes",
+      "type": "function",
+      "name": "searchArchetypes",
+      "filePath": "lib/archetypes/index.ts",
+      "lineRange": [
+        81,
+        89
+      ],
+      "summary": "searchArchetypes function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/archetypes/types.ts:getLayoutClasses",
+      "type": "function",
+      "name": "getLayoutClasses",
+      "filePath": "lib/archetypes/types.ts",
+      "lineRange": [
+        165,
+        234
+      ],
+      "summary": "getLayoutClasses function with 1 parameters.",
+      "tags": [
+        "getter",
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:lib/export/codesandbox.ts:buildCSS",
+      "type": "function",
+      "name": "buildCSS",
+      "filePath": "lib/export/codesandbox.ts",
+      "lineRange": [
+        8,
+        25
+      ],
+      "summary": "buildCSS function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/export/codesandbox.ts:buildFiles",
+      "type": "function",
+      "name": "buildFiles",
+      "filePath": "lib/export/codesandbox.ts",
+      "lineRange": [
+        27,
+        108
+      ],
+      "summary": "buildFiles function with 3 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:lib/export/codesandbox.ts:encodeBase64Utf8",
+      "type": "function",
+      "name": "encodeBase64Utf8",
+      "filePath": "lib/export/codesandbox.ts",
+      "lineRange": [
+        110,
+        121
+      ],
+      "summary": "encodeBase64Utf8 function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/export/codesandbox.ts:openInCodeSandbox",
+      "type": "function",
+      "name": "openInCodeSandbox",
+      "filePath": "lib/export/codesandbox.ts",
+      "lineRange": [
+        130,
+        159
+      ],
+      "summary": "openInCodeSandbox function with 3 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/export/figma-tokens.ts:generateFigmaTokens",
+      "type": "function",
+      "name": "generateFigmaTokens",
+      "filePath": "lib/export/figma-tokens.ts",
+      "lineRange": [
+        25,
+        103
+      ],
+      "summary": "generateFigmaTokens function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:lib/export/figma-tokens.ts:generateStyleDictionary",
+      "type": "function",
+      "name": "generateStyleDictionary",
+      "filePath": "lib/export/figma-tokens.ts",
+      "lineRange": [
+        105,
+        116
+      ],
+      "summary": "generateStyleDictionary function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/export/figma-tokens.ts:generateCSSVariables",
+      "type": "function",
+      "name": "generateCSSVariables",
+      "filePath": "lib/export/figma-tokens.ts",
+      "lineRange": [
+        118,
+        130
+      ],
+      "summary": "generateCSSVariables function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/export/figma-tokens.ts:exportStyleTokens",
+      "type": "function",
+      "name": "exportStyleTokens",
+      "filePath": "lib/export/figma-tokens.ts",
+      "lineRange": [
+        134,
+        148
+      ],
+      "summary": "exportStyleTokens function with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/export/figma-tokens.ts:downloadTokens",
+      "type": "function",
+      "name": "downloadTokens",
+      "filePath": "lib/export/figma-tokens.ts",
+      "lineRange": [
+        150,
+        171
+      ],
+      "summary": "downloadTokens function with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:app/animations/[slug]/opengraph-image.tsx",
+      "target": "function:app/animations/[slug]/opengraph-image.tsx:generateStaticParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/animations/[slug]/opengraph-image.tsx",
+      "target": "function:app/animations/[slug]/opengraph-image.tsx:generateStaticParams",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/animations/[slug]/opengraph-image.tsx",
+      "target": "function:app/animations/[slug]/opengraph-image.tsx:OGImage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/animations/[slug]/opengraph-image.tsx",
+      "target": "function:app/animations/[slug]/opengraph-image.tsx:OGImage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/animations/[slug]/opengraph-image.tsx",
+      "target": "file:lib/animations/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/animations/[slug]/opengraph-image.tsx",
+      "target": "file:lib/og/shared.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/styles/[slug]/__tests__/core-routes.test.ts",
+      "target": "file:app/api/styles/[slug]/claude-rules/route.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/styles/[slug]/__tests__/core-routes.test.ts",
+      "target": "file:app/api/styles/[slug]/cursorrules/route.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/styles/[slug]/__tests__/core-routes.test.ts",
+      "target": "file:app/api/styles/[slug]/md/route.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/styles/[slug]/__tests__/core-routes.test.ts",
+      "target": "file:app/api/styles/[slug]/recipes/route.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/styles/[slug]/__tests__/core-routes.test.ts",
+      "target": "file:app/api/styles/[slug]/route.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/styles/[slug]/__tests__/core-routes.test.ts",
+      "target": "file:app/api/styles/[slug]/skill-pack/route.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/styles/[slug]/__tests__/core-routes.test.ts",
+      "target": "file:app/api/styles/[slug]/tokens/route.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/styles/[slug]/__tests__/core-routes.test.ts",
+      "target": "file:app/api/styles/[slug]/versions/route.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/styles/[slug]/__tests__/core-routes.test.ts",
+      "target": "file:lib/styles/community-runtime.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/styles/[slug]/__tests__/core-routes.test.ts",
+      "target": "file:lib/styles/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/styles/[slug]/claude-rules/route.ts",
+      "target": "file:app/api/styles/[slug]/__tests__/core-routes.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:app/api/styles/[slug]/cursorrules/route.ts",
+      "target": "file:app/api/styles/[slug]/__tests__/core-routes.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:app/api/styles/[slug]/md/route.ts",
+      "target": "file:app/api/styles/[slug]/__tests__/core-routes.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:app/api/styles/[slug]/recipes/route.ts",
+      "target": "file:app/api/styles/[slug]/__tests__/core-routes.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:app/api/styles/[slug]/route.ts",
+      "target": "file:app/api/styles/[slug]/__tests__/core-routes.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:app/api/styles/[slug]/skill-pack/route.ts",
+      "target": "file:app/api/styles/[slug]/__tests__/core-routes.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:app/api/styles/[slug]/tokens/route.ts",
+      "target": "file:app/api/styles/[slug]/__tests__/core-routes.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:app/api/styles/[slug]/versions/route.ts",
+      "target": "file:app/api/styles/[slug]/__tests__/core-routes.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:lib/styles/community-runtime.ts",
+      "target": "file:app/api/styles/[slug]/__tests__/core-routes.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:lib/styles/index.ts",
+      "target": "file:app/api/styles/[slug]/__tests__/core-routes.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:app/api/styles/[slug]/claude-rules/route.ts",
+      "target": "function:app/api/styles/[slug]/claude-rules/route.ts:GET",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/api/styles/[slug]/claude-rules/route.ts",
+      "target": "function:app/api/styles/[slug]/claude-rules/route.ts:GET",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/api/styles/[slug]/claude-rules/route.ts",
+      "target": "file:lib/export/ide-configs.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/styles/[slug]/cursorrules/route.ts",
+      "target": "function:app/api/styles/[slug]/cursorrules/route.ts:GET",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/api/styles/[slug]/cursorrules/route.ts",
+      "target": "function:app/api/styles/[slug]/cursorrules/route.ts:GET",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/api/styles/[slug]/cursorrules/route.ts",
+      "target": "file:lib/export/ide-configs.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/styles/[slug]/md/route.ts",
+      "target": "function:app/api/styles/[slug]/md/route.ts:GET",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/api/styles/[slug]/md/route.ts",
+      "target": "function:app/api/styles/[slug]/md/route.ts:GET",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/api/styles/[slug]/md/route.ts",
+      "target": "file:lib/recipes/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/styles/[slug]/md/route.ts",
+      "target": "file:lib/styles/community-runtime.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/styles/[slug]/md/route.ts",
+      "target": "file:lib/styles/tokens-registry.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/styles/[slug]/recipes/route.ts",
+      "target": "function:app/api/styles/[slug]/recipes/route.ts:inferComponentElement",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/api/styles/[slug]/recipes/route.ts",
+      "target": "function:app/api/styles/[slug]/recipes/route.ts:buildCommunityRecipe",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/api/styles/[slug]/recipes/route.ts",
+      "target": "function:app/api/styles/[slug]/recipes/route.ts:buildCommunityRecipes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/api/styles/[slug]/recipes/route.ts",
+      "target": "function:app/api/styles/[slug]/recipes/route.ts:GET",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/api/styles/[slug]/recipes/route.ts",
+      "target": "function:app/api/styles/[slug]/recipes/route.ts:GET",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/api/styles/[slug]/recipes/route.ts",
+      "target": "file:lib/analytics/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/styles/[slug]/recipes/route.ts",
+      "target": "file:lib/recipes/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/styles/[slug]/recipes/route.ts",
+      "target": "file:lib/styles/community-runtime.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/styles/[slug]/recipes/route.ts",
+      "target": "file:lib/styles/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/styles/[slug]/route.ts",
+      "target": "function:app/api/styles/[slug]/route.ts:GET",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/api/styles/[slug]/route.ts",
+      "target": "function:app/api/styles/[slug]/route.ts:GET",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/api/styles/[slug]/route.ts",
+      "target": "file:lib/accessibility/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/styles/[slug]/route.ts",
+      "target": "file:lib/analytics/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/styles/[slug]/route.ts",
+      "target": "file:lib/recipes/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/styles/[slug]/route.ts",
+      "target": "file:lib/styles/community-runtime.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/styles/[slug]/route.ts",
+      "target": "file:lib/styles/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/styles/[slug]/route.ts",
+      "target": "file:lib/versioning/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/styles/[slug]/skill-pack/route.ts",
+      "target": "function:app/api/styles/[slug]/skill-pack/route.ts:GET",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/api/styles/[slug]/skill-pack/route.ts",
+      "target": "function:app/api/styles/[slug]/skill-pack/route.ts:GET",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/api/styles/[slug]/skill-pack/route.ts",
+      "target": "file:lib/export/skill-pack.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/styles/[slug]/skill-pack/route.ts",
+      "target": "file:lib/styles/community-runtime.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/styles/[slug]/tokens/route.ts",
+      "target": "function:app/api/styles/[slug]/tokens/route.ts:GET",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/api/styles/[slug]/tokens/route.ts",
+      "target": "function:app/api/styles/[slug]/tokens/route.ts:GET",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/api/styles/[slug]/tokens/route.ts",
+      "target": "file:lib/analytics/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/styles/[slug]/tokens/route.ts",
+      "target": "file:lib/styles/community-runtime.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/styles/[slug]/versions/route.ts",
+      "target": "function:app/api/styles/[slug]/versions/route.ts:GET",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/api/styles/[slug]/versions/route.ts",
+      "target": "function:app/api/styles/[slug]/versions/route.ts:GET",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/api/styles/[slug]/versions/route.ts",
+      "target": "file:lib/recipes/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/styles/[slug]/versions/route.ts",
+      "target": "file:lib/styles/community-runtime.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/styles/[slug]/versions/route.ts",
+      "target": "file:lib/styles/tokens-registry.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/styles/[slug]/versions/route.ts",
+      "target": "file:lib/versioning/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/styles/__tests__/route.test.ts",
+      "target": "file:app/api/styles/route.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/styles/route.ts",
+      "target": "file:app/api/styles/__tests__/route.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:app/api/styles/route.ts",
+      "target": "function:app/api/styles/route.ts:GET",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/api/styles/route.ts",
+      "target": "function:app/api/styles/route.ts:GET",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/api/styles/route.ts",
+      "target": "file:lib/styles/community-runtime.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/blog/[slug]/opengraph-image.tsx",
+      "target": "function:app/blog/[slug]/opengraph-image.tsx:generateStaticParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/blog/[slug]/opengraph-image.tsx",
+      "target": "function:app/blog/[slug]/opengraph-image.tsx:generateStaticParams",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/blog/[slug]/opengraph-image.tsx",
+      "target": "function:app/blog/[slug]/opengraph-image.tsx:OGImage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/blog/[slug]/opengraph-image.tsx",
+      "target": "function:app/blog/[slug]/opengraph-image.tsx:OGImage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/blog/[slug]/opengraph-image.tsx",
+      "target": "file:lib/blog/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/blog/[slug]/opengraph-image.tsx",
+      "target": "file:lib/og/shared.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/llms-full.txt/route.ts",
+      "target": "function:app/llms-full.txt/route.ts:GET",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/llms-full.txt/route.ts",
+      "target": "function:app/llms-full.txt/route.ts:GET",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/llms-full.txt/route.ts",
+      "target": "file:lib/export/llms-full.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/llms.md/route.ts",
+      "target": "function:app/llms.md/route.ts:GET",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/llms.md/route.ts",
+      "target": "function:app/llms.md/route.ts:GET",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/llms.md/route.ts",
+      "target": "file:lib/recipes/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/llms.md/route.ts",
+      "target": "file:lib/styles/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/llms.md/route.ts",
+      "target": "file:lib/styles/tokens-registry.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/opengraph-image.tsx",
+      "target": "function:app/styles/[slug]/opengraph-image.tsx:generateStaticParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/[slug]/opengraph-image.tsx",
+      "target": "function:app/styles/[slug]/opengraph-image.tsx:generateStaticParams",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/[slug]/opengraph-image.tsx",
+      "target": "function:app/styles/[slug]/opengraph-image.tsx:OGImage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/[slug]/opengraph-image.tsx",
+      "target": "function:app/styles/[slug]/opengraph-image.tsx:OGImage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/[slug]/opengraph-image.tsx",
+      "target": "file:lib/og/shared.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/opengraph-image.tsx",
+      "target": "file:lib/styles/community-runtime.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/opengraph-image.tsx",
+      "target": "file:lib/styles/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/showcase/page.tsx",
+      "target": "function:app/styles/[slug]/showcase/page.tsx:generateMetadata",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/[slug]/showcase/page.tsx",
+      "target": "function:app/styles/[slug]/showcase/page.tsx:generateMetadata",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/[slug]/showcase/page.tsx",
+      "target": "function:app/styles/[slug]/showcase/page.tsx:DynamicShowcasePage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/[slug]/showcase/page.tsx",
+      "target": "function:app/styles/[slug]/showcase/page.tsx:DynamicShowcasePage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/[slug]/showcase/page.tsx",
+      "target": "file:lib/site-url.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/showcase/page.tsx",
+      "target": "file:lib/styles/community-runtime.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/export-dialog.tsx",
+      "target": "function:components/export-dialog.tsx:ExportDialog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/export-dialog.tsx",
+      "target": "function:components/export-dialog.tsx:ExportDialog",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/export-dialog.tsx",
+      "target": "file:lib/export/figma-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/export-dialog.tsx",
+      "target": "file:lib/styles/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/export/ide-export-buttons.tsx",
+      "target": "function:components/export/ide-export-buttons.tsx:IdeExportButtons",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/export/ide-export-buttons.tsx",
+      "target": "function:components/export/ide-export-buttons.tsx:IdeExportButtons",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/export/ide-export-buttons.tsx",
+      "target": "file:lib/export/ide-configs.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/export/ide-export-buttons.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/style-preview/style-pack-export.tsx",
+      "target": "function:components/style-preview/style-pack-export.tsx:StylePackExport",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/style-preview/style-pack-export.tsx",
+      "target": "function:components/style-preview/style-pack-export.tsx:StylePackExport",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/style-preview/style-pack-export.tsx",
+      "target": "file:lib/export/skill-pack.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/style-preview/style-pack-export.tsx",
+      "target": "file:lib/export/style-pack.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/style-preview/style-pack-export.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/style-preview/style-pack-export.tsx",
+      "target": "file:lib/styles/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/style-preview/style-pack-export.tsx",
+      "target": "file:lib/styles/tokens-registry.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/tokens-export-button.tsx",
+      "target": "function:components/tokens-export-button.tsx:TokensExportButton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/tokens-export-button.tsx",
+      "target": "function:components/tokens-export-button.tsx:TokensExportButton",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/tokens-export-button.tsx",
+      "target": "file:components/export-dialog.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/tokens-export-button.tsx",
+      "target": "file:lib/styles/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/accessibility/scorer.ts",
+      "target": "function:lib/accessibility/scorer.ts:extractColorPairs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/accessibility/scorer.ts",
+      "target": "function:lib/accessibility/scorer.ts:scoreContrast",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/accessibility/scorer.ts",
+      "target": "function:lib/accessibility/scorer.ts:scoreReadability",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/accessibility/scorer.ts",
+      "target": "function:lib/accessibility/scorer.ts:scoreStyle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/accessibility/scorer.ts",
+      "target": "function:lib/accessibility/scorer.ts:scoreStyle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/accessibility/scorer.ts",
+      "target": "function:lib/accessibility/scorer.ts:scoreAllStyles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/accessibility/scorer.ts",
+      "target": "function:lib/accessibility/scorer.ts:scoreAllStyles",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/accessibility/scorer.ts",
+      "target": "file:lib/accessibility/wcag.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/accessibility/scorer.ts",
+      "target": "file:lib/styles/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/accessibility/scorer.ts",
+      "target": "file:lib/styles/tokens-registry.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/accessibility/scorer.ts",
+      "target": "file:lib/styles/tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/accessibility/wcag.ts",
+      "target": "function:lib/accessibility/wcag.ts:hexToRgb",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/accessibility/wcag.ts",
+      "target": "function:lib/accessibility/wcag.ts:hexToRgb",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/accessibility/wcag.ts",
+      "target": "function:lib/accessibility/wcag.ts:relativeLuminance",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/accessibility/wcag.ts",
+      "target": "function:lib/accessibility/wcag.ts:relativeLuminance",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/accessibility/wcag.ts",
+      "target": "function:lib/accessibility/wcag.ts:contrastRatio",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/accessibility/wcag.ts",
+      "target": "function:lib/accessibility/wcag.ts:contrastRatio",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/accessibility/wcag.ts",
+      "target": "function:lib/accessibility/wcag.ts:meetsAA",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/accessibility/wcag.ts",
+      "target": "function:lib/accessibility/wcag.ts:meetsAA",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/accessibility/wcag.ts",
+      "target": "function:lib/accessibility/wcag.ts:meetsAAA",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/accessibility/wcag.ts",
+      "target": "function:lib/accessibility/wcag.ts:meetsAAA",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/accessibility/wcag.ts",
+      "target": "function:lib/accessibility/wcag.ts:extractHexFromClass",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/accessibility/wcag.ts",
+      "target": "function:lib/accessibility/wcag.ts:extractHexFromClass",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/archetypes/auth.ts",
+      "target": "file:lib/archetypes/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/archetypes/blog.ts",
+      "target": "file:lib/archetypes/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/archetypes/dashboard.ts",
+      "target": "file:lib/archetypes/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/archetypes/ecommerce.ts",
+      "target": "file:lib/archetypes/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/archetypes/form.ts",
+      "target": "file:lib/archetypes/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/archetypes/index.ts",
+      "target": "function:lib/archetypes/index.ts:getAllArchetypes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/archetypes/index.ts",
+      "target": "function:lib/archetypes/index.ts:getAllArchetypes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/archetypes/index.ts",
+      "target": "function:lib/archetypes/index.ts:getArchetype",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/archetypes/index.ts",
+      "target": "function:lib/archetypes/index.ts:getArchetype",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/archetypes/index.ts",
+      "target": "function:lib/archetypes/index.ts:getArchetypesByCategory",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/archetypes/index.ts",
+      "target": "function:lib/archetypes/index.ts:getArchetypesByCategory",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/archetypes/index.ts",
+      "target": "function:lib/archetypes/index.ts:getArchetypeCategories",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/archetypes/index.ts",
+      "target": "function:lib/archetypes/index.ts:getArchetypeCategories",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/archetypes/index.ts",
+      "target": "function:lib/archetypes/index.ts:getArchetypesByTag",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/archetypes/index.ts",
+      "target": "function:lib/archetypes/index.ts:getArchetypesByTag",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/archetypes/index.ts",
+      "target": "function:lib/archetypes/index.ts:getArchetypesForStyle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/archetypes/index.ts",
+      "target": "function:lib/archetypes/index.ts:getArchetypesForStyle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/archetypes/index.ts",
+      "target": "function:lib/archetypes/index.ts:searchArchetypes",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/archetypes/index.ts",
+      "target": "function:lib/archetypes/index.ts:searchArchetypes",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/archetypes/index.ts",
+      "target": "file:lib/archetypes/auth.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/archetypes/index.ts",
+      "target": "file:lib/archetypes/blog.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/archetypes/index.ts",
+      "target": "file:lib/archetypes/dashboard.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/archetypes/index.ts",
+      "target": "file:lib/archetypes/ecommerce.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/archetypes/index.ts",
+      "target": "file:lib/archetypes/form.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/archetypes/index.ts",
+      "target": "file:lib/archetypes/landing.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/archetypes/index.ts",
+      "target": "file:lib/archetypes/portfolio.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/archetypes/index.ts",
+      "target": "file:lib/archetypes/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/archetypes/landing.ts",
+      "target": "file:lib/archetypes/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/archetypes/portfolio.ts",
+      "target": "file:lib/archetypes/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/archetypes/types.ts",
+      "target": "function:lib/archetypes/types.ts:getLayoutClasses",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/archetypes/types.ts",
+      "target": "function:lib/archetypes/types.ts:getLayoutClasses",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/export/codesandbox.ts",
+      "target": "function:lib/export/codesandbox.ts:buildCSS",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/export/codesandbox.ts",
+      "target": "function:lib/export/codesandbox.ts:buildFiles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/export/codesandbox.ts",
+      "target": "function:lib/export/codesandbox.ts:encodeBase64Utf8",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/export/codesandbox.ts",
+      "target": "function:lib/export/codesandbox.ts:openInCodeSandbox",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/export/codesandbox.ts",
+      "target": "function:lib/export/codesandbox.ts:openInCodeSandbox",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/export/codesandbox.ts",
+      "target": "file:lib/styles/tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/export/figma-tokens.ts",
+      "target": "function:lib/export/figma-tokens.ts:generateFigmaTokens",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/export/figma-tokens.ts",
+      "target": "function:lib/export/figma-tokens.ts:generateFigmaTokens",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/export/figma-tokens.ts",
+      "target": "function:lib/export/figma-tokens.ts:generateStyleDictionary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/export/figma-tokens.ts",
+      "target": "function:lib/export/figma-tokens.ts:generateStyleDictionary",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/export/figma-tokens.ts",
+      "target": "function:lib/export/figma-tokens.ts:generateCSSVariables",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/export/figma-tokens.ts",
+      "target": "function:lib/export/figma-tokens.ts:generateCSSVariables",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/export/figma-tokens.ts",
+      "target": "function:lib/export/figma-tokens.ts:exportStyleTokens",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/export/figma-tokens.ts",
+      "target": "function:lib/export/figma-tokens.ts:exportStyleTokens",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/export/figma-tokens.ts",
+      "target": "function:lib/export/figma-tokens.ts:downloadTokens",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/export/figma-tokens.ts",
+      "target": "function:lib/export/figma-tokens.ts:downloadTokens",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/export/figma-tokens.ts",
+      "target": "file:lib/styles/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

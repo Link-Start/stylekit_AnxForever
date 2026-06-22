@@ -1,0 +1,1492 @@
+{
+  "nodes": [
+    {
+      "id": "function:app/styles/ukiyo-e-digital/showcase/_content.tsx:WoodblockPanel",
+      "type": "function",
+      "name": "WoodblockPanel",
+      "filePath": "app/styles/ukiyo-e-digital/showcase/_content.tsx",
+      "lineRange": [
+        28,
+        44
+      ],
+      "summary": "React component rendering a section of the Ukiyo E Digital showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/ukiyo-e-digital/showcase/_content.tsx:HankoSeal",
+      "type": "function",
+      "name": "HankoSeal",
+      "filePath": "app/styles/ukiyo-e-digital/showcase/_content.tsx",
+      "lineRange": [
+        47,
+        98
+      ],
+      "summary": "React component rendering a section of the Ukiyo E Digital showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/styles/ukiyo-e-digital/showcase/_content.tsx:WaveDivider",
+      "type": "function",
+      "name": "WaveDivider",
+      "filePath": "app/styles/ukiyo-e-digital/showcase/_content.tsx",
+      "lineRange": [
+        101,
+        133
+      ],
+      "summary": "React component rendering a section of the Ukiyo E Digital showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/ukiyo-e-digital/showcase/_content.tsx:InkProgress",
+      "type": "function",
+      "name": "InkProgress",
+      "filePath": "app/styles/ukiyo-e-digital/showcase/_content.tsx",
+      "lineRange": [
+        136,
+        170
+      ],
+      "summary": "React component rendering a section of the Ukiyo E Digital showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/ukiyo-e-digital/showcase/_content.tsx:SeasonalTab",
+      "type": "function",
+      "name": "SeasonalTab",
+      "filePath": "app/styles/ukiyo-e-digital/showcase/_content.tsx",
+      "lineRange": [
+        173,
+        199
+      ],
+      "summary": "React component rendering a section of the Ukiyo E Digital showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/ukiyo-e-digital/showcase/_content.tsx:BrushHeading",
+      "type": "function",
+      "name": "BrushHeading",
+      "filePath": "app/styles/ukiyo-e-digital/showcase/_content.tsx",
+      "lineRange": [
+        202,
+        231
+      ],
+      "summary": "React component rendering a section of the Ukiyo E Digital showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/ukiyo-e-digital/showcase/_content.tsx:LayeredMountain",
+      "type": "function",
+      "name": "LayeredMountain",
+      "filePath": "app/styles/ukiyo-e-digital/showcase/_content.tsx",
+      "lineRange": [
+        234,
+        245
+      ],
+      "summary": "React component rendering a section of the Ukiyo E Digital showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/ukiyo-e-digital/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/ukiyo-e-digital/showcase/_content.tsx",
+      "lineRange": [
+        251,
+        1197
+      ],
+      "summary": "React component rendering a section of the Ukiyo E Digital showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/ukiyo-e-digital/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/ukiyo-e-digital/showcase/_content.tsx",
+      "summary": "Interactive showcase page for the Ukiyo E Digital design style, rendering inline SVG decorations, theme-specific UI components, and a full-page demo layout with animated reveal effects.",
+      "tags": [
+        "showcase",
+        "style-preview",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Large React client component (~1197 lines) with inline SVG motifs and IntersectionObserver-driven scroll animations."
+    },
+    {
+      "id": "function:app/styles/ukiyo-e-digital/showcase/page.tsx:UkiyoEDigitalShowcasePage",
+      "type": "function",
+      "name": "UkiyoEDigitalShowcasePage",
+      "filePath": "app/styles/ukiyo-e-digital/showcase/page.tsx",
+      "lineRange": [
+        14,
+        16
+      ],
+      "summary": "Next.js page component rendering the Ukiyo E Digital showcase.",
+      "tags": [
+        "page",
+        "showcase"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/ukiyo-e-digital/showcase/page.tsx",
+      "type": "file",
+      "name": "UkiyoEDigitalShowcasePage",
+      "filePath": "app/styles/ukiyo-e-digital/showcase/page.tsx",
+      "summary": "Next.js page route for the Ukiyo E Digital showcase, loading the content component with static generation and metadata.",
+      "tags": [
+        "showcase",
+        "page",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/vaporwave/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/vaporwave/showcase/_content.tsx",
+      "lineRange": [
+        6,
+        25
+      ],
+      "summary": "React component rendering a section of the Vaporwave showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/vaporwave/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/vaporwave/showcase/_content.tsx",
+      "lineRange": [
+        27,
+        50
+      ],
+      "summary": "React component rendering a section of the Vaporwave showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/vaporwave/showcase/_content.tsx:VaporwaveShowcase",
+      "type": "function",
+      "name": "VaporwaveShowcase",
+      "filePath": "app/styles/vaporwave/showcase/_content.tsx",
+      "lineRange": [
+        89,
+        1597
+      ],
+      "summary": "React component rendering a section of the Vaporwave showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/vaporwave/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/vaporwave/showcase/_content.tsx",
+      "summary": "Interactive showcase page for the Vaporwave design style, rendering inline SVG decorations, theme-specific UI components, and a full-page demo layout with animated reveal effects.",
+      "tags": [
+        "showcase",
+        "style-preview",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Large React client component (~1597 lines) with inline SVG motifs and IntersectionObserver-driven scroll animations."
+    },
+    {
+      "id": "function:app/styles/vaporwave/showcase/page.tsx:VaporwaveShowcasePage",
+      "type": "function",
+      "name": "VaporwaveShowcasePage",
+      "filePath": "app/styles/vaporwave/showcase/page.tsx",
+      "lineRange": [
+        14,
+        16
+      ],
+      "summary": "Next.js page component rendering the Vaporwave showcase.",
+      "tags": [
+        "page",
+        "showcase"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/vaporwave/showcase/page.tsx",
+      "type": "file",
+      "name": "VaporwaveShowcasePage",
+      "filePath": "app/styles/vaporwave/showcase/page.tsx",
+      "summary": "Next.js page route for the Vaporwave showcase, loading the content component with static generation and metadata.",
+      "tags": [
+        "showcase",
+        "page",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/vhs-aesthetic/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/vhs-aesthetic/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        24
+      ],
+      "summary": "React component rendering a section of the Vhs Aesthetic showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/vhs-aesthetic/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/vhs-aesthetic/showcase/_content.tsx",
+      "lineRange": [
+        26,
+        41
+      ],
+      "summary": "React component rendering a section of the Vhs Aesthetic showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/vhs-aesthetic/showcase/_content.tsx:RecIndicator",
+      "type": "function",
+      "name": "RecIndicator",
+      "filePath": "app/styles/vhs-aesthetic/showcase/_content.tsx",
+      "lineRange": [
+        182,
+        194
+      ],
+      "summary": "React component rendering a section of the Vhs Aesthetic showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/vhs-aesthetic/showcase/_content.tsx:SectionHeading",
+      "type": "function",
+      "name": "SectionHeading",
+      "filePath": "app/styles/vhs-aesthetic/showcase/_content.tsx",
+      "lineRange": [
+        204,
+        223
+      ],
+      "summary": "React component rendering a section of the Vhs Aesthetic showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/vhs-aesthetic/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/vhs-aesthetic/showcase/_content.tsx",
+      "lineRange": [
+        229,
+        1440
+      ],
+      "summary": "React component rendering a section of the Vhs Aesthetic showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/vhs-aesthetic/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/vhs-aesthetic/showcase/_content.tsx",
+      "summary": "Interactive showcase page for the Vhs Aesthetic design style, rendering inline SVG decorations, theme-specific UI components, and a full-page demo layout with animated reveal effects.",
+      "tags": [
+        "showcase",
+        "style-preview",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Large React client component (~1440 lines) with inline SVG motifs and IntersectionObserver-driven scroll animations."
+    },
+    {
+      "id": "function:app/styles/vhs-aesthetic/showcase/page.tsx:VhsAestheticShowcase",
+      "type": "function",
+      "name": "VhsAestheticShowcase",
+      "filePath": "app/styles/vhs-aesthetic/showcase/page.tsx",
+      "lineRange": [
+        9,
+        11
+      ],
+      "summary": "Next.js page component rendering the Vhs Aesthetic showcase.",
+      "tags": [
+        "page",
+        "showcase"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/vhs-aesthetic/showcase/page.tsx",
+      "type": "file",
+      "name": "VhsAestheticShowcase",
+      "filePath": "app/styles/vhs-aesthetic/showcase/page.tsx",
+      "summary": "Next.js page route for the Vhs Aesthetic showcase, loading the content component with static generation and metadata.",
+      "tags": [
+        "showcase",
+        "page",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/victorian-botanical/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/victorian-botanical/showcase/_content.tsx",
+      "lineRange": [
+        5,
+        19
+      ],
+      "summary": "React component rendering a section of the Victorian Botanical showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/victorian-botanical/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/victorian-botanical/showcase/_content.tsx",
+      "lineRange": [
+        21,
+        36
+      ],
+      "summary": "React component rendering a section of the Victorian Botanical showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/victorian-botanical/showcase/_content.tsx:RosaDamascenaSvg",
+      "type": "function",
+      "name": "RosaDamascenaSvg",
+      "filePath": "app/styles/victorian-botanical/showcase/_content.tsx",
+      "lineRange": [
+        38,
+        64
+      ],
+      "summary": "React component rendering a section of the Victorian Botanical showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/victorian-botanical/showcase/_content.tsx:FernVictorianaSvg",
+      "type": "function",
+      "name": "FernVictorianaSvg",
+      "filePath": "app/styles/victorian-botanical/showcase/_content.tsx",
+      "lineRange": [
+        66,
+        94
+      ],
+      "summary": "React component rendering a section of the Victorian Botanical showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/victorian-botanical/showcase/_content.tsx:CamelliaJaponicaSvg",
+      "type": "function",
+      "name": "CamelliaJaponicaSvg",
+      "filePath": "app/styles/victorian-botanical/showcase/_content.tsx",
+      "lineRange": [
+        96,
+        113
+      ],
+      "summary": "React component rendering a section of the Victorian Botanical showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/victorian-botanical/showcase/_content.tsx:IrisGermanicaSvg",
+      "type": "function",
+      "name": "IrisGermanicaSvg",
+      "filePath": "app/styles/victorian-botanical/showcase/_content.tsx",
+      "lineRange": [
+        115,
+        128
+      ],
+      "summary": "React component rendering a section of the Victorian Botanical showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/victorian-botanical/showcase/_content.tsx:HelleborusNigerSvg",
+      "type": "function",
+      "name": "HelleborusNigerSvg",
+      "filePath": "app/styles/victorian-botanical/showcase/_content.tsx",
+      "lineRange": [
+        130,
+        150
+      ],
+      "summary": "React component rendering a section of the Victorian Botanical showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/victorian-botanical/showcase/_content.tsx:MagnoliaGrandifloraSvg",
+      "type": "function",
+      "name": "MagnoliaGrandifloraSvg",
+      "filePath": "app/styles/victorian-botanical/showcase/_content.tsx",
+      "lineRange": [
+        152,
+        176
+      ],
+      "summary": "React component rendering a section of the Victorian Botanical showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/victorian-botanical/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/victorian-botanical/showcase/_content.tsx",
+      "lineRange": [
+        317,
+        1148
+      ],
+      "summary": "React component rendering a section of the Victorian Botanical showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/victorian-botanical/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/victorian-botanical/showcase/_content.tsx",
+      "summary": "Interactive showcase page for the Victorian Botanical design style, rendering inline SVG decorations, theme-specific UI components, and a full-page demo layout with animated reveal effects.",
+      "tags": [
+        "showcase",
+        "style-preview",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Large React client component (~1148 lines) with inline SVG motifs and IntersectionObserver-driven scroll animations."
+    },
+    {
+      "id": "function:app/styles/victorian-botanical/showcase/page.tsx:Page",
+      "type": "function",
+      "name": "Page",
+      "filePath": "app/styles/victorian-botanical/showcase/page.tsx",
+      "lineRange": [
+        15,
+        17
+      ],
+      "summary": "Next.js page component rendering the Victorian Botanical showcase.",
+      "tags": [
+        "page",
+        "showcase"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/victorian-botanical/showcase/page.tsx",
+      "type": "file",
+      "name": "Page",
+      "filePath": "app/styles/victorian-botanical/showcase/page.tsx",
+      "summary": "Next.js page route for the Victorian Botanical showcase, loading the content component with static generation and metadata.",
+      "tags": [
+        "showcase",
+        "page",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/visual-novel/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/visual-novel/showcase/_content.tsx",
+      "lineRange": [
+        33,
+        52
+      ],
+      "summary": "React component rendering a section of the Visual Novel showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/visual-novel/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/visual-novel/showcase/_content.tsx",
+      "lineRange": [
+        54,
+        77
+      ],
+      "summary": "React component rendering a section of the Visual Novel showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/visual-novel/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/visual-novel/showcase/_content.tsx",
+      "lineRange": [
+        190,
+        1209
+      ],
+      "summary": "React component rendering a section of the Visual Novel showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/visual-novel/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/visual-novel/showcase/_content.tsx",
+      "summary": "Interactive showcase page for the Visual Novel design style, rendering inline SVG decorations, theme-specific UI components, and a full-page demo layout with animated reveal effects.",
+      "tags": [
+        "showcase",
+        "style-preview",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Large React client component (~1209 lines) with inline SVG motifs and IntersectionObserver-driven scroll animations."
+    },
+    {
+      "id": "function:app/styles/visual-novel/showcase/page.tsx:VisualNovelShowcasePage",
+      "type": "function",
+      "name": "VisualNovelShowcasePage",
+      "filePath": "app/styles/visual-novel/showcase/page.tsx",
+      "lineRange": [
+        14,
+        16
+      ],
+      "summary": "Next.js page component rendering the Visual Novel showcase.",
+      "tags": [
+        "page",
+        "showcase"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/visual-novel/showcase/page.tsx",
+      "type": "file",
+      "name": "VisualNovelShowcasePage",
+      "filePath": "app/styles/visual-novel/showcase/page.tsx",
+      "summary": "Next.js page route for the Visual Novel showcase, loading the content component with static generation and metadata.",
+      "tags": [
+        "showcase",
+        "page",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/wabi-sabi/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/wabi-sabi/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        31
+      ],
+      "summary": "React component rendering a section of the Wabi Sabi showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/wabi-sabi/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/wabi-sabi/showcase/_content.tsx",
+      "lineRange": [
+        33,
+        56
+      ],
+      "summary": "React component rendering a section of the Wabi Sabi showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/wabi-sabi/showcase/_content.tsx:EnsoSVG",
+      "type": "function",
+      "name": "EnsoSVG",
+      "filePath": "app/styles/wabi-sabi/showcase/_content.tsx",
+      "lineRange": [
+        62,
+        79
+      ],
+      "summary": "React component rendering a section of the Wabi Sabi showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/wabi-sabi/showcase/_content.tsx:WaterRippleSVG",
+      "type": "function",
+      "name": "WaterRippleSVG",
+      "filePath": "app/styles/wabi-sabi/showcase/_content.tsx",
+      "lineRange": [
+        81,
+        97
+      ],
+      "summary": "React component rendering a section of the Wabi Sabi showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/wabi-sabi/showcase/_content.tsx:BambooSVG",
+      "type": "function",
+      "name": "BambooSVG",
+      "filePath": "app/styles/wabi-sabi/showcase/_content.tsx",
+      "lineRange": [
+        99,
+        123
+      ],
+      "summary": "React component rendering a section of the Wabi Sabi showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/wabi-sabi/showcase/_content.tsx:InkBrushLine",
+      "type": "function",
+      "name": "InkBrushLine",
+      "filePath": "app/styles/wabi-sabi/showcase/_content.tsx",
+      "lineRange": [
+        125,
+        143
+      ],
+      "summary": "React component rendering a section of the Wabi Sabi showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/wabi-sabi/showcase/_content.tsx:MoonSVG",
+      "type": "function",
+      "name": "MoonSVG",
+      "filePath": "app/styles/wabi-sabi/showcase/_content.tsx",
+      "lineRange": [
+        145,
+        159
+      ],
+      "summary": "React component rendering a section of the Wabi Sabi showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/wabi-sabi/showcase/_content.tsx:StoneTextureSVG",
+      "type": "function",
+      "name": "StoneTextureSVG",
+      "filePath": "app/styles/wabi-sabi/showcase/_content.tsx",
+      "lineRange": [
+        161,
+        185
+      ],
+      "summary": "React component rendering a section of the Wabi Sabi showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/wabi-sabi/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/wabi-sabi/showcase/_content.tsx",
+      "lineRange": [
+        366,
+        1550
+      ],
+      "summary": "React component rendering a section of the Wabi Sabi showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/wabi-sabi/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/wabi-sabi/showcase/_content.tsx",
+      "summary": "Interactive showcase page for the Wabi Sabi design style, rendering inline SVG decorations, theme-specific UI components, and a full-page demo layout with animated reveal effects.",
+      "tags": [
+        "showcase",
+        "style-preview",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Large React client component (~1550 lines) with inline SVG motifs and IntersectionObserver-driven scroll animations."
+    },
+    {
+      "id": "function:app/styles/wabi-sabi/showcase/page.tsx:Page",
+      "type": "function",
+      "name": "Page",
+      "filePath": "app/styles/wabi-sabi/showcase/page.tsx",
+      "lineRange": [
+        14,
+        16
+      ],
+      "summary": "Next.js page component rendering the Wabi Sabi showcase.",
+      "tags": [
+        "page",
+        "showcase"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/wabi-sabi/showcase/page.tsx",
+      "type": "file",
+      "name": "Page",
+      "filePath": "app/styles/wabi-sabi/showcase/page.tsx",
+      "summary": "Next.js page route for the Wabi Sabi showcase, loading the content component with static generation and metadata.",
+      "tags": [
+        "showcase",
+        "page",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/warm-dashboard/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/warm-dashboard/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        31
+      ],
+      "summary": "React component rendering a section of the Warm Dashboard showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/warm-dashboard/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/warm-dashboard/showcase/_content.tsx",
+      "lineRange": [
+        33,
+        56
+      ],
+      "summary": "React component rendering a section of the Warm Dashboard showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/warm-dashboard/showcase/_content.tsx:GridIcon",
+      "type": "function",
+      "name": "GridIcon",
+      "filePath": "app/styles/warm-dashboard/showcase/_content.tsx",
+      "lineRange": [
+        62,
+        71
+      ],
+      "summary": "React component rendering a section of the Warm Dashboard showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/warm-dashboard/showcase/_content.tsx:UsersIcon",
+      "type": "function",
+      "name": "UsersIcon",
+      "filePath": "app/styles/warm-dashboard/showcase/_content.tsx",
+      "lineRange": [
+        109,
+        118
+      ],
+      "summary": "React component rendering a section of the Warm Dashboard showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/warm-dashboard/showcase/_content.tsx:RepeatIcon",
+      "type": "function",
+      "name": "RepeatIcon",
+      "filePath": "app/styles/warm-dashboard/showcase/_content.tsx",
+      "lineRange": [
+        139,
+        148
+      ],
+      "summary": "React component rendering a section of the Warm Dashboard showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/warm-dashboard/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/warm-dashboard/showcase/_content.tsx",
+      "lineRange": [
+        243,
+        1904
+      ],
+      "summary": "React component rendering a section of the Warm Dashboard showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/warm-dashboard/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/warm-dashboard/showcase/_content.tsx",
+      "summary": "Interactive showcase page for the Warm Dashboard design style, rendering inline SVG decorations, theme-specific UI components, and a full-page demo layout with animated reveal effects.",
+      "tags": [
+        "showcase",
+        "style-preview",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Large React client component (~1904 lines) with inline SVG motifs and IntersectionObserver-driven scroll animations."
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:app/styles/ukiyo-e-digital/showcase/_content.tsx",
+      "target": "function:app/styles/ukiyo-e-digital/showcase/_content.tsx:WoodblockPanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/ukiyo-e-digital/showcase/_content.tsx",
+      "target": "function:app/styles/ukiyo-e-digital/showcase/_content.tsx:HankoSeal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/ukiyo-e-digital/showcase/_content.tsx",
+      "target": "function:app/styles/ukiyo-e-digital/showcase/_content.tsx:WaveDivider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/ukiyo-e-digital/showcase/_content.tsx",
+      "target": "function:app/styles/ukiyo-e-digital/showcase/_content.tsx:InkProgress",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/ukiyo-e-digital/showcase/_content.tsx",
+      "target": "function:app/styles/ukiyo-e-digital/showcase/_content.tsx:SeasonalTab",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/ukiyo-e-digital/showcase/_content.tsx",
+      "target": "function:app/styles/ukiyo-e-digital/showcase/_content.tsx:BrushHeading",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/ukiyo-e-digital/showcase/_content.tsx",
+      "target": "function:app/styles/ukiyo-e-digital/showcase/_content.tsx:LayeredMountain",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/ukiyo-e-digital/showcase/_content.tsx",
+      "target": "function:app/styles/ukiyo-e-digital/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/ukiyo-e-digital/showcase/_content.tsx",
+      "target": "function:app/styles/ukiyo-e-digital/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/ukiyo-e-digital/showcase/page.tsx",
+      "target": "function:app/styles/ukiyo-e-digital/showcase/page.tsx:UkiyoEDigitalShowcasePage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/ukiyo-e-digital/showcase/page.tsx",
+      "target": "function:app/styles/ukiyo-e-digital/showcase/page.tsx:UkiyoEDigitalShowcasePage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/ukiyo-e-digital/showcase/page.tsx",
+      "target": "file:app/styles/ukiyo-e-digital/showcase/_content.tsx",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:app/styles/vaporwave/showcase/_content.tsx",
+      "target": "function:app/styles/vaporwave/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/vaporwave/showcase/_content.tsx",
+      "target": "function:app/styles/vaporwave/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/vaporwave/showcase/_content.tsx",
+      "target": "function:app/styles/vaporwave/showcase/_content.tsx:VaporwaveShowcase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/vaporwave/showcase/_content.tsx",
+      "target": "function:app/styles/vaporwave/showcase/_content.tsx:VaporwaveShowcase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/vaporwave/showcase/page.tsx",
+      "target": "function:app/styles/vaporwave/showcase/page.tsx:VaporwaveShowcasePage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/vaporwave/showcase/page.tsx",
+      "target": "function:app/styles/vaporwave/showcase/page.tsx:VaporwaveShowcasePage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/vaporwave/showcase/page.tsx",
+      "target": "file:app/styles/vaporwave/showcase/_content.tsx",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:app/styles/vhs-aesthetic/showcase/_content.tsx",
+      "target": "function:app/styles/vhs-aesthetic/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/vhs-aesthetic/showcase/_content.tsx",
+      "target": "function:app/styles/vhs-aesthetic/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/vhs-aesthetic/showcase/_content.tsx",
+      "target": "function:app/styles/vhs-aesthetic/showcase/_content.tsx:RecIndicator",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/vhs-aesthetic/showcase/_content.tsx",
+      "target": "function:app/styles/vhs-aesthetic/showcase/_content.tsx:SectionHeading",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/vhs-aesthetic/showcase/_content.tsx",
+      "target": "function:app/styles/vhs-aesthetic/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/vhs-aesthetic/showcase/_content.tsx",
+      "target": "function:app/styles/vhs-aesthetic/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/vhs-aesthetic/showcase/page.tsx",
+      "target": "function:app/styles/vhs-aesthetic/showcase/page.tsx:VhsAestheticShowcase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/vhs-aesthetic/showcase/page.tsx",
+      "target": "function:app/styles/vhs-aesthetic/showcase/page.tsx:VhsAestheticShowcase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/vhs-aesthetic/showcase/page.tsx",
+      "target": "file:app/styles/vhs-aesthetic/showcase/_content.tsx",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:app/styles/victorian-botanical/showcase/_content.tsx",
+      "target": "function:app/styles/victorian-botanical/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/victorian-botanical/showcase/_content.tsx",
+      "target": "function:app/styles/victorian-botanical/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/victorian-botanical/showcase/_content.tsx",
+      "target": "function:app/styles/victorian-botanical/showcase/_content.tsx:RosaDamascenaSvg",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/victorian-botanical/showcase/_content.tsx",
+      "target": "function:app/styles/victorian-botanical/showcase/_content.tsx:FernVictorianaSvg",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/victorian-botanical/showcase/_content.tsx",
+      "target": "function:app/styles/victorian-botanical/showcase/_content.tsx:CamelliaJaponicaSvg",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/victorian-botanical/showcase/_content.tsx",
+      "target": "function:app/styles/victorian-botanical/showcase/_content.tsx:IrisGermanicaSvg",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/victorian-botanical/showcase/_content.tsx",
+      "target": "function:app/styles/victorian-botanical/showcase/_content.tsx:HelleborusNigerSvg",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/victorian-botanical/showcase/_content.tsx",
+      "target": "function:app/styles/victorian-botanical/showcase/_content.tsx:MagnoliaGrandifloraSvg",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/victorian-botanical/showcase/_content.tsx",
+      "target": "function:app/styles/victorian-botanical/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/victorian-botanical/showcase/_content.tsx",
+      "target": "function:app/styles/victorian-botanical/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/victorian-botanical/showcase/page.tsx",
+      "target": "function:app/styles/victorian-botanical/showcase/page.tsx:Page",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/victorian-botanical/showcase/page.tsx",
+      "target": "function:app/styles/victorian-botanical/showcase/page.tsx:Page",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/victorian-botanical/showcase/page.tsx",
+      "target": "file:app/styles/victorian-botanical/showcase/_content.tsx",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:app/styles/visual-novel/showcase/_content.tsx",
+      "target": "function:app/styles/visual-novel/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/visual-novel/showcase/_content.tsx",
+      "target": "function:app/styles/visual-novel/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/visual-novel/showcase/_content.tsx",
+      "target": "function:app/styles/visual-novel/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/visual-novel/showcase/_content.tsx",
+      "target": "function:app/styles/visual-novel/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/visual-novel/showcase/page.tsx",
+      "target": "function:app/styles/visual-novel/showcase/page.tsx:VisualNovelShowcasePage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/visual-novel/showcase/page.tsx",
+      "target": "function:app/styles/visual-novel/showcase/page.tsx:VisualNovelShowcasePage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/visual-novel/showcase/page.tsx",
+      "target": "file:app/styles/visual-novel/showcase/_content.tsx",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:app/styles/wabi-sabi/showcase/_content.tsx",
+      "target": "function:app/styles/wabi-sabi/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/wabi-sabi/showcase/_content.tsx",
+      "target": "function:app/styles/wabi-sabi/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/wabi-sabi/showcase/_content.tsx",
+      "target": "function:app/styles/wabi-sabi/showcase/_content.tsx:EnsoSVG",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/wabi-sabi/showcase/_content.tsx",
+      "target": "function:app/styles/wabi-sabi/showcase/_content.tsx:WaterRippleSVG",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/wabi-sabi/showcase/_content.tsx",
+      "target": "function:app/styles/wabi-sabi/showcase/_content.tsx:BambooSVG",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/wabi-sabi/showcase/_content.tsx",
+      "target": "function:app/styles/wabi-sabi/showcase/_content.tsx:InkBrushLine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/wabi-sabi/showcase/_content.tsx",
+      "target": "function:app/styles/wabi-sabi/showcase/_content.tsx:MoonSVG",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/wabi-sabi/showcase/_content.tsx",
+      "target": "function:app/styles/wabi-sabi/showcase/_content.tsx:StoneTextureSVG",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/wabi-sabi/showcase/_content.tsx",
+      "target": "function:app/styles/wabi-sabi/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/wabi-sabi/showcase/_content.tsx",
+      "target": "function:app/styles/wabi-sabi/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/wabi-sabi/showcase/page.tsx",
+      "target": "function:app/styles/wabi-sabi/showcase/page.tsx:Page",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/wabi-sabi/showcase/page.tsx",
+      "target": "function:app/styles/wabi-sabi/showcase/page.tsx:Page",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/wabi-sabi/showcase/page.tsx",
+      "target": "file:app/styles/wabi-sabi/showcase/_content.tsx",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:app/styles/warm-dashboard/showcase/_content.tsx",
+      "target": "function:app/styles/warm-dashboard/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/warm-dashboard/showcase/_content.tsx",
+      "target": "function:app/styles/warm-dashboard/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/warm-dashboard/showcase/_content.tsx",
+      "target": "function:app/styles/warm-dashboard/showcase/_content.tsx:GridIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/warm-dashboard/showcase/_content.tsx",
+      "target": "function:app/styles/warm-dashboard/showcase/_content.tsx:UsersIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/warm-dashboard/showcase/_content.tsx",
+      "target": "function:app/styles/warm-dashboard/showcase/_content.tsx:RepeatIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/warm-dashboard/showcase/_content.tsx",
+      "target": "function:app/styles/warm-dashboard/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/warm-dashboard/showcase/_content.tsx",
+      "target": "function:app/styles/warm-dashboard/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/warm-dashboard/showcase/page.tsx",
+      "target": "file:app/styles/warm-dashboard/showcase/_content.tsx",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    }
+  ]
+}

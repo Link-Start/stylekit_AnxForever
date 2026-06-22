@@ -1,0 +1,1308 @@
+{
+  "nodes": [
+    {
+      "id": "file:components/style-preview/rules-exporter.tsx",
+      "type": "file",
+      "name": "rules-exporter.tsx",
+      "filePath": "components/style-preview/rules-exporter.tsx",
+      "summary": "Component providing UI for exporting style tokens and configurations in various formats.",
+      "tags": [
+        "component",
+        "export"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:components/style-preview/rules-exporter.tsx:RulesExporter",
+      "type": "function",
+      "name": "RulesExporter",
+      "filePath": "components/style-preview/rules-exporter.tsx",
+      "lineRange": [
+        17,
+        175
+      ],
+      "summary": "RulesExporter function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:components/style-preview/style-cover-preview.tsx",
+      "type": "file",
+      "name": "style-cover-preview.tsx",
+      "filePath": "components/style-preview/style-cover-preview.tsx",
+      "summary": "Style cover preview image component with fallback.",
+      "tags": [
+        "component",
+        "style-preview"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:components/style-preview/style-cover-preview.tsx:StyleCoverPreview",
+      "type": "function",
+      "name": "StyleCoverPreview",
+      "filePath": "components/style-preview/style-cover-preview.tsx",
+      "lineRange": [
+        15,
+        61
+      ],
+      "summary": "StyleCoverPreview function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/styles/style-rating.tsx",
+      "type": "file",
+      "name": "style-rating.tsx",
+      "filePath": "components/styles/style-rating.tsx",
+      "summary": "Star rating component for user-submitted style ratings.",
+      "tags": [
+        "component",
+        "styles"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:components/styles/style-rating.tsx:StyleRating",
+      "type": "function",
+      "name": "StyleRating",
+      "filePath": "components/styles/style-rating.tsx",
+      "lineRange": [
+        14,
+        141
+      ],
+      "summary": "StyleRating function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:components/styles/styles-content.tsx",
+      "type": "file",
+      "name": "styles-content.tsx",
+      "filePath": "components/styles/styles-content.tsx",
+      "summary": "Main styles listing page content with filter, sort, and grid display.",
+      "tags": [
+        "component",
+        "styles"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/styles/styles-content.tsx:parseStylesSearchParams",
+      "type": "function",
+      "name": "parseStylesSearchParams",
+      "filePath": "components/styles/styles-content.tsx",
+      "lineRange": [
+        29,
+        67
+      ],
+      "summary": "parseStylesSearchParams function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:components/styles/styles-content.tsx:StylesContent",
+      "type": "function",
+      "name": "StylesContent",
+      "filePath": "components/styles/styles-content.tsx",
+      "lineRange": [
+        69,
+        735
+      ],
+      "summary": "StylesContent function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:components/styles/version-badge.tsx",
+      "type": "file",
+      "name": "version-badge.tsx",
+      "filePath": "components/styles/version-badge.tsx",
+      "summary": "Version badge component displaying style version number.",
+      "tags": [
+        "component",
+        "styles"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:components/styles/version-badge.tsx:VersionBadge",
+      "type": "function",
+      "name": "VersionBadge",
+      "filePath": "components/styles/version-badge.tsx",
+      "lineRange": [
+        11,
+        53
+      ],
+      "summary": "VersionBadge function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/support/support-content.tsx",
+      "type": "file",
+      "name": "support-content.tsx",
+      "filePath": "components/support/support-content.tsx",
+      "summary": "Support page content component with sponsorship and thank-you display.",
+      "tags": [
+        "component",
+        "support"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:components/support/support-content.tsx:SupportContent",
+      "type": "function",
+      "name": "SupportContent",
+      "filePath": "components/support/support-content.tsx",
+      "lineRange": [
+        11,
+        195
+      ],
+      "summary": "SupportContent function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:components/support/thank-you-list.tsx",
+      "type": "file",
+      "name": "thank-you-list.tsx",
+      "filePath": "components/support/thank-you-list.tsx",
+      "summary": "Support page content component with sponsorship and thank-you display.",
+      "tags": [
+        "component",
+        "support"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:components/support/thank-you-list.tsx:ThankYouList",
+      "type": "function",
+      "name": "ThankYouList",
+      "filePath": "components/support/thank-you-list.tsx",
+      "lineRange": [
+        9,
+        82
+      ],
+      "summary": "ThankYouList function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:components/templates/templates-filter.tsx",
+      "type": "file",
+      "name": "templates-filter.tsx",
+      "filePath": "components/templates/templates-filter.tsx",
+      "summary": "Template filter component for filtering available design templates.",
+      "tags": [
+        "component",
+        "templates"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:components/templates/templates-filter.tsx:typeTranslationKey",
+      "type": "function",
+      "name": "typeTranslationKey",
+      "filePath": "components/templates/templates-filter.tsx",
+      "lineRange": [
+        11,
+        46
+      ],
+      "summary": "typeTranslationKey function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:components/templates/templates-filter.tsx:FilterButtons",
+      "type": "function",
+      "name": "FilterButtons",
+      "filePath": "components/templates/templates-filter.tsx",
+      "lineRange": [
+        48,
+        99
+      ],
+      "summary": "FilterButtons function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/templates/templates-filter.tsx:TemplatesFilter",
+      "type": "function",
+      "name": "TemplatesFilter",
+      "filePath": "components/templates/templates-filter.tsx",
+      "lineRange": [
+        101,
+        122
+      ],
+      "summary": "TemplatesFilter function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/theme-provider.tsx",
+      "type": "file",
+      "name": "theme-provider.tsx",
+      "filePath": "components/theme-provider.tsx",
+      "summary": "Theme context provider component enabling light/dark theme switching.",
+      "tags": [
+        "component",
+        "theme"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:components/theme-provider.tsx:ThemeProvider",
+      "type": "function",
+      "name": "ThemeProvider",
+      "filePath": "components/theme-provider.tsx",
+      "lineRange": [
+        6,
+        8
+      ],
+      "summary": "ThemeProvider function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/typography/typography-content.tsx",
+      "type": "file",
+      "name": "typography-content.tsx",
+      "filePath": "components/typography/typography-content.tsx",
+      "summary": "Typography style showcase component displaying font and text styles.",
+      "tags": [
+        "component",
+        "typography"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/typography/typography-content.tsx:TypographyContent",
+      "type": "function",
+      "name": "TypographyContent",
+      "filePath": "components/typography/typography-content.tsx",
+      "lineRange": [
+        13,
+        156
+      ],
+      "summary": "TypographyContent function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/typography/typography-content.tsx:TypographyCard",
+      "type": "function",
+      "name": "TypographyCard",
+      "filePath": "components/typography/typography-content.tsx",
+      "lineRange": [
+        165,
+        257
+      ],
+      "summary": "TypographyCard function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:components/ui/__tests__/alert.test.tsx",
+      "type": "file",
+      "name": "alert.test.tsx",
+      "filePath": "components/ui/__tests__/alert.test.tsx",
+      "summary": "Unit tests covering the API route handlers and request validation.",
+      "tags": [
+        "test",
+        "api-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/ui/__tests__/button.test.tsx",
+      "type": "file",
+      "name": "button.test.tsx",
+      "filePath": "components/ui/__tests__/button.test.tsx",
+      "summary": "Unit tests covering the API route handlers and request validation.",
+      "tags": [
+        "test",
+        "api-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/ui/__tests__/card.test.tsx",
+      "type": "file",
+      "name": "card.test.tsx",
+      "filePath": "components/ui/__tests__/card.test.tsx",
+      "summary": "Unit tests covering the API route handlers and request validation.",
+      "tags": [
+        "test",
+        "api-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/ui/__tests__/input.test.tsx",
+      "type": "file",
+      "name": "input.test.tsx",
+      "filePath": "components/ui/__tests__/input.test.tsx",
+      "summary": "Unit tests covering the API route handlers and request validation.",
+      "tags": [
+        "test",
+        "api-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/ui/__tests__/loading.test.tsx",
+      "type": "file",
+      "name": "loading.test.tsx",
+      "filePath": "components/ui/__tests__/loading.test.tsx",
+      "summary": "Unit tests covering the API route handlers and request validation.",
+      "tags": [
+        "test",
+        "api-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/ui/__tests__/progress.test.tsx",
+      "type": "file",
+      "name": "progress.test.tsx",
+      "filePath": "components/ui/__tests__/progress.test.tsx",
+      "summary": "Unit tests covering the API route handlers and request validation.",
+      "tags": [
+        "test",
+        "api-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/ui/alert/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "components/ui/alert/index.ts",
+      "summary": "Alert UI component barrel export for the alert primitive.",
+      "tags": [
+        "component",
+        "ui"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/ui/button/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "components/ui/button/index.ts",
+      "summary": "Button UI component barrel export for the button primitive.",
+      "tags": [
+        "component",
+        "ui"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/ui/card/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "components/ui/card/index.ts",
+      "summary": "Card UI component barrel export for the card primitive.",
+      "tags": [
+        "component",
+        "ui"
+      ],
+      "complexity": "simple",
+      "languageNotes": "Barrel file re-exporting multiple modules."
+    },
+    {
+      "id": "file:components/ui/checkbox/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "components/ui/checkbox/index.ts",
+      "summary": "Checkbox UI component barrel export.",
+      "tags": [
+        "component",
+        "ui"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/ui/collapsible-section.tsx",
+      "type": "file",
+      "name": "collapsible-section.tsx",
+      "filePath": "components/ui/collapsible-section.tsx",
+      "summary": "Collapsible section wrapper component for expandable content areas.",
+      "tags": [
+        "component",
+        "ui"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:components/ui/collapsible-section.tsx:CollapsibleSection",
+      "type": "function",
+      "name": "CollapsibleSection",
+      "filePath": "components/ui/collapsible-section.tsx",
+      "lineRange": [
+        16,
+        35
+      ],
+      "summary": "CollapsibleSection function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/ui/command-palette.tsx",
+      "type": "file",
+      "name": "command-palette.tsx",
+      "filePath": "components/ui/command-palette.tsx",
+      "summary": "Command palette UI component for keyboard-driven navigation and search.",
+      "tags": [
+        "component",
+        "ui"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/ui/command-palette.tsx:CommandPalette",
+      "type": "function",
+      "name": "CommandPalette",
+      "filePath": "components/ui/command-palette.tsx",
+      "lineRange": [
+        21,
+        275
+      ],
+      "summary": "CommandPalette function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:components/ui/drawer/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "components/ui/drawer/index.ts",
+      "summary": "Drawer UI component barrel export for slide-out panels.",
+      "tags": [
+        "component",
+        "ui"
+      ],
+      "complexity": "simple",
+      "languageNotes": "Barrel file re-exporting multiple modules."
+    },
+    {
+      "id": "file:components/ui/input-otp/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "components/ui/input-otp/index.ts",
+      "summary": "OTP input UI component barrel export.",
+      "tags": [
+        "component",
+        "ui"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/ui/input/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "components/ui/input/index.ts",
+      "summary": "Input UI component barrel export for text input primitive.",
+      "tags": [
+        "component",
+        "ui"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/ui/lazy-section.tsx",
+      "type": "file",
+      "name": "lazy-section.tsx",
+      "filePath": "components/ui/lazy-section.tsx",
+      "summary": "Lazy-loading section component for deferred rendering of content areas.",
+      "tags": [
+        "component",
+        "ui"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:components/ui/lazy-section.tsx:LazySection",
+      "type": "function",
+      "name": "LazySection",
+      "filePath": "components/ui/lazy-section.tsx",
+      "lineRange": [
+        17,
+        49
+      ],
+      "summary": "LazySection function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/ui/list/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "components/ui/list/index.ts",
+      "summary": "List UI component barrel export.",
+      "tags": [
+        "component",
+        "ui"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/ui/loading/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "components/ui/loading/index.ts",
+      "summary": "Loading spinner UI component barrel export.",
+      "tags": [
+        "component",
+        "ui"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/ui/modal/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "components/ui/modal/index.ts",
+      "summary": "Modal dialog UI component barrel export.",
+      "tags": [
+        "component",
+        "ui"
+      ],
+      "complexity": "simple",
+      "languageNotes": "Barrel file re-exporting multiple modules."
+    },
+    {
+      "id": "file:components/ui/pagination/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "components/ui/pagination/index.ts",
+      "summary": "Pagination UI component for page navigation controls.",
+      "tags": [
+        "component",
+        "ui"
+      ],
+      "complexity": "simple",
+      "languageNotes": "Barrel file re-exporting multiple modules."
+    },
+    {
+      "id": "file:components/ui/pagination/pagination.tsx",
+      "type": "file",
+      "name": "pagination.tsx",
+      "filePath": "components/ui/pagination/pagination.tsx",
+      "summary": "Pagination UI component for page navigation controls.",
+      "tags": [
+        "component",
+        "ui"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:components/ui/pagination/pagination.tsx:Pagination",
+      "type": "function",
+      "name": "Pagination",
+      "filePath": "components/ui/pagination/pagination.tsx",
+      "lineRange": [
+        6,
+        13
+      ],
+      "summary": "Pagination function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:components/ui/pagination/pagination.tsx:PaginationLink",
+      "type": "function",
+      "name": "PaginationLink",
+      "filePath": "components/ui/pagination/pagination.tsx",
+      "lineRange": [
+        41,
+        58
+      ],
+      "summary": "PaginationLink function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:components/ui/pagination/pagination.tsx:PaginationPrevious",
+      "type": "function",
+      "name": "PaginationPrevious",
+      "filePath": "components/ui/pagination/pagination.tsx",
+      "lineRange": [
+        61,
+        72
+      ],
+      "summary": "PaginationPrevious function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:components/ui/pagination/pagination.tsx:PaginationNext",
+      "type": "function",
+      "name": "PaginationNext",
+      "filePath": "components/ui/pagination/pagination.tsx",
+      "lineRange": [
+        75,
+        86
+      ],
+      "summary": "PaginationNext function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:components/ui/pagination/pagination.tsx:PaginationEllipsis",
+      "type": "function",
+      "name": "PaginationEllipsis",
+      "filePath": "components/ui/pagination/pagination.tsx",
+      "lineRange": [
+        89,
+        101
+      ],
+      "summary": "PaginationEllipsis function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/ui/popover/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "components/ui/popover/index.ts",
+      "summary": "Popover UI component barrel export.",
+      "tags": [
+        "component",
+        "ui"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/ui/progress/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "components/ui/progress/index.ts",
+      "summary": "Progress bar UI component barrel export.",
+      "tags": [
+        "component",
+        "ui"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/ui/radio/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "components/ui/radio/index.ts",
+      "summary": "Radio button UI component barrel export.",
+      "tags": [
+        "component",
+        "ui"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:components/style-preview/rules-exporter.tsx",
+      "target": "function:components/style-preview/rules-exporter.tsx:RulesExporter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/style-preview/rules-exporter.tsx",
+      "target": "function:components/style-preview/rules-exporter.tsx:RulesExporter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/style-preview/rules-exporter.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/style-preview/rules-exporter.tsx",
+      "target": "file:lib/styles/style-copy-identity.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/style-preview/style-cover-preview.tsx",
+      "target": "function:components/style-preview/style-cover-preview.tsx:StyleCoverPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/style-preview/style-cover-preview.tsx",
+      "target": "function:components/style-preview/style-cover-preview.tsx:StyleCoverPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/style-preview/style-cover-preview.tsx",
+      "target": "file:lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/styles/style-rating.tsx",
+      "target": "function:components/styles/style-rating.tsx:StyleRating",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/styles/style-rating.tsx",
+      "target": "function:components/styles/style-rating.tsx:StyleRating",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/styles/style-rating.tsx",
+      "target": "file:lib/auth/use-user.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/styles/style-rating.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/styles/style-rating.tsx",
+      "target": "file:lib/swr/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/styles/styles-content.tsx",
+      "target": "function:components/styles/styles-content.tsx:parseStylesSearchParams",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/styles/styles-content.tsx",
+      "target": "function:components/styles/styles-content.tsx:StylesContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/styles/styles-content.tsx",
+      "target": "function:components/styles/styles-content.tsx:StylesContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/styles/styles-content.tsx",
+      "target": "file:components/home/style-card.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/styles/styles-content.tsx",
+      "target": "file:lib/favorites/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/styles/styles-content.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/styles/styles-content.tsx",
+      "target": "file:lib/styles/meta.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/styles/styles-content.tsx",
+      "target": "file:lib/styles/scenarios.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/styles/styles-content.tsx",
+      "target": "file:lib/swr/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/styles/version-badge.tsx",
+      "target": "function:components/styles/version-badge.tsx:VersionBadge",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/styles/version-badge.tsx",
+      "target": "function:components/styles/version-badge.tsx:VersionBadge",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/styles/version-badge.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/support/support-content.tsx",
+      "target": "function:components/support/support-content.tsx:SupportContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/support/support-content.tsx",
+      "target": "function:components/support/support-content.tsx:SupportContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/support/support-content.tsx",
+      "target": "file:components/support/thank-you-list.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/support/support-content.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/support/support-content.tsx",
+      "target": "file:lib/i18n/routing.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/support/support-content.tsx",
+      "target": "file:lib/site/support.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/support/thank-you-list.tsx",
+      "target": "function:components/support/thank-you-list.tsx:ThankYouList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/support/thank-you-list.tsx",
+      "target": "function:components/support/thank-you-list.tsx:ThankYouList",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/support/thank-you-list.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/support/thank-you-list.tsx",
+      "target": "file:lib/site/support.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/templates/templates-filter.tsx",
+      "target": "function:components/templates/templates-filter.tsx:typeTranslationKey",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/templates/templates-filter.tsx",
+      "target": "function:components/templates/templates-filter.tsx:FilterButtons",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/templates/templates-filter.tsx",
+      "target": "function:components/templates/templates-filter.tsx:TemplatesFilter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/templates/templates-filter.tsx",
+      "target": "function:components/templates/templates-filter.tsx:TemplatesFilter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/templates/templates-filter.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/theme-provider.tsx",
+      "target": "function:components/theme-provider.tsx:ThemeProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/theme-provider.tsx",
+      "target": "function:components/theme-provider.tsx:ThemeProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/typography/typography-content.tsx",
+      "target": "function:components/typography/typography-content.tsx:TypographyContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/typography/typography-content.tsx",
+      "target": "function:components/typography/typography-content.tsx:TypographyContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/typography/typography-content.tsx",
+      "target": "function:components/typography/typography-content.tsx:TypographyCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/typography/typography-content.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/typography/typography-content.tsx",
+      "target": "file:lib/typography/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/ui/__tests__/alert.test.tsx",
+      "target": "file:components/ui/alert/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/ui/alert/index.ts",
+      "target": "file:components/ui/__tests__/alert.test.tsx",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:components/ui/__tests__/button.test.tsx",
+      "target": "file:components/ui/button/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/ui/button/index.ts",
+      "target": "file:components/ui/__tests__/button.test.tsx",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:components/ui/__tests__/card.test.tsx",
+      "target": "file:components/ui/card/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/ui/card/index.ts",
+      "target": "file:components/ui/__tests__/card.test.tsx",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:components/ui/__tests__/input.test.tsx",
+      "target": "file:components/ui/input/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/ui/input/index.ts",
+      "target": "file:components/ui/__tests__/input.test.tsx",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:components/ui/__tests__/loading.test.tsx",
+      "target": "file:components/ui/loading/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/ui/loading/index.ts",
+      "target": "file:components/ui/__tests__/loading.test.tsx",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:components/ui/__tests__/progress.test.tsx",
+      "target": "file:components/ui/progress/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/ui/progress/index.ts",
+      "target": "file:components/ui/__tests__/progress.test.tsx",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:components/ui/collapsible-section.tsx",
+      "target": "function:components/ui/collapsible-section.tsx:CollapsibleSection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/ui/collapsible-section.tsx",
+      "target": "function:components/ui/collapsible-section.tsx:CollapsibleSection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/ui/command-palette.tsx",
+      "target": "function:components/ui/command-palette.tsx:CommandPalette",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/ui/command-palette.tsx",
+      "target": "function:components/ui/command-palette.tsx:CommandPalette",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/ui/command-palette.tsx",
+      "target": "file:lib/analytics/events.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/ui/command-palette.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/ui/command-palette.tsx",
+      "target": "file:lib/i18n/routing.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/ui/command-palette.tsx",
+      "target": "file:lib/styles/meta.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/ui/lazy-section.tsx",
+      "target": "function:components/ui/lazy-section.tsx:LazySection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/ui/lazy-section.tsx",
+      "target": "function:components/ui/lazy-section.tsx:LazySection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/ui/pagination/pagination.tsx",
+      "target": "function:components/ui/pagination/pagination.tsx:Pagination",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/ui/pagination/pagination.tsx",
+      "target": "function:components/ui/pagination/pagination.tsx:Pagination",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/ui/pagination/pagination.tsx",
+      "target": "function:components/ui/pagination/pagination.tsx:PaginationLink",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/ui/pagination/pagination.tsx",
+      "target": "function:components/ui/pagination/pagination.tsx:PaginationLink",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/ui/pagination/pagination.tsx",
+      "target": "function:components/ui/pagination/pagination.tsx:PaginationPrevious",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/ui/pagination/pagination.tsx",
+      "target": "function:components/ui/pagination/pagination.tsx:PaginationPrevious",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/ui/pagination/pagination.tsx",
+      "target": "function:components/ui/pagination/pagination.tsx:PaginationNext",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/ui/pagination/pagination.tsx",
+      "target": "function:components/ui/pagination/pagination.tsx:PaginationNext",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/ui/pagination/pagination.tsx",
+      "target": "function:components/ui/pagination/pagination.tsx:PaginationEllipsis",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/ui/pagination/pagination.tsx",
+      "target": "function:components/ui/pagination/pagination.tsx:PaginationEllipsis",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/ui/pagination/pagination.tsx",
+      "target": "file:components/ui/button/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/ui/pagination/pagination.tsx",
+      "target": "file:lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

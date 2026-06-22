@@ -1,0 +1,607 @@
+{
+  "nodes": [
+    {
+      "id": "file:lib/styles/__tests__/atoms.test.ts",
+      "type": "file",
+      "name": "atoms.test.ts",
+      "filePath": "lib/styles/__tests__/atoms.test.ts",
+      "summary": "Unit tests for style atom components, validating rendering and styling output.",
+      "tags": [
+        "test",
+        "atoms",
+        "style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/styles/acid-graphics.ts",
+      "type": "file",
+      "name": "acid-graphics.ts",
+      "filePath": "lib/styles/acid-graphics.ts",
+      "summary": "Style implementation for \"Acid Graphics\", defining the complete design system with CSS classes, animations, and component styling.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/african-textile.ts",
+      "type": "file",
+      "name": "african-textile.ts",
+      "filePath": "lib/styles/african-textile.ts",
+      "summary": "Style implementation for \"African Textile\", defining the complete design system with CSS classes, animations, and component styling.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/anti-design.ts",
+      "type": "file",
+      "name": "anti-design.ts",
+      "filePath": "lib/styles/anti-design.ts",
+      "summary": "Style implementation for \"Anti Design\", defining the complete design system with CSS classes, animations, and component styling.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/apple-style.ts",
+      "type": "file",
+      "name": "apple-style.ts",
+      "filePath": "lib/styles/apple-style.ts",
+      "summary": "Style implementation for \"Apple Style\", defining the complete design system with CSS classes, animations, and component styling.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/arcade-crt.ts",
+      "type": "file",
+      "name": "arcade-crt.ts",
+      "filePath": "lib/styles/arcade-crt.ts",
+      "summary": "Style implementation for \"Arcade Crt\", defining the complete design system with CSS classes, animations, and component styling.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/art-deco.ts",
+      "type": "file",
+      "name": "art-deco.ts",
+      "filePath": "lib/styles/art-deco.ts",
+      "summary": "Style implementation for \"Art Deco\", defining the complete design system with CSS classes, animations, and component styling.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/art-nouveau.ts",
+      "type": "file",
+      "name": "art-nouveau.ts",
+      "filePath": "lib/styles/art-nouveau.ts",
+      "summary": "Style implementation for \"Art Nouveau\", defining the complete design system with CSS classes, animations, and component styling.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/asymmetric-grid.ts",
+      "type": "file",
+      "name": "asymmetric-grid.ts",
+      "filePath": "lib/styles/asymmetric-grid.ts",
+      "summary": "Style implementation for \"Asymmetric Grid\", defining the complete design system with CSS classes, animations, and component styling.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/atoms/apple-style.ts",
+      "type": "file",
+      "name": "apple-style.ts",
+      "filePath": "lib/styles/atoms/apple-style.ts",
+      "summary": "Atom component for the \"apple-style\" design style, defining core visual primitives and styling utilities.",
+      "tags": [
+        "atoms",
+        "component",
+        "style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/styles/atoms/bauhaus.ts",
+      "type": "file",
+      "name": "bauhaus.ts",
+      "filePath": "lib/styles/atoms/bauhaus.ts",
+      "summary": "Atom component for the \"bauhaus\" design style, defining core visual primitives and styling utilities.",
+      "tags": [
+        "atoms",
+        "component",
+        "style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/styles/atoms/bento-grid.ts",
+      "type": "file",
+      "name": "bento-grid.ts",
+      "filePath": "lib/styles/atoms/bento-grid.ts",
+      "summary": "Atom component for the \"bento-grid\" design style, defining core visual primitives and styling utilities.",
+      "tags": [
+        "atoms",
+        "component",
+        "style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/styles/atoms/claymorphism.ts",
+      "type": "file",
+      "name": "claymorphism.ts",
+      "filePath": "lib/styles/atoms/claymorphism.ts",
+      "summary": "Atom component for the \"claymorphism\" design style, defining core visual primitives and styling utilities.",
+      "tags": [
+        "atoms",
+        "component",
+        "style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/styles/atoms/comic-style.ts",
+      "type": "file",
+      "name": "comic-style.ts",
+      "filePath": "lib/styles/atoms/comic-style.ts",
+      "summary": "Atom component for the \"comic-style\" design style, defining core visual primitives and styling utilities.",
+      "tags": [
+        "atoms",
+        "component",
+        "style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/styles/atoms/cyberpunk-neon.ts",
+      "type": "file",
+      "name": "cyberpunk-neon.ts",
+      "filePath": "lib/styles/atoms/cyberpunk-neon.ts",
+      "summary": "Atom component for the \"cyberpunk-neon\" design style, defining core visual primitives and styling utilities.",
+      "tags": [
+        "atoms",
+        "component",
+        "style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/styles/atoms/editorial.ts",
+      "type": "file",
+      "name": "editorial.ts",
+      "filePath": "lib/styles/atoms/editorial.ts",
+      "summary": "Atom component for the \"editorial\" design style, defining core visual primitives and styling utilities.",
+      "tags": [
+        "atoms",
+        "component",
+        "style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/styles/atoms/glassmorphism.ts",
+      "type": "file",
+      "name": "glassmorphism.ts",
+      "filePath": "lib/styles/atoms/glassmorphism.ts",
+      "summary": "Atom component for the \"glassmorphism\" design style, defining core visual primitives and styling utilities.",
+      "tags": [
+        "atoms",
+        "component",
+        "style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/styles/atoms/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "lib/styles/atoms/index.ts",
+      "summary": "Barrel file re-exporting all style atom components for easy importing across the application.",
+      "tags": [
+        "barrel",
+        "atoms",
+        "index"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/styles/atoms/neo-brutalist.ts",
+      "type": "file",
+      "name": "neo-brutalist.ts",
+      "filePath": "lib/styles/atoms/neo-brutalist.ts",
+      "summary": "Atom component for the \"neo-brutalist\" design style, defining core visual primitives and styling utilities.",
+      "tags": [
+        "atoms",
+        "component",
+        "style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/styles/atoms/swiss-style.ts",
+      "type": "file",
+      "name": "swiss-style.ts",
+      "filePath": "lib/styles/atoms/swiss-style.ts",
+      "summary": "Atom component for the \"swiss-style\" design style, defining core visual primitives and styling utilities.",
+      "tags": [
+        "atoms",
+        "component",
+        "style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/styles/atoms/types.ts",
+      "type": "file",
+      "name": "types.ts",
+      "filePath": "lib/styles/atoms/types.ts",
+      "summary": "TypeScript type definitions for style atom components, defining props and configuration interfaces.",
+      "tags": [
+        "type-definition",
+        "atoms",
+        "style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/styles/bauhaus.ts",
+      "type": "file",
+      "name": "bauhaus.ts",
+      "filePath": "lib/styles/bauhaus.ts",
+      "summary": "Style implementation for \"Bauhaus\", defining the complete design system with CSS classes, animations, and component styling.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/bento-grid.ts",
+      "type": "file",
+      "name": "bento-grid.ts",
+      "filePath": "lib/styles/bento-grid.ts",
+      "summary": "Style implementation for \"Bento Grid\", defining the complete design system with CSS classes, animations, and component styling.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/blueprint.ts",
+      "type": "file",
+      "name": "blueprint.ts",
+      "filePath": "lib/styles/blueprint.ts",
+      "summary": "Style implementation for \"Blueprint\", defining the complete design system with CSS classes, animations, and component styling.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/brutalist-web.ts",
+      "type": "file",
+      "name": "brutalist-web.ts",
+      "filePath": "lib/styles/brutalist-web.ts",
+      "summary": "Style implementation for \"Brutalist Web\", defining the complete design system with CSS classes, animations, and component styling.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/card-stack.ts",
+      "type": "file",
+      "name": "card-stack.ts",
+      "filePath": "lib/styles/card-stack.ts",
+      "summary": "Style implementation for \"Card Stack\", defining the complete design system with CSS classes, animations, and component styling.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/cel-shading.ts",
+      "type": "file",
+      "name": "cel-shading.ts",
+      "filePath": "lib/styles/cel-shading.ts",
+      "summary": "Style implementation for \"Cel Shading\", defining the complete design system with CSS classes, animations, and component styling.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/claymorphism.ts",
+      "type": "file",
+      "name": "claymorphism.ts",
+      "filePath": "lib/styles/claymorphism.ts",
+      "summary": "Style implementation for \"Claymorphism\", defining the complete design system with CSS classes, animations, and component styling.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/collage-art.ts",
+      "type": "file",
+      "name": "collage-art.ts",
+      "filePath": "lib/styles/collage-art.ts",
+      "summary": "Style implementation for \"Collage Art\", defining the complete design system with CSS classes, animations, and component styling.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:lib/styles/__tests__/atoms.test.ts",
+      "target": "file:lib/styles/atoms/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/acid-graphics.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/african-textile.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/anti-design.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/apple-style.ts",
+      "target": "file:lib/styles/atoms/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/apple-style.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/arcade-crt.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/art-deco.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/art-nouveau.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/asymmetric-grid.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/atoms/apple-style.ts",
+      "target": "file:lib/styles/atoms/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/atoms/bauhaus.ts",
+      "target": "file:lib/styles/atoms/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/atoms/bento-grid.ts",
+      "target": "file:lib/styles/atoms/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/atoms/claymorphism.ts",
+      "target": "file:lib/styles/atoms/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/atoms/comic-style.ts",
+      "target": "file:lib/styles/atoms/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/atoms/cyberpunk-neon.ts",
+      "target": "file:lib/styles/atoms/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/atoms/editorial.ts",
+      "target": "file:lib/styles/atoms/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/atoms/glassmorphism.ts",
+      "target": "file:lib/styles/atoms/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/atoms/index.ts",
+      "target": "file:lib/styles/atoms/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/atoms/neo-brutalist.ts",
+      "target": "file:lib/styles/atoms/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/atoms/swiss-style.ts",
+      "target": "file:lib/styles/atoms/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/bauhaus.ts",
+      "target": "file:lib/styles/atoms/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/bauhaus.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/bento-grid.ts",
+      "target": "file:lib/styles/atoms/bento-grid.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/bento-grid.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/blueprint.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/brutalist-web.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/card-stack.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/cel-shading.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/claymorphism.ts",
+      "target": "file:lib/styles/atoms/claymorphism.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/claymorphism.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/collage-art.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

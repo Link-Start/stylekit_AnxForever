@@ -1,0 +1,1607 @@
+{
+  "nodes": [
+    {
+      "id": "file:lib/styles/rule-normalizer.ts",
+      "type": "file",
+      "name": "rule-normalizer.ts",
+      "filePath": "lib/styles/rule-normalizer.ts",
+      "summary": "Style rule normalizer transforming raw style rules into structured format for consistency.",
+      "tags": [
+        "styles",
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/style-diff.ts",
+      "type": "file",
+      "name": "style-diff.ts",
+      "filePath": "lib/styles/style-diff.ts",
+      "summary": "Style diff utility comparing two style configurations and reporting differences.",
+      "tags": [
+        "styles",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/token-diff.ts",
+      "type": "file",
+      "name": "token-diff.ts",
+      "filePath": "lib/styles/token-diff.ts",
+      "summary": "Token diff utility identifying changes between two sets of design tokens.",
+      "tags": [
+        "styles",
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/tokens-registry.ts",
+      "type": "file",
+      "name": "tokens-registry.ts",
+      "filePath": "lib/styles/tokens-registry.ts",
+      "summary": "Tokens registry barrel export providing access to all design token data.",
+      "tags": [
+        "styles",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/styles/tokens.ts",
+      "type": "file",
+      "name": "tokens.ts",
+      "filePath": "lib/styles/tokens.ts",
+      "summary": "Design tokens data containing color palettes, spacing, typography, and other design primitives.",
+      "tags": [
+        "styles",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/versioning/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "lib/versioning/index.ts",
+      "summary": "Versioning module: versioning.",
+      "tags": [
+        "versioning",
+        "utility"
+      ],
+      "complexity": "simple",
+      "languageNotes": "Barrel file re-exporting multiple modules."
+    },
+    {
+      "id": "file:lib/versioning/registry.ts",
+      "type": "file",
+      "name": "registry.ts",
+      "filePath": "lib/versioning/registry.ts",
+      "summary": "Version registry service maintaining version history records.",
+      "tags": [
+        "versioning",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/versioning/types.ts",
+      "type": "file",
+      "name": "types.ts",
+      "filePath": "lib/versioning/types.ts",
+      "summary": "Versioning type definitions for style version data structures.",
+      "tags": [
+        "versioning",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/versioning/version-data.ts",
+      "type": "file",
+      "name": "version-data.ts",
+      "filePath": "lib/versioning/version-data.ts",
+      "summary": "Version data service handling version creation, storage, and retrieval for style iteration tracking.",
+      "tags": [
+        "versioning",
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:tests/unit/lib/accessibility-scorer.test.ts",
+      "type": "file",
+      "name": "accessibility-scorer.test.ts",
+      "filePath": "tests/unit/lib/accessibility-scorer.test.ts",
+      "summary": "Unit tests for the accessibility-scorer library module, verifying expected outputs and edge cases.",
+      "tags": [
+        "test",
+        "api-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:tests/unit/lib/export-ide-configs.test.ts",
+      "type": "file",
+      "name": "export-ide-configs.test.ts",
+      "filePath": "tests/unit/lib/export-ide-configs.test.ts",
+      "summary": "Unit tests for the export-ide-configs library module, verifying expected outputs and edge cases.",
+      "tags": [
+        "test",
+        "api-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:tests/unit/lib/export-shadcn-theme.test.ts",
+      "type": "file",
+      "name": "export-shadcn-theme.test.ts",
+      "filePath": "tests/unit/lib/export-shadcn-theme.test.ts",
+      "summary": "Unit tests for the export-shadcn-theme library module, verifying expected outputs and edge cases.",
+      "tags": [
+        "test",
+        "api-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:tests/unit/lib/export-tailwind-preset.test.ts",
+      "type": "file",
+      "name": "export-tailwind-preset.test.ts",
+      "filePath": "tests/unit/lib/export-tailwind-preset.test.ts",
+      "summary": "Unit tests for the export-tailwind-preset library module, verifying expected outputs and edge cases.",
+      "tags": [
+        "test",
+        "api-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:tests/unit/lib/token-diff.test.ts",
+      "type": "file",
+      "name": "token-diff.test.ts",
+      "filePath": "tests/unit/lib/token-diff.test.ts",
+      "summary": "Unit tests for the token-diff library module, verifying expected outputs and edge cases.",
+      "tags": [
+        "test",
+        "api-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:tests/unit/lib/versioning.test.ts",
+      "type": "file",
+      "name": "versioning.test.ts",
+      "filePath": "tests/unit/lib/versioning.test.ts",
+      "summary": "Unit tests for the versioning library module, verifying expected outputs and edge cases.",
+      "tags": [
+        "test",
+        "api-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:tools/scripts/check-catalog-integrity.ts",
+      "type": "file",
+      "name": "check-catalog-integrity.ts",
+      "filePath": "tools/scripts/check-catalog-integrity.ts",
+      "summary": "check-catalog-integrity.ts",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:tools/scripts/lint-style-rules.ts",
+      "type": "file",
+      "name": "lint-style-rules.ts",
+      "filePath": "tools/scripts/lint-style-rules.ts",
+      "summary": "lint-style-rules.ts",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/styles/rule-normalizer.ts:dedupe",
+      "type": "function",
+      "name": "dedupe",
+      "filePath": "lib/styles/rule-normalizer.ts",
+      "lineRange": [
+        89,
+        101
+      ],
+      "summary": "dedupe function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/styles/rule-normalizer.ts:parseHeading",
+      "type": "function",
+      "name": "parseHeading",
+      "filePath": "lib/styles/rule-normalizer.ts",
+      "lineRange": [
+        103,
+        113
+      ],
+      "summary": "parseHeading function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/styles/rule-normalizer.ts:parseAiRules",
+      "type": "function",
+      "name": "parseAiRules",
+      "filePath": "lib/styles/rule-normalizer.ts",
+      "lineRange": [
+        130,
+        156
+      ],
+      "summary": "parseAiRules function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/styles/rule-normalizer.ts:collectFlags",
+      "type": "function",
+      "name": "collectFlags",
+      "filePath": "lib/styles/rule-normalizer.ts",
+      "lineRange": [
+        164,
+        175
+      ],
+      "summary": "collectFlags function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/styles/rule-normalizer.ts:collectAiFlags",
+      "type": "function",
+      "name": "collectAiFlags",
+      "filePath": "lib/styles/rule-normalizer.ts",
+      "lineRange": [
+        177,
+        213
+      ],
+      "summary": "collectAiFlags function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/styles/rule-normalizer.ts:pruneConflictingListItems",
+      "type": "function",
+      "name": "pruneConflictingListItems",
+      "filePath": "lib/styles/rule-normalizer.ts",
+      "lineRange": [
+        228,
+        270
+      ],
+      "summary": "pruneConflictingListItems function with 3 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/styles/rule-normalizer.ts:normalizeAiRulesText",
+      "type": "function",
+      "name": "normalizeAiRulesText",
+      "filePath": "lib/styles/rule-normalizer.ts",
+      "lineRange": [
+        283,
+        333
+      ],
+      "summary": "normalizeAiRulesText function with 3 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:lib/styles/rule-normalizer.ts:flagConflicts",
+      "type": "function",
+      "name": "flagConflicts",
+      "filePath": "lib/styles/rule-normalizer.ts",
+      "lineRange": [
+        335,
+        375
+      ],
+      "summary": "flagConflicts function with 3 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/styles/rule-normalizer.ts:detectStyleRuleConflicts",
+      "type": "function",
+      "name": "detectStyleRuleConflicts",
+      "filePath": "lib/styles/rule-normalizer.ts",
+      "lineRange": [
+        377,
+        379
+      ],
+      "summary": "detectStyleRuleConflicts function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/styles/rule-normalizer.ts:normalizeStyleRules",
+      "type": "function",
+      "name": "normalizeStyleRules",
+      "filePath": "lib/styles/rule-normalizer.ts",
+      "lineRange": [
+        381,
+        393
+      ],
+      "summary": "normalizeStyleRules function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/styles/style-diff.ts:hexToRgb",
+      "type": "function",
+      "name": "hexToRgb",
+      "filePath": "lib/styles/style-diff.ts",
+      "lineRange": [
+        10,
+        20
+      ],
+      "summary": "hexToRgb function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/styles/style-diff.ts:colorDistance",
+      "type": "function",
+      "name": "colorDistance",
+      "filePath": "lib/styles/style-diff.ts",
+      "lineRange": [
+        22,
+        37
+      ],
+      "summary": "colorDistance function with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/styles/style-diff.ts:diffSingleField",
+      "type": "function",
+      "name": "diffSingleField",
+      "filePath": "lib/styles/style-diff.ts",
+      "lineRange": [
+        67,
+        81
+      ],
+      "summary": "diffSingleField function with 3 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/styles/style-diff.ts:diffTokens",
+      "type": "function",
+      "name": "diffTokens",
+      "filePath": "lib/styles/style-diff.ts",
+      "lineRange": [
+        83,
+        126
+      ],
+      "summary": "diffTokens function with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/styles/style-diff.ts:findClosestStyles",
+      "type": "function",
+      "name": "findClosestStyles",
+      "filePath": "lib/styles/style-diff.ts",
+      "lineRange": [
+        128,
+        149
+      ],
+      "summary": "findClosestStyles function with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/styles/token-diff.ts:parseHexToRgb",
+      "type": "function",
+      "name": "parseHexToRgb",
+      "filePath": "lib/styles/token-diff.ts",
+      "lineRange": [
+        34,
+        52
+      ],
+      "summary": "parseHexToRgb function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/styles/token-diff.ts:colorDistance",
+      "type": "function",
+      "name": "colorDistance",
+      "filePath": "lib/styles/token-diff.ts",
+      "lineRange": [
+        58,
+        72
+      ],
+      "summary": "colorDistance function with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/styles/token-diff.ts:stringDiff",
+      "type": "function",
+      "name": "stringDiff",
+      "filePath": "lib/styles/token-diff.ts",
+      "lineRange": [
+        77,
+        98
+      ],
+      "summary": "stringDiff function with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/styles/token-diff.ts:flattenTokenCategory",
+      "type": "function",
+      "name": "flattenTokenCategory",
+      "filePath": "lib/styles/token-diff.ts",
+      "lineRange": [
+        100,
+        125
+      ],
+      "summary": "flattenTokenCategory function with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/styles/token-diff.ts:diffTokens",
+      "type": "function",
+      "name": "diffTokens",
+      "filePath": "lib/styles/token-diff.ts",
+      "lineRange": [
+        130,
+        231
+      ],
+      "summary": "diffTokens function with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:lib/styles/tokens-registry.ts:getStyleTokens",
+      "type": "function",
+      "name": "getStyleTokens",
+      "filePath": "lib/styles/tokens-registry.ts",
+      "lineRange": [
+        9,
+        11
+      ],
+      "summary": "getStyleTokens function with 1 parameters.",
+      "tags": [
+        "getter",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/styles/tokens-registry.ts:hasStyleTokens",
+      "type": "function",
+      "name": "hasStyleTokens",
+      "filePath": "lib/styles/tokens-registry.ts",
+      "lineRange": [
+        14,
+        16
+      ],
+      "summary": "hasStyleTokens function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/styles/tokens.ts:buildComponentClass",
+      "type": "function",
+      "name": "buildComponentClass",
+      "filePath": "lib/styles/tokens.ts",
+      "lineRange": [
+        99,
+        107
+      ],
+      "summary": "buildComponentClass function with 3 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/styles/tokens.ts:validateClasses",
+      "type": "function",
+      "name": "validateClasses",
+      "filePath": "lib/styles/tokens.ts",
+      "lineRange": [
+        110,
+        135
+      ],
+      "summary": "validateClasses function with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/versioning/registry.ts:getStyleVersion",
+      "type": "function",
+      "name": "getStyleVersion",
+      "filePath": "lib/versioning/registry.ts",
+      "lineRange": [
+        9,
+        11
+      ],
+      "summary": "getStyleVersion function with 1 parameters.",
+      "tags": [
+        "getter",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/versioning/registry.ts:getCurrentVersion",
+      "type": "function",
+      "name": "getCurrentVersion",
+      "filePath": "lib/versioning/registry.ts",
+      "lineRange": [
+        17,
+        19
+      ],
+      "summary": "getCurrentVersion function with 1 parameters.",
+      "tags": [
+        "getter",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/versioning/registry.ts:getChangelog",
+      "type": "function",
+      "name": "getChangelog",
+      "filePath": "lib/versioning/registry.ts",
+      "lineRange": [
+        24,
+        26
+      ],
+      "summary": "getChangelog function with 1 parameters.",
+      "tags": [
+        "getter",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/versioning/registry.ts:getAllVersions",
+      "type": "function",
+      "name": "getAllVersions",
+      "filePath": "lib/versioning/registry.ts",
+      "lineRange": [
+        31,
+        33
+      ],
+      "summary": "getAllVersions function with 0 parameters.",
+      "tags": [
+        "getter",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/versioning/version-data.ts:computeStyleHash",
+      "type": "function",
+      "name": "computeStyleHash",
+      "filePath": "lib/versioning/version-data.ts",
+      "lineRange": [
+        28,
+        35
+      ],
+      "summary": "computeStyleHash function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/versioning/version-data.ts:detectChangedCategories",
+      "type": "function",
+      "name": "detectChangedCategories",
+      "filePath": "lib/versioning/version-data.ts",
+      "lineRange": [
+        40,
+        67
+      ],
+      "summary": "detectChangedCategories function with 4 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/versioning/version-data.ts:generateChangelog",
+      "type": "function",
+      "name": "generateChangelog",
+      "filePath": "lib/versioning/version-data.ts",
+      "lineRange": [
+        70,
+        84
+      ],
+      "summary": "generateChangelog function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/versioning/version-data.ts:initializeRegistry",
+      "type": "function",
+      "name": "initializeRegistry",
+      "filePath": "lib/versioning/version-data.ts",
+      "lineRange": [
+        127,
+        147
+      ],
+      "summary": "initializeRegistry function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/versioning/version-data.ts:loadVersionSnapshot",
+      "type": "function",
+      "name": "loadVersionSnapshot",
+      "filePath": "lib/versioning/version-data.ts",
+      "lineRange": [
+        150,
+        211
+      ],
+      "summary": "loadVersionSnapshot function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:lib/versioning/version-data.ts:getVersionData",
+      "type": "function",
+      "name": "getVersionData",
+      "filePath": "lib/versioning/version-data.ts",
+      "lineRange": [
+        216,
+        223
+      ],
+      "summary": "getVersionData function with 0 parameters.",
+      "tags": [
+        "getter",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/versioning/version-data.ts:getVersionSnapshot",
+      "type": "function",
+      "name": "getVersionSnapshot",
+      "filePath": "lib/versioning/version-data.ts",
+      "lineRange": [
+        226,
+        228
+      ],
+      "summary": "getVersionSnapshot function with 0 parameters.",
+      "tags": [
+        "getter",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/versioning/version-data.ts:refreshVersions",
+      "type": "function",
+      "name": "refreshVersions",
+      "filePath": "lib/versioning/version-data.ts",
+      "lineRange": [
+        234,
+        271
+      ],
+      "summary": "refreshVersions function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:tools/scripts/check-catalog-integrity.ts:uniqueDuplicates",
+      "type": "function",
+      "name": "uniqueDuplicates",
+      "filePath": "tools/scripts/check-catalog-integrity.ts",
+      "lineRange": [
+        17,
+        30
+      ],
+      "summary": "uniqueDuplicates function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:tools/scripts/check-catalog-integrity.ts:validateCatalog",
+      "type": "function",
+      "name": "validateCatalog",
+      "filePath": "tools/scripts/check-catalog-integrity.ts",
+      "lineRange": [
+        49,
+        133
+      ],
+      "summary": "validateCatalog function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:tools/scripts/check-catalog-integrity.ts:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "tools/scripts/check-catalog-integrity.ts",
+      "lineRange": [
+        135,
+        151
+      ],
+      "summary": "main function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:tools/scripts/lint-style-rules.ts:main",
+      "type": "function",
+      "name": "main",
+      "filePath": "tools/scripts/lint-style-rules.ts",
+      "lineRange": [
+        12,
+        41
+      ],
+      "summary": "main function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:lib/export/ide-configs.ts",
+      "target": "file:lib/styles/tokens-registry.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/export/ide-configs.ts",
+      "target": "file:lib/styles/tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/export/llms-full.ts",
+      "target": "file:lib/styles/tokens-registry.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/export/skill-pack.ts",
+      "target": "file:lib/styles/tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/export/stackblitz.ts",
+      "target": "file:lib/styles/tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/export/style-pack.ts",
+      "target": "file:lib/styles/tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/export/style-pack.ts",
+      "target": "file:lib/versioning/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/export/tailwind-preset.ts",
+      "target": "file:lib/styles/tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/__tests__/cross-reference.test.ts",
+      "target": "file:lib/styles/tokens-registry.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry.ts",
+      "target": "file:lib/styles/__tests__/cross-reference.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:lib/styles/__tests__/rule-normalizer.test.ts",
+      "target": "file:lib/styles/rule-normalizer.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/rule-normalizer.ts",
+      "target": "file:lib/styles/__tests__/rule-normalizer.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:lib/styles/__tests__/tokens-registry.test.ts",
+      "target": "file:lib/styles/tokens-registry.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry.ts",
+      "target": "file:lib/styles/__tests__/tokens-registry.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:lib/styles/community-runtime.ts",
+      "target": "file:lib/styles/tokens-registry.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/community-runtime.ts",
+      "target": "file:lib/styles/tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/enhanced-rules.ts",
+      "target": "file:lib/styles/tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/rule-normalizer.ts",
+      "target": "function:lib/styles/rule-normalizer.ts:dedupe",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/rule-normalizer.ts",
+      "target": "function:lib/styles/rule-normalizer.ts:parseHeading",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/rule-normalizer.ts",
+      "target": "function:lib/styles/rule-normalizer.ts:parseAiRules",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/rule-normalizer.ts",
+      "target": "function:lib/styles/rule-normalizer.ts:collectFlags",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/rule-normalizer.ts",
+      "target": "function:lib/styles/rule-normalizer.ts:collectAiFlags",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/rule-normalizer.ts",
+      "target": "function:lib/styles/rule-normalizer.ts:pruneConflictingListItems",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/rule-normalizer.ts",
+      "target": "function:lib/styles/rule-normalizer.ts:normalizeAiRulesText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/rule-normalizer.ts",
+      "target": "function:lib/styles/rule-normalizer.ts:flagConflicts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/rule-normalizer.ts",
+      "target": "function:lib/styles/rule-normalizer.ts:detectStyleRuleConflicts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/rule-normalizer.ts",
+      "target": "function:lib/styles/rule-normalizer.ts:detectStyleRuleConflicts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/styles/rule-normalizer.ts",
+      "target": "function:lib/styles/rule-normalizer.ts:normalizeStyleRules",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/rule-normalizer.ts",
+      "target": "function:lib/styles/rule-normalizer.ts:normalizeStyleRules",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/styles/rule-normalizer.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/style-diff.ts",
+      "target": "function:lib/styles/style-diff.ts:hexToRgb",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/style-diff.ts",
+      "target": "function:lib/styles/style-diff.ts:colorDistance",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/style-diff.ts",
+      "target": "function:lib/styles/style-diff.ts:diffSingleField",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/style-diff.ts",
+      "target": "function:lib/styles/style-diff.ts:diffTokens",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/style-diff.ts",
+      "target": "function:lib/styles/style-diff.ts:diffTokens",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/styles/style-diff.ts",
+      "target": "function:lib/styles/style-diff.ts:findClosestStyles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/style-diff.ts",
+      "target": "function:lib/styles/style-diff.ts:findClosestStyles",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/styles/style-diff.ts",
+      "target": "file:lib/styles/tokens-registry.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/style-diff.ts",
+      "target": "file:lib/styles/tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/token-diff.ts",
+      "target": "function:lib/styles/token-diff.ts:parseHexToRgb",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/token-diff.ts",
+      "target": "function:lib/styles/token-diff.ts:colorDistance",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/token-diff.ts",
+      "target": "function:lib/styles/token-diff.ts:stringDiff",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/token-diff.ts",
+      "target": "function:lib/styles/token-diff.ts:flattenTokenCategory",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/token-diff.ts",
+      "target": "function:lib/styles/token-diff.ts:diffTokens",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/token-diff.ts",
+      "target": "function:lib/styles/token-diff.ts:diffTokens",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/styles/token-diff.ts",
+      "target": "file:lib/styles/tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry.ts",
+      "target": "function:lib/styles/tokens-registry.ts:getStyleTokens",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/tokens-registry.ts",
+      "target": "function:lib/styles/tokens-registry.ts:getStyleTokens",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/styles/tokens-registry.ts",
+      "target": "function:lib/styles/tokens-registry.ts:hasStyleTokens",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/tokens-registry.ts",
+      "target": "function:lib/styles/tokens-registry.ts:hasStyleTokens",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/styles/tokens-registry.ts",
+      "target": "file:lib/styles/tokens-registry-data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry.ts",
+      "target": "file:lib/styles/tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens.ts",
+      "target": "function:lib/styles/tokens.ts:buildComponentClass",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/tokens.ts",
+      "target": "function:lib/styles/tokens.ts:buildComponentClass",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/styles/tokens.ts",
+      "target": "function:lib/styles/tokens.ts:validateClasses",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/tokens.ts",
+      "target": "function:lib/styles/tokens.ts:validateClasses",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/versioning/registry.ts",
+      "target": "function:lib/versioning/registry.ts:getStyleVersion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/versioning/registry.ts",
+      "target": "function:lib/versioning/registry.ts:getStyleVersion",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/versioning/registry.ts",
+      "target": "function:lib/versioning/registry.ts:getCurrentVersion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/versioning/registry.ts",
+      "target": "function:lib/versioning/registry.ts:getCurrentVersion",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/versioning/registry.ts",
+      "target": "function:lib/versioning/registry.ts:getChangelog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/versioning/registry.ts",
+      "target": "function:lib/versioning/registry.ts:getChangelog",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/versioning/registry.ts",
+      "target": "function:lib/versioning/registry.ts:getAllVersions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/versioning/registry.ts",
+      "target": "function:lib/versioning/registry.ts:getAllVersions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/versioning/registry.ts",
+      "target": "file:lib/versioning/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/versioning/registry.ts",
+      "target": "file:lib/versioning/version-data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/versioning/version-data.ts",
+      "target": "function:lib/versioning/version-data.ts:computeStyleHash",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/versioning/version-data.ts",
+      "target": "function:lib/versioning/version-data.ts:computeStyleHash",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/versioning/version-data.ts",
+      "target": "function:lib/versioning/version-data.ts:detectChangedCategories",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/versioning/version-data.ts",
+      "target": "function:lib/versioning/version-data.ts:generateChangelog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/versioning/version-data.ts",
+      "target": "function:lib/versioning/version-data.ts:initializeRegistry",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/versioning/version-data.ts",
+      "target": "function:lib/versioning/version-data.ts:loadVersionSnapshot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/versioning/version-data.ts",
+      "target": "function:lib/versioning/version-data.ts:loadVersionSnapshot",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/versioning/version-data.ts",
+      "target": "function:lib/versioning/version-data.ts:getVersionData",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/versioning/version-data.ts",
+      "target": "function:lib/versioning/version-data.ts:getVersionData",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/versioning/version-data.ts",
+      "target": "function:lib/versioning/version-data.ts:getVersionSnapshot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/versioning/version-data.ts",
+      "target": "function:lib/versioning/version-data.ts:getVersionSnapshot",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/versioning/version-data.ts",
+      "target": "function:lib/versioning/version-data.ts:refreshVersions",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/versioning/version-data.ts",
+      "target": "function:lib/versioning/version-data.ts:refreshVersions",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/versioning/version-data.ts",
+      "target": "file:lib/recipes/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/versioning/version-data.ts",
+      "target": "file:lib/styles/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/versioning/version-data.ts",
+      "target": "file:lib/styles/tokens-registry.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/versioning/version-data.ts",
+      "target": "file:lib/styles/tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/versioning/version-data.ts",
+      "target": "file:lib/versioning/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/unit/lib/accessibility-scorer.test.ts",
+      "target": "file:lib/accessibility/scorer.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/accessibility/scorer.ts",
+      "target": "file:tests/unit/lib/accessibility-scorer.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:tests/unit/lib/export-ide-configs.test.ts",
+      "target": "file:lib/export/ide-configs.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/export/ide-configs.ts",
+      "target": "file:tests/unit/lib/export-ide-configs.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:tests/unit/lib/export-shadcn-theme.test.ts",
+      "target": "file:lib/export/shadcn-theme.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/unit/lib/export-shadcn-theme.test.ts",
+      "target": "file:lib/styles/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/export/shadcn-theme.ts",
+      "target": "file:tests/unit/lib/export-shadcn-theme.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:lib/styles/index.ts",
+      "target": "file:tests/unit/lib/export-shadcn-theme.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:tests/unit/lib/export-tailwind-preset.test.ts",
+      "target": "file:lib/export/tailwind-preset.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/unit/lib/export-tailwind-preset.test.ts",
+      "target": "file:lib/styles/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/export/tailwind-preset.ts",
+      "target": "file:tests/unit/lib/export-tailwind-preset.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:lib/styles/index.ts",
+      "target": "file:tests/unit/lib/export-tailwind-preset.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:tests/unit/lib/token-diff.test.ts",
+      "target": "file:lib/styles/token-diff.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/unit/lib/token-diff.test.ts",
+      "target": "file:lib/styles/tokens-registry.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/token-diff.ts",
+      "target": "file:tests/unit/lib/token-diff.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:lib/styles/tokens-registry.ts",
+      "target": "file:tests/unit/lib/token-diff.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:tests/unit/lib/versioning.test.ts",
+      "target": "file:lib/versioning/registry.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/unit/lib/versioning.test.ts",
+      "target": "file:lib/versioning/version-data.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/versioning/registry.ts",
+      "target": "file:tests/unit/lib/versioning.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:lib/versioning/version-data.ts",
+      "target": "file:tests/unit/lib/versioning.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:tools/scripts/check-catalog-integrity.ts",
+      "target": "function:tools/scripts/check-catalog-integrity.ts:uniqueDuplicates",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:tools/scripts/check-catalog-integrity.ts",
+      "target": "function:tools/scripts/check-catalog-integrity.ts:validateCatalog",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:tools/scripts/check-catalog-integrity.ts",
+      "target": "function:tools/scripts/check-catalog-integrity.ts:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:tools/scripts/check-catalog-integrity.ts",
+      "target": "file:lib/recipes/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tools/scripts/check-catalog-integrity.ts",
+      "target": "file:lib/styles/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tools/scripts/check-catalog-integrity.ts",
+      "target": "file:lib/styles/tokens-registry.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tools/scripts/lint-style-rules.ts",
+      "target": "function:tools/scripts/lint-style-rules.ts:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:tools/scripts/lint-style-rules.ts",
+      "target": "file:lib/styles/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tools/scripts/lint-style-rules.ts",
+      "target": "file:lib/styles/rule-normalizer.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

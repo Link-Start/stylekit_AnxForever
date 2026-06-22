@@ -1,0 +1,1789 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": ".github/actions/lint/action.yml",
+      "language": "yaml",
+      "fileCategory": "config",
+      "totalLines": 45,
+      "nonEmptyLines": 40,
+      "sections": [
+        {
+          "heading": "name",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "description",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "inputs",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "runs",
+          "level": 1,
+          "line": 21
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": ".github/actions/lint/index.js",
+      "language": "javascript",
+      "fileCategory": "code",
+      "totalLines": 158,
+      "nonEmptyLines": 141,
+      "functions": [
+        {
+          "name": "findFiles",
+          "startLine": 19,
+          "endLine": 39,
+          "params": [
+            "pattern"
+          ]
+        },
+        {
+          "name": "main",
+          "startLine": 41,
+          "endLine": 153,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "findFiles",
+          "callee": "require",
+          "lineNumber": 21
+        },
+        {
+          "caller": "findFiles",
+          "callee": "new Promise((resolve, reject) => {\r\n    const matches = [];\r\n    fsGlob(pattern, (err, files) => {\r\n      if (err) reject(err);\r\n      else resolve(files);\r\n    });\r\n  }).catch",
+          "lineNumber": 22
+        },
+        {
+          "caller": "findFiles",
+          "callee": "fsGlob",
+          "lineNumber": 24
+        },
+        {
+          "caller": "findFiles",
+          "callee": "reject",
+          "lineNumber": 25
+        },
+        {
+          "caller": "findFiles",
+          "callee": "resolve",
+          "lineNumber": 26
+        },
+        {
+          "caller": "findFiles",
+          "callee": "require",
+          "lineNumber": 30
+        },
+        {
+          "caller": "findFiles",
+          "callee": "execSync",
+          "lineNumber": 31
+        },
+        {
+          "caller": "findFiles",
+          "callee": "result\r\n      .split(\"\\n\")\r\n      .filter(Boolean)\r\n      .map",
+          "lineNumber": 34
+        },
+        {
+          "caller": "findFiles",
+          "callee": "result\r\n      .split(\"\\n\")\r\n      .filter",
+          "lineNumber": 34
+        },
+        {
+          "caller": "findFiles",
+          "callee": "result\r\n      .split",
+          "lineNumber": 34
+        },
+        {
+          "caller": "findFiles",
+          "callee": "f.replace",
+          "lineNumber": 37
+        },
+        {
+          "caller": "main",
+          "callee": "console.log",
+          "lineNumber": 47
+        },
+        {
+          "caller": "main",
+          "callee": "process.exit",
+          "lineNumber": 48
+        },
+        {
+          "caller": "main",
+          "callee": "require",
+          "lineNumber": 55
+        },
+        {
+          "caller": "main",
+          "callee": "require",
+          "lineNumber": 60
+        },
+        {
+          "caller": "main",
+          "callee": "execSync",
+          "lineNumber": 65
+        },
+        {
+          "caller": "main",
+          "callee": "console.log",
+          "lineNumber": 69
+        },
+        {
+          "caller": "main",
+          "callee": "process.exit",
+          "lineNumber": 72
+        },
+        {
+          "caller": "main",
+          "callee": "require",
+          "lineNumber": 79
+        },
+        {
+          "caller": "main",
+          "callee": "execSync",
+          "lineNumber": 80
+        },
+        {
+          "caller": "main",
+          "callee": "result\r\n      .split(\"\\n\")\r\n      .filter(Boolean)\r\n      .map",
+          "lineNumber": 84
+        },
+        {
+          "caller": "main",
+          "callee": "result\r\n      .split(\"\\n\")\r\n      .filter",
+          "lineNumber": 84
+        },
+        {
+          "caller": "main",
+          "callee": "result\r\n      .split",
+          "lineNumber": 84
+        },
+        {
+          "caller": "main",
+          "callee": "f.replace",
+          "lineNumber": 87
+        },
+        {
+          "caller": "main",
+          "callee": "console.log",
+          "lineNumber": 93
+        },
+        {
+          "caller": "main",
+          "callee": "process.exit",
+          "lineNumber": 94
+        },
+        {
+          "caller": "main",
+          "callee": "console.log",
+          "lineNumber": 97
+        },
+        {
+          "caller": "main",
+          "callee": "readFile",
+          "lineNumber": 103
+        },
+        {
+          "caller": "main",
+          "callee": "lintCode",
+          "lineNumber": 107
+        },
+        {
+          "caller": "main",
+          "callee": "require",
+          "lineNumber": 110
+        },
+        {
+          "caller": "main",
+          "callee": "content.replace",
+          "lineNumber": 111
+        },
+        {
+          "caller": "main",
+          "callee": "execSync",
+          "lineNumber": 113
+        },
+        {
+          "caller": "main",
+          "callee": "process.cwd",
+          "lineNumber": 115
+        },
+        {
+          "caller": "main",
+          "callee": "JSON.parse",
+          "lineNumber": 117
+        },
+        {
+          "caller": "main",
+          "callee": "output.trim",
+          "lineNumber": 117
+        },
+        {
+          "caller": "main",
+          "callee": "console.log",
+          "lineNumber": 119
+        },
+        {
+          "caller": "main",
+          "callee": "console.log",
+          "lineNumber": 129
+        },
+        {
+          "caller": "main",
+          "callee": "console.log",
+          "lineNumber": 132
+        },
+        {
+          "caller": "main",
+          "callee": "console.log",
+          "lineNumber": 138
+        },
+        {
+          "caller": "main",
+          "callee": "console.log",
+          "lineNumber": 143
+        },
+        {
+          "caller": "main",
+          "callee": "process.exit",
+          "lineNumber": 144
+        },
+        {
+          "caller": "main",
+          "callee": "console.log",
+          "lineNumber": 148
+        },
+        {
+          "caller": "main",
+          "callee": "process.exit",
+          "lineNumber": 151
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": ".github/actions/stylekit-lint/action.yml",
+      "language": "yaml",
+      "fileCategory": "config",
+      "totalLines": 42,
+      "nonEmptyLines": 38,
+      "sections": [
+        {
+          "heading": "name",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "description",
+          "level": 1,
+          "line": 2
+        },
+        {
+          "heading": "inputs",
+          "level": 1,
+          "line": 4
+        },
+        {
+          "heading": "runs",
+          "level": 1,
+          "line": 21
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 4
+      }
+    },
+    {
+      "path": ".github/actions/stylekit-lint/README.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 80,
+      "nonEmptyLines": 66,
+      "sections": [
+        {
+          "heading": "StyleKit Style Lint Action",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Usage",
+          "level": 2,
+          "line": 5
+        },
+        {
+          "heading": "Inputs",
+          "level": 2,
+          "line": 14
+        },
+        {
+          "heading": "Available Styles",
+          "level": 2,
+          "line": 23
+        },
+        {
+          "heading": "Example: PR Lint Check",
+          "level": 2,
+          "line": 40
+        },
+        {
+          "heading": "Example: Multiple Styles",
+          "level": 2,
+          "line": 57
+        },
+        {
+          "heading": "Output",
+          "level": 2,
+          "line": 78
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 7
+      }
+    },
+    {
+      "path": ".interface-design/system.md",
+      "language": "markdown",
+      "fileCategory": "docs",
+      "totalLines": 55,
+      "nonEmptyLines": 47,
+      "sections": [
+        {
+          "heading": "Admin Interface System",
+          "level": 1,
+          "line": 1
+        },
+        {
+          "heading": "Direction",
+          "level": 2,
+          "line": 3
+        },
+        {
+          "heading": "Visual Language",
+          "level": 2,
+          "line": 8
+        },
+        {
+          "heading": "Depth Strategy",
+          "level": 2,
+          "line": 18
+        },
+        {
+          "heading": "Spacing",
+          "level": 2,
+          "line": 23
+        },
+        {
+          "heading": "Typography",
+          "level": 2,
+          "line": 29
+        },
+        {
+          "heading": "Dashboard Patterns",
+          "level": 2,
+          "line": 36
+        },
+        {
+          "heading": "Component Rules",
+          "level": 2,
+          "line": 45
+        },
+        {
+          "heading": "Data Rules",
+          "level": 2,
+          "line": 51
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 9
+      }
+    },
+    {
+      "path": ".understand-anything/.understandignore",
+      "language": "unknown",
+      "fileCategory": "code",
+      "totalLines": 110,
+      "nonEmptyLines": 104,
+      "metrics": {}
+    },
+    {
+      "path": ".understand-anything/config.json",
+      "language": "json",
+      "fileCategory": "config",
+      "totalLines": 1,
+      "nonEmptyLines": 1,
+      "sections": [
+        {
+          "heading": "outputLanguage",
+          "level": 1,
+          "line": 1
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0,
+        "sectionCount": 1
+      }
+    },
+    {
+      "path": "app/about/layout.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 15,
+      "nonEmptyLines": 13,
+      "functions": [
+        {
+          "name": "AboutLayout",
+          "startLine": 9,
+          "endLine": 15,
+          "params": [
+            "{\r\n  children,\r\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "metadata",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "AboutLayout",
+          "line": 9,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/animations/[slug]/loading.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 27,
+      "nonEmptyLines": 27,
+      "functions": [
+        {
+          "name": "AnimationDetailLoading",
+          "startLine": 1,
+          "endLine": 27,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "AnimationDetailLoading",
+          "line": 1,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/animations/loading.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 43,
+      "nonEmptyLines": 43,
+      "functions": [
+        {
+          "name": "AnimationsLoading",
+          "startLine": 1,
+          "endLine": 43,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "AnimationsLoading",
+          "line": 1,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "AnimationsLoading",
+          "callee": "[1, 2, 3].map",
+          "lineNumber": 15
+        },
+        {
+          "caller": "AnimationsLoading",
+          "callee": "[1, 2, 3, 4].map",
+          "lineNumber": 18
+        },
+        {
+          "caller": "AnimationsLoading",
+          "callee": "[1, 2, 3, 4, 5, 6].map",
+          "lineNumber": 25
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/api/github-stars/route.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 29,
+      "nonEmptyLines": 24,
+      "functions": [
+        {
+          "name": "GET",
+          "startLine": 7,
+          "endLine": 29,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "revalidate",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "GET",
+          "line": 7,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "GET",
+          "callee": "fetch",
+          "lineNumber": 9
+        },
+        {
+          "caller": "GET",
+          "callee": "NextResponse.json",
+          "lineNumber": 18
+        },
+        {
+          "caller": "GET",
+          "callee": "response.json",
+          "lineNumber": 21
+        },
+        {
+          "caller": "GET",
+          "callee": "NextResponse.json",
+          "lineNumber": 22
+        },
+        {
+          "caller": "GET",
+          "callee": "NextResponse.json",
+          "lineNumber": 27
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/api/health/route.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 29,
+      "nonEmptyLines": 25,
+      "functions": [
+        {
+          "name": "GET",
+          "startLine": 10,
+          "endLine": 22,
+          "params": []
+        },
+        {
+          "name": "HEAD",
+          "startLine": 24,
+          "endLine": 29,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "runtime",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "GET",
+          "line": 10,
+          "isDefault": false
+        },
+        {
+          "name": "HEAD",
+          "line": 24,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "GET",
+          "callee": "NextResponse.json",
+          "lineNumber": 11
+        },
+        {
+          "caller": "GET",
+          "callee": "new Date().toISOString",
+          "lineNumber": 15
+        },
+        {
+          "caller": "GET",
+          "callee": "process.uptime",
+          "lineNumber": 16
+        },
+        {
+          "caller": "GET",
+          "callee": "process.memoryUsage",
+          "lineNumber": 18
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 4,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/api/templates/[slug]/source/route.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 36,
+      "nonEmptyLines": 30,
+      "functions": [
+        {
+          "name": "GET",
+          "startLine": 7,
+          "endLine": 36,
+          "params": [
+            "_request",
+            "{ params }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "GET",
+          "line": 7,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "GET",
+          "callee": "/^[a-z0-9-]+$/.test",
+          "lineNumber": 14
+        },
+        {
+          "caller": "GET",
+          "callee": "NextResponse.json",
+          "lineNumber": 15
+        },
+        {
+          "caller": "GET",
+          "callee": "path.join",
+          "lineNumber": 18
+        },
+        {
+          "caller": "GET",
+          "callee": "path.resolve",
+          "lineNumber": 21
+        },
+        {
+          "caller": "GET",
+          "callee": "resolved.startsWith",
+          "lineNumber": 22
+        },
+        {
+          "caller": "GET",
+          "callee": "path.resolve",
+          "lineNumber": 22
+        },
+        {
+          "caller": "GET",
+          "callee": "NextResponse.json",
+          "lineNumber": 23
+        },
+        {
+          "caller": "GET",
+          "callee": "readFile",
+          "lineNumber": 27
+        },
+        {
+          "caller": "GET",
+          "callee": "NextResponse.json",
+          "lineNumber": 28
+        },
+        {
+          "caller": "GET",
+          "callee": "NextResponse.json",
+          "lineNumber": 34
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/api/ui-plan/schema/route.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 6,
+      "nonEmptyLines": 5,
+      "functions": [
+        {
+          "name": "GET",
+          "startLine": 4,
+          "endLine": 6,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "GET",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "GET",
+          "callee": "NextResponse.json",
+          "lineNumber": 5
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/components/layout.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 15,
+      "nonEmptyLines": 13,
+      "functions": [
+        {
+          "name": "ComponentsLayout",
+          "startLine": 9,
+          "endLine": 15,
+          "params": [
+            "{\r\n  children,\r\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "metadata",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "ComponentsLayout",
+          "line": 9,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/docs/layout.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 15,
+      "nonEmptyLines": 13,
+      "functions": [
+        {
+          "name": "DocsLayout",
+          "startLine": 9,
+          "endLine": 15,
+          "params": [
+            "{\n  children,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "metadata",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "DocsLayout",
+          "line": 9,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/global-error.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 64,
+      "nonEmptyLines": 61,
+      "functions": [
+        {
+          "name": "GlobalError",
+          "startLine": 6,
+          "endLine": 64,
+          "params": [
+            "{\n  error,\n  reset,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "GlobalError",
+          "line": 6,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "GlobalError",
+          "callee": "useEffect",
+          "lineNumber": 13
+        },
+        {
+          "caller": "GlobalError",
+          "callee": "Sentry.captureException",
+          "lineNumber": 14
+        },
+        {
+          "caller": "GlobalError",
+          "callee": "reset",
+          "lineNumber": 46
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/globals.css",
+      "language": "css",
+      "fileCategory": "markup",
+      "totalLines": 433,
+      "nonEmptyLines": 373,
+      "metrics": {}
+    },
+    {
+      "path": "app/guide/layout.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 15,
+      "nonEmptyLines": 13,
+      "functions": [
+        {
+          "name": "GuideLayout",
+          "startLine": 9,
+          "endLine": 15,
+          "params": [
+            "{\r\n  children,\r\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "metadata",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "GuideLayout",
+          "line": 9,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/opengraph-image.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 113,
+      "nonEmptyLines": 109,
+      "functions": [
+        {
+          "name": "OGImage",
+          "startLine": 7,
+          "endLine": 113,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "alt",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "size",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "contentType",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "OGImage",
+          "line": 7,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "OGImage",
+          "callee": "[\"#ff006e\", \"#00d4ff\", \"#ffbe0b\", \"#6366f1\", \"#a855f7\"].map",
+          "lineNumber": 22
+        },
+        {
+          "caller": "OGImage",
+          "callee": "[\"120+ Styles\", \"30+ Templates\", \"40+ Animations\", \"Design Tokens\"].map",
+          "lineNumber": 81
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 4,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/preview/layout.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 19,
+      "nonEmptyLines": 17,
+      "functions": [
+        {
+          "name": "PreviewLayout",
+          "startLine": 13,
+          "endLine": 19,
+          "params": [
+            "{\n  children,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "metadata",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "PreviewLayout",
+          "line": 13,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/styles/acid-graphics/showcase/_content.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 1717,
+      "nonEmptyLines": 1640,
+      "functions": [
+        {
+          "name": "useInView",
+          "startLine": 54,
+          "endLine": 75,
+          "params": [
+            "options"
+          ]
+        },
+        {
+          "name": "RevealBlock",
+          "startLine": 77,
+          "endLine": 100,
+          "params": [
+            "{\n  children,\n  className = \"\",\n  delay = 0,\n}"
+          ]
+        },
+        {
+          "name": "NeonLabel",
+          "startLine": 106,
+          "endLine": 121,
+          "params": [
+            "{\n  children,\n  color = \"#39ff14\",\n}"
+          ]
+        },
+        {
+          "name": "GlitchDot",
+          "startLine": 123,
+          "endLine": 153,
+          "params": [
+            "{\n  color,\n  size = 6,\n  top,\n  left,\n  right,\n  bottom,\n}"
+          ]
+        },
+        {
+          "name": "ShowcaseContent",
+          "startLine": 159,
+          "endLine": 1717,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "ShowcaseContent",
+          "line": 159,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "useInView",
+          "callee": "useRef",
+          "lineNumber": 55
+        },
+        {
+          "caller": "useInView",
+          "callee": "useState",
+          "lineNumber": 56
+        },
+        {
+          "caller": "useInView",
+          "callee": "useEffect",
+          "lineNumber": 58
+        },
+        {
+          "caller": "useInView",
+          "callee": "setInView",
+          "lineNumber": 64
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.disconnect",
+          "lineNumber": 65
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.observe",
+          "lineNumber": 70
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.disconnect",
+          "lineNumber": 71
+        },
+        {
+          "caller": "RevealBlock",
+          "callee": "useInView",
+          "lineNumber": 86
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 160
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 161
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 162
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 163
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 164
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useInView",
+          "lineNumber": 166
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useEffect",
+          "lineNumber": 168
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setTimeout",
+          "lineNumber": 169
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setHeroRevealed",
+          "lineNumber": 169
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "clearTimeout",
+          "lineNumber": 170
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\n                { label: \"TYPE\", color: \"#e6ff00\" },\n                { label: \"COMPONENTS\", color: \"#a020f0\" },\n                { label: \"PALETTE\", color: \"#ff6ec7\" },\n                { label: \"POSTER\", color: \"#00ffff\" },\n                { label: \"RULES\", color: \"#39ff14\" },\n              ].map",
+          "lineNumber": 248
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "item.label.toLowerCase",
+          "lineNumber": 257
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\n              { label: \"BPM\", value: \"174\", color: \"#ff6ec7\" },\n              { label: \"VOLTAGE\", value: \"12kV\", color: \"#e6ff00\" },\n              { label: \"YEAR\", value: \"1993\", color: \"#00ffff\" },\n              { label: \"DEPTH\", value: \"MAX\", color: \"#a020f0\" },\n            ].map",
+          "lineNumber": 430
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "typeExperimentTabs.map",
+          "lineNumber": 492
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setActiveType",
+          "lineNumber": 495
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\"ACID\", \"ACID\", \"ACID\"].map",
+          "lineNumber": 586
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "componentTabs.map",
+          "lineNumber": 744
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setActiveComponent",
+          "lineNumber": 747
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\"ENGAGE SYSTEM\", \"ENTER RAVE\", \"ACTIVATE\"].map",
+          "lineNumber": 776
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\n                      { label: \"PINK SIGNAL\", color: \"#ff6ec7\" },\n                      { label: \"CYAN PULSE\",  color: \"#00ffff\" },\n                      { label: \"PURPLE WAVE\", color: \"#a020f0\" },\n                    ].map",
+          "lineNumber": 816
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "neonColors.map",
+          "lineNumber": 1125
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setActiveColor",
+          "lineNumber": 1128
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setPosterPlaying",
+          "lineNumber": 1257
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "raveLineup.map",
+          "lineNumber": 1370
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "doRules.map",
+          "lineNumber": 1495
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "String(i + 1).padStart",
+          "lineNumber": 1501
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "String",
+          "lineNumber": 1501
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "dontRules.map",
+          "lineNumber": 1540
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "String(i + 1).padStart",
+          "lineNumber": 1546
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "String",
+          "lineNumber": 1546
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "Array.from({ length: 8 }).map",
+          "lineNumber": 1609
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "Array.from",
+          "lineNumber": 1609
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\n                  { label: \"ALL STYLES\",    href: \"/styles\" },\n                  { label: \"DOCUMENTATION\", href: \"/styles/acid-graphics\" },\n                  { label: \"STYLEKIT HOME\", href: \"/\" },\n                ].map",
+          "lineNumber": 1649
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\"#39ff14\", \"#e6ff00\", \"#a020f0\", \"#ff6ec7\", \"#00ffff\"].map",
+          "lineNumber": 1676
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/styles/acid-graphics/showcase/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 16,
+      "nonEmptyLines": 12,
+      "functions": [
+        {
+          "name": "Page",
+          "startLine": 14,
+          "endLine": 16,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "metadata",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "Page",
+          "line": 14,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/styles/african-textile/showcase/_content.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 1813,
+      "nonEmptyLines": 1709,
+      "functions": [
+        {
+          "name": "useInView",
+          "startLine": 6,
+          "endLine": 25,
+          "params": [
+            "options"
+          ]
+        },
+        {
+          "name": "RevealBlock",
+          "startLine": 27,
+          "endLine": 50,
+          "params": [
+            "{\r\n  children,\r\n  className = \"\",\r\n  delay = 0,\r\n}"
+          ]
+        },
+        {
+          "name": "KenteStripe",
+          "startLine": 54,
+          "endLine": 71,
+          "params": [
+            "{ height = 8 }"
+          ]
+        },
+        {
+          "name": "ZigzagPattern",
+          "startLine": 73,
+          "endLine": 102,
+          "params": []
+        },
+        {
+          "name": "DiamondPattern",
+          "startLine": 104,
+          "endLine": 140,
+          "params": []
+        },
+        {
+          "name": "CrossStitchPattern",
+          "startLine": 142,
+          "endLine": 167,
+          "params": []
+        },
+        {
+          "name": "ChevronPattern",
+          "startLine": 169,
+          "endLine": 183,
+          "params": []
+        },
+        {
+          "name": "WeaveGridPattern",
+          "startLine": 185,
+          "endLine": 214,
+          "params": []
+        },
+        {
+          "name": "TrianglePattern",
+          "startLine": 216,
+          "endLine": 239,
+          "params": []
+        },
+        {
+          "name": "AdinkraSymbol",
+          "startLine": 242,
+          "endLine": 259,
+          "params": [
+            "{ color = \"#f0c75e\", size = 48 }"
+          ]
+        },
+        {
+          "name": "ShowcaseContent",
+          "startLine": 262,
+          "endLine": 1813,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "ShowcaseContent",
+          "line": 262,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "useInView",
+          "callee": "useRef",
+          "lineNumber": 7
+        },
+        {
+          "caller": "useInView",
+          "callee": "useState",
+          "lineNumber": 8
+        },
+        {
+          "caller": "useInView",
+          "callee": "useEffect",
+          "lineNumber": 9
+        },
+        {
+          "caller": "useInView",
+          "callee": "setInView",
+          "lineNumber": 15
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.disconnect",
+          "lineNumber": 16
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.observe",
+          "lineNumber": 21
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.disconnect",
+          "lineNumber": 22
+        },
+        {
+          "caller": "RevealBlock",
+          "callee": "useInView",
+          "lineNumber": 36
+        },
+        {
+          "caller": "DiamondPattern",
+          "callee": "[0, 40, 80, 120, 160].map",
+          "lineNumber": 112
+        },
+        {
+          "caller": "CrossStitchPattern",
+          "callee": "crosses.push",
+          "lineNumber": 149
+        },
+        {
+          "caller": "WeaveGridPattern",
+          "callee": "cells.push",
+          "lineNumber": 191
+        },
+        {
+          "caller": "TrianglePattern",
+          "callee": "triangles.push",
+          "lineNumber": 221
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 263
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 264
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 265
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 266
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 267
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useInView",
+          "lineNumber": 269
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useInView",
+          "lineNumber": 270
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\"#c4501f\", \"#f0c75e\", \"#1a5632\", \"#e8d5b5\", \"#c4501f\", \"#f0c75e\", \"#1a5632\"].map",
+          "lineNumber": 510
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n              { label: \"Artisan Traditions\", value: \"3,000+\", icon: \"years\", sub: \"years of craft\" },\r\n              { label: \"Kente Patterns\", value: \"300+\", icon: \"patterns\", sub: \"named designs\" },\r\n              { label: \"Countries\", value: \"54\", icon: \"nations\", sub: \"unique textiles\" },\r\n              { label: \"Living Weavers\", value: \"12K+\", icon: \"artisans\", sub: \"active today\" },\r\n            ].map",
+          "lineNumber": 551
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "componentTabs.map",
+          "lineNumber": 602
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setActiveComponentTab",
+          "lineNumber": 605
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\"#c4501f\", \"#f0c75e\", \"#1a5632\", \"#c4501f\", \"#f0c75e\"].map",
+          "lineNumber": 623
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n                  {\r\n                    title: \"Kente Strip\",\r\n                    tag: \"Ashanti Ghana\",\r\n                    desc: \"Each 4-inch strip carries a pattern name. Multiple strips are stitched side-by-side to create the full cloth of a chief.\",\r\n                    accent: \"#c4501f\",\r\n                  },\r\n                  {\r\n                    title: \"Adire Oniko\",\r\n                    tag: \"Yoruba Nigeria\",\r\n                    desc: \"Raffia-tied resist dyeing creates round circular patterns in indigo. The tight tie prevents dye penetration, leaving pale dots on deep blue.\",\r\n                    accent: \"#1a5632\",\r\n                  },\r\n                  {\r\n                    title: \"Bogolan Strip\",\r\n                    tag: \"Mande Mali\",\r\n                    desc: \"Fermented mud and tannin-treated cotton produce rich dark geometric patterns that carry the hunter's protective power and clan markings.\",\r\n                    accent: \"#f0c75e\",\r\n                  },\r\n                ].map",
+          "lineNumber": 672
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\"#c4501f\", \"#f0c75e\", \"#1a5632\", \"#c4501f\"].map",
+          "lineNumber": 729
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "colorPalette.map",
+          "lineNumber": 795
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n                {\r\n                  label: \"Primary\",\r\n                  color: \"#c4501f\",\r\n                  name: \"Kente Orange\",\r\n                  usage: \"CTAs, headers, strong accents, borders\",\r\n                },\r\n                {\r\n                  label: \"Background\",\r\n                  color: \"#2c1810\",\r\n                  name: \"Dark Wood\",\r\n                  usage: \"Main background, deep contrast surfaces\",\r\n                },\r\n                {\r\n                  label: \"Accent\",\r\n                  color: \"#f0c75e\",\r\n                  name: \"Gold\",\r\n                  usage: \"Gold accents, decorative highlights, dividers\",\r\n                },\r\n              ].map",
+          "lineNumber": 827
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "craftCards.map",
+          "lineNumber": 978
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\"#c4501f\", \"#f0c75e\", \"#1a5632\", \"#c4501f\", \"#f0c75e\", \"#1a5632\"].map",
+          "lineNumber": 995
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "accordionItems.map",
+          "lineNumber": 1025
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setOpenAccordion",
+          "lineNumber": 1029
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\"#c4501f\", \"#f0c75e\", \"#1a5632\", \"#c4501f\", \"#f0c75e\", \"#1a5632\"].map",
+          "lineNumber": 1085
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n                    { label: \"Row 1\", value: 100, color: \"#1a5632\" },\r\n                    { label: \"Row 2\", value: 100, color: \"#c4501f\" },\r\n                    { label: \"Row 3\", value: weavingProgress, color: \"#f0c75e\" },\r\n                    { label: \"Row 4\", value: 0, color: \"#e8d5b5\" },\r\n                  ].map",
+          "lineNumber": 1121
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setWeavingProgress",
+          "lineNumber": 1145
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "Math.max",
+          "lineNumber": 1145
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setWeavingProgress",
+          "lineNumber": 1151
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "Math.min",
+          "lineNumber": 1151
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setWeavingProgress",
+          "lineNumber": 1157
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\"#c4501f\", \"#f0c75e\", \"#1a5632\", \"#c4501f\", \"#f0c75e\"].map",
+          "lineNumber": 1188
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n                {\r\n                  label: \"Woven Texture Overlay\",\r\n                  desc: \"Display subtle textile grain across all surfaces\",\r\n                },\r\n                {\r\n                  label: \"Geometric Decorations\",\r\n                  desc: \"Show Kente-inspired pattern blocks and dividers\",\r\n                },\r\n                {\r\n                  label: \"Earth Tone Lock\",\r\n                  desc: \"Restrict color selection to traditional pigment palette\",\r\n                },\r\n              ].map",
+          "lineNumber": 1193
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setToggleStates",
+          "lineNumber": 1218
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "principles\r\n                    .filter((p) => p.type === \"do\")\r\n                    .map",
+          "lineNumber": 1270
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "principles\r\n                    .filter",
+          "lineNumber": 1270
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "principles\r\n                    .filter((p) => p.type === \"dont\")\r\n                    .map",
+          "lineNumber": 1308
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "principles\r\n                    .filter",
+          "lineNumber": 1308
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "Array.from({ length: 20 }).map",
+          "lineNumber": 1356
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "Array.from",
+          "lineNumber": 1356
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n                  { label: \"Ceremony\", icon: \"◆\" },\r\n                  { label: \"Identity\", icon: \"◈\" },\r\n                  { label: \"Archive\", icon: \"◇\" },\r\n                ].map",
+          "lineNumber": 1437
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setActiveTab",
+          "lineNumber": 1444
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n              {\r\n                type: \"success\",\r\n                icon: (\r\n                  <svg viewBox=\"0 0 16 16\" fill=\"currentColor\" className=\"w-5 h-5\" aria-hidden=\"true\">\r\n                    <path fillRule=\"evenodd\" d=\"M13.707 4.293a1 1 0 010 1.414l-7 7a1 1 0 01-1.414 0l-3-3a1 1 0 011.414-1.414L6 10.586l6.293-6.293a1 1 0 011.414 0z\" clipRule=\"evenodd\" />\r\n                  </svg>\r\n                ),\r\n                title: \"Pattern saved\",\r\n                desc: \"Your Kente weave design has been preserved for future generations.\",\r\n                bg: \"bg-[#1a5632]/20\",\r\n                border: \"border-[#1a5632]\",\r\n                textColor: \"text-[#1a5632]\",\r\n                accent: \"#1a5632\",\r\n              },\r\n              {\r\n                type: \"warning\",\r\n                icon: (\r\n                  <svg viewBox=\"0 0 16 16\" fill=\"currentColor\" className=\"w-5 h-5\" aria-hidden=\"true\">\r\n                    <path fillRule=\"evenodd\" d=\"M8 1a.5.5 0 01.447.276l7 14A.5.5 0 0115 16H1a.5.5 0 01-.447-.724l7-14A.5.5 0 018 1zm0 4a.5.5 0 01.5.5v4a.5.5 0 01-1 0v-4A.5.5 0 018 5zm0 7a1 1 0 110 2 1 1 0 010-2z\" clipRule=\"evenodd\" />\r\n                  </svg>\r\n                ),\r\n                title: \"Thread tension warning\",\r\n                desc: \"The warp tension may need adjustment before continuing the weave.\",\r\n                bg: \"bg-[#f0c75e]/20\",\r\n                border: \"border-[#f0c75e]\",\r\n                textColor: \"text-[#f0c75e]\",\r\n                accent: \"#f0c75e\",\r\n              },\r\n              {\r\n                type: \"error\",\r\n                icon: (\r\n                  <svg viewBox=\"0 0 16 16\" fill=\"currentColor\" className=\"w-5 h-5\" aria-hidden=\"true\">\r\n                    <path fillRule=\"evenodd\" d=\"M12.293 4.293a1 1 0 010 1.414L9.414 8l2.879 2.879a1 1 0 01-1.414 1.414L8 9.414l-2.879 2.879a1 1 0 01-1.414-1.414L6.586 8 3.707 5.121a1 1 0 011.414-1.414L8 6.586l2.879-2.879a1 1 0 011.414 0z\" clipRule=\"evenodd\" />\r\n                  </svg>\r\n                ),\r\n                title: \"Thread broke\",\r\n                desc: \"The weave encountered a break. Please re-thread the loom and try again.\",\r\n                bg: \"bg-[#c4501f]/20\",\r\n                border: \"border-[#c4501f]\",\r\n                textColor: \"text-[#c4501f]\",\r\n                accent: \"#c4501f\",\r\n              },\r\n              {\r\n                type: \"info\",\r\n                icon: (\r\n                  <svg viewBox=\"0 0 16 16\" fill=\"currentColor\" className=\"w-5 h-5\" aria-hidden=\"true\">\r\n                    <path fillRule=\"evenodd\" d=\"M8 1a7 7 0 100 14A7 7 0 008 1zM7 5a1 1 0 112 0v4a1 1 0 11-2 0V5zm1 6a1 1 0 100 2 1 1 0 000-2z\" clipRule=\"evenodd\" />\r\n                  </svg>\r\n                ),\r\n                title: \"Tradition note\",\r\n                desc: \"Each Kente pattern carries a unique name and cultural meaning.\",\r\n                bg: \"bg-[#e8d5b5]/10\",\r\n                border: \"border-[#e8d5b5]/50\",\r\n                textColor: \"text-[#e8d5b5]\",\r\n                accent: \"#e8d5b5\",\r\n              },\r\n            ].map",
+          "lineNumber": 1537
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n              {\r\n                title: \"Geometric Repetition\",\r\n                desc: \"Patterns repeat with rhythmic purpose. No space is left unspoken. Every surface participates in the visual dialogue.\",\r\n                pattern: \"zigzag\",\r\n                delay: 0,\r\n              },\r\n              {\r\n                title: \"Bold Weight Typography\",\r\n                desc: \"The griot's voice is never a whisper. Text commands attention through mass, uppercase authority, and generous tracking.\",\r\n                pattern: \"diamond\",\r\n                delay: 0.08,\r\n              },\r\n              {\r\n                title: \"Warm Color Harmony\",\r\n                desc: \"Kente orange, gold, forest green, and earth sand create a palette rooted in the West African savanna and forest.\",\r\n                pattern: \"weave\",\r\n                delay: 0.16,\r\n              },\r\n              {\r\n                title: \"Hard Shadow Blocks\",\r\n                desc: \"Flat 4px offset shadows in dark wood create tactile depth that echoes the physicality of woven cloth and carved wood.\",\r\n                pattern: \"triangle\",\r\n                delay: 0.24,\r\n              },\r\n              {\r\n                title: \"Cultural Symbolism\",\r\n                desc: \"Every visual choice carries meaning. Chevrons signal direction. Diamonds encode duality. Crosses bind community.\",\r\n                pattern: \"cross\",\r\n                delay: 0.32,\r\n              },\r\n              {\r\n                title: \"Alternating Color Blocks\",\r\n                desc: \"Grid layouts use rhythmic color alternation — orange, gold, green, sand — mimicking the warp-weft structure of the loom.\",\r\n                pattern: \"chevron\",\r\n                delay: 0.4,\r\n              },\r\n            ].map",
+          "lineNumber": 1634
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "Array.from({ length: 16 }).map",
+          "lineNumber": 1787
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "Array.from",
+          "lineNumber": 1787
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 11,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/styles/african-textile/showcase/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 16,
+      "nonEmptyLines": 12,
+      "functions": [
+        {
+          "name": "Page",
+          "startLine": 14,
+          "endLine": 16,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 2,
+          "isDefault": false
+        },
+        {
+          "name": "metadata",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "Page",
+          "line": 14,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    }
+  ]
+}

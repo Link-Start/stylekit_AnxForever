@@ -1,0 +1,1964 @@
+{
+  "nodes": [
+    {
+      "id": "file:lib/export/ide-configs.ts",
+      "type": "file",
+      "name": "ide-configs.ts",
+      "filePath": "lib/export/ide-configs.ts",
+      "summary": "IDE configuration generator producing Claude/Cursor AI rules files for design consistency.",
+      "tags": [
+        "export",
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/export/llms-full.ts",
+      "type": "file",
+      "name": "llms-full.ts",
+      "filePath": "lib/export/llms-full.ts",
+      "summary": "LLM context file generator producing comprehensive markdown including all styles, archetypes, and recipes.",
+      "tags": [
+        "export",
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/export/shadcn-theme.ts",
+      "type": "file",
+      "name": "shadcn-theme.ts",
+      "filePath": "lib/export/shadcn-theme.ts",
+      "summary": "shadcn/ui theme export converter transforming style tokens into shadcn CSS variable format.",
+      "tags": [
+        "export",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/export/skill-pack.ts",
+      "type": "file",
+      "name": "skill-pack.ts",
+      "filePath": "lib/export/skill-pack.ts",
+      "summary": "Skill pack generator producing downloadable AI assistant skill packages for each style.",
+      "tags": [
+        "export",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/export/stackblitz.ts",
+      "type": "file",
+      "name": "stackblitz.ts",
+      "filePath": "lib/export/stackblitz.ts",
+      "summary": "StackBlitz export utility preparing style previews for online IDE sandboxes.",
+      "tags": [
+        "export",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/export/style-pack.ts",
+      "type": "file",
+      "name": "style-pack.ts",
+      "filePath": "lib/export/style-pack.ts",
+      "summary": "Style pack assembler combining multiple export formats into downloadable ZIP archives.",
+      "tags": [
+        "export",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/export/tailwind-preset.ts",
+      "type": "file",
+      "name": "tailwind-preset.ts",
+      "filePath": "lib/export/tailwind-preset.ts",
+      "summary": "Tailwind CSS preset generator converting style tokens into Tailwind-compatible configuration.",
+      "tags": [
+        "export",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/og/shared.ts",
+      "type": "file",
+      "name": "shared.ts",
+      "filePath": "lib/og/shared.ts",
+      "summary": "Open Graph image generation utilities for creating dynamic social share previews.",
+      "tags": [
+        "og",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/recipes/__tests__/index.test.ts",
+      "type": "file",
+      "name": "index.test.ts",
+      "filePath": "lib/recipes/__tests__/index.test.ts",
+      "summary": "Unit tests covering the API route handlers and request validation.",
+      "tags": [
+        "test",
+        "api-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/recipes/__tests__/recipes-integrity.test.ts",
+      "type": "file",
+      "name": "recipes-integrity.test.ts",
+      "filePath": "lib/recipes/__tests__/recipes-integrity.test.ts",
+      "summary": "Unit tests covering the API route handlers and request validation.",
+      "tags": [
+        "test",
+        "api-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/recipes/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "lib/recipes/index.ts",
+      "summary": "Recipes barrel export providing design recipe definitions for common UI patterns.",
+      "tags": [
+        "recipes"
+      ],
+      "complexity": "simple",
+      "languageNotes": "Barrel file re-exporting multiple modules."
+    },
+    {
+      "id": "file:lib/styles/__tests__/cross-reference.test.ts",
+      "type": "file",
+      "name": "cross-reference.test.ts",
+      "filePath": "lib/styles/__tests__/cross-reference.test.ts",
+      "summary": "Unit tests covering the API route handlers and request validation.",
+      "tags": [
+        "test",
+        "api-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/styles/__tests__/rule-normalizer.test.ts",
+      "type": "file",
+      "name": "rule-normalizer.test.ts",
+      "filePath": "lib/styles/__tests__/rule-normalizer.test.ts",
+      "summary": "Unit tests covering the API route handlers and request validation.",
+      "tags": [
+        "test",
+        "api-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/styles/__tests__/styles-consistency.test.ts",
+      "type": "file",
+      "name": "styles-consistency.test.ts",
+      "filePath": "lib/styles/__tests__/styles-consistency.test.ts",
+      "summary": "Unit tests covering the API route handlers and request validation.",
+      "tags": [
+        "test",
+        "api-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/styles/__tests__/tokens-registry.test.ts",
+      "type": "file",
+      "name": "tokens-registry.test.ts",
+      "filePath": "lib/styles/__tests__/tokens-registry.test.ts",
+      "summary": "Unit tests covering the API route handlers and request validation.",
+      "tags": [
+        "test",
+        "api-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/community-runtime.ts",
+      "type": "file",
+      "name": "community-runtime.ts",
+      "filePath": "lib/styles/community-runtime.ts",
+      "summary": "Community style runtime service managing dynamic style registration, listing, and community content.",
+      "tags": [
+        "styles",
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/enhanced-rules.ts",
+      "type": "file",
+      "name": "enhanced-rules.ts",
+      "filePath": "lib/styles/enhanced-rules.ts",
+      "summary": "Enhanced style rules generator producing detailed design constraints and token mappings.",
+      "tags": [
+        "styles",
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "lib/styles/index.ts",
+      "summary": "Styles module: styles.",
+      "tags": [
+        "styles",
+        "utility"
+      ],
+      "complexity": "simple",
+      "languageNotes": "Barrel file re-exporting multiple modules."
+    },
+    {
+      "id": "function:lib/export/ide-configs.ts:formatTokenReference",
+      "type": "function",
+      "name": "formatTokenReference",
+      "filePath": "lib/export/ide-configs.ts",
+      "lineRange": [
+        32,
+        48
+      ],
+      "summary": "formatTokenReference function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/export/ide-configs.ts:formatRecipeSummary",
+      "type": "function",
+      "name": "formatRecipeSummary",
+      "filePath": "lib/export/ide-configs.ts",
+      "lineRange": [
+        70,
+        95
+      ],
+      "summary": "formatRecipeSummary function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/export/ide-configs.ts:generateCursorRules",
+      "type": "function",
+      "name": "generateCursorRules",
+      "filePath": "lib/export/ide-configs.ts",
+      "lineRange": [
+        101,
+        149
+      ],
+      "summary": "generateCursorRules function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/export/ide-configs.ts:generateClaudeRules",
+      "type": "function",
+      "name": "generateClaudeRules",
+      "filePath": "lib/export/ide-configs.ts",
+      "lineRange": [
+        155,
+        205
+      ],
+      "summary": "generateClaudeRules function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:lib/export/ide-configs.ts:generateWindsurfRules",
+      "type": "function",
+      "name": "generateWindsurfRules",
+      "filePath": "lib/export/ide-configs.ts",
+      "lineRange": [
+        211,
+        254
+      ],
+      "summary": "generateWindsurfRules function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/export/ide-configs.ts:generateGenericRules",
+      "type": "function",
+      "name": "generateGenericRules",
+      "filePath": "lib/export/ide-configs.ts",
+      "lineRange": [
+        260,
+        309
+      ],
+      "summary": "generateGenericRules function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:lib/export/ide-configs.ts:generateIdeConfig",
+      "type": "function",
+      "name": "generateIdeConfig",
+      "filePath": "lib/export/ide-configs.ts",
+      "lineRange": [
+        315,
+        329
+      ],
+      "summary": "generateIdeConfig function with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/export/ide-configs.ts:getIdeConfigFilename",
+      "type": "function",
+      "name": "getIdeConfigFilename",
+      "filePath": "lib/export/ide-configs.ts",
+      "lineRange": [
+        331,
+        345
+      ],
+      "summary": "getIdeConfigFilename function with 2 parameters.",
+      "tags": [
+        "getter",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/export/ide-configs.ts:getIdeConfigMimeType",
+      "type": "function",
+      "name": "getIdeConfigMimeType",
+      "filePath": "lib/export/ide-configs.ts",
+      "lineRange": [
+        347,
+        356
+      ],
+      "summary": "getIdeConfigMimeType function with 1 parameters.",
+      "tags": [
+        "getter",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/export/llms-full.ts:generateLlmsFullText",
+      "type": "function",
+      "name": "generateLlmsFullText",
+      "filePath": "lib/export/llms-full.ts",
+      "lineRange": [
+        10,
+        314
+      ],
+      "summary": "generateLlmsFullText function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:lib/export/shadcn-theme.ts:hexToHsl",
+      "type": "function",
+      "name": "hexToHsl",
+      "filePath": "lib/export/shadcn-theme.ts",
+      "lineRange": [
+        14,
+        47
+      ],
+      "summary": "hexToHsl function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/export/shadcn-theme.ts:generateShadcnTheme",
+      "type": "function",
+      "name": "generateShadcnTheme",
+      "filePath": "lib/export/shadcn-theme.ts",
+      "lineRange": [
+        49,
+        127
+      ],
+      "summary": "generateShadcnTheme function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:lib/export/shadcn-theme.ts:generateShadcnThemeJSON",
+      "type": "function",
+      "name": "generateShadcnThemeJSON",
+      "filePath": "lib/export/shadcn-theme.ts",
+      "lineRange": [
+        129,
+        132
+      ],
+      "summary": "generateShadcnThemeJSON function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/export/shadcn-theme.ts:generateShadcnThemeCSS",
+      "type": "function",
+      "name": "generateShadcnThemeCSS",
+      "filePath": "lib/export/shadcn-theme.ts",
+      "lineRange": [
+        134,
+        167
+      ],
+      "summary": "generateShadcnThemeCSS function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/export/skill-pack.ts:generateSkillPack",
+      "type": "function",
+      "name": "generateSkillPack",
+      "filePath": "lib/export/skill-pack.ts",
+      "lineRange": [
+        21,
+        184
+      ],
+      "summary": "generateSkillPack function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:lib/export/skill-pack.ts:downloadSkillPack",
+      "type": "function",
+      "name": "downloadSkillPack",
+      "filePath": "lib/export/skill-pack.ts",
+      "lineRange": [
+        189,
+        201
+      ],
+      "summary": "downloadSkillPack function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/export/skill-pack.ts:getSkillPackFileInfo",
+      "type": "function",
+      "name": "getSkillPackFileInfo",
+      "filePath": "lib/export/skill-pack.ts",
+      "lineRange": [
+        206,
+        218
+      ],
+      "summary": "getSkillPackFileInfo function with 1 parameters.",
+      "tags": [
+        "getter",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/export/stackblitz.ts:loadStackBlitzSdk",
+      "type": "function",
+      "name": "loadStackBlitzSdk",
+      "filePath": "lib/export/stackblitz.ts",
+      "lineRange": [
+        27,
+        68
+      ],
+      "summary": "loadStackBlitzSdk function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/export/stackblitz.ts:buildCSS",
+      "type": "function",
+      "name": "buildCSS",
+      "filePath": "lib/export/stackblitz.ts",
+      "lineRange": [
+        70,
+        87
+      ],
+      "summary": "buildCSS function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/export/stackblitz.ts:buildProject",
+      "type": "function",
+      "name": "buildProject",
+      "filePath": "lib/export/stackblitz.ts",
+      "lineRange": [
+        89,
+        183
+      ],
+      "summary": "buildProject function with 3 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:lib/export/stackblitz.ts:openInStackBlitz",
+      "type": "function",
+      "name": "openInStackBlitz",
+      "filePath": "lib/export/stackblitz.ts",
+      "lineRange": [
+        185,
+        201
+      ],
+      "summary": "openInStackBlitz function with 3 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/export/style-pack.ts:generateStylePack",
+      "type": "function",
+      "name": "generateStylePack",
+      "filePath": "lib/export/style-pack.ts",
+      "lineRange": [
+        26,
+        99
+      ],
+      "summary": "generateStylePack function with 3 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:lib/export/style-pack.ts:downloadFile",
+      "type": "function",
+      "name": "downloadFile",
+      "filePath": "lib/export/style-pack.ts",
+      "lineRange": [
+        101,
+        111
+      ],
+      "summary": "downloadFile function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/export/style-pack.ts:downloadAllAsZip",
+      "type": "function",
+      "name": "downloadAllAsZip",
+      "filePath": "lib/export/style-pack.ts",
+      "lineRange": [
+        113,
+        115
+      ],
+      "summary": "downloadAllAsZip function with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/export/style-pack.ts:downloadAllAsZipAsync",
+      "type": "function",
+      "name": "downloadAllAsZipAsync",
+      "filePath": "lib/export/style-pack.ts",
+      "lineRange": [
+        117,
+        134
+      ],
+      "summary": "downloadAllAsZipAsync function with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/export/tailwind-preset.ts:generateTailwindPreset",
+      "type": "function",
+      "name": "generateTailwindPreset",
+      "filePath": "lib/export/tailwind-preset.ts",
+      "lineRange": [
+        19,
+        92
+      ],
+      "summary": "generateTailwindPreset function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:lib/export/tailwind-preset.ts:generateTailwindPresetJS",
+      "type": "function",
+      "name": "generateTailwindPresetJS",
+      "filePath": "lib/export/tailwind-preset.ts",
+      "lineRange": [
+        94,
+        111
+      ],
+      "summary": "generateTailwindPresetJS function with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/og/shared.ts:getAnimationAccent",
+      "type": "function",
+      "name": "getAnimationAccent",
+      "filePath": "lib/og/shared.ts",
+      "lineRange": [
+        25,
+        27
+      ],
+      "summary": "getAnimationAccent function with 1 parameters.",
+      "tags": [
+        "getter",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/og/shared.ts:containerStyle",
+      "type": "function",
+      "name": "containerStyle",
+      "filePath": "lib/og/shared.ts",
+      "lineRange": [
+        30,
+        40
+      ],
+      "summary": "containerStyle function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/og/shared.ts:badgeStyle",
+      "type": "function",
+      "name": "badgeStyle",
+      "filePath": "lib/og/shared.ts",
+      "lineRange": [
+        43,
+        55
+      ],
+      "summary": "badgeStyle function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/og/shared.ts:titleStyle",
+      "type": "function",
+      "name": "titleStyle",
+      "filePath": "lib/og/shared.ts",
+      "lineRange": [
+        58,
+        67
+      ],
+      "summary": "titleStyle function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/og/shared.ts:subtitleStyle",
+      "type": "function",
+      "name": "subtitleStyle",
+      "filePath": "lib/og/shared.ts",
+      "lineRange": [
+        70,
+        78
+      ],
+      "summary": "subtitleStyle function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/og/shared.ts:footerColors",
+      "type": "function",
+      "name": "footerColors",
+      "filePath": "lib/og/shared.ts",
+      "lineRange": [
+        81,
+        89
+      ],
+      "summary": "footerColors function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/styles/community-runtime.ts:toInlineSvgDataUri",
+      "type": "function",
+      "name": "toInlineSvgDataUri",
+      "filePath": "lib/styles/community-runtime.ts",
+      "lineRange": [
+        77,
+        89
+      ],
+      "summary": "toInlineSvgDataUri function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/styles/community-runtime.ts:parseComponentTemplate",
+      "type": "function",
+      "name": "parseComponentTemplate",
+      "filePath": "lib/styles/community-runtime.ts",
+      "lineRange": [
+        123,
+        135
+      ],
+      "summary": "parseComponentTemplate function with 4 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/styles/community-runtime.ts:parseOptionalComponentTemplate",
+      "type": "function",
+      "name": "parseOptionalComponentTemplate",
+      "filePath": "lib/styles/community-runtime.ts",
+      "lineRange": [
+        137,
+        154
+      ],
+      "summary": "parseOptionalComponentTemplate function with 4 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/styles/community-runtime.ts:parseExamplePrompts",
+      "type": "function",
+      "name": "parseExamplePrompts",
+      "filePath": "lib/styles/community-runtime.ts",
+      "lineRange": [
+        156,
+        185
+      ],
+      "summary": "parseExamplePrompts function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/styles/community-runtime.ts:mapSubmissionToStyle",
+      "type": "function",
+      "name": "mapSubmissionToStyle",
+      "filePath": "lib/styles/community-runtime.ts",
+      "lineRange": [
+        187,
+        346
+      ],
+      "summary": "mapSubmissionToStyle function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:lib/styles/community-runtime.ts:listApprovedSubmissionsRuntime",
+      "type": "function",
+      "name": "listApprovedSubmissionsRuntime",
+      "filePath": "lib/styles/community-runtime.ts",
+      "lineRange": [
+        348,
+        358
+      ],
+      "summary": "listApprovedSubmissionsRuntime function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/styles/community-runtime.ts:getApprovedSubmissionBySlugRuntime",
+      "type": "function",
+      "name": "getApprovedSubmissionBySlugRuntime",
+      "filePath": "lib/styles/community-runtime.ts",
+      "lineRange": [
+        360,
+        377
+      ],
+      "summary": "getApprovedSubmissionBySlugRuntime function with 1 parameters.",
+      "tags": [
+        "getter",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/styles/community-runtime.ts:listCatalogStylesMeta",
+      "type": "function",
+      "name": "listCatalogStylesMeta",
+      "filePath": "lib/styles/community-runtime.ts",
+      "lineRange": [
+        414,
+        453
+      ],
+      "summary": "listCatalogStylesMeta function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/styles/enhanced-rules.ts:generateEnhancedAIRules",
+      "type": "function",
+      "name": "generateEnhancedAIRules",
+      "filePath": "lib/styles/enhanced-rules.ts",
+      "lineRange": [
+        13,
+        35
+      ],
+      "summary": "generateEnhancedAIRules function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/styles/enhanced-rules.ts:generateTokenDictionary",
+      "type": "function",
+      "name": "generateTokenDictionary",
+      "filePath": "lib/styles/enhanced-rules.ts",
+      "lineRange": [
+        47,
+        95
+      ],
+      "summary": "generateTokenDictionary function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/styles/enhanced-rules.ts:generateForbiddenRules",
+      "type": "function",
+      "name": "generateForbiddenRules",
+      "filePath": "lib/styles/enhanced-rules.ts",
+      "lineRange": [
+        97,
+        125
+      ],
+      "summary": "generateForbiddenRules function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/styles/enhanced-rules.ts:generateRequiredPatterns",
+      "type": "function",
+      "name": "generateRequiredPatterns",
+      "filePath": "lib/styles/enhanced-rules.ts",
+      "lineRange": [
+        127,
+        144
+      ],
+      "summary": "generateRequiredPatterns function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/styles/enhanced-rules.ts:generateBeforeAfterExamples",
+      "type": "function",
+      "name": "generateBeforeAfterExamples",
+      "filePath": "lib/styles/enhanced-rules.ts",
+      "lineRange": [
+        146,
+        192
+      ],
+      "summary": "generateBeforeAfterExamples function with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/styles/enhanced-rules.ts:generateSkeletonTemplates",
+      "type": "function",
+      "name": "generateSkeletonTemplates",
+      "filePath": "lib/styles/enhanced-rules.ts",
+      "lineRange": [
+        194,
+        265
+      ],
+      "summary": "generateSkeletonTemplates function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:lib/styles/enhanced-rules.ts:generateSelfCheckList",
+      "type": "function",
+      "name": "generateSelfCheckList",
+      "filePath": "lib/styles/enhanced-rules.ts",
+      "lineRange": [
+        267,
+        303
+      ],
+      "summary": "generateSelfCheckList function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/styles/enhanced-rules.ts:generateExamplePrompts",
+      "type": "function",
+      "name": "generateExamplePrompts",
+      "filePath": "lib/styles/enhanced-rules.ts",
+      "lineRange": [
+        305,
+        317
+      ],
+      "summary": "generateExamplePrompts function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:lib/export/ide-configs.ts",
+      "target": "function:lib/export/ide-configs.ts:formatTokenReference",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/export/ide-configs.ts",
+      "target": "function:lib/export/ide-configs.ts:formatRecipeSummary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/export/ide-configs.ts",
+      "target": "function:lib/export/ide-configs.ts:generateCursorRules",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/export/ide-configs.ts",
+      "target": "function:lib/export/ide-configs.ts:generateCursorRules",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/export/ide-configs.ts",
+      "target": "function:lib/export/ide-configs.ts:generateClaudeRules",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/export/ide-configs.ts",
+      "target": "function:lib/export/ide-configs.ts:generateClaudeRules",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/export/ide-configs.ts",
+      "target": "function:lib/export/ide-configs.ts:generateWindsurfRules",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/export/ide-configs.ts",
+      "target": "function:lib/export/ide-configs.ts:generateWindsurfRules",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/export/ide-configs.ts",
+      "target": "function:lib/export/ide-configs.ts:generateGenericRules",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/export/ide-configs.ts",
+      "target": "function:lib/export/ide-configs.ts:generateGenericRules",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/export/ide-configs.ts",
+      "target": "function:lib/export/ide-configs.ts:generateIdeConfig",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/export/ide-configs.ts",
+      "target": "function:lib/export/ide-configs.ts:generateIdeConfig",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/export/ide-configs.ts",
+      "target": "function:lib/export/ide-configs.ts:getIdeConfigFilename",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/export/ide-configs.ts",
+      "target": "function:lib/export/ide-configs.ts:getIdeConfigFilename",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/export/ide-configs.ts",
+      "target": "function:lib/export/ide-configs.ts:getIdeConfigMimeType",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/export/ide-configs.ts",
+      "target": "function:lib/export/ide-configs.ts:getIdeConfigMimeType",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/export/ide-configs.ts",
+      "target": "file:lib/recipes/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/export/ide-configs.ts",
+      "target": "file:lib/styles/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/export/ide-configs.ts",
+      "target": "file:lib/styles/tokens-registry.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/export/ide-configs.ts",
+      "target": "file:lib/styles/tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/export/llms-full.ts",
+      "target": "function:lib/export/llms-full.ts:generateLlmsFullText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/export/llms-full.ts",
+      "target": "function:lib/export/llms-full.ts:generateLlmsFullText",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/export/llms-full.ts",
+      "target": "file:lib/archetypes/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/export/llms-full.ts",
+      "target": "file:lib/recipes/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/export/llms-full.ts",
+      "target": "file:lib/recipes/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/export/llms-full.ts",
+      "target": "file:lib/styles/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/export/llms-full.ts",
+      "target": "file:lib/styles/tokens-registry.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/export/shadcn-theme.ts",
+      "target": "function:lib/export/shadcn-theme.ts:hexToHsl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/export/shadcn-theme.ts",
+      "target": "function:lib/export/shadcn-theme.ts:generateShadcnTheme",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/export/shadcn-theme.ts",
+      "target": "function:lib/export/shadcn-theme.ts:generateShadcnTheme",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/export/shadcn-theme.ts",
+      "target": "function:lib/export/shadcn-theme.ts:generateShadcnThemeJSON",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/export/shadcn-theme.ts",
+      "target": "function:lib/export/shadcn-theme.ts:generateShadcnThemeJSON",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/export/shadcn-theme.ts",
+      "target": "function:lib/export/shadcn-theme.ts:generateShadcnThemeCSS",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/export/shadcn-theme.ts",
+      "target": "function:lib/export/shadcn-theme.ts:generateShadcnThemeCSS",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/export/shadcn-theme.ts",
+      "target": "file:lib/styles/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/export/skill-pack.ts",
+      "target": "function:lib/export/skill-pack.ts:generateSkillPack",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/export/skill-pack.ts",
+      "target": "function:lib/export/skill-pack.ts:generateSkillPack",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/export/skill-pack.ts",
+      "target": "function:lib/export/skill-pack.ts:downloadSkillPack",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/export/skill-pack.ts",
+      "target": "function:lib/export/skill-pack.ts:downloadSkillPack",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/export/skill-pack.ts",
+      "target": "function:lib/export/skill-pack.ts:getSkillPackFileInfo",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/export/skill-pack.ts",
+      "target": "function:lib/export/skill-pack.ts:getSkillPackFileInfo",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/export/skill-pack.ts",
+      "target": "file:lib/archetypes/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/export/skill-pack.ts",
+      "target": "file:lib/recipes/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/export/skill-pack.ts",
+      "target": "file:lib/styles/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/export/skill-pack.ts",
+      "target": "file:lib/styles/tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/export/stackblitz.ts",
+      "target": "function:lib/export/stackblitz.ts:loadStackBlitzSdk",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/export/stackblitz.ts",
+      "target": "function:lib/export/stackblitz.ts:buildCSS",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/export/stackblitz.ts",
+      "target": "function:lib/export/stackblitz.ts:buildProject",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/export/stackblitz.ts",
+      "target": "function:lib/export/stackblitz.ts:openInStackBlitz",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/export/stackblitz.ts",
+      "target": "function:lib/export/stackblitz.ts:openInStackBlitz",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/export/stackblitz.ts",
+      "target": "file:lib/styles/tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/export/style-pack.ts",
+      "target": "function:lib/export/style-pack.ts:generateStylePack",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/export/style-pack.ts",
+      "target": "function:lib/export/style-pack.ts:generateStylePack",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/export/style-pack.ts",
+      "target": "function:lib/export/style-pack.ts:downloadFile",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/export/style-pack.ts",
+      "target": "function:lib/export/style-pack.ts:downloadFile",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/export/style-pack.ts",
+      "target": "function:lib/export/style-pack.ts:downloadAllAsZip",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/export/style-pack.ts",
+      "target": "function:lib/export/style-pack.ts:downloadAllAsZip",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/export/style-pack.ts",
+      "target": "function:lib/export/style-pack.ts:downloadAllAsZipAsync",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/export/style-pack.ts",
+      "target": "file:lib/export/figma-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/export/style-pack.ts",
+      "target": "file:lib/export/shadcn-theme.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/export/style-pack.ts",
+      "target": "file:lib/export/tailwind-preset.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/export/style-pack.ts",
+      "target": "file:lib/styles/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/export/style-pack.ts",
+      "target": "file:lib/styles/tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/export/style-pack.ts",
+      "target": "file:lib/versioning/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/export/tailwind-preset.ts",
+      "target": "function:lib/export/tailwind-preset.ts:generateTailwindPreset",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/export/tailwind-preset.ts",
+      "target": "function:lib/export/tailwind-preset.ts:generateTailwindPreset",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/export/tailwind-preset.ts",
+      "target": "function:lib/export/tailwind-preset.ts:generateTailwindPresetJS",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/export/tailwind-preset.ts",
+      "target": "function:lib/export/tailwind-preset.ts:generateTailwindPresetJS",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/export/tailwind-preset.ts",
+      "target": "file:lib/styles/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/export/tailwind-preset.ts",
+      "target": "file:lib/styles/tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/og/shared.ts",
+      "target": "function:lib/og/shared.ts:getAnimationAccent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/og/shared.ts",
+      "target": "function:lib/og/shared.ts:getAnimationAccent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/og/shared.ts",
+      "target": "function:lib/og/shared.ts:containerStyle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/og/shared.ts",
+      "target": "function:lib/og/shared.ts:containerStyle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/og/shared.ts",
+      "target": "function:lib/og/shared.ts:badgeStyle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/og/shared.ts",
+      "target": "function:lib/og/shared.ts:badgeStyle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/og/shared.ts",
+      "target": "function:lib/og/shared.ts:titleStyle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/og/shared.ts",
+      "target": "function:lib/og/shared.ts:titleStyle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/og/shared.ts",
+      "target": "function:lib/og/shared.ts:subtitleStyle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/og/shared.ts",
+      "target": "function:lib/og/shared.ts:subtitleStyle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/og/shared.ts",
+      "target": "function:lib/og/shared.ts:footerColors",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/og/shared.ts",
+      "target": "function:lib/og/shared.ts:footerColors",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/recipes/__tests__/index.test.ts",
+      "target": "file:lib/recipes/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/recipes/index.ts",
+      "target": "file:lib/recipes/__tests__/index.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:lib/recipes/__tests__/recipes-integrity.test.ts",
+      "target": "file:lib/recipes/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/recipes/index.ts",
+      "target": "file:lib/recipes/__tests__/recipes-integrity.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:lib/styles/__tests__/cross-reference.test.ts",
+      "target": "file:lib/recipes/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/__tests__/cross-reference.test.ts",
+      "target": "file:lib/styles/tokens-registry.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/recipes/index.ts",
+      "target": "file:lib/styles/__tests__/cross-reference.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:lib/styles/tokens-registry.ts",
+      "target": "file:lib/styles/__tests__/cross-reference.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:lib/styles/__tests__/rule-normalizer.test.ts",
+      "target": "file:lib/styles/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/__tests__/rule-normalizer.test.ts",
+      "target": "file:lib/styles/rule-normalizer.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/index.ts",
+      "target": "file:lib/styles/__tests__/rule-normalizer.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:lib/styles/rule-normalizer.ts",
+      "target": "file:lib/styles/__tests__/rule-normalizer.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:lib/styles/__tests__/styles-consistency.test.ts",
+      "target": "file:lib/styles/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/__tests__/styles-consistency.test.ts",
+      "target": "file:lib/styles/meta.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/index.ts",
+      "target": "file:lib/styles/__tests__/styles-consistency.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:lib/styles/meta.ts",
+      "target": "file:lib/styles/__tests__/styles-consistency.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:lib/styles/__tests__/tokens-registry.test.ts",
+      "target": "file:lib/styles/tokens-registry.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry.ts",
+      "target": "file:lib/styles/__tests__/tokens-registry.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:lib/styles/community-runtime.ts",
+      "target": "function:lib/styles/community-runtime.ts:toInlineSvgDataUri",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/community-runtime.ts",
+      "target": "function:lib/styles/community-runtime.ts:parseComponentTemplate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/community-runtime.ts",
+      "target": "function:lib/styles/community-runtime.ts:parseOptionalComponentTemplate",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/community-runtime.ts",
+      "target": "function:lib/styles/community-runtime.ts:parseExamplePrompts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/community-runtime.ts",
+      "target": "function:lib/styles/community-runtime.ts:mapSubmissionToStyle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/community-runtime.ts",
+      "target": "function:lib/styles/community-runtime.ts:mapSubmissionToStyle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/styles/community-runtime.ts",
+      "target": "function:lib/styles/community-runtime.ts:listApprovedSubmissionsRuntime",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/community-runtime.ts",
+      "target": "function:lib/styles/community-runtime.ts:getApprovedSubmissionBySlugRuntime",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/community-runtime.ts",
+      "target": "function:lib/styles/community-runtime.ts:listCatalogStylesMeta",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/community-runtime.ts",
+      "target": "function:lib/styles/community-runtime.ts:listCatalogStylesMeta",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/styles/community-runtime.ts",
+      "target": "file:lib/styles/meta.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/community-runtime.ts",
+      "target": "file:lib/styles/registry.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/community-runtime.ts",
+      "target": "file:lib/styles/tokens-registry.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/community-runtime.ts",
+      "target": "file:lib/styles/tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/community-runtime.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/community-runtime.ts",
+      "target": "file:lib/submit/reviewer-supabase.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/community-runtime.ts",
+      "target": "file:lib/submit/reviewer.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/enhanced-rules.ts",
+      "target": "function:lib/styles/enhanced-rules.ts:generateEnhancedAIRules",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/enhanced-rules.ts",
+      "target": "function:lib/styles/enhanced-rules.ts:generateEnhancedAIRules",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/styles/enhanced-rules.ts",
+      "target": "function:lib/styles/enhanced-rules.ts:generateTokenDictionary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/enhanced-rules.ts",
+      "target": "function:lib/styles/enhanced-rules.ts:generateForbiddenRules",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/enhanced-rules.ts",
+      "target": "function:lib/styles/enhanced-rules.ts:generateRequiredPatterns",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/enhanced-rules.ts",
+      "target": "function:lib/styles/enhanced-rules.ts:generateBeforeAfterExamples",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/enhanced-rules.ts",
+      "target": "function:lib/styles/enhanced-rules.ts:generateSkeletonTemplates",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/enhanced-rules.ts",
+      "target": "function:lib/styles/enhanced-rules.ts:generateSelfCheckList",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/enhanced-rules.ts",
+      "target": "function:lib/styles/enhanced-rules.ts:generateExamplePrompts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/enhanced-rules.ts",
+      "target": "file:lib/styles/tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/enhanced-rules.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/versioning/version-data.ts",
+      "target": "file:lib/recipes/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/versioning/version-data.ts",
+      "target": "file:lib/styles/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/unit/lib/export-ide-configs.test.ts",
+      "target": "file:lib/export/ide-configs.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/export/ide-configs.ts",
+      "target": "file:tests/unit/lib/export-ide-configs.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:tests/unit/lib/export-shadcn-theme.test.ts",
+      "target": "file:lib/export/shadcn-theme.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/unit/lib/export-shadcn-theme.test.ts",
+      "target": "file:lib/styles/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/export/shadcn-theme.ts",
+      "target": "file:tests/unit/lib/export-shadcn-theme.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:lib/styles/index.ts",
+      "target": "file:tests/unit/lib/export-shadcn-theme.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:tests/unit/lib/export-tailwind-preset.test.ts",
+      "target": "file:lib/export/tailwind-preset.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tests/unit/lib/export-tailwind-preset.test.ts",
+      "target": "file:lib/styles/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/export/tailwind-preset.ts",
+      "target": "file:tests/unit/lib/export-tailwind-preset.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:lib/styles/index.ts",
+      "target": "file:tests/unit/lib/export-tailwind-preset.test.ts",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:tools/scripts/check-catalog-integrity.ts",
+      "target": "file:lib/recipes/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tools/scripts/check-catalog-integrity.ts",
+      "target": "file:lib/styles/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:tools/scripts/lint-style-rules.ts",
+      "target": "file:lib/styles/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

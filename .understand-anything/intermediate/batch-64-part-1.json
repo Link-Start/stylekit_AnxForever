@@ -1,0 +1,451 @@
+{
+  "nodes": [
+    {
+      "id": "file:app/styles/zen-garden/showcase/page.tsx",
+      "type": "file",
+      "name": "Page",
+      "filePath": "app/styles/zen-garden/showcase/page.tsx",
+      "summary": "Next.js page route for the Zen Garden showcase, loading the content component with static generation and metadata.",
+      "tags": [
+        "showcase",
+        "page",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/zen-garden/showcase/page.tsx:Page",
+      "type": "function",
+      "name": "Page",
+      "filePath": "app/styles/zen-garden/showcase/page.tsx",
+      "lineRange": [
+        14,
+        16
+      ],
+      "summary": "Next.js page component rendering the Zen Garden showcase.",
+      "tags": [
+        "page",
+        "showcase"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/analytics/usage-chart.tsx",
+      "type": "file",
+      "name": "usage-chart.tsx",
+      "filePath": "components/analytics/usage-chart.tsx",
+      "summary": "React component rendering a bar chart visualization for style usage analytics data.",
+      "tags": [
+        "component",
+        "analytics",
+        "chart"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:components/analytics/usage-chart.tsx:UsageBar",
+      "type": "function",
+      "name": "UsageBar",
+      "filePath": "components/analytics/usage-chart.tsx",
+      "lineRange": [
+        11,
+        39
+      ],
+      "summary": "Individual bar element in the usage chart.",
+      "tags": [
+        "component",
+        "chart"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:components/analytics/usage-chart.tsx:UsageChart",
+      "type": "function",
+      "name": "UsageChart",
+      "filePath": "components/analytics/usage-chart.tsx",
+      "lineRange": [
+        45,
+        64
+      ],
+      "summary": "React component for the usage chart visualization.",
+      "tags": [
+        "component",
+        "chart"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/pointer-interactions/cursor-aura-provider.tsx",
+      "type": "file",
+      "name": "cursor-aura-provider.tsx",
+      "filePath": "components/pointer-interactions/cursor-aura-provider.tsx",
+      "summary": "React context provider that manages cursor aura effects, determining when to show/hide custom cursors based on element data attributes.",
+      "tags": [
+        "component",
+        "cursor",
+        "interaction"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:components/pointer-interactions/cursor-aura-provider.tsx:CursorAuraProvider",
+      "type": "function",
+      "name": "CursorAuraProvider",
+      "filePath": "components/pointer-interactions/cursor-aura-provider.tsx",
+      "lineRange": [
+        24,
+        80
+      ],
+      "summary": "React context provider applying cursor-aura show/hide logic across the app.",
+      "tags": [
+        "component",
+        "cursor"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/pwa/register-sw.tsx",
+      "type": "file",
+      "name": "register-sw.tsx",
+      "filePath": "components/pwa/register-sw.tsx",
+      "summary": "React component that registers a service worker for PWA offline support, with reminder postpone logic using localStorage.",
+      "tags": [
+        "component",
+        "pwa",
+        "service-worker"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:components/pwa/register-sw.tsx:readReminderUntil",
+      "type": "function",
+      "name": "readReminderUntil",
+      "filePath": "components/pwa/register-sw.tsx",
+      "lineRange": [
+        16,
+        26
+      ],
+      "summary": "Helper to read the postpone timestamp from localStorage.",
+      "tags": [
+        "pwa",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:components/pwa/register-sw.tsx:postponeReminder",
+      "type": "function",
+      "name": "postponeReminder",
+      "filePath": "components/pwa/register-sw.tsx",
+      "lineRange": [
+        28,
+        37
+      ],
+      "summary": "Helper to set a postponed reminder timestamp.",
+      "tags": [
+        "pwa",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:components/pwa/register-sw.tsx:RegisterSW",
+      "type": "function",
+      "name": "RegisterSW",
+      "filePath": "components/pwa/register-sw.tsx",
+      "lineRange": [
+        39,
+        139
+      ],
+      "summary": "React component that registers the service worker and shows a reminder prompt.",
+      "tags": [
+        "pwa",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/showcase/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "components/showcase/index.ts",
+      "summary": "Barrel file re-exporting modules from the showcase package for convenient imports.",
+      "tags": [
+        "barrel",
+        "exports"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/showcase/showcase-back-bar.tsx",
+      "type": "file",
+      "name": "showcase-back-bar.tsx",
+      "filePath": "components/showcase/showcase-back-bar.tsx",
+      "summary": "React component providing a back-navigation bar for style showcase pages.",
+      "tags": [
+        "component",
+        "navigation",
+        "showcase"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:components/showcase/showcase-back-bar.tsx:ShowcaseBackBar",
+      "type": "function",
+      "name": "ShowcaseBackBar",
+      "filePath": "components/showcase/showcase-back-bar.tsx",
+      "lineRange": [
+        6,
+        46
+      ],
+      "summary": "React navigation bar shown at the top of style showcase pages.",
+      "tags": [
+        "navigation",
+        "component"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/ui/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "components/ui/index.ts",
+      "summary": "Barrel file re-exporting modules from the ui package for convenient imports.",
+      "tags": [
+        "barrel",
+        "exports"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/ui/neumorphism/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "components/ui/neumorphism/index.ts",
+      "summary": "Barrel file re-exporting modules from the neumorphism package for convenient imports.",
+      "tags": [
+        "barrel",
+        "exports"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:dist-skills/stylekit-contributor.skill",
+      "type": "file",
+      "name": "stylekit-contributor.skill",
+      "filePath": "dist-skills/stylekit-contributor.skill",
+      "summary": "Claude Code skill definition for the StyleKit contributor agent, defining its capabilities and interaction patterns.",
+      "tags": [
+        "skill",
+        "agent",
+        "configuration"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:docs/submission/ai-submission-pack.md",
+      "type": "document",
+      "name": "ai-submission-pack.md",
+      "filePath": "docs/submission/ai-submission-pack.md",
+      "summary": "Documentation guide for AI-assisted style submissions, describing the submission process, manifest format, and expected content structure.",
+      "tags": [
+        "documentation",
+        "submission",
+        "guide"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:eslint.config.mjs",
+      "type": "config",
+      "name": "eslint.config.mjs",
+      "filePath": "eslint.config.mjs",
+      "summary": "ESLint flat configuration for the project, defining TypeScript, React, and Next.js linting rules with strict type checking.",
+      "tags": [
+        "configuration",
+        "linting",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:instrumentation.ts",
+      "type": "file",
+      "name": "instrumentation.ts",
+      "filePath": "instrumentation.ts",
+      "summary": "Next.js instrumentation hook that runs once on server startup for telemetry and monitoring setup.",
+      "tags": [
+        "instrumentation",
+        "telemetry",
+        "nextjs"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:instrumentation.ts:register",
+      "type": "function",
+      "name": "register",
+      "filePath": "instrumentation.ts",
+      "lineRange": [
+        1,
+        8
+      ],
+      "summary": "Next.js register hook executed at server startup for telemetry initialization.",
+      "tags": [
+        "instrumentation",
+        "nextjs"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/__tests__/no-emoji.test.ts",
+      "type": "file",
+      "name": "no-emoji.test.ts",
+      "filePath": "lib/__tests__/no-emoji.test.ts",
+      "summary": "Unit test that scans source files to ensure no emoji characters are used in code, enforcing the no-emoji project policy.",
+      "tags": [
+        "test",
+        "linting",
+        "policy"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/__tests__/no-emoji.test.ts:collectFiles",
+      "type": "function",
+      "name": "collectFiles",
+      "filePath": "lib/__tests__/no-emoji.test.ts",
+      "lineRange": [
+        29,
+        47
+      ],
+      "summary": "Helper to recursively collect all source files in the project.",
+      "tags": [
+        "test",
+        "utility"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:app/styles/zen-garden/showcase/page.tsx",
+      "target": "function:app/styles/zen-garden/showcase/page.tsx:Page",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/zen-garden/showcase/page.tsx",
+      "target": "function:app/styles/zen-garden/showcase/page.tsx:Page",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/zen-garden/showcase/page.tsx",
+      "target": "file:app/styles/zen-garden/showcase/_content.tsx",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:components/analytics/usage-chart.tsx",
+      "target": "function:components/analytics/usage-chart.tsx:UsageBar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/analytics/usage-chart.tsx",
+      "target": "function:components/analytics/usage-chart.tsx:UsageChart",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/analytics/usage-chart.tsx",
+      "target": "function:components/analytics/usage-chart.tsx:UsageChart",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/pointer-interactions/cursor-aura-provider.tsx",
+      "target": "function:components/pointer-interactions/cursor-aura-provider.tsx:CursorAuraProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/pointer-interactions/cursor-aura-provider.tsx",
+      "target": "function:components/pointer-interactions/cursor-aura-provider.tsx:CursorAuraProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/pwa/register-sw.tsx",
+      "target": "function:components/pwa/register-sw.tsx:readReminderUntil",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/pwa/register-sw.tsx",
+      "target": "function:components/pwa/register-sw.tsx:postponeReminder",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/pwa/register-sw.tsx",
+      "target": "function:components/pwa/register-sw.tsx:RegisterSW",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/pwa/register-sw.tsx",
+      "target": "function:components/pwa/register-sw.tsx:RegisterSW",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/showcase/showcase-back-bar.tsx",
+      "target": "function:components/showcase/showcase-back-bar.tsx:ShowcaseBackBar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/showcase/showcase-back-bar.tsx",
+      "target": "function:components/showcase/showcase-back-bar.tsx:ShowcaseBackBar",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:instrumentation.ts",
+      "target": "function:instrumentation.ts:register",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:instrumentation.ts",
+      "target": "function:instrumentation.ts:register",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/__tests__/no-emoji.test.ts",
+      "target": "function:lib/__tests__/no-emoji.test.ts:collectFiles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    }
+  ]
+}

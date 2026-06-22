@@ -1,0 +1,1332 @@
+{
+  "nodes": [
+    {
+      "id": "file:lib/styles/pastel-goth.ts",
+      "type": "file",
+      "name": "pastel-goth.ts",
+      "filePath": "lib/styles/pastel-goth.ts",
+      "summary": "Defines the Pastel Goth design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/pixel-anime.ts",
+      "type": "file",
+      "name": "pixel-anime.ts",
+      "filePath": "lib/styles/pixel-anime.ts",
+      "summary": "Defines the Pixel Anime design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/pixel-art.ts",
+      "type": "file",
+      "name": "pixel-art.ts",
+      "filePath": "lib/styles/pixel-art.ts",
+      "summary": "Defines the Pixel Art design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/pop-art.ts",
+      "type": "file",
+      "name": "pop-art.ts",
+      "filePath": "lib/styles/pop-art.ts",
+      "summary": "Defines the Pop Art design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/readiness.ts",
+      "type": "file",
+      "name": "readiness.ts",
+      "filePath": "lib/styles/readiness.ts",
+      "summary": "Style readiness evaluation system with support detection, coverage calculation, and curated/fallback profiles for all design styles.",
+      "tags": [
+        "utility",
+        "data-model",
+        "validation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/registry.ts",
+      "type": "file",
+      "name": "registry.ts",
+      "filePath": "lib/styles/registry.ts",
+      "summary": "Central style registry aggregating all defined styles and providing slug-based lookup.",
+      "tags": [
+        "barrel",
+        "registry",
+        "lookup"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/retro-vintage.ts",
+      "type": "file",
+      "name": "retro-vintage.ts",
+      "filePath": "lib/styles/retro-vintage.ts",
+      "summary": "Defines the Retro Vintage design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/risograph.ts",
+      "type": "file",
+      "name": "risograph.ts",
+      "filePath": "lib/styles/risograph.ts",
+      "summary": "Defines the Risograph design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/scandinavian.ts",
+      "type": "file",
+      "name": "scandinavian.ts",
+      "filePath": "lib/styles/scandinavian.ts",
+      "summary": "Defines the Scandinavian design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/sci-fi-hud.ts",
+      "type": "file",
+      "name": "sci-fi-hud.ts",
+      "filePath": "lib/styles/sci-fi-hud.ts",
+      "summary": "Defines the Sci Fi Hud design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/shopify-clean.ts",
+      "type": "file",
+      "name": "shopify-clean.ts",
+      "filePath": "lib/styles/shopify-clean.ts",
+      "summary": "Defines the Shopify Clean design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/shoujo-manga.ts",
+      "type": "file",
+      "name": "shoujo-manga.ts",
+      "filePath": "lib/styles/shoujo-manga.ts",
+      "summary": "Defines the Shoujo Manga design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/sidebar-fixed.ts",
+      "type": "file",
+      "name": "sidebar-fixed.ts",
+      "filePath": "lib/styles/sidebar-fixed.ts",
+      "summary": "Defines the Sidebar Fixed design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/sketch-style.ts",
+      "type": "file",
+      "name": "sketch-style.ts",
+      "filePath": "lib/styles/sketch-style.ts",
+      "summary": "Defines the Sketch Style design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/styles/readiness.ts:calculateReadinessCoverage",
+      "type": "function",
+      "name": "calculateReadinessCoverage",
+      "lineRange": [
+        475,
+        486
+      ],
+      "filePath": "lib/styles/readiness.ts",
+      "summary": "Calculates overall readiness coverage score for a style profile.",
+      "tags": [
+        "utility",
+        "readiness"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/styles/readiness.ts:getFrontendReadiness",
+      "type": "function",
+      "name": "getFrontendReadiness",
+      "lineRange": [
+        540,
+        548
+      ],
+      "filePath": "lib/styles/readiness.ts",
+      "summary": "Gets frontend readiness assessment for a style by building fallback profile and calculating coverage.",
+      "tags": [
+        "utility",
+        "readiness"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/styles/readiness.ts:hasCuratedFrontendReadiness",
+      "type": "function",
+      "name": "hasCuratedFrontendReadiness",
+      "lineRange": [
+        550,
+        552
+      ],
+      "filePath": "lib/styles/readiness.ts",
+      "summary": "Checks whether a style has a curated frontend readiness entry.",
+      "tags": [
+        "utility",
+        "readiness"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/styles/readiness.ts:getCuratedReadinessSlugs",
+      "type": "function",
+      "name": "getCuratedReadinessSlugs",
+      "lineRange": [
+        554,
+        556
+      ],
+      "filePath": "lib/styles/readiness.ts",
+      "summary": "Returns list of slugs with curated frontend readiness.",
+      "tags": [
+        "utility",
+        "readiness"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/styles/registry.ts:getStyleBySlug",
+      "type": "function",
+      "name": "getStyleBySlug",
+      "lineRange": [
+        316,
+        318
+      ],
+      "filePath": "lib/styles/registry.ts",
+      "summary": "Looks up a design style by its slug from the aggregated styles array.",
+      "tags": [
+        "utility",
+        "lookup"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:lib/styles/pastel-goth.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/pixel-anime.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/pixel-art.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/pop-art.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/readiness.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/acid-graphics.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/african-textile.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/anti-design.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/apple-style.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/arcade-crt.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/art-deco.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/art-nouveau.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/asymmetric-grid.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/bauhaus.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/bento-grid.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/blueprint.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/brutalist-web.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/card-stack.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/cel-shading.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/claymorphism.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/collage-art.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/comic-style.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/constructivism.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/corporate-clean.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/cottagecore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/cubism.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/cyber-anime.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/cyber-chinese.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/cyber-wafuu.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/cyberpunk-neon.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/dark-academia.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/dark-mode.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/dashboard-layout.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/data-dense.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/dopamine-design.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/editorial.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/f-pattern-layout.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/film-noir.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/fluent-design.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/fresh-market.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/frutiger-aero.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/full-page-scroll.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/generative-art.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/geometric-bold.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/ghibli-style.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/github-style.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/glassmorphism.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/glitch-art.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/gothic-lolita.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/gothic.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/graffiti-street.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/hand-drawn-doodle.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/hero-fullscreen.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/holographic.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/holy-grail-layout.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/impressionist-oil.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/indian-festive.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/ink-wash.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/islamic-geometric.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/japanese-fresh.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/jrpg.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/kawaii-minimal.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/korean-minimal.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/linear-style.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/liquid-glass.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/luxury-retail.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/macos-vibrancy.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/magazine-grid.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/magic-circle.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/marble-luxury.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/masonry-flow.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/material-design.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/maximalism.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/mecha.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/medieval-manuscript.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/memphis.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/mid-century-modern.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/minimalist-flat.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/modern-gradient.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/monochrome.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/natural-organic.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/neo-brutalist-playful.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/neo-brutalist-soft.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/neo-brutalist.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/neon-gradient.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/neon-samurai.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/neon-tokyo.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/neumorphism.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/notion-style.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/op-art.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/outrun.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/paper-craft.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/parallax-sections.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/particle.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/pastel-goth.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/pixel-anime.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/pixel-art.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/pop-art.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/retro-vintage.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/risograph.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/rule-normalizer.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/scandinavian.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/sci-fi-hud.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/shopify-clean.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/shoujo-manga.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/sidebar-fixed.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/sketch-style.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/skeuomorphism.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/soft-ui.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/solarpunk.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/split-screen.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/steampunk.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/stripe-style.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/surrealism.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/swiss-poster.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/swiss-style.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/synthwave.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/terracotta.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/timeline-vertical.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/tropical-paradise.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/ukiyo-e-digital.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/vaporwave.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/vhs-aesthetic.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/victorian-botanical.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/visual-novel.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/wabi-sabi.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/warm-dashboard.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/watercolor-art.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/watercolor-style.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/witchcore.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/y2k.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/z-pattern-layout.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "file:lib/styles/zen-garden.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/retro-vintage.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/risograph.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/scandinavian.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/sci-fi-hud.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/shopify-clean.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/shoujo-manga.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/sidebar-fixed.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/sketch-style.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/readiness.ts",
+      "target": "function:lib/styles/readiness.ts:calculateReadinessCoverage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/readiness.ts",
+      "target": "function:lib/styles/readiness.ts:calculateReadinessCoverage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/styles/readiness.ts",
+      "target": "function:lib/styles/readiness.ts:getFrontendReadiness",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/readiness.ts",
+      "target": "function:lib/styles/readiness.ts:getFrontendReadiness",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/styles/readiness.ts",
+      "target": "function:lib/styles/readiness.ts:hasCuratedFrontendReadiness",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/readiness.ts",
+      "target": "function:lib/styles/readiness.ts:hasCuratedFrontendReadiness",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/styles/readiness.ts",
+      "target": "function:lib/styles/readiness.ts:getCuratedReadinessSlugs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/readiness.ts",
+      "target": "function:lib/styles/readiness.ts:getCuratedReadinessSlugs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "function:lib/styles/registry.ts:getStyleBySlug",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/styles/registry.ts",
+      "target": "function:lib/styles/registry.ts:getStyleBySlug",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

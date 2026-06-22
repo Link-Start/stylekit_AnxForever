@@ -1,0 +1,2392 @@
+{
+  "nodes": [
+    {
+      "id": "file:app/[locale]/animations/[slug]/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/[locale]/animations/[slug]/page.tsx",
+      "summary": "Localized route page for animations/[slug] with locale-aware metadata generation.",
+      "tags": [
+        "i18n",
+        "page",
+        "animations-detail",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/[locale]/animations/[slug]/page.tsx:generateMetadata",
+      "type": "function",
+      "name": "generateMetadata",
+      "filePath": "app/[locale]/animations/[slug]/page.tsx",
+      "lineRange": [
+        19,
+        32
+      ],
+      "summary": "Generates page-level metadata including title, description, and locale alternates for SEO.",
+      "tags": [
+        "function",
+        "ssr",
+        "seo",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/[locale]/animations/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/[locale]/animations/page.tsx",
+      "summary": "Localized route page for animations with locale-aware metadata generation.",
+      "tags": [
+        "i18n",
+        "page",
+        "animations",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/[locale]/animations/page.tsx:generateMetadata",
+      "type": "function",
+      "name": "generateMetadata",
+      "filePath": "app/[locale]/animations/page.tsx",
+      "lineRange": [
+        6,
+        15
+      ],
+      "summary": "Generates page-level metadata including title, description, and locale alternates for SEO.",
+      "tags": [
+        "function",
+        "ssr",
+        "seo",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/[locale]/animations/vocabulary/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/[locale]/animations/vocabulary/page.tsx",
+      "summary": "Localized route page for animations/vocabulary with locale-aware metadata generation.",
+      "tags": [
+        "i18n",
+        "page",
+        "animations-vocabulary",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/[locale]/animations/vocabulary/page.tsx:VocabularyPage",
+      "type": "function",
+      "name": "VocabularyPage",
+      "filePath": "app/[locale]/animations/vocabulary/page.tsx",
+      "lineRange": [
+        15,
+        27
+      ],
+      "summary": "Function implementing the VocabularyPage logic within the module.",
+      "tags": [
+        "function",
+        "component",
+        "react-component",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/[locale]/blog/[slug]/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/[locale]/blog/[slug]/page.tsx",
+      "summary": "Localized route page for blog/[slug] with locale-aware metadata generation.",
+      "tags": [
+        "i18n",
+        "page",
+        "blog-detail",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/[locale]/blog/[slug]/page.tsx:generateMetadata",
+      "type": "function",
+      "name": "generateMetadata",
+      "filePath": "app/[locale]/blog/[slug]/page.tsx",
+      "lineRange": [
+        17,
+        30
+      ],
+      "summary": "Generates page-level metadata including title, description, and locale alternates for SEO.",
+      "tags": [
+        "function",
+        "ssr",
+        "seo",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/[locale]/blog/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/[locale]/blog/page.tsx",
+      "summary": "Localized route page for blog with locale-aware metadata generation.",
+      "tags": [
+        "i18n",
+        "page",
+        "blog",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/[locale]/blog/page.tsx:generateMetadata",
+      "type": "function",
+      "name": "generateMetadata",
+      "filePath": "app/[locale]/blog/page.tsx",
+      "lineRange": [
+        6,
+        15
+      ],
+      "summary": "Generates page-level metadata including title, description, and locale alternates for SEO.",
+      "tags": [
+        "function",
+        "ssr",
+        "seo",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/[locale]/changelog/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/[locale]/changelog/page.tsx",
+      "summary": "Localized route page for changelog with locale-aware metadata generation.",
+      "tags": [
+        "i18n",
+        "page",
+        "changelog",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/[locale]/changelog/page.tsx:generateMetadata",
+      "type": "function",
+      "name": "generateMetadata",
+      "filePath": "app/[locale]/changelog/page.tsx",
+      "lineRange": [
+        6,
+        15
+      ],
+      "summary": "Generates page-level metadata including title, description, and locale alternates for SEO.",
+      "tags": [
+        "function",
+        "ssr",
+        "seo",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/[locale]/contact/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/[locale]/contact/page.tsx",
+      "summary": "Localized route page for contact with locale-aware metadata generation.",
+      "tags": [
+        "i18n",
+        "page",
+        "contact",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/[locale]/contact/page.tsx:generateMetadata",
+      "type": "function",
+      "name": "generateMetadata",
+      "filePath": "app/[locale]/contact/page.tsx",
+      "lineRange": [
+        6,
+        15
+      ],
+      "summary": "Generates page-level metadata including title, description, and locale alternates for SEO.",
+      "tags": [
+        "function",
+        "ssr",
+        "seo",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/[locale]/dark-mode-ui-prompts/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/[locale]/dark-mode-ui-prompts/page.tsx",
+      "summary": "Localized route page for dark-mode-ui-prompts with locale-aware metadata generation.",
+      "tags": [
+        "i18n",
+        "page",
+        "dark-mode-ui-prompts",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/[locale]/dark-mode-ui-prompts/page.tsx:generateMetadata",
+      "type": "function",
+      "name": "generateMetadata",
+      "filePath": "app/[locale]/dark-mode-ui-prompts/page.tsx",
+      "lineRange": [
+        10,
+        19
+      ],
+      "summary": "Generates page-level metadata including title, description, and locale alternates for SEO.",
+      "tags": [
+        "function",
+        "ssr",
+        "seo",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/[locale]/dashboard-prompts/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/[locale]/dashboard-prompts/page.tsx",
+      "summary": "Localized route page for dashboard-prompts with locale-aware metadata generation.",
+      "tags": [
+        "i18n",
+        "page",
+        "dashboard-prompts",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/[locale]/dashboard-prompts/page.tsx:generateMetadata",
+      "type": "function",
+      "name": "generateMetadata",
+      "filePath": "app/[locale]/dashboard-prompts/page.tsx",
+      "lineRange": [
+        10,
+        19
+      ],
+      "summary": "Generates page-level metadata including title, description, and locale alternates for SEO.",
+      "tags": [
+        "function",
+        "ssr",
+        "seo",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/[locale]/landing-page-prompts/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/[locale]/landing-page-prompts/page.tsx",
+      "summary": "Localized route page for landing-page-prompts with locale-aware metadata generation.",
+      "tags": [
+        "i18n",
+        "page",
+        "landing-page-prompts",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/[locale]/landing-page-prompts/page.tsx:generateMetadata",
+      "type": "function",
+      "name": "generateMetadata",
+      "filePath": "app/[locale]/landing-page-prompts/page.tsx",
+      "lineRange": [
+        10,
+        19
+      ],
+      "summary": "Generates page-level metadata including title, description, and locale alternates for SEO.",
+      "tags": [
+        "function",
+        "ssr",
+        "seo",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/[locale]/layout.tsx",
+      "type": "file",
+      "name": "layout.tsx",
+      "filePath": "app/[locale]/layout.tsx",
+      "summary": "Locale layout component providing i18n context and locale validation.",
+      "tags": [
+        "layout",
+        "i18n",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/[locale]/layout.tsx:LocaleLayout",
+      "type": "function",
+      "name": "LocaleLayout",
+      "filePath": "app/[locale]/layout.tsx",
+      "lineRange": [
+        13,
+        27
+      ],
+      "summary": "Locale layout component validating the locale parameter and wrapping children with i18n context.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/[locale]/mouse-interactions/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/[locale]/mouse-interactions/page.tsx",
+      "summary": "Localized route page for mouse-interactions with locale-aware metadata generation.",
+      "tags": [
+        "i18n",
+        "page",
+        "mouse-interactions",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/[locale]/mouse-interactions/page.tsx:generateMetadata",
+      "type": "function",
+      "name": "generateMetadata",
+      "filePath": "app/[locale]/mouse-interactions/page.tsx",
+      "lineRange": [
+        6,
+        15
+      ],
+      "summary": "Generates page-level metadata including title, description, and locale alternates for SEO.",
+      "tags": [
+        "function",
+        "ssr",
+        "seo",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/[locale]/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/[locale]/page.tsx",
+      "summary": "Localized route page for page.tsx with locale-aware metadata generation.",
+      "tags": [
+        "i18n",
+        "page",
+        "page.tsx",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/[locale]/page.tsx:generateMetadata",
+      "type": "function",
+      "name": "generateMetadata",
+      "filePath": "app/[locale]/page.tsx",
+      "lineRange": [
+        6,
+        13
+      ],
+      "summary": "Generates page-level metadata including title, description, and locale alternates for SEO.",
+      "tags": [
+        "function",
+        "ssr",
+        "seo",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/[locale]/prompts/[topic]/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/[locale]/prompts/[topic]/page.tsx",
+      "summary": "Localized route page for prompts/[topic] with locale-aware metadata generation.",
+      "tags": [
+        "i18n",
+        "page",
+        "prompts-[topic]",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/[locale]/prompts/[topic]/page.tsx:generateMetadata",
+      "type": "function",
+      "name": "generateMetadata",
+      "filePath": "app/[locale]/prompts/[topic]/page.tsx",
+      "lineRange": [
+        19,
+        32
+      ],
+      "summary": "Generates page-level metadata including title, description, and locale alternates for SEO.",
+      "tags": [
+        "function",
+        "ssr",
+        "seo",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/[locale]/prompts/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/[locale]/prompts/page.tsx",
+      "summary": "Localized route page for prompts with locale-aware metadata generation.",
+      "tags": [
+        "i18n",
+        "page",
+        "prompts",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/[locale]/prompts/page.tsx:generateMetadata",
+      "type": "function",
+      "name": "generateMetadata",
+      "filePath": "app/[locale]/prompts/page.tsx",
+      "lineRange": [
+        6,
+        15
+      ],
+      "summary": "Generates page-level metadata including title, description, and locale alternates for SEO.",
+      "tags": [
+        "function",
+        "ssr",
+        "seo",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/[locale]/styles/[slug]/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/[locale]/styles/[slug]/page.tsx",
+      "summary": "Localized route page for styles/[slug] with locale-aware metadata generation.",
+      "tags": [
+        "i18n",
+        "page",
+        "styles-detail",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/[locale]/styles/[slug]/page.tsx:generateMetadata",
+      "type": "function",
+      "name": "generateMetadata",
+      "filePath": "app/[locale]/styles/[slug]/page.tsx",
+      "lineRange": [
+        20,
+        33
+      ],
+      "summary": "Generates page-level metadata including title, description, and locale alternates for SEO.",
+      "tags": [
+        "function",
+        "ssr",
+        "seo",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/[locale]/styles/[slug]/page.tsx:LocaleStylePage",
+      "type": "function",
+      "name": "LocaleStylePage",
+      "filePath": "app/[locale]/styles/[slug]/page.tsx",
+      "lineRange": [
+        35,
+        43
+      ],
+      "summary": "Function implementing the LocaleStylePage logic within the module.",
+      "tags": [
+        "function",
+        "component",
+        "react-component",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/[locale]/styles/[slug]/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/[locale]/styles/[slug]/showcase/page.tsx",
+      "summary": "Localized route page for styles/[slug]/showcase with locale-aware metadata generation.",
+      "tags": [
+        "i18n",
+        "page",
+        "styles-detail-showcase",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/[locale]/styles/[slug]/showcase/page.tsx:generateMetadata",
+      "type": "function",
+      "name": "generateMetadata",
+      "filePath": "app/[locale]/styles/[slug]/showcase/page.tsx",
+      "lineRange": [
+        17,
+        30
+      ],
+      "summary": "Generates page-level metadata including title, description, and locale alternates for SEO.",
+      "tags": [
+        "function",
+        "ssr",
+        "seo",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/[locale]/styles/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/[locale]/styles/page.tsx",
+      "summary": "Localized route page for styles with locale-aware metadata generation.",
+      "tags": [
+        "i18n",
+        "page",
+        "styles",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/[locale]/styles/page.tsx:generateMetadata",
+      "type": "function",
+      "name": "generateMetadata",
+      "filePath": "app/[locale]/styles/page.tsx",
+      "lineRange": [
+        6,
+        15
+      ],
+      "summary": "Generates page-level metadata including title, description, and locale alternates for SEO.",
+      "tags": [
+        "function",
+        "ssr",
+        "seo",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/[locale]/tailwind-ui-prompts/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/[locale]/tailwind-ui-prompts/page.tsx",
+      "summary": "Localized route page for tailwind-ui-prompts with locale-aware metadata generation.",
+      "tags": [
+        "i18n",
+        "page",
+        "tailwind-ui-prompts",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/[locale]/tailwind-ui-prompts/page.tsx:generateMetadata",
+      "type": "function",
+      "name": "generateMetadata",
+      "filePath": "app/[locale]/tailwind-ui-prompts/page.tsx",
+      "lineRange": [
+        10,
+        19
+      ],
+      "summary": "Generates page-level metadata including title, description, and locale alternates for SEO.",
+      "tags": [
+        "function",
+        "ssr",
+        "seo",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/[locale]/ui-prompts/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/[locale]/ui-prompts/page.tsx",
+      "summary": "Localized route page for ui-prompts with locale-aware metadata generation.",
+      "tags": [
+        "i18n",
+        "page",
+        "ui-prompts",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/[locale]/ui-prompts/page.tsx:generateMetadata",
+      "type": "function",
+      "name": "generateMetadata",
+      "filePath": "app/[locale]/ui-prompts/page.tsx",
+      "lineRange": [
+        6,
+        15
+      ],
+      "summary": "Generates page-level metadata including title, description, and locale alternates for SEO.",
+      "tags": [
+        "function",
+        "ssr",
+        "seo",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/about/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/about/page.tsx",
+      "summary": "About page rendering company/team information with i18n support.",
+      "tags": [
+        "page",
+        "about",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/about/page.tsx:AboutPage",
+      "type": "function",
+      "name": "AboutPage",
+      "filePath": "app/about/page.tsx",
+      "lineRange": [
+        5,
+        14
+      ],
+      "summary": "Function implementing the AboutPage logic within the module.",
+      "tags": [
+        "function",
+        "component",
+        "react-component",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/animations/[slug]/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/animations/[slug]/_content.tsx",
+      "summary": "Content component for animations detail pages with i18n support and structured data rendering.",
+      "tags": [
+        "content-component",
+        "animations",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/animations/[slug]/_content.tsx:AnimationDetailContent",
+      "type": "function",
+      "name": "AnimationDetailContent",
+      "filePath": "app/animations/[slug]/_content.tsx",
+      "lineRange": [
+        63,
+        204
+      ],
+      "summary": "Animation detail content component rendering metadata, code snippets, CSS properties, and related animations.",
+      "tags": [
+        "function",
+        "component",
+        "react-component",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/animations/[slug]/_content.tsx:MetaCard",
+      "type": "function",
+      "name": "MetaCard",
+      "filePath": "app/animations/[slug]/_content.tsx",
+      "lineRange": [
+        219,
+        239
+      ],
+      "summary": "Function implementing the MetaCard logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/animations/[slug]/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/animations/[slug]/page.tsx",
+      "summary": "Animations page rendering all animation entries with meta information.",
+      "tags": [
+        "page",
+        "animations",
+        "animation",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/animations/[slug]/page.tsx:generateMetadata",
+      "type": "function",
+      "name": "generateMetadata",
+      "filePath": "app/animations/[slug]/page.tsx",
+      "lineRange": [
+        18,
+        52
+      ],
+      "summary": "Generates page-level metadata including title, description, and locale alternates for SEO.",
+      "tags": [
+        "function",
+        "ssr",
+        "seo",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/animations/[slug]/page.tsx:AnimationDetailPage",
+      "type": "function",
+      "name": "AnimationDetailPage",
+      "filePath": "app/animations/[slug]/page.tsx",
+      "lineRange": [
+        54,
+        118
+      ],
+      "summary": "Animation detail page with server-side data fetching, JSON-LD structured data, and content rendering.",
+      "tags": [
+        "function",
+        "component",
+        "react-component",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/animations/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/animations/page.tsx",
+      "summary": "Animations page rendering all animation entries with meta information.",
+      "tags": [
+        "page",
+        "animations",
+        "animation",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/animations/page.tsx:AnimationsPage",
+      "type": "function",
+      "name": "AnimationsPage",
+      "filePath": "app/animations/page.tsx",
+      "lineRange": [
+        16,
+        30
+      ],
+      "summary": "Function implementing the AnimationsPage logic within the module.",
+      "tags": [
+        "function",
+        "component",
+        "react-component",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/animations/vocabulary/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/animations/vocabulary/page.tsx",
+      "summary": "Animations page rendering all animation entries with meta information.",
+      "tags": [
+        "page",
+        "animations",
+        "animation",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/animations/vocabulary/page.tsx:VocabularyPage",
+      "type": "function",
+      "name": "VocabularyPage",
+      "filePath": "app/animations/vocabulary/page.tsx",
+      "lineRange": [
+        15,
+        27
+      ],
+      "summary": "Function implementing the VocabularyPage logic within the module.",
+      "tags": [
+        "function",
+        "component",
+        "react-component",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/backgrounds/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/backgrounds/page.tsx",
+      "summary": "Gallery page for backgrounds showcasing available visual resources with layout components.",
+      "tags": [
+        "page",
+        "backgrounds",
+        "gallery",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/backgrounds/page.tsx:BackgroundsPage",
+      "type": "function",
+      "name": "BackgroundsPage",
+      "filePath": "app/backgrounds/page.tsx",
+      "lineRange": [
+        14,
+        24
+      ],
+      "summary": "Function implementing the BackgroundsPage logic within the module.",
+      "tags": [
+        "function",
+        "component",
+        "react-component",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/blog/[slug]/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/blog/[slug]/page.tsx",
+      "summary": "Blog page fetching and rendering all published blog posts.",
+      "tags": [
+        "page",
+        "blog",
+        "blog",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/blog/[slug]/page.tsx:generateMetadata",
+      "type": "function",
+      "name": "generateMetadata",
+      "filePath": "app/blog/[slug]/page.tsx",
+      "lineRange": [
+        21,
+        38
+      ],
+      "summary": "Generates page-level metadata including title, description, and locale alternates for SEO.",
+      "tags": [
+        "function",
+        "ssr",
+        "seo",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/blog/[slug]/page.tsx:BlogPostPage",
+      "type": "function",
+      "name": "BlogPostPage",
+      "filePath": "app/blog/[slug]/page.tsx",
+      "lineRange": [
+        40,
+        109
+      ],
+      "summary": "Blog page component fetching and rendering posts with structured data and navigation.",
+      "tags": [
+        "function",
+        "component",
+        "react-component",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/blog/blog-list-client.tsx",
+      "type": "file",
+      "name": "blog-list-client.tsx",
+      "filePath": "app/blog/blog-list-client.tsx",
+      "summary": "Client-side component for the blog section with interactive functionality.",
+      "tags": [
+        "client-component",
+        "blog",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/blog/blog-list-client.tsx:BlogListClient",
+      "type": "function",
+      "name": "BlogListClient",
+      "filePath": "app/blog/blog-list-client.tsx",
+      "lineRange": [
+        13,
+        53
+      ],
+      "summary": "Client-side blog listing with i18n support rendering post cards in a responsive grid.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/blog/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/blog/page.tsx",
+      "summary": "Blog page fetching and rendering all published blog posts.",
+      "tags": [
+        "page",
+        "blog",
+        "blog",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/blog/page.tsx:BlogPage",
+      "type": "function",
+      "name": "BlogPage",
+      "filePath": "app/blog/page.tsx",
+      "lineRange": [
+        14,
+        18
+      ],
+      "summary": "Blog page component fetching and rendering posts with structured data and navigation.",
+      "tags": [
+        "function",
+        "component",
+        "react-component",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/changelog/changelog-client.tsx",
+      "type": "file",
+      "name": "changelog-client.tsx",
+      "filePath": "app/changelog/changelog-client.tsx",
+      "summary": "Client-side component for the changelog section with interactive functionality.",
+      "tags": [
+        "client-component",
+        "changelog",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/changelog/changelog-client.tsx:ChangelogClient",
+      "type": "function",
+      "name": "ChangelogClient",
+      "filePath": "app/changelog/changelog-client.tsx",
+      "lineRange": [
+        29,
+        85
+      ],
+      "summary": "Client-side changelog component rendering version entries and their changes.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/changelog/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/changelog/page.tsx",
+      "summary": "Changelog page rendering version history entries.",
+      "tags": [
+        "page",
+        "changelog",
+        "changelog",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/changelog/page.tsx:ChangelogPage",
+      "type": "function",
+      "name": "ChangelogPage",
+      "filePath": "app/changelog/page.tsx",
+      "lineRange": [
+        15,
+        17
+      ],
+      "summary": "Function implementing the ChangelogPage logic within the module.",
+      "tags": [
+        "function",
+        "component",
+        "react-component",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/component-patterns/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/component-patterns/page.tsx",
+      "summary": "Component patterns showcase page displaying UI design patterns with live previews.",
+      "tags": [
+        "page",
+        "component-patterns",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/component-patterns/page.tsx:ComponentPatternsPage",
+      "type": "function",
+      "name": "ComponentPatternsPage",
+      "filePath": "app/component-patterns/page.tsx",
+      "lineRange": [
+        14,
+        24
+      ],
+      "summary": "Function implementing the ComponentPatternsPage logic within the module.",
+      "tags": [
+        "function",
+        "component",
+        "react-component",
+        "exported"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:app/[locale]/animations/[slug]/page.tsx",
+      "target": "function:app/[locale]/animations/[slug]/page.tsx:generateMetadata",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/[locale]/animations/[slug]/page.tsx",
+      "target": "function:app/[locale]/animations/[slug]/page.tsx:generateMetadata",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/[locale]/animations/page.tsx",
+      "target": "function:app/[locale]/animations/page.tsx:generateMetadata",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/[locale]/animations/page.tsx",
+      "target": "function:app/[locale]/animations/page.tsx:generateMetadata",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/[locale]/animations/vocabulary/page.tsx",
+      "target": "function:app/[locale]/animations/vocabulary/page.tsx:VocabularyPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/[locale]/animations/vocabulary/page.tsx",
+      "target": "function:app/[locale]/animations/vocabulary/page.tsx:VocabularyPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/[locale]/blog/[slug]/page.tsx",
+      "target": "function:app/[locale]/blog/[slug]/page.tsx:generateMetadata",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/[locale]/blog/[slug]/page.tsx",
+      "target": "function:app/[locale]/blog/[slug]/page.tsx:generateMetadata",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/[locale]/blog/page.tsx",
+      "target": "function:app/[locale]/blog/page.tsx:generateMetadata",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/[locale]/blog/page.tsx",
+      "target": "function:app/[locale]/blog/page.tsx:generateMetadata",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/[locale]/changelog/page.tsx",
+      "target": "function:app/[locale]/changelog/page.tsx:generateMetadata",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/[locale]/changelog/page.tsx",
+      "target": "function:app/[locale]/changelog/page.tsx:generateMetadata",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/[locale]/contact/page.tsx",
+      "target": "function:app/[locale]/contact/page.tsx:generateMetadata",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/[locale]/contact/page.tsx",
+      "target": "function:app/[locale]/contact/page.tsx:generateMetadata",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/[locale]/dark-mode-ui-prompts/page.tsx",
+      "target": "function:app/[locale]/dark-mode-ui-prompts/page.tsx:generateMetadata",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/[locale]/dark-mode-ui-prompts/page.tsx",
+      "target": "function:app/[locale]/dark-mode-ui-prompts/page.tsx:generateMetadata",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/[locale]/dashboard-prompts/page.tsx",
+      "target": "function:app/[locale]/dashboard-prompts/page.tsx:generateMetadata",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/[locale]/dashboard-prompts/page.tsx",
+      "target": "function:app/[locale]/dashboard-prompts/page.tsx:generateMetadata",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/[locale]/landing-page-prompts/page.tsx",
+      "target": "function:app/[locale]/landing-page-prompts/page.tsx:generateMetadata",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/[locale]/landing-page-prompts/page.tsx",
+      "target": "function:app/[locale]/landing-page-prompts/page.tsx:generateMetadata",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/[locale]/layout.tsx",
+      "target": "function:app/[locale]/layout.tsx:LocaleLayout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/[locale]/layout.tsx",
+      "target": "function:app/[locale]/layout.tsx:LocaleLayout",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/[locale]/mouse-interactions/page.tsx",
+      "target": "function:app/[locale]/mouse-interactions/page.tsx:generateMetadata",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/[locale]/mouse-interactions/page.tsx",
+      "target": "function:app/[locale]/mouse-interactions/page.tsx:generateMetadata",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/[locale]/page.tsx",
+      "target": "function:app/[locale]/page.tsx:generateMetadata",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/[locale]/page.tsx",
+      "target": "function:app/[locale]/page.tsx:generateMetadata",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/[locale]/prompts/[topic]/page.tsx",
+      "target": "function:app/[locale]/prompts/[topic]/page.tsx:generateMetadata",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/[locale]/prompts/[topic]/page.tsx",
+      "target": "function:app/[locale]/prompts/[topic]/page.tsx:generateMetadata",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/[locale]/prompts/page.tsx",
+      "target": "function:app/[locale]/prompts/page.tsx:generateMetadata",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/[locale]/prompts/page.tsx",
+      "target": "function:app/[locale]/prompts/page.tsx:generateMetadata",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/[locale]/styles/[slug]/page.tsx",
+      "target": "function:app/[locale]/styles/[slug]/page.tsx:generateMetadata",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/[locale]/styles/[slug]/page.tsx",
+      "target": "function:app/[locale]/styles/[slug]/page.tsx:generateMetadata",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/[locale]/styles/[slug]/page.tsx",
+      "target": "function:app/[locale]/styles/[slug]/page.tsx:LocaleStylePage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/[locale]/styles/[slug]/page.tsx",
+      "target": "function:app/[locale]/styles/[slug]/page.tsx:LocaleStylePage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/[locale]/styles/[slug]/showcase/page.tsx",
+      "target": "function:app/[locale]/styles/[slug]/showcase/page.tsx:generateMetadata",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/[locale]/styles/[slug]/showcase/page.tsx",
+      "target": "function:app/[locale]/styles/[slug]/showcase/page.tsx:generateMetadata",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/[locale]/styles/page.tsx",
+      "target": "function:app/[locale]/styles/page.tsx:generateMetadata",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/[locale]/styles/page.tsx",
+      "target": "function:app/[locale]/styles/page.tsx:generateMetadata",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/[locale]/tailwind-ui-prompts/page.tsx",
+      "target": "function:app/[locale]/tailwind-ui-prompts/page.tsx:generateMetadata",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/[locale]/tailwind-ui-prompts/page.tsx",
+      "target": "function:app/[locale]/tailwind-ui-prompts/page.tsx:generateMetadata",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/[locale]/ui-prompts/page.tsx",
+      "target": "function:app/[locale]/ui-prompts/page.tsx:generateMetadata",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/[locale]/ui-prompts/page.tsx",
+      "target": "function:app/[locale]/ui-prompts/page.tsx:generateMetadata",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/about/page.tsx",
+      "target": "function:app/about/page.tsx:AboutPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/about/page.tsx",
+      "target": "function:app/about/page.tsx:AboutPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/animations/[slug]/_content.tsx",
+      "target": "function:app/animations/[slug]/_content.tsx:AnimationDetailContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/animations/[slug]/_content.tsx",
+      "target": "function:app/animations/[slug]/_content.tsx:AnimationDetailContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/animations/[slug]/_content.tsx",
+      "target": "function:app/animations/[slug]/_content.tsx:MetaCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/animations/[slug]/page.tsx",
+      "target": "function:app/animations/[slug]/page.tsx:generateMetadata",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/animations/[slug]/page.tsx",
+      "target": "function:app/animations/[slug]/page.tsx:generateMetadata",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/animations/[slug]/page.tsx",
+      "target": "function:app/animations/[slug]/page.tsx:AnimationDetailPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/animations/[slug]/page.tsx",
+      "target": "function:app/animations/[slug]/page.tsx:AnimationDetailPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/animations/page.tsx",
+      "target": "function:app/animations/page.tsx:AnimationsPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/animations/page.tsx",
+      "target": "function:app/animations/page.tsx:AnimationsPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/animations/vocabulary/page.tsx",
+      "target": "function:app/animations/vocabulary/page.tsx:VocabularyPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/animations/vocabulary/page.tsx",
+      "target": "function:app/animations/vocabulary/page.tsx:VocabularyPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/backgrounds/page.tsx",
+      "target": "function:app/backgrounds/page.tsx:BackgroundsPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/backgrounds/page.tsx",
+      "target": "function:app/backgrounds/page.tsx:BackgroundsPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/blog/[slug]/page.tsx",
+      "target": "function:app/blog/[slug]/page.tsx:generateMetadata",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/blog/[slug]/page.tsx",
+      "target": "function:app/blog/[slug]/page.tsx:generateMetadata",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/blog/[slug]/page.tsx",
+      "target": "function:app/blog/[slug]/page.tsx:BlogPostPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/blog/[slug]/page.tsx",
+      "target": "function:app/blog/[slug]/page.tsx:BlogPostPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/blog/blog-list-client.tsx",
+      "target": "function:app/blog/blog-list-client.tsx:BlogListClient",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/blog/blog-list-client.tsx",
+      "target": "function:app/blog/blog-list-client.tsx:BlogListClient",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/blog/page.tsx",
+      "target": "function:app/blog/page.tsx:BlogPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/blog/page.tsx",
+      "target": "function:app/blog/page.tsx:BlogPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/changelog/changelog-client.tsx",
+      "target": "function:app/changelog/changelog-client.tsx:ChangelogClient",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/changelog/changelog-client.tsx",
+      "target": "function:app/changelog/changelog-client.tsx:ChangelogClient",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/changelog/page.tsx",
+      "target": "function:app/changelog/page.tsx:ChangelogPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/changelog/page.tsx",
+      "target": "function:app/changelog/page.tsx:ChangelogPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/component-patterns/page.tsx",
+      "target": "function:app/component-patterns/page.tsx:ComponentPatternsPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/component-patterns/page.tsx",
+      "target": "function:app/component-patterns/page.tsx:ComponentPatternsPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/[locale]/animations/[slug]/page.tsx",
+      "target": "file:app/animations/[slug]/page.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/animations/[slug]/page.tsx",
+      "target": "file:lib/animations/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/animations/[slug]/page.tsx",
+      "target": "file:lib/i18n/metadata.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/animations/[slug]/page.tsx",
+      "target": "file:lib/i18n/routing.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/animations/page.tsx",
+      "target": "file:app/animations/page.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/animations/page.tsx",
+      "target": "file:lib/i18n/metadata.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/animations/page.tsx",
+      "target": "file:lib/i18n/routing.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/animations/vocabulary/page.tsx",
+      "target": "file:components/animations/vocabulary/vocabulary-content.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/animations/vocabulary/page.tsx",
+      "target": "file:components/layout/footer.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/animations/vocabulary/page.tsx",
+      "target": "file:components/layout/header.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/blog/[slug]/page.tsx",
+      "target": "file:app/blog/[slug]/page.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/blog/[slug]/page.tsx",
+      "target": "file:lib/blog/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/blog/[slug]/page.tsx",
+      "target": "file:lib/i18n/metadata.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/blog/[slug]/page.tsx",
+      "target": "file:lib/i18n/routing.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/blog/page.tsx",
+      "target": "file:app/blog/page.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/blog/page.tsx",
+      "target": "file:lib/i18n/metadata.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/blog/page.tsx",
+      "target": "file:lib/i18n/routing.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/changelog/page.tsx",
+      "target": "file:app/changelog/page.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/changelog/page.tsx",
+      "target": "file:lib/i18n/metadata.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/changelog/page.tsx",
+      "target": "file:lib/i18n/routing.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/contact/page.tsx",
+      "target": "file:app/contact/page.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/contact/page.tsx",
+      "target": "file:lib/i18n/metadata.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/contact/page.tsx",
+      "target": "file:lib/i18n/routing.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/dark-mode-ui-prompts/page.tsx",
+      "target": "file:app/dark-mode-ui-prompts/page.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/dark-mode-ui-prompts/page.tsx",
+      "target": "file:lib/i18n/metadata.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/dark-mode-ui-prompts/page.tsx",
+      "target": "file:lib/i18n/routing.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/dashboard-prompts/page.tsx",
+      "target": "file:app/dashboard-prompts/page.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/dashboard-prompts/page.tsx",
+      "target": "file:lib/i18n/metadata.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/dashboard-prompts/page.tsx",
+      "target": "file:lib/i18n/routing.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/landing-page-prompts/page.tsx",
+      "target": "file:app/landing-page-prompts/page.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/landing-page-prompts/page.tsx",
+      "target": "file:lib/i18n/metadata.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/landing-page-prompts/page.tsx",
+      "target": "file:lib/i18n/routing.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/layout.tsx",
+      "target": "file:lib/i18n/routing.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/mouse-interactions/page.tsx",
+      "target": "file:app/mouse-interactions/page.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/mouse-interactions/page.tsx",
+      "target": "file:lib/i18n/metadata.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/mouse-interactions/page.tsx",
+      "target": "file:lib/i18n/routing.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/page.tsx",
+      "target": "file:app/page.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/page.tsx",
+      "target": "file:lib/i18n/metadata.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/page.tsx",
+      "target": "file:lib/i18n/routing.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/prompts/[topic]/page.tsx",
+      "target": "file:app/prompts/[topic]/page.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/prompts/[topic]/page.tsx",
+      "target": "file:lib/i18n/metadata.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/prompts/[topic]/page.tsx",
+      "target": "file:lib/i18n/routing.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/prompts/[topic]/page.tsx",
+      "target": "file:lib/prompts/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/prompts/page.tsx",
+      "target": "file:app/prompts/page.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/prompts/page.tsx",
+      "target": "file:lib/i18n/metadata.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/prompts/page.tsx",
+      "target": "file:lib/i18n/routing.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/styles/[slug]/page.tsx",
+      "target": "file:app/styles/[slug]/page.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/styles/[slug]/page.tsx",
+      "target": "file:lib/i18n/metadata.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/styles/[slug]/page.tsx",
+      "target": "file:lib/i18n/routing.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/styles/[slug]/page.tsx",
+      "target": "file:lib/i18n/translations.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/styles/[slug]/page.tsx",
+      "target": "file:lib/styles/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/styles/[slug]/showcase/page.tsx",
+      "target": "file:app/styles/[slug]/showcase/page.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/styles/[slug]/showcase/page.tsx",
+      "target": "file:lib/i18n/metadata.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/styles/[slug]/showcase/page.tsx",
+      "target": "file:lib/i18n/routing.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/styles/[slug]/showcase/page.tsx",
+      "target": "file:lib/styles/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/styles/page.tsx",
+      "target": "file:app/styles/page.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/styles/page.tsx",
+      "target": "file:lib/i18n/metadata.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/styles/page.tsx",
+      "target": "file:lib/i18n/routing.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/tailwind-ui-prompts/page.tsx",
+      "target": "file:app/tailwind-ui-prompts/page.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/tailwind-ui-prompts/page.tsx",
+      "target": "file:lib/i18n/metadata.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/tailwind-ui-prompts/page.tsx",
+      "target": "file:lib/i18n/routing.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/ui-prompts/page.tsx",
+      "target": "file:app/ui-prompts/page.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/ui-prompts/page.tsx",
+      "target": "file:lib/i18n/metadata.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/[locale]/ui-prompts/page.tsx",
+      "target": "file:lib/i18n/routing.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/about/page.tsx",
+      "target": "file:components/about/about-content.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/about/page.tsx",
+      "target": "file:components/layout/footer.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/about/page.tsx",
+      "target": "file:components/layout/header.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/animations/[slug]/_content.tsx",
+      "target": "file:components/animations/animation-preview.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/animations/[slug]/_content.tsx",
+      "target": "file:components/i18n/localized-link.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/animations/[slug]/_content.tsx",
+      "target": "file:lib/animations/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/animations/[slug]/_content.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/animations/[slug]/page.tsx",
+      "target": "file:app/animations/[slug]/_content.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/animations/[slug]/page.tsx",
+      "target": "file:components/layout/footer.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/animations/[slug]/page.tsx",
+      "target": "file:components/layout/header.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/animations/[slug]/page.tsx",
+      "target": "file:components/ui/breadcrumb.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/animations/[slug]/page.tsx",
+      "target": "file:lib/animations/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/animations/[slug]/page.tsx",
+      "target": "file:lib/security/json-ld.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/animations/[slug]/page.tsx",
+      "target": "file:lib/site-url.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/animations/page.tsx",
+      "target": "file:components/animations/animations-content.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/animations/page.tsx",
+      "target": "file:components/layout/footer.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/animations/page.tsx",
+      "target": "file:components/layout/header.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/animations/page.tsx",
+      "target": "file:lib/animations/meta.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/animations/vocabulary/page.tsx",
+      "target": "file:components/animations/vocabulary/vocabulary-content.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/animations/vocabulary/page.tsx",
+      "target": "file:components/layout/footer.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/animations/vocabulary/page.tsx",
+      "target": "file:components/layout/header.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/backgrounds/page.tsx",
+      "target": "file:components/backgrounds/backgrounds-content.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/backgrounds/page.tsx",
+      "target": "file:components/layout/footer.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/backgrounds/page.tsx",
+      "target": "file:components/layout/header.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/blog/[slug]/page.tsx",
+      "target": "file:components/i18n/localized-link.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/blog/[slug]/page.tsx",
+      "target": "file:components/layout/footer.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/blog/[slug]/page.tsx",
+      "target": "file:components/layout/header.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/blog/[slug]/page.tsx",
+      "target": "file:lib/blog/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/blog/[slug]/page.tsx",
+      "target": "file:lib/security/json-ld.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/blog/[slug]/page.tsx",
+      "target": "file:lib/seo/json-ld.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/blog/[slug]/page.tsx",
+      "target": "file:lib/site-url.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/blog/blog-list-client.tsx",
+      "target": "file:components/blog/blog-card.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/blog/blog-list-client.tsx",
+      "target": "file:components/layout/footer.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/blog/blog-list-client.tsx",
+      "target": "file:components/layout/header.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/blog/blog-list-client.tsx",
+      "target": "file:lib/blog/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/blog/blog-list-client.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/blog/page.tsx",
+      "target": "file:app/blog/blog-list-client.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/blog/page.tsx",
+      "target": "file:lib/blog/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/changelog/changelog-client.tsx",
+      "target": "file:components/layout/footer.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/changelog/changelog-client.tsx",
+      "target": "file:components/layout/header.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/changelog/changelog-client.tsx",
+      "target": "file:lib/changelog/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/changelog/changelog-client.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/changelog/page.tsx",
+      "target": "file:app/changelog/changelog-client.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/component-patterns/page.tsx",
+      "target": "file:components/component-patterns/component-patterns-content.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/component-patterns/page.tsx",
+      "target": "file:components/layout/footer.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/component-patterns/page.tsx",
+      "target": "file:components/layout/header.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

@@ -1,0 +1,342 @@
+{
+  "nodes": [
+    {
+      "id": "file:lib/styles/shoujo-manga-tokens.ts",
+      "type": "file",
+      "name": "shoujo-manga-tokens.ts",
+      "filePath": "lib/styles/shoujo-manga-tokens.ts",
+      "summary": "Design token definitions for the \"Shoujo Manga\" style, extending base tokens with style-specific colors, typography, spacing, and effects.",
+      "tags": [
+        "tokens",
+        "style",
+        "design-tokens",
+        "shoujo-manga"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/sidebar-fixed-tokens.ts",
+      "type": "file",
+      "name": "sidebar-fixed-tokens.ts",
+      "filePath": "lib/styles/sidebar-fixed-tokens.ts",
+      "summary": "Design token definitions for the \"Sidebar Fixed\" style, extending base tokens with style-specific colors, typography, spacing, and effects.",
+      "tags": [
+        "tokens",
+        "style",
+        "design-tokens",
+        "sidebar-fixed"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/sketch-style-tokens.ts",
+      "type": "file",
+      "name": "sketch-style-tokens.ts",
+      "filePath": "lib/styles/sketch-style-tokens.ts",
+      "summary": "Design token definitions for the \"Sketch Style\" style, extending base tokens with style-specific colors, typography, spacing, and effects.",
+      "tags": [
+        "tokens",
+        "style",
+        "design-tokens",
+        "sketch-style"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/skeuomorphism-tokens.ts",
+      "type": "file",
+      "name": "skeuomorphism-tokens.ts",
+      "filePath": "lib/styles/skeuomorphism-tokens.ts",
+      "summary": "Design token definitions for the \"Skeuomorphism\" style, extending base tokens with style-specific colors, typography, spacing, and effects.",
+      "tags": [
+        "tokens",
+        "style",
+        "design-tokens",
+        "skeuomorphism"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/soft-ui-tokens.ts",
+      "type": "file",
+      "name": "soft-ui-tokens.ts",
+      "filePath": "lib/styles/soft-ui-tokens.ts",
+      "summary": "Design token definitions for the \"Soft Ui\" style, extending base tokens with style-specific colors, typography, spacing, and effects.",
+      "tags": [
+        "tokens",
+        "style",
+        "design-tokens",
+        "soft-ui"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/solarpunk-tokens.ts",
+      "type": "file",
+      "name": "solarpunk-tokens.ts",
+      "filePath": "lib/styles/solarpunk-tokens.ts",
+      "summary": "Design token definitions for the \"Solarpunk\" style, extending base tokens with style-specific colors, typography, spacing, and effects.",
+      "tags": [
+        "tokens",
+        "style",
+        "design-tokens",
+        "solarpunk"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/split-screen-tokens.ts",
+      "type": "file",
+      "name": "split-screen-tokens.ts",
+      "filePath": "lib/styles/split-screen-tokens.ts",
+      "summary": "Design token definitions for the \"Split Screen\" style, extending base tokens with style-specific colors, typography, spacing, and effects.",
+      "tags": [
+        "tokens",
+        "style",
+        "design-tokens",
+        "split-screen"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/steampunk-tokens.ts",
+      "type": "file",
+      "name": "steampunk-tokens.ts",
+      "filePath": "lib/styles/steampunk-tokens.ts",
+      "summary": "Design token definitions for the \"Steampunk\" style, extending base tokens with style-specific colors, typography, spacing, and effects.",
+      "tags": [
+        "tokens",
+        "style",
+        "design-tokens",
+        "steampunk"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/stripe-style-tokens.ts",
+      "type": "file",
+      "name": "stripe-style-tokens.ts",
+      "filePath": "lib/styles/stripe-style-tokens.ts",
+      "summary": "Design token definitions for the \"Stripe Style\" style, extending base tokens with style-specific colors, typography, spacing, and effects.",
+      "tags": [
+        "tokens",
+        "style",
+        "design-tokens",
+        "stripe-style"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/surrealism-tokens.ts",
+      "type": "file",
+      "name": "surrealism-tokens.ts",
+      "filePath": "lib/styles/surrealism-tokens.ts",
+      "summary": "Design token definitions for the \"Surrealism\" style, extending base tokens with style-specific colors, typography, spacing, and effects.",
+      "tags": [
+        "tokens",
+        "style",
+        "design-tokens",
+        "surrealism"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/swiss-poster-tokens.ts",
+      "type": "file",
+      "name": "swiss-poster-tokens.ts",
+      "filePath": "lib/styles/swiss-poster-tokens.ts",
+      "summary": "Design token definitions for the \"Swiss Poster\" style, extending base tokens with style-specific colors, typography, spacing, and effects.",
+      "tags": [
+        "tokens",
+        "style",
+        "design-tokens",
+        "swiss-poster"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/swiss-style-tokens.ts",
+      "type": "file",
+      "name": "swiss-style-tokens.ts",
+      "filePath": "lib/styles/swiss-style-tokens.ts",
+      "summary": "Design token definitions for the \"Swiss Style\" style, extending base tokens with style-specific colors, typography, spacing, and effects.",
+      "tags": [
+        "tokens",
+        "style",
+        "design-tokens",
+        "swiss-style"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/synthwave-tokens.ts",
+      "type": "file",
+      "name": "synthwave-tokens.ts",
+      "filePath": "lib/styles/synthwave-tokens.ts",
+      "summary": "Design token definitions for the \"Synthwave\" style, extending base tokens with style-specific colors, typography, spacing, and effects.",
+      "tags": [
+        "tokens",
+        "style",
+        "design-tokens",
+        "synthwave"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/terracotta-tokens.ts",
+      "type": "file",
+      "name": "terracotta-tokens.ts",
+      "filePath": "lib/styles/terracotta-tokens.ts",
+      "summary": "Design token definitions for the \"Terracotta\" style, extending base tokens with style-specific colors, typography, spacing, and effects.",
+      "tags": [
+        "tokens",
+        "style",
+        "design-tokens",
+        "terracotta"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/timeline-vertical-tokens.ts",
+      "type": "file",
+      "name": "timeline-vertical-tokens.ts",
+      "filePath": "lib/styles/timeline-vertical-tokens.ts",
+      "summary": "Design token definitions for the \"Timeline Vertical\" style, extending base tokens with style-specific colors, typography, spacing, and effects.",
+      "tags": [
+        "tokens",
+        "style",
+        "design-tokens",
+        "timeline-vertical"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/token-defaults.ts",
+      "type": "file",
+      "name": "token-defaults.ts",
+      "filePath": "lib/styles/token-defaults.ts",
+      "summary": "Base token definitions providing default design token values (spacing, typography, colors) that style-specific tokens extend.",
+      "tags": [
+        "tokens",
+        "defaults",
+        "style",
+        "design-system"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:lib/styles/shoujo-manga-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/sidebar-fixed-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/sketch-style-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/skeuomorphism-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/soft-ui-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/solarpunk-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/split-screen-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/steampunk-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/stripe-style-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/surrealism-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/swiss-poster-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/swiss-style-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/synthwave-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/terracotta-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/timeline-vertical-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/token-defaults.ts",
+      "target": "file:lib/styles/tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

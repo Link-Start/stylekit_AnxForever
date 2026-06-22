@@ -1,0 +1,463 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 5,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "lib/submit/manifest-validator.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 239,
+      "nonEmptyLines": 208,
+      "functions": [
+        {
+          "name": "validateStyleSubmissionManifest",
+          "startLine": 63,
+          "endLine": 78,
+          "params": [
+            "input"
+          ]
+        },
+        {
+          "name": "getManifestSummary",
+          "startLine": 80,
+          "endLine": 94,
+          "params": [
+            "manifest"
+          ]
+        },
+        {
+          "name": "validateManifestDetailed",
+          "startLine": 111,
+          "endLine": 239,
+          "params": [
+            "input"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "styleSubmissionManifestSchema",
+          "line": 42,
+          "isDefault": false
+        },
+        {
+          "name": "validateStyleSubmissionManifest",
+          "line": 63,
+          "isDefault": false
+        },
+        {
+          "name": "getManifestSummary",
+          "line": 80,
+          "isDefault": false
+        },
+        {
+          "name": "validateManifestDetailed",
+          "line": 111,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "validateStyleSubmissionManifest",
+          "callee": "styleSubmissionManifestSchema.safeParse",
+          "lineNumber": 66
+        },
+        {
+          "caller": "validateStyleSubmissionManifest",
+          "callee": "parsed.error.issues.map",
+          "lineNumber": 71
+        },
+        {
+          "caller": "validateStyleSubmissionManifest",
+          "callee": "issue.path.join",
+          "lineNumber": 72
+        },
+        {
+          "caller": "validateManifestDetailed",
+          "callee": "validateStyleSubmissionManifest",
+          "lineNumber": 112
+        },
+        {
+          "caller": "validateManifestDetailed",
+          "callee": "Array.isArray",
+          "lineNumber": 116
+        },
+        {
+          "caller": "validateManifestDetailed",
+          "callee": "Array.isArray",
+          "lineNumber": 121
+        },
+        {
+          "caller": "validateManifestDetailed",
+          "callee": "fields.push",
+          "lineNumber": 126
+        },
+        {
+          "caller": "validateManifestDetailed",
+          "callee": "String",
+          "lineNumber": 129
+        },
+        {
+          "caller": "validateManifestDetailed",
+          "callee": "fields.push",
+          "lineNumber": 134
+        },
+        {
+          "caller": "validateManifestDetailed",
+          "callee": "SLUG_RE.test",
+          "lineNumber": 136
+        },
+        {
+          "caller": "validateManifestDetailed",
+          "callee": "SLUG_RE.test",
+          "lineNumber": 137
+        },
+        {
+          "caller": "validateManifestDetailed",
+          "callee": "Array.isArray",
+          "lineNumber": 144
+        },
+        {
+          "caller": "validateManifestDetailed",
+          "callee": "formData.accentColors.filter",
+          "lineNumber": 145
+        },
+        {
+          "caller": "validateManifestDetailed",
+          "callee": "colors.filter",
+          "lineNumber": 148
+        },
+        {
+          "caller": "validateManifestDetailed",
+          "callee": "HEX_RE.test",
+          "lineNumber": 148
+        },
+        {
+          "caller": "validateManifestDetailed",
+          "callee": "fields.push",
+          "lineNumber": 149
+        },
+        {
+          "caller": "validateManifestDetailed",
+          "callee": "Array.isArray",
+          "lineNumber": 156
+        },
+        {
+          "caller": "validateManifestDetailed",
+          "callee": "doList.filter",
+          "lineNumber": 157
+        },
+        {
+          "caller": "validateManifestDetailed",
+          "callee": "d.trim",
+          "lineNumber": 157
+        },
+        {
+          "caller": "validateManifestDetailed",
+          "callee": "fields.push",
+          "lineNumber": 158
+        },
+        {
+          "caller": "validateManifestDetailed",
+          "callee": "Array.isArray",
+          "lineNumber": 165
+        },
+        {
+          "caller": "validateManifestDetailed",
+          "callee": "dontList.filter",
+          "lineNumber": 166
+        },
+        {
+          "caller": "validateManifestDetailed",
+          "callee": "d.trim",
+          "lineNumber": 166
+        },
+        {
+          "caller": "validateManifestDetailed",
+          "callee": "fields.push",
+          "lineNumber": 167
+        },
+        {
+          "caller": "validateManifestDetailed",
+          "callee": "formData.buttonCode.trim",
+          "lineNumber": 174
+        },
+        {
+          "caller": "validateManifestDetailed",
+          "callee": "fields.push",
+          "lineNumber": 175
+        },
+        {
+          "caller": "validateManifestDetailed",
+          "callee": "formData.cardCode.trim",
+          "lineNumber": 182
+        },
+        {
+          "caller": "validateManifestDetailed",
+          "callee": "fields.push",
+          "lineNumber": 183
+        },
+        {
+          "caller": "validateManifestDetailed",
+          "callee": "formData.inputCode.trim",
+          "lineNumber": 190
+        },
+        {
+          "caller": "validateManifestDetailed",
+          "callee": "fields.push",
+          "lineNumber": 191
+        },
+        {
+          "caller": "validateManifestDetailed",
+          "callee": "formData.navCode.trim",
+          "lineNumber": 198
+        },
+        {
+          "caller": "validateManifestDetailed",
+          "callee": "fields.push",
+          "lineNumber": 199
+        },
+        {
+          "caller": "validateManifestDetailed",
+          "callee": "formData.heroCode.trim",
+          "lineNumber": 206
+        },
+        {
+          "caller": "validateManifestDetailed",
+          "callee": "fields.push",
+          "lineNumber": 207
+        },
+        {
+          "caller": "validateManifestDetailed",
+          "callee": "formData.footerCode.trim",
+          "lineNumber": 214
+        },
+        {
+          "caller": "validateManifestDetailed",
+          "callee": "fields.push",
+          "lineNumber": 215
+        },
+        {
+          "caller": "validateManifestDetailed",
+          "callee": "Array.isArray",
+          "lineNumber": 223
+        },
+        {
+          "caller": "validateManifestDetailed",
+          "callee": "coverSvg.includes",
+          "lineNumber": 227
+        },
+        {
+          "caller": "validateManifestDetailed",
+          "callee": "fields.push",
+          "lineNumber": 228
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 4,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/submit/validator.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 82,
+      "nonEmptyLines": 71,
+      "exports": [
+        {
+          "name": "wizardFormSchema",
+          "line": 14,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "tests/unit/lib/manifest-validator.test.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 97,
+      "nonEmptyLines": 91,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "tests/unit/lib/validator.test.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 411,
+      "nonEmptyLines": 365,
+      "functions": [
+        {
+          "name": "validFormData",
+          "startLine": 5,
+          "endLine": 42,
+          "params": []
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "tools/submission/validate-manifest.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 60,
+      "nonEmptyLines": 51,
+      "functions": [
+        {
+          "name": "printUsage",
+          "startLine": 10,
+          "endLine": 15,
+          "params": []
+        },
+        {
+          "name": "main",
+          "startLine": 17,
+          "endLine": 58,
+          "params": []
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "printUsage",
+          "callee": "console.log",
+          "lineNumber": 11
+        },
+        {
+          "caller": "printUsage",
+          "callee": "console.log",
+          "lineNumber": 12
+        },
+        {
+          "caller": "main",
+          "callee": "printUsage",
+          "lineNumber": 20
+        },
+        {
+          "caller": "main",
+          "callee": "process.exit",
+          "lineNumber": 21
+        },
+        {
+          "caller": "main",
+          "callee": "resolve",
+          "lineNumber": 24
+        },
+        {
+          "caller": "main",
+          "callee": "process.cwd",
+          "lineNumber": 24
+        },
+        {
+          "caller": "main",
+          "callee": "readFile",
+          "lineNumber": 28
+        },
+        {
+          "caller": "main",
+          "callee": "console.error",
+          "lineNumber": 30
+        },
+        {
+          "caller": "main",
+          "callee": "process.exit",
+          "lineNumber": 31
+        },
+        {
+          "caller": "main",
+          "callee": "JSON.parse",
+          "lineNumber": 36
+        },
+        {
+          "caller": "main",
+          "callee": "console.error",
+          "lineNumber": 38
+        },
+        {
+          "caller": "main",
+          "callee": "process.exit",
+          "lineNumber": 39
+        },
+        {
+          "caller": "main",
+          "callee": "validateStyleSubmissionManifest",
+          "lineNumber": 42
+        },
+        {
+          "caller": "main",
+          "callee": "console.error",
+          "lineNumber": 44
+        },
+        {
+          "caller": "main",
+          "callee": "console.error",
+          "lineNumber": 46
+        },
+        {
+          "caller": "main",
+          "callee": "process.exit",
+          "lineNumber": 48
+        },
+        {
+          "caller": "main",
+          "callee": "getManifestSummary",
+          "lineNumber": 51
+        },
+        {
+          "caller": "main",
+          "callee": "console.log",
+          "lineNumber": 52
+        },
+        {
+          "caller": "main",
+          "callee": "console.log",
+          "lineNumber": 53
+        },
+        {
+          "caller": "main",
+          "callee": "console.log",
+          "lineNumber": 54
+        },
+        {
+          "caller": "main",
+          "callee": "console.log",
+          "lineNumber": 55
+        },
+        {
+          "caller": "main",
+          "callee": "console.log",
+          "lineNumber": 56
+        },
+        {
+          "caller": "main",
+          "callee": "console.log",
+          "lineNumber": 57
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    }
+  ]
+}

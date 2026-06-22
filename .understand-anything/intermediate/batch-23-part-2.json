@@ -1,0 +1,829 @@
+{
+  "nodes": [
+    {
+      "id": "file:lib/animations/slide-in-left/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/slide-in-left/preview.tsx",
+      "summary": "React preview component for the \"Slide In Left\" animation, demonstrating its visual behavior in an interactive sandbox.",
+      "tags": [
+        "preview",
+        "component",
+        "animation",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/slide-in-left/preview.tsx:SlideInLeftPreview",
+      "type": "function",
+      "name": "SlideInLeftPreview",
+      "filePath": "lib/animations/slide-in-left/preview.tsx",
+      "lineRange": [
+        5,
+        33
+      ],
+      "summary": "Interactive React preview component demonstrating the animation behavior.",
+      "tags": [
+        "component",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/animations/slide-in-right/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/slide-in-right/preview.tsx",
+      "summary": "React preview component for the \"Slide In Right\" animation, demonstrating its visual behavior in an interactive sandbox.",
+      "tags": [
+        "preview",
+        "component",
+        "animation",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/slide-in-right/preview.tsx:SlideInRightPreview",
+      "type": "function",
+      "name": "SlideInRightPreview",
+      "filePath": "lib/animations/slide-in-right/preview.tsx",
+      "lineRange": [
+        5,
+        30
+      ],
+      "summary": "Interactive React preview component demonstrating the animation behavior.",
+      "tags": [
+        "component",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/animations/slide-out-right/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/slide-out-right/preview.tsx",
+      "summary": "React preview component for the \"Slide Out Right\" animation, demonstrating its visual behavior in an interactive sandbox.",
+      "tags": [
+        "preview",
+        "component",
+        "animation",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/animations/slide-out-right/preview.tsx:SlideOutRightPreview",
+      "type": "function",
+      "name": "SlideOutRightPreview",
+      "filePath": "lib/animations/slide-out-right/preview.tsx",
+      "lineRange": [
+        12,
+        72
+      ],
+      "summary": "Interactive React preview component demonstrating the animation behavior.",
+      "tags": [
+        "component",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/slide-swap/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/slide-swap/preview.tsx",
+      "summary": "React preview component for the \"Slide Swap\" animation, demonstrating its visual behavior in an interactive sandbox.",
+      "tags": [
+        "preview",
+        "component",
+        "animation",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/animations/slide-swap/preview.tsx:StepCard",
+      "type": "function",
+      "name": "StepCard",
+      "filePath": "lib/animations/slide-swap/preview.tsx",
+      "lineRange": [
+        9,
+        18
+      ],
+      "summary": "Helper function used by the animation preview component.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/slide-swap/preview.tsx:SlideSwapPreview",
+      "type": "function",
+      "name": "SlideSwapPreview",
+      "filePath": "lib/animations/slide-swap/preview.tsx",
+      "lineRange": [
+        20,
+        132
+      ],
+      "summary": "Interactive React preview component demonstrating the animation behavior.",
+      "tags": [
+        "component",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/spinner-dots/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/spinner-dots/preview.tsx",
+      "summary": "React preview component for the \"Spinner Dots\" animation, demonstrating its visual behavior in an interactive sandbox.",
+      "tags": [
+        "preview",
+        "component",
+        "animation",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/spinner-dots/preview.tsx:SpinnerDotsPreview",
+      "type": "function",
+      "name": "SpinnerDotsPreview",
+      "filePath": "lib/animations/spinner-dots/preview.tsx",
+      "lineRange": [
+        5,
+        46
+      ],
+      "summary": "Interactive React preview component demonstrating the animation behavior.",
+      "tags": [
+        "component",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/spotlight-card/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/spotlight-card/preview.tsx",
+      "summary": "React preview component for the \"Spotlight Card\" animation, demonstrating its visual behavior in an interactive sandbox.",
+      "tags": [
+        "preview",
+        "component",
+        "animation",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/spotlight-card/preview.tsx:SpotlightCardPreview",
+      "type": "function",
+      "name": "SpotlightCardPreview",
+      "filePath": "lib/animations/spotlight-card/preview.tsx",
+      "lineRange": [
+        6,
+        46
+      ],
+      "summary": "Interactive React preview component demonstrating the animation behavior.",
+      "tags": [
+        "component",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/stagger-children/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/stagger-children/preview.tsx",
+      "summary": "React preview component for the \"Stagger Children\" animation, demonstrating its visual behavior in an interactive sandbox.",
+      "tags": [
+        "preview",
+        "component",
+        "animation",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/stagger-children/preview.tsx:StaggerChildrenPreview",
+      "type": "function",
+      "name": "StaggerChildrenPreview",
+      "filePath": "lib/animations/stagger-children/preview.tsx",
+      "lineRange": [
+        7,
+        37
+      ],
+      "summary": "Interactive React preview component demonstrating the animation behavior.",
+      "tags": [
+        "component",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/text-gradient-flow/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/text-gradient-flow/preview.tsx",
+      "summary": "React preview component for the \"Text Gradient Flow\" animation, demonstrating its visual behavior in an interactive sandbox.",
+      "tags": [
+        "preview",
+        "component",
+        "animation",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/text-gradient-flow/preview.tsx:TextGradientFlowPreview",
+      "type": "function",
+      "name": "TextGradientFlowPreview",
+      "filePath": "lib/animations/text-gradient-flow/preview.tsx",
+      "lineRange": [
+        5,
+        33
+      ],
+      "summary": "Interactive React preview component demonstrating the animation behavior.",
+      "tags": [
+        "component",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/animations/text-repulsion/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/text-repulsion/preview.tsx",
+      "summary": "React preview component for the \"Text Repulsion\" animation, demonstrating its visual behavior in an interactive sandbox.",
+      "tags": [
+        "preview",
+        "component",
+        "animation",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/text-repulsion/preview.tsx:TextRepulsionPreview",
+      "type": "function",
+      "name": "TextRepulsionPreview",
+      "filePath": "lib/animations/text-repulsion/preview.tsx",
+      "lineRange": [
+        5,
+        24
+      ],
+      "summary": "Interactive React preview component demonstrating the animation behavior.",
+      "tags": [
+        "component",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/animations/text-reveal/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/text-reveal/preview.tsx",
+      "summary": "React preview component for the \"Text Reveal\" animation, demonstrating its visual behavior in an interactive sandbox.",
+      "tags": [
+        "preview",
+        "component",
+        "animation",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/text-reveal/preview.tsx:TextRevealPreview",
+      "type": "function",
+      "name": "TextRevealPreview",
+      "filePath": "lib/animations/text-reveal/preview.tsx",
+      "lineRange": [
+        5,
+        50
+      ],
+      "summary": "Interactive React preview component demonstrating the animation behavior.",
+      "tags": [
+        "component",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/text-scramble/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/text-scramble/preview.tsx",
+      "summary": "React preview component for the \"Text Scramble\" animation, demonstrating its visual behavior in an interactive sandbox.",
+      "tags": [
+        "preview",
+        "component",
+        "animation",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/animations/text-scramble/preview.tsx:ScrambleText",
+      "type": "function",
+      "name": "ScrambleText",
+      "filePath": "lib/animations/text-scramble/preview.tsx",
+      "lineRange": [
+        10,
+        61
+      ],
+      "summary": "Helper function used by the animation preview component.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/animations/text-scramble/preview.tsx:TextScramblePreview",
+      "type": "function",
+      "name": "TextScramblePreview",
+      "filePath": "lib/animations/text-scramble/preview.tsx",
+      "lineRange": [
+        63,
+        72
+      ],
+      "summary": "Interactive React preview component demonstrating the animation behavior.",
+      "tags": [
+        "component",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/animations/tilt-3d/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/tilt-3d/preview.tsx",
+      "summary": "React preview component for the \"Tilt 3d\" animation, demonstrating its visual behavior in an interactive sandbox.",
+      "tags": [
+        "preview",
+        "component",
+        "animation",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/tilt-3d/preview.tsx:Tilt3dPreview",
+      "type": "function",
+      "name": "Tilt3dPreview",
+      "filePath": "lib/animations/tilt-3d/preview.tsx",
+      "lineRange": [
+        6,
+        52
+      ],
+      "summary": "Interactive React preview component demonstrating the animation behavior.",
+      "tags": [
+        "component",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/typewriter/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/typewriter/preview.tsx",
+      "summary": "React preview component for the \"Typewriter\" animation, demonstrating its visual behavior in an interactive sandbox.",
+      "tags": [
+        "preview",
+        "component",
+        "animation",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/typewriter/preview.tsx:TypewriterPreview",
+      "type": "function",
+      "name": "TypewriterPreview",
+      "filePath": "lib/animations/typewriter/preview.tsx",
+      "lineRange": [
+        7,
+        56
+      ],
+      "summary": "Interactive React preview component demonstrating the animation behavior.",
+      "tags": [
+        "component",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/underline-draw/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/underline-draw/preview.tsx",
+      "summary": "React preview component for the \"Underline Draw\" animation, demonstrating its visual behavior in an interactive sandbox.",
+      "tags": [
+        "preview",
+        "component",
+        "animation",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/underline-draw/preview.tsx:UnderlineDrawPreview",
+      "type": "function",
+      "name": "UnderlineDrawPreview",
+      "filePath": "lib/animations/underline-draw/preview.tsx",
+      "lineRange": [
+        5,
+        42
+      ],
+      "summary": "Interactive React preview component demonstrating the animation behavior.",
+      "tags": [
+        "component",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/zoom-in/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/zoom-in/preview.tsx",
+      "summary": "React preview component for the \"Zoom In\" animation, demonstrating its visual behavior in an interactive sandbox.",
+      "tags": [
+        "preview",
+        "component",
+        "animation",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/zoom-in/preview.tsx:ZoomInPreview",
+      "type": "function",
+      "name": "ZoomInPreview",
+      "filePath": "lib/animations/zoom-in/preview.tsx",
+      "lineRange": [
+        5,
+        26
+      ],
+      "summary": "Interactive React preview component demonstrating the animation behavior.",
+      "tags": [
+        "component",
+        "react"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:lib/animations/slide-in-left/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/slide-in-left/preview.tsx",
+      "target": "function:lib/animations/slide-in-left/preview.tsx:SlideInLeftPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/animations/slide-in-left/preview.tsx",
+      "target": "function:lib/animations/slide-in-left/preview.tsx:SlideInLeftPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/slide-in-right/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/slide-in-right/preview.tsx",
+      "target": "function:lib/animations/slide-in-right/preview.tsx:SlideInRightPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/animations/slide-in-right/preview.tsx",
+      "target": "function:lib/animations/slide-in-right/preview.tsx:SlideInRightPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/slide-out-right/preview.tsx",
+      "target": "file:lib/animations/anime-utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/slide-out-right/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/slide-out-right/preview.tsx",
+      "target": "function:lib/animations/slide-out-right/preview.tsx:SlideOutRightPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/animations/slide-out-right/preview.tsx",
+      "target": "function:lib/animations/slide-out-right/preview.tsx:SlideOutRightPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/slide-swap/preview.tsx",
+      "target": "file:lib/animations/anime-utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/slide-swap/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/slide-swap/preview.tsx",
+      "target": "function:lib/animations/slide-swap/preview.tsx:StepCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/animations/slide-swap/preview.tsx",
+      "target": "function:lib/animations/slide-swap/preview.tsx:SlideSwapPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/animations/slide-swap/preview.tsx",
+      "target": "function:lib/animations/slide-swap/preview.tsx:SlideSwapPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/spinner-dots/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/spinner-dots/preview.tsx",
+      "target": "function:lib/animations/spinner-dots/preview.tsx:SpinnerDotsPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/animations/spinner-dots/preview.tsx",
+      "target": "function:lib/animations/spinner-dots/preview.tsx:SpinnerDotsPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/spotlight-card/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/spotlight-card/preview.tsx",
+      "target": "function:lib/animations/spotlight-card/preview.tsx:SpotlightCardPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/animations/spotlight-card/preview.tsx",
+      "target": "function:lib/animations/spotlight-card/preview.tsx:SpotlightCardPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/stagger-children/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/stagger-children/preview.tsx",
+      "target": "function:lib/animations/stagger-children/preview.tsx:StaggerChildrenPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/animations/stagger-children/preview.tsx",
+      "target": "function:lib/animations/stagger-children/preview.tsx:StaggerChildrenPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/text-gradient-flow/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/text-gradient-flow/preview.tsx",
+      "target": "function:lib/animations/text-gradient-flow/preview.tsx:TextGradientFlowPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/animations/text-gradient-flow/preview.tsx",
+      "target": "function:lib/animations/text-gradient-flow/preview.tsx:TextGradientFlowPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/text-repulsion/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/text-repulsion/preview.tsx",
+      "target": "function:lib/animations/text-repulsion/preview.tsx:TextRepulsionPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/animations/text-repulsion/preview.tsx",
+      "target": "function:lib/animations/text-repulsion/preview.tsx:TextRepulsionPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/text-reveal/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/text-reveal/preview.tsx",
+      "target": "function:lib/animations/text-reveal/preview.tsx:TextRevealPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/animations/text-reveal/preview.tsx",
+      "target": "function:lib/animations/text-reveal/preview.tsx:TextRevealPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/text-scramble/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/text-scramble/preview.tsx",
+      "target": "function:lib/animations/text-scramble/preview.tsx:ScrambleText",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/animations/text-scramble/preview.tsx",
+      "target": "function:lib/animations/text-scramble/preview.tsx:TextScramblePreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/animations/text-scramble/preview.tsx",
+      "target": "function:lib/animations/text-scramble/preview.tsx:TextScramblePreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/tilt-3d/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/tilt-3d/preview.tsx",
+      "target": "function:lib/animations/tilt-3d/preview.tsx:Tilt3dPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/animations/tilt-3d/preview.tsx",
+      "target": "function:lib/animations/tilt-3d/preview.tsx:Tilt3dPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/typewriter/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/typewriter/preview.tsx",
+      "target": "function:lib/animations/typewriter/preview.tsx:TypewriterPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/animations/typewriter/preview.tsx",
+      "target": "function:lib/animations/typewriter/preview.tsx:TypewriterPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/underline-draw/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/underline-draw/preview.tsx",
+      "target": "function:lib/animations/underline-draw/preview.tsx:UnderlineDrawPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/animations/underline-draw/preview.tsx",
+      "target": "function:lib/animations/underline-draw/preview.tsx:UnderlineDrawPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/zoom-in/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/zoom-in/preview.tsx",
+      "target": "function:lib/animations/zoom-in/preview.tsx:ZoomInPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/animations/zoom-in/preview.tsx",
+      "target": "function:lib/animations/zoom-in/preview.tsx:ZoomInPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

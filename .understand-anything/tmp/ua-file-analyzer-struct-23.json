@@ -1,0 +1,1766 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 31,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "lib/animations/parallax-layers/preview.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 15,
+      "nonEmptyLines": 13,
+      "functions": [
+        {
+          "name": "ParallaxLayersPreview",
+          "startLine": 5,
+          "endLine": 15,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "ParallaxLayersPreview",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/animations/previews/_shared.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 47,
+      "nonEmptyLines": 40,
+      "functions": [
+        {
+          "name": "useReplay",
+          "startLine": 5,
+          "endLine": 9,
+          "params": []
+        },
+        {
+          "name": "ReplayButton",
+          "startLine": 15,
+          "endLine": 25,
+          "params": [
+            "{ onReplay }"
+          ]
+        },
+        {
+          "name": "PreviewContainer",
+          "startLine": 32,
+          "endLine": 47,
+          "params": [
+            "{ bg = \"light\", children }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "useReplay",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "ReplayButton",
+          "line": 15,
+          "isDefault": false
+        },
+        {
+          "name": "PreviewContainer",
+          "line": 32,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "useReplay",
+          "callee": "useState",
+          "lineNumber": 6
+        },
+        {
+          "caller": "useReplay",
+          "callee": "useCallback",
+          "lineNumber": 7
+        },
+        {
+          "caller": "useReplay",
+          "callee": "setKey",
+          "lineNumber": 7
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/animations/progress-bar/preview.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 46,
+      "nonEmptyLines": 43,
+      "functions": [
+        {
+          "name": "ProgressBarPreview",
+          "startLine": 5,
+          "endLine": 46,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "ProgressBarPreview",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ProgressBarPreview",
+          "callee": "useReplay",
+          "lineNumber": 6
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/animations/proximity-reveal/preview.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 20,
+      "nonEmptyLines": 18,
+      "functions": [
+        {
+          "name": "ProximityRevealPreview",
+          "startLine": 5,
+          "endLine": 20,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "ProximityRevealPreview",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/animations/pulse-ring/preview.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 50,
+      "nonEmptyLines": 48,
+      "functions": [
+        {
+          "name": "PulseRingPreview",
+          "startLine": 5,
+          "endLine": 50,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "PulseRingPreview",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/animations/pulse/preview.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 34,
+      "nonEmptyLines": 32,
+      "functions": [
+        {
+          "name": "PulsePreview",
+          "startLine": 5,
+          "endLine": 34,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "PulsePreview",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/animations/ripple-click/preview.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 115,
+      "nonEmptyLines": 97,
+      "functions": [
+        {
+          "name": "createRipple",
+          "startLine": 12,
+          "endLine": 29,
+          "params": [
+            "button",
+            "x",
+            "y"
+          ]
+        },
+        {
+          "name": "RippleClickPreview",
+          "startLine": 31,
+          "endLine": 115,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "RippleClickPreview",
+          "line": 31,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "createRipple",
+          "callee": "document.createElement",
+          "lineNumber": 13
+        },
+        {
+          "caller": "createRipple",
+          "callee": "Object.assign",
+          "lineNumber": 18
+        },
+        {
+          "caller": "createRipple",
+          "callee": "button.appendChild",
+          "lineNumber": 27
+        },
+        {
+          "caller": "RippleClickPreview",
+          "callee": "useRef",
+          "lineNumber": 32
+        },
+        {
+          "caller": "RippleClickPreview",
+          "callee": "useRef",
+          "lineNumber": 33
+        },
+        {
+          "caller": "RippleClickPreview",
+          "callee": "useEffect",
+          "lineNumber": 35
+        },
+        {
+          "caller": "RippleClickPreview",
+          "callee": "activeRipplesRef.current.forEach",
+          "lineNumber": 37
+        },
+        {
+          "caller": "RippleClickPreview",
+          "callee": "animation.cancel",
+          "lineNumber": 38
+        },
+        {
+          "caller": "RippleClickPreview",
+          "callee": "element.remove",
+          "lineNumber": 39
+        },
+        {
+          "caller": "RippleClickPreview",
+          "callee": "useCallback",
+          "lineNumber": 45
+        },
+        {
+          "caller": "RippleClickPreview",
+          "callee": "activeRipplesRef.current.filter",
+          "lineNumber": 46
+        },
+        {
+          "caller": "RippleClickPreview",
+          "callee": "ripple.remove",
+          "lineNumber": 49
+        },
+        {
+          "caller": "RippleClickPreview",
+          "callee": "useCallback",
+          "lineNumber": 52
+        },
+        {
+          "caller": "RippleClickPreview",
+          "callee": "prefersReducedMotion",
+          "lineNumber": 55
+        },
+        {
+          "caller": "RippleClickPreview",
+          "callee": "loadAnime",
+          "lineNumber": 57
+        },
+        {
+          "caller": "RippleClickPreview",
+          "callee": "createRipple",
+          "lineNumber": 60
+        },
+        {
+          "caller": "RippleClickPreview",
+          "callee": "animate",
+          "lineNumber": 61
+        },
+        {
+          "caller": "RippleClickPreview",
+          "callee": "removeRipple",
+          "lineNumber": 66
+        },
+        {
+          "caller": "RippleClickPreview",
+          "callee": "activeRipplesRef.current.push",
+          "lineNumber": 69
+        },
+        {
+          "caller": "RippleClickPreview",
+          "callee": "useEffect",
+          "lineNumber": 75
+        },
+        {
+          "caller": "runDemoRipple",
+          "callee": "spawnRipple",
+          "lineNumber": 80
+        },
+        {
+          "caller": "runDemoRipple",
+          "callee": "Math.random",
+          "lineNumber": 81
+        },
+        {
+          "caller": "runDemoRipple",
+          "callee": "Math.random",
+          "lineNumber": 82
+        },
+        {
+          "caller": "RippleClickPreview",
+          "callee": "setInterval",
+          "lineNumber": 86
+        },
+        {
+          "caller": "RippleClickPreview",
+          "callee": "setTimeout",
+          "lineNumber": 87
+        },
+        {
+          "caller": "RippleClickPreview",
+          "callee": "clearInterval",
+          "lineNumber": 90
+        },
+        {
+          "caller": "RippleClickPreview",
+          "callee": "clearTimeout",
+          "lineNumber": 91
+        },
+        {
+          "caller": "handleClick",
+          "callee": "event.currentTarget.getBoundingClientRect",
+          "lineNumber": 96
+        },
+        {
+          "caller": "handleClick",
+          "callee": "spawnRipple",
+          "lineNumber": 97
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/animations/rotate-in/preview.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 31,
+      "nonEmptyLines": 28,
+      "functions": [
+        {
+          "name": "RotateInPreview",
+          "startLine": 5,
+          "endLine": 31,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "RotateInPreview",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "RotateInPreview",
+          "callee": "useReplay",
+          "lineNumber": 6
+        },
+        {
+          "caller": "RotateInPreview",
+          "callee": "[0, 0.15, 0.3].map",
+          "lineNumber": 18
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/animations/scale-in/preview.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 47,
+      "nonEmptyLines": 44,
+      "functions": [
+        {
+          "name": "ScaleInPreview",
+          "startLine": 5,
+          "endLine": 47,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "ScaleInPreview",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ScaleInPreview",
+          "callee": "useReplay",
+          "lineNumber": 6
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/animations/scale-out/preview.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 71,
+      "nonEmptyLines": 61,
+      "functions": [
+        {
+          "name": "resetElement",
+          "startLine": 7,
+          "endLine": 10,
+          "params": [
+            "element"
+          ]
+        },
+        {
+          "name": "ScaleOutPreview",
+          "startLine": 12,
+          "endLine": 71,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "ScaleOutPreview",
+          "line": 12,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ScaleOutPreview",
+          "callee": "useRef",
+          "lineNumber": 13
+        },
+        {
+          "caller": "ScaleOutPreview",
+          "callee": "useRef",
+          "lineNumber": 14
+        },
+        {
+          "caller": "ScaleOutPreview",
+          "callee": "useEffect",
+          "lineNumber": 16
+        },
+        {
+          "caller": "ScaleOutPreview",
+          "callee": "animationRef.current?.cancel",
+          "lineNumber": 18
+        },
+        {
+          "caller": "trigger",
+          "callee": "prefersReducedMotion",
+          "lineNumber": 24
+        },
+        {
+          "caller": "trigger",
+          "callee": "loadAnime",
+          "lineNumber": 26
+        },
+        {
+          "caller": "trigger",
+          "callee": "animationRef.current?.cancel",
+          "lineNumber": 29
+        },
+        {
+          "caller": "trigger",
+          "callee": "resetElement",
+          "lineNumber": 30
+        },
+        {
+          "caller": "trigger",
+          "callee": "animate",
+          "lineNumber": 32
+        },
+        {
+          "caller": "trigger",
+          "callee": "resetElement",
+          "lineNumber": 39
+        },
+        {
+          "caller": "ScaleOutPreview",
+          "callee": "trigger",
+          "lineNumber": 52
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/animations/scroll-page-turn/preview.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 92,
+      "nonEmptyLines": 82,
+      "functions": [
+        {
+          "name": "ScrollPageTurnPreview",
+          "startLine": 16,
+          "endLine": 86,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "ScrollPageTurnPreview",
+          "line": 16,
+          "isDefault": false
+        },
+        {
+          "name": "useScrollPageTurn",
+          "line": 92,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ScrollPageTurnPreview",
+          "callee": "useRef",
+          "lineNumber": 17
+        },
+        {
+          "caller": "ScrollPageTurnPreview",
+          "callee": "useState",
+          "lineNumber": 18
+        },
+        {
+          "caller": "ScrollPageTurnPreview",
+          "callee": "useEffect",
+          "lineNumber": 20
+        },
+        {
+          "caller": "onScroll",
+          "callee": "setProgress",
+          "lineNumber": 27
+        },
+        {
+          "caller": "ScrollPageTurnPreview",
+          "callee": "el.addEventListener",
+          "lineNumber": 30
+        },
+        {
+          "caller": "ScrollPageTurnPreview",
+          "callee": "el.removeEventListener",
+          "lineNumber": 31
+        },
+        {
+          "caller": "ScrollPageTurnPreview",
+          "callee": "pages.map",
+          "lineNumber": 48
+        },
+        {
+          "caller": "ScrollPageTurnPreview",
+          "callee": "Math.max",
+          "lineNumber": 51
+        },
+        {
+          "caller": "ScrollPageTurnPreview",
+          "callee": "Math.min",
+          "lineNumber": 51
+        },
+        {
+          "caller": "ScrollPageTurnPreview",
+          "callee": "Math.max",
+          "lineNumber": 63
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/animations/scroll-peel-away/preview.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 86,
+      "nonEmptyLines": 74,
+      "functions": [
+        {
+          "name": "ScrollPeelAwayPreview",
+          "startLine": 12,
+          "endLine": 84,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "ScrollPeelAwayPreview",
+          "line": 12,
+          "isDefault": false
+        },
+        {
+          "name": "useScrollPeelAway",
+          "line": 86,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ScrollPeelAwayPreview",
+          "callee": "useRef",
+          "lineNumber": 13
+        },
+        {
+          "caller": "ScrollPeelAwayPreview",
+          "callee": "useState",
+          "lineNumber": 14
+        },
+        {
+          "caller": "ScrollPeelAwayPreview",
+          "callee": "useEffect",
+          "lineNumber": 16
+        },
+        {
+          "caller": "onScroll",
+          "callee": "setProgress",
+          "lineNumber": 23
+        },
+        {
+          "caller": "ScrollPeelAwayPreview",
+          "callee": "el.addEventListener",
+          "lineNumber": 26
+        },
+        {
+          "caller": "ScrollPeelAwayPreview",
+          "callee": "el.removeEventListener",
+          "lineNumber": 27
+        },
+        {
+          "caller": "ScrollPeelAwayPreview",
+          "callee": "pages.map",
+          "lineNumber": 41
+        },
+        {
+          "caller": "ScrollPeelAwayPreview",
+          "callee": "Math.max",
+          "lineNumber": 44
+        },
+        {
+          "caller": "ScrollPeelAwayPreview",
+          "callee": "Math.min",
+          "lineNumber": 44
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/animations/scroll-reveal/preview.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 62,
+      "nonEmptyLines": 56,
+      "functions": [
+        {
+          "name": "ScrollRevealPreview",
+          "startLine": 13,
+          "endLine": 28,
+          "params": []
+        },
+        {
+          "name": "RevealItem",
+          "startLine": 30,
+          "endLine": 62,
+          "params": [
+            "{ label }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "ScrollRevealPreview",
+          "line": 13,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ScrollRevealPreview",
+          "callee": "items.map",
+          "lineNumber": 20
+        },
+        {
+          "caller": "RevealItem",
+          "callee": "useRef",
+          "lineNumber": 31
+        },
+        {
+          "caller": "RevealItem",
+          "callee": "useState",
+          "lineNumber": 32
+        },
+        {
+          "caller": "RevealItem",
+          "callee": "useEffect",
+          "lineNumber": 34
+        },
+        {
+          "caller": "RevealItem",
+          "callee": "setVisible",
+          "lineNumber": 40
+        },
+        {
+          "caller": "RevealItem",
+          "callee": "observer.unobserve",
+          "lineNumber": 41
+        },
+        {
+          "caller": "RevealItem",
+          "callee": "observer.observe",
+          "lineNumber": 46
+        },
+        {
+          "caller": "RevealItem",
+          "callee": "observer.disconnect",
+          "lineNumber": 47
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/animations/shake/preview.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 60,
+      "nonEmptyLines": 51,
+      "functions": [
+        {
+          "name": "ShakePreview",
+          "startLine": 7,
+          "endLine": 60,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "ShakePreview",
+          "line": 7,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ShakePreview",
+          "callee": "useRef",
+          "lineNumber": 8
+        },
+        {
+          "caller": "ShakePreview",
+          "callee": "useRef",
+          "lineNumber": 9
+        },
+        {
+          "caller": "ShakePreview",
+          "callee": "useEffect",
+          "lineNumber": 11
+        },
+        {
+          "caller": "ShakePreview",
+          "callee": "animationRef.current?.cancel",
+          "lineNumber": 13
+        },
+        {
+          "caller": "triggerShake",
+          "callee": "prefersReducedMotion",
+          "lineNumber": 19
+        },
+        {
+          "caller": "triggerShake",
+          "callee": "loadAnime",
+          "lineNumber": 21
+        },
+        {
+          "caller": "triggerShake",
+          "callee": "animationRef.current?.cancel",
+          "lineNumber": 24
+        },
+        {
+          "caller": "triggerShake",
+          "callee": "animate",
+          "lineNumber": 27
+        },
+        {
+          "caller": "ShakePreview",
+          "callee": "triggerShake",
+          "lineNumber": 52
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/animations/shimmer/preview.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 31,
+      "nonEmptyLines": 29,
+      "functions": [
+        {
+          "name": "ShimmerPreview",
+          "startLine": 5,
+          "endLine": 31,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "ShimmerPreview",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ShimmerPreview",
+          "callee": "[1, 0.75, 0.5].map",
+          "lineNumber": 15
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/animations/skeleton-pulse/preview.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 33,
+      "nonEmptyLines": 31,
+      "functions": [
+        {
+          "name": "SkeletonPulsePreview",
+          "startLine": 5,
+          "endLine": 33,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "SkeletonPulsePreview",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/animations/slide-in-left/preview.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 33,
+      "nonEmptyLines": 30,
+      "functions": [
+        {
+          "name": "SlideInLeftPreview",
+          "startLine": 5,
+          "endLine": 33,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "SlideInLeftPreview",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "SlideInLeftPreview",
+          "callee": "useReplay",
+          "lineNumber": 6
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/animations/slide-in-right/preview.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 30,
+      "nonEmptyLines": 27,
+      "functions": [
+        {
+          "name": "SlideInRightPreview",
+          "startLine": 5,
+          "endLine": 30,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "SlideInRightPreview",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "SlideInRightPreview",
+          "callee": "useReplay",
+          "lineNumber": 6
+        },
+        {
+          "caller": "SlideInRightPreview",
+          "callee": "[0, 0.1, 0.2].map",
+          "lineNumber": 18
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/animations/slide-out-right/preview.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 72,
+      "nonEmptyLines": 62,
+      "functions": [
+        {
+          "name": "resetElement",
+          "startLine": 7,
+          "endLine": 10,
+          "params": [
+            "element"
+          ]
+        },
+        {
+          "name": "SlideOutRightPreview",
+          "startLine": 12,
+          "endLine": 72,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "SlideOutRightPreview",
+          "line": 12,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "SlideOutRightPreview",
+          "callee": "useRef",
+          "lineNumber": 13
+        },
+        {
+          "caller": "SlideOutRightPreview",
+          "callee": "useRef",
+          "lineNumber": 14
+        },
+        {
+          "caller": "SlideOutRightPreview",
+          "callee": "useEffect",
+          "lineNumber": 16
+        },
+        {
+          "caller": "SlideOutRightPreview",
+          "callee": "animationRef.current?.cancel",
+          "lineNumber": 18
+        },
+        {
+          "caller": "trigger",
+          "callee": "prefersReducedMotion",
+          "lineNumber": 24
+        },
+        {
+          "caller": "trigger",
+          "callee": "loadAnime",
+          "lineNumber": 26
+        },
+        {
+          "caller": "trigger",
+          "callee": "animationRef.current?.cancel",
+          "lineNumber": 29
+        },
+        {
+          "caller": "trigger",
+          "callee": "resetElement",
+          "lineNumber": 30
+        },
+        {
+          "caller": "trigger",
+          "callee": "animate",
+          "lineNumber": 32
+        },
+        {
+          "caller": "trigger",
+          "callee": "resetElement",
+          "lineNumber": 39
+        },
+        {
+          "caller": "SlideOutRightPreview",
+          "callee": "trigger",
+          "lineNumber": 52
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/animations/slide-swap/preview.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 132,
+      "nonEmptyLines": 114,
+      "functions": [
+        {
+          "name": "StepCard",
+          "startLine": 9,
+          "endLine": 18,
+          "params": [
+            "{ step }"
+          ]
+        },
+        {
+          "name": "SlideSwapPreview",
+          "startLine": 20,
+          "endLine": 132,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "SlideSwapPreview",
+          "line": 20,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "StepCard",
+          "callee": "steps[step].toLowerCase",
+          "lineNumber": 14
+        },
+        {
+          "caller": "SlideSwapPreview",
+          "callee": "useState",
+          "lineNumber": 21
+        },
+        {
+          "caller": "SlideSwapPreview",
+          "callee": "useState",
+          "lineNumber": 22
+        },
+        {
+          "caller": "SlideSwapPreview",
+          "callee": "useRef",
+          "lineNumber": 23
+        },
+        {
+          "caller": "SlideSwapPreview",
+          "callee": "useRef",
+          "lineNumber": 24
+        },
+        {
+          "caller": "SlideSwapPreview",
+          "callee": "useRef",
+          "lineNumber": 25
+        },
+        {
+          "caller": "SlideSwapPreview",
+          "callee": "useRef",
+          "lineNumber": 26
+        },
+        {
+          "caller": "SlideSwapPreview",
+          "callee": "useEffect",
+          "lineNumber": 28
+        },
+        {
+          "caller": "SlideSwapPreview",
+          "callee": "prefersReducedMotion",
+          "lineNumber": 30
+        },
+        {
+          "caller": "runSwap",
+          "callee": "loadAnime",
+          "lineNumber": 36
+        },
+        {
+          "caller": "runSwap",
+          "callee": "activeAnimationRef.current?.cancel",
+          "lineNumber": 39
+        },
+        {
+          "caller": "runSwap",
+          "callee": "animate",
+          "lineNumber": 40
+        },
+        {
+          "caller": "runSwap",
+          "callee": "exitingAnimationRef.current?.cancel",
+          "lineNumber": 50
+        },
+        {
+          "caller": "runSwap",
+          "callee": "animate",
+          "lineNumber": 51
+        },
+        {
+          "caller": "runSwap",
+          "callee": "setExitingStep",
+          "lineNumber": 58
+        },
+        {
+          "caller": "SlideSwapPreview",
+          "callee": "runSwap",
+          "lineNumber": 66
+        },
+        {
+          "caller": "SlideSwapPreview",
+          "callee": "useEffect",
+          "lineNumber": 73
+        },
+        {
+          "caller": "SlideSwapPreview",
+          "callee": "activeAnimationRef.current?.cancel",
+          "lineNumber": 75
+        },
+        {
+          "caller": "SlideSwapPreview",
+          "callee": "exitingAnimationRef.current?.cancel",
+          "lineNumber": 76
+        },
+        {
+          "caller": "goNext",
+          "callee": "prefersReducedMotion",
+          "lineNumber": 83
+        },
+        {
+          "caller": "goNext",
+          "callee": "setExitingStep",
+          "lineNumber": 84
+        },
+        {
+          "caller": "goNext",
+          "callee": "setStep",
+          "lineNumber": 85
+        },
+        {
+          "caller": "goNext",
+          "callee": "setExitingStep",
+          "lineNumber": 91
+        },
+        {
+          "caller": "goNext",
+          "callee": "setStep",
+          "lineNumber": 92
+        },
+        {
+          "caller": "SlideSwapPreview",
+          "callee": "steps.map",
+          "lineNumber": 99
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/animations/spinner-dots/preview.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 46,
+      "nonEmptyLines": 43,
+      "functions": [
+        {
+          "name": "SpinnerDotsPreview",
+          "startLine": 5,
+          "endLine": 46,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "SpinnerDotsPreview",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "SpinnerDotsPreview",
+          "callee": "[\"-0.32s\", \"-0.16s\", \"0s\"].map",
+          "lineNumber": 18
+        },
+        {
+          "caller": "SpinnerDotsPreview",
+          "callee": "[\r\n            { delay: \"-0.32s\", color: \"bg-blue-500\" },\r\n            { delay: \"-0.16s\", color: \"bg-purple-500\" },\r\n            { delay: \"0s\", color: \"bg-pink-500\" },\r\n          ].map",
+          "lineNumber": 31
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/animations/spotlight-card/preview.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 46,
+      "nonEmptyLines": 42,
+      "functions": [
+        {
+          "name": "SpotlightCardPreview",
+          "startLine": 6,
+          "endLine": 46,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "SpotlightCardPreview",
+          "line": 6,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "SpotlightCardPreview",
+          "callee": "useRef",
+          "lineNumber": 7
+        },
+        {
+          "caller": "SpotlightCardPreview",
+          "callee": "useState",
+          "lineNumber": 8
+        },
+        {
+          "caller": "SpotlightCardPreview",
+          "callee": "useState",
+          "lineNumber": 9
+        },
+        {
+          "caller": "handleMouseMove",
+          "callee": "divRef.current.getBoundingClientRect",
+          "lineNumber": 13
+        },
+        {
+          "caller": "handleMouseMove",
+          "callee": "setPosition",
+          "lineNumber": 14
+        },
+        {
+          "caller": "SpotlightCardPreview",
+          "callee": "setOpacity",
+          "lineNumber": 22
+        },
+        {
+          "caller": "SpotlightCardPreview",
+          "callee": "setOpacity",
+          "lineNumber": 23
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/animations/stagger-children/preview.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 37,
+      "nonEmptyLines": 33,
+      "functions": [
+        {
+          "name": "StaggerChildrenPreview",
+          "startLine": 7,
+          "endLine": 37,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "StaggerChildrenPreview",
+          "line": 7,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "StaggerChildrenPreview",
+          "callee": "useReplay",
+          "lineNumber": 8
+        },
+        {
+          "caller": "StaggerChildrenPreview",
+          "callee": "items.map",
+          "lineNumber": 25
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/animations/text-gradient-flow/preview.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 33,
+      "nonEmptyLines": 31,
+      "functions": [
+        {
+          "name": "TextGradientFlowPreview",
+          "startLine": 5,
+          "endLine": 33,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "TextGradientFlowPreview",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/animations/text-repulsion/preview.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 24,
+      "nonEmptyLines": 22,
+      "functions": [
+        {
+          "name": "TextRepulsionPreview",
+          "startLine": 5,
+          "endLine": 24,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "TextRepulsionPreview",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "TextRepulsionPreview",
+          "callee": "\"TYPE\".split(\"\").map",
+          "lineNumber": 9
+        },
+        {
+          "caller": "TextRepulsionPreview",
+          "callee": "\"TYPE\".split",
+          "lineNumber": 9
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/animations/text-reveal/preview.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 50,
+      "nonEmptyLines": 47,
+      "functions": [
+        {
+          "name": "TextRevealPreview",
+          "startLine": 5,
+          "endLine": 50,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "TextRevealPreview",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "TextRevealPreview",
+          "callee": "useReplay",
+          "lineNumber": 6
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/animations/text-scramble/preview.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 72,
+      "nonEmptyLines": 60,
+      "functions": [
+        {
+          "name": "ScrambleText",
+          "startLine": 10,
+          "endLine": 61,
+          "params": [
+            "{ text, triggerKey }"
+          ]
+        },
+        {
+          "name": "TextScramblePreview",
+          "startLine": 63,
+          "endLine": 72,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "TextScramblePreview",
+          "line": 63,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ScrambleText",
+          "callee": "useRef",
+          "lineNumber": 11
+        },
+        {
+          "caller": "ScrambleText",
+          "callee": "useEffect",
+          "lineNumber": 13
+        },
+        {
+          "caller": "ScrambleText",
+          "callee": "window.matchMedia",
+          "lineNumber": 19
+        },
+        {
+          "caller": "ScrambleText",
+          "callee": "animate",
+          "lineNumber": 29
+        },
+        {
+          "caller": "ScrambleText",
+          "callee": "scrambleText",
+          "lineNumber": 30
+        },
+        {
+          "caller": "ScrambleText",
+          "callee": "animation.revert",
+          "lineNumber": 47
+        },
+        {
+          "caller": "TextScramblePreview",
+          "callee": "useReplay",
+          "lineNumber": 64
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/animations/tilt-3d/preview.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 52,
+      "nonEmptyLines": 47,
+      "functions": [
+        {
+          "name": "Tilt3dPreview",
+          "startLine": 6,
+          "endLine": 52,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "Tilt3dPreview",
+          "line": 6,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "Tilt3dPreview",
+          "callee": "useRef",
+          "lineNumber": 7
+        },
+        {
+          "caller": "handleMouseMove",
+          "callee": "card.getBoundingClientRect",
+          "lineNumber": 12
+        },
+        {
+          "caller": "handleMouseMove",
+          "callee": "card.querySelector",
+          "lineNumber": 16
+        },
+        {
+          "caller": "handleMouseLeave",
+          "callee": "card.querySelector",
+          "lineNumber": 27
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/animations/typewriter/preview.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 56,
+      "nonEmptyLines": 52,
+      "functions": [
+        {
+          "name": "TypewriterPreview",
+          "startLine": 7,
+          "endLine": 56,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "TypewriterPreview",
+          "line": 7,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "TypewriterPreview",
+          "callee": "useReplay",
+          "lineNumber": 8
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/animations/underline-draw/preview.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 42,
+      "nonEmptyLines": 40,
+      "functions": [
+        {
+          "name": "UnderlineDrawPreview",
+          "startLine": 5,
+          "endLine": 42,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "UnderlineDrawPreview",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "UnderlineDrawPreview",
+          "callee": "[\"Home\", \"About\", \"Blog\", \"Contact\"].map",
+          "lineNumber": 31
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/animations/zoom-in/preview.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 26,
+      "nonEmptyLines": 23,
+      "functions": [
+        {
+          "name": "ZoomInPreview",
+          "startLine": 5,
+          "endLine": 26,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "ZoomInPreview",
+          "line": 5,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ZoomInPreview",
+          "callee": "useReplay",
+          "lineNumber": 6
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    }
+  ]
+}

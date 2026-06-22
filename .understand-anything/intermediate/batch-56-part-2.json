@@ -1,0 +1,790 @@
+{
+  "nodes": [
+    {
+      "id": "file:app/styles/fluent-design/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/fluent-design/showcase/page.tsx",
+      "summary": "Showcase page route for the Fluent Design design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/fresh-market/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/fresh-market/showcase/_content.tsx",
+      "summary": "Showcase content component for the Fresh Market design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/fresh-market/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/fresh-market/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        31
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/fresh-market/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/fresh-market/showcase/_content.tsx",
+      "lineRange": [
+        33,
+        56
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/fresh-market/showcase/_content.tsx:FreshMarketShowcaseContent",
+      "type": "function",
+      "name": "FreshMarketShowcaseContent",
+      "filePath": "app/styles/fresh-market/showcase/_content.tsx",
+      "lineRange": [
+        169,
+        573
+      ],
+      "summary": "Function component FreshMarketShowcaseContent rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/fresh-market/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/fresh-market/showcase/page.tsx",
+      "summary": "Showcase page route for the Fresh Market design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/frutiger-aero/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/frutiger-aero/showcase/_content.tsx",
+      "summary": "Showcase content component for the Frutiger Aero design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/frutiger-aero/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/frutiger-aero/showcase/_content.tsx",
+      "lineRange": [
+        6,
+        25
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/frutiger-aero/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/frutiger-aero/showcase/_content.tsx",
+      "lineRange": [
+        28,
+        51
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/frutiger-aero/showcase/_content.tsx:Bubble",
+      "type": "function",
+      "name": "Bubble",
+      "filePath": "app/styles/frutiger-aero/showcase/_content.tsx",
+      "lineRange": [
+        54,
+        77
+      ],
+      "summary": "Function component Bubble rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/frutiger-aero/showcase/_content.tsx:AeroCard",
+      "type": "function",
+      "name": "AeroCard",
+      "filePath": "app/styles/frutiger-aero/showcase/_content.tsx",
+      "lineRange": [
+        80,
+        100
+      ],
+      "summary": "Function component AeroCard rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/frutiger-aero/showcase/_content.tsx:FrutigerAeroShowcase",
+      "type": "function",
+      "name": "FrutigerAeroShowcase",
+      "filePath": "app/styles/frutiger-aero/showcase/_content.tsx",
+      "lineRange": [
+        220,
+        1301
+      ],
+      "summary": "Main showcase component rendering example cards and layout variants for the Frutigeraero design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/frutiger-aero/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/frutiger-aero/showcase/page.tsx",
+      "summary": "Showcase page route for the Frutiger Aero design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/full-page-scroll/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/full-page-scroll/showcase/_content.tsx",
+      "summary": "Showcase content component for the Full Page Scroll design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/full-page-scroll/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/full-page-scroll/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        31
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/full-page-scroll/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/full-page-scroll/showcase/_content.tsx",
+      "lineRange": [
+        33,
+        56
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/full-page-scroll/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/full-page-scroll/showcase/_content.tsx",
+      "lineRange": [
+        150,
+        1870
+      ],
+      "summary": "Main showcase content component rendering example cards and layout variants for the Styles design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/full-page-scroll/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/full-page-scroll/showcase/page.tsx",
+      "summary": "Showcase page route for the Full Page Scroll design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/generative-art/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/generative-art/showcase/_content.tsx",
+      "summary": "Showcase content component for the Generative Art design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/generative-art/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/generative-art/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        31
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/generative-art/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/generative-art/showcase/_content.tsx",
+      "lineRange": [
+        33,
+        56
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/generative-art/showcase/_content.tsx:GridPattern",
+      "type": "function",
+      "name": "GridPattern",
+      "filePath": "app/styles/generative-art/showcase/_content.tsx",
+      "lineRange": [
+        96,
+        112
+      ],
+      "summary": "Function component GridPattern rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/generative-art/showcase/_content.tsx:ConcentricCircles",
+      "type": "function",
+      "name": "ConcentricCircles",
+      "filePath": "app/styles/generative-art/showcase/_content.tsx",
+      "lineRange": [
+        114,
+        141
+      ],
+      "summary": "Function component ConcentricCircles rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/generative-art/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/generative-art/showcase/_content.tsx",
+      "lineRange": [
+        177,
+        1814
+      ],
+      "summary": "Main showcase content component rendering example cards and layout variants for the Styles design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/generative-art/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/generative-art/showcase/page.tsx",
+      "summary": "Showcase page route for the Generative Art design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/geometric-bold/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/geometric-bold/showcase/_content.tsx",
+      "summary": "Showcase content component for the Geometric Bold design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/geometric-bold/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/geometric-bold/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        31
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/geometric-bold/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/geometric-bold/showcase/_content.tsx",
+      "lineRange": [
+        33,
+        56
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/geometric-bold/showcase/_content.tsx:TriangleSVG",
+      "type": "function",
+      "name": "TriangleSVG",
+      "filePath": "app/styles/geometric-bold/showcase/_content.tsx",
+      "lineRange": [
+        62,
+        84
+      ],
+      "summary": "Function component TriangleSVG rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/geometric-bold/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/geometric-bold/showcase/_content.tsx",
+      "lineRange": [
+        138,
+        1603
+      ],
+      "summary": "Main showcase content component rendering example cards and layout variants for the Styles design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/geometric-bold/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/geometric-bold/showcase/page.tsx",
+      "summary": "Showcase page route for the Geometric Bold design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/ghibli-style/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/ghibli-style/showcase/_content.tsx",
+      "summary": "Showcase content component for the Ghibli Style design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/ghibli-style/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/ghibli-style/showcase/_content.tsx",
+      "lineRange": [
+        6,
+        25
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/ghibli-style/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/ghibli-style/showcase/_content.tsx",
+      "lineRange": [
+        27,
+        50
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/ghibli-style/showcase/_content.tsx:CloudShape",
+      "type": "function",
+      "name": "CloudShape",
+      "filePath": "app/styles/ghibli-style/showcase/_content.tsx",
+      "lineRange": [
+        53,
+        71
+      ],
+      "summary": "Function component CloudShape rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/ghibli-style/showcase/_content.tsx:LeafShape",
+      "type": "function",
+      "name": "LeafShape",
+      "filePath": "app/styles/ghibli-style/showcase/_content.tsx",
+      "lineRange": [
+        74,
+        93
+      ],
+      "summary": "Function component LeafShape rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/ghibli-style/showcase/_content.tsx:GhibliStyleShowcase",
+      "type": "function",
+      "name": "GhibliStyleShowcase",
+      "filePath": "app/styles/ghibli-style/showcase/_content.tsx",
+      "lineRange": [
+        95,
+        1371
+      ],
+      "summary": "Main showcase component rendering example cards and layout variants for the Ghiblistyle design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:app/styles/fresh-market/showcase/_content.tsx",
+      "target": "function:app/styles/fresh-market/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/fresh-market/showcase/_content.tsx",
+      "target": "function:app/styles/fresh-market/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/fresh-market/showcase/_content.tsx",
+      "target": "function:app/styles/fresh-market/showcase/_content.tsx:FreshMarketShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/fresh-market/showcase/_content.tsx",
+      "target": "function:app/styles/fresh-market/showcase/_content.tsx:FreshMarketShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/frutiger-aero/showcase/_content.tsx",
+      "target": "function:app/styles/frutiger-aero/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/frutiger-aero/showcase/_content.tsx",
+      "target": "function:app/styles/frutiger-aero/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/frutiger-aero/showcase/_content.tsx",
+      "target": "function:app/styles/frutiger-aero/showcase/_content.tsx:Bubble",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/frutiger-aero/showcase/_content.tsx",
+      "target": "function:app/styles/frutiger-aero/showcase/_content.tsx:AeroCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/frutiger-aero/showcase/_content.tsx",
+      "target": "function:app/styles/frutiger-aero/showcase/_content.tsx:FrutigerAeroShowcase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/frutiger-aero/showcase/_content.tsx",
+      "target": "function:app/styles/frutiger-aero/showcase/_content.tsx:FrutigerAeroShowcase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/full-page-scroll/showcase/_content.tsx",
+      "target": "function:app/styles/full-page-scroll/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/full-page-scroll/showcase/_content.tsx",
+      "target": "function:app/styles/full-page-scroll/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/full-page-scroll/showcase/_content.tsx",
+      "target": "function:app/styles/full-page-scroll/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/full-page-scroll/showcase/_content.tsx",
+      "target": "function:app/styles/full-page-scroll/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/generative-art/showcase/_content.tsx",
+      "target": "function:app/styles/generative-art/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/generative-art/showcase/_content.tsx",
+      "target": "function:app/styles/generative-art/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/generative-art/showcase/_content.tsx",
+      "target": "function:app/styles/generative-art/showcase/_content.tsx:GridPattern",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/generative-art/showcase/_content.tsx",
+      "target": "function:app/styles/generative-art/showcase/_content.tsx:ConcentricCircles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/generative-art/showcase/_content.tsx",
+      "target": "function:app/styles/generative-art/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/generative-art/showcase/_content.tsx",
+      "target": "function:app/styles/generative-art/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/geometric-bold/showcase/_content.tsx",
+      "target": "function:app/styles/geometric-bold/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/geometric-bold/showcase/_content.tsx",
+      "target": "function:app/styles/geometric-bold/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/geometric-bold/showcase/_content.tsx",
+      "target": "function:app/styles/geometric-bold/showcase/_content.tsx:TriangleSVG",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/geometric-bold/showcase/_content.tsx",
+      "target": "function:app/styles/geometric-bold/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/geometric-bold/showcase/_content.tsx",
+      "target": "function:app/styles/geometric-bold/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/ghibli-style/showcase/_content.tsx",
+      "target": "function:app/styles/ghibli-style/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/ghibli-style/showcase/_content.tsx",
+      "target": "function:app/styles/ghibli-style/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/ghibli-style/showcase/_content.tsx",
+      "target": "function:app/styles/ghibli-style/showcase/_content.tsx:CloudShape",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/ghibli-style/showcase/_content.tsx",
+      "target": "function:app/styles/ghibli-style/showcase/_content.tsx:LeafShape",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/ghibli-style/showcase/_content.tsx",
+      "target": "function:app/styles/ghibli-style/showcase/_content.tsx:GhibliStyleShowcase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/ghibli-style/showcase/_content.tsx",
+      "target": "function:app/styles/ghibli-style/showcase/_content.tsx:GhibliStyleShowcase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

@@ -1,0 +1,662 @@
+{
+  "nodes": [
+    {
+      "id": "file:lib/animations/_legacy/pulse-ring.ts",
+      "type": "file",
+      "name": "pulse-ring.ts",
+      "filePath": "lib/animations/_legacy/pulse-ring.ts",
+      "summary": "Legacy animation definition for pulse-ring implementing CSS keyframe-based motion effects.",
+      "tags": [
+        "utility",
+        "legacy",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/_legacy/pulse.ts",
+      "type": "file",
+      "name": "pulse.ts",
+      "filePath": "lib/animations/_legacy/pulse.ts",
+      "summary": "Legacy animation definition for pulse implementing CSS keyframe-based motion effects.",
+      "tags": [
+        "utility",
+        "legacy",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/_legacy/ripple-click.ts",
+      "type": "file",
+      "name": "ripple-click.ts",
+      "filePath": "lib/animations/_legacy/ripple-click.ts",
+      "summary": "Legacy animation definition for ripple-click implementing CSS keyframe-based motion effects.",
+      "tags": [
+        "utility",
+        "legacy",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/_legacy/rotate-in.ts",
+      "type": "file",
+      "name": "rotate-in.ts",
+      "filePath": "lib/animations/_legacy/rotate-in.ts",
+      "summary": "Legacy animation definition for rotate-in implementing CSS keyframe-based motion effects.",
+      "tags": [
+        "utility",
+        "legacy",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/_legacy/scale-in.ts",
+      "type": "file",
+      "name": "scale-in.ts",
+      "filePath": "lib/animations/_legacy/scale-in.ts",
+      "summary": "Legacy animation definition for scale-in implementing CSS keyframe-based motion effects.",
+      "tags": [
+        "utility",
+        "legacy",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/_legacy/scale-out.ts",
+      "type": "file",
+      "name": "scale-out.ts",
+      "filePath": "lib/animations/_legacy/scale-out.ts",
+      "summary": "Legacy animation definition for scale-out implementing CSS keyframe-based motion effects.",
+      "tags": [
+        "utility",
+        "legacy",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/_legacy/scroll-page-turn.ts",
+      "type": "file",
+      "name": "scroll-page-turn.ts",
+      "filePath": "lib/animations/_legacy/scroll-page-turn.ts",
+      "summary": "Legacy animation definition for scroll-page-turn implementing CSS keyframe-based motion effects.",
+      "tags": [
+        "utility",
+        "legacy",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/_legacy/scroll-peel-away.ts",
+      "type": "file",
+      "name": "scroll-peel-away.ts",
+      "filePath": "lib/animations/_legacy/scroll-peel-away.ts",
+      "summary": "Legacy animation definition for scroll-peel-away implementing CSS keyframe-based motion effects.",
+      "tags": [
+        "utility",
+        "legacy",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/_legacy/scroll-reveal.ts",
+      "type": "file",
+      "name": "scroll-reveal.ts",
+      "filePath": "lib/animations/_legacy/scroll-reveal.ts",
+      "summary": "Legacy animation definition for scroll-reveal implementing CSS keyframe-based motion effects.",
+      "tags": [
+        "utility",
+        "legacy",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/_legacy/shake.ts",
+      "type": "file",
+      "name": "shake.ts",
+      "filePath": "lib/animations/_legacy/shake.ts",
+      "summary": "Legacy animation definition for shake implementing CSS keyframe-based motion effects.",
+      "tags": [
+        "utility",
+        "legacy",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/_legacy/shimmer.ts",
+      "type": "file",
+      "name": "shimmer.ts",
+      "filePath": "lib/animations/_legacy/shimmer.ts",
+      "summary": "Legacy animation definition for shimmer implementing CSS keyframe-based motion effects.",
+      "tags": [
+        "utility",
+        "legacy",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/_legacy/skeleton-pulse.ts",
+      "type": "file",
+      "name": "skeleton-pulse.ts",
+      "filePath": "lib/animations/_legacy/skeleton-pulse.ts",
+      "summary": "Legacy animation definition for skeleton-pulse implementing CSS keyframe-based motion effects.",
+      "tags": [
+        "utility",
+        "legacy",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/_legacy/slide-in-left.ts",
+      "type": "file",
+      "name": "slide-in-left.ts",
+      "filePath": "lib/animations/_legacy/slide-in-left.ts",
+      "summary": "Legacy animation definition for slide-in-left implementing CSS keyframe-based motion effects.",
+      "tags": [
+        "utility",
+        "legacy",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/_legacy/slide-in-right.ts",
+      "type": "file",
+      "name": "slide-in-right.ts",
+      "filePath": "lib/animations/_legacy/slide-in-right.ts",
+      "summary": "Legacy animation definition for slide-in-right implementing CSS keyframe-based motion effects.",
+      "tags": [
+        "utility",
+        "legacy",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/_legacy/slide-out-right.ts",
+      "type": "file",
+      "name": "slide-out-right.ts",
+      "filePath": "lib/animations/_legacy/slide-out-right.ts",
+      "summary": "Legacy animation definition for slide-out-right implementing CSS keyframe-based motion effects.",
+      "tags": [
+        "utility",
+        "legacy",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/_legacy/slide-swap.ts",
+      "type": "file",
+      "name": "slide-swap.ts",
+      "filePath": "lib/animations/_legacy/slide-swap.ts",
+      "summary": "Legacy animation definition for slide-swap implementing CSS keyframe-based motion effects.",
+      "tags": [
+        "utility",
+        "legacy",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/_legacy/spinner-dots.ts",
+      "type": "file",
+      "name": "spinner-dots.ts",
+      "filePath": "lib/animations/_legacy/spinner-dots.ts",
+      "summary": "Legacy animation definition for spinner-dots implementing CSS keyframe-based motion effects.",
+      "tags": [
+        "utility",
+        "legacy",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/_legacy/spotlight-card.ts",
+      "type": "file",
+      "name": "spotlight-card.ts",
+      "filePath": "lib/animations/_legacy/spotlight-card.ts",
+      "summary": "Legacy animation definition for spotlight-card implementing CSS keyframe-based motion effects.",
+      "tags": [
+        "utility",
+        "legacy",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/_legacy/stagger-children.ts",
+      "type": "file",
+      "name": "stagger-children.ts",
+      "filePath": "lib/animations/_legacy/stagger-children.ts",
+      "summary": "Legacy animation definition for stagger-children implementing CSS keyframe-based motion effects.",
+      "tags": [
+        "utility",
+        "legacy",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/_legacy/text-gradient-flow.ts",
+      "type": "file",
+      "name": "text-gradient-flow.ts",
+      "filePath": "lib/animations/_legacy/text-gradient-flow.ts",
+      "summary": "Legacy animation definition for text-gradient-flow implementing CSS keyframe-based motion effects.",
+      "tags": [
+        "utility",
+        "legacy",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/_legacy/text-reveal.ts",
+      "type": "file",
+      "name": "text-reveal.ts",
+      "filePath": "lib/animations/_legacy/text-reveal.ts",
+      "summary": "Legacy animation definition for text-reveal implementing CSS keyframe-based motion effects.",
+      "tags": [
+        "utility",
+        "legacy",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/_legacy/text-scramble.ts",
+      "type": "file",
+      "name": "text-scramble.ts",
+      "filePath": "lib/animations/_legacy/text-scramble.ts",
+      "summary": "Legacy animation definition for text-scramble implementing CSS keyframe-based motion effects.",
+      "tags": [
+        "utility",
+        "legacy",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/_legacy/tilt-3d.ts",
+      "type": "file",
+      "name": "tilt-3d.ts",
+      "filePath": "lib/animations/_legacy/tilt-3d.ts",
+      "summary": "Legacy animation definition for tilt-3d implementing CSS keyframe-based motion effects.",
+      "tags": [
+        "utility",
+        "legacy",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/_legacy/typewriter.ts",
+      "type": "file",
+      "name": "typewriter.ts",
+      "filePath": "lib/animations/_legacy/typewriter.ts",
+      "summary": "Legacy animation definition for typewriter implementing CSS keyframe-based motion effects.",
+      "tags": [
+        "utility",
+        "legacy",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/_legacy/underline-draw.ts",
+      "type": "file",
+      "name": "underline-draw.ts",
+      "filePath": "lib/animations/_legacy/underline-draw.ts",
+      "summary": "Legacy animation definition for underline-draw implementing CSS keyframe-based motion effects.",
+      "tags": [
+        "utility",
+        "legacy",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/_legacy/zoom-in.ts",
+      "type": "file",
+      "name": "zoom-in.ts",
+      "filePath": "lib/animations/_legacy/zoom-in.ts",
+      "summary": "Legacy animation definition for zoom-in implementing CSS keyframe-based motion effects.",
+      "tags": [
+        "utility",
+        "legacy",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/background-gradient-shift/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "lib/animations/background-gradient-shift/index.ts",
+      "summary": "Barrel re-export of the background-gradient-shift animation module from legacy definitions.",
+      "tags": [
+        "utility",
+        "animation",
+        "barrel",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/animations/blur-in/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "lib/animations/blur-in/index.ts",
+      "summary": "Barrel re-export of the blur-in animation module from legacy definitions.",
+      "tags": [
+        "utility",
+        "animation",
+        "barrel",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/animations/border-trace/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "lib/animations/border-trace/index.ts",
+      "summary": "Barrel re-export of the border-trace animation module from legacy definitions.",
+      "tags": [
+        "utility",
+        "animation",
+        "barrel",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/animations/bounce-in/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "lib/animations/bounce-in/index.ts",
+      "summary": "Barrel re-export of the bounce-in animation module from legacy definitions.",
+      "tags": [
+        "utility",
+        "animation",
+        "barrel",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/animations/collapse/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "lib/animations/collapse/index.ts",
+      "summary": "Barrel re-export of the collapse animation module from legacy definitions.",
+      "tags": [
+        "utility",
+        "animation",
+        "barrel",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:lib/animations/_legacy/pulse-ring.ts",
+      "target": "file:lib/animations/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/_legacy/pulse.ts",
+      "target": "file:lib/animations/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/_legacy/ripple-click.ts",
+      "target": "file:lib/animations/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/_legacy/rotate-in.ts",
+      "target": "file:lib/animations/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/_legacy/scale-in.ts",
+      "target": "file:lib/animations/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/_legacy/scale-out.ts",
+      "target": "file:lib/animations/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/_legacy/scroll-page-turn.ts",
+      "target": "file:lib/animations/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/_legacy/scroll-peel-away.ts",
+      "target": "file:lib/animations/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/_legacy/scroll-reveal.ts",
+      "target": "file:lib/animations/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/_legacy/shake.ts",
+      "target": "file:lib/animations/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/_legacy/shimmer.ts",
+      "target": "file:lib/animations/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/_legacy/skeleton-pulse.ts",
+      "target": "file:lib/animations/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/_legacy/slide-in-left.ts",
+      "target": "file:lib/animations/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/_legacy/slide-in-right.ts",
+      "target": "file:lib/animations/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/_legacy/slide-out-right.ts",
+      "target": "file:lib/animations/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/_legacy/slide-swap.ts",
+      "target": "file:lib/animations/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/_legacy/spinner-dots.ts",
+      "target": "file:lib/animations/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/_legacy/spotlight-card.ts",
+      "target": "file:lib/animations/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/_legacy/stagger-children.ts",
+      "target": "file:lib/animations/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/_legacy/text-gradient-flow.ts",
+      "target": "file:lib/animations/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/_legacy/text-reveal.ts",
+      "target": "file:lib/animations/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/_legacy/text-scramble.ts",
+      "target": "file:lib/animations/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/_legacy/tilt-3d.ts",
+      "target": "file:lib/animations/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/_legacy/typewriter.ts",
+      "target": "file:lib/animations/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/_legacy/underline-draw.ts",
+      "target": "file:lib/animations/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/_legacy/zoom-in.ts",
+      "target": "file:lib/animations/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/background-gradient-shift/index.ts",
+      "target": "file:lib/animations/_legacy/background-gradient-shift.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/blur-in/index.ts",
+      "target": "file:lib/animations/_legacy/blur-in.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/border-trace/index.ts",
+      "target": "file:lib/animations/_legacy/border-trace.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/bounce-in/index.ts",
+      "target": "file:lib/animations/_legacy/bounce-in.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/collapse/index.ts",
+      "target": "file:lib/animations/_legacy/collapse.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

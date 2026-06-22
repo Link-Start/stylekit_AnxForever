@@ -1,0 +1,666 @@
+{
+  "nodes": [
+    {
+      "id": "file:lib/styles/masonry-flow-tokens.ts",
+      "type": "file",
+      "name": "masonry-flow-tokens.ts",
+      "filePath": "lib/styles/masonry-flow-tokens.ts",
+      "summary": "Design token definitions for the Masonry Flow style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/material-design-tokens.ts",
+      "type": "file",
+      "name": "material-design-tokens.ts",
+      "filePath": "lib/styles/material-design-tokens.ts",
+      "summary": "Design token definitions for the Material Design style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/maximalism-tokens.ts",
+      "type": "file",
+      "name": "maximalism-tokens.ts",
+      "filePath": "lib/styles/maximalism-tokens.ts",
+      "summary": "Design token definitions for the Maximalism style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/mecha-tokens.ts",
+      "type": "file",
+      "name": "mecha-tokens.ts",
+      "filePath": "lib/styles/mecha-tokens.ts",
+      "summary": "Design token definitions for the Mecha style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/medieval-manuscript-tokens.ts",
+      "type": "file",
+      "name": "medieval-manuscript-tokens.ts",
+      "filePath": "lib/styles/medieval-manuscript-tokens.ts",
+      "summary": "Design token definitions for the Medieval Manuscript style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/memphis-tokens.ts",
+      "type": "file",
+      "name": "memphis-tokens.ts",
+      "filePath": "lib/styles/memphis-tokens.ts",
+      "summary": "Design token definitions for the Memphis style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/mid-century-modern-tokens.ts",
+      "type": "file",
+      "name": "mid-century-modern-tokens.ts",
+      "filePath": "lib/styles/mid-century-modern-tokens.ts",
+      "summary": "Design token definitions for the Mid Century Modern style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/minimalist-flat-tokens.ts",
+      "type": "file",
+      "name": "minimalist-flat-tokens.ts",
+      "filePath": "lib/styles/minimalist-flat-tokens.ts",
+      "summary": "Design token definitions for the Minimalist Flat style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/modern-gradient-tokens.ts",
+      "type": "file",
+      "name": "modern-gradient-tokens.ts",
+      "filePath": "lib/styles/modern-gradient-tokens.ts",
+      "summary": "Design token definitions for the Modern Gradient style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/monochrome-tokens.ts",
+      "type": "file",
+      "name": "monochrome-tokens.ts",
+      "filePath": "lib/styles/monochrome-tokens.ts",
+      "summary": "Design token definitions for the Monochrome style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/natural-organic-tokens.ts",
+      "type": "file",
+      "name": "natural-organic-tokens.ts",
+      "filePath": "lib/styles/natural-organic-tokens.ts",
+      "summary": "Design token definitions for the Natural Organic style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/neo-brutalist-playful-tokens.ts",
+      "type": "file",
+      "name": "neo-brutalist-playful-tokens.ts",
+      "filePath": "lib/styles/neo-brutalist-playful-tokens.ts",
+      "summary": "Design token definitions for the Neo Brutalist Playful style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/neo-brutalist-soft-tokens.ts",
+      "type": "file",
+      "name": "neo-brutalist-soft-tokens.ts",
+      "filePath": "lib/styles/neo-brutalist-soft-tokens.ts",
+      "summary": "Design token definitions for the Neo Brutalist Soft style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/neo-brutalist-tokens.ts",
+      "type": "file",
+      "name": "neo-brutalist-tokens.ts",
+      "filePath": "lib/styles/neo-brutalist-tokens.ts",
+      "summary": "Design token definitions for the Neo Brutalist style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/neon-gradient-tokens.ts",
+      "type": "file",
+      "name": "neon-gradient-tokens.ts",
+      "filePath": "lib/styles/neon-gradient-tokens.ts",
+      "summary": "Design token definitions for the Neon Gradient style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/neon-samurai-tokens.ts",
+      "type": "file",
+      "name": "neon-samurai-tokens.ts",
+      "filePath": "lib/styles/neon-samurai-tokens.ts",
+      "summary": "Design token definitions for the Neon Samurai style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/neon-tokyo-tokens.ts",
+      "type": "file",
+      "name": "neon-tokyo-tokens.ts",
+      "filePath": "lib/styles/neon-tokyo-tokens.ts",
+      "summary": "Design token definitions for the Neon Tokyo style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/neumorphism-tokens.ts",
+      "type": "file",
+      "name": "neumorphism-tokens.ts",
+      "filePath": "lib/styles/neumorphism-tokens.ts",
+      "summary": "Design token definitions for the Neumorphism style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/notion-style-tokens.ts",
+      "type": "file",
+      "name": "notion-style-tokens.ts",
+      "filePath": "lib/styles/notion-style-tokens.ts",
+      "summary": "Design token definitions for the Notion Style style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/op-art-tokens.ts",
+      "type": "file",
+      "name": "op-art-tokens.ts",
+      "filePath": "lib/styles/op-art-tokens.ts",
+      "summary": "Design token definitions for the Op Art style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/outrun-tokens.ts",
+      "type": "file",
+      "name": "outrun-tokens.ts",
+      "filePath": "lib/styles/outrun-tokens.ts",
+      "summary": "Design token definitions for the Outrun style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/paper-craft-tokens.ts",
+      "type": "file",
+      "name": "paper-craft-tokens.ts",
+      "filePath": "lib/styles/paper-craft-tokens.ts",
+      "summary": "Design token definitions for the Paper Craft style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/parallax-sections-tokens.ts",
+      "type": "file",
+      "name": "parallax-sections-tokens.ts",
+      "filePath": "lib/styles/parallax-sections-tokens.ts",
+      "summary": "Design token definitions for the Parallax Sections style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/particle-tokens.ts",
+      "type": "file",
+      "name": "particle-tokens.ts",
+      "filePath": "lib/styles/particle-tokens.ts",
+      "summary": "Design token definitions for the Particle style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/pastel-goth-tokens.ts",
+      "type": "file",
+      "name": "pastel-goth-tokens.ts",
+      "filePath": "lib/styles/pastel-goth-tokens.ts",
+      "summary": "Design token definitions for the Pastel Goth style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/pixel-anime-tokens.ts",
+      "type": "file",
+      "name": "pixel-anime-tokens.ts",
+      "filePath": "lib/styles/pixel-anime-tokens.ts",
+      "summary": "Design token definitions for the Pixel Anime style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/pixel-art-tokens.ts",
+      "type": "file",
+      "name": "pixel-art-tokens.ts",
+      "filePath": "lib/styles/pixel-art-tokens.ts",
+      "summary": "Design token definitions for the Pixel Art style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/pop-art-tokens.ts",
+      "type": "file",
+      "name": "pop-art-tokens.ts",
+      "filePath": "lib/styles/pop-art-tokens.ts",
+      "summary": "Design token definitions for the Pop Art style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/retro-vintage-tokens.ts",
+      "type": "file",
+      "name": "retro-vintage-tokens.ts",
+      "filePath": "lib/styles/retro-vintage-tokens.ts",
+      "summary": "Design token definitions for the Retro Vintage style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/risograph-tokens.ts",
+      "type": "file",
+      "name": "risograph-tokens.ts",
+      "filePath": "lib/styles/risograph-tokens.ts",
+      "summary": "Design token definitions for the Risograph style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/scandinavian-tokens.ts",
+      "type": "file",
+      "name": "scandinavian-tokens.ts",
+      "filePath": "lib/styles/scandinavian-tokens.ts",
+      "summary": "Design token definitions for the Scandinavian style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/sci-fi-hud-tokens.ts",
+      "type": "file",
+      "name": "sci-fi-hud-tokens.ts",
+      "filePath": "lib/styles/sci-fi-hud-tokens.ts",
+      "summary": "Design token definitions for the Sci Fi Hud style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/shopify-clean-tokens.ts",
+      "type": "file",
+      "name": "shopify-clean-tokens.ts",
+      "filePath": "lib/styles/shopify-clean-tokens.ts",
+      "summary": "Design token definitions for the Shopify Clean style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:lib/styles/masonry-flow-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/material-design-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/maximalism-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/mecha-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/medieval-manuscript-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/memphis-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/mid-century-modern-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/minimalist-flat-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/modern-gradient-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/monochrome-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/natural-organic-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/neo-brutalist-playful-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/neo-brutalist-soft-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/neo-brutalist-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/neon-gradient-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/neon-samurai-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/neon-tokyo-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/neumorphism-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/notion-style-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/op-art-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/outrun-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/paper-craft-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/parallax-sections-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/particle-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/pastel-goth-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/pixel-anime-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/pixel-art-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/pop-art-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/retro-vintage-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/risograph-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/scandinavian-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/sci-fi-hud-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/shopify-clean-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

@@ -1,0 +1,666 @@
+{
+  "nodes": [
+    {
+      "id": "file:lib/styles/film-noir-tokens.ts",
+      "type": "file",
+      "name": "film-noir-tokens.ts",
+      "filePath": "lib/styles/film-noir-tokens.ts",
+      "summary": "Design token definitions for the Film Noir style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/fluent-design-tokens.ts",
+      "type": "file",
+      "name": "fluent-design-tokens.ts",
+      "filePath": "lib/styles/fluent-design-tokens.ts",
+      "summary": "Design token definitions for the Fluent Design style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/fresh-market-tokens.ts",
+      "type": "file",
+      "name": "fresh-market-tokens.ts",
+      "filePath": "lib/styles/fresh-market-tokens.ts",
+      "summary": "Design token definitions for the Fresh Market style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/frutiger-aero-tokens.ts",
+      "type": "file",
+      "name": "frutiger-aero-tokens.ts",
+      "filePath": "lib/styles/frutiger-aero-tokens.ts",
+      "summary": "Design token definitions for the Frutiger Aero style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/full-page-scroll-tokens.ts",
+      "type": "file",
+      "name": "full-page-scroll-tokens.ts",
+      "filePath": "lib/styles/full-page-scroll-tokens.ts",
+      "summary": "Design token definitions for the Full Page Scroll style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/generative-art-tokens.ts",
+      "type": "file",
+      "name": "generative-art-tokens.ts",
+      "filePath": "lib/styles/generative-art-tokens.ts",
+      "summary": "Design token definitions for the Generative Art style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/geometric-bold-tokens.ts",
+      "type": "file",
+      "name": "geometric-bold-tokens.ts",
+      "filePath": "lib/styles/geometric-bold-tokens.ts",
+      "summary": "Design token definitions for the Geometric Bold style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/ghibli-style-tokens.ts",
+      "type": "file",
+      "name": "ghibli-style-tokens.ts",
+      "filePath": "lib/styles/ghibli-style-tokens.ts",
+      "summary": "Design token definitions for the Ghibli Style style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/github-style-tokens.ts",
+      "type": "file",
+      "name": "github-style-tokens.ts",
+      "filePath": "lib/styles/github-style-tokens.ts",
+      "summary": "Design token definitions for the Github Style style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/glassmorphism-tokens.ts",
+      "type": "file",
+      "name": "glassmorphism-tokens.ts",
+      "filePath": "lib/styles/glassmorphism-tokens.ts",
+      "summary": "Design token definitions for the Glassmorphism style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/glitch-art-tokens.ts",
+      "type": "file",
+      "name": "glitch-art-tokens.ts",
+      "filePath": "lib/styles/glitch-art-tokens.ts",
+      "summary": "Design token definitions for the Glitch Art style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/gothic-lolita-tokens.ts",
+      "type": "file",
+      "name": "gothic-lolita-tokens.ts",
+      "filePath": "lib/styles/gothic-lolita-tokens.ts",
+      "summary": "Design token definitions for the Gothic Lolita style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/gothic-tokens.ts",
+      "type": "file",
+      "name": "gothic-tokens.ts",
+      "filePath": "lib/styles/gothic-tokens.ts",
+      "summary": "Design token definitions for the Gothic style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/graffiti-street-tokens.ts",
+      "type": "file",
+      "name": "graffiti-street-tokens.ts",
+      "filePath": "lib/styles/graffiti-street-tokens.ts",
+      "summary": "Design token definitions for the Graffiti Street style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/hand-drawn-doodle-tokens.ts",
+      "type": "file",
+      "name": "hand-drawn-doodle-tokens.ts",
+      "filePath": "lib/styles/hand-drawn-doodle-tokens.ts",
+      "summary": "Design token definitions for the Hand Drawn Doodle style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/hero-fullscreen-tokens.ts",
+      "type": "file",
+      "name": "hero-fullscreen-tokens.ts",
+      "filePath": "lib/styles/hero-fullscreen-tokens.ts",
+      "summary": "Design token definitions for the Hero Fullscreen style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/holographic-tokens.ts",
+      "type": "file",
+      "name": "holographic-tokens.ts",
+      "filePath": "lib/styles/holographic-tokens.ts",
+      "summary": "Design token definitions for the Holographic style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/holy-grail-layout-tokens.ts",
+      "type": "file",
+      "name": "holy-grail-layout-tokens.ts",
+      "filePath": "lib/styles/holy-grail-layout-tokens.ts",
+      "summary": "Design token definitions for the Holy Grail Layout style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/impressionist-oil-tokens.ts",
+      "type": "file",
+      "name": "impressionist-oil-tokens.ts",
+      "filePath": "lib/styles/impressionist-oil-tokens.ts",
+      "summary": "Design token definitions for the Impressionist Oil style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/indian-festive-tokens.ts",
+      "type": "file",
+      "name": "indian-festive-tokens.ts",
+      "filePath": "lib/styles/indian-festive-tokens.ts",
+      "summary": "Design token definitions for the Indian Festive style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/ink-wash-tokens.ts",
+      "type": "file",
+      "name": "ink-wash-tokens.ts",
+      "filePath": "lib/styles/ink-wash-tokens.ts",
+      "summary": "Design token definitions for the Ink Wash style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/islamic-geometric-tokens.ts",
+      "type": "file",
+      "name": "islamic-geometric-tokens.ts",
+      "filePath": "lib/styles/islamic-geometric-tokens.ts",
+      "summary": "Design token definitions for the Islamic Geometric style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/japanese-fresh-tokens.ts",
+      "type": "file",
+      "name": "japanese-fresh-tokens.ts",
+      "filePath": "lib/styles/japanese-fresh-tokens.ts",
+      "summary": "Design token definitions for the Japanese Fresh style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/jrpg-tokens.ts",
+      "type": "file",
+      "name": "jrpg-tokens.ts",
+      "filePath": "lib/styles/jrpg-tokens.ts",
+      "summary": "Design token definitions for the Jrpg style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/kawaii-minimal-tokens.ts",
+      "type": "file",
+      "name": "kawaii-minimal-tokens.ts",
+      "filePath": "lib/styles/kawaii-minimal-tokens.ts",
+      "summary": "Design token definitions for the Kawaii Minimal style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/korean-minimal-tokens.ts",
+      "type": "file",
+      "name": "korean-minimal-tokens.ts",
+      "filePath": "lib/styles/korean-minimal-tokens.ts",
+      "summary": "Design token definitions for the Korean Minimal style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/linear-style-tokens.ts",
+      "type": "file",
+      "name": "linear-style-tokens.ts",
+      "filePath": "lib/styles/linear-style-tokens.ts",
+      "summary": "Design token definitions for the Linear Style style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/liquid-glass-tokens.ts",
+      "type": "file",
+      "name": "liquid-glass-tokens.ts",
+      "filePath": "lib/styles/liquid-glass-tokens.ts",
+      "summary": "Design token definitions for the Liquid Glass style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/luxury-retail-tokens.ts",
+      "type": "file",
+      "name": "luxury-retail-tokens.ts",
+      "filePath": "lib/styles/luxury-retail-tokens.ts",
+      "summary": "Design token definitions for the Luxury Retail style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/macos-vibrancy-tokens.ts",
+      "type": "file",
+      "name": "macos-vibrancy-tokens.ts",
+      "filePath": "lib/styles/macos-vibrancy-tokens.ts",
+      "summary": "Design token definitions for the Macos Vibrancy style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/magazine-grid-tokens.ts",
+      "type": "file",
+      "name": "magazine-grid-tokens.ts",
+      "filePath": "lib/styles/magazine-grid-tokens.ts",
+      "summary": "Design token definitions for the Magazine Grid style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/magic-circle-tokens.ts",
+      "type": "file",
+      "name": "magic-circle-tokens.ts",
+      "filePath": "lib/styles/magic-circle-tokens.ts",
+      "summary": "Design token definitions for the Magic Circle style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/marble-luxury-tokens.ts",
+      "type": "file",
+      "name": "marble-luxury-tokens.ts",
+      "filePath": "lib/styles/marble-luxury-tokens.ts",
+      "summary": "Design token definitions for the Marble Luxury style, including colors, typography, spacing, and effect values consumed by the style generator.",
+      "tags": [
+        "design-token",
+        "style",
+        "theme"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:lib/styles/film-noir-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/fluent-design-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/fresh-market-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/frutiger-aero-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/full-page-scroll-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/generative-art-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/geometric-bold-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/ghibli-style-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/github-style-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/glassmorphism-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/glitch-art-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/gothic-lolita-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/gothic-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/graffiti-street-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/hand-drawn-doodle-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/hero-fullscreen-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/holographic-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/holy-grail-layout-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/impressionist-oil-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/indian-festive-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/ink-wash-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/islamic-geometric-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/japanese-fresh-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/jrpg-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/kawaii-minimal-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/korean-minimal-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/linear-style-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/liquid-glass-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/luxury-retail-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/macos-vibrancy-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/magazine-grid-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/magic-circle-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/marble-luxury-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

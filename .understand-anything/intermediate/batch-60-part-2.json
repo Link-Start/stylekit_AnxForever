@@ -1,0 +1,975 @@
+{
+  "nodes": [
+    {
+      "id": "file:app/styles/notion-style/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/notion-style/showcase/_content.tsx",
+      "summary": "Showcase content component for the Notion Style design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/notion-style/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/notion-style/showcase/_content.tsx",
+      "lineRange": [
+        9,
+        28
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/notion-style/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/notion-style/showcase/_content.tsx",
+      "lineRange": [
+        34,
+        57
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/notion-style/showcase/_content.tsx:ToggleBlock",
+      "type": "function",
+      "name": "ToggleBlock",
+      "filePath": "app/styles/notion-style/showcase/_content.tsx",
+      "lineRange": [
+        201,
+        235
+      ],
+      "summary": "Function component ToggleBlock rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/notion-style/showcase/_content.tsx:TaskCheckbox",
+      "type": "function",
+      "name": "TaskCheckbox",
+      "filePath": "app/styles/notion-style/showcase/_content.tsx",
+      "lineRange": [
+        241,
+        285
+      ],
+      "summary": "Function component TaskCheckbox rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/notion-style/showcase/_content.tsx:CalloutBlock",
+      "type": "function",
+      "name": "CalloutBlock",
+      "filePath": "app/styles/notion-style/showcase/_content.tsx",
+      "lineRange": [
+        291,
+        326
+      ],
+      "summary": "Function component CalloutBlock rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/notion-style/showcase/_content.tsx:NotionStyleShowcase",
+      "type": "function",
+      "name": "NotionStyleShowcase",
+      "filePath": "app/styles/notion-style/showcase/_content.tsx",
+      "lineRange": [
+        332,
+        1733
+      ],
+      "summary": "Main showcase component rendering example cards and layout variants for the Notionstyle design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/notion-style/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/notion-style/showcase/page.tsx",
+      "summary": "Showcase page route for the Notion Style design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/op-art/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/op-art/showcase/_content.tsx",
+      "summary": "Showcase content component for the Op Art design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/op-art/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/op-art/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        31
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/op-art/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/op-art/showcase/_content.tsx",
+      "lineRange": [
+        33,
+        56
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/op-art/showcase/_content.tsx:ConcentricCirclesSVG",
+      "type": "function",
+      "name": "ConcentricCirclesSVG",
+      "filePath": "app/styles/op-art/showcase/_content.tsx",
+      "lineRange": [
+        105,
+        147
+      ],
+      "summary": "Function component ConcentricCirclesSVG rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/op-art/showcase/_content.tsx:ZigzagStripeSVG",
+      "type": "function",
+      "name": "ZigzagStripeSVG",
+      "filePath": "app/styles/op-art/showcase/_content.tsx",
+      "lineRange": [
+        149,
+        199
+      ],
+      "summary": "Function component ZigzagStripeSVG rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/styles/op-art/showcase/_content.tsx:RadiatingLinesSVG",
+      "type": "function",
+      "name": "RadiatingLinesSVG",
+      "filePath": "app/styles/op-art/showcase/_content.tsx",
+      "lineRange": [
+        201,
+        246
+      ],
+      "summary": "Function component RadiatingLinesSVG rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/op-art/showcase/_content.tsx:CheckerboardSVG",
+      "type": "function",
+      "name": "CheckerboardSVG",
+      "filePath": "app/styles/op-art/showcase/_content.tsx",
+      "lineRange": [
+        248,
+        291
+      ],
+      "summary": "Function component CheckerboardSVG rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/op-art/showcase/_content.tsx:MoireWaveSVG",
+      "type": "function",
+      "name": "MoireWaveSVG",
+      "filePath": "app/styles/op-art/showcase/_content.tsx",
+      "lineRange": [
+        293,
+        337
+      ],
+      "summary": "Function component MoireWaveSVG rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/op-art/showcase/_content.tsx:StripesPanel",
+      "type": "function",
+      "name": "StripesPanel",
+      "filePath": "app/styles/op-art/showcase/_content.tsx",
+      "lineRange": [
+        343,
+        380
+      ],
+      "summary": "Function component StripesPanel rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/op-art/showcase/_content.tsx:CirclesPanel",
+      "type": "function",
+      "name": "CirclesPanel",
+      "filePath": "app/styles/op-art/showcase/_content.tsx",
+      "lineRange": [
+        382,
+        409
+      ],
+      "summary": "Function component CirclesPanel rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/op-art/showcase/_content.tsx:CheckerboardPanel",
+      "type": "function",
+      "name": "CheckerboardPanel",
+      "filePath": "app/styles/op-art/showcase/_content.tsx",
+      "lineRange": [
+        411,
+        433
+      ],
+      "summary": "Function component CheckerboardPanel rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/op-art/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/op-art/showcase/_content.tsx",
+      "lineRange": [
+        439,
+        1209
+      ],
+      "summary": "Main showcase content component rendering example cards and layout variants for the Styles design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/op-art/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/op-art/showcase/page.tsx",
+      "summary": "Showcase page route for the Op Art design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/outrun/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/outrun/showcase/_content.tsx",
+      "summary": "Showcase content component for the Outrun design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/outrun/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/outrun/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        31
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/outrun/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/outrun/showcase/_content.tsx",
+      "lineRange": [
+        33,
+        56
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/outrun/showcase/_content.tsx:SunIcon",
+      "type": "function",
+      "name": "SunIcon",
+      "filePath": "app/styles/outrun/showcase/_content.tsx",
+      "lineRange": [
+        74,
+        93
+      ],
+      "summary": "SVG icon component (SunIcon) used in UI elements within the showcase.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/outrun/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/outrun/showcase/_content.tsx",
+      "lineRange": [
+        135,
+        1867
+      ],
+      "summary": "Main showcase content component rendering example cards and layout variants for the Styles design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/outrun/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/outrun/showcase/page.tsx",
+      "summary": "Showcase page route for the Outrun design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/paper-craft/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/paper-craft/showcase/_content.tsx",
+      "summary": "Showcase content component for the Paper Craft design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/paper-craft/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/paper-craft/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        31
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/paper-craft/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/paper-craft/showcase/_content.tsx",
+      "lineRange": [
+        33,
+        56
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/paper-craft/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/paper-craft/showcase/_content.tsx",
+      "lineRange": [
+        138,
+        1599
+      ],
+      "summary": "Main showcase content component rendering example cards and layout variants for the Styles design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/paper-craft/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/paper-craft/showcase/page.tsx",
+      "summary": "Showcase page route for the Paper Craft design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/parallax-sections/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/parallax-sections/showcase/_content.tsx",
+      "summary": "Showcase content component for the Parallax Sections design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/parallax-sections/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/parallax-sections/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        29
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/parallax-sections/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/parallax-sections/showcase/_content.tsx",
+      "lineRange": [
+        31,
+        54
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/parallax-sections/showcase/_content.tsx:ParallaxSectionsShowcase",
+      "type": "function",
+      "name": "ParallaxSectionsShowcase",
+      "filePath": "app/styles/parallax-sections/showcase/_content.tsx",
+      "lineRange": [
+        221,
+        1387
+      ],
+      "summary": "Main showcase component rendering example cards and layout variants for the Parallaxsections design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/parallax-sections/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/parallax-sections/showcase/page.tsx",
+      "summary": "Showcase page route for the Parallax Sections design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/particle/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/particle/showcase/_content.tsx",
+      "summary": "Showcase content component for the Particle design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/particle/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/particle/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        29
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/particle/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/particle/showcase/_content.tsx",
+      "lineRange": [
+        31,
+        54
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/particle/showcase/_content.tsx:ParticleField",
+      "type": "function",
+      "name": "ParticleField",
+      "filePath": "app/styles/particle/showcase/_content.tsx",
+      "lineRange": [
+        60,
+        98
+      ],
+      "summary": "Function component ParticleField rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/particle/showcase/_content.tsx:ConstellationLines",
+      "type": "function",
+      "name": "ConstellationLines",
+      "filePath": "app/styles/particle/showcase/_content.tsx",
+      "lineRange": [
+        104,
+        184
+      ],
+      "summary": "Function component ConstellationLines rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/styles/particle/showcase/_content.tsx:NetworkGraph",
+      "type": "function",
+      "name": "NetworkGraph",
+      "filePath": "app/styles/particle/showcase/_content.tsx",
+      "lineRange": [
+        287,
+        401
+      ],
+      "summary": "Function component NetworkGraph rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/styles/particle/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/particle/showcase/_content.tsx",
+      "lineRange": [
+        407,
+        1440
+      ],
+      "summary": "Main showcase content component rendering example cards and layout variants for the Styles design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/particle/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/particle/showcase/page.tsx",
+      "summary": "Showcase page route for the Particle design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:app/styles/notion-style/showcase/_content.tsx",
+      "target": "function:app/styles/notion-style/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/notion-style/showcase/_content.tsx",
+      "target": "function:app/styles/notion-style/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/notion-style/showcase/_content.tsx",
+      "target": "function:app/styles/notion-style/showcase/_content.tsx:ToggleBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/notion-style/showcase/_content.tsx",
+      "target": "function:app/styles/notion-style/showcase/_content.tsx:TaskCheckbox",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/notion-style/showcase/_content.tsx",
+      "target": "function:app/styles/notion-style/showcase/_content.tsx:CalloutBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/notion-style/showcase/_content.tsx",
+      "target": "function:app/styles/notion-style/showcase/_content.tsx:NotionStyleShowcase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/notion-style/showcase/_content.tsx",
+      "target": "function:app/styles/notion-style/showcase/_content.tsx:NotionStyleShowcase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/op-art/showcase/_content.tsx",
+      "target": "function:app/styles/op-art/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/op-art/showcase/_content.tsx",
+      "target": "function:app/styles/op-art/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/op-art/showcase/_content.tsx",
+      "target": "function:app/styles/op-art/showcase/_content.tsx:ConcentricCirclesSVG",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/op-art/showcase/_content.tsx",
+      "target": "function:app/styles/op-art/showcase/_content.tsx:ZigzagStripeSVG",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/op-art/showcase/_content.tsx",
+      "target": "function:app/styles/op-art/showcase/_content.tsx:RadiatingLinesSVG",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/op-art/showcase/_content.tsx",
+      "target": "function:app/styles/op-art/showcase/_content.tsx:CheckerboardSVG",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/op-art/showcase/_content.tsx",
+      "target": "function:app/styles/op-art/showcase/_content.tsx:MoireWaveSVG",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/op-art/showcase/_content.tsx",
+      "target": "function:app/styles/op-art/showcase/_content.tsx:StripesPanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/op-art/showcase/_content.tsx",
+      "target": "function:app/styles/op-art/showcase/_content.tsx:CirclesPanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/op-art/showcase/_content.tsx",
+      "target": "function:app/styles/op-art/showcase/_content.tsx:CheckerboardPanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/op-art/showcase/_content.tsx",
+      "target": "function:app/styles/op-art/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/op-art/showcase/_content.tsx",
+      "target": "function:app/styles/op-art/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/outrun/showcase/_content.tsx",
+      "target": "function:app/styles/outrun/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/outrun/showcase/_content.tsx",
+      "target": "function:app/styles/outrun/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/outrun/showcase/_content.tsx",
+      "target": "function:app/styles/outrun/showcase/_content.tsx:SunIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/outrun/showcase/_content.tsx",
+      "target": "function:app/styles/outrun/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/outrun/showcase/_content.tsx",
+      "target": "function:app/styles/outrun/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/paper-craft/showcase/_content.tsx",
+      "target": "function:app/styles/paper-craft/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/paper-craft/showcase/_content.tsx",
+      "target": "function:app/styles/paper-craft/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/paper-craft/showcase/_content.tsx",
+      "target": "function:app/styles/paper-craft/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/paper-craft/showcase/_content.tsx",
+      "target": "function:app/styles/paper-craft/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/parallax-sections/showcase/_content.tsx",
+      "target": "function:app/styles/parallax-sections/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/parallax-sections/showcase/_content.tsx",
+      "target": "function:app/styles/parallax-sections/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/parallax-sections/showcase/_content.tsx",
+      "target": "function:app/styles/parallax-sections/showcase/_content.tsx:ParallaxSectionsShowcase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/parallax-sections/showcase/_content.tsx",
+      "target": "function:app/styles/parallax-sections/showcase/_content.tsx:ParallaxSectionsShowcase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/particle/showcase/_content.tsx",
+      "target": "function:app/styles/particle/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/particle/showcase/_content.tsx",
+      "target": "function:app/styles/particle/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/particle/showcase/_content.tsx",
+      "target": "function:app/styles/particle/showcase/_content.tsx:ParticleField",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/particle/showcase/_content.tsx",
+      "target": "function:app/styles/particle/showcase/_content.tsx:ConstellationLines",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/particle/showcase/_content.tsx",
+      "target": "function:app/styles/particle/showcase/_content.tsx:NetworkGraph",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/particle/showcase/_content.tsx",
+      "target": "function:app/styles/particle/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/particle/showcase/_content.tsx",
+      "target": "function:app/styles/particle/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

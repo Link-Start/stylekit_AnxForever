@@ -1,0 +1,850 @@
+{
+  "nodes": [
+    {
+      "id": "file:app/styles/ghibli-style/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/ghibli-style/showcase/page.tsx",
+      "summary": "Showcase page route for the Ghibli Style design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/github-style/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/github-style/showcase/_content.tsx",
+      "summary": "Showcase content component for the Github Style design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/github-style/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/github-style/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        31
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/github-style/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/github-style/showcase/_content.tsx",
+      "lineRange": [
+        33,
+        56
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/github-style/showcase/_content.tsx:GitHubStyleShowcase",
+      "type": "function",
+      "name": "GitHubStyleShowcase",
+      "filePath": "app/styles/github-style/showcase/_content.tsx",
+      "lineRange": [
+        314,
+        1632
+      ],
+      "summary": "Main showcase component rendering example cards and layout variants for the Githubstyle design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/github-style/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/github-style/showcase/page.tsx",
+      "summary": "Showcase page route for the Github Style design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/glassmorphism/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/glassmorphism/showcase/_content.tsx",
+      "summary": "Showcase content component for the Glassmorphism design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/glassmorphism/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/glassmorphism/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        31
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/glassmorphism/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/glassmorphism/showcase/_content.tsx",
+      "lineRange": [
+        33,
+        56
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/glassmorphism/showcase/_content.tsx:GlassPanel",
+      "type": "function",
+      "name": "GlassPanel",
+      "filePath": "app/styles/glassmorphism/showcase/_content.tsx",
+      "lineRange": [
+        173,
+        201
+      ],
+      "summary": "Function component GlassPanel rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/glassmorphism/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/glassmorphism/showcase/_content.tsx",
+      "lineRange": [
+        207,
+        1116
+      ],
+      "summary": "Main showcase content component rendering example cards and layout variants for the Styles design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/glassmorphism/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/glassmorphism/showcase/page.tsx",
+      "summary": "Showcase page route for the Glassmorphism design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/glitch-art/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/glitch-art/showcase/_content.tsx",
+      "summary": "Showcase content component for the Glitch Art design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/glitch-art/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/glitch-art/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        29
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/glitch-art/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/glitch-art/showcase/_content.tsx",
+      "lineRange": [
+        35,
+        58
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/glitch-art/showcase/_content.tsx:GlitchArtShowcase",
+      "type": "function",
+      "name": "GlitchArtShowcase",
+      "filePath": "app/styles/glitch-art/showcase/_content.tsx",
+      "lineRange": [
+        146,
+        1848
+      ],
+      "summary": "Main showcase component rendering example cards and layout variants for the Glitchart design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/glitch-art/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/glitch-art/showcase/page.tsx",
+      "summary": "Showcase page route for the Glitch Art design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/gothic-lolita/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/gothic-lolita/showcase/_content.tsx",
+      "summary": "Showcase content component for the Gothic Lolita design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/gothic-lolita/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/gothic-lolita/showcase/_content.tsx",
+      "lineRange": [
+        5,
+        24
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/gothic-lolita/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/gothic-lolita/showcase/_content.tsx",
+      "lineRange": [
+        26,
+        49
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/gothic-lolita/showcase/_content.tsx:CrossOrnament",
+      "type": "function",
+      "name": "CrossOrnament",
+      "filePath": "app/styles/gothic-lolita/showcase/_content.tsx",
+      "lineRange": [
+        55,
+        73
+      ],
+      "summary": "Function component CrossOrnament rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/gothic-lolita/showcase/_content.tsx:RoseOrnament",
+      "type": "function",
+      "name": "RoseOrnament",
+      "filePath": "app/styles/gothic-lolita/showcase/_content.tsx",
+      "lineRange": [
+        75,
+        110
+      ],
+      "summary": "Function component RoseOrnament rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/gothic-lolita/showcase/_content.tsx:CornerBrackets",
+      "type": "function",
+      "name": "CornerBrackets",
+      "filePath": "app/styles/gothic-lolita/showcase/_content.tsx",
+      "lineRange": [
+        138,
+        154
+      ],
+      "summary": "Function component CornerBrackets rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/gothic-lolita/showcase/_content.tsx:GothicArchFrame",
+      "type": "function",
+      "name": "GothicArchFrame",
+      "filePath": "app/styles/gothic-lolita/showcase/_content.tsx",
+      "lineRange": [
+        156,
+        180
+      ],
+      "summary": "Function component GothicArchFrame rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/gothic-lolita/showcase/_content.tsx:GothicLolitaShowcase",
+      "type": "function",
+      "name": "GothicLolitaShowcase",
+      "filePath": "app/styles/gothic-lolita/showcase/_content.tsx",
+      "lineRange": [
+        336,
+        1465
+      ],
+      "summary": "Main showcase component rendering example cards and layout variants for the Gothiclolita design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/gothic-lolita/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/gothic-lolita/showcase/page.tsx",
+      "summary": "Showcase page route for the Gothic Lolita design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/gothic/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/gothic/showcase/_content.tsx",
+      "summary": "Showcase content component for the Gothic design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/gothic/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/gothic/showcase/_content.tsx",
+      "lineRange": [
+        9,
+        23
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/gothic/showcase/_content.tsx:PointedArchSVG",
+      "type": "function",
+      "name": "PointedArchSVG",
+      "filePath": "app/styles/gothic/showcase/_content.tsx",
+      "lineRange": [
+        44,
+        74
+      ],
+      "summary": "Function component PointedArchSVG rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/gothic/showcase/_content.tsx:RoseWindowSVG",
+      "type": "function",
+      "name": "RoseWindowSVG",
+      "filePath": "app/styles/gothic/showcase/_content.tsx",
+      "lineRange": [
+        76,
+        126
+      ],
+      "summary": "Function component RoseWindowSVG rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/styles/gothic/showcase/_content.tsx:FleurDeLis",
+      "type": "function",
+      "name": "FleurDeLis",
+      "filePath": "app/styles/gothic/showcase/_content.tsx",
+      "lineRange": [
+        128,
+        145
+      ],
+      "summary": "Function component FleurDeLis rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/gothic/showcase/_content.tsx:SectionHeader",
+      "type": "function",
+      "name": "SectionHeader",
+      "filePath": "app/styles/gothic/showcase/_content.tsx",
+      "lineRange": [
+        166,
+        189
+      ],
+      "summary": "Function component SectionHeader rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/gothic/showcase/_content.tsx:GothicShowcase",
+      "type": "function",
+      "name": "GothicShowcase",
+      "filePath": "app/styles/gothic/showcase/_content.tsx",
+      "lineRange": [
+        195,
+        1335
+      ],
+      "summary": "Main showcase component rendering example cards and layout variants for the Gothic design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/gothic/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/gothic/showcase/page.tsx",
+      "summary": "Showcase page route for the Gothic design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/graffiti-street/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/graffiti-street/showcase/_content.tsx",
+      "summary": "Showcase content component for the Graffiti Street design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/graffiti-street/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/graffiti-street/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        31
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/graffiti-street/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/graffiti-street/showcase/_content.tsx",
+      "lineRange": [
+        33,
+        56
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/graffiti-street/showcase/_content.tsx:SprayDrip",
+      "type": "function",
+      "name": "SprayDrip",
+      "filePath": "app/styles/graffiti-street/showcase/_content.tsx",
+      "lineRange": [
+        98,
+        124
+      ],
+      "summary": "Function component SprayDrip rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/graffiti-street/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/graffiti-street/showcase/_content.tsx",
+      "lineRange": [
+        210,
+        1632
+      ],
+      "summary": "Main showcase content component rendering example cards and layout variants for the Styles design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/graffiti-street/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/graffiti-street/showcase/page.tsx",
+      "summary": "Showcase page route for the Graffiti Street design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:app/styles/github-style/showcase/_content.tsx",
+      "target": "function:app/styles/github-style/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/github-style/showcase/_content.tsx",
+      "target": "function:app/styles/github-style/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/github-style/showcase/_content.tsx",
+      "target": "function:app/styles/github-style/showcase/_content.tsx:GitHubStyleShowcase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/github-style/showcase/_content.tsx",
+      "target": "function:app/styles/github-style/showcase/_content.tsx:GitHubStyleShowcase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/glassmorphism/showcase/_content.tsx",
+      "target": "function:app/styles/glassmorphism/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/glassmorphism/showcase/_content.tsx",
+      "target": "function:app/styles/glassmorphism/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/glassmorphism/showcase/_content.tsx",
+      "target": "function:app/styles/glassmorphism/showcase/_content.tsx:GlassPanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/glassmorphism/showcase/_content.tsx",
+      "target": "function:app/styles/glassmorphism/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/glassmorphism/showcase/_content.tsx",
+      "target": "function:app/styles/glassmorphism/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/glitch-art/showcase/_content.tsx",
+      "target": "function:app/styles/glitch-art/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/glitch-art/showcase/_content.tsx",
+      "target": "function:app/styles/glitch-art/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/glitch-art/showcase/_content.tsx",
+      "target": "function:app/styles/glitch-art/showcase/_content.tsx:GlitchArtShowcase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/glitch-art/showcase/_content.tsx",
+      "target": "function:app/styles/glitch-art/showcase/_content.tsx:GlitchArtShowcase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/gothic-lolita/showcase/_content.tsx",
+      "target": "function:app/styles/gothic-lolita/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/gothic-lolita/showcase/_content.tsx",
+      "target": "function:app/styles/gothic-lolita/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/gothic-lolita/showcase/_content.tsx",
+      "target": "function:app/styles/gothic-lolita/showcase/_content.tsx:CrossOrnament",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/gothic-lolita/showcase/_content.tsx",
+      "target": "function:app/styles/gothic-lolita/showcase/_content.tsx:RoseOrnament",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/gothic-lolita/showcase/_content.tsx",
+      "target": "function:app/styles/gothic-lolita/showcase/_content.tsx:CornerBrackets",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/gothic-lolita/showcase/_content.tsx",
+      "target": "function:app/styles/gothic-lolita/showcase/_content.tsx:GothicArchFrame",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/gothic-lolita/showcase/_content.tsx",
+      "target": "function:app/styles/gothic-lolita/showcase/_content.tsx:GothicLolitaShowcase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/gothic-lolita/showcase/_content.tsx",
+      "target": "function:app/styles/gothic-lolita/showcase/_content.tsx:GothicLolitaShowcase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/gothic/showcase/_content.tsx",
+      "target": "function:app/styles/gothic/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/gothic/showcase/_content.tsx",
+      "target": "function:app/styles/gothic/showcase/_content.tsx:PointedArchSVG",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/gothic/showcase/_content.tsx",
+      "target": "function:app/styles/gothic/showcase/_content.tsx:RoseWindowSVG",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/gothic/showcase/_content.tsx",
+      "target": "function:app/styles/gothic/showcase/_content.tsx:FleurDeLis",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/gothic/showcase/_content.tsx",
+      "target": "function:app/styles/gothic/showcase/_content.tsx:SectionHeader",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/gothic/showcase/_content.tsx",
+      "target": "function:app/styles/gothic/showcase/_content.tsx:GothicShowcase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/gothic/showcase/_content.tsx",
+      "target": "function:app/styles/gothic/showcase/_content.tsx:GothicShowcase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/graffiti-street/showcase/_content.tsx",
+      "target": "function:app/styles/graffiti-street/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/graffiti-street/showcase/_content.tsx",
+      "target": "function:app/styles/graffiti-street/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/graffiti-street/showcase/_content.tsx",
+      "target": "function:app/styles/graffiti-street/showcase/_content.tsx:SprayDrip",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/graffiti-street/showcase/_content.tsx",
+      "target": "function:app/styles/graffiti-street/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/graffiti-street/showcase/_content.tsx",
+      "target": "function:app/styles/graffiti-street/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

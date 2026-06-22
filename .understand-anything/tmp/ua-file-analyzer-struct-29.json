@@ -1,0 +1,587 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 29,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "lib/styles/graffiti-street.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 474,
+      "nonEmptyLines": 424,
+      "exports": [
+        {
+          "name": "graffitiStreet",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/hand-drawn-doodle.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 440,
+      "nonEmptyLines": 396,
+      "exports": [
+        {
+          "name": "handDrawnDoodle",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/hero-fullscreen.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 654,
+      "nonEmptyLines": 572,
+      "exports": [
+        {
+          "name": "heroFullscreen",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/holographic.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 406,
+      "nonEmptyLines": 375,
+      "exports": [
+        {
+          "name": "holographic",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/holy-grail-layout.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 525,
+      "nonEmptyLines": 460,
+      "exports": [
+        {
+          "name": "holyGrailLayout",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/impressionist-oil.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 483,
+      "nonEmptyLines": 434,
+      "exports": [
+        {
+          "name": "impressionistOil",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/indian-festive.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 481,
+      "nonEmptyLines": 420,
+      "exports": [
+        {
+          "name": "indianFestive",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/ink-wash.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 282,
+      "nonEmptyLines": 254,
+      "exports": [
+        {
+          "name": "inkWash",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/islamic-geometric.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 488,
+      "nonEmptyLines": 423,
+      "exports": [
+        {
+          "name": "islamicGeometric",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/japanese-fresh.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 446,
+      "nonEmptyLines": 396,
+      "exports": [
+        {
+          "name": "japaneseFresh",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/jrpg.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 360,
+      "nonEmptyLines": 320,
+      "exports": [
+        {
+          "name": "jrpg",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/kawaii-minimal.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 341,
+      "nonEmptyLines": 303,
+      "exports": [
+        {
+          "name": "kawaiiMinimal",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/korean-minimal.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 434,
+      "nonEmptyLines": 378,
+      "exports": [
+        {
+          "name": "koreanMinimal",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/linear-style.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 292,
+      "nonEmptyLines": 258,
+      "exports": [
+        {
+          "name": "linearStyle",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/liquid-glass.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 712,
+      "nonEmptyLines": 623,
+      "exports": [
+        {
+          "name": "liquidGlass",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/luxury-retail.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 292,
+      "nonEmptyLines": 263,
+      "exports": [
+        {
+          "name": "luxuryRetail",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/macos-vibrancy.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 410,
+      "nonEmptyLines": 362,
+      "exports": [
+        {
+          "name": "macosVibrancy",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/magazine-grid.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 646,
+      "nonEmptyLines": 572,
+      "exports": [
+        {
+          "name": "magazineGrid",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/magic-circle.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 408,
+      "nonEmptyLines": 366,
+      "exports": [
+        {
+          "name": "magicCircle",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/marble-luxury.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 446,
+      "nonEmptyLines": 396,
+      "exports": [
+        {
+          "name": "marbleLuxury",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/masonry-flow.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 535,
+      "nonEmptyLines": 468,
+      "exports": [
+        {
+          "name": "masonryFlow",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/material-design.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 422,
+      "nonEmptyLines": 368,
+      "exports": [
+        {
+          "name": "materialDesign",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/maximalism.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 491,
+      "nonEmptyLines": 435,
+      "exports": [
+        {
+          "name": "maximalism",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/mecha.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 439,
+      "nonEmptyLines": 388,
+      "exports": [
+        {
+          "name": "mecha",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/medieval-manuscript.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 458,
+      "nonEmptyLines": 407,
+      "exports": [
+        {
+          "name": "medievalManuscript",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/memphis.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 410,
+      "nonEmptyLines": 360,
+      "exports": [
+        {
+          "name": "memphis",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/mid-century-modern.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 442,
+      "nonEmptyLines": 389,
+      "exports": [
+        {
+          "name": "midCenturyModern",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/minimalist-flat.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 571,
+      "nonEmptyLines": 482,
+      "exports": [
+        {
+          "name": "minimalistFlat",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/modern-gradient.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 331,
+      "nonEmptyLines": 291,
+      "exports": [
+        {
+          "name": "modernGradient",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

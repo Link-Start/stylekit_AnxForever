@@ -1,0 +1,614 @@
+{
+  "nodes": [
+    {
+      "id": "file:lib/styles/comic-style.ts",
+      "type": "file",
+      "name": "comic-style.ts",
+      "filePath": "lib/styles/comic-style.ts",
+      "summary": "Style implementation for \"Comic Style\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/constructivism.ts",
+      "type": "file",
+      "name": "constructivism.ts",
+      "filePath": "lib/styles/constructivism.ts",
+      "summary": "Style implementation for \"Constructivism\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/corporate-clean.ts",
+      "type": "file",
+      "name": "corporate-clean.ts",
+      "filePath": "lib/styles/corporate-clean.ts",
+      "summary": "Style implementation for \"Corporate Clean\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/cottagecore.ts",
+      "type": "file",
+      "name": "cottagecore.ts",
+      "filePath": "lib/styles/cottagecore.ts",
+      "summary": "Style implementation for \"Cottagecore\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/cubism.ts",
+      "type": "file",
+      "name": "cubism.ts",
+      "filePath": "lib/styles/cubism.ts",
+      "summary": "Style implementation for \"Cubism\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/cyber-anime.ts",
+      "type": "file",
+      "name": "cyber-anime.ts",
+      "filePath": "lib/styles/cyber-anime.ts",
+      "summary": "Style implementation for \"Cyber Anime\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/cyber-chinese.ts",
+      "type": "file",
+      "name": "cyber-chinese.ts",
+      "filePath": "lib/styles/cyber-chinese.ts",
+      "summary": "Style implementation for \"Cyber Chinese\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/cyber-wafuu.ts",
+      "type": "file",
+      "name": "cyber-wafuu.ts",
+      "filePath": "lib/styles/cyber-wafuu.ts",
+      "summary": "Style implementation for \"Cyber Wafuu\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/cyberpunk-neon.ts",
+      "type": "file",
+      "name": "cyberpunk-neon.ts",
+      "filePath": "lib/styles/cyberpunk-neon.ts",
+      "summary": "Style implementation for \"Cyberpunk Neon\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/dark-academia.ts",
+      "type": "file",
+      "name": "dark-academia.ts",
+      "filePath": "lib/styles/dark-academia.ts",
+      "summary": "Style implementation for \"Dark Academia\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/dark-mode.ts",
+      "type": "file",
+      "name": "dark-mode.ts",
+      "filePath": "lib/styles/dark-mode.ts",
+      "summary": "Style implementation for \"Dark Mode\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/dashboard-layout.ts",
+      "type": "file",
+      "name": "dashboard-layout.ts",
+      "filePath": "lib/styles/dashboard-layout.ts",
+      "summary": "Style implementation for \"Dashboard Layout\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/data-dense.ts",
+      "type": "file",
+      "name": "data-dense.ts",
+      "filePath": "lib/styles/data-dense.ts",
+      "summary": "Style implementation for \"Data Dense\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/dopamine-design.ts",
+      "type": "file",
+      "name": "dopamine-design.ts",
+      "filePath": "lib/styles/dopamine-design.ts",
+      "summary": "Style implementation for \"Dopamine Design\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/editorial.ts",
+      "type": "file",
+      "name": "editorial.ts",
+      "filePath": "lib/styles/editorial.ts",
+      "summary": "Style implementation for \"Editorial\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/f-pattern-layout.ts",
+      "type": "file",
+      "name": "f-pattern-layout.ts",
+      "filePath": "lib/styles/f-pattern-layout.ts",
+      "summary": "Style implementation for \"F Pattern Layout\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/film-noir.ts",
+      "type": "file",
+      "name": "film-noir.ts",
+      "filePath": "lib/styles/film-noir.ts",
+      "summary": "Style implementation for \"Film Noir\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/fluent-design.ts",
+      "type": "file",
+      "name": "fluent-design.ts",
+      "filePath": "lib/styles/fluent-design.ts",
+      "summary": "Style implementation for \"Fluent Design\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/fresh-market.ts",
+      "type": "file",
+      "name": "fresh-market.ts",
+      "filePath": "lib/styles/fresh-market.ts",
+      "summary": "Style implementation for \"Fresh Market\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/frutiger-aero.ts",
+      "type": "file",
+      "name": "frutiger-aero.ts",
+      "filePath": "lib/styles/frutiger-aero.ts",
+      "summary": "Style implementation for \"Frutiger Aero\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/full-page-scroll.ts",
+      "type": "file",
+      "name": "full-page-scroll.ts",
+      "filePath": "lib/styles/full-page-scroll.ts",
+      "summary": "Style implementation for \"Full Page Scroll\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/generative-art.ts",
+      "type": "file",
+      "name": "generative-art.ts",
+      "filePath": "lib/styles/generative-art.ts",
+      "summary": "Style implementation for \"Generative Art\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/geometric-bold.ts",
+      "type": "file",
+      "name": "geometric-bold.ts",
+      "filePath": "lib/styles/geometric-bold.ts",
+      "summary": "Style implementation for \"Geometric Bold\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/ghibli-style.ts",
+      "type": "file",
+      "name": "ghibli-style.ts",
+      "filePath": "lib/styles/ghibli-style.ts",
+      "summary": "Style implementation for \"Ghibli Style\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/github-style.ts",
+      "type": "file",
+      "name": "github-style.ts",
+      "filePath": "lib/styles/github-style.ts",
+      "summary": "Style implementation for \"Github Style\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/glassmorphism.ts",
+      "type": "file",
+      "name": "glassmorphism.ts",
+      "filePath": "lib/styles/glassmorphism.ts",
+      "summary": "Style implementation for \"Glassmorphism\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/glitch-art.ts",
+      "type": "file",
+      "name": "glitch-art.ts",
+      "filePath": "lib/styles/glitch-art.ts",
+      "summary": "Style implementation for \"Glitch Art\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/gothic-lolita.ts",
+      "type": "file",
+      "name": "gothic-lolita.ts",
+      "filePath": "lib/styles/gothic-lolita.ts",
+      "summary": "Style implementation for \"Gothic Lolita\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/gothic.ts",
+      "type": "file",
+      "name": "gothic.ts",
+      "filePath": "lib/styles/gothic.ts",
+      "summary": "Style implementation for \"Gothic\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:lib/styles/comic-style.ts",
+      "target": "file:lib/styles/atoms/comic-style.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/comic-style.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/constructivism.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/corporate-clean.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/cottagecore.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/cubism.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/cyber-anime.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/cyber-chinese.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/cyber-wafuu.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/cyberpunk-neon.ts",
+      "target": "file:lib/styles/atoms/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/cyberpunk-neon.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/dark-academia.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/dark-mode.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/dashboard-layout.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/data-dense.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/dopamine-design.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/editorial.ts",
+      "target": "file:lib/styles/atoms/editorial.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/editorial.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/f-pattern-layout.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/film-noir.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/fluent-design.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/fresh-market.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/frutiger-aero.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/full-page-scroll.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/generative-art.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/geometric-bold.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/ghibli-style.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/github-style.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/glassmorphism.ts",
+      "target": "file:lib/styles/atoms/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/glassmorphism.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/glitch-art.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/gothic-lolita.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/gothic.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "nodes": [
+    {
+      "id": "file:app/api/auth/callback/__tests__/route.test.ts",
+      "type": "file",
+      "name": "route.test.ts",
+      "filePath": "app/api/auth/callback/__tests__/route.test.ts",
+      "summary": "Unit tests for the legacy admin password authentication callback route.",
+      "tags": [
+        "test",
+        "unit",
+        "auth"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/api/auth/callback/route.ts",
+      "type": "file",
+      "name": "route.ts",
+      "filePath": "app/api/auth/callback/route.ts",
+      "summary": "API route handling the legacy admin password authentication callback.",
+      "tags": [
+        "api-handler",
+        "auth",
+        "route"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/api/auth/linuxdo/__tests__/route.test.ts",
+      "type": "file",
+      "name": "route.test.ts",
+      "filePath": "app/api/auth/linuxdo/__tests__/route.test.ts",
+      "summary": "Unit tests for the LinuxDo OAuth route route handler.",
+      "tags": [
+        "test",
+        "unit",
+        "auth"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/api/auth/linuxdo/callback/__tests__/route.test.ts",
+      "type": "file",
+      "name": "route.test.ts",
+      "filePath": "app/api/auth/linuxdo/callback/__tests__/route.test.ts",
+      "summary": "Unit tests for the LinuxDo OAuth route route handler.",
+      "tags": [
+        "test",
+        "unit",
+        "auth"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/api/auth/linuxdo/callback/route.ts",
+      "type": "file",
+      "name": "route.ts",
+      "filePath": "app/api/auth/linuxdo/callback/route.ts",
+      "summary": "API route handling the LinuxDo OAuth callback flow, exchanging authorization codes for user tokens and creating sessions.",
+      "tags": [
+        "api-handler",
+        "auth",
+        "oauth",
+        "route"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/api/auth/linuxdo/route.ts",
+      "type": "file",
+      "name": "route.ts",
+      "filePath": "app/api/auth/linuxdo/route.ts",
+      "summary": "API route initiating LinuxDo OAuth authentication by redirecting users to the LinuxDo authorization URL.",
+      "tags": [
+        "api-handler",
+        "auth",
+        "oauth",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/auth/linuxdo.ts",
+      "type": "file",
+      "name": "linuxdo.ts",
+      "filePath": "lib/auth/linuxdo.ts",
+      "summary": "LinuxDo OAuth client library handling authorization URL building, token exchange, and user profile retrieval.",
+      "tags": [
+        "auth",
+        "oauth",
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/auth/seq-id.ts",
+      "type": "file",
+      "name": "seq-id.ts",
+      "filePath": "lib/auth/seq-id.ts",
+      "summary": "Sequential ID assignment library for assigning human-friendly sequential IDs to users based on registration order.",
+      "tags": [
+        "utility",
+        "auth",
+        "id-generation"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:app/api/auth/callback/__tests__/route.test.ts",
+      "target": "file:app/api/auth/callback/route.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/auth/callback/__tests__/route.test.ts",
+      "target": "file:lib/auth/seq-id.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/auth/callback/route.ts",
+      "target": "file:lib/auth/seq-id.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/auth/linuxdo/__tests__/route.test.ts",
+      "target": "file:app/api/auth/linuxdo/route.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/auth/linuxdo/__tests__/route.test.ts",
+      "target": "file:lib/auth/linuxdo.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/auth/linuxdo/callback/__tests__/route.test.ts",
+      "target": "file:app/api/auth/linuxdo/callback/route.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/auth/linuxdo/callback/__tests__/route.test.ts",
+      "target": "file:lib/auth/linuxdo.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/auth/linuxdo/callback/__tests__/route.test.ts",
+      "target": "file:lib/auth/seq-id.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/auth/linuxdo/callback/route.ts",
+      "target": "file:lib/auth/linuxdo.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/auth/linuxdo/callback/route.ts",
+      "target": "file:lib/auth/seq-id.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/auth/linuxdo/route.ts",
+      "target": "file:lib/auth/linuxdo.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

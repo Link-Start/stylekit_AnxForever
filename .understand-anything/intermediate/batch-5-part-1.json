@@ -1,0 +1,2398 @@
+{
+  "nodes": [
+    {
+      "id": "file:app/api/accessibility/route.ts",
+      "type": "file",
+      "name": "route.ts",
+      "filePath": "app/api/accessibility/route.ts",
+      "summary": "API route for accessibility scoring and WCAG compliance checks.",
+      "tags": [
+        "api-handler",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/components/_shared.tsx",
+      "type": "file",
+      "name": "_shared.tsx",
+      "filePath": "app/components/_shared.tsx",
+      "summary": "_shared.tsx",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/components/sections/alert-section.tsx",
+      "type": "file",
+      "name": "alert-section.tsx",
+      "filePath": "app/components/sections/alert-section.tsx",
+      "summary": "alert-section.tsx",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/components/sections/button-section.tsx",
+      "type": "file",
+      "name": "button-section.tsx",
+      "filePath": "app/components/sections/button-section.tsx",
+      "summary": "button-section.tsx",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/components/sections/card-section.tsx",
+      "type": "file",
+      "name": "card-section.tsx",
+      "filePath": "app/components/sections/card-section.tsx",
+      "summary": "card-section.tsx",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/components/sections/drawer-popover-section.tsx",
+      "type": "file",
+      "name": "drawer-popover-section.tsx",
+      "filePath": "app/components/sections/drawer-popover-section.tsx",
+      "summary": "drawer-popover-section.tsx",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/components/sections/form-controls-section.tsx",
+      "type": "file",
+      "name": "form-controls-section.tsx",
+      "filePath": "app/components/sections/form-controls-section.tsx",
+      "summary": "form-controls-section.tsx",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/components/sections/input-otp-section.tsx",
+      "type": "file",
+      "name": "input-otp-section.tsx",
+      "filePath": "app/components/sections/input-otp-section.tsx",
+      "summary": "input-otp-section.tsx",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/components/sections/input-section.tsx",
+      "type": "file",
+      "name": "input-section.tsx",
+      "filePath": "app/components/sections/input-section.tsx",
+      "summary": "input-section.tsx",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/components/sections/list-section.tsx",
+      "type": "file",
+      "name": "list-section.tsx",
+      "filePath": "app/components/sections/list-section.tsx",
+      "summary": "list-section.tsx",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/components/sections/loading-progress-section.tsx",
+      "type": "file",
+      "name": "loading-progress-section.tsx",
+      "filePath": "app/components/sections/loading-progress-section.tsx",
+      "summary": "loading-progress-section.tsx",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/components/sections/modal-tooltip-section.tsx",
+      "type": "file",
+      "name": "modal-tooltip-section.tsx",
+      "filePath": "app/components/sections/modal-tooltip-section.tsx",
+      "summary": "modal-tooltip-section.tsx",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/components/sections/pagination-section.tsx",
+      "type": "file",
+      "name": "pagination-section.tsx",
+      "filePath": "app/components/sections/pagination-section.tsx",
+      "summary": "pagination-section.tsx",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/components/sections/resizable-section.tsx",
+      "type": "file",
+      "name": "resizable-section.tsx",
+      "filePath": "app/components/sections/resizable-section.tsx",
+      "summary": "resizable-section.tsx",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/components/sections/table-section.tsx",
+      "type": "file",
+      "name": "table-section.tsx",
+      "filePath": "app/components/sections/table-section.tsx",
+      "summary": "table-section.tsx",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/components/sections/toast-section.tsx",
+      "type": "file",
+      "name": "toast-section.tsx",
+      "filePath": "app/components/sections/toast-section.tsx",
+      "summary": "toast-section.tsx",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/components/sections/tree-section.tsx",
+      "type": "file",
+      "name": "tree-section.tsx",
+      "filePath": "app/components/sections/tree-section.tsx",
+      "summary": "tree-section.tsx",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/error.tsx",
+      "type": "file",
+      "name": "error.tsx",
+      "filePath": "app/error.tsx",
+      "summary": "error.tsx",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/login/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/login/_content.tsx",
+      "summary": "_content.tsx",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/not-found.tsx",
+      "type": "file",
+      "name": "not-found.tsx",
+      "filePath": "app/not-found.tsx",
+      "summary": "not-found.tsx",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/preview/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/preview/page.tsx",
+      "summary": "Style preview page rendering live component previews with customizations.",
+      "tags": [
+        "page",
+        "preview"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/styles/[slug]/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/[slug]/_content.tsx",
+      "summary": "_content.tsx",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/styles/[slug]/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/[slug]/showcase/_content.tsx",
+      "summary": "_content.tsx",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/templates/layout.tsx",
+      "type": "file",
+      "name": "layout.tsx",
+      "filePath": "app/templates/layout.tsx",
+      "summary": "layout.tsx",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/accessibility/score-badge.tsx",
+      "type": "file",
+      "name": "score-badge.tsx",
+      "filePath": "components/accessibility/score-badge.tsx",
+      "summary": "Component displaying accessibility scores and WCAG compliance details.",
+      "tags": [
+        "component",
+        "accessibility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/accessibility/score-detail.tsx",
+      "type": "file",
+      "name": "score-detail.tsx",
+      "filePath": "components/accessibility/score-detail.tsx",
+      "summary": "Component displaying accessibility scores and WCAG compliance details.",
+      "tags": [
+        "component",
+        "accessibility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/analytics/page-view-tracker.tsx",
+      "type": "file",
+      "name": "page-view-tracker.tsx",
+      "filePath": "components/analytics/page-view-tracker.tsx",
+      "summary": "Component for tracking page views and analytics events on the client side.",
+      "tags": [
+        "component",
+        "analytics"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/analytics/template-view-tracker.tsx",
+      "type": "file",
+      "name": "template-view-tracker.tsx",
+      "filePath": "components/analytics/template-view-tracker.tsx",
+      "summary": "Component for tracking page views and analytics events on the client side.",
+      "tags": [
+        "component",
+        "analytics"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/analytics/utm-provider.tsx",
+      "type": "file",
+      "name": "utm-provider.tsx",
+      "filePath": "components/analytics/utm-provider.tsx",
+      "summary": "Component for tracking page views and analytics events on the client side.",
+      "tags": [
+        "component",
+        "analytics"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/animations/animation-code-tabs.tsx",
+      "type": "file",
+      "name": "animation-code-tabs.tsx",
+      "filePath": "components/animations/animation-code-tabs.tsx",
+      "summary": "Component showcasing animation styles with code tabs and live previews.",
+      "tags": [
+        "component",
+        "animation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/backgrounds/backgrounds-content.tsx",
+      "type": "file",
+      "name": "backgrounds-content.tsx",
+      "filePath": "components/backgrounds/backgrounds-content.tsx",
+      "summary": "Component displaying background pattern gallery with preview and code.",
+      "tags": [
+        "component",
+        "background"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/community/community-stats-card.tsx",
+      "type": "file",
+      "name": "community-stats-card.tsx",
+      "filePath": "components/community/community-stats-card.tsx",
+      "summary": "Component showing community stats and engagement metrics.",
+      "tags": [
+        "component",
+        "community"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/docs/docs-content.tsx",
+      "type": "file",
+      "name": "docs-content.tsx",
+      "filePath": "components/docs/docs-content.tsx",
+      "summary": "Documentation content component for displaying component API reference and usage guides.",
+      "tags": [
+        "component",
+        "documentation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/docs/props-table.tsx",
+      "type": "file",
+      "name": "props-table.tsx",
+      "filePath": "components/docs/props-table.tsx",
+      "summary": "Documentation content component for displaying component API reference and usage guides.",
+      "tags": [
+        "component",
+        "documentation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/api/accessibility/route.ts:GET",
+      "type": "function",
+      "name": "GET",
+      "filePath": "app/api/accessibility/route.ts",
+      "lineRange": [
+        9,
+        38
+      ],
+      "summary": "HTTP GET handler returning JSON response.",
+      "tags": [
+        "api-handler",
+        "route-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/components/_shared.tsx:PropsToggle",
+      "type": "function",
+      "name": "PropsToggle",
+      "filePath": "app/components/_shared.tsx",
+      "lineRange": [
+        8,
+        27
+      ],
+      "summary": "PropsToggle function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/components/_shared.tsx:PropsPanel",
+      "type": "function",
+      "name": "PropsPanel",
+      "filePath": "app/components/_shared.tsx",
+      "lineRange": [
+        30,
+        49
+      ],
+      "summary": "PropsPanel function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/components/_shared.tsx:ComponentSection",
+      "type": "function",
+      "name": "ComponentSection",
+      "filePath": "app/components/_shared.tsx",
+      "lineRange": [
+        52,
+        74
+      ],
+      "summary": "ComponentSection function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/components/sections/alert-section.tsx:AlertSection",
+      "type": "function",
+      "name": "AlertSection",
+      "filePath": "app/components/sections/alert-section.tsx",
+      "lineRange": [
+        12,
+        46
+      ],
+      "summary": "AlertSection function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/components/sections/button-section.tsx:ButtonSection",
+      "type": "function",
+      "name": "ButtonSection",
+      "filePath": "app/components/sections/button-section.tsx",
+      "lineRange": [
+        12,
+        40
+      ],
+      "summary": "ButtonSection function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/components/sections/card-section.tsx:CardSection",
+      "type": "function",
+      "name": "CardSection",
+      "filePath": "app/components/sections/card-section.tsx",
+      "lineRange": [
+        12,
+        54
+      ],
+      "summary": "CardSection function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/components/sections/drawer-popover-section.tsx:DrawerPopoverSection",
+      "type": "function",
+      "name": "DrawerPopoverSection",
+      "filePath": "app/components/sections/drawer-popover-section.tsx",
+      "lineRange": [
+        27,
+        81
+      ],
+      "summary": "DrawerPopoverSection function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/components/sections/form-controls-section.tsx:FormControlsSection",
+      "type": "function",
+      "name": "FormControlsSection",
+      "filePath": "app/components/sections/form-controls-section.tsx",
+      "lineRange": [
+        20,
+        69
+      ],
+      "summary": "FormControlsSection function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/components/sections/input-otp-section.tsx:InputOTPSection",
+      "type": "function",
+      "name": "InputOTPSection",
+      "filePath": "app/components/sections/input-otp-section.tsx",
+      "lineRange": [
+        13,
+        78
+      ],
+      "summary": "InputOTPSection function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/components/sections/input-section.tsx:InputSection",
+      "type": "function",
+      "name": "InputSection",
+      "filePath": "app/components/sections/input-section.tsx",
+      "lineRange": [
+        12,
+        32
+      ],
+      "summary": "InputSection function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/components/sections/list-section.tsx:ListSection",
+      "type": "function",
+      "name": "ListSection",
+      "filePath": "app/components/sections/list-section.tsx",
+      "lineRange": [
+        13,
+        55
+      ],
+      "summary": "ListSection function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/components/sections/loading-progress-section.tsx:LoadingProgressSection",
+      "type": "function",
+      "name": "LoadingProgressSection",
+      "filePath": "app/components/sections/loading-progress-section.tsx",
+      "lineRange": [
+        16,
+        48
+      ],
+      "summary": "LoadingProgressSection function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/components/sections/modal-tooltip-section.tsx:ModalTooltipSection",
+      "type": "function",
+      "name": "ModalTooltipSection",
+      "filePath": "app/components/sections/modal-tooltip-section.tsx",
+      "lineRange": [
+        27,
+        77
+      ],
+      "summary": "ModalTooltipSection function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/components/sections/pagination-section.tsx:PaginationSection",
+      "type": "function",
+      "name": "PaginationSection",
+      "filePath": "app/components/sections/pagination-section.tsx",
+      "lineRange": [
+        20,
+        61
+      ],
+      "summary": "PaginationSection function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/components/sections/resizable-section.tsx:ResizableSection",
+      "type": "function",
+      "name": "ResizableSection",
+      "filePath": "app/components/sections/resizable-section.tsx",
+      "lineRange": [
+        16,
+        143
+      ],
+      "summary": "ResizableSection function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/components/sections/table-section.tsx:TableSection",
+      "type": "function",
+      "name": "TableSection",
+      "filePath": "app/components/sections/table-section.tsx",
+      "lineRange": [
+        20,
+        68
+      ],
+      "summary": "TableSection function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/components/sections/toast-section.tsx:ToastSection",
+      "type": "function",
+      "name": "ToastSection",
+      "filePath": "app/components/sections/toast-section.tsx",
+      "lineRange": [
+        22,
+        50
+      ],
+      "summary": "ToastSection function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/components/sections/tree-section.tsx:TreeSection",
+      "type": "function",
+      "name": "TreeSection",
+      "filePath": "app/components/sections/tree-section.tsx",
+      "lineRange": [
+        37,
+        57
+      ],
+      "summary": "TreeSection function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/error.tsx:Error",
+      "type": "function",
+      "name": "Error",
+      "filePath": "app/error.tsx",
+      "lineRange": [
+        7,
+        41
+      ],
+      "summary": "Error function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/login/_content.tsx:LoginContent",
+      "type": "function",
+      "name": "LoginContent",
+      "filePath": "app/login/_content.tsx",
+      "lineRange": [
+        10,
+        95
+      ],
+      "summary": "LoginContent function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/not-found.tsx:NotFound",
+      "type": "function",
+      "name": "NotFound",
+      "filePath": "app/not-found.tsx",
+      "lineRange": [
+        6,
+        38
+      ],
+      "summary": "NotFound function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/preview/page.tsx:sanitizePreviewUrl",
+      "type": "function",
+      "name": "sanitizePreviewUrl",
+      "filePath": "app/preview/page.tsx",
+      "lineRange": [
+        40,
+        51
+      ],
+      "summary": "sanitizePreviewUrl function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/preview/page.tsx:PreviewPage",
+      "type": "function",
+      "name": "PreviewPage",
+      "filePath": "app/preview/page.tsx",
+      "lineRange": [
+        53,
+        263
+      ],
+      "summary": "PreviewPage function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/[slug]/_content.tsx:formatReadinessLabel",
+      "type": "function",
+      "name": "formatReadinessLabel",
+      "filePath": "app/styles/[slug]/_content.tsx",
+      "lineRange": [
+        59,
+        92
+      ],
+      "summary": "formatReadinessLabel function with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/styles/[slug]/_content.tsx:supportClassName",
+      "type": "function",
+      "name": "supportClassName",
+      "filePath": "app/styles/[slug]/_content.tsx",
+      "lineRange": [
+        94,
+        105
+      ],
+      "summary": "supportClassName function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/[slug]/_content.tsx:StyleDetailContent",
+      "type": "function",
+      "name": "StyleDetailContent",
+      "filePath": "app/styles/[slug]/_content.tsx",
+      "lineRange": [
+        114,
+        809
+      ],
+      "summary": "StyleDetailContent function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/[slug]/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/[slug]/showcase/_content.tsx",
+      "lineRange": [
+        11,
+        31
+      ],
+      "summary": "useInView function with 1 parameters.",
+      "tags": [
+        "hook",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/styles/[slug]/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/[slug]/showcase/_content.tsx",
+      "lineRange": [
+        33,
+        56
+      ],
+      "summary": "RevealBlock function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/styles/[slug]/showcase/_content.tsx:DynamicShowcaseContent",
+      "type": "function",
+      "name": "DynamicShowcaseContent",
+      "filePath": "app/styles/[slug]/showcase/_content.tsx",
+      "lineRange": [
+        63,
+        218
+      ],
+      "summary": "DynamicShowcaseContent function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/[slug]/showcase/_content.tsx:ComponentShowcaseSection",
+      "type": "function",
+      "name": "ComponentShowcaseSection",
+      "filePath": "app/styles/[slug]/showcase/_content.tsx",
+      "lineRange": [
+        220,
+        252
+      ],
+      "summary": "ComponentShowcaseSection function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/templates/layout.tsx:TemplatesLayout",
+      "type": "function",
+      "name": "TemplatesLayout",
+      "filePath": "app/templates/layout.tsx",
+      "lineRange": [
+        10,
+        21
+      ],
+      "summary": "TemplatesLayout function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:components/accessibility/score-badge.tsx:ScoreBadge",
+      "type": "function",
+      "name": "ScoreBadge",
+      "filePath": "components/accessibility/score-badge.tsx",
+      "lineRange": [
+        28,
+        56
+      ],
+      "summary": "ScoreBadge function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:components/accessibility/score-detail.tsx:ScoreDetail",
+      "type": "function",
+      "name": "ScoreDetail",
+      "filePath": "components/accessibility/score-detail.tsx",
+      "lineRange": [
+        11,
+        147
+      ],
+      "summary": "ScoreDetail function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/analytics/page-view-tracker.tsx:PageViewTracker",
+      "type": "function",
+      "name": "PageViewTracker",
+      "filePath": "components/analytics/page-view-tracker.tsx",
+      "lineRange": [
+        10,
+        36
+      ],
+      "summary": "PageViewTracker function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:components/analytics/page-view-tracker.tsx:classifyReferrer",
+      "type": "function",
+      "name": "classifyReferrer",
+      "filePath": "components/analytics/page-view-tracker.tsx",
+      "lineRange": [
+        47,
+        63
+      ],
+      "summary": "classifyReferrer function with 2 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:components/analytics/template-view-tracker.tsx:TemplateViewTracker",
+      "type": "function",
+      "name": "TemplateViewTracker",
+      "filePath": "components/analytics/template-view-tracker.tsx",
+      "lineRange": [
+        7,
+        23
+      ],
+      "summary": "TemplateViewTracker function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:components/analytics/utm-provider.tsx:UtmProvider",
+      "type": "function",
+      "name": "UtmProvider",
+      "filePath": "components/analytics/utm-provider.tsx",
+      "lineRange": [
+        17,
+        23
+      ],
+      "summary": "UtmProvider function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:components/animations/animation-code-tabs.tsx:AnimationCodeTabs",
+      "type": "function",
+      "name": "AnimationCodeTabs",
+      "filePath": "components/animations/animation-code-tabs.tsx",
+      "lineRange": [
+        12,
+        90
+      ],
+      "summary": "AnimationCodeTabs function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/backgrounds/backgrounds-content.tsx:BackgroundsContent",
+      "type": "function",
+      "name": "BackgroundsContent",
+      "filePath": "components/backgrounds/backgrounds-content.tsx",
+      "lineRange": [
+        12,
+        140
+      ],
+      "summary": "BackgroundsContent function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/backgrounds/backgrounds-content.tsx:BackgroundCard",
+      "type": "function",
+      "name": "BackgroundCard",
+      "filePath": "components/backgrounds/backgrounds-content.tsx",
+      "lineRange": [
+        149,
+        206
+      ],
+      "summary": "BackgroundCard function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/community/community-stats-card.tsx:CommunityStatsCard",
+      "type": "function",
+      "name": "CommunityStatsCard",
+      "filePath": "components/community/community-stats-card.tsx",
+      "lineRange": [
+        22,
+        117
+      ],
+      "summary": "CommunityStatsCard function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/docs/docs-content.tsx:DocsContent",
+      "type": "function",
+      "name": "DocsContent",
+      "filePath": "components/docs/docs-content.tsx",
+      "lineRange": [
+        17,
+        183
+      ],
+      "summary": "DocsContent function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/docs/props-table.tsx:PropsTable",
+      "type": "function",
+      "name": "PropsTable",
+      "filePath": "components/docs/props-table.tsx",
+      "lineRange": [
+        16,
+        56
+      ],
+      "summary": "PropsTable function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:app/api/accessibility/route.ts",
+      "target": "function:app/api/accessibility/route.ts:GET",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/api/accessibility/route.ts",
+      "target": "function:app/api/accessibility/route.ts:GET",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/api/accessibility/route.ts",
+      "target": "file:lib/accessibility/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/api/accessibility/route.ts",
+      "target": "file:lib/security/rate-limit.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/_shared.tsx",
+      "target": "function:app/components/_shared.tsx:PropsToggle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/components/_shared.tsx",
+      "target": "function:app/components/_shared.tsx:PropsToggle",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/components/_shared.tsx",
+      "target": "function:app/components/_shared.tsx:PropsPanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/components/_shared.tsx",
+      "target": "function:app/components/_shared.tsx:PropsPanel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/components/_shared.tsx",
+      "target": "function:app/components/_shared.tsx:ComponentSection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/components/_shared.tsx",
+      "target": "function:app/components/_shared.tsx:ComponentSection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/components/_shared.tsx",
+      "target": "file:components/docs/props-table.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/_shared.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/alert-section.tsx",
+      "target": "function:app/components/sections/alert-section.tsx:AlertSection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/components/sections/alert-section.tsx",
+      "target": "function:app/components/sections/alert-section.tsx:AlertSection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/components/sections/alert-section.tsx",
+      "target": "file:app/components/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/alert-section.tsx",
+      "target": "file:components/ui/alert/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/alert-section.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/button-section.tsx",
+      "target": "function:app/components/sections/button-section.tsx:ButtonSection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/components/sections/button-section.tsx",
+      "target": "function:app/components/sections/button-section.tsx:ButtonSection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/components/sections/button-section.tsx",
+      "target": "file:app/components/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/button-section.tsx",
+      "target": "file:components/ui/button/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/button-section.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/card-section.tsx",
+      "target": "function:app/components/sections/card-section.tsx:CardSection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/components/sections/card-section.tsx",
+      "target": "function:app/components/sections/card-section.tsx:CardSection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/components/sections/card-section.tsx",
+      "target": "file:app/components/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/card-section.tsx",
+      "target": "file:components/ui/card/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/card-section.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/drawer-popover-section.tsx",
+      "target": "function:app/components/sections/drawer-popover-section.tsx:DrawerPopoverSection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/components/sections/drawer-popover-section.tsx",
+      "target": "function:app/components/sections/drawer-popover-section.tsx:DrawerPopoverSection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/components/sections/drawer-popover-section.tsx",
+      "target": "file:app/components/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/drawer-popover-section.tsx",
+      "target": "file:components/ui/button/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/drawer-popover-section.tsx",
+      "target": "file:components/ui/drawer/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/drawer-popover-section.tsx",
+      "target": "file:components/ui/popover/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/drawer-popover-section.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/form-controls-section.tsx",
+      "target": "function:app/components/sections/form-controls-section.tsx:FormControlsSection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/components/sections/form-controls-section.tsx",
+      "target": "function:app/components/sections/form-controls-section.tsx:FormControlsSection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/components/sections/form-controls-section.tsx",
+      "target": "file:app/components/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/form-controls-section.tsx",
+      "target": "file:components/ui/checkbox/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/form-controls-section.tsx",
+      "target": "file:components/ui/radio/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/form-controls-section.tsx",
+      "target": "file:components/ui/select/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/form-controls-section.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/input-otp-section.tsx",
+      "target": "function:app/components/sections/input-otp-section.tsx:InputOTPSection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/components/sections/input-otp-section.tsx",
+      "target": "function:app/components/sections/input-otp-section.tsx:InputOTPSection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/components/sections/input-otp-section.tsx",
+      "target": "file:app/components/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/input-otp-section.tsx",
+      "target": "file:components/ui/input-otp/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/input-otp-section.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/input-section.tsx",
+      "target": "function:app/components/sections/input-section.tsx:InputSection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/components/sections/input-section.tsx",
+      "target": "function:app/components/sections/input-section.tsx:InputSection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/components/sections/input-section.tsx",
+      "target": "file:app/components/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/input-section.tsx",
+      "target": "file:components/ui/input/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/input-section.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/list-section.tsx",
+      "target": "function:app/components/sections/list-section.tsx:ListSection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/components/sections/list-section.tsx",
+      "target": "function:app/components/sections/list-section.tsx:ListSection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/components/sections/list-section.tsx",
+      "target": "file:app/components/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/list-section.tsx",
+      "target": "file:components/ui/list/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/list-section.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/loading-progress-section.tsx",
+      "target": "function:app/components/sections/loading-progress-section.tsx:LoadingProgressSection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/components/sections/loading-progress-section.tsx",
+      "target": "function:app/components/sections/loading-progress-section.tsx:LoadingProgressSection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/components/sections/loading-progress-section.tsx",
+      "target": "file:app/components/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/loading-progress-section.tsx",
+      "target": "file:components/ui/button/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/loading-progress-section.tsx",
+      "target": "file:components/ui/loading/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/loading-progress-section.tsx",
+      "target": "file:components/ui/progress/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/loading-progress-section.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/modal-tooltip-section.tsx",
+      "target": "function:app/components/sections/modal-tooltip-section.tsx:ModalTooltipSection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/components/sections/modal-tooltip-section.tsx",
+      "target": "function:app/components/sections/modal-tooltip-section.tsx:ModalTooltipSection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/components/sections/modal-tooltip-section.tsx",
+      "target": "file:app/components/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/modal-tooltip-section.tsx",
+      "target": "file:components/ui/button/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/modal-tooltip-section.tsx",
+      "target": "file:components/ui/modal/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/modal-tooltip-section.tsx",
+      "target": "file:components/ui/tooltip/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/modal-tooltip-section.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/pagination-section.tsx",
+      "target": "function:app/components/sections/pagination-section.tsx:PaginationSection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/components/sections/pagination-section.tsx",
+      "target": "function:app/components/sections/pagination-section.tsx:PaginationSection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/components/sections/pagination-section.tsx",
+      "target": "file:app/components/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/pagination-section.tsx",
+      "target": "file:components/ui/pagination/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/pagination-section.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/resizable-section.tsx",
+      "target": "function:app/components/sections/resizable-section.tsx:ResizableSection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/components/sections/resizable-section.tsx",
+      "target": "function:app/components/sections/resizable-section.tsx:ResizableSection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/components/sections/resizable-section.tsx",
+      "target": "file:app/components/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/resizable-section.tsx",
+      "target": "file:components/ui/resizable/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/resizable-section.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/table-section.tsx",
+      "target": "function:app/components/sections/table-section.tsx:TableSection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/components/sections/table-section.tsx",
+      "target": "function:app/components/sections/table-section.tsx:TableSection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/components/sections/table-section.tsx",
+      "target": "file:app/components/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/table-section.tsx",
+      "target": "file:components/ui/button/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/table-section.tsx",
+      "target": "file:components/ui/table/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/table-section.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/toast-section.tsx",
+      "target": "function:app/components/sections/toast-section.tsx:ToastSection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/components/sections/toast-section.tsx",
+      "target": "function:app/components/sections/toast-section.tsx:ToastSection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/components/sections/toast-section.tsx",
+      "target": "file:app/components/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/toast-section.tsx",
+      "target": "file:components/ui/button/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/toast-section.tsx",
+      "target": "file:components/ui/toast/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/toast-section.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/tree-section.tsx",
+      "target": "function:app/components/sections/tree-section.tsx:TreeSection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/components/sections/tree-section.tsx",
+      "target": "function:app/components/sections/tree-section.tsx:TreeSection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/components/sections/tree-section.tsx",
+      "target": "file:app/components/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/tree-section.tsx",
+      "target": "file:components/ui/tree/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/components/sections/tree-section.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/error.tsx",
+      "target": "function:app/error.tsx:Error",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/error.tsx",
+      "target": "function:app/error.tsx:Error",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/error.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/login/_content.tsx",
+      "target": "function:app/login/_content.tsx:LoginContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/login/_content.tsx",
+      "target": "function:app/login/_content.tsx:LoginContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/login/_content.tsx",
+      "target": "file:lib/auth/use-user.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/login/_content.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/not-found.tsx",
+      "target": "function:app/not-found.tsx:NotFound",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/not-found.tsx",
+      "target": "function:app/not-found.tsx:NotFound",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/not-found.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/preview/page.tsx",
+      "target": "function:app/preview/page.tsx:sanitizePreviewUrl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/preview/page.tsx",
+      "target": "function:app/preview/page.tsx:PreviewPage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/preview/page.tsx",
+      "target": "function:app/preview/page.tsx:PreviewPage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/preview/page.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/_content.tsx",
+      "target": "function:app/styles/[slug]/_content.tsx:formatReadinessLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/[slug]/_content.tsx",
+      "target": "function:app/styles/[slug]/_content.tsx:supportClassName",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/[slug]/_content.tsx",
+      "target": "function:app/styles/[slug]/_content.tsx:StyleDetailContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/[slug]/_content.tsx",
+      "target": "function:app/styles/[slug]/_content.tsx:StyleDetailContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/[slug]/_content.tsx",
+      "target": "file:components/accessibility/score-badge.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/_content.tsx",
+      "target": "file:components/accessibility/score-detail.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/_content.tsx",
+      "target": "file:components/export/ide-export-buttons.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/_content.tsx",
+      "target": "file:components/i18n/localized-link.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/_content.tsx",
+      "target": "file:components/mouse-interactions/rooms/generic-room.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/_content.tsx",
+      "target": "file:components/mouse-interactions/rooms/registry.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/_content.tsx",
+      "target": "file:components/recipes/recipe-card.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/_content.tsx",
+      "target": "file:components/scroll-back-button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/_content.tsx",
+      "target": "file:components/style-preview/ai-implementation-panel.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/_content.tsx",
+      "target": "file:components/style-preview/code-block.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/_content.tsx",
+      "target": "file:components/style-preview/color-palette.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/_content.tsx",
+      "target": "file:components/style-preview/component-preview.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/_content.tsx",
+      "target": "file:components/style-preview/style-cover-preview.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/_content.tsx",
+      "target": "file:components/style-preview/style-pack-export.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/_content.tsx",
+      "target": "file:components/styles/style-comments.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/_content.tsx",
+      "target": "file:components/styles/style-rating.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/_content.tsx",
+      "target": "file:components/styles/version-badge.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/_content.tsx",
+      "target": "file:components/tokens-export-button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/_content.tsx",
+      "target": "file:components/ui/collapsible-section.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/_content.tsx",
+      "target": "file:components/ui/lazy-section.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/_content.tsx",
+      "target": "file:lib/accessibility/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/_content.tsx",
+      "target": "file:lib/analytics/events.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/_content.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/_content.tsx",
+      "target": "file:lib/i18n/translations.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/_content.tsx",
+      "target": "file:lib/styles/community-runtime.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/_content.tsx",
+      "target": "file:lib/styles/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/_content.tsx",
+      "target": "file:lib/styles/locale-content.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/_content.tsx",
+      "target": "file:lib/styles/recipes.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/_content.tsx",
+      "target": "file:lib/versioning/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/showcase/_content.tsx",
+      "target": "function:app/styles/[slug]/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/[slug]/showcase/_content.tsx",
+      "target": "function:app/styles/[slug]/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/[slug]/showcase/_content.tsx",
+      "target": "function:app/styles/[slug]/showcase/_content.tsx:DynamicShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/[slug]/showcase/_content.tsx",
+      "target": "function:app/styles/[slug]/showcase/_content.tsx:DynamicShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/[slug]/showcase/_content.tsx",
+      "target": "function:app/styles/[slug]/showcase/_content.tsx:ComponentShowcaseSection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/[slug]/showcase/_content.tsx",
+      "target": "file:lib/security/sanitize-html.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/showcase/_content.tsx",
+      "target": "file:lib/style-preview/preview-html.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/styles/[slug]/showcase/_content.tsx",
+      "target": "file:lib/styles/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/templates/layout.tsx",
+      "target": "function:app/templates/layout.tsx:TemplatesLayout",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/templates/layout.tsx",
+      "target": "function:app/templates/layout.tsx:TemplatesLayout",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/templates/layout.tsx",
+      "target": "file:components/analytics/template-view-tracker.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/accessibility/score-badge.tsx",
+      "target": "function:components/accessibility/score-badge.tsx:ScoreBadge",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/accessibility/score-badge.tsx",
+      "target": "function:components/accessibility/score-badge.tsx:ScoreBadge",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/accessibility/score-badge.tsx",
+      "target": "file:lib/accessibility/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/accessibility/score-badge.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/accessibility/score-badge.tsx",
+      "target": "file:lib/i18n/translations.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/accessibility/score-detail.tsx",
+      "target": "function:components/accessibility/score-detail.tsx:ScoreDetail",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/accessibility/score-detail.tsx",
+      "target": "function:components/accessibility/score-detail.tsx:ScoreDetail",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/accessibility/score-detail.tsx",
+      "target": "file:lib/accessibility/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/accessibility/score-detail.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/analytics/page-view-tracker.tsx",
+      "target": "function:components/analytics/page-view-tracker.tsx:PageViewTracker",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/analytics/page-view-tracker.tsx",
+      "target": "function:components/analytics/page-view-tracker.tsx:PageViewTracker",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/analytics/page-view-tracker.tsx",
+      "target": "function:components/analytics/page-view-tracker.tsx:classifyReferrer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/analytics/page-view-tracker.tsx",
+      "target": "file:lib/analytics/events.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/analytics/template-view-tracker.tsx",
+      "target": "function:components/analytics/template-view-tracker.tsx:TemplateViewTracker",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/analytics/template-view-tracker.tsx",
+      "target": "function:components/analytics/template-view-tracker.tsx:TemplateViewTracker",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/analytics/template-view-tracker.tsx",
+      "target": "file:lib/analytics/events.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/analytics/utm-provider.tsx",
+      "target": "function:components/analytics/utm-provider.tsx:UtmProvider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/analytics/utm-provider.tsx",
+      "target": "function:components/analytics/utm-provider.tsx:UtmProvider",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/analytics/utm-provider.tsx",
+      "target": "file:lib/analytics/utm.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/animations/animation-code-tabs.tsx",
+      "target": "function:components/animations/animation-code-tabs.tsx:AnimationCodeTabs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/animations/animation-code-tabs.tsx",
+      "target": "function:components/animations/animation-code-tabs.tsx:AnimationCodeTabs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/animations/animation-code-tabs.tsx",
+      "target": "file:lib/animations/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/animations/animation-code-tabs.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/backgrounds/backgrounds-content.tsx",
+      "target": "function:components/backgrounds/backgrounds-content.tsx:BackgroundsContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/backgrounds/backgrounds-content.tsx",
+      "target": "function:components/backgrounds/backgrounds-content.tsx:BackgroundsContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/backgrounds/backgrounds-content.tsx",
+      "target": "function:components/backgrounds/backgrounds-content.tsx:BackgroundCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/backgrounds/backgrounds-content.tsx",
+      "target": "file:lib/backgrounds/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/backgrounds/backgrounds-content.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/community/community-stats-card.tsx",
+      "target": "function:components/community/community-stats-card.tsx:CommunityStatsCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/community/community-stats-card.tsx",
+      "target": "function:components/community/community-stats-card.tsx:CommunityStatsCard",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/community/community-stats-card.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/docs/docs-content.tsx",
+      "target": "function:components/docs/docs-content.tsx:DocsContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/docs/docs-content.tsx",
+      "target": "function:components/docs/docs-content.tsx:DocsContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/docs/docs-content.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/docs/props-table.tsx",
+      "target": "function:components/docs/props-table.tsx:PropsTable",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/docs/props-table.tsx",
+      "target": "function:components/docs/props-table.tsx:PropsTable",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/docs/props-table.tsx",
+      "target": "file:lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

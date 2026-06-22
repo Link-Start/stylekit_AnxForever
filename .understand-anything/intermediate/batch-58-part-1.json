@@ -1,0 +1,965 @@
+{
+  "nodes": [
+    {
+      "id": "file:app/styles/ink-wash/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/ink-wash/showcase/_content.tsx",
+      "summary": "Showcase content component for the Ink Wash design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/ink-wash/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/ink-wash/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        29
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/ink-wash/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/ink-wash/showcase/_content.tsx",
+      "lineRange": [
+        35,
+        58
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/ink-wash/showcase/_content.tsx:InkWashShowcase",
+      "type": "function",
+      "name": "InkWashShowcase",
+      "filePath": "app/styles/ink-wash/showcase/_content.tsx",
+      "lineRange": [
+        259,
+        1752
+      ],
+      "summary": "Main showcase component rendering example cards and layout variants for the Inkwash design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/ink-wash/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/ink-wash/showcase/page.tsx",
+      "summary": "Showcase page route for the Ink Wash design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/islamic-geometric/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/islamic-geometric/showcase/_content.tsx",
+      "summary": "Showcase content component for the Islamic Geometric design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/islamic-geometric/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/islamic-geometric/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        31
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/islamic-geometric/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/islamic-geometric/showcase/_content.tsx",
+      "lineRange": [
+        33,
+        56
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/islamic-geometric/showcase/_content.tsx:CornerFrame",
+      "type": "function",
+      "name": "CornerFrame",
+      "filePath": "app/styles/islamic-geometric/showcase/_content.tsx",
+      "lineRange": [
+        115,
+        185
+      ],
+      "summary": "Function component CornerFrame rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/styles/islamic-geometric/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/islamic-geometric/showcase/_content.tsx",
+      "lineRange": [
+        235,
+        1577
+      ],
+      "summary": "Main showcase content component rendering example cards and layout variants for the Styles design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/islamic-geometric/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/islamic-geometric/showcase/page.tsx",
+      "summary": "Showcase page route for the Islamic Geometric design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/japanese-fresh/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/japanese-fresh/showcase/_content.tsx",
+      "summary": "Showcase content component for the Japanese Fresh design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/japanese-fresh/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/japanese-fresh/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        31
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/japanese-fresh/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/japanese-fresh/showcase/_content.tsx",
+      "lineRange": [
+        33,
+        56
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/japanese-fresh/showcase/_content.tsx:BotanicalBranch",
+      "type": "function",
+      "name": "BotanicalBranch",
+      "filePath": "app/styles/japanese-fresh/showcase/_content.tsx",
+      "lineRange": [
+        62,
+        79
+      ],
+      "summary": "Function component BotanicalBranch rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/japanese-fresh/showcase/_content.tsx:BotanicalWillow",
+      "type": "function",
+      "name": "BotanicalWillow",
+      "filePath": "app/styles/japanese-fresh/showcase/_content.tsx",
+      "lineRange": [
+        81,
+        100
+      ],
+      "summary": "Function component BotanicalWillow rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/japanese-fresh/showcase/_content.tsx:BotanicalLeaf",
+      "type": "function",
+      "name": "BotanicalLeaf",
+      "filePath": "app/styles/japanese-fresh/showcase/_content.tsx",
+      "lineRange": [
+        102,
+        118
+      ],
+      "summary": "Function component BotanicalLeaf rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/japanese-fresh/showcase/_content.tsx:BotanicalReed",
+      "type": "function",
+      "name": "BotanicalReed",
+      "filePath": "app/styles/japanese-fresh/showcase/_content.tsx",
+      "lineRange": [
+        120,
+        138
+      ],
+      "summary": "Function component BotanicalReed rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/japanese-fresh/showcase/_content.tsx:BotanicalFern",
+      "type": "function",
+      "name": "BotanicalFern",
+      "filePath": "app/styles/japanese-fresh/showcase/_content.tsx",
+      "lineRange": [
+        140,
+        158
+      ],
+      "summary": "Function component BotanicalFern rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/japanese-fresh/showcase/_content.tsx:BotanicalCircle",
+      "type": "function",
+      "name": "BotanicalCircle",
+      "filePath": "app/styles/japanese-fresh/showcase/_content.tsx",
+      "lineRange": [
+        160,
+        177
+      ],
+      "summary": "Function component BotanicalCircle rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/japanese-fresh/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/japanese-fresh/showcase/_content.tsx",
+      "lineRange": [
+        257,
+        1790
+      ],
+      "summary": "Main showcase content component rendering example cards and layout variants for the Styles design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/japanese-fresh/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/japanese-fresh/showcase/page.tsx",
+      "summary": "Showcase page route for the Japanese Fresh design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/jrpg/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/jrpg/showcase/_content.tsx",
+      "summary": "Showcase content component for the Jrpg design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/jrpg/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/jrpg/showcase/_content.tsx",
+      "lineRange": [
+        111,
+        132
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/jrpg/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/jrpg/showcase/_content.tsx",
+      "lineRange": [
+        134,
+        157
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/jrpg/showcase/_content.tsx:CornerOrnaments",
+      "type": "function",
+      "name": "CornerOrnaments",
+      "filePath": "app/styles/jrpg/showcase/_content.tsx",
+      "lineRange": [
+        167,
+        184
+      ],
+      "summary": "Function component CornerOrnaments rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/jrpg/showcase/_content.tsx:RPGPanel",
+      "type": "function",
+      "name": "RPGPanel",
+      "filePath": "app/styles/jrpg/showcase/_content.tsx",
+      "lineRange": [
+        187,
+        202
+      ],
+      "summary": "Function component RPGPanel rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/jrpg/showcase/_content.tsx:StatBar",
+      "type": "function",
+      "name": "StatBar",
+      "filePath": "app/styles/jrpg/showcase/_content.tsx",
+      "lineRange": [
+        205,
+        236
+      ],
+      "summary": "Function component StatBar rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/jrpg/showcase/_content.tsx:RPGButton",
+      "type": "function",
+      "name": "RPGButton",
+      "filePath": "app/styles/jrpg/showcase/_content.tsx",
+      "lineRange": [
+        239,
+        265
+      ],
+      "summary": "Function component RPGButton rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/jrpg/showcase/_content.tsx:SectionHeader",
+      "type": "function",
+      "name": "SectionHeader",
+      "filePath": "app/styles/jrpg/showcase/_content.tsx",
+      "lineRange": [
+        268,
+        288
+      ],
+      "summary": "Function component SectionHeader rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/jrpg/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/jrpg/showcase/_content.tsx",
+      "lineRange": [
+        294,
+        1439
+      ],
+      "summary": "Main showcase content component rendering example cards and layout variants for the Styles design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/jrpg/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/jrpg/showcase/page.tsx",
+      "summary": "Showcase page route for the Jrpg design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/kawaii-minimal/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/kawaii-minimal/showcase/_content.tsx",
+      "summary": "Showcase content component for the Kawaii Minimal design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/kawaii-minimal/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/kawaii-minimal/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        31
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/kawaii-minimal/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/kawaii-minimal/showcase/_content.tsx",
+      "lineRange": [
+        33,
+        56
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/kawaii-minimal/showcase/_content.tsx:FlowerIcon",
+      "type": "function",
+      "name": "FlowerIcon",
+      "filePath": "app/styles/kawaii-minimal/showcase/_content.tsx",
+      "lineRange": [
+        88,
+        107
+      ],
+      "summary": "SVG icon component (FlowerIcon) used in UI elements within the showcase.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/kawaii-minimal/showcase/_content.tsx:BlobShape",
+      "type": "function",
+      "name": "BlobShape",
+      "filePath": "app/styles/kawaii-minimal/showcase/_content.tsx",
+      "lineRange": [
+        122,
+        138
+      ],
+      "summary": "Function component BlobShape rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/kawaii-minimal/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/kawaii-minimal/showcase/_content.tsx",
+      "lineRange": [
+        176,
+        1553
+      ],
+      "summary": "Main showcase content component rendering example cards and layout variants for the Styles design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/kawaii-minimal/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/kawaii-minimal/showcase/page.tsx",
+      "summary": "Showcase page route for the Kawaii Minimal design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/korean-minimal/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/korean-minimal/showcase/_content.tsx",
+      "summary": "Showcase content component for the Korean Minimal design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/korean-minimal/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/korean-minimal/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        31
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/korean-minimal/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/korean-minimal/showcase/_content.tsx",
+      "lineRange": [
+        33,
+        56
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/korean-minimal/showcase/_content.tsx:KoreanMinimalShowcase",
+      "type": "function",
+      "name": "KoreanMinimalShowcase",
+      "filePath": "app/styles/korean-minimal/showcase/_content.tsx",
+      "lineRange": [
+        264,
+        1802
+      ],
+      "summary": "Main showcase component rendering example cards and layout variants for the Koreanminimal design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/korean-minimal/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/korean-minimal/showcase/page.tsx",
+      "summary": "Showcase page route for the Korean Minimal design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/layout.tsx",
+      "type": "file",
+      "name": "layout.tsx",
+      "filePath": "app/styles/layout.tsx",
+      "summary": "Layout component for the styles route segment defining the page structure and shared UI elements.",
+      "tags": [
+        "layout",
+        "react-component",
+        "typescript"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:app/styles/ink-wash/showcase/_content.tsx",
+      "target": "function:app/styles/ink-wash/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/ink-wash/showcase/_content.tsx",
+      "target": "function:app/styles/ink-wash/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/ink-wash/showcase/_content.tsx",
+      "target": "function:app/styles/ink-wash/showcase/_content.tsx:InkWashShowcase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/ink-wash/showcase/_content.tsx",
+      "target": "function:app/styles/ink-wash/showcase/_content.tsx:InkWashShowcase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/islamic-geometric/showcase/_content.tsx",
+      "target": "function:app/styles/islamic-geometric/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/islamic-geometric/showcase/_content.tsx",
+      "target": "function:app/styles/islamic-geometric/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/islamic-geometric/showcase/_content.tsx",
+      "target": "function:app/styles/islamic-geometric/showcase/_content.tsx:CornerFrame",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/islamic-geometric/showcase/_content.tsx",
+      "target": "function:app/styles/islamic-geometric/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/islamic-geometric/showcase/_content.tsx",
+      "target": "function:app/styles/islamic-geometric/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/japanese-fresh/showcase/_content.tsx",
+      "target": "function:app/styles/japanese-fresh/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/japanese-fresh/showcase/_content.tsx",
+      "target": "function:app/styles/japanese-fresh/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/japanese-fresh/showcase/_content.tsx",
+      "target": "function:app/styles/japanese-fresh/showcase/_content.tsx:BotanicalBranch",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/japanese-fresh/showcase/_content.tsx",
+      "target": "function:app/styles/japanese-fresh/showcase/_content.tsx:BotanicalWillow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/japanese-fresh/showcase/_content.tsx",
+      "target": "function:app/styles/japanese-fresh/showcase/_content.tsx:BotanicalLeaf",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/japanese-fresh/showcase/_content.tsx",
+      "target": "function:app/styles/japanese-fresh/showcase/_content.tsx:BotanicalReed",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/japanese-fresh/showcase/_content.tsx",
+      "target": "function:app/styles/japanese-fresh/showcase/_content.tsx:BotanicalFern",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/japanese-fresh/showcase/_content.tsx",
+      "target": "function:app/styles/japanese-fresh/showcase/_content.tsx:BotanicalCircle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/japanese-fresh/showcase/_content.tsx",
+      "target": "function:app/styles/japanese-fresh/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/japanese-fresh/showcase/_content.tsx",
+      "target": "function:app/styles/japanese-fresh/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/jrpg/showcase/_content.tsx",
+      "target": "function:app/styles/jrpg/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/jrpg/showcase/_content.tsx",
+      "target": "function:app/styles/jrpg/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/jrpg/showcase/_content.tsx",
+      "target": "function:app/styles/jrpg/showcase/_content.tsx:CornerOrnaments",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/jrpg/showcase/_content.tsx",
+      "target": "function:app/styles/jrpg/showcase/_content.tsx:RPGPanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/jrpg/showcase/_content.tsx",
+      "target": "function:app/styles/jrpg/showcase/_content.tsx:StatBar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/jrpg/showcase/_content.tsx",
+      "target": "function:app/styles/jrpg/showcase/_content.tsx:RPGButton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/jrpg/showcase/_content.tsx",
+      "target": "function:app/styles/jrpg/showcase/_content.tsx:SectionHeader",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/jrpg/showcase/_content.tsx",
+      "target": "function:app/styles/jrpg/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/jrpg/showcase/_content.tsx",
+      "target": "function:app/styles/jrpg/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/kawaii-minimal/showcase/_content.tsx",
+      "target": "function:app/styles/kawaii-minimal/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/kawaii-minimal/showcase/_content.tsx",
+      "target": "function:app/styles/kawaii-minimal/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/kawaii-minimal/showcase/_content.tsx",
+      "target": "function:app/styles/kawaii-minimal/showcase/_content.tsx:FlowerIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/kawaii-minimal/showcase/_content.tsx",
+      "target": "function:app/styles/kawaii-minimal/showcase/_content.tsx:BlobShape",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/kawaii-minimal/showcase/_content.tsx",
+      "target": "function:app/styles/kawaii-minimal/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/kawaii-minimal/showcase/_content.tsx",
+      "target": "function:app/styles/kawaii-minimal/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/korean-minimal/showcase/_content.tsx",
+      "target": "function:app/styles/korean-minimal/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/korean-minimal/showcase/_content.tsx",
+      "target": "function:app/styles/korean-minimal/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/korean-minimal/showcase/_content.tsx",
+      "target": "function:app/styles/korean-minimal/showcase/_content.tsx:KoreanMinimalShowcase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/korean-minimal/showcase/_content.tsx",
+      "target": "function:app/styles/korean-minimal/showcase/_content.tsx:KoreanMinimalShowcase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

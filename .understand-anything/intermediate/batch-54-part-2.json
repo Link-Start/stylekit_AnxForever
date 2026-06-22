@@ -1,0 +1,906 @@
+{
+  "nodes": [
+    {
+      "id": "file:app/styles/bauhaus/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/bauhaus/showcase/page.tsx",
+      "summary": "Showcase page route for the Bauhaus design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/bento-grid/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/bento-grid/showcase/_content.tsx",
+      "summary": "Showcase content component for the Bento Grid design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/bento-grid/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/bento-grid/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        29
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/bento-grid/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/bento-grid/showcase/_content.tsx",
+      "lineRange": [
+        31,
+        54
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/bento-grid/showcase/_content.tsx:BentoGridShowcase",
+      "type": "function",
+      "name": "BentoGridShowcase",
+      "filePath": "app/styles/bento-grid/showcase/_content.tsx",
+      "lineRange": [
+        75,
+        1100
+      ],
+      "summary": "Main showcase component rendering example cards and layout variants for the Bentogrid design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/bento-grid/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/bento-grid/showcase/page.tsx",
+      "summary": "Showcase page route for the Bento Grid design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/blueprint/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/blueprint/showcase/_content.tsx",
+      "summary": "Showcase content component for the Blueprint design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/blueprint/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/blueprint/showcase/_content.tsx",
+      "lineRange": [
+        140,
+        159
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/blueprint/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/blueprint/showcase/_content.tsx",
+      "lineRange": [
+        161,
+        184
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/blueprint/showcase/_content.tsx:AnnotationLine",
+      "type": "function",
+      "name": "AnnotationLine",
+      "filePath": "app/styles/blueprint/showcase/_content.tsx",
+      "lineRange": [
+        201,
+        247
+      ],
+      "summary": "Function component AnnotationLine rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/blueprint/showcase/_content.tsx:FloorPlanSVG",
+      "type": "function",
+      "name": "FloorPlanSVG",
+      "filePath": "app/styles/blueprint/showcase/_content.tsx",
+      "lineRange": [
+        279,
+        437
+      ],
+      "summary": "Function component FloorPlanSVG rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/styles/blueprint/showcase/_content.tsx:SchematicSVG",
+      "type": "function",
+      "name": "SchematicSVG",
+      "filePath": "app/styles/blueprint/showcase/_content.tsx",
+      "lineRange": [
+        443,
+        521
+      ],
+      "summary": "Function component SchematicSVG rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/styles/blueprint/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/blueprint/showcase/_content.tsx",
+      "lineRange": [
+        527,
+        1763
+      ],
+      "summary": "Main showcase content component rendering example cards and layout variants for the Styles design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/blueprint/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/blueprint/showcase/page.tsx",
+      "summary": "Showcase page route for the Blueprint design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/brutalist-web/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/brutalist-web/showcase/_content.tsx",
+      "summary": "Showcase content component for the Brutalist Web design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/brutalist-web/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/brutalist-web/showcase/_content.tsx",
+      "lineRange": [
+        6,
+        25
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/brutalist-web/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/brutalist-web/showcase/_content.tsx",
+      "lineRange": [
+        27,
+        50
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/brutalist-web/showcase/_content.tsx:BrutalistWebShowcase",
+      "type": "function",
+      "name": "BrutalistWebShowcase",
+      "filePath": "app/styles/brutalist-web/showcase/_content.tsx",
+      "lineRange": [
+        83,
+        1551
+      ],
+      "summary": "Main showcase component rendering example cards and layout variants for the Brutalistweb design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/brutalist-web/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/brutalist-web/showcase/page.tsx",
+      "summary": "Showcase page route for the Brutalist Web design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/card-stack/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/card-stack/showcase/_content.tsx",
+      "summary": "Showcase content component for the Card Stack design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/card-stack/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/card-stack/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        29
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/card-stack/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/card-stack/showcase/_content.tsx",
+      "lineRange": [
+        31,
+        54
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/card-stack/showcase/_content.tsx:CardStackShowcaseContent",
+      "type": "function",
+      "name": "CardStackShowcaseContent",
+      "filePath": "app/styles/card-stack/showcase/_content.tsx",
+      "lineRange": [
+        177,
+        2419
+      ],
+      "summary": "Function component CardStackShowcaseContent rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/card-stack/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/card-stack/showcase/page.tsx",
+      "summary": "Showcase page route for the Card Stack design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/cel-shading/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/cel-shading/showcase/_content.tsx",
+      "summary": "Showcase content component for the Cel Shading design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/cel-shading/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/cel-shading/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        29
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/cel-shading/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/cel-shading/showcase/_content.tsx",
+      "lineRange": [
+        31,
+        54
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/cel-shading/showcase/_content.tsx:SpeedLines",
+      "type": "function",
+      "name": "SpeedLines",
+      "filePath": "app/styles/cel-shading/showcase/_content.tsx",
+      "lineRange": [
+        60,
+        104
+      ],
+      "summary": "Function component SpeedLines rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/cel-shading/showcase/_content.tsx:InkPanel",
+      "type": "function",
+      "name": "InkPanel",
+      "filePath": "app/styles/cel-shading/showcase/_content.tsx",
+      "lineRange": [
+        110,
+        129
+      ],
+      "summary": "Function component InkPanel rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/cel-shading/showcase/_content.tsx:ComicBadge",
+      "type": "function",
+      "name": "ComicBadge",
+      "filePath": "app/styles/cel-shading/showcase/_content.tsx",
+      "lineRange": [
+        135,
+        156
+      ],
+      "summary": "Function component ComicBadge rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/cel-shading/showcase/_content.tsx:CelButton",
+      "type": "function",
+      "name": "CelButton",
+      "filePath": "app/styles/cel-shading/showcase/_content.tsx",
+      "lineRange": [
+        162,
+        190
+      ],
+      "summary": "Function component CelButton rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/cel-shading/showcase/_content.tsx:SectionHeader",
+      "type": "function",
+      "name": "SectionHeader",
+      "filePath": "app/styles/cel-shading/showcase/_content.tsx",
+      "lineRange": [
+        196,
+        223
+      ],
+      "summary": "Function component SectionHeader rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/cel-shading/showcase/_content.tsx:CharacterCard",
+      "type": "function",
+      "name": "CharacterCard",
+      "filePath": "app/styles/cel-shading/showcase/_content.tsx",
+      "lineRange": [
+        255,
+        319
+      ],
+      "summary": "Function component CharacterCard rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/styles/cel-shading/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/cel-shading/showcase/_content.tsx",
+      "lineRange": [
+        325,
+        1483
+      ],
+      "summary": "Main showcase content component rendering example cards and layout variants for the Styles design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/cel-shading/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/cel-shading/showcase/page.tsx",
+      "summary": "Showcase page route for the Cel Shading design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/claymorphism/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/claymorphism/showcase/_content.tsx",
+      "summary": "Showcase content component for the Claymorphism design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/claymorphism/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/claymorphism/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        32
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/claymorphism/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/claymorphism/showcase/_content.tsx",
+      "lineRange": [
+        34,
+        57
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/claymorphism/showcase/_content.tsx:ClayButton",
+      "type": "function",
+      "name": "ClayButton",
+      "filePath": "app/styles/claymorphism/showcase/_content.tsx",
+      "lineRange": [
+        266,
+        305
+      ],
+      "summary": "Function component ClayButton rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/claymorphism/showcase/_content.tsx:ClayCard",
+      "type": "function",
+      "name": "ClayCard",
+      "filePath": "app/styles/claymorphism/showcase/_content.tsx",
+      "lineRange": [
+        307,
+        345
+      ],
+      "summary": "Function component ClayCard rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/claymorphism/showcase/_content.tsx:ClayInput",
+      "type": "function",
+      "name": "ClayInput",
+      "filePath": "app/styles/claymorphism/showcase/_content.tsx",
+      "lineRange": [
+        347,
+        382
+      ],
+      "summary": "Function component ClayInput rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/claymorphism/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/claymorphism/showcase/_content.tsx",
+      "lineRange": [
+        388,
+        1345
+      ],
+      "summary": "Main showcase content component rendering example cards and layout variants for the Styles design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:app/styles/bento-grid/showcase/_content.tsx",
+      "target": "function:app/styles/bento-grid/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/bento-grid/showcase/_content.tsx",
+      "target": "function:app/styles/bento-grid/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/bento-grid/showcase/_content.tsx",
+      "target": "function:app/styles/bento-grid/showcase/_content.tsx:BentoGridShowcase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/bento-grid/showcase/_content.tsx",
+      "target": "function:app/styles/bento-grid/showcase/_content.tsx:BentoGridShowcase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/blueprint/showcase/_content.tsx",
+      "target": "function:app/styles/blueprint/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/blueprint/showcase/_content.tsx",
+      "target": "function:app/styles/blueprint/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/blueprint/showcase/_content.tsx",
+      "target": "function:app/styles/blueprint/showcase/_content.tsx:AnnotationLine",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/blueprint/showcase/_content.tsx",
+      "target": "function:app/styles/blueprint/showcase/_content.tsx:FloorPlanSVG",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/blueprint/showcase/_content.tsx",
+      "target": "function:app/styles/blueprint/showcase/_content.tsx:SchematicSVG",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/blueprint/showcase/_content.tsx",
+      "target": "function:app/styles/blueprint/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/blueprint/showcase/_content.tsx",
+      "target": "function:app/styles/blueprint/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/brutalist-web/showcase/_content.tsx",
+      "target": "function:app/styles/brutalist-web/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/brutalist-web/showcase/_content.tsx",
+      "target": "function:app/styles/brutalist-web/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/brutalist-web/showcase/_content.tsx",
+      "target": "function:app/styles/brutalist-web/showcase/_content.tsx:BrutalistWebShowcase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/brutalist-web/showcase/_content.tsx",
+      "target": "function:app/styles/brutalist-web/showcase/_content.tsx:BrutalistWebShowcase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/card-stack/showcase/_content.tsx",
+      "target": "function:app/styles/card-stack/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/card-stack/showcase/_content.tsx",
+      "target": "function:app/styles/card-stack/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/card-stack/showcase/_content.tsx",
+      "target": "function:app/styles/card-stack/showcase/_content.tsx:CardStackShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/card-stack/showcase/_content.tsx",
+      "target": "function:app/styles/card-stack/showcase/_content.tsx:CardStackShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/cel-shading/showcase/_content.tsx",
+      "target": "function:app/styles/cel-shading/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/cel-shading/showcase/_content.tsx",
+      "target": "function:app/styles/cel-shading/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/cel-shading/showcase/_content.tsx",
+      "target": "function:app/styles/cel-shading/showcase/_content.tsx:SpeedLines",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/cel-shading/showcase/_content.tsx",
+      "target": "function:app/styles/cel-shading/showcase/_content.tsx:InkPanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/cel-shading/showcase/_content.tsx",
+      "target": "function:app/styles/cel-shading/showcase/_content.tsx:ComicBadge",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/cel-shading/showcase/_content.tsx",
+      "target": "function:app/styles/cel-shading/showcase/_content.tsx:CelButton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/cel-shading/showcase/_content.tsx",
+      "target": "function:app/styles/cel-shading/showcase/_content.tsx:SectionHeader",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/cel-shading/showcase/_content.tsx",
+      "target": "function:app/styles/cel-shading/showcase/_content.tsx:CharacterCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/cel-shading/showcase/_content.tsx",
+      "target": "function:app/styles/cel-shading/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/cel-shading/showcase/_content.tsx",
+      "target": "function:app/styles/cel-shading/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/claymorphism/showcase/_content.tsx",
+      "target": "function:app/styles/claymorphism/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/claymorphism/showcase/_content.tsx",
+      "target": "function:app/styles/claymorphism/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/claymorphism/showcase/_content.tsx",
+      "target": "function:app/styles/claymorphism/showcase/_content.tsx:ClayButton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/claymorphism/showcase/_content.tsx",
+      "target": "function:app/styles/claymorphism/showcase/_content.tsx:ClayCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/claymorphism/showcase/_content.tsx",
+      "target": "function:app/styles/claymorphism/showcase/_content.tsx:ClayInput",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/claymorphism/showcase/_content.tsx",
+      "target": "function:app/styles/claymorphism/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/claymorphism/showcase/_content.tsx",
+      "target": "function:app/styles/claymorphism/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

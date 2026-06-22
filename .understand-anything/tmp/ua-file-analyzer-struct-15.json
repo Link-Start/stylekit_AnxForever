@@ -1,0 +1,1814 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 32,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "app/[locale]/animations/[slug]/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 34,
+      "nonEmptyLines": 29,
+      "functions": [
+        {
+          "name": "generateStaticParams",
+          "startLine": 10,
+          "endLine": 17,
+          "params": []
+        },
+        {
+          "name": "generateMetadata",
+          "startLine": 19,
+          "endLine": 32,
+          "params": [
+            "{\n  params,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "revalidate",
+          "line": 8,
+          "isDefault": false
+        },
+        {
+          "name": "generateStaticParams",
+          "line": 10,
+          "isDefault": false
+        },
+        {
+          "name": "generateMetadata",
+          "line": 19,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "generateStaticParams",
+          "callee": "LOCALES.flatMap",
+          "lineNumber": 11
+        },
+        {
+          "caller": "generateStaticParams",
+          "callee": "animations.map",
+          "lineNumber": 12
+        },
+        {
+          "caller": "generateMetadata",
+          "callee": "baseGenerateMetadata",
+          "lineNumber": 25
+        },
+        {
+          "caller": "generateMetadata",
+          "callee": "Promise.resolve",
+          "lineNumber": 26
+        },
+        {
+          "caller": "generateMetadata",
+          "callee": "isLocale",
+          "lineNumber": 29
+        },
+        {
+          "caller": "generateMetadata",
+          "callee": "localizeMetadata",
+          "lineNumber": 30
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 3,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/[locale]/animations/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 17,
+      "nonEmptyLines": 15,
+      "functions": [
+        {
+          "name": "generateMetadata",
+          "startLine": 6,
+          "endLine": 15,
+          "params": [
+            "{\n  params,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "generateMetadata",
+          "line": 6,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "generateMetadata",
+          "callee": "isLocale",
+          "lineNumber": 12
+        },
+        {
+          "caller": "generateMetadata",
+          "callee": "localizeMetadata",
+          "lineNumber": 13
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/[locale]/animations/vocabulary/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 27,
+      "nonEmptyLines": 24,
+      "functions": [
+        {
+          "name": "VocabularyPage",
+          "startLine": 15,
+          "endLine": 27,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 7,
+          "isDefault": false
+        },
+        {
+          "name": "metadata",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "VocabularyPage",
+          "line": 15,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 3,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/[locale]/blog/[slug]/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 32,
+      "nonEmptyLines": 28,
+      "functions": [
+        {
+          "name": "generateStaticParams",
+          "startLine": 8,
+          "endLine": 15,
+          "params": []
+        },
+        {
+          "name": "generateMetadata",
+          "startLine": 17,
+          "endLine": 30,
+          "params": [
+            "{\n  params,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "generateStaticParams",
+          "line": 8,
+          "isDefault": false
+        },
+        {
+          "name": "generateMetadata",
+          "line": 17,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "generateStaticParams",
+          "callee": "LOCALES.flatMap",
+          "lineNumber": 9
+        },
+        {
+          "caller": "generateStaticParams",
+          "callee": "getAllSlugs().map",
+          "lineNumber": 10
+        },
+        {
+          "caller": "generateStaticParams",
+          "callee": "getAllSlugs",
+          "lineNumber": 10
+        },
+        {
+          "caller": "generateMetadata",
+          "callee": "baseGenerateMetadata",
+          "lineNumber": 23
+        },
+        {
+          "caller": "generateMetadata",
+          "callee": "Promise.resolve",
+          "lineNumber": 24
+        },
+        {
+          "caller": "generateMetadata",
+          "callee": "isLocale",
+          "lineNumber": 27
+        },
+        {
+          "caller": "generateMetadata",
+          "callee": "localizeMetadata",
+          "lineNumber": 28
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/[locale]/blog/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 17,
+      "nonEmptyLines": 15,
+      "functions": [
+        {
+          "name": "generateMetadata",
+          "startLine": 6,
+          "endLine": 15,
+          "params": [
+            "{\n  params,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "generateMetadata",
+          "line": 6,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "generateMetadata",
+          "callee": "isLocale",
+          "lineNumber": 12
+        },
+        {
+          "caller": "generateMetadata",
+          "callee": "localizeMetadata",
+          "lineNumber": 13
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/[locale]/changelog/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 17,
+      "nonEmptyLines": 15,
+      "functions": [
+        {
+          "name": "generateMetadata",
+          "startLine": 6,
+          "endLine": 15,
+          "params": [
+            "{\n  params,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "generateMetadata",
+          "line": 6,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "generateMetadata",
+          "callee": "isLocale",
+          "lineNumber": 12
+        },
+        {
+          "caller": "generateMetadata",
+          "callee": "localizeMetadata",
+          "lineNumber": 13
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/[locale]/contact/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 17,
+      "nonEmptyLines": 15,
+      "functions": [
+        {
+          "name": "generateMetadata",
+          "startLine": 6,
+          "endLine": 15,
+          "params": [
+            "{\n  params,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "generateMetadata",
+          "line": 6,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "generateMetadata",
+          "callee": "isLocale",
+          "lineNumber": 12
+        },
+        {
+          "caller": "generateMetadata",
+          "callee": "localizeMetadata",
+          "lineNumber": 13
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/[locale]/dark-mode-ui-prompts/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 21,
+      "nonEmptyLines": 18,
+      "functions": [
+        {
+          "name": "generateMetadata",
+          "startLine": 10,
+          "endLine": 19,
+          "params": [
+            "{\n  params,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "revalidate",
+          "line": 8,
+          "isDefault": false
+        },
+        {
+          "name": "generateMetadata",
+          "line": 10,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "generateMetadata",
+          "callee": "isLocale",
+          "lineNumber": 16
+        },
+        {
+          "caller": "generateMetadata",
+          "callee": "localizeMetadata",
+          "lineNumber": 17
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/[locale]/dashboard-prompts/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 21,
+      "nonEmptyLines": 18,
+      "functions": [
+        {
+          "name": "generateMetadata",
+          "startLine": 10,
+          "endLine": 19,
+          "params": [
+            "{\n  params,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "revalidate",
+          "line": 8,
+          "isDefault": false
+        },
+        {
+          "name": "generateMetadata",
+          "line": 10,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "generateMetadata",
+          "callee": "isLocale",
+          "lineNumber": 16
+        },
+        {
+          "caller": "generateMetadata",
+          "callee": "localizeMetadata",
+          "lineNumber": 17
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/[locale]/landing-page-prompts/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 21,
+      "nonEmptyLines": 18,
+      "functions": [
+        {
+          "name": "generateMetadata",
+          "startLine": 10,
+          "endLine": 19,
+          "params": [
+            "{\n  params,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "revalidate",
+          "line": 8,
+          "isDefault": false
+        },
+        {
+          "name": "generateMetadata",
+          "line": 10,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "generateMetadata",
+          "callee": "isLocale",
+          "lineNumber": 16
+        },
+        {
+          "caller": "generateMetadata",
+          "callee": "localizeMetadata",
+          "lineNumber": 17
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/[locale]/layout.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 27,
+      "nonEmptyLines": 22,
+      "functions": [
+        {
+          "name": "generateStaticParams",
+          "startLine": 9,
+          "endLine": 11,
+          "params": []
+        },
+        {
+          "name": "LocaleLayout",
+          "startLine": 13,
+          "endLine": 27,
+          "params": [
+            "{\n  children,\n  params,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamicParams",
+          "line": 7,
+          "isDefault": false
+        },
+        {
+          "name": "generateStaticParams",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "LocaleLayout",
+          "line": 13,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "generateStaticParams",
+          "callee": "LOCALES.map",
+          "lineNumber": 10
+        },
+        {
+          "caller": "LocaleLayout",
+          "callee": "isLocale",
+          "lineNumber": 22
+        },
+        {
+          "caller": "LocaleLayout",
+          "callee": "notFound",
+          "lineNumber": 23
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 3,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/[locale]/mouse-interactions/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 17,
+      "nonEmptyLines": 15,
+      "functions": [
+        {
+          "name": "generateMetadata",
+          "startLine": 6,
+          "endLine": 15,
+          "params": [
+            "{\n  params,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "generateMetadata",
+          "line": 6,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "generateMetadata",
+          "callee": "isLocale",
+          "lineNumber": 12
+        },
+        {
+          "caller": "generateMetadata",
+          "callee": "localizeMetadata",
+          "lineNumber": 13
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/[locale]/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 15,
+      "nonEmptyLines": 13,
+      "functions": [
+        {
+          "name": "generateMetadata",
+          "startLine": 6,
+          "endLine": 13,
+          "params": [
+            "{\n  params,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "generateMetadata",
+          "line": 6,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "generateMetadata",
+          "callee": "isLocale",
+          "lineNumber": 12
+        },
+        {
+          "caller": "generateMetadata",
+          "callee": "localizeMetadata",
+          "lineNumber": 12
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/[locale]/prompts/[topic]/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 34,
+      "nonEmptyLines": 29,
+      "functions": [
+        {
+          "name": "generateStaticParams",
+          "startLine": 10,
+          "endLine": 17,
+          "params": []
+        },
+        {
+          "name": "generateMetadata",
+          "startLine": 19,
+          "endLine": 32,
+          "params": [
+            "{\n  params,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "revalidate",
+          "line": 8,
+          "isDefault": false
+        },
+        {
+          "name": "generateStaticParams",
+          "line": 10,
+          "isDefault": false
+        },
+        {
+          "name": "generateMetadata",
+          "line": 19,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "generateStaticParams",
+          "callee": "LOCALES.flatMap",
+          "lineNumber": 11
+        },
+        {
+          "caller": "generateStaticParams",
+          "callee": "promptTopics.map",
+          "lineNumber": 12
+        },
+        {
+          "caller": "generateMetadata",
+          "callee": "baseGenerateMetadata",
+          "lineNumber": 25
+        },
+        {
+          "caller": "generateMetadata",
+          "callee": "Promise.resolve",
+          "lineNumber": 26
+        },
+        {
+          "caller": "generateMetadata",
+          "callee": "isLocale",
+          "lineNumber": 29
+        },
+        {
+          "caller": "generateMetadata",
+          "callee": "localizeMetadata",
+          "lineNumber": 30
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 3,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/[locale]/prompts/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 17,
+      "nonEmptyLines": 15,
+      "functions": [
+        {
+          "name": "generateMetadata",
+          "startLine": 6,
+          "endLine": 15,
+          "params": [
+            "{\n  params,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "generateMetadata",
+          "line": 6,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "generateMetadata",
+          "callee": "isLocale",
+          "lineNumber": 12
+        },
+        {
+          "caller": "generateMetadata",
+          "callee": "localizeMetadata",
+          "lineNumber": 13
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/[locale]/styles/[slug]/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 43,
+      "nonEmptyLines": 38,
+      "functions": [
+        {
+          "name": "generateStaticParams",
+          "startLine": 11,
+          "endLine": 18,
+          "params": []
+        },
+        {
+          "name": "generateMetadata",
+          "startLine": 20,
+          "endLine": 33,
+          "params": [
+            "{\n  params,\n}"
+          ]
+        },
+        {
+          "name": "LocaleStylePage",
+          "startLine": 35,
+          "endLine": 43,
+          "params": [
+            "{\n  params,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "revalidate",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "generateStaticParams",
+          "line": 11,
+          "isDefault": false
+        },
+        {
+          "name": "generateMetadata",
+          "line": 20,
+          "isDefault": false
+        },
+        {
+          "name": "LocaleStylePage",
+          "line": 35,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "generateStaticParams",
+          "callee": "LOCALES.flatMap",
+          "lineNumber": 12
+        },
+        {
+          "caller": "generateStaticParams",
+          "callee": "styles.map",
+          "lineNumber": 13
+        },
+        {
+          "caller": "generateMetadata",
+          "callee": "baseGenerateMetadata",
+          "lineNumber": 26
+        },
+        {
+          "caller": "generateMetadata",
+          "callee": "Promise.resolve",
+          "lineNumber": 27
+        },
+        {
+          "caller": "generateMetadata",
+          "callee": "isLocale",
+          "lineNumber": 30
+        },
+        {
+          "caller": "generateMetadata",
+          "callee": "localizeMetadata",
+          "lineNumber": 31
+        },
+        {
+          "caller": "LocaleStylePage",
+          "callee": "isLocale",
+          "lineNumber": 41
+        },
+        {
+          "caller": "LocaleStylePage",
+          "callee": "Promise.resolve",
+          "lineNumber": 42
+        }
+      ],
+      "metrics": {
+        "importCount": 5,
+        "exportCount": 4,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/[locale]/styles/[slug]/showcase/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 32,
+      "nonEmptyLines": 28,
+      "functions": [
+        {
+          "name": "generateStaticParams",
+          "startLine": 8,
+          "endLine": 15,
+          "params": []
+        },
+        {
+          "name": "generateMetadata",
+          "startLine": 17,
+          "endLine": 30,
+          "params": [
+            "{\n  params,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "generateStaticParams",
+          "line": 8,
+          "isDefault": false
+        },
+        {
+          "name": "generateMetadata",
+          "line": 17,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "generateStaticParams",
+          "callee": "LOCALES.flatMap",
+          "lineNumber": 9
+        },
+        {
+          "caller": "generateStaticParams",
+          "callee": "styles.map",
+          "lineNumber": 10
+        },
+        {
+          "caller": "generateMetadata",
+          "callee": "baseGenerateMetadata",
+          "lineNumber": 23
+        },
+        {
+          "caller": "generateMetadata",
+          "callee": "Promise.resolve",
+          "lineNumber": 24
+        },
+        {
+          "caller": "generateMetadata",
+          "callee": "isLocale",
+          "lineNumber": 27
+        },
+        {
+          "caller": "generateMetadata",
+          "callee": "localizeMetadata",
+          "lineNumber": 28
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/[locale]/styles/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 17,
+      "nonEmptyLines": 15,
+      "functions": [
+        {
+          "name": "generateMetadata",
+          "startLine": 6,
+          "endLine": 15,
+          "params": [
+            "{\n  params,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "generateMetadata",
+          "line": 6,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "generateMetadata",
+          "callee": "isLocale",
+          "lineNumber": 12
+        },
+        {
+          "caller": "generateMetadata",
+          "callee": "localizeMetadata",
+          "lineNumber": 13
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/[locale]/tailwind-ui-prompts/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 21,
+      "nonEmptyLines": 18,
+      "functions": [
+        {
+          "name": "generateMetadata",
+          "startLine": 10,
+          "endLine": 19,
+          "params": [
+            "{\n  params,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "revalidate",
+          "line": 8,
+          "isDefault": false
+        },
+        {
+          "name": "generateMetadata",
+          "line": 10,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "generateMetadata",
+          "callee": "isLocale",
+          "lineNumber": 16
+        },
+        {
+          "caller": "generateMetadata",
+          "callee": "localizeMetadata",
+          "lineNumber": 17
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/[locale]/ui-prompts/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 17,
+      "nonEmptyLines": 15,
+      "functions": [
+        {
+          "name": "generateMetadata",
+          "startLine": 6,
+          "endLine": 15,
+          "params": [
+            "{\n  params,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "generateMetadata",
+          "line": 6,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "generateMetadata",
+          "callee": "isLocale",
+          "lineNumber": 12
+        },
+        {
+          "caller": "generateMetadata",
+          "callee": "localizeMetadata",
+          "lineNumber": 13
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/about/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 14,
+      "nonEmptyLines": 12,
+      "functions": [
+        {
+          "name": "AboutPage",
+          "startLine": 5,
+          "endLine": 14,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "AboutPage",
+          "line": 5,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/animations/[slug]/_content.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 239,
+      "nonEmptyLines": 220,
+      "functions": [
+        {
+          "name": "AnimationDetailContent",
+          "startLine": 63,
+          "endLine": 204,
+          "params": [
+            "{ animation }"
+          ]
+        },
+        {
+          "name": "SectionSkeleton",
+          "startLine": 206,
+          "endLine": 217,
+          "params": [
+            "{ className = \"min-h-[240px]\" }"
+          ]
+        },
+        {
+          "name": "MetaCard",
+          "startLine": 219,
+          "endLine": 239,
+          "params": [
+            "{\r\n  label,\r\n  value,\r\n  icon,\r\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "AnimationDetailContent",
+          "line": 63,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "AnimationDetailContent",
+          "callee": "useI18n",
+          "lineNumber": 64
+        },
+        {
+          "caller": "AnimationDetailContent",
+          "callee": "t",
+          "lineNumber": 76
+        },
+        {
+          "caller": "AnimationDetailContent",
+          "callee": "t",
+          "lineNumber": 92
+        },
+        {
+          "caller": "AnimationDetailContent",
+          "callee": "t",
+          "lineNumber": 95
+        },
+        {
+          "caller": "AnimationDetailContent",
+          "callee": "t",
+          "lineNumber": 98
+        },
+        {
+          "caller": "AnimationDetailContent",
+          "callee": "t",
+          "lineNumber": 103
+        },
+        {
+          "caller": "AnimationDetailContent",
+          "callee": "t",
+          "lineNumber": 116
+        },
+        {
+          "caller": "AnimationDetailContent",
+          "callee": "t",
+          "lineNumber": 125
+        },
+        {
+          "caller": "AnimationDetailContent",
+          "callee": "t",
+          "lineNumber": 139
+        },
+        {
+          "caller": "AnimationDetailContent",
+          "callee": "t",
+          "lineNumber": 144
+        },
+        {
+          "caller": "AnimationDetailContent",
+          "callee": "t",
+          "lineNumber": 148
+        },
+        {
+          "caller": "AnimationDetailContent",
+          "callee": "animation.cssProperties.join",
+          "lineNumber": 149
+        },
+        {
+          "caller": "AnimationDetailContent",
+          "callee": "t",
+          "lineNumber": 158
+        },
+        {
+          "caller": "AnimationDetailContent",
+          "callee": "animation.useCases.map",
+          "lineNumber": 161
+        },
+        {
+          "caller": "AnimationDetailContent",
+          "callee": "t",
+          "lineNumber": 178
+        },
+        {
+          "caller": "AnimationDetailContent",
+          "callee": "animation.relatedAnimations.map",
+          "lineNumber": 181
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 1,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/animations/[slug]/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 118,
+      "nonEmptyLines": 107,
+      "functions": [
+        {
+          "name": "generateStaticParams",
+          "startLine": 10,
+          "endLine": 14,
+          "params": []
+        },
+        {
+          "name": "generateMetadata",
+          "startLine": 18,
+          "endLine": 52,
+          "params": [
+            "{ params }"
+          ]
+        },
+        {
+          "name": "AnimationDetailPage",
+          "startLine": 54,
+          "endLine": 118,
+          "params": [
+            "{\r\n  params,\r\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "generateStaticParams",
+          "line": 10,
+          "isDefault": false
+        },
+        {
+          "name": "revalidate",
+          "line": 16,
+          "isDefault": false
+        },
+        {
+          "name": "generateMetadata",
+          "line": 18,
+          "isDefault": false
+        },
+        {
+          "name": "AnimationDetailPage",
+          "line": 54,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "generateStaticParams",
+          "callee": "animations.map",
+          "lineNumber": 11
+        },
+        {
+          "caller": "generateMetadata",
+          "callee": "getAnimationBySlug",
+          "lineNumber": 20
+        },
+        {
+          "caller": "generateMetadata",
+          "callee": "getSiteBaseUrl",
+          "lineNumber": 25
+        },
+        {
+          "caller": "AnimationDetailPage",
+          "callee": "getAnimationBySlug",
+          "lineNumber": 60
+        },
+        {
+          "caller": "AnimationDetailPage",
+          "callee": "notFound",
+          "lineNumber": 63
+        },
+        {
+          "caller": "AnimationDetailPage",
+          "callee": "getSiteBaseUrl",
+          "lineNumber": 66
+        },
+        {
+          "caller": "AnimationDetailPage",
+          "callee": "animation.codeSnippets.map",
+          "lineNumber": 74
+        },
+        {
+          "caller": "AnimationDetailPage",
+          "callee": "serializeJsonLd",
+          "lineNumber": 96
+        },
+        {
+          "caller": "AnimationDetailPage",
+          "callee": "serializeJsonLd",
+          "lineNumber": 100
+        }
+      ],
+      "metrics": {
+        "importCount": 7,
+        "exportCount": 4,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/animations/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 30,
+      "nonEmptyLines": 26,
+      "functions": [
+        {
+          "name": "AnimationsPage",
+          "startLine": 16,
+          "endLine": 30,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 8,
+          "isDefault": false
+        },
+        {
+          "name": "metadata",
+          "line": 10,
+          "isDefault": false
+        },
+        {
+          "name": "AnimationsPage",
+          "line": 16,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "AnimationsPage",
+          "callee": "getAllAnimationsMeta",
+          "lineNumber": 17
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 3,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/animations/vocabulary/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 27,
+      "nonEmptyLines": 24,
+      "functions": [
+        {
+          "name": "VocabularyPage",
+          "startLine": 15,
+          "endLine": 27,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 7,
+          "isDefault": false
+        },
+        {
+          "name": "metadata",
+          "line": 9,
+          "isDefault": false
+        },
+        {
+          "name": "VocabularyPage",
+          "line": 15,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 3,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/backgrounds/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 24,
+      "nonEmptyLines": 21,
+      "functions": [
+        {
+          "name": "BackgroundsPage",
+          "startLine": 14,
+          "endLine": 24,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 6,
+          "isDefault": false
+        },
+        {
+          "name": "metadata",
+          "line": 8,
+          "isDefault": false
+        },
+        {
+          "name": "BackgroundsPage",
+          "line": 14,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 3,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/blog/[slug]/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 109,
+      "nonEmptyLines": 97,
+      "functions": [
+        {
+          "name": "generateStaticParams",
+          "startLine": 17,
+          "endLine": 19,
+          "params": []
+        },
+        {
+          "name": "generateMetadata",
+          "startLine": 21,
+          "endLine": 38,
+          "params": [
+            "{ params }"
+          ]
+        },
+        {
+          "name": "BlogPostPage",
+          "startLine": 40,
+          "endLine": 109,
+          "params": [
+            "{ params }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "generateStaticParams",
+          "line": 17,
+          "isDefault": false
+        },
+        {
+          "name": "generateMetadata",
+          "line": 21,
+          "isDefault": false
+        },
+        {
+          "name": "BlogPostPage",
+          "line": 40,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "generateStaticParams",
+          "callee": "getAllSlugs().map",
+          "lineNumber": 18
+        },
+        {
+          "caller": "generateStaticParams",
+          "callee": "getAllSlugs",
+          "lineNumber": 18
+        },
+        {
+          "caller": "generateMetadata",
+          "callee": "getPostBySlug",
+          "lineNumber": 23
+        },
+        {
+          "caller": "BlogPostPage",
+          "callee": "getPostBySlug",
+          "lineNumber": 42
+        },
+        {
+          "caller": "BlogPostPage",
+          "callee": "notFound",
+          "lineNumber": 45
+        },
+        {
+          "caller": "BlogPostPage",
+          "callee": "getSiteBaseUrl",
+          "lineNumber": 48
+        },
+        {
+          "caller": "BlogPostPage",
+          "callee": "generateBlogPostJsonLd",
+          "lineNumber": 49
+        },
+        {
+          "caller": "BlogPostPage",
+          "callee": "generateBreadcrumbJsonLd",
+          "lineNumber": 50
+        },
+        {
+          "caller": "BlogPostPage",
+          "callee": "serializeJsonLd",
+          "lineNumber": 60
+        },
+        {
+          "caller": "BlogPostPage",
+          "callee": "serializeJsonLd",
+          "lineNumber": 64
+        },
+        {
+          "caller": "BlogPostPage",
+          "callee": "post.tags.map",
+          "lineNumber": 81
+        }
+      ],
+      "metrics": {
+        "importCount": 7,
+        "exportCount": 3,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/blog/blog-list-client.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 53,
+      "nonEmptyLines": 46,
+      "functions": [
+        {
+          "name": "BlogListClient",
+          "startLine": 13,
+          "endLine": 53,
+          "params": [
+            "{ posts }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "BlogListClient",
+          "line": 13,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "BlogListClient",
+          "callee": "useI18n",
+          "lineNumber": 14
+        },
+        {
+          "caller": "BlogListClient",
+          "callee": "t",
+          "lineNumber": 24
+        },
+        {
+          "caller": "BlogListClient",
+          "callee": "t",
+          "lineNumber": 27
+        },
+        {
+          "caller": "BlogListClient",
+          "callee": "t",
+          "lineNumber": 30
+        },
+        {
+          "caller": "BlogListClient",
+          "callee": "t",
+          "lineNumber": 38
+        },
+        {
+          "caller": "BlogListClient",
+          "callee": "posts.map",
+          "lineNumber": 41
+        }
+      ],
+      "metrics": {
+        "importCount": 5,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/blog/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 18,
+      "nonEmptyLines": 15,
+      "functions": [
+        {
+          "name": "BlogPage",
+          "startLine": 14,
+          "endLine": 18,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "metadata",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "BlogPage",
+          "line": 14,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "BlogPage",
+          "callee": "getAllPosts",
+          "lineNumber": 15
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/changelog/changelog-client.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 85,
+      "nonEmptyLines": 76,
+      "functions": [
+        {
+          "name": "ChangelogClient",
+          "startLine": 29,
+          "endLine": 85,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "ChangelogClient",
+          "line": 29,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ChangelogClient",
+          "callee": "useI18n",
+          "lineNumber": 30
+        },
+        {
+          "caller": "ChangelogClient",
+          "callee": "t",
+          "lineNumber": 41
+        },
+        {
+          "caller": "ChangelogClient",
+          "callee": "t",
+          "lineNumber": 44
+        },
+        {
+          "caller": "ChangelogClient",
+          "callee": "t",
+          "lineNumber": 47
+        },
+        {
+          "caller": "ChangelogClient",
+          "callee": "changelog.map",
+          "lineNumber": 55
+        },
+        {
+          "caller": "ChangelogClient",
+          "callee": "entry.changes.map",
+          "lineNumber": 66
+        }
+      ],
+      "metrics": {
+        "importCount": 4,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/changelog/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 17,
+      "nonEmptyLines": 14,
+      "functions": [
+        {
+          "name": "ChangelogPage",
+          "startLine": 15,
+          "endLine": 17,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 4,
+          "isDefault": false
+        },
+        {
+          "name": "metadata",
+          "line": 6,
+          "isDefault": false
+        },
+        {
+          "name": "ChangelogPage",
+          "line": 15,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 3,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/component-patterns/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 24,
+      "nonEmptyLines": 21,
+      "functions": [
+        {
+          "name": "ComponentPatternsPage",
+          "startLine": 14,
+          "endLine": 24,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 6,
+          "isDefault": false
+        },
+        {
+          "name": "metadata",
+          "line": 8,
+          "isDefault": false
+        },
+        {
+          "name": "ComponentPatternsPage",
+          "line": 14,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 3,
+        "exportCount": 3,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    }
+  ]
+}

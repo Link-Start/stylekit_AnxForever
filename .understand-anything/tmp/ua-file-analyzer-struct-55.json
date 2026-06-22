@@ -1,0 +1,3945 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 25,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "app/styles/claymorphism/showcase/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 16,
+      "nonEmptyLines": 12,
+      "functions": [
+        {
+          "name": "ClaymorphismShowcasePage",
+          "startLine": 14,
+          "endLine": 16,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "metadata",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "ClaymorphismShowcasePage",
+          "line": 14,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/styles/collage-art/showcase/_content.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 1268,
+      "nonEmptyLines": 1182,
+      "functions": [
+        {
+          "name": "useInView",
+          "startLine": 10,
+          "endLine": 29,
+          "params": [
+            "options"
+          ]
+        },
+        {
+          "name": "RevealBlock",
+          "startLine": 31,
+          "endLine": 54,
+          "params": [
+            "{\r\n  children,\r\n  className = \"\",\r\n  delay = 0,\r\n}"
+          ]
+        },
+        {
+          "name": "TornEdgeTop",
+          "startLine": 219,
+          "endLine": 233,
+          "params": [
+            "{ fill = \"#f5f0e8\" }"
+          ]
+        },
+        {
+          "name": "TornEdgeBottom",
+          "startLine": 235,
+          "endLine": 249,
+          "params": [
+            "{ fill = \"#2d2d2d\" }"
+          ]
+        },
+        {
+          "name": "ShowcaseContent",
+          "startLine": 255,
+          "endLine": 1268,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "ShowcaseContent",
+          "line": 255,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "useInView",
+          "callee": "useRef",
+          "lineNumber": 11
+        },
+        {
+          "caller": "useInView",
+          "callee": "useState",
+          "lineNumber": 12
+        },
+        {
+          "caller": "useInView",
+          "callee": "useEffect",
+          "lineNumber": 13
+        },
+        {
+          "caller": "useInView",
+          "callee": "setInView",
+          "lineNumber": 19
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.disconnect",
+          "lineNumber": 20
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.observe",
+          "lineNumber": 25
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.disconnect",
+          "lineNumber": 26
+        },
+        {
+          "caller": "RevealBlock",
+          "callee": "useInView",
+          "lineNumber": 40
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 256
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 257
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 258
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 259
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useInView",
+          "lineNumber": 261
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useEffect",
+          "lineNumber": 263
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setTimeout",
+          "lineNumber": 264
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setHeroRevealed",
+          "lineNumber": 264
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "clearTimeout",
+          "lineNumber": 265
+        },
+        {
+          "caller": "togglePin",
+          "callee": "setPinnedItems",
+          "lineNumber": 271
+        },
+        {
+          "caller": "togglePin",
+          "callee": "prev.includes",
+          "lineNumber": 272
+        },
+        {
+          "caller": "togglePin",
+          "callee": "prev.filter",
+          "lineNumber": 272
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\"01\", \"02\", \"03\", \"04\"].map",
+          "lineNumber": 498
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "([\"scatter\", \"grid\", \"overlap\"] as const).map",
+          "lineNumber": 549
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setCollageMode",
+          "lineNumber": 552
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "clippings.map",
+          "lineNumber": 574
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "typographyStyles.map",
+          "lineNumber": 792
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setActiveStyle",
+          "lineNumber": 795
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "typographyStyles.map",
+          "lineNumber": 811
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "style.rotation.replace(\"rotate-[\", \"\").replace",
+          "lineNumber": 818
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "style.rotation.replace",
+          "lineNumber": 818
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "typographyStyles.map",
+          "lineNumber": 843
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setActiveStyle",
+          "lineNumber": 846
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "colorSwatches.map",
+          "lineNumber": 898
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "manifestoStatements.map",
+          "lineNumber": 975
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "pinnedItems.includes",
+          "lineNumber": 976
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "togglePin",
+          "lineNumber": 980
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "doRules.map",
+          "lineNumber": 1088
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "String(i + 1).padStart",
+          "lineNumber": 1091
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "String",
+          "lineNumber": 1091
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "dontRules.map",
+          "lineNumber": 1144
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "String(i + 1).padStart",
+          "lineNumber": 1147
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "String",
+          "lineNumber": 1147
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\"#2d2d2d\", \"#e74c3c\", \"#3498db\", \"#f39c12\", \"#9b59b6\", \"#f5f0e8\"].map",
+          "lineNumber": 1205
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/styles/collage-art/showcase/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 16,
+      "nonEmptyLines": 12,
+      "functions": [
+        {
+          "name": "CollageArtShowcasePage",
+          "startLine": 14,
+          "endLine": 16,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "metadata",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "CollageArtShowcasePage",
+          "line": 14,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/styles/comic-style/showcase/_content.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 1347,
+      "nonEmptyLines": 1283,
+      "functions": [
+        {
+          "name": "useInView",
+          "startLine": 10,
+          "endLine": 29,
+          "params": [
+            "options"
+          ]
+        },
+        {
+          "name": "RevealBlock",
+          "startLine": 35,
+          "endLine": 58,
+          "params": [
+            "{\n  children,\n  className = \"\",\n  delay = 0,\n}"
+          ]
+        },
+        {
+          "name": "SpeechBubble",
+          "startLine": 64,
+          "endLine": 117,
+          "params": [
+            "{\n  children,\n  color = \"#ffcc00\",\n  textColor = \"#1a1a1a\",\n  direction = \"left\",\n  className = \"\",\n}"
+          ]
+        },
+        {
+          "name": "ThoughtBubble",
+          "startLine": 123,
+          "endLine": 166,
+          "params": [
+            "{\n  children,\n  className = \"\",\n}"
+          ]
+        },
+        {
+          "name": "ActionBurst",
+          "startLine": 172,
+          "endLine": 209,
+          "params": [
+            "{\n  word,\n  color = \"#ff3333\",\n  textColor = \"#ffffff\",\n  size = \"md\",\n  rotate = 0,\n  className = \"\",\n}"
+          ]
+        },
+        {
+          "name": "ComicButton",
+          "startLine": 215,
+          "endLine": 241,
+          "params": [
+            "{\n  children,\n  variant = \"primary\",\n  onClick,\n}"
+          ]
+        },
+        {
+          "name": "ComicPanel",
+          "startLine": 247,
+          "endLine": 264,
+          "params": [
+            "{\n  children,\n  className = \"\",\n  accentColor = \"#000\",\n}"
+          ]
+        },
+        {
+          "name": "ShowcaseContent",
+          "startLine": 324,
+          "endLine": 1347,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "ShowcaseContent",
+          "line": 324,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "useInView",
+          "callee": "useRef",
+          "lineNumber": 11
+        },
+        {
+          "caller": "useInView",
+          "callee": "useState",
+          "lineNumber": 12
+        },
+        {
+          "caller": "useInView",
+          "callee": "useEffect",
+          "lineNumber": 13
+        },
+        {
+          "caller": "useInView",
+          "callee": "setInView",
+          "lineNumber": 19
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.disconnect",
+          "lineNumber": 20
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.observe",
+          "lineNumber": 25
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.disconnect",
+          "lineNumber": 26
+        },
+        {
+          "caller": "RevealBlock",
+          "callee": "useInView",
+          "lineNumber": 44
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 325
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 326
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 327
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useEffect",
+          "lineNumber": 329
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setTimeout",
+          "lineNumber": 330
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setHeroRevealed",
+          "lineNumber": 330
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "clearTimeout",
+          "lineNumber": 331
+        },
+        {
+          "caller": "handlePress",
+          "callee": "setPressedLabel",
+          "lineNumber": 335
+        },
+        {
+          "caller": "handlePress",
+          "callee": "setTimeout",
+          "lineNumber": 336
+        },
+        {
+          "caller": "handlePress",
+          "callee": "setPressedLabel",
+          "lineNumber": 336
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "(\n                [\n                  { label: \"DOCS\", href: \"/styles/comic-style\" },\n                  { label: \"STYLES\", href: \"/styles\" },\n                ] as const\n              ).map",
+          "lineNumber": 428
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "handlePress",
+          "lineNumber": 568
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "handlePress",
+          "lineNumber": 571
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[0, 1].map",
+          "lineNumber": 589
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "([\"buttons\", \"cards\", \"bubbles\"] as const).map",
+          "lineNumber": 776
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setActiveTab",
+          "lineNumber": 780
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "tab.toUpperCase",
+          "lineNumber": 790
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "handlePress",
+          "lineNumber": 807
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "handlePress",
+          "lineNumber": 810
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "handlePress",
+          "lineNumber": 813
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "featureCards.map",
+          "lineNumber": 838
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "colorSwatches.map",
+          "lineNumber": 949
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "doRules.map",
+          "lineNumber": 1048
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "dontRules.map",
+          "lineNumber": 1080
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[0, 1].map",
+          "lineNumber": 1276
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 8,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/styles/comic-style/showcase/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 16,
+      "nonEmptyLines": 12,
+      "functions": [
+        {
+          "name": "ComicStyleShowcasePage",
+          "startLine": 14,
+          "endLine": 16,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "metadata",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "ComicStyleShowcasePage",
+          "line": 14,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/styles/constructivism/showcase/_content.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 2169,
+      "nonEmptyLines": 2092,
+      "functions": [
+        {
+          "name": "useInView",
+          "startLine": 10,
+          "endLine": 31,
+          "params": [
+            "options"
+          ]
+        },
+        {
+          "name": "RevealBlock",
+          "startLine": 33,
+          "endLine": 56,
+          "params": [
+            "{\r\n  children,\r\n  className = \"\",\r\n  delay = 0,\r\n}"
+          ]
+        },
+        {
+          "name": "ShowcaseContent",
+          "startLine": 72,
+          "endLine": 2169,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "ShowcaseContent",
+          "line": 72,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "useInView",
+          "callee": "useRef",
+          "lineNumber": 11
+        },
+        {
+          "caller": "useInView",
+          "callee": "useState",
+          "lineNumber": 12
+        },
+        {
+          "caller": "useInView",
+          "callee": "useEffect",
+          "lineNumber": 14
+        },
+        {
+          "caller": "useInView",
+          "callee": "setInView",
+          "lineNumber": 20
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.disconnect",
+          "lineNumber": 21
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.observe",
+          "lineNumber": 26
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.disconnect",
+          "lineNumber": 27
+        },
+        {
+          "caller": "RevealBlock",
+          "callee": "useInView",
+          "lineNumber": 42
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 73
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 74
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 77
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 80
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 83
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 84
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 87
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useEffect",
+          "lineNumber": 89
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setTimeout",
+          "lineNumber": 90
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setHeroVisible",
+          "lineNumber": 90
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "clearTimeout",
+          "lineNumber": 91
+        },
+        {
+          "caller": "toggleSnapCard",
+          "callee": "setSnapCards",
+          "lineNumber": 95
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\"Palette\", \"Components\", \"Rules Demo\", \"Philosophy\", \"Do/Don't\"].map",
+          "lineNumber": 205
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n              { value: \"1920s\", label: \"ORIGIN ERA\" },\r\n              { value: \"3\", label: \"COLOR LIMIT\" },\r\n              { value: \"0deg\", label: \"ALLOWED CURVES\" },\r\n              { value: \"100ms\", label: \"MAX TRANSITION\" },\r\n            ].map",
+          "lineNumber": 412
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "paletteSwatches.map",
+          "lineNumber": 482
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n                  {\r\n                    color: RED,\r\n                    name: \"Soviet Red\",\r\n                    usage: [\"Primary CTAs\", \"Section headers\", \"Diagonal slabs\", \"Alert borders\"],\r\n                    textColor: PAPER,\r\n                  },\r\n                  {\r\n                    color: BLACK,\r\n                    name: \"Pure Black\",\r\n                    usage: [\"All borders border-4\", \"Hard shadows\", \"Body text\", \"Structural frames\"],\r\n                    textColor: PAPER,\r\n                  },\r\n                  {\r\n                    color: PAPER,\r\n                    name: \"Aged Paper\",\r\n                    usage: [\"Page background\", \"Card surface\", \"Text on dark\", \"Form fields\"],\r\n                    textColor: BLACK,\r\n                  },\r\n                ].map",
+          "lineNumber": 546
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "item.usage.map",
+          "lineNumber": 581
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "([\"buttons\", \"cards\", \"inputs\", \"hero\"] as const).map",
+          "lineNumber": 634
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setActiveTab",
+          "lineNumber": 637
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n                        { label: \"SM\", px: \"px-5 py-2\", text: \"text-xs\" },\r\n                        { label: \"MD\", px: \"px-8 py-3\", text: \"text-sm\" },\r\n                        { label: \"LG\", px: \"px-12 py-4\", text: \"text-base\" },\r\n                      ].map",
+          "lineNumber": 768
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n                    {\r\n                      title: \"MANIFESTO\",\r\n                      label: \"DOCTRINE\",\r\n                      body: \"Art must serve the revolution. Design is a weapon of progress and collective transformation of society.\",\r\n                      bannerBg: RED,\r\n                    },\r\n                    {\r\n                      title: \"WORKERS\",\r\n                      label: \"SOCIAL\",\r\n                      body: \"The worker is the foundation of the new world. Geometric forms reflect mechanical clarity and collective strength.\",\r\n                      bannerBg: BLACK,\r\n                    },\r\n                    {\r\n                      title: \"INDUSTRY\",\r\n                      label: \"PROGRESS\",\r\n                      body: \"Iron and fire shape the future. Diagonal compositions mirror the energy of machines in perpetual motion.\",\r\n                      bannerBg: RED,\r\n                    },\r\n                    {\r\n                      title: \"GEOMETRY\",\r\n                      label: \"FORM\",\r\n                      body: \"Only pure geometric forms carry the revolutionary spirit. No curves. No organic shapes. Only hard-edged truth.\",\r\n                      bannerBg: BLACK,\r\n                    },\r\n                  ].map",
+          "lineNumber": 810
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n                    { label: \"RED INVASION\", bg: RED, invader: BLACK, text: PAPER },\r\n                    { label: \"BLACK INVASION\", bg: BLACK, invader: RED, text: PAPER },\r\n                    { label: \"PAPER INVASION\", bg: PAPER, invader: RED, text: BLACK },\r\n                  ].map",
+          "lineNumber": 1186
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setInvasionTarget",
+          "lineNumber": 1201
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setInvasionTarget",
+          "lineNumber": 1202
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n                    { title: \"POSTER A\", label: \"1920\" },\r\n                    { title: \"POSTER B\", label: \"1925\" },\r\n                    { title: \"POSTER C\", label: \"1928\" },\r\n                    { title: \"POSTER D\", label: \"1932\" },\r\n                  ].map",
+          "lineNumber": 1259
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "el.querySelector",
+          "lineNumber": 1278
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "el.querySelector",
+          "lineNumber": 1279
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "el.querySelector",
+          "lineNumber": 1288
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "el.querySelector",
+          "lineNumber": 1289
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setAggressionHovered",
+          "lineNumber": 1319
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setAggressionHovered",
+          "lineNumber": 1320
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setReversalHeld",
+          "lineNumber": 1368
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setReversalHeld",
+          "lineNumber": 1369
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setReversalHeld",
+          "lineNumber": 1370
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setReversalHeld",
+          "lineNumber": 1371
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setReversalHeld",
+          "lineNumber": 1372
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setReversalActive",
+          "lineNumber": 1428
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n                    { title: \"MANIFESTO I\", body: \"Hover to snap the diagonal line to horizontal.\" },\r\n                    { title: \"MANIFESTO II\", body: \"The tilted line represents organic chaos — hover corrects it.\" },\r\n                    { title: \"MANIFESTO III\", body: \"Revolution straightens what was crooked. Geometric order.\" },\r\n                  ].map",
+          "lineNumber": 1475
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "toggleSnapCard",
+          "lineNumber": 1489
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "toggleSnapCard",
+          "lineNumber": 1490
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "snapCards.some",
+          "lineNumber": 1521
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "doItems.map",
+          "lineNumber": 1638
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "dontItems.map",
+          "lineNumber": 1705
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n              {\r\n                icon: \"▲\",\r\n                title: \"DIAGONAL COMPOSITION\",\r\n                tagline: \"Everything tilts toward revolution\",\r\n                body: \"Diagonal lines create tension and urgency. Skewed blocks, rotated headlines, tilted accent lines — the world is in motion, not at rest.\",\r\n                bg: BLACK,\r\n                titleColor: RED,\r\n                taglineColor: PAPER,\r\n                bodyColor: PAPER,\r\n              },\r\n              {\r\n                icon: \"■\",\r\n                title: \"GEOMETRIC PURITY\",\r\n                tagline: \"Only hard forms speak truth\",\r\n                body: \"Squares, rectangles, triangles. No curves permitted. Geometry embodies the precision of the machine and the clarity of collective purpose.\",\r\n                bg: RED,\r\n                titleColor: PAPER,\r\n                taglineColor: GOLD,\r\n                bodyColor: PAPER,\r\n              },\r\n              {\r\n                icon: \"●\",\r\n                title: \"TYPOGRAPHIC FORCE\",\r\n                tagline: \"Letters as visual weapons\",\r\n                body: \"Font-black, uppercase, extreme tracking. Giant headlines contrast with tiny body text. Every glyph is a hammer strike, not a whisper.\",\r\n                bg: PAPER,\r\n                titleColor: BLACK,\r\n                taglineColor: RED,\r\n                bodyColor: BLACK,\r\n              },\r\n            ].map",
+          "lineNumber": 1751
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n                  {\r\n                    year: \"1910s\",\r\n                    text: \"Russian avant-garde artists reject pure aestheticism. Art must function. The canvas becomes a poster, the poster becomes a tool.\",\r\n                  },\r\n                  {\r\n                    year: \"1920s\",\r\n                    text: \"Peak Constructivism. El Lissitzky, Rodchenko, Popova define the vocabulary: diagonals, geometric blocks, red-black-paper.\",\r\n                  },\r\n                  {\r\n                    year: \"Today\",\r\n                    text: \"The style reaches web design. Hard edges, hard shadows, mechanical transitions — a century later, still the most urgent visual language.\",\r\n                  },\r\n                ].map",
+          "lineNumber": 1900
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n              {\r\n                icon: \"◆\",\r\n                title: \"Zero Curves\",\r\n                desc: \"Every border-radius is zero. The square rules. The rectangle serves. Organic forms are counter-revolutionary.\",\r\n              },\r\n              {\r\n                icon: \"▮\",\r\n                title: \"Hard Shadows\",\r\n                desc: \"shadow-[4px_4px_0_#1a1a1a] mimics the woodblock press. No blur. No diffusion. Hard-edged like a stamp.\",\r\n              },\r\n              {\r\n                icon: \"↗\",\r\n                title: \"Diagonal Force\",\r\n                desc: \"Skewed slabs, rotated headlines, tilted lines. Static horizontals denote stagnation — diagonals mean progress.\",\r\n              },\r\n              {\r\n                icon: \"█\",\r\n                title: \"Three Colors\",\r\n                desc: \"Soviet red, pure black, aged paper. Every additional color dilutes the revolutionary message. Discipline is power.\",\r\n              },\r\n              {\r\n                icon: \"▬\",\r\n                title: \"Weight Contrast\",\r\n                desc: \"font-black for headlines. Extreme size contrast between title and body. Typography as architecture, not decoration.\",\r\n              },\r\n              {\r\n                icon: \"⚙\",\r\n                title: \"Mechanical Time\",\r\n                desc: \"duration-75 ease-linear. The machine does not ease-in-out. It starts and stops with the precision of industrial rhythm.\",\r\n              },\r\n            ].map",
+          "lineNumber": 1941
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[RED, BLACK, PAPER, GOLD, BROWN].map",
+          "lineNumber": 2044
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n                  { label: \"Documentation\", href: \"/styles/constructivism\" },\r\n                  { label: \"Showcase\", href: \"/styles/constructivism/showcase\" },\r\n                  { label: \"Cover\", href: \"/styles/constructivism/cover\" },\r\n                ].map",
+          "lineNumber": 2063
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n                  { label: \"Home\", href: \"/\" },\r\n                  { label: \"All Styles\", href: \"/styles\" },\r\n                ].map",
+          "lineNumber": 2091
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "paletteSwatches.map",
+          "lineNumber": 2118
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/styles/constructivism/showcase/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 17,
+      "nonEmptyLines": 13,
+      "functions": [
+        {
+          "name": "Page",
+          "startLine": 15,
+          "endLine": 17,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 2,
+          "isDefault": false
+        },
+        {
+          "name": "metadata",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "Page",
+          "line": 15,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/styles/corporate-clean/showcase/_content.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 1166,
+      "nonEmptyLines": 1095,
+      "functions": [
+        {
+          "name": "useInView",
+          "startLine": 8,
+          "endLine": 27,
+          "params": [
+            "options"
+          ]
+        },
+        {
+          "name": "RevealBlock",
+          "startLine": 31,
+          "endLine": 54,
+          "params": [
+            "{\n  children,\n  className = \"\",\n  delay = 0,\n}"
+          ]
+        },
+        {
+          "name": "IconCheck",
+          "startLine": 58,
+          "endLine": 64,
+          "params": [
+            "{ className = \"\" }"
+          ]
+        },
+        {
+          "name": "IconX",
+          "startLine": 66,
+          "endLine": 73,
+          "params": [
+            "{ className = \"\" }"
+          ]
+        },
+        {
+          "name": "IconArrowRight",
+          "startLine": 75,
+          "endLine": 82,
+          "params": [
+            "{ className = \"\" }"
+          ]
+        },
+        {
+          "name": "IconArrowUpRight",
+          "startLine": 84,
+          "endLine": 91,
+          "params": [
+            "{ className = \"\" }"
+          ]
+        },
+        {
+          "name": "IconShield",
+          "startLine": 93,
+          "endLine": 99,
+          "params": [
+            "{ className = \"\" }"
+          ]
+        },
+        {
+          "name": "IconZap",
+          "startLine": 101,
+          "endLine": 107,
+          "params": [
+            "{ className = \"\" }"
+          ]
+        },
+        {
+          "name": "IconBarChart",
+          "startLine": 109,
+          "endLine": 117,
+          "params": [
+            "{ className = \"\" }"
+          ]
+        },
+        {
+          "name": "IconLayers",
+          "startLine": 119,
+          "endLine": 127,
+          "params": [
+            "{ className = \"\" }"
+          ]
+        },
+        {
+          "name": "IconUsers",
+          "startLine": 129,
+          "endLine": 138,
+          "params": [
+            "{ className = \"\" }"
+          ]
+        },
+        {
+          "name": "IconGlobe",
+          "startLine": 140,
+          "endLine": 148,
+          "params": [
+            "{ className = \"\" }"
+          ]
+        },
+        {
+          "name": "IconTrendingUp",
+          "startLine": 150,
+          "endLine": 157,
+          "params": [
+            "{ className = \"\" }"
+          ]
+        },
+        {
+          "name": "ShowcaseContent",
+          "startLine": 261,
+          "endLine": 1166,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "ShowcaseContent",
+          "line": 261,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "useInView",
+          "callee": "useRef",
+          "lineNumber": 9
+        },
+        {
+          "caller": "useInView",
+          "callee": "useState",
+          "lineNumber": 10
+        },
+        {
+          "caller": "useInView",
+          "callee": "useEffect",
+          "lineNumber": 11
+        },
+        {
+          "caller": "useInView",
+          "callee": "setInView",
+          "lineNumber": 17
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.disconnect",
+          "lineNumber": 18
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.observe",
+          "lineNumber": 23
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.disconnect",
+          "lineNumber": 24
+        },
+        {
+          "caller": "RevealBlock",
+          "callee": "useInView",
+          "lineNumber": 40
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 262
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 263
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 264
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 265
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 266
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 267
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useEffect",
+          "lineNumber": 269
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setTimeout",
+          "lineNumber": 270
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setHeroRevealed",
+          "lineNumber": 270
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "clearTimeout",
+          "lineNumber": 271
+        },
+        {
+          "caller": "handleInputChange",
+          "callee": "setInputValue",
+          "lineNumber": 275
+        },
+        {
+          "caller": "handleInputChange",
+          "callee": "setInputError",
+          "lineNumber": 276
+        },
+        {
+          "caller": "handleInputChange",
+          "callee": "setInputSuccess",
+          "lineNumber": 277
+        },
+        {
+          "caller": "handleInputBlur",
+          "callee": "setInputFocused",
+          "lineNumber": 281
+        },
+        {
+          "caller": "handleInputBlur",
+          "callee": "inputValue.includes",
+          "lineNumber": 282
+        },
+        {
+          "caller": "handleInputBlur",
+          "callee": "setInputError",
+          "lineNumber": 283
+        },
+        {
+          "caller": "handleInputBlur",
+          "callee": "inputValue.includes",
+          "lineNumber": 284
+        },
+        {
+          "caller": "handleInputBlur",
+          "callee": "setInputSuccess",
+          "lineNumber": 285
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\"Product\", \"Pricing\", \"Docs\", \"Blog\"].map",
+          "lineNumber": 326
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\"#94a3b8\", \"#60a5fa\", \"#34d399\", \"#a78bfa\", \"#fb923c\"].map",
+          "lineNumber": 444
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\n                      { label: \"Revenue\", value: \"$2.4M\", change: \"+18%\", color: \"#10b981\" },\n                      { label: \"Users\", value: \"14.2K\", change: \"+340\", color: \"#10b981\" },\n                      { label: \"Uptime\", value: \"99.99%\", change: \"0.01%\", color: \"#10b981\" },\n                    ].map",
+          "lineNumber": 483
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[45, 60, 42, 70, 85, 100].map",
+          "lineNumber": 508
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\"Aug\", \"Sep\", \"Oct\", \"Nov\", \"Dec\", \"Jan\"].map",
+          "lineNumber": 521
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\n                      { user: \"Acme Corp\", action: \"Upgraded plan\", status: \"Success\" },\n                      { user: \"GlobalTech\", action: \"API key created\", status: \"Info\" },\n                      { user: \"Meridian\", action: \"Invited 4 members\", status: \"Success\" },\n                    ].map",
+          "lineNumber": 533
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "features.map",
+          "lineNumber": 582
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "metrics.map",
+          "lineNumber": 610
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "tabViews.map",
+          "lineNumber": 649
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setActiveTab",
+          "lineNumber": 653
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setInputFocused",
+          "lineNumber": 752
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\n                          \"w-full px-4 py-2.5 rounded-lg border text-sm bg-white text-slate-700 placeholder-slate-400 focus:outline-none transition-all duration-150\",\n                          inputError\n                            ? \"border-red-400 ring-2 ring-red-400 ring-offset-2\"\n                            : inputSuccess\n                            ? \"border-green-400 ring-2 ring-green-500 ring-offset-2\"\n                            : inputFocused\n                            ? \"border-blue-400 ring-2 ring-blue-500 ring-offset-2\"\n                            : \"border-slate-200\",\n                        ].join",
+          "lineNumber": 754
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\n                      { label: \"Active\", bg: \"#dcfce7\", color: \"#15803d\" },\n                      { label: \"Pending\", bg: \"#fef9c3\", color: \"#a16207\" },\n                      { label: \"Failed\", bg: \"#fee2e2\", color: \"#b91c1c\" },\n                      { label: \"Draft\", bg: \"#f1f5f9\", color: \"#475569\" },\n                      { label: \"Enterprise\", bg: \"#eff6ff\", color: \"#1e40af\" },\n                      { label: \"Beta\", bg: \"#fdf4ff\", color: \"#7e22ce\" },\n                    ].map",
+          "lineNumber": 810
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\n                      { icon: \"\\u2139\", label: \"Info\", title: \"Your trial expires in 7 days.\", bg: \"#eff6ff\", border: \"#bfdbfe\", color: \"#1e40af\" },\n                      { icon: \"\\u2713\", label: \"Success\", title: \"Deployment completed successfully.\", bg: \"#f0fdf4\", border: \"#bbf7d0\", color: \"#15803d\" },\n                      { icon: \"\\u26A0\", label: \"Warning\", title: \"API usage is above 80% of your quota.\", bg: \"#fffbeb\", border: \"#fde68a\", color: \"#b45309\" },\n                      { icon: \"\\u2715\", label: \"Error\", title: \"Failed to connect to database.\", bg: \"#fef2f2\", border: \"#fecaca\", color: \"#b91c1c\" },\n                    ].map",
+          "lineNumber": 838
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\n                    { label: \"Display / H1\", size: \"text-5xl\", weight: \"font-bold\", sample: \"The quick brown fox\" },\n                    { label: \"H2\", size: \"text-3xl\", weight: \"font-bold\", sample: \"Jumps over the lazy dog\" },\n                    { label: \"H3\", size: \"text-xl\", weight: \"font-semibold\", sample: \"Pack my box with five\" },\n                    { label: \"Body\", size: \"text-base\", weight: \"font-normal\", sample: \"Sphinx of black quartz, judge my vow.\" },\n                    { label: \"Small / Caption\", size: \"text-sm\", weight: \"font-medium\", sample: \"How vexingly quick daft zebras jump!\" },\n                    { label: \"Label / Overline\", size: \"text-xs\", weight: \"font-semibold\", sample: \"UPPERCASE TRACKING WIDEST\" },\n                  ].map",
+          "lineNumber": 865
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "spacingSteps.map",
+          "lineNumber": 891
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "blueSwatches.map",
+          "lineNumber": 995
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "slateSwatches.map",
+          "lineNumber": 1013
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "accentSwatches.map",
+          "lineNumber": 1031
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "doRules.map",
+          "lineNumber": 1070
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "dontRules.map",
+          "lineNumber": 1092
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "new Date().getFullYear",
+          "lineNumber": 1159
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 14,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/styles/corporate-clean/showcase/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 11,
+      "nonEmptyLines": 8,
+      "functions": [
+        {
+          "name": "CorporateCleanShowcase",
+          "startLine": 9,
+          "endLine": 11,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "CorporateCleanShowcase",
+          "line": 9,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/styles/cottagecore/showcase/_content.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 1251,
+      "nonEmptyLines": 1194,
+      "functions": [
+        {
+          "name": "useInView",
+          "startLine": 5,
+          "endLine": 24,
+          "params": [
+            "options"
+          ]
+        },
+        {
+          "name": "RevealBlock",
+          "startLine": 26,
+          "endLine": 49,
+          "params": [
+            "{\n  children,\n  className = \"\",\n  delay = 0,\n}"
+          ]
+        },
+        {
+          "name": "FlowerSvg",
+          "startLine": 53,
+          "endLine": 67,
+          "params": [
+            "{ className = \"\" }"
+          ]
+        },
+        {
+          "name": "LeafSvg",
+          "startLine": 69,
+          "endLine": 80,
+          "params": [
+            "{ className = \"\" }"
+          ]
+        },
+        {
+          "name": "MushroomSvg",
+          "startLine": 82,
+          "endLine": 92,
+          "params": [
+            "{ className = \"\" }"
+          ]
+        },
+        {
+          "name": "DaisySvg",
+          "startLine": 94,
+          "endLine": 108,
+          "params": [
+            "{ className = \"\" }"
+          ]
+        },
+        {
+          "name": "BerrySvg",
+          "startLine": 110,
+          "endLine": 122,
+          "params": [
+            "{ className = \"\" }"
+          ]
+        },
+        {
+          "name": "FernSvg",
+          "startLine": 124,
+          "endLine": 140,
+          "params": [
+            "{ className = \"\" }"
+          ]
+        },
+        {
+          "name": "CottagecoreShowcase",
+          "startLine": 290,
+          "endLine": 1251,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "CottagecoreShowcase",
+          "line": 290,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "useInView",
+          "callee": "useRef",
+          "lineNumber": 6
+        },
+        {
+          "caller": "useInView",
+          "callee": "useState",
+          "lineNumber": 7
+        },
+        {
+          "caller": "useInView",
+          "callee": "useEffect",
+          "lineNumber": 8
+        },
+        {
+          "caller": "useInView",
+          "callee": "setInView",
+          "lineNumber": 14
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.disconnect",
+          "lineNumber": 15
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.observe",
+          "lineNumber": 20
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.disconnect",
+          "lineNumber": 21
+        },
+        {
+          "caller": "RevealBlock",
+          "callee": "useInView",
+          "lineNumber": 35
+        },
+        {
+          "caller": "CottagecoreShowcase",
+          "callee": "useState",
+          "lineNumber": 291
+        },
+        {
+          "caller": "CottagecoreShowcase",
+          "callee": "useState",
+          "lineNumber": 292
+        },
+        {
+          "caller": "CottagecoreShowcase",
+          "callee": "useState",
+          "lineNumber": 293
+        },
+        {
+          "caller": "CottagecoreShowcase",
+          "callee": "useState",
+          "lineNumber": 294
+        },
+        {
+          "caller": "CottagecoreShowcase",
+          "callee": "useState",
+          "lineNumber": 295
+        },
+        {
+          "caller": "CottagecoreShowcase",
+          "callee": "useEffect",
+          "lineNumber": 297
+        },
+        {
+          "caller": "CottagecoreShowcase",
+          "callee": "setTimeout",
+          "lineNumber": 298
+        },
+        {
+          "caller": "CottagecoreShowcase",
+          "callee": "setHeroRevealed",
+          "lineNumber": 298
+        },
+        {
+          "caller": "CottagecoreShowcase",
+          "callee": "clearTimeout",
+          "lineNumber": 299
+        },
+        {
+          "caller": "CottagecoreShowcase",
+          "callee": "seasons.map",
+          "lineNumber": 525
+        },
+        {
+          "caller": "CottagecoreShowcase",
+          "callee": "setActiveSeason",
+          "lineNumber": 528
+        },
+        {
+          "caller": "CottagecoreShowcase",
+          "callee": "[\n                  \"px-5 py-2 font-serif rounded-full text-sm transition-all duration-500\",\n                  activeSeason === i\n                    ? \"bg-[#5a8f5a] text-[#faf6f0] shadow-[0_4px_10px_rgba(90,143,90,0.2)] scale-105\"\n                    : \"bg-[#faf6f0] text-[#8b7355]/65 border border-[#d4a0a0]/30 hover:-translate-y-0.5 hover:rotate-[0.8deg]\",\n                ].join",
+          "lineNumber": 529
+        },
+        {
+          "caller": "CottagecoreShowcase",
+          "callee": "season.plants.map",
+          "lineNumber": 543
+        },
+        {
+          "caller": "CottagecoreShowcase",
+          "callee": "componentTabs.map",
+          "lineNumber": 590
+        },
+        {
+          "caller": "CottagecoreShowcase",
+          "callee": "setActiveComponentTab",
+          "lineNumber": 593
+        },
+        {
+          "caller": "CottagecoreShowcase",
+          "callee": "[\n                  \"px-6 py-2.5 font-serif text-sm rounded-full transition-all duration-500\",\n                  activeComponentTab === tab\n                    ? \"bg-[#8b7355] text-[#faf6f0] shadow-[0_4px_12px_rgba(139,115,85,0.2)]\"\n                    : \"bg-[#faf6f0] text-[#8b7355]/65 border border-[#8b7355]/20 hover:-translate-y-0.5 hover:rotate-[0.8deg]\",\n                ].join",
+          "lineNumber": 594
+        },
+        {
+          "caller": "CottagecoreShowcase",
+          "callee": "[\n                  {\n                    title: \"Wildflower Honey\",\n                    subtitle: \"From the hive, with love\",\n                    desc: \"Golden and fragrant, gathered by industrious bees from meadows full of clover and borage in late June.\",\n                    tag: \"Harvest\",\n                    tagColor: \"#f5d75f\",\n                    svgType: \"daisy\" as const,\n                  },\n                  {\n                    title: \"Forest Mushrooms\",\n                    subtitle: \"Foraged at dawn\",\n                    desc: \"Earthy and rich, found beneath ancient oaks on cool mornings when mist still clings to the bracken.\",\n                    tag: \"Forage\",\n                    tagColor: \"#d4a0a0\",\n                    svgType: \"mushroom\" as const,\n                  },\n                  {\n                    title: \"Bramble Jam\",\n                    subtitle: \"September's gift\",\n                    desc: \"Thick and dark, simmered with sugar and lemon peel, sealed in old jars from the highest shelf.\",\n                    tag: \"Pantry\",\n                    tagColor: \"#8b7355\",\n                    svgType: \"berry\" as const,\n                  },\n                  {\n                    title: \"Garden Herbs\",\n                    subtitle: \"Sage, thyme, rosemary\",\n                    desc: \"Hung in small bundles to dry above the kitchen window, scenting the whole cottage.\",\n                    tag: \"Garden\",\n                    tagColor: \"#5a8f5a\",\n                    svgType: \"fern\" as const,\n                  },\n                ].map",
+          "lineNumber": 648
+        },
+        {
+          "caller": "CottagecoreShowcase",
+          "callee": "[\n              { name: \"Grass Green\", hex: \"#5a8f5a\", label: \"Primary\", note: \"Buttons, headings, icons\", border: false },\n              { name: \"Cream Linen\", hex: \"#faf6f0\", label: \"Background\", note: \"Page & card backgrounds\", border: true },\n              { name: \"Daisy Yellow\", hex: \"#f5d75f\", label: \"Accent\", note: \"Highlights & flower centres\", border: false },\n              { name: \"Earth Brown\", hex: \"#8b7355\", label: \"Text\", note: \"Body copy & secondary text\", border: false },\n              { name: \"Flower Pink\", hex: \"#d4a0a0\", label: \"Accent\", note: \"Borders & floral details\", border: false },\n            ].map",
+          "lineNumber": 776
+        },
+        {
+          "caller": "CottagecoreShowcase",
+          "callee": "setHoveredColor",
+          "lineNumber": 786
+        },
+        {
+          "caller": "CottagecoreShowcase",
+          "callee": "setHoveredColor",
+          "lineNumber": 787
+        },
+        {
+          "caller": "CottagecoreShowcase",
+          "callee": "craftItems.map",
+          "lineNumber": 827
+        },
+        {
+          "caller": "CottagecoreShowcase",
+          "callee": "setCraftHovered",
+          "lineNumber": 834
+        },
+        {
+          "caller": "CottagecoreShowcase",
+          "callee": "setCraftHovered",
+          "lineNumber": 835
+        },
+        {
+          "caller": "CottagecoreShowcase",
+          "callee": "typographyExamples.map",
+          "lineNumber": 897
+        },
+        {
+          "caller": "CottagecoreShowcase",
+          "callee": "[\n                      \"Use italic for quotes, captions, and gentle accents\",\n                      \"Heading weight: font-semibold or normal — never bold\",\n                      \"Wide letter-spacing for labels: tracking-[0.3em]\",\n                      \"Body text: leading-relaxed for breathing room\",\n                    ].map",
+          "lineNumber": 933
+        },
+        {
+          "caller": "CottagecoreShowcase",
+          "callee": "[\n                    \"Warm earth tones — sage greens, dusty yellows, pinks, browns\",\n                    \"Rounded corners: rounded-full, rounded-3xl, rounded-xl\",\n                    \"Serif fonts for all headings and key interface text\",\n                    \"Slight hover rotation (0.8deg–1deg) for handmade feel\",\n                    \"Cream linen (#faf6f0) as the primary background\",\n                    \"Botanical SVG decorations with gentle floating animations\",\n                    \"Soft shadows — never sharp or high-contrast drop shadows\",\n                    \"Generous whitespace to honour breathing room\",\n                  ].map",
+          "lineNumber": 979
+        },
+        {
+          "caller": "CottagecoreShowcase",
+          "callee": "[\n                    \"Cold blue-grey tones, icy neutrals, or high-saturation neons\",\n                    \"Sharp right-angle corners or hard geometric rigid frames\",\n                    \"Tech, industrial, or corporate visual vocabulary\",\n                    \"Fast snappy transitions — keep duration 500ms to 700ms\",\n                    \"Sans-serif-only typography in headings or labels\",\n                    \"Heavy or hard borders — keep them soft and faded\",\n                    \"Cluttered dense layouts — slow living needs space\",\n                    \"Flat or sterile flat-design aesthetics\",\n                  ].map",
+          "lineNumber": 1009
+        },
+        {
+          "caller": "CottagecoreShowcase",
+          "callee": "[\n                  { bg: \"#5a8f5a\", text: \"#faf6f0\", label: \"Primary CTA\" },\n                  { bg: \"#faf6f0\", text: \"#5a8f5a\", label: \"Outline / Ghost\" },\n                  { bg: \"#d4a0a0\", text: \"#faf6f0\", label: \"Floral Accent\" },\n                  { bg: \"#f5d75f\", text: \"#8b7355\", label: \"Daisy Highlight\" },\n                ].map",
+          "lineNumber": 1036
+        },
+        {
+          "caller": "CottagecoreShowcase",
+          "callee": "[\n              {\n                title: \"Pastoral Poetry\",\n                desc: \"Cottagecore romanticises the agrarian — tending a garden, picking berries, kneading bread at dawn. The design reflects this: nothing is hurried, nothing is harsh.\",\n                svgType: \"flower\" as const,\n                color: \"#5a8f5a\",\n              },\n              {\n                title: \"Handmade Warmth\",\n                desc: \"Every interface element should feel as if it was made by hand — a slight imperfection in alignment, a warm colour that doesn't quite match the grid.\",\n                svgType: \"leaf\" as const,\n                color: \"#8b7355\",\n              },\n              {\n                title: \"Natural Intimacy\",\n                desc: \"Flowers, mushrooms, bees, berries: the natural world is brought indoors. Botanical SVG decorations are never decoration alone — they carry meaning and warmth.\",\n                svgType: \"berry\" as const,\n                color: \"#d4a0a0\",\n              },\n              {\n                title: \"Cosy Domesticity\",\n                desc: \"The warmth of a cottage kitchen: soft light, worn surfaces, the smell of something baking. Cream, brown, green — colours that say 'come in, stay a while'.\",\n                svgType: \"mushroom\" as const,\n                color: \"#f5d75f\",\n              },\n            ].map",
+          "lineNumber": 1147
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 9,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/styles/cottagecore/showcase/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 16,
+      "nonEmptyLines": 12,
+      "functions": [
+        {
+          "name": "Page",
+          "startLine": 14,
+          "endLine": 16,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "metadata",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "Page",
+          "line": 14,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/styles/cubism/showcase/_content.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 2138,
+      "nonEmptyLines": 2050,
+      "functions": [
+        {
+          "name": "useInView",
+          "startLine": 10,
+          "endLine": 31,
+          "params": [
+            "options"
+          ]
+        },
+        {
+          "name": "RevealBlock",
+          "startLine": 33,
+          "endLine": 56,
+          "params": [
+            "{\r\n  children,\r\n  className = \"\",\r\n  delay = 0,\r\n}"
+          ]
+        },
+        {
+          "name": "ShowcaseContent",
+          "startLine": 88,
+          "endLine": 2138,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "ShowcaseContent",
+          "line": 88,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "useInView",
+          "callee": "useRef",
+          "lineNumber": 11
+        },
+        {
+          "caller": "useInView",
+          "callee": "useState",
+          "lineNumber": 12
+        },
+        {
+          "caller": "useInView",
+          "callee": "useEffect",
+          "lineNumber": 14
+        },
+        {
+          "caller": "useInView",
+          "callee": "setInView",
+          "lineNumber": 20
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.disconnect",
+          "lineNumber": 21
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.observe",
+          "lineNumber": 26
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.disconnect",
+          "lineNumber": 27
+        },
+        {
+          "caller": "RevealBlock",
+          "callee": "useInView",
+          "lineNumber": 42
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 89
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 90
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 91
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 94
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 97
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 100
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 101
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 104
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 105
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useEffect",
+          "lineNumber": 107
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setTimeout",
+          "lineNumber": 108
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setHeroVisible",
+          "lineNumber": 108
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "clearTimeout",
+          "lineNumber": 109
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\"Palette\", \"Components\", \"Interactions\", \"Gallery\", \"Rules\"].map",
+          "lineNumber": 173
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[CB.sienna, CB.khaki, CB.steel, CB.terra, CB.sienna].map",
+          "lineNumber": 313
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n              { value: \"1907\", label: \"Founded\", accent: CB.terra },\r\n              { value: \"3+\", label: \"Perspectives\", accent: CB.steel },\r\n              { value: \"∞\", label: \"Fragments\", accent: CB.khaki },\r\n              { value: \"0°\", label: \"Symmetry\", accent: CB.terra },\r\n            ].map",
+          "lineNumber": 417
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "palette.map",
+          "lineNumber": 496
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setHoveredSwatch",
+          "lineNumber": 500
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setHoveredSwatch",
+          "lineNumber": 501
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n                    { role: \"Primary text\", bg: CB.sienna, text: CB.canvas },\r\n                    { role: \"Surface\", bg: CB.canvas, text: CB.sienna },\r\n                    { role: \"Accent border\", bg: CB.terra, text: CB.canvas },\r\n                    { role: \"Secondary\", bg: CB.steel, text: CB.canvas },\r\n                    { role: \"Neutral\", bg: CB.khaki, text: CB.canvas },\r\n                  ].map",
+          "lineNumber": 557
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "([\"buttons\", \"cards\", \"inputs\", \"badges\"] as ComponentTab[]).map",
+          "lineNumber": 638
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setActiveTab",
+          "lineNumber": 641
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n                        { label: \"SM\", px: \"px-4 py-2 text-xs\", shadow: 3 },\r\n                        { label: \"MD\", px: \"px-6 py-3 text-sm\", shadow: 4 },\r\n                        { label: \"LG\", px: \"px-10 py-4 text-base\", shadow: 6 },\r\n                      ].map",
+          "lineNumber": 783
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "Math.ceil",
+          "lineNumber": 798
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n                    {\r\n                      title: \"Analytical Phase\",\r\n                      desc: \"Deconstructing form into geometric planes, revealing multiple perspectives simultaneously.\",\r\n                      accent: CB.steel,\r\n                      skew: \"skewX(-2deg)\",\r\n                    },\r\n                    {\r\n                      title: \"Synthetic Phase\",\r\n                      desc: \"Reassembling fragments into a new visual vocabulary — bold, flat, abstracted.\",\r\n                      accent: CB.terra,\r\n                      skew: \"skewX(2deg)\",\r\n                    },\r\n                    {\r\n                      title: \"Faceted Form\",\r\n                      desc: \"Shattered planes interlock at sharp angles. No single viewpoint dominates.\",\r\n                      accent: CB.khaki,\r\n                      skew: \"skewX(-1deg)\",\r\n                    },\r\n                    {\r\n                      title: \"Planar Depth\",\r\n                      desc: \"Overlapping geometric layers substitute for traditional perspective and shading.\",\r\n                      accent: CB.sienna,\r\n                      skew: \"skewX(3deg)\",\r\n                    },\r\n                  ].map",
+          "lineNumber": 822
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n                      { label: \"Geometric fragmentation\", checked: true },\r\n                      { label: \"Multi-perspective overlap\", checked: true },\r\n                      { label: \"Earth tone palette\", checked: false },\r\n                      { label: \"Hard-edge borders\", checked: false },\r\n                    ].map",
+          "lineNumber": 1008
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n                        { label: \"Cubism\", bg: CB.sienna, text: CB.canvas, accent: CB.khaki },\r\n                        { label: \"Picasso\", bg: CB.terra, text: CB.canvas, accent: CB.sienna },\r\n                        { label: \"Braque\", bg: CB.steel, text: CB.canvas, accent: CB.sienna },\r\n                        { label: \"Geometric\", bg: CB.khaki, text: CB.canvas, accent: CB.sienna },\r\n                        { label: \"Fragment\", bg: CB.canvas, text: CB.sienna, accent: CB.sienna },\r\n                        { label: \"Analytical\", bg: CB.sienna, text: CB.canvas, accent: CB.terra },\r\n                        { label: \"Synthetic\", bg: CB.terra, text: CB.canvas, accent: CB.khaki },\r\n                        { label: \"Planar\", bg: CB.steel, text: CB.canvas, accent: CB.khaki },\r\n                      ].map",
+          "lineNumber": 1069
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n                        { label: \"Exhibited\", icon: \"check\", bg: CB.steel, text: CB.canvas },\r\n                        { label: \"In Progress\", icon: \"dash\", bg: CB.terra, text: CB.canvas },\r\n                        { label: \"Archived\", icon: \"box\", bg: CB.khaki, text: CB.canvas },\r\n                        { label: \"Draft\", icon: \"dot\", bg: CB.canvas, text: CB.sienna },\r\n                      ].map",
+          "lineNumber": 1108
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n                        { label: \"Fragments\", count: 12, color: CB.steel },\r\n                        { label: \"Perspectives\", count: 4, color: CB.terra },\r\n                        { label: \"Layers\", count: 7, color: CB.khaki },\r\n                        { label: \"Planes\", count: 23, color: CB.sienna },\r\n                      ].map",
+          "lineNumber": 1142
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "([\"sienna\", \"steel\", \"terra\"] as const).map",
+          "lineNumber": 1239
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setEarthMode",
+          "lineNumber": 1242
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "([4, 6, 8] as const).map",
+          "lineNumber": 1329
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setShadowDepth",
+          "lineNumber": 1332
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[1, 2, 3].map",
+          "lineNumber": 1438
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setFragmentLayer",
+          "lineNumber": 1441
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setFragmentHovered",
+          "lineNumber": 1462
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setFragmentHovered",
+          "lineNumber": 1463
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "([\"cubism\", \"slow\"] as const).map",
+          "lineNumber": 1566
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setTimingMode",
+          "lineNumber": 1569
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n                      { label: \"Cubism (correct)\", ms: 150, color: CB.sienna },\r\n                      { label: \"Slow fade (forbidden)\", ms: 500, color: `${CB.sienna}40` },\r\n                    ].map",
+          "lineNumber": 1614
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setAnimTriggered",
+          "lineNumber": 1627
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n                { title: \"Cubist Still Life\", year: \"1912\", accent: CB.terra },\r\n                { title: \"Fragmented Form\", year: \"1914\", accent: CB.steel },\r\n              ].map",
+          "lineNumber": 1732
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n              { title: \"Angular Portrait\", accent: CB.khaki, skew: \"-3\" },\r\n              { title: \"Planar Landscape\", accent: CB.steel, skew: \"2\" },\r\n              { title: \"Synthetic Collage\", accent: CB.terra, skew: \"-2\" },\r\n            ].map",
+          "lineNumber": 1771
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n                    \"Use skew and rotate transforms on elements\",\r\n                    \"Primary: #5c4033 and #e8dcc8 earth tones\",\r\n                    \"border-2 with deep color — no thin borders\",\r\n                    \"rounded-sm or rounded only — keep edges angular\",\r\n                    \"Asymmetric, off-center layouts\",\r\n                    \"z-index overlapping for multi-perspective depth\",\r\n                    \"font-bold uppercase tracking-widest\",\r\n                    \"clip-path or transform for fragmented visuals\",\r\n                    \"Hover/active as 1-4px translate + shadow shift (150-200ms)\",\r\n                  ].map",
+          "lineNumber": 1858
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n                    \"rounded-2xl, rounded-full — kills the angular feel\",\r\n                    \"Soft gradients or blur effects\",\r\n                    \"Neon colors or fluorescent accents\",\r\n                    \"Symmetric centered traditional layouts\",\r\n                    \"Circular or organic curve shapes\",\r\n                    \"Thin borders (border without -2 or heavier)\",\r\n                    \"Soft box-shadows with blur radius\",\r\n                    \"Spring bounce, floating loops, hover:scale-110\",\r\n                    \"Slow fade animations over 200ms\",\r\n                  ].map",
+          "lineNumber": 1909
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "Object.values(CB).map",
+          "lineNumber": 2013
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "Object.values",
+          "lineNumber": 2013
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "palette.map",
+          "lineNumber": 2081
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/styles/cubism/showcase/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 17,
+      "nonEmptyLines": 13,
+      "functions": [
+        {
+          "name": "Page",
+          "startLine": 15,
+          "endLine": 17,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 2,
+          "isDefault": false
+        },
+        {
+          "name": "metadata",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "Page",
+          "line": 15,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/styles/cyber-anime/showcase/_content.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 1541,
+      "nonEmptyLines": 1459,
+      "functions": [
+        {
+          "name": "useInView",
+          "startLine": 10,
+          "endLine": 29,
+          "params": [
+            "options"
+          ]
+        },
+        {
+          "name": "RevealBlock",
+          "startLine": 31,
+          "endLine": 54,
+          "params": [
+            "{\r\n  children,\r\n  className = \"\",\r\n  delay = 0,\r\n}"
+          ]
+        },
+        {
+          "name": "HudCorners",
+          "startLine": 60,
+          "endLine": 88,
+          "params": [
+            "{\r\n  color = \"#7c3aed\",\r\n  size = \"w-5 h-5\",\r\n}"
+          ]
+        },
+        {
+          "name": "CyberAnimeShowcase",
+          "startLine": 313,
+          "endLine": 1541,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "CyberAnimeShowcase",
+          "line": 313,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "useInView",
+          "callee": "useRef",
+          "lineNumber": 11
+        },
+        {
+          "caller": "useInView",
+          "callee": "useState",
+          "lineNumber": 12
+        },
+        {
+          "caller": "useInView",
+          "callee": "useEffect",
+          "lineNumber": 13
+        },
+        {
+          "caller": "useInView",
+          "callee": "setInView",
+          "lineNumber": 19
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.disconnect",
+          "lineNumber": 20
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.observe",
+          "lineNumber": 25
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.disconnect",
+          "lineNumber": 26
+        },
+        {
+          "caller": "RevealBlock",
+          "callee": "useInView",
+          "lineNumber": 40
+        },
+        {
+          "caller": "CyberAnimeShowcase",
+          "callee": "useState",
+          "lineNumber": 314
+        },
+        {
+          "caller": "CyberAnimeShowcase",
+          "callee": "useState",
+          "lineNumber": 315
+        },
+        {
+          "caller": "CyberAnimeShowcase",
+          "callee": "useState",
+          "lineNumber": 317
+        },
+        {
+          "caller": "CyberAnimeShowcase",
+          "callee": "useState",
+          "lineNumber": 318
+        },
+        {
+          "caller": "CyberAnimeShowcase",
+          "callee": "useState",
+          "lineNumber": 319
+        },
+        {
+          "caller": "cycleStatus",
+          "callee": "setSystemStatus",
+          "lineNumber": 322
+        },
+        {
+          "caller": "CyberAnimeShowcase",
+          "callee": "[1, 2, 3, 4, 5].map",
+          "lineNumber": 450
+        },
+        {
+          "caller": "CyberAnimeShowcase",
+          "callee": "[\r\n                { label: \"COORD X\", value: \"139.6917E\" },\r\n                { label: \"COORD Y\", value: \"35.6895N\" },\r\n                { label: \"ALT\", value: \"3,600 m\" },\r\n                { label: \"DATE\", value: \"2077.03.15\" },\r\n              ].map",
+          "lineNumber": 501
+        },
+        {
+          "caller": "CyberAnimeShowcase",
+          "callee": "mechaCards.map",
+          "lineNumber": 582
+        },
+        {
+          "caller": "CyberAnimeShowcase",
+          "callee": "[card.stat1, card.stat2].map",
+          "lineNumber": 649
+        },
+        {
+          "caller": "CyberAnimeShowcase",
+          "callee": "([\"button\", \"card\", \"input\"] as ActiveComponent[]).map",
+          "lineNumber": 706
+        },
+        {
+          "caller": "CyberAnimeShowcase",
+          "callee": "setActiveComponent",
+          "lineNumber": 709
+        },
+        {
+          "caller": "CyberAnimeShowcase",
+          "callee": "activeComponent.toUpperCase",
+          "lineNumber": 754
+        },
+        {
+          "caller": "CyberAnimeShowcase",
+          "callee": "setButtonHovered",
+          "lineNumber": 765
+        },
+        {
+          "caller": "CyberAnimeShowcase",
+          "callee": "setButtonHovered",
+          "lineNumber": 766
+        },
+        {
+          "caller": "CyberAnimeShowcase",
+          "callee": "[\r\n                        { l: \"SYNC\", v: \"400%\", c: \"#ff006e\" },\r\n                        { l: \"POWER\", v: \"INFINITE\", c: \"#06d6a0\" },\r\n                        { l: \"PILOT\", v: \"SHINJI\", c: \"#38bdf8\" },\r\n                        { l: \"STATUS\", v: \"BERSERK\", c: \"#ff006e\" },\r\n                      ].map",
+          "lineNumber": 835
+        },
+        {
+          "caller": "CyberAnimeShowcase",
+          "callee": "setInputValue",
+          "lineNumber": 877
+        },
+        {
+          "caller": "CyberAnimeShowcase",
+          "callee": "colorSwatches.map",
+          "lineNumber": 928
+        },
+        {
+          "caller": "CyberAnimeShowcase",
+          "callee": "episodes.map",
+          "lineNumber": 1010
+        },
+        {
+          "caller": "CyberAnimeShowcase",
+          "callee": "setActiveEpisode",
+          "lineNumber": 1015
+        },
+        {
+          "caller": "CyberAnimeShowcase",
+          "callee": "ep.genre.map",
+          "lineNumber": 1106
+        },
+        {
+          "caller": "CyberAnimeShowcase",
+          "callee": "doRules.map",
+          "lineNumber": 1218
+        },
+        {
+          "caller": "CyberAnimeShowcase",
+          "callee": "dontRules.map",
+          "lineNumber": 1281
+        },
+        {
+          "caller": "CyberAnimeShowcase",
+          "callee": "typeRows.map",
+          "lineNumber": 1341
+        },
+        {
+          "caller": "CyberAnimeShowcase",
+          "callee": "[\r\n                { l: \"SYS\", v: \"NOMINAL\", c: \"#06d6a0\" },\r\n                { l: \"PWR\", v: \"100%\", c: \"#06d6a0\" },\r\n                { l: \"NET\", v: \"SECURE\", c: \"#38bdf8\" },\r\n                { l: \"THR\", v: \"MINIMAL\", c: \"#7c3aed\" },\r\n              ].map",
+          "lineNumber": 1399
+        },
+        {
+          "caller": "CyberAnimeShowcase",
+          "callee": "[\"All Styles\", \"Documentation\", \"Components\", \"Guidelines\"].map",
+          "lineNumber": 1447
+        },
+        {
+          "caller": "CyberAnimeShowcase",
+          "callee": "[\r\n                    \"CARRIER LOCKED\",\r\n                    \"ENCRYPTION ACTIVE\",\r\n                    \"BANDWIDTH FULL\",\r\n                  ].map",
+          "lineNumber": 1470
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/styles/cyber-anime/showcase/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 16,
+      "nonEmptyLines": 12,
+      "functions": [
+        {
+          "name": "CyberAnimeShowcasePage",
+          "startLine": 14,
+          "endLine": 16,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "metadata",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "CyberAnimeShowcasePage",
+          "line": 14,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/styles/cyber-chinese/showcase/_content.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 1763,
+      "nonEmptyLines": 1684,
+      "functions": [
+        {
+          "name": "useInView",
+          "startLine": 6,
+          "endLine": 25,
+          "params": [
+            "options"
+          ]
+        },
+        {
+          "name": "RevealBlock",
+          "startLine": 27,
+          "endLine": 50,
+          "params": [
+            "{\n  children,\n  className = \"\",\n  delay = 0,\n}"
+          ]
+        },
+        {
+          "name": "SealStamp",
+          "startLine": 54,
+          "endLine": 101,
+          "params": [
+            "{\n  char,\n  className = \"\",\n  size = 64,\n}"
+          ]
+        },
+        {
+          "name": "NeonLantern",
+          "startLine": 103,
+          "endLine": 200,
+          "params": [
+            "{ className = \"\" }"
+          ]
+        },
+        {
+          "name": "CloudPattern",
+          "startLine": 202,
+          "endLine": 234,
+          "params": [
+            "{ className = \"\" }"
+          ]
+        },
+        {
+          "name": "DragonWave",
+          "startLine": 236,
+          "endLine": 261,
+          "params": [
+            "{ className = \"\" }"
+          ]
+        },
+        {
+          "name": "LatticePattern",
+          "startLine": 263,
+          "endLine": 285,
+          "params": [
+            "{ className = \"\" }"
+          ]
+        },
+        {
+          "name": "NeonDivider",
+          "startLine": 287,
+          "endLine": 295,
+          "params": []
+        },
+        {
+          "name": "CornerMarks",
+          "startLine": 297,
+          "endLine": 326,
+          "params": [
+            "{\n  color = \"#c9a227\",\n  size = 16,\n}"
+          ]
+        },
+        {
+          "name": "CyberChineseShowcase",
+          "startLine": 434,
+          "endLine": 1763,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "CyberChineseShowcase",
+          "line": 434,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "useInView",
+          "callee": "useRef",
+          "lineNumber": 7
+        },
+        {
+          "caller": "useInView",
+          "callee": "useState",
+          "lineNumber": 8
+        },
+        {
+          "caller": "useInView",
+          "callee": "useEffect",
+          "lineNumber": 9
+        },
+        {
+          "caller": "useInView",
+          "callee": "setInView",
+          "lineNumber": 15
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.disconnect",
+          "lineNumber": 16
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.observe",
+          "lineNumber": 21
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.disconnect",
+          "lineNumber": 22
+        },
+        {
+          "caller": "RevealBlock",
+          "callee": "useInView",
+          "lineNumber": 36
+        },
+        {
+          "caller": "CyberChineseShowcase",
+          "callee": "useState",
+          "lineNumber": 435
+        },
+        {
+          "caller": "CyberChineseShowcase",
+          "callee": "useState",
+          "lineNumber": 436
+        },
+        {
+          "caller": "CyberChineseShowcase",
+          "callee": "useState",
+          "lineNumber": 439
+        },
+        {
+          "caller": "CyberChineseShowcase",
+          "callee": "useState",
+          "lineNumber": 440
+        },
+        {
+          "caller": "CyberChineseShowcase",
+          "callee": "useEffect",
+          "lineNumber": 442
+        },
+        {
+          "caller": "CyberChineseShowcase",
+          "callee": "setTimeout",
+          "lineNumber": 443
+        },
+        {
+          "caller": "CyberChineseShowcase",
+          "callee": "setHeroRevealed",
+          "lineNumber": 443
+        },
+        {
+          "caller": "CyberChineseShowcase",
+          "callee": "clearTimeout",
+          "lineNumber": 444
+        },
+        {
+          "caller": "CyberChineseShowcase",
+          "callee": "[\"赛\", \"博\", \"中\", \"华\"].map",
+          "lineNumber": 535
+        },
+        {
+          "caller": "CyberChineseShowcase",
+          "callee": "[...verticalChars, ...verticalChars].map",
+          "lineNumber": 605
+        },
+        {
+          "caller": "CyberChineseShowcase",
+          "callee": "([\"button\", \"card\", \"input\"] as const).map",
+          "lineNumber": 836
+        },
+        {
+          "caller": "CyberChineseShowcase",
+          "callee": "setActiveTab",
+          "lineNumber": 839
+        },
+        {
+          "caller": "CyberChineseShowcase",
+          "callee": "[\n                    { label: \"Small\", px: \"px-4 py-2 text-xs\" },\n                    { label: \"Medium\", px: \"px-6 py-3 text-sm\" },\n                    { label: \"Large\", px: \"px-10 py-5 text-base\" },\n                  ].map",
+          "lineNumber": 951
+        },
+        {
+          "caller": "CyberChineseShowcase",
+          "callee": "[\n                  {\n                    title: \"Digital Dragon\",\n                    titleZh: \"数字龙\",\n                    desc: \"Ancient totems rewritten in neon circuitry, roaring through cascading data streams.\",\n                    seal: \"龙\",\n                    accent: \"#00d4ff\",\n                  },\n                  {\n                    title: \"Cloud Grid\",\n                    titleZh: \"云格\",\n                    desc: \"Celestial cloud patterns rendered across cybernetic lattice frameworks.\",\n                    seal: \"云\",\n                    accent: \"#c9a227\",\n                  },\n                  {\n                    title: \"Seal Protocol\",\n                    titleZh: \"印章协议\",\n                    desc: \"Authentication seals converted into encrypted neon signatures.\",\n                    seal: \"印\",\n                    accent: \"#d4553a\",\n                  },\n                  {\n                    title: \"Phoenix Data\",\n                    titleZh: \"凤凰数据\",\n                    desc: \"Rebirth cycles modelled on mythic phoenix — continuous regeneration loops.\",\n                    seal: \"凤\",\n                    accent: \"#a020f0\",\n                  },\n                ].map",
+          "lineNumber": 982
+        },
+        {
+          "caller": "CyberChineseShowcase",
+          "callee": "colorPalette.map",
+          "lineNumber": 1175
+        },
+        {
+          "caller": "CyberChineseShowcase",
+          "callee": "setHoveredSwatch",
+          "lineNumber": 1179
+        },
+        {
+          "caller": "CyberChineseShowcase",
+          "callee": "setHoveredSwatch",
+          "lineNumber": 1180
+        },
+        {
+          "caller": "CyberChineseShowcase",
+          "callee": "[\n                { label: \"Void Black — Background\", pct: 70, color: \"#0a0a0a\", border: \"#1a1a1a\" },\n                { label: \"Vermilion — Primary actions\", pct: 12, color: \"#d4553a\", border: \"transparent\" },\n                { label: \"Imperial Gold — Borders / labels\", pct: 10, color: \"#c9a227\", border: \"transparent\" },\n                { label: \"Neon Cyan — Accent / focus\", pct: 5, color: \"#00d4ff\", border: \"transparent\" },\n                { label: \"Neon Purple — Variant accent\", pct: 3, color: \"#a020f0\", border: \"transparent\" },\n              ].map",
+          "lineNumber": 1230
+        },
+        {
+          "caller": "CyberChineseShowcase",
+          "callee": "doRules.map",
+          "lineNumber": 1288
+        },
+        {
+          "caller": "CyberChineseShowcase",
+          "callee": "dontRules.map",
+          "lineNumber": 1311
+        },
+        {
+          "caller": "CyberChineseShowcase",
+          "callee": "[\n                {\n                  name: \"Neon Warm-up\",\n                  desc: \"Hover intensifies border glow and neon halo. 1-2px upward float only; no large displacements.\",\n                },\n                {\n                  name: \"Seal Press\",\n                  desc: \"Active drops 1-3px with tightened glow radius, mimicking a stamp pressed into wax.\",\n                },\n                {\n                  name: \"Scan Sweep\",\n                  desc: \"Triggered light band sweeps across on hover/focus. Short burst animation, never infinite loop.\",\n                },\n                {\n                  name: \"Tempo Control\",\n                  desc: \"All interactive transitions stay within 180-300ms. No slow fades, no spring-bounce easing.\",\n                },\n              ].map",
+          "lineNumber": 1335
+        },
+        {
+          "caller": "CyberChineseShowcase",
+          "callee": "typographySamples.map",
+          "lineNumber": 1388
+        },
+        {
+          "caller": "CyberChineseShowcase",
+          "callee": "setActiveTypo",
+          "lineNumber": 1391
+        },
+        {
+          "caller": "CyberChineseShowcase",
+          "callee": "sample.label.split",
+          "lineNumber": 1402
+        },
+        {
+          "caller": "CyberChineseShowcase",
+          "callee": "[\"龙\", \"凤\", \"印\", \"章\"].map",
+          "lineNumber": 1452
+        },
+        {
+          "caller": "CyberChineseShowcase",
+          "callee": "[\"赛\", \"博\", \"中\", \"华\"].map",
+          "lineNumber": 1465
+        },
+        {
+          "caller": "CyberChineseShowcase",
+          "callee": "[\"未\", \"来\", \"东\", \"方\"].map",
+          "lineNumber": 1478
+        },
+        {
+          "caller": "CyberChineseShowcase",
+          "callee": "[\n                { zh: \"龙\", en: \"DRAGON\", color: \"#d4553a\" },\n                { zh: \"数\", en: \"DATA\", color: \"#c9a227\" },\n                { zh: \"字\", en: \"GLYPH\", color: \"#00d4ff\" },\n                { zh: \"未\", en: \"FUTURE\", color: \"#a020f0\" },\n                { zh: \"来\", en: \"ARRIVE\", color: \"#d4553a\" },\n                { zh: \"赛\", en: \"CYBER\", color: \"#c9a227\" },\n              ].map",
+          "lineNumber": 1515
+        },
+        {
+          "caller": "CyberChineseShowcase",
+          "callee": "[\n                  { char: \"印\", label: \"Seal\" },\n                  { char: \"龙\", label: \"Dragon\" },\n                  { char: \"凤\", label: \"Phoenix\" },\n                  { char: \"华\", label: \"China\" },\n                ].map",
+          "lineNumber": 1574
+        },
+        {
+          "caller": "CyberChineseShowcase",
+          "callee": "[\n                { color: \"#d4553a\", label: \"Vermilion\" },\n                { color: \"#c9a227\", label: \"Gold\" },\n                { color: \"#00d4ff\", label: \"Neon Blue\" },\n                { color: \"#a020f0\", label: \"Neon Purple\" },\n                { color: \"#d4553a\", label: \"Vermilion\" },\n              ].map",
+          "lineNumber": 1646
+        },
+        {
+          "caller": "CyberChineseShowcase",
+          "callee": "Array.from({ length: 24 }).map",
+          "lineNumber": 1675
+        },
+        {
+          "caller": "CyberChineseShowcase",
+          "callee": "Array.from",
+          "lineNumber": 1675
+        },
+        {
+          "caller": "CyberChineseShowcase",
+          "callee": "[\"龙\", \"凤\", \"印\", \"云\"].map",
+          "lineNumber": 1715
+        },
+        {
+          "caller": "CyberChineseShowcase",
+          "callee": "[\n                { href: \"/styles/cyber-chinese\", label: \"Documentation\" },\n                { href: \"/styles/cyber-chinese/showcase\", label: \"Showcase\" },\n                { href: \"/styles\", label: \"All Styles\" },\n              ].map",
+          "lineNumber": 1731
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 10,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/styles/cyber-chinese/showcase/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 16,
+      "nonEmptyLines": 12,
+      "functions": [
+        {
+          "name": "Page",
+          "startLine": 14,
+          "endLine": 16,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "metadata",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "Page",
+          "line": 14,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/styles/cyber-wafuu/showcase/_content.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 1070,
+      "nonEmptyLines": 1005,
+      "functions": [
+        {
+          "name": "useInView",
+          "startLine": 107,
+          "endLine": 116,
+          "params": [
+            "options"
+          ]
+        },
+        {
+          "name": "RevealBlock",
+          "startLine": 118,
+          "endLine": 133,
+          "params": [
+            "{ children, className = \"\", delay = 0 }"
+          ]
+        },
+        {
+          "name": "KintsugiCrackLarge",
+          "startLine": 139,
+          "endLine": 181,
+          "params": []
+        },
+        {
+          "name": "KintsugiCrackCorner",
+          "startLine": 183,
+          "endLine": 209,
+          "params": []
+        },
+        {
+          "name": "MonCircle",
+          "startLine": 211,
+          "endLine": 254,
+          "params": []
+        },
+        {
+          "name": "ShojiBg",
+          "startLine": 256,
+          "endLine": 267,
+          "params": []
+        },
+        {
+          "name": "ShowcaseContent",
+          "startLine": 273,
+          "endLine": 1070,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "ShowcaseContent",
+          "line": 273,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "useInView",
+          "callee": "useRef",
+          "lineNumber": 108
+        },
+        {
+          "caller": "useInView",
+          "callee": "useState",
+          "lineNumber": 109
+        },
+        {
+          "caller": "useInView",
+          "callee": "useEffect",
+          "lineNumber": 110
+        },
+        {
+          "caller": "useInView",
+          "callee": "setInView",
+          "lineNumber": 112
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.observe",
+          "lineNumber": 113
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.disconnect",
+          "lineNumber": 113
+        },
+        {
+          "caller": "RevealBlock",
+          "callee": "useInView",
+          "lineNumber": 119
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 274
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 275
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 276
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 277
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 278
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "navLinks.map",
+          "lineNumber": 304
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "kintsugiPanels.map",
+          "lineNumber": 443
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setActivePanel",
+          "lineNumber": 446
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "paletteColors.map",
+          "lineNumber": 527
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setHoveredColor",
+          "lineNumber": 531
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setHoveredColor",
+          "lineNumber": 532
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "([\"button\", \"card\", \"input\"] as const).map",
+          "lineNumber": 608
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setActiveTab",
+          "lineNumber": 611
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setInputValue",
+          "lineNumber": 761
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setInputFocused",
+          "lineNumber": 762
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setInputFocused",
+          "lineNumber": 763
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "wabisabiPrinciples.map",
+          "lineNumber": 850
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "typographyChars.map",
+          "lineNumber": 932
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n                  { label: \"Display\", size: \"text-4xl\", jp: \"文字は魂の形\", en: \"Characters hold the soul's form\" },\r\n                  { label: \"Heading\", size: \"text-2xl\", jp: \"道は続く\", en: \"The path continues\" },\r\n                  { label: \"Body\", size: \"text-base\", jp: \"間の美学は沈黙の中にある\", en: \"The aesthetics of ma live in silence\" },\r\n                  { label: \"Caption\", size: \"text-xs\", jp: \"壊れた所に光が入る — it is through broken places that light enters\", en: \"\" },\r\n                ].map",
+          "lineNumber": 977
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 7,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/styles/cyber-wafuu/showcase/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 16,
+      "nonEmptyLines": 12,
+      "functions": [
+        {
+          "name": "CyberWafuuShowcasePage",
+          "startLine": 14,
+          "endLine": 16,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "metadata",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "CyberWafuuShowcasePage",
+          "line": 14,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/styles/cyberpunk-neon/showcase/_content.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 1674,
+      "nonEmptyLines": 1606,
+      "functions": [
+        {
+          "name": "useInView",
+          "startLine": 10,
+          "endLine": 29,
+          "params": [
+            "options"
+          ]
+        },
+        {
+          "name": "RevealBlock",
+          "startLine": 31,
+          "endLine": 54,
+          "params": [
+            "{\r\n  children,\r\n  className = \"\",\r\n  delay = 0,\r\n}"
+          ]
+        },
+        {
+          "name": "BlinkCursor",
+          "startLine": 60,
+          "endLine": 78,
+          "params": [
+            "{ color = \"#00ffff\" }"
+          ]
+        },
+        {
+          "name": "BlinkDot",
+          "startLine": 84,
+          "endLine": 104,
+          "params": [
+            "{ color = \"#00ffff\" }"
+          ]
+        },
+        {
+          "name": "HudFrame",
+          "startLine": 110,
+          "endLine": 176,
+          "params": [
+            "{\r\n  children,\r\n  color = \"#00ffff\",\r\n  className = \"\",\r\n}"
+          ]
+        },
+        {
+          "name": "ScanLines",
+          "startLine": 182,
+          "endLine": 193,
+          "params": []
+        },
+        {
+          "name": "ShowcaseContent",
+          "startLine": 247,
+          "endLine": 1674,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "ShowcaseContent",
+          "line": 247,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "useInView",
+          "callee": "useRef",
+          "lineNumber": 11
+        },
+        {
+          "caller": "useInView",
+          "callee": "useState",
+          "lineNumber": 12
+        },
+        {
+          "caller": "useInView",
+          "callee": "useEffect",
+          "lineNumber": 13
+        },
+        {
+          "caller": "useInView",
+          "callee": "setInView",
+          "lineNumber": 19
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.disconnect",
+          "lineNumber": 20
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.observe",
+          "lineNumber": 25
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.disconnect",
+          "lineNumber": 26
+        },
+        {
+          "caller": "RevealBlock",
+          "callee": "useInView",
+          "lineNumber": 40
+        },
+        {
+          "caller": "BlinkCursor",
+          "callee": "useState",
+          "lineNumber": 61
+        },
+        {
+          "caller": "BlinkCursor",
+          "callee": "useEffect",
+          "lineNumber": 62
+        },
+        {
+          "caller": "BlinkCursor",
+          "callee": "setInterval",
+          "lineNumber": 63
+        },
+        {
+          "caller": "BlinkCursor",
+          "callee": "setVisible",
+          "lineNumber": 63
+        },
+        {
+          "caller": "BlinkCursor",
+          "callee": "clearInterval",
+          "lineNumber": 64
+        },
+        {
+          "caller": "BlinkDot",
+          "callee": "useState",
+          "lineNumber": 85
+        },
+        {
+          "caller": "BlinkDot",
+          "callee": "useEffect",
+          "lineNumber": 86
+        },
+        {
+          "caller": "BlinkDot",
+          "callee": "setInterval",
+          "lineNumber": 87
+        },
+        {
+          "caller": "BlinkDot",
+          "callee": "setOn",
+          "lineNumber": 87
+        },
+        {
+          "caller": "BlinkDot",
+          "callee": "clearInterval",
+          "lineNumber": 88
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 248
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 249
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 250
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 255
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "useState",
+          "lineNumber": 256
+        },
+        {
+          "caller": "handleGlitchToggle",
+          "callee": "setGlitchActive",
+          "lineNumber": 261
+        },
+        {
+          "caller": "handleTerminalRun",
+          "callee": "Math.floor",
+          "lineNumber": 268
+        },
+        {
+          "caller": "handleTerminalRun",
+          "callee": "Math.random",
+          "lineNumber": 268
+        },
+        {
+          "caller": "handleTerminalRun",
+          "callee": "setTerminalLines",
+          "lineNumber": 273
+        },
+        {
+          "caller": "handleTerminalRun",
+          "callee": "prev.slice",
+          "lineNumber": 273
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\"FEATURES\", \"PRICING\", \"ABOUT\", \"DOCS\"].map",
+          "lineNumber": 380
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "Array.from({ length: 13 }).map",
+          "lineNumber": 460
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "Array.from",
+          "lineNumber": 460
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "Array.from({ length: 13 }).map",
+          "lineNumber": 471
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "Array.from",
+          "lineNumber": 471
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n            { x: 60, y: 260, w: 40, h: 260 },\r\n            { x: 120, y: 200, w: 50, h: 320 },\r\n            { x: 190, y: 300, w: 35, h: 220 },\r\n            { x: 245, y: 180, w: 60, h: 340 },\r\n            { x: 325, y: 240, w: 45, h: 280 },\r\n            { x: 390, y: 160, w: 55, h: 360 },\r\n            { x: 460, y: 290, w: 40, h: 230 },\r\n          ].map",
+          "lineNumber": 483
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n                  { label: \"CYAN_NODE\", status: \"ACTIVE\", color: \"#00ffff\" },\r\n                  { label: \"MAGENTA_NODE\", status: \"SYNCING\", color: \"#ff00ff\" },\r\n                  { label: \"YELLOW_NODE\", status: \"STANDBY\", color: \"#ffff00\" },\r\n                ].map",
+          "lineNumber": 752
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setHoveredCard",
+          "lineNumber": 774
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setHoveredCard",
+          "lineNumber": 775
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "neonThemes.map",
+          "lineNumber": 843
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setActiveNeon",
+          "lineNumber": 853
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setInputFocused",
+          "lineNumber": 963
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "setInputFocused",
+          "lineNumber": 964
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "colorSwatches.map",
+          "lineNumber": 1059
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "hudStats.map",
+          "lineNumber": 1156
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "[\r\n                  { label: \"CPU\", val: 87, color: \"#00ffff\" },\r\n                  { label: \"RAM\", val: 62, color: \"#ff00ff\" },\r\n                  { label: \"NET\", val: 44, color: \"#ffff00\" },\r\n                  { label: \"DISK\", val: 31, color: \"#00ff00\" },\r\n                ].map",
+          "lineNumber": 1222
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "doRules.map",
+          "lineNumber": 1361
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "dontRules.map",
+          "lineNumber": 1463
+        },
+        {
+          "caller": "ShowcaseContent",
+          "callee": "terminalLines.map",
+          "lineNumber": 1542
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 7,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/styles/cyberpunk-neon/showcase/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 11,
+      "nonEmptyLines": 8,
+      "functions": [
+        {
+          "name": "CyberpunkNeonShowcase",
+          "startLine": 9,
+          "endLine": 11,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "CyberpunkNeonShowcase",
+          "line": 9,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/styles/dark-academia/showcase/_content.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 1430,
+      "nonEmptyLines": 1355,
+      "functions": [
+        {
+          "name": "useInView",
+          "startLine": 9,
+          "endLine": 28,
+          "params": [
+            "options"
+          ]
+        },
+        {
+          "name": "RevealBlock",
+          "startLine": 33,
+          "endLine": 56,
+          "params": [
+            "{\n  children,\n  className = \"\",\n  delay = 0,\n}"
+          ]
+        },
+        {
+          "name": "GoldDivider",
+          "startLine": 61,
+          "endLine": 69,
+          "params": []
+        },
+        {
+          "name": "SectionHeader",
+          "startLine": 74,
+          "endLine": 106,
+          "params": [
+            "{\n  eyebrow,\n  heading,\n  light = false,\n}"
+          ]
+        },
+        {
+          "name": "DarkAcademiaShowcase",
+          "startLine": 233,
+          "endLine": 1430,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "DarkAcademiaShowcase",
+          "line": 233,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "useInView",
+          "callee": "useRef",
+          "lineNumber": 10
+        },
+        {
+          "caller": "useInView",
+          "callee": "useState",
+          "lineNumber": 11
+        },
+        {
+          "caller": "useInView",
+          "callee": "useEffect",
+          "lineNumber": 12
+        },
+        {
+          "caller": "useInView",
+          "callee": "setInView",
+          "lineNumber": 18
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.disconnect",
+          "lineNumber": 19
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.observe",
+          "lineNumber": 24
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.disconnect",
+          "lineNumber": 25
+        },
+        {
+          "caller": "RevealBlock",
+          "callee": "useInView",
+          "lineNumber": 42
+        },
+        {
+          "caller": "DarkAcademiaShowcase",
+          "callee": "useState",
+          "lineNumber": 235
+        },
+        {
+          "caller": "DarkAcademiaShowcase",
+          "callee": "useEffect",
+          "lineNumber": 236
+        },
+        {
+          "caller": "DarkAcademiaShowcase",
+          "callee": "setTimeout",
+          "lineNumber": 237
+        },
+        {
+          "caller": "DarkAcademiaShowcase",
+          "callee": "setHeroRevealed",
+          "lineNumber": 237
+        },
+        {
+          "caller": "DarkAcademiaShowcase",
+          "callee": "clearTimeout",
+          "lineNumber": 238
+        },
+        {
+          "caller": "DarkAcademiaShowcase",
+          "callee": "useState",
+          "lineNumber": 242
+        },
+        {
+          "caller": "DarkAcademiaShowcase",
+          "callee": "useState",
+          "lineNumber": 245
+        },
+        {
+          "caller": "DarkAcademiaShowcase",
+          "callee": "useState",
+          "lineNumber": 248
+        },
+        {
+          "caller": "DarkAcademiaShowcase",
+          "callee": "useState",
+          "lineNumber": 251
+        },
+        {
+          "caller": "DarkAcademiaShowcase",
+          "callee": "[\n                { label: \"Docs\", href: \"/styles/dark-academia\" },\n                { label: \"Gallery\", href: \"/styles\" },\n                { label: \"Home\", href: \"/\" },\n              ].map",
+          "lineNumber": 286
+        },
+        {
+          "caller": "DarkAcademiaShowcase",
+          "callee": "setMobileNavOpen",
+          "lineNumber": 306
+        },
+        {
+          "caller": "DarkAcademiaShowcase",
+          "callee": "[\n              { label: \"Documentation\", href: \"/styles/dark-academia\" },\n              { label: \"Gallery\", href: \"/styles\" },\n              { label: \"Home\", href: \"/\" },\n            ].map",
+          "lineNumber": 320
+        },
+        {
+          "caller": "DarkAcademiaShowcase",
+          "callee": "setMobileNavOpen",
+          "lineNumber": 328
+        },
+        {
+          "caller": "DarkAcademiaShowcase",
+          "callee": "CHAPTERS.map",
+          "lineNumber": 470
+        },
+        {
+          "caller": "DarkAcademiaShowcase",
+          "callee": "setActiveChapter",
+          "lineNumber": 473
+        },
+        {
+          "caller": "DarkAcademiaShowcase",
+          "callee": "[\n                    \"flex-1 min-w-[70px] py-3 px-4 text-xs tracking-[0.2em] uppercase font-serif transition-colors duration-700 ease-in-out border-r border-[#8b7355]/20 last:border-r-0\",\n                    activeChapter === i\n                      ? \"bg-[#3d2b1f] text-[#f5f0e1]\"\n                      : \"bg-[#f5f0e1] text-[#3d2b1f]/50 hover:text-[#8b7355]\",\n                  ].join",
+          "lineNumber": 474
+        },
+        {
+          "caller": "DarkAcademiaShowcase",
+          "callee": "GALLERY_TABS.map",
+          "lineNumber": 523
+        },
+        {
+          "caller": "DarkAcademiaShowcase",
+          "callee": "setActiveGallery",
+          "lineNumber": 526
+        },
+        {
+          "caller": "DarkAcademiaShowcase",
+          "callee": "[\n                    \"px-6 py-3 text-xs tracking-[0.2em] uppercase font-serif transition-colors duration-700 ease-in-out border-b-2 -mb-px\",\n                    activeGallery === tab\n                      ? \"border-[#8b7355] text-[#3d2b1f]\"\n                      : \"border-transparent text-[#3d2b1f]/40 hover:text-[#8b7355]\",\n                  ].join",
+          "lineNumber": 527
+        },
+        {
+          "caller": "DarkAcademiaShowcase",
+          "callee": "[\n                  {\n                    title: \"The Library\",\n                    category: \"Architecture\",\n                    body: \"Endless shelves of leather-bound volumes, the scent of old pages mingling with candle wax and centuries of accumulated thought.\",\n                    latin: \"Bibliotheca\",\n                  },\n                  {\n                    title: \"The Letter\",\n                    category: \"Correspondence\",\n                    body: \"Written by candlelight, each word chosen with deliberate care, sealed with dark wax and sent across the cold corridor of time.\",\n                    latin: \"Epistola\",\n                  },\n                  {\n                    title: \"The Lecture\",\n                    category: \"Academia\",\n                    body: \"A professor speaks of ancient civilizations while autumn rain patterns against tall Gothic windows, chalk dust hanging in the air.\",\n                    latin: \"Lectio\",\n                  },\n                ].map",
+          "lineNumber": 609
+        },
+        {
+          "caller": "DarkAcademiaShowcase",
+          "callee": "[\"Call Number\", \"Title & Author\", \"Subject\", \"Status\"].map",
+          "lineNumber": 727
+        },
+        {
+          "caller": "DarkAcademiaShowcase",
+          "callee": "CATALOG_ENTRIES.map",
+          "lineNumber": 736
+        },
+        {
+          "caller": "DarkAcademiaShowcase",
+          "callee": "setSelectedEntry",
+          "lineNumber": 740
+        },
+        {
+          "caller": "DarkAcademiaShowcase",
+          "callee": "[\n                      \"w-full text-left transition-colors duration-700 ease-in-out border-b border-[#8b7355]/15 last:border-b-0\",\n                      selectedEntry === i\n                        ? \"bg-[#3d2b1f]/[0.06]\"\n                        : \"bg-[#f5f0e1] hover:bg-[#3d2b1f]/[0.03]\",\n                    ].join",
+          "lineNumber": 742
+        },
+        {
+          "caller": "DarkAcademiaShowcase",
+          "callee": "[\n                          \"font-serif text-xs tracking-wide\",\n                          entry.status === \"Available\"\n                            ? \"text-[#2d4a3e]\"\n                            : entry.status === \"Restricted\"\n                            ? \"text-[#5c4033]\"\n                            : \"text-[#8b7355]\",\n                        ].join",
+          "lineNumber": 765
+        },
+        {
+          "caller": "DarkAcademiaShowcase",
+          "callee": "[\n                                \"font-serif text-sm\",\n                                entry.status === \"Available\"\n                                  ? \"text-[#2d4a3e]\"\n                                  : entry.status === \"Restricted\"\n                                  ? \"text-[#5c4033]\"\n                                  : \"text-[#8b7355]\",\n                              ].join",
+          "lineNumber": 821
+        },
+        {
+          "caller": "DarkAcademiaShowcase",
+          "callee": "SWATCHES.map",
+          "lineNumber": 852
+        },
+        {
+          "caller": "DarkAcademiaShowcase",
+          "callee": "[\n                      \"Use deep brown, forest green, and antique gold exclusively\",\n                      \"Employ serif fonts throughout — body, headings, captions alike\",\n                      \"Allow duration-700 to duration-1000 for all transitions\",\n                      \"Introduce candlelight glow on hover via radial gradient\",\n                      \"Expanding gold underlines signal interactivity\",\n                      \"Parchment cream as the resting surface color\",\n                      \"Inset shadows suggest paper depth, not harsh drop shadows\",\n                    ].map",
+          "lineNumber": 915
+        },
+        {
+          "caller": "DarkAcademiaShowcase",
+          "callee": "[\n                      \"Never use neon, high-saturation, or cool-toned colors\",\n                      \"No playful scale(), bounce, or jump animations\",\n                      \"Avoid modern sans-serif fonts — they break the atmosphere\",\n                      \"Do not apply rapid transitions (below duration-500)\",\n                      \"No hard drop-shadows or glowing outlines\",\n                      \"Avoid cold gray or blue backgrounds at any saturation\",\n                      \"Never stack many bright decorative elements — keep it still\",\n                    ].map",
+          "lineNumber": 948
+        },
+        {
+          "caller": "DarkAcademiaShowcase",
+          "callee": "[\n                    { label: \"Display\", cls: \"text-2xl\" },\n                    { label: \"Heading\", cls: \"text-lg\" },\n                    { label: \"Body\", cls: \"text-base\" },\n                    { label: \"Caption\", cls: \"text-xs tracking-widest uppercase\" },\n                  ].map",
+          "lineNumber": 1019
+        },
+        {
+          "caller": "DarkAcademiaShowcase",
+          "callee": "INSCRIPTIONS.map",
+          "lineNumber": 1048
+        },
+        {
+          "caller": "DarkAcademiaShowcase",
+          "callee": "[\n                {\n                  quote: \"Ignorance is the curse of God; knowledge is the wing wherewith we fly to heaven.\",\n                  author: \"William Shakespeare\",\n                  work: \"Henry VI, Part 2\",\n                },\n                {\n                  quote: \"The more that you read, the more things you will know. The more that you learn, the more places you will go.\",\n                  author: \"Dr. Seuss\",\n                  work: \"I Can Read with My Eyes Shut\",\n                },\n                {\n                  quote: \"Education is the kindling of a flame, not the filling of a vessel.\",\n                  author: \"Socrates\",\n                  work: \"Via Plutarch\",\n                },\n              ].map",
+          "lineNumber": 1125
+        },
+        {
+          "caller": "DarkAcademiaShowcase",
+          "callee": "[\n                { label: \"Leather\", bg: \"#3d2b1f\", accent: \"#8b7355\" },\n                { label: \"Vellum\", bg: \"#f5f0e1\", accent: \"#3d2b1f\" },\n                { label: \"Verdigris\", bg: \"#2d4a3e\", accent: \"#8b7355\" },\n                { label: \"Tobacco\", bg: \"#5c4033\", accent: \"#f5f0e1\" },\n              ].map",
+          "lineNumber": 1219
+        },
+        {
+          "caller": "DarkAcademiaShowcase",
+          "callee": "[\n                  { title: \"Historia Naturalis\", author: \"Pliny the Elder\", color: \"#3d2b1f\", accent: \"#8b7355\" },\n                  { title: \"The Anatomy of Melancholy\", author: \"Robert Burton\", color: \"#2d4a3e\", accent: \"#f5f0e1\" },\n                  { title: \"Meditations\", author: \"Marcus Aurelius\", color: \"#5c4033\", accent: \"#f5f0e1\" },\n                  { title: \"Novum Organum\", author: \"Francis Bacon\", color: \"#3d2b1f\", accent: \"#c9a84c\" },\n                  { title: \"The Prince\", author: \"Machiavelli\", color: \"#2d4a3e\", accent: \"#8b7355\" },\n                  { title: \"Essays\", author: \"Michel de Montaigne\", color: \"#5c4033\", accent: \"#f5f0e1\" },\n                ].map",
+          "lineNumber": 1300
+        },
+        {
+          "caller": "DarkAcademiaShowcase",
+          "callee": "[\n                  { label: \"Documentation\", href: \"/styles/dark-academia\" },\n                  { label: \"All Styles\", href: \"/styles\" },\n                  { label: \"Home\", href: \"/\" },\n                ].map",
+          "lineNumber": 1373
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/styles/dark-academia/showcase/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 16,
+      "nonEmptyLines": 12,
+      "functions": [
+        {
+          "name": "Page",
+          "startLine": 14,
+          "endLine": 16,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "metadata",
+          "line": 5,
+          "isDefault": false
+        },
+        {
+          "name": "Page",
+          "line": 14,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/styles/dark-mode/showcase/_content.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 1045,
+      "nonEmptyLines": 980,
+      "functions": [
+        {
+          "name": "useInView",
+          "startLine": 8,
+          "endLine": 27,
+          "params": [
+            "options"
+          ]
+        },
+        {
+          "name": "RevealBlock",
+          "startLine": 29,
+          "endLine": 52,
+          "params": [
+            "{\r\n  children,\r\n  className = \"\",\r\n  delay = 0,\r\n}"
+          ]
+        },
+        {
+          "name": "DarkModeShowcase",
+          "startLine": 223,
+          "endLine": 1045,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "DarkModeShowcase",
+          "line": 223,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "useInView",
+          "callee": "useRef",
+          "lineNumber": 9
+        },
+        {
+          "caller": "useInView",
+          "callee": "useState",
+          "lineNumber": 10
+        },
+        {
+          "caller": "useInView",
+          "callee": "useEffect",
+          "lineNumber": 11
+        },
+        {
+          "caller": "useInView",
+          "callee": "setInView",
+          "lineNumber": 17
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.disconnect",
+          "lineNumber": 18
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.observe",
+          "lineNumber": 23
+        },
+        {
+          "caller": "useInView",
+          "callee": "obs.disconnect",
+          "lineNumber": 24
+        },
+        {
+          "caller": "RevealBlock",
+          "callee": "useInView",
+          "lineNumber": 38
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "useState",
+          "lineNumber": 224
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "useState",
+          "lineNumber": 225
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "useState",
+          "lineNumber": 226
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "useState",
+          "lineNumber": 227
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "useEffect",
+          "lineNumber": 229
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "setTimeout",
+          "lineNumber": 230
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "setHeroVisible",
+          "lineNumber": 230
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "clearTimeout",
+          "lineNumber": 231
+        },
+        {
+          "caller": "toggleSwitch",
+          "callee": "setToggleStates",
+          "lineNumber": 235
+        },
+        {
+          "caller": "toggleSwitch",
+          "callee": "prev.map",
+          "lineNumber": 235
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "NAV_LINKS.map",
+          "lineNumber": 257
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "STAT_ITEMS.map",
+          "lineNumber": 355
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "FEATURE_CARDS.map",
+          "lineNumber": 452
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "[\"Dark Mode\", \"Notifications\", \"Auto-save\"].map",
+          "lineNumber": 521
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "toggleSwitch",
+          "lineNumber": 528
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "COLOR_RAMP.slice(0, 4).map",
+          "lineNumber": 593
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "COLOR_RAMP.slice",
+          "lineNumber": 593
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "COLOR_RAMP.slice(4).map",
+          "lineNumber": 610
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "COLOR_RAMP.slice",
+          "lineNumber": 610
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "TEXT_RAMP.map",
+          "lineNumber": 627
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "DO_LIST.map",
+          "lineNumber": 663
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "DONT_LIST.map",
+          "lineNumber": 684
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "CODE_SNIPPET.split(\"\\n\").map",
+          "lineNumber": 754
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "CODE_SNIPPET.split",
+          "lineNumber": 754
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "line.trim().startsWith",
+          "lineNumber": 756
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "line.trim",
+          "lineNumber": 756
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "line.includes",
+          "lineNumber": 757
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "line.includes",
+          "lineNumber": 757
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "line.includes",
+          "lineNumber": 757
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "line.includes",
+          "lineNumber": 757
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "line.includes",
+          "lineNumber": 757
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "line.includes",
+          "lineNumber": 757
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "line.includes",
+          "lineNumber": 757
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "[\"Overview\", \"Metrics\", \"Logs\", \"Config\"].map",
+          "lineNumber": 807
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "setActiveTab",
+          "lineNumber": 810
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "[[\"P50 latency\", \"12ms\"], [\"P99 latency\", \"45ms\"], [\"Error rate\", \"0.02%\"]].map",
+          "lineNumber": 836
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "SIDEBAR_ITEMS.map",
+          "lineNumber": 872
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "setActiveSidebarItem",
+          "lineNumber": 875
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "ALERT_VARIANTS.map",
+          "lineNumber": 918
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "[\r\n                { label: \"Storage Used\", value: 75, color: \"bg-blue-500\", textColor: \"text-slate-300\" },\r\n                { label: \"Memory\", value: 45, color: \"bg-green-500\", textColor: \"text-slate-300\" },\r\n                { label: \"CPU Usage\", value: 88, color: \"bg-amber-500\", textColor: \"text-amber-400\" },\r\n                { label: \"Disk I/O\", value: 32, color: \"bg-blue-400\", textColor: \"text-slate-300\" },\r\n              ].map",
+          "lineNumber": 952
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "[\"Documentation\", \"Component API\", \"Design Tokens\", \"Changelog\"].map",
+          "lineNumber": 998
+        },
+        {
+          "caller": "DarkModeShowcase",
+          "callee": "[\"All Styles\", \"Submit Style\", \"GitHub\", \"Community\"].map",
+          "lineNumber": 1011
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/styles/dark-mode/showcase/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 11,
+      "nonEmptyLines": 8,
+      "functions": [
+        {
+          "name": "DarkModeShowcase",
+          "startLine": 9,
+          "endLine": 11,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "DarkModeShowcase",
+          "line": 9,
+          "isDefault": true
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    }
+  ]
+}

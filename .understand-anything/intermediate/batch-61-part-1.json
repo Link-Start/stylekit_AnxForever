@@ -1,0 +1,1396 @@
+{
+  "nodes": [
+    {
+      "id": "function:app/styles/pastel-goth/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/pastel-goth/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        31
+      ],
+      "summary": "React component rendering a section of the Pastel Goth showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/pastel-goth/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/pastel-goth/showcase/_content.tsx",
+      "lineRange": [
+        33,
+        56
+      ],
+      "summary": "React component rendering a section of the Pastel Goth showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/pastel-goth/showcase/_content.tsx:SkullIcon",
+      "type": "function",
+      "name": "SkullIcon",
+      "filePath": "app/styles/pastel-goth/showcase/_content.tsx",
+      "lineRange": [
+        62,
+        90
+      ],
+      "summary": "React component rendering a section of the Pastel Goth showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/pastel-goth/showcase/_content.tsx:BatIcon",
+      "type": "function",
+      "name": "BatIcon",
+      "filePath": "app/styles/pastel-goth/showcase/_content.tsx",
+      "lineRange": [
+        92,
+        125
+      ],
+      "summary": "React component rendering a section of the Pastel Goth showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/pastel-goth/showcase/_content.tsx:CrescentMoonIcon",
+      "type": "function",
+      "name": "CrescentMoonIcon",
+      "filePath": "app/styles/pastel-goth/showcase/_content.tsx",
+      "lineRange": [
+        127,
+        149
+      ],
+      "summary": "React component rendering a section of the Pastel Goth showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/pastel-goth/showcase/_content.tsx:StarIcon",
+      "type": "function",
+      "name": "StarIcon",
+      "filePath": "app/styles/pastel-goth/showcase/_content.tsx",
+      "lineRange": [
+        151,
+        168
+      ],
+      "summary": "React component rendering a section of the Pastel Goth showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/pastel-goth/showcase/_content.tsx:SparkleIcon",
+      "type": "function",
+      "name": "SparkleIcon",
+      "filePath": "app/styles/pastel-goth/showcase/_content.tsx",
+      "lineRange": [
+        170,
+        183
+      ],
+      "summary": "React component rendering a section of the Pastel Goth showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/pastel-goth/showcase/_content.tsx:CrossIcon",
+      "type": "function",
+      "name": "CrossIcon",
+      "filePath": "app/styles/pastel-goth/showcase/_content.tsx",
+      "lineRange": [
+        185,
+        199
+      ],
+      "summary": "React component rendering a section of the Pastel Goth showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/pastel-goth/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/pastel-goth/showcase/_content.tsx",
+      "lineRange": [
+        306,
+        1434
+      ],
+      "summary": "React component rendering a section of the Pastel Goth showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/pastel-goth/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/pastel-goth/showcase/_content.tsx",
+      "summary": "Interactive showcase page for the Pastel Goth design style, rendering inline SVG decorations, theme-specific UI components, and a full-page demo layout with animated reveal effects.",
+      "tags": [
+        "showcase",
+        "style-preview",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Large React client component (~1434 lines) with inline SVG motifs and IntersectionObserver-driven scroll animations."
+    },
+    {
+      "id": "function:app/styles/pastel-goth/showcase/page.tsx:Page",
+      "type": "function",
+      "name": "Page",
+      "filePath": "app/styles/pastel-goth/showcase/page.tsx",
+      "lineRange": [
+        14,
+        16
+      ],
+      "summary": "Next.js page component rendering the Pastel Goth showcase.",
+      "tags": [
+        "page",
+        "showcase"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/pastel-goth/showcase/page.tsx",
+      "type": "file",
+      "name": "Page",
+      "filePath": "app/styles/pastel-goth/showcase/page.tsx",
+      "summary": "Next.js page route for the Pastel Goth showcase, loading the content component with static generation and metadata.",
+      "tags": [
+        "showcase",
+        "page",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/pixel-anime/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/pixel-anime/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        31
+      ],
+      "summary": "React component rendering a section of the Pixel Anime showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/pixel-anime/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/pixel-anime/showcase/_content.tsx",
+      "lineRange": [
+        33,
+        56
+      ],
+      "summary": "React component rendering a section of the Pixel Anime showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/pixel-anime/showcase/_content.tsx:PixelCorners",
+      "type": "function",
+      "name": "PixelCorners",
+      "filePath": "app/styles/pixel-anime/showcase/_content.tsx",
+      "lineRange": [
+        62,
+        83
+      ],
+      "summary": "React component rendering a section of the Pixel Anime showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/pixel-anime/showcase/_content.tsx:StatusBar",
+      "type": "function",
+      "name": "StatusBar",
+      "filePath": "app/styles/pixel-anime/showcase/_content.tsx",
+      "lineRange": [
+        89,
+        119
+      ],
+      "summary": "React component rendering a section of the Pixel Anime showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/pixel-anime/showcase/_content.tsx:BlinkArrow",
+      "type": "function",
+      "name": "BlinkArrow",
+      "filePath": "app/styles/pixel-anime/showcase/_content.tsx",
+      "lineRange": [
+        125,
+        134
+      ],
+      "summary": "React component rendering a section of the Pixel Anime showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/pixel-anime/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/pixel-anime/showcase/_content.tsx",
+      "lineRange": [
+        208,
+        2135
+      ],
+      "summary": "React component rendering a section of the Pixel Anime showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/pixel-anime/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/pixel-anime/showcase/_content.tsx",
+      "summary": "Interactive showcase page for the Pixel Anime design style, rendering inline SVG decorations, theme-specific UI components, and a full-page demo layout with animated reveal effects.",
+      "tags": [
+        "showcase",
+        "style-preview",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Large React client component (~2135 lines) with inline SVG motifs and IntersectionObserver-driven scroll animations."
+    },
+    {
+      "id": "function:app/styles/pixel-anime/showcase/page.tsx:Page",
+      "type": "function",
+      "name": "Page",
+      "filePath": "app/styles/pixel-anime/showcase/page.tsx",
+      "lineRange": [
+        14,
+        16
+      ],
+      "summary": "Next.js page component rendering the Pixel Anime showcase.",
+      "tags": [
+        "page",
+        "showcase"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/pixel-anime/showcase/page.tsx",
+      "type": "file",
+      "name": "Page",
+      "filePath": "app/styles/pixel-anime/showcase/page.tsx",
+      "summary": "Next.js page route for the Pixel Anime showcase, loading the content component with static generation and metadata.",
+      "tags": [
+        "showcase",
+        "page",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/pixel-art/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/pixel-art/showcase/_content.tsx",
+      "lineRange": [
+        9,
+        28
+      ],
+      "summary": "React component rendering a section of the Pixel Art showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/pixel-art/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/pixel-art/showcase/_content.tsx",
+      "lineRange": [
+        33,
+        56
+      ],
+      "summary": "React component rendering a section of the Pixel Art showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/pixel-art/showcase/_content.tsx:PixelSprite",
+      "type": "function",
+      "name": "PixelSprite",
+      "filePath": "app/styles/pixel-art/showcase/_content.tsx",
+      "lineRange": [
+        96,
+        122
+      ],
+      "summary": "React component rendering a section of the Pixel Art showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/pixel-art/showcase/_content.tsx:Section",
+      "type": "function",
+      "name": "Section",
+      "filePath": "app/styles/pixel-art/showcase/_content.tsx",
+      "lineRange": [
+        133,
+        184
+      ],
+      "summary": "React component rendering a section of the Pixel Art showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/styles/pixel-art/showcase/_content.tsx:PixelButton",
+      "type": "function",
+      "name": "PixelButton",
+      "filePath": "app/styles/pixel-art/showcase/_content.tsx",
+      "lineRange": [
+        189,
+        245
+      ],
+      "summary": "React component rendering a section of the Pixel Art showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/styles/pixel-art/showcase/_content.tsx:PixelArtShowcase",
+      "type": "function",
+      "name": "PixelArtShowcase",
+      "filePath": "app/styles/pixel-art/showcase/_content.tsx",
+      "lineRange": [
+        250,
+        2152
+      ],
+      "summary": "React component rendering a section of the Pixel Art showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/pixel-art/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/pixel-art/showcase/_content.tsx",
+      "summary": "Interactive showcase page for the Pixel Art design style, rendering inline SVG decorations, theme-specific UI components, and a full-page demo layout with animated reveal effects.",
+      "tags": [
+        "showcase",
+        "style-preview",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Large React client component (~2152 lines) with inline SVG motifs and IntersectionObserver-driven scroll animations."
+    },
+    {
+      "id": "function:app/styles/pixel-art/showcase/page.tsx:PixelArtShowcasePage",
+      "type": "function",
+      "name": "PixelArtShowcasePage",
+      "filePath": "app/styles/pixel-art/showcase/page.tsx",
+      "lineRange": [
+        14,
+        16
+      ],
+      "summary": "Next.js page component rendering the Pixel Art showcase.",
+      "tags": [
+        "page",
+        "showcase"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/pixel-art/showcase/page.tsx",
+      "type": "file",
+      "name": "PixelArtShowcasePage",
+      "filePath": "app/styles/pixel-art/showcase/page.tsx",
+      "summary": "Next.js page route for the Pixel Art showcase, loading the content component with static generation and metadata.",
+      "tags": [
+        "showcase",
+        "page",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/pop-art/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/pop-art/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        31
+      ],
+      "summary": "React component rendering a section of the Pop Art showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/pop-art/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/pop-art/showcase/_content.tsx",
+      "lineRange": [
+        33,
+        56
+      ],
+      "summary": "React component rendering a section of the Pop Art showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/pop-art/showcase/_content.tsx:BenDayLayer",
+      "type": "function",
+      "name": "BenDayLayer",
+      "filePath": "app/styles/pop-art/showcase/_content.tsx",
+      "lineRange": [
+        73,
+        97
+      ],
+      "summary": "React component rendering a section of the Pop Art showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/pop-art/showcase/_content.tsx:SpeechBubble",
+      "type": "function",
+      "name": "SpeechBubble",
+      "filePath": "app/styles/pop-art/showcase/_content.tsx",
+      "lineRange": [
+        99,
+        150
+      ],
+      "summary": "React component rendering a section of the Pop Art showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/styles/pop-art/showcase/_content.tsx:StarburstBadge",
+      "type": "function",
+      "name": "StarburstBadge",
+      "filePath": "app/styles/pop-art/showcase/_content.tsx",
+      "lineRange": [
+        152,
+        191
+      ],
+      "summary": "React component rendering a section of the Pop Art showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/pop-art/showcase/_content.tsx:PopArtShowcaseContent",
+      "type": "function",
+      "name": "PopArtShowcaseContent",
+      "filePath": "app/styles/pop-art/showcase/_content.tsx",
+      "lineRange": [
+        262,
+        1652
+      ],
+      "summary": "React component rendering a section of the Pop Art showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/pop-art/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/pop-art/showcase/_content.tsx",
+      "summary": "Interactive showcase page for the Pop Art design style, rendering inline SVG decorations, theme-specific UI components, and a full-page demo layout with animated reveal effects.",
+      "tags": [
+        "showcase",
+        "style-preview",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Large React client component (~1652 lines) with inline SVG motifs and IntersectionObserver-driven scroll animations."
+    },
+    {
+      "id": "function:app/styles/pop-art/showcase/page.tsx:PopArtShowcase",
+      "type": "function",
+      "name": "PopArtShowcase",
+      "filePath": "app/styles/pop-art/showcase/page.tsx",
+      "lineRange": [
+        9,
+        11
+      ],
+      "summary": "Next.js page component rendering the Pop Art showcase.",
+      "tags": [
+        "page",
+        "showcase"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/pop-art/showcase/page.tsx",
+      "type": "file",
+      "name": "PopArtShowcase",
+      "filePath": "app/styles/pop-art/showcase/page.tsx",
+      "summary": "Next.js page route for the Pop Art showcase, loading the content component with static generation and metadata.",
+      "tags": [
+        "showcase",
+        "page",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/retro-vintage/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/retro-vintage/showcase/_content.tsx",
+      "lineRange": [
+        9,
+        30
+      ],
+      "summary": "React component rendering a section of the Retro Vintage showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/retro-vintage/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/retro-vintage/showcase/_content.tsx",
+      "lineRange": [
+        36,
+        59
+      ],
+      "summary": "React component rendering a section of the Retro Vintage showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/retro-vintage/showcase/_content.tsx:SectionDivider",
+      "type": "function",
+      "name": "SectionDivider",
+      "filePath": "app/styles/retro-vintage/showcase/_content.tsx",
+      "lineRange": [
+        241,
+        255
+      ],
+      "summary": "React component rendering a section of the Retro Vintage showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/retro-vintage/showcase/_content.tsx:CornerOrnament",
+      "type": "function",
+      "name": "CornerOrnament",
+      "filePath": "app/styles/retro-vintage/showcase/_content.tsx",
+      "lineRange": [
+        257,
+        271
+      ],
+      "summary": "React component rendering a section of the Retro Vintage showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/retro-vintage/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/retro-vintage/showcase/_content.tsx",
+      "lineRange": [
+        277,
+        1222
+      ],
+      "summary": "React component rendering a section of the Retro Vintage showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/retro-vintage/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/retro-vintage/showcase/_content.tsx",
+      "summary": "Interactive showcase page for the Retro Vintage design style, rendering inline SVG decorations, theme-specific UI components, and a full-page demo layout with animated reveal effects.",
+      "tags": [
+        "showcase",
+        "style-preview",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Large React client component (~1222 lines) with inline SVG motifs and IntersectionObserver-driven scroll animations."
+    },
+    {
+      "id": "function:app/styles/retro-vintage/showcase/page.tsx:RetroVintageShowcase",
+      "type": "function",
+      "name": "RetroVintageShowcase",
+      "filePath": "app/styles/retro-vintage/showcase/page.tsx",
+      "lineRange": [
+        9,
+        11
+      ],
+      "summary": "Next.js page component rendering the Retro Vintage showcase.",
+      "tags": [
+        "page",
+        "showcase"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/retro-vintage/showcase/page.tsx",
+      "type": "file",
+      "name": "RetroVintageShowcase",
+      "filePath": "app/styles/retro-vintage/showcase/page.tsx",
+      "summary": "Next.js page route for the Retro Vintage showcase, loading the content component with static generation and metadata.",
+      "tags": [
+        "showcase",
+        "page",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/risograph/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/risograph/showcase/_content.tsx",
+      "lineRange": [
+        6,
+        25
+      ],
+      "summary": "React component rendering a section of the Risograph showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/risograph/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/risograph/showcase/_content.tsx",
+      "lineRange": [
+        27,
+        50
+      ],
+      "summary": "React component rendering a section of the Risograph showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/risograph/showcase/_content.tsx:RisographShowcase",
+      "type": "function",
+      "name": "RisographShowcase",
+      "filePath": "app/styles/risograph/showcase/_content.tsx",
+      "lineRange": [
+        89,
+        1435
+      ],
+      "summary": "React component rendering a section of the Risograph showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/risograph/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/risograph/showcase/_content.tsx",
+      "summary": "Interactive showcase page for the Risograph design style, rendering inline SVG decorations, theme-specific UI components, and a full-page demo layout with animated reveal effects.",
+      "tags": [
+        "showcase",
+        "style-preview",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Large React client component (~1435 lines) with inline SVG motifs and IntersectionObserver-driven scroll animations."
+    },
+    {
+      "id": "function:app/styles/risograph/showcase/page.tsx:Page",
+      "type": "function",
+      "name": "Page",
+      "filePath": "app/styles/risograph/showcase/page.tsx",
+      "lineRange": [
+        14,
+        16
+      ],
+      "summary": "Next.js page component rendering the Risograph showcase.",
+      "tags": [
+        "page",
+        "showcase"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/risograph/showcase/page.tsx",
+      "type": "file",
+      "name": "Page",
+      "filePath": "app/styles/risograph/showcase/page.tsx",
+      "summary": "Next.js page route for the Risograph showcase, loading the content component with static generation and metadata.",
+      "tags": [
+        "showcase",
+        "page",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/scandinavian/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/scandinavian/showcase/_content.tsx",
+      "lineRange": [
+        8,
+        27
+      ],
+      "summary": "React component rendering a section of the Scandinavian showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/scandinavian/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/scandinavian/showcase/_content.tsx",
+      "lineRange": [
+        31,
+        54
+      ],
+      "summary": "React component rendering a section of the Scandinavian showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/scandinavian/showcase/_content.tsx:PineBranchDecoration",
+      "type": "function",
+      "name": "PineBranchDecoration",
+      "filePath": "app/styles/scandinavian/showcase/_content.tsx",
+      "lineRange": [
+        58,
+        77
+      ],
+      "summary": "React component rendering a section of the Scandinavian showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/scandinavian/showcase/_content.tsx:ScandinavianShowcase",
+      "type": "function",
+      "name": "ScandinavianShowcase",
+      "filePath": "app/styles/scandinavian/showcase/_content.tsx",
+      "lineRange": [
+        81,
+        1057
+      ],
+      "summary": "React component rendering a section of the Scandinavian showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/scandinavian/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/scandinavian/showcase/_content.tsx",
+      "summary": "Interactive showcase page for the Scandinavian design style, rendering inline SVG decorations, theme-specific UI components, and a full-page demo layout with animated reveal effects.",
+      "tags": [
+        "showcase",
+        "style-preview",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Large React client component (~1057 lines) with inline SVG motifs and IntersectionObserver-driven scroll animations."
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:app/styles/pastel-goth/showcase/_content.tsx",
+      "target": "function:app/styles/pastel-goth/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/pastel-goth/showcase/_content.tsx",
+      "target": "function:app/styles/pastel-goth/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/pastel-goth/showcase/_content.tsx",
+      "target": "function:app/styles/pastel-goth/showcase/_content.tsx:SkullIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/pastel-goth/showcase/_content.tsx",
+      "target": "function:app/styles/pastel-goth/showcase/_content.tsx:BatIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/pastel-goth/showcase/_content.tsx",
+      "target": "function:app/styles/pastel-goth/showcase/_content.tsx:CrescentMoonIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/pastel-goth/showcase/_content.tsx",
+      "target": "function:app/styles/pastel-goth/showcase/_content.tsx:StarIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/pastel-goth/showcase/_content.tsx",
+      "target": "function:app/styles/pastel-goth/showcase/_content.tsx:SparkleIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/pastel-goth/showcase/_content.tsx",
+      "target": "function:app/styles/pastel-goth/showcase/_content.tsx:CrossIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/pastel-goth/showcase/_content.tsx",
+      "target": "function:app/styles/pastel-goth/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/pastel-goth/showcase/_content.tsx",
+      "target": "function:app/styles/pastel-goth/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/pastel-goth/showcase/page.tsx",
+      "target": "function:app/styles/pastel-goth/showcase/page.tsx:Page",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/pastel-goth/showcase/page.tsx",
+      "target": "function:app/styles/pastel-goth/showcase/page.tsx:Page",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/pastel-goth/showcase/page.tsx",
+      "target": "file:app/styles/pastel-goth/showcase/_content.tsx",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:app/styles/pixel-anime/showcase/_content.tsx",
+      "target": "function:app/styles/pixel-anime/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/pixel-anime/showcase/_content.tsx",
+      "target": "function:app/styles/pixel-anime/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/pixel-anime/showcase/_content.tsx",
+      "target": "function:app/styles/pixel-anime/showcase/_content.tsx:PixelCorners",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/pixel-anime/showcase/_content.tsx",
+      "target": "function:app/styles/pixel-anime/showcase/_content.tsx:StatusBar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/pixel-anime/showcase/_content.tsx",
+      "target": "function:app/styles/pixel-anime/showcase/_content.tsx:BlinkArrow",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/pixel-anime/showcase/_content.tsx",
+      "target": "function:app/styles/pixel-anime/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/pixel-anime/showcase/_content.tsx",
+      "target": "function:app/styles/pixel-anime/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/pixel-anime/showcase/page.tsx",
+      "target": "function:app/styles/pixel-anime/showcase/page.tsx:Page",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/pixel-anime/showcase/page.tsx",
+      "target": "function:app/styles/pixel-anime/showcase/page.tsx:Page",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/pixel-anime/showcase/page.tsx",
+      "target": "file:app/styles/pixel-anime/showcase/_content.tsx",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:app/styles/pixel-art/showcase/_content.tsx",
+      "target": "function:app/styles/pixel-art/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/pixel-art/showcase/_content.tsx",
+      "target": "function:app/styles/pixel-art/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/pixel-art/showcase/_content.tsx",
+      "target": "function:app/styles/pixel-art/showcase/_content.tsx:PixelSprite",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/pixel-art/showcase/_content.tsx",
+      "target": "function:app/styles/pixel-art/showcase/_content.tsx:Section",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/pixel-art/showcase/_content.tsx",
+      "target": "function:app/styles/pixel-art/showcase/_content.tsx:PixelButton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/pixel-art/showcase/_content.tsx",
+      "target": "function:app/styles/pixel-art/showcase/_content.tsx:PixelArtShowcase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/pixel-art/showcase/_content.tsx",
+      "target": "function:app/styles/pixel-art/showcase/_content.tsx:PixelArtShowcase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/pixel-art/showcase/page.tsx",
+      "target": "function:app/styles/pixel-art/showcase/page.tsx:PixelArtShowcasePage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/pixel-art/showcase/page.tsx",
+      "target": "function:app/styles/pixel-art/showcase/page.tsx:PixelArtShowcasePage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/pixel-art/showcase/page.tsx",
+      "target": "file:app/styles/pixel-art/showcase/_content.tsx",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:app/styles/pop-art/showcase/_content.tsx",
+      "target": "function:app/styles/pop-art/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/pop-art/showcase/_content.tsx",
+      "target": "function:app/styles/pop-art/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/pop-art/showcase/_content.tsx",
+      "target": "function:app/styles/pop-art/showcase/_content.tsx:BenDayLayer",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/pop-art/showcase/_content.tsx",
+      "target": "function:app/styles/pop-art/showcase/_content.tsx:SpeechBubble",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/pop-art/showcase/_content.tsx",
+      "target": "function:app/styles/pop-art/showcase/_content.tsx:StarburstBadge",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/pop-art/showcase/_content.tsx",
+      "target": "function:app/styles/pop-art/showcase/_content.tsx:PopArtShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/pop-art/showcase/_content.tsx",
+      "target": "function:app/styles/pop-art/showcase/_content.tsx:PopArtShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/pop-art/showcase/page.tsx",
+      "target": "function:app/styles/pop-art/showcase/page.tsx:PopArtShowcase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/pop-art/showcase/page.tsx",
+      "target": "function:app/styles/pop-art/showcase/page.tsx:PopArtShowcase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/pop-art/showcase/page.tsx",
+      "target": "file:app/styles/pop-art/showcase/_content.tsx",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:app/styles/retro-vintage/showcase/_content.tsx",
+      "target": "function:app/styles/retro-vintage/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/retro-vintage/showcase/_content.tsx",
+      "target": "function:app/styles/retro-vintage/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/retro-vintage/showcase/_content.tsx",
+      "target": "function:app/styles/retro-vintage/showcase/_content.tsx:SectionDivider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/retro-vintage/showcase/_content.tsx",
+      "target": "function:app/styles/retro-vintage/showcase/_content.tsx:CornerOrnament",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/retro-vintage/showcase/_content.tsx",
+      "target": "function:app/styles/retro-vintage/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/retro-vintage/showcase/_content.tsx",
+      "target": "function:app/styles/retro-vintage/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/retro-vintage/showcase/page.tsx",
+      "target": "function:app/styles/retro-vintage/showcase/page.tsx:RetroVintageShowcase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/retro-vintage/showcase/page.tsx",
+      "target": "function:app/styles/retro-vintage/showcase/page.tsx:RetroVintageShowcase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/retro-vintage/showcase/page.tsx",
+      "target": "file:app/styles/retro-vintage/showcase/_content.tsx",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:app/styles/risograph/showcase/_content.tsx",
+      "target": "function:app/styles/risograph/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/risograph/showcase/_content.tsx",
+      "target": "function:app/styles/risograph/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/risograph/showcase/_content.tsx",
+      "target": "function:app/styles/risograph/showcase/_content.tsx:RisographShowcase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/risograph/showcase/_content.tsx",
+      "target": "function:app/styles/risograph/showcase/_content.tsx:RisographShowcase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/risograph/showcase/page.tsx",
+      "target": "function:app/styles/risograph/showcase/page.tsx:Page",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/risograph/showcase/page.tsx",
+      "target": "function:app/styles/risograph/showcase/page.tsx:Page",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/risograph/showcase/page.tsx",
+      "target": "file:app/styles/risograph/showcase/_content.tsx",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:app/styles/scandinavian/showcase/_content.tsx",
+      "target": "function:app/styles/scandinavian/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/scandinavian/showcase/_content.tsx",
+      "target": "function:app/styles/scandinavian/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/scandinavian/showcase/_content.tsx",
+      "target": "function:app/styles/scandinavian/showcase/_content.tsx:PineBranchDecoration",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/scandinavian/showcase/_content.tsx",
+      "target": "function:app/styles/scandinavian/showcase/_content.tsx:ScandinavianShowcase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/scandinavian/showcase/_content.tsx",
+      "target": "function:app/styles/scandinavian/showcase/_content.tsx:ScandinavianShowcase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/scandinavian/showcase/page.tsx",
+      "target": "file:app/styles/scandinavian/showcase/_content.tsx",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    }
+  ]
+}

@@ -1,0 +1,586 @@
+{
+  "nodes": [
+    {
+      "id": "file:lib/styles/graffiti-street.ts",
+      "type": "file",
+      "name": "graffiti-street.ts",
+      "filePath": "lib/styles/graffiti-street.ts",
+      "summary": "Style implementation for \"Graffiti Street\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/hand-drawn-doodle.ts",
+      "type": "file",
+      "name": "hand-drawn-doodle.ts",
+      "filePath": "lib/styles/hand-drawn-doodle.ts",
+      "summary": "Style implementation for \"Hand Drawn Doodle\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/hero-fullscreen.ts",
+      "type": "file",
+      "name": "hero-fullscreen.ts",
+      "filePath": "lib/styles/hero-fullscreen.ts",
+      "summary": "Style implementation for \"Hero Fullscreen\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/holographic.ts",
+      "type": "file",
+      "name": "holographic.ts",
+      "filePath": "lib/styles/holographic.ts",
+      "summary": "Style implementation for \"Holographic\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/holy-grail-layout.ts",
+      "type": "file",
+      "name": "holy-grail-layout.ts",
+      "filePath": "lib/styles/holy-grail-layout.ts",
+      "summary": "Style implementation for \"Holy Grail Layout\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/impressionist-oil.ts",
+      "type": "file",
+      "name": "impressionist-oil.ts",
+      "filePath": "lib/styles/impressionist-oil.ts",
+      "summary": "Style implementation for \"Impressionist Oil\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/indian-festive.ts",
+      "type": "file",
+      "name": "indian-festive.ts",
+      "filePath": "lib/styles/indian-festive.ts",
+      "summary": "Style implementation for \"Indian Festive\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/ink-wash.ts",
+      "type": "file",
+      "name": "ink-wash.ts",
+      "filePath": "lib/styles/ink-wash.ts",
+      "summary": "Style implementation for \"Ink Wash\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/islamic-geometric.ts",
+      "type": "file",
+      "name": "islamic-geometric.ts",
+      "filePath": "lib/styles/islamic-geometric.ts",
+      "summary": "Style implementation for \"Islamic Geometric\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/japanese-fresh.ts",
+      "type": "file",
+      "name": "japanese-fresh.ts",
+      "filePath": "lib/styles/japanese-fresh.ts",
+      "summary": "Style implementation for \"Japanese Fresh\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/jrpg.ts",
+      "type": "file",
+      "name": "jrpg.ts",
+      "filePath": "lib/styles/jrpg.ts",
+      "summary": "Style implementation for \"Jrpg\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/kawaii-minimal.ts",
+      "type": "file",
+      "name": "kawaii-minimal.ts",
+      "filePath": "lib/styles/kawaii-minimal.ts",
+      "summary": "Style implementation for \"Kawaii Minimal\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/korean-minimal.ts",
+      "type": "file",
+      "name": "korean-minimal.ts",
+      "filePath": "lib/styles/korean-minimal.ts",
+      "summary": "Style implementation for \"Korean Minimal\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/linear-style.ts",
+      "type": "file",
+      "name": "linear-style.ts",
+      "filePath": "lib/styles/linear-style.ts",
+      "summary": "Style implementation for \"Linear Style\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/liquid-glass.ts",
+      "type": "file",
+      "name": "liquid-glass.ts",
+      "filePath": "lib/styles/liquid-glass.ts",
+      "summary": "Style implementation for \"Liquid Glass\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/luxury-retail.ts",
+      "type": "file",
+      "name": "luxury-retail.ts",
+      "filePath": "lib/styles/luxury-retail.ts",
+      "summary": "Style implementation for \"Luxury Retail\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/macos-vibrancy.ts",
+      "type": "file",
+      "name": "macos-vibrancy.ts",
+      "filePath": "lib/styles/macos-vibrancy.ts",
+      "summary": "Style implementation for \"Macos Vibrancy\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/magazine-grid.ts",
+      "type": "file",
+      "name": "magazine-grid.ts",
+      "filePath": "lib/styles/magazine-grid.ts",
+      "summary": "Style implementation for \"Magazine Grid\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/magic-circle.ts",
+      "type": "file",
+      "name": "magic-circle.ts",
+      "filePath": "lib/styles/magic-circle.ts",
+      "summary": "Style implementation for \"Magic Circle\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/marble-luxury.ts",
+      "type": "file",
+      "name": "marble-luxury.ts",
+      "filePath": "lib/styles/marble-luxury.ts",
+      "summary": "Style implementation for \"Marble Luxury\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/masonry-flow.ts",
+      "type": "file",
+      "name": "masonry-flow.ts",
+      "filePath": "lib/styles/masonry-flow.ts",
+      "summary": "Style implementation for \"Masonry Flow\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/material-design.ts",
+      "type": "file",
+      "name": "material-design.ts",
+      "filePath": "lib/styles/material-design.ts",
+      "summary": "Style implementation for \"Material Design\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/maximalism.ts",
+      "type": "file",
+      "name": "maximalism.ts",
+      "filePath": "lib/styles/maximalism.ts",
+      "summary": "Style implementation for \"Maximalism\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/mecha.ts",
+      "type": "file",
+      "name": "mecha.ts",
+      "filePath": "lib/styles/mecha.ts",
+      "summary": "Style implementation for \"Mecha\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/medieval-manuscript.ts",
+      "type": "file",
+      "name": "medieval-manuscript.ts",
+      "filePath": "lib/styles/medieval-manuscript.ts",
+      "summary": "Style implementation for \"Medieval Manuscript\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/memphis.ts",
+      "type": "file",
+      "name": "memphis.ts",
+      "filePath": "lib/styles/memphis.ts",
+      "summary": "Style implementation for \"Memphis\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/mid-century-modern.ts",
+      "type": "file",
+      "name": "mid-century-modern.ts",
+      "filePath": "lib/styles/mid-century-modern.ts",
+      "summary": "Style implementation for \"Mid Century Modern\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/minimalist-flat.ts",
+      "type": "file",
+      "name": "minimalist-flat.ts",
+      "filePath": "lib/styles/minimalist-flat.ts",
+      "summary": "Style implementation for \"Minimalist Flat\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/modern-gradient.ts",
+      "type": "file",
+      "name": "modern-gradient.ts",
+      "filePath": "lib/styles/modern-gradient.ts",
+      "summary": "Style implementation for \"Modern Gradient\", defining the complete design system with CSS classes, component variants, and visual effects.",
+      "tags": [
+        "style",
+        "design-system",
+        "implementation"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:lib/styles/graffiti-street.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/hand-drawn-doodle.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/hero-fullscreen.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/holographic.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/holy-grail-layout.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/impressionist-oil.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/indian-festive.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/ink-wash.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/islamic-geometric.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/japanese-fresh.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/jrpg.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/kawaii-minimal.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/korean-minimal.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/linear-style.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/liquid-glass.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/luxury-retail.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/macos-vibrancy.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/magazine-grid.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/magic-circle.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/marble-luxury.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/masonry-flow.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/material-design.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/maximalism.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/mecha.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/medieval-manuscript.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/memphis.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/mid-century-modern.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/minimalist-flat.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/modern-gradient.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

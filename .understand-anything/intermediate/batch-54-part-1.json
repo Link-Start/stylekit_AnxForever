@@ -1,0 +1,1089 @@
+{
+  "nodes": [
+    {
+      "id": "file:app/styles/anti-design/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/anti-design/showcase/_content.tsx",
+      "summary": "Showcase content component for the Anti Design design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/anti-design/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/anti-design/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        24
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/anti-design/showcase/_content.tsx:AntiDesignShowcase",
+      "type": "function",
+      "name": "AntiDesignShowcase",
+      "filePath": "app/styles/anti-design/showcase/_content.tsx",
+      "lineRange": [
+        117,
+        1294
+      ],
+      "summary": "Main showcase component rendering example cards and layout variants for the Antidesign design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/anti-design/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/anti-design/showcase/page.tsx",
+      "summary": "Showcase page route for the Anti Design design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/apple-style/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/apple-style/showcase/_content.tsx",
+      "summary": "Showcase content component for the Apple Style design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/apple-style/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/apple-style/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        31
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/apple-style/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/apple-style/showcase/_content.tsx",
+      "lineRange": [
+        33,
+        56
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/apple-style/showcase/_content.tsx:ChevronRightIcon",
+      "type": "function",
+      "name": "ChevronRightIcon",
+      "filePath": "app/styles/apple-style/showcase/_content.tsx",
+      "lineRange": [
+        88,
+        102
+      ],
+      "summary": "SVG icon component (ChevronRightIcon) used in UI elements within the showcase.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/apple-style/showcase/_content.tsx:CheckIcon",
+      "type": "function",
+      "name": "CheckIcon",
+      "filePath": "app/styles/apple-style/showcase/_content.tsx",
+      "lineRange": [
+        104,
+        118
+      ],
+      "summary": "SVG icon component (CheckIcon) used in UI elements within the showcase.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/apple-style/showcase/_content.tsx:XIcon",
+      "type": "function",
+      "name": "XIcon",
+      "filePath": "app/styles/apple-style/showcase/_content.tsx",
+      "lineRange": [
+        120,
+        134
+      ],
+      "summary": "SVG icon component (XIcon) used in UI elements within the showcase.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/apple-style/showcase/_content.tsx:SearchIcon",
+      "type": "function",
+      "name": "SearchIcon",
+      "filePath": "app/styles/apple-style/showcase/_content.tsx",
+      "lineRange": [
+        136,
+        151
+      ],
+      "summary": "SVG icon component (SearchIcon) used in UI elements within the showcase.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/apple-style/showcase/_content.tsx:ShieldIcon",
+      "type": "function",
+      "name": "ShieldIcon",
+      "filePath": "app/styles/apple-style/showcase/_content.tsx",
+      "lineRange": [
+        153,
+        167
+      ],
+      "summary": "SVG icon component (ShieldIcon) used in UI elements within the showcase.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/apple-style/showcase/_content.tsx:LayersIcon",
+      "type": "function",
+      "name": "LayersIcon",
+      "filePath": "app/styles/apple-style/showcase/_content.tsx",
+      "lineRange": [
+        169,
+        185
+      ],
+      "summary": "SVG icon component (LayersIcon) used in UI elements within the showcase.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/apple-style/showcase/_content.tsx:ZapIcon",
+      "type": "function",
+      "name": "ZapIcon",
+      "filePath": "app/styles/apple-style/showcase/_content.tsx",
+      "lineRange": [
+        187,
+        201
+      ],
+      "summary": "SVG icon component (ZapIcon) used in UI elements within the showcase.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/apple-style/showcase/_content.tsx:SunIcon",
+      "type": "function",
+      "name": "SunIcon",
+      "filePath": "app/styles/apple-style/showcase/_content.tsx",
+      "lineRange": [
+        203,
+        225
+      ],
+      "summary": "SVG icon component (SunIcon) used in UI elements within the showcase.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/apple-style/showcase/_content.tsx:CameraIcon",
+      "type": "function",
+      "name": "CameraIcon",
+      "filePath": "app/styles/apple-style/showcase/_content.tsx",
+      "lineRange": [
+        227,
+        242
+      ],
+      "summary": "SVG icon component (CameraIcon) used in UI elements within the showcase.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/apple-style/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/apple-style/showcase/_content.tsx",
+      "lineRange": [
+        306,
+        1886
+      ],
+      "summary": "Main showcase content component rendering example cards and layout variants for the Styles design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/apple-style/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/apple-style/showcase/page.tsx",
+      "summary": "Showcase page route for the Apple Style design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/arcade-crt/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/arcade-crt/showcase/_content.tsx",
+      "summary": "Showcase content component for the Arcade Crt design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/arcade-crt/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/arcade-crt/showcase/_content.tsx",
+      "lineRange": [
+        9,
+        28
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/arcade-crt/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/arcade-crt/showcase/_content.tsx",
+      "lineRange": [
+        30,
+        53
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/arcade-crt/showcase/_content.tsx:NeonBar",
+      "type": "function",
+      "name": "NeonBar",
+      "filePath": "app/styles/arcade-crt/showcase/_content.tsx",
+      "lineRange": [
+        91,
+        112
+      ],
+      "summary": "Function component NeonBar rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/arcade-crt/showcase/_content.tsx:ArcadeCrtShowcase",
+      "type": "function",
+      "name": "ArcadeCrtShowcase",
+      "filePath": "app/styles/arcade-crt/showcase/_content.tsx",
+      "lineRange": [
+        118,
+        1490
+      ],
+      "summary": "Main showcase component rendering example cards and layout variants for the Arcadecrt design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/arcade-crt/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/arcade-crt/showcase/page.tsx",
+      "summary": "Showcase page route for the Arcade Crt design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/art-deco/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/art-deco/showcase/_content.tsx",
+      "summary": "Showcase content component for the Art Deco design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/art-deco/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/art-deco/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        31
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/art-deco/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/art-deco/showcase/_content.tsx",
+      "lineRange": [
+        33,
+        56
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/art-deco/showcase/_content.tsx:DiamondIcon",
+      "type": "function",
+      "name": "DiamondIcon",
+      "filePath": "app/styles/art-deco/showcase/_content.tsx",
+      "lineRange": [
+        62,
+        80
+      ],
+      "summary": "SVG icon component (DiamondIcon) used in UI elements within the showcase.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/art-deco/showcase/_content.tsx:CornerAccent",
+      "type": "function",
+      "name": "CornerAccent",
+      "filePath": "app/styles/art-deco/showcase/_content.tsx",
+      "lineRange": [
+        95,
+        113
+      ],
+      "summary": "Function component CornerAccent rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/art-deco/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/art-deco/showcase/_content.tsx",
+      "lineRange": [
+        157,
+        1923
+      ],
+      "summary": "Main showcase content component rendering example cards and layout variants for the Styles design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/art-deco/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/art-deco/showcase/page.tsx",
+      "summary": "Showcase page route for the Art Deco design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/art-nouveau/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/art-nouveau/showcase/_content.tsx",
+      "summary": "Showcase content component for the Art Nouveau design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/art-nouveau/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/art-nouveau/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        29
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/art-nouveau/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/art-nouveau/showcase/_content.tsx",
+      "lineRange": [
+        35,
+        58
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/art-nouveau/showcase/_content.tsx:CornerOrnament",
+      "type": "function",
+      "name": "CornerOrnament",
+      "filePath": "app/styles/art-nouveau/showcase/_content.tsx",
+      "lineRange": [
+        90,
+        130
+      ],
+      "summary": "Function component CornerOrnament rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/art-nouveau/showcase/_content.tsx:SectionDivider",
+      "type": "function",
+      "name": "SectionDivider",
+      "filePath": "app/styles/art-nouveau/showcase/_content.tsx",
+      "lineRange": [
+        132,
+        161
+      ],
+      "summary": "Function component SectionDivider rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/art-nouveau/showcase/_content.tsx:VineDividerNav",
+      "type": "function",
+      "name": "VineDividerNav",
+      "filePath": "app/styles/art-nouveau/showcase/_content.tsx",
+      "lineRange": [
+        163,
+        177
+      ],
+      "summary": "Function component VineDividerNav rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/art-nouveau/showcase/_content.tsx:BotanicalFrame",
+      "type": "function",
+      "name": "BotanicalFrame",
+      "filePath": "app/styles/art-nouveau/showcase/_content.tsx",
+      "lineRange": [
+        179,
+        230
+      ],
+      "summary": "Function component BotanicalFrame rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/styles/art-nouveau/showcase/_content.tsx:WatermarkFloral",
+      "type": "function",
+      "name": "WatermarkFloral",
+      "filePath": "app/styles/art-nouveau/showcase/_content.tsx",
+      "lineRange": [
+        232,
+        255
+      ],
+      "summary": "Function component WatermarkFloral rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/art-nouveau/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/art-nouveau/showcase/_content.tsx",
+      "lineRange": [
+        263,
+        1134
+      ],
+      "summary": "Main showcase content component rendering example cards and layout variants for the Styles design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/art-nouveau/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/art-nouveau/showcase/page.tsx",
+      "summary": "Showcase page route for the Art Nouveau design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/asymmetric-grid/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/asymmetric-grid/showcase/_content.tsx",
+      "summary": "Showcase content component for the Asymmetric Grid design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/asymmetric-grid/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/asymmetric-grid/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        31
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/asymmetric-grid/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/asymmetric-grid/showcase/_content.tsx",
+      "lineRange": [
+        33,
+        56
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/asymmetric-grid/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/asymmetric-grid/showcase/_content.tsx",
+      "lineRange": [
+        108,
+        2365
+      ],
+      "summary": "Main showcase content component rendering example cards and layout variants for the Styles design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/asymmetric-grid/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/asymmetric-grid/showcase/page.tsx",
+      "summary": "Showcase page route for the Asymmetric Grid design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/bauhaus/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/bauhaus/showcase/_content.tsx",
+      "summary": "Showcase content component for the Bauhaus design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/bauhaus/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/bauhaus/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        31
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/bauhaus/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/bauhaus/showcase/_content.tsx",
+      "lineRange": [
+        33,
+        56
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/bauhaus/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/bauhaus/showcase/_content.tsx",
+      "lineRange": [
+        102,
+        1851
+      ],
+      "summary": "Main showcase content component rendering example cards and layout variants for the Styles design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:app/styles/anti-design/showcase/_content.tsx",
+      "target": "function:app/styles/anti-design/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/anti-design/showcase/_content.tsx",
+      "target": "function:app/styles/anti-design/showcase/_content.tsx:AntiDesignShowcase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/anti-design/showcase/_content.tsx",
+      "target": "function:app/styles/anti-design/showcase/_content.tsx:AntiDesignShowcase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/apple-style/showcase/_content.tsx",
+      "target": "function:app/styles/apple-style/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/apple-style/showcase/_content.tsx",
+      "target": "function:app/styles/apple-style/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/apple-style/showcase/_content.tsx",
+      "target": "function:app/styles/apple-style/showcase/_content.tsx:ChevronRightIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/apple-style/showcase/_content.tsx",
+      "target": "function:app/styles/apple-style/showcase/_content.tsx:CheckIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/apple-style/showcase/_content.tsx",
+      "target": "function:app/styles/apple-style/showcase/_content.tsx:XIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/apple-style/showcase/_content.tsx",
+      "target": "function:app/styles/apple-style/showcase/_content.tsx:SearchIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/apple-style/showcase/_content.tsx",
+      "target": "function:app/styles/apple-style/showcase/_content.tsx:ShieldIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/apple-style/showcase/_content.tsx",
+      "target": "function:app/styles/apple-style/showcase/_content.tsx:LayersIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/apple-style/showcase/_content.tsx",
+      "target": "function:app/styles/apple-style/showcase/_content.tsx:ZapIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/apple-style/showcase/_content.tsx",
+      "target": "function:app/styles/apple-style/showcase/_content.tsx:SunIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/apple-style/showcase/_content.tsx",
+      "target": "function:app/styles/apple-style/showcase/_content.tsx:CameraIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/apple-style/showcase/_content.tsx",
+      "target": "function:app/styles/apple-style/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/apple-style/showcase/_content.tsx",
+      "target": "function:app/styles/apple-style/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/arcade-crt/showcase/_content.tsx",
+      "target": "function:app/styles/arcade-crt/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/arcade-crt/showcase/_content.tsx",
+      "target": "function:app/styles/arcade-crt/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/arcade-crt/showcase/_content.tsx",
+      "target": "function:app/styles/arcade-crt/showcase/_content.tsx:NeonBar",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/arcade-crt/showcase/_content.tsx",
+      "target": "function:app/styles/arcade-crt/showcase/_content.tsx:ArcadeCrtShowcase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/arcade-crt/showcase/_content.tsx",
+      "target": "function:app/styles/arcade-crt/showcase/_content.tsx:ArcadeCrtShowcase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/art-deco/showcase/_content.tsx",
+      "target": "function:app/styles/art-deco/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/art-deco/showcase/_content.tsx",
+      "target": "function:app/styles/art-deco/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/art-deco/showcase/_content.tsx",
+      "target": "function:app/styles/art-deco/showcase/_content.tsx:DiamondIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/art-deco/showcase/_content.tsx",
+      "target": "function:app/styles/art-deco/showcase/_content.tsx:CornerAccent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/art-deco/showcase/_content.tsx",
+      "target": "function:app/styles/art-deco/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/art-deco/showcase/_content.tsx",
+      "target": "function:app/styles/art-deco/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/art-nouveau/showcase/_content.tsx",
+      "target": "function:app/styles/art-nouveau/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/art-nouveau/showcase/_content.tsx",
+      "target": "function:app/styles/art-nouveau/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/art-nouveau/showcase/_content.tsx",
+      "target": "function:app/styles/art-nouveau/showcase/_content.tsx:CornerOrnament",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/art-nouveau/showcase/_content.tsx",
+      "target": "function:app/styles/art-nouveau/showcase/_content.tsx:SectionDivider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/art-nouveau/showcase/_content.tsx",
+      "target": "function:app/styles/art-nouveau/showcase/_content.tsx:VineDividerNav",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/art-nouveau/showcase/_content.tsx",
+      "target": "function:app/styles/art-nouveau/showcase/_content.tsx:BotanicalFrame",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/art-nouveau/showcase/_content.tsx",
+      "target": "function:app/styles/art-nouveau/showcase/_content.tsx:WatermarkFloral",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/art-nouveau/showcase/_content.tsx",
+      "target": "function:app/styles/art-nouveau/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/art-nouveau/showcase/_content.tsx",
+      "target": "function:app/styles/art-nouveau/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/asymmetric-grid/showcase/_content.tsx",
+      "target": "function:app/styles/asymmetric-grid/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/asymmetric-grid/showcase/_content.tsx",
+      "target": "function:app/styles/asymmetric-grid/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/asymmetric-grid/showcase/_content.tsx",
+      "target": "function:app/styles/asymmetric-grid/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/asymmetric-grid/showcase/_content.tsx",
+      "target": "function:app/styles/asymmetric-grid/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/bauhaus/showcase/_content.tsx",
+      "target": "function:app/styles/bauhaus/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/bauhaus/showcase/_content.tsx",
+      "target": "function:app/styles/bauhaus/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/bauhaus/showcase/_content.tsx",
+      "target": "function:app/styles/bauhaus/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/bauhaus/showcase/_content.tsx",
+      "target": "function:app/styles/bauhaus/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

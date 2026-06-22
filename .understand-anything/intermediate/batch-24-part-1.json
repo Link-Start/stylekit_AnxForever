@@ -1,0 +1,1152 @@
+{
+  "nodes": [
+    {
+      "id": "file:lib/i18n/__tests__/submit-copy.test.ts",
+      "type": "file",
+      "name": "submit-copy.test.ts",
+      "filePath": "lib/i18n/__tests__/submit-copy.test.ts",
+      "summary": "Unit tests for submit-copy functionality, validating locale copy extraction and translation key consistency.",
+      "tags": [
+        "test",
+        "i18n",
+        "unit"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/i18n/__tests__/submit-copy.test.ts:collectPaths",
+      "type": "function",
+      "name": "collectPaths",
+      "filePath": "lib/i18n/__tests__/submit-copy.test.ts",
+      "lineRange": [
+        3,
+        15
+      ],
+      "summary": "Utility function used for i18n operations.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/i18n/__tests__/translations.test.ts",
+      "type": "file",
+      "name": "translations.test.ts",
+      "filePath": "lib/i18n/__tests__/translations.test.ts",
+      "summary": "Unit tests for translations functionality, validating locale copy extraction and translation key consistency.",
+      "tags": [
+        "test",
+        "i18n",
+        "unit"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/i18n/locale-copy.ts",
+      "type": "file",
+      "name": "locale-copy.ts",
+      "filePath": "lib/i18n/locale-copy.ts",
+      "summary": "Utility functions for picking locale-specific copies, labels, descriptions, and formatting localized dates.",
+      "tags": [
+        "i18n",
+        "utility",
+        "locale"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/i18n/locale-copy.ts:pickLocale",
+      "type": "function",
+      "name": "pickLocale",
+      "filePath": "lib/i18n/locale-copy.ts",
+      "lineRange": [
+        15,
+        20
+      ],
+      "summary": "Extracts locale-specific locale from translation data.",
+      "tags": [
+        "i18n",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/i18n/locale-copy.ts:pickOptionLabel",
+      "type": "function",
+      "name": "pickOptionLabel",
+      "filePath": "lib/i18n/locale-copy.ts",
+      "lineRange": [
+        22,
+        24
+      ],
+      "summary": "Extracts locale-specific option label from translation data.",
+      "tags": [
+        "i18n",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/i18n/locale-copy.ts:pickOptionDescription",
+      "type": "function",
+      "name": "pickOptionDescription",
+      "filePath": "lib/i18n/locale-copy.ts",
+      "lineRange": [
+        26,
+        31
+      ],
+      "summary": "Extracts locale-specific option description from translation data.",
+      "tags": [
+        "i18n",
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/i18n/locale-copy.ts:formatLocaleDateTime",
+      "type": "function",
+      "name": "formatLocaleDateTime",
+      "filePath": "lib/i18n/locale-copy.ts",
+      "lineRange": [
+        33,
+        41
+      ],
+      "summary": "Formats a date/time value into a locale-aware string representation.",
+      "tags": [
+        "i18n",
+        "date",
+        "formatting"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/i18n/metadata.ts",
+      "type": "file",
+      "name": "metadata.ts",
+      "filePath": "lib/i18n/metadata.ts",
+      "summary": "Generates locale-aware metadata alternates and hreflang tags for SEO when navigating between locale variants.",
+      "tags": [
+        "i18n",
+        "seo",
+        "metadata"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/i18n/metadata.ts:getLocaleAlternates",
+      "type": "function",
+      "name": "getLocaleAlternates",
+      "filePath": "lib/i18n/metadata.ts",
+      "lineRange": [
+        10,
+        19
+      ],
+      "summary": "Retrieves locale alternates data.",
+      "tags": [
+        "data-fetching",
+        "query"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/i18n/metadata.ts:localizeMetadata",
+      "type": "function",
+      "name": "localizeMetadata",
+      "filePath": "lib/i18n/metadata.ts",
+      "lineRange": [
+        21,
+        45
+      ],
+      "summary": "Utility function used for i18n operations.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/i18n/request.ts",
+      "type": "file",
+      "name": "request.ts",
+      "filePath": "lib/i18n/request.ts",
+      "summary": "Server-side i18n request handling that resolves locale from headers, cookies, or pathname for Next.js App Router.",
+      "tags": [
+        "i18n",
+        "middleware",
+        "server"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/i18n/request.ts:getRequestLocaleContext",
+      "type": "function",
+      "name": "getRequestLocaleContext",
+      "filePath": "lib/i18n/request.ts",
+      "lineRange": [
+        28,
+        63
+      ],
+      "summary": "Retrieves request locale context data.",
+      "tags": [
+        "data-fetching",
+        "query"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/i18n/routing.ts",
+      "type": "file",
+      "name": "routing.ts",
+      "filePath": "lib/i18n/routing.ts",
+      "summary": "Internationalization routing configuration defining locale URLs, navigation paths, and route generation.",
+      "tags": [
+        "i18n",
+        "routing",
+        "navigation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/i18n/routing.ts:isLocale",
+      "type": "function",
+      "name": "isLocale",
+      "filePath": "lib/i18n/routing.ts",
+      "lineRange": [
+        26,
+        28
+      ],
+      "summary": "Utility function used for i18n operations.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/i18n/routing.ts:normalizePathname",
+      "type": "function",
+      "name": "normalizePathname",
+      "filePath": "lib/i18n/routing.ts",
+      "lineRange": [
+        30,
+        35
+      ],
+      "summary": "Utility function used for i18n operations.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/i18n/routing.ts:getLocaleFromPathname",
+      "type": "function",
+      "name": "getLocaleFromPathname",
+      "filePath": "lib/i18n/routing.ts",
+      "lineRange": [
+        37,
+        41
+      ],
+      "summary": "Retrieves locale from pathname data.",
+      "tags": [
+        "data-fetching",
+        "query"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/i18n/routing.ts:stripLocaleFromPathname",
+      "type": "function",
+      "name": "stripLocaleFromPathname",
+      "filePath": "lib/i18n/routing.ts",
+      "lineRange": [
+        43,
+        50
+      ],
+      "summary": "Utility function used for i18n operations.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/i18n/routing.ts:addLocaleToPathname",
+      "type": "function",
+      "name": "addLocaleToPathname",
+      "filePath": "lib/i18n/routing.ts",
+      "lineRange": [
+        52,
+        57
+      ],
+      "summary": "Utility function used for i18n operations.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/i18n/routing.ts:getLocalizedPathname",
+      "type": "function",
+      "name": "getLocalizedPathname",
+      "filePath": "lib/i18n/routing.ts",
+      "lineRange": [
+        59,
+        61
+      ],
+      "summary": "Retrieves localized pathname data.",
+      "tags": [
+        "data-fetching",
+        "query"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/i18n/routing.ts:getAlternateLocalePath",
+      "type": "function",
+      "name": "getAlternateLocalePath",
+      "filePath": "lib/i18n/routing.ts",
+      "lineRange": [
+        63,
+        65
+      ],
+      "summary": "Retrieves alternate locale path data.",
+      "tags": [
+        "data-fetching",
+        "query"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/i18n/routing.ts:localizeHref",
+      "type": "function",
+      "name": "localizeHref",
+      "filePath": "lib/i18n/routing.ts",
+      "lineRange": [
+        67,
+        89
+      ],
+      "summary": "Utility function used for i18n operations.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/i18n/routing.ts:shouldBypassLocale",
+      "type": "function",
+      "name": "shouldBypassLocale",
+      "filePath": "lib/i18n/routing.ts",
+      "lineRange": [
+        91,
+        101
+      ],
+      "summary": "Utility function used for i18n operations.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/i18n/routing.ts:detectPreferredLocale",
+      "type": "function",
+      "name": "detectPreferredLocale",
+      "filePath": "lib/i18n/routing.ts",
+      "lineRange": [
+        103,
+        112
+      ],
+      "summary": "Utility function used for i18n operations.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/i18n/routing.ts:getBaseUrl",
+      "type": "function",
+      "name": "getBaseUrl",
+      "filePath": "lib/i18n/routing.ts",
+      "lineRange": [
+        114,
+        116
+      ],
+      "summary": "Retrieves base url data.",
+      "tags": [
+        "data-fetching",
+        "query"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/i18n/routing.ts:getLocaleHtmlLang",
+      "type": "function",
+      "name": "getLocaleHtmlLang",
+      "filePath": "lib/i18n/routing.ts",
+      "lineRange": [
+        118,
+        120
+      ],
+      "summary": "Retrieves locale html lang data.",
+      "tags": [
+        "data-fetching",
+        "query"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/i18n/routing.ts:getOpenGraphLocale",
+      "type": "function",
+      "name": "getOpenGraphLocale",
+      "filePath": "lib/i18n/routing.ts",
+      "lineRange": [
+        122,
+        124
+      ],
+      "summary": "Retrieves open graph locale data.",
+      "tags": [
+        "data-fetching",
+        "query"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/i18n/submit-copy.ts",
+      "type": "file",
+      "name": "submit-copy.ts",
+      "filePath": "lib/i18n/submit-copy.ts",
+      "summary": "Localized copy and labels for the style submission form, organized by locale with nested key-value pairs.",
+      "tags": [
+        "i18n",
+        "form",
+        "labels"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/i18n/translations.ts",
+      "type": "file",
+      "name": "translations.ts",
+      "filePath": "lib/i18n/translations.ts",
+      "summary": "Contains all localized translation strings for the application, organized by locale and component namespace.",
+      "tags": [
+        "i18n",
+        "translations",
+        "locale"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/nav-config.ts",
+      "type": "file",
+      "name": "nav-config.ts",
+      "filePath": "lib/nav-config.ts",
+      "summary": "Navigation configuration defining the site structure, menu items, and route hierarchy with localized labels.",
+      "tags": [
+        "navigation",
+        "config",
+        "structure"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/prompts/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "lib/prompts/index.ts",
+      "summary": "Barrel file re-exporting prompt topics and their type definitions.",
+      "tags": [
+        "barrel",
+        "prompts",
+        "index"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/prompts/index.ts:getTopicBySlug",
+      "type": "function",
+      "name": "getTopicBySlug",
+      "filePath": "lib/prompts/index.ts",
+      "lineRange": [
+        7,
+        9
+      ],
+      "summary": "Retrieves topic by slug data.",
+      "tags": [
+        "data-fetching",
+        "query"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/prompts/index.ts:getAllTopicSlugs",
+      "type": "function",
+      "name": "getAllTopicSlugs",
+      "filePath": "lib/prompts/index.ts",
+      "lineRange": [
+        11,
+        13
+      ],
+      "summary": "Retrieves all topic slugs data.",
+      "tags": [
+        "data-fetching",
+        "query"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/prompts/topics.ts",
+      "type": "file",
+      "name": "topics.ts",
+      "filePath": "lib/prompts/topics.ts",
+      "summary": "Comprehensive prompt topic catalog with UI/UX design prompts organized by category and difficulty.",
+      "tags": [
+        "prompts",
+        "catalog",
+        "design"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/prompts/types.ts",
+      "type": "file",
+      "name": "types.ts",
+      "filePath": "lib/prompts/types.ts",
+      "summary": "TypeScript type definitions for prompt topics, entries, and their metadata structure.",
+      "tags": [
+        "type-definition",
+        "prompts"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/rss/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "lib/rss/index.ts",
+      "summary": "RSS feed generator that constructs XML feeds from the blog post and style data for syndication.",
+      "tags": [
+        "rss",
+        "feed",
+        "syndication"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/rss/index.ts:generateRss",
+      "type": "function",
+      "name": "generateRss",
+      "filePath": "lib/rss/index.ts",
+      "lineRange": [
+        29,
+        56
+      ],
+      "summary": "Utility function used for i18n operations.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/security/json-ld.ts",
+      "type": "file",
+      "name": "json-ld.ts",
+      "filePath": "lib/security/json-ld.ts",
+      "summary": "JSON-LD structured data definition for the WebSite schema, providing search engine metadata.",
+      "tags": [
+        "seo",
+        "json-ld",
+        "schema"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/security/json-ld.ts:serializeJsonLd",
+      "type": "function",
+      "name": "serializeJsonLd",
+      "filePath": "lib/security/json-ld.ts",
+      "lineRange": [
+        1,
+        8
+      ],
+      "summary": "Utility function used for i18n operations.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/seo/json-ld.ts",
+      "type": "file",
+      "name": "json-ld.ts",
+      "filePath": "lib/seo/json-ld.ts",
+      "summary": "Dynamic JSON-LD structured data generator for blog posts and articles, providing search engine metadata.",
+      "tags": [
+        "seo",
+        "json-ld",
+        "blog"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/seo/json-ld.ts:generateStyleJsonLd",
+      "type": "function",
+      "name": "generateStyleJsonLd",
+      "filePath": "lib/seo/json-ld.ts",
+      "lineRange": [
+        14,
+        28
+      ],
+      "summary": "Utility function used for i18n operations.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/seo/json-ld.ts:generateBlogPostJsonLd",
+      "type": "function",
+      "name": "generateBlogPostJsonLd",
+      "filePath": "lib/seo/json-ld.ts",
+      "lineRange": [
+        30,
+        49
+      ],
+      "summary": "Utility function used for i18n operations.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/seo/json-ld.ts:generateBreadcrumbJsonLd",
+      "type": "function",
+      "name": "generateBreadcrumbJsonLd",
+      "filePath": "lib/seo/json-ld.ts",
+      "lineRange": [
+        56,
+        67
+      ],
+      "summary": "Utility function used for i18n operations.",
+      "tags": [
+        "utility"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/seo/prompt-template-previews.ts",
+      "type": "file",
+      "name": "prompt-template-previews.ts",
+      "filePath": "lib/seo/prompt-template-previews.ts",
+      "summary": "SEO-optimized prompt template previews with meta descriptions for prompt detail pages.",
+      "tags": [
+        "seo",
+        "prompts",
+        "template"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:lib/i18n/__tests__/submit-copy.test.ts",
+      "target": "file:lib/i18n/submit-copy.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/i18n/__tests__/submit-copy.test.ts",
+      "target": "function:lib/i18n/__tests__/submit-copy.test.ts:collectPaths",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/i18n/__tests__/translations.test.ts",
+      "target": "file:lib/i18n/translations.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/i18n/locale-copy.ts",
+      "target": "file:lib/i18n/translations.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/i18n/locale-copy.ts",
+      "target": "function:lib/i18n/locale-copy.ts:pickLocale",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/i18n/locale-copy.ts",
+      "target": "function:lib/i18n/locale-copy.ts:pickLocale",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/i18n/locale-copy.ts",
+      "target": "function:lib/i18n/locale-copy.ts:pickOptionLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/i18n/locale-copy.ts",
+      "target": "function:lib/i18n/locale-copy.ts:pickOptionLabel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/i18n/locale-copy.ts",
+      "target": "function:lib/i18n/locale-copy.ts:pickOptionDescription",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/i18n/locale-copy.ts",
+      "target": "function:lib/i18n/locale-copy.ts:pickOptionDescription",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/i18n/locale-copy.ts",
+      "target": "function:lib/i18n/locale-copy.ts:formatLocaleDateTime",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/i18n/locale-copy.ts",
+      "target": "function:lib/i18n/locale-copy.ts:formatLocaleDateTime",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/i18n/metadata.ts",
+      "target": "file:lib/i18n/routing.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/i18n/metadata.ts",
+      "target": "file:lib/i18n/translations.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/i18n/metadata.ts",
+      "target": "function:lib/i18n/metadata.ts:getLocaleAlternates",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/i18n/metadata.ts",
+      "target": "function:lib/i18n/metadata.ts:getLocaleAlternates",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/i18n/metadata.ts",
+      "target": "function:lib/i18n/metadata.ts:localizeMetadata",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/i18n/metadata.ts",
+      "target": "function:lib/i18n/metadata.ts:localizeMetadata",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/i18n/request.ts",
+      "target": "file:lib/i18n/routing.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/i18n/request.ts",
+      "target": "file:lib/i18n/translations.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/i18n/request.ts",
+      "target": "function:lib/i18n/request.ts:getRequestLocaleContext",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/i18n/request.ts",
+      "target": "function:lib/i18n/request.ts:getRequestLocaleContext",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/i18n/routing.ts",
+      "target": "file:lib/i18n/translations.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/i18n/routing.ts",
+      "target": "file:lib/site-url.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/i18n/routing.ts",
+      "target": "function:lib/i18n/routing.ts:isLocale",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/i18n/routing.ts",
+      "target": "function:lib/i18n/routing.ts:isLocale",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/i18n/routing.ts",
+      "target": "function:lib/i18n/routing.ts:normalizePathname",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/i18n/routing.ts",
+      "target": "function:lib/i18n/routing.ts:normalizePathname",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/i18n/routing.ts",
+      "target": "function:lib/i18n/routing.ts:getLocaleFromPathname",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/i18n/routing.ts",
+      "target": "function:lib/i18n/routing.ts:getLocaleFromPathname",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/i18n/routing.ts",
+      "target": "function:lib/i18n/routing.ts:stripLocaleFromPathname",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/i18n/routing.ts",
+      "target": "function:lib/i18n/routing.ts:stripLocaleFromPathname",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/i18n/routing.ts",
+      "target": "function:lib/i18n/routing.ts:addLocaleToPathname",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/i18n/routing.ts",
+      "target": "function:lib/i18n/routing.ts:addLocaleToPathname",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/i18n/routing.ts",
+      "target": "function:lib/i18n/routing.ts:getLocalizedPathname",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/i18n/routing.ts",
+      "target": "function:lib/i18n/routing.ts:getLocalizedPathname",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/i18n/routing.ts",
+      "target": "function:lib/i18n/routing.ts:getAlternateLocalePath",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/i18n/routing.ts",
+      "target": "function:lib/i18n/routing.ts:getAlternateLocalePath",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/i18n/routing.ts",
+      "target": "function:lib/i18n/routing.ts:localizeHref",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/i18n/routing.ts",
+      "target": "function:lib/i18n/routing.ts:localizeHref",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/i18n/routing.ts",
+      "target": "function:lib/i18n/routing.ts:shouldBypassLocale",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/i18n/routing.ts",
+      "target": "function:lib/i18n/routing.ts:shouldBypassLocale",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/i18n/routing.ts",
+      "target": "function:lib/i18n/routing.ts:detectPreferredLocale",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/i18n/routing.ts",
+      "target": "function:lib/i18n/routing.ts:detectPreferredLocale",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/i18n/routing.ts",
+      "target": "function:lib/i18n/routing.ts:getBaseUrl",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/i18n/routing.ts",
+      "target": "function:lib/i18n/routing.ts:getBaseUrl",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/i18n/routing.ts",
+      "target": "function:lib/i18n/routing.ts:getLocaleHtmlLang",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/i18n/routing.ts",
+      "target": "function:lib/i18n/routing.ts:getLocaleHtmlLang",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/i18n/routing.ts",
+      "target": "function:lib/i18n/routing.ts:getOpenGraphLocale",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/i18n/routing.ts",
+      "target": "function:lib/i18n/routing.ts:getOpenGraphLocale",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/i18n/submit-copy.ts",
+      "target": "file:lib/styles/meta.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/nav-config.ts",
+      "target": "file:lib/i18n/translations.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/prompts/index.ts",
+      "target": "file:lib/prompts/topics.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/prompts/index.ts",
+      "target": "file:lib/prompts/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/prompts/index.ts",
+      "target": "function:lib/prompts/index.ts:getTopicBySlug",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/prompts/index.ts",
+      "target": "function:lib/prompts/index.ts:getTopicBySlug",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/prompts/index.ts",
+      "target": "function:lib/prompts/index.ts:getAllTopicSlugs",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/prompts/index.ts",
+      "target": "function:lib/prompts/index.ts:getAllTopicSlugs",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/prompts/topics.ts",
+      "target": "file:lib/prompts/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/rss/index.ts",
+      "target": "file:lib/site-url.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/rss/index.ts",
+      "target": "function:lib/rss/index.ts:generateRss",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/rss/index.ts",
+      "target": "function:lib/rss/index.ts:generateRss",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/security/json-ld.ts",
+      "target": "function:lib/security/json-ld.ts:serializeJsonLd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/security/json-ld.ts",
+      "target": "function:lib/security/json-ld.ts:serializeJsonLd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/seo/json-ld.ts",
+      "target": "file:lib/blog/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/seo/json-ld.ts",
+      "target": "file:lib/site-url.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/seo/json-ld.ts",
+      "target": "function:lib/seo/json-ld.ts:generateStyleJsonLd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/seo/json-ld.ts",
+      "target": "function:lib/seo/json-ld.ts:generateStyleJsonLd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/seo/json-ld.ts",
+      "target": "function:lib/seo/json-ld.ts:generateBlogPostJsonLd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/seo/json-ld.ts",
+      "target": "function:lib/seo/json-ld.ts:generateBlogPostJsonLd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/seo/json-ld.ts",
+      "target": "function:lib/seo/json-ld.ts:generateBreadcrumbJsonLd",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1
+    },
+    {
+      "source": "file:lib/seo/json-ld.ts",
+      "target": "function:lib/seo/json-ld.ts:generateBreadcrumbJsonLd",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

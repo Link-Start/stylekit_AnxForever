@@ -1,0 +1,912 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 29,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "lib/styles/monochrome.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 274,
+      "nonEmptyLines": 246,
+      "exports": [
+        {
+          "name": "monochrome",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/natural-organic.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 363,
+      "nonEmptyLines": 318,
+      "exports": [
+        {
+          "name": "naturalOrganic",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/neo-brutalist-playful.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 516,
+      "nonEmptyLines": 460,
+      "exports": [
+        {
+          "name": "neoBrutalistPlayful",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/neo-brutalist-soft.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 490,
+      "nonEmptyLines": 435,
+      "exports": [
+        {
+          "name": "neoBrutalistSoft",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/neo-brutalist.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 699,
+      "nonEmptyLines": 612,
+      "exports": [
+        {
+          "name": "neoBrutalist",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/neon-gradient.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 786,
+      "nonEmptyLines": 695,
+      "exports": [
+        {
+          "name": "neonGradient",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/neon-samurai.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 407,
+      "nonEmptyLines": 361,
+      "exports": [
+        {
+          "name": "neonSamurai",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/neon-tokyo.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 355,
+      "nonEmptyLines": 313,
+      "exports": [
+        {
+          "name": "neonTokyo",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/neumorphism.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 562,
+      "nonEmptyLines": 492,
+      "exports": [
+        {
+          "name": "neumorphism",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/notion-style.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 465,
+      "nonEmptyLines": 408,
+      "exports": [
+        {
+          "name": "notionStyle",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/op-art.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 577,
+      "nonEmptyLines": 515,
+      "exports": [
+        {
+          "name": "opArt",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/outrun.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 425,
+      "nonEmptyLines": 375,
+      "exports": [
+        {
+          "name": "outrun",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/paper-craft.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 371,
+      "nonEmptyLines": 327,
+      "exports": [
+        {
+          "name": "paperCraft",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/parallax-sections.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 359,
+      "nonEmptyLines": 324,
+      "exports": [
+        {
+          "name": "parallaxSections",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/particle.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 404,
+      "nonEmptyLines": 367,
+      "exports": [
+        {
+          "name": "particle",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/pastel-goth.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 435,
+      "nonEmptyLines": 387,
+      "exports": [
+        {
+          "name": "pastelGoth",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/pixel-anime.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 397,
+      "nonEmptyLines": 356,
+      "exports": [
+        {
+          "name": "pixelAnime",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/pixel-art.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 492,
+      "nonEmptyLines": 428,
+      "exports": [
+        {
+          "name": "pixelArt",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/pop-art.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 363,
+      "nonEmptyLines": 324,
+      "exports": [
+        {
+          "name": "popArt",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/readiness.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 556,
+      "nonEmptyLines": 524,
+      "functions": [
+        {
+          "name": "check",
+          "startLine": 99,
+          "endLine": 101,
+          "params": [
+            "support",
+            "guidance"
+          ]
+        },
+        {
+          "name": "complete",
+          "startLine": 103,
+          "endLine": 105,
+          "params": [
+            "guidance"
+          ]
+        },
+        {
+          "name": "partial",
+          "startLine": 107,
+          "endLine": 109,
+          "params": [
+            "guidance"
+          ]
+        },
+        {
+          "name": "fallback",
+          "startLine": 111,
+          "endLine": 113,
+          "params": [
+            "guidance"
+          ]
+        },
+        {
+          "name": "buildStates",
+          "startLine": 115,
+          "endLine": 150,
+          "params": [
+            "completeStates",
+            "partialStates"
+          ]
+        },
+        {
+          "name": "standardComponents",
+          "startLine": 152,
+          "endLine": 211,
+          "params": []
+        },
+        {
+          "name": "makeProfile",
+          "startLine": 213,
+          "endLine": 266,
+          "params": [
+            "styleSlug",
+            "overrides"
+          ]
+        },
+        {
+          "name": "supportScore",
+          "startLine": 457,
+          "endLine": 468,
+          "params": [
+            "support"
+          ]
+        },
+        {
+          "name": "average",
+          "startLine": 470,
+          "endLine": 473,
+          "params": [
+            "values"
+          ]
+        },
+        {
+          "name": "calculateReadinessCoverage",
+          "startLine": 475,
+          "endLine": 486,
+          "params": [
+            "profile"
+          ]
+        },
+        {
+          "name": "hasDarkSignals",
+          "startLine": 488,
+          "endLine": 495,
+          "params": [
+            "style"
+          ]
+        },
+        {
+          "name": "buildFallbackProfile",
+          "startLine": 497,
+          "endLine": 538,
+          "params": [
+            "style"
+          ]
+        },
+        {
+          "name": "getFrontendReadiness",
+          "startLine": 540,
+          "endLine": 548,
+          "params": [
+            "style"
+          ]
+        },
+        {
+          "name": "hasCuratedFrontendReadiness",
+          "startLine": 550,
+          "endLine": 552,
+          "params": [
+            "slug"
+          ]
+        },
+        {
+          "name": "getCuratedReadinessSlugs",
+          "startLine": 554,
+          "endLine": 556,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "calculateReadinessCoverage",
+          "line": 475,
+          "isDefault": false
+        },
+        {
+          "name": "getFrontendReadiness",
+          "line": 540,
+          "isDefault": false
+        },
+        {
+          "name": "hasCuratedFrontendReadiness",
+          "line": 550,
+          "isDefault": false
+        },
+        {
+          "name": "getCuratedReadinessSlugs",
+          "line": 554,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "complete",
+          "callee": "check",
+          "lineNumber": 104
+        },
+        {
+          "caller": "partial",
+          "callee": "check",
+          "lineNumber": 108
+        },
+        {
+          "caller": "fallback",
+          "callee": "check",
+          "lineNumber": 112
+        },
+        {
+          "caller": "buildStates",
+          "callee": "Object.fromEntries",
+          "lineNumber": 122
+        },
+        {
+          "caller": "buildStates",
+          "callee": "allStates.map",
+          "lineNumber": 123
+        },
+        {
+          "caller": "buildStates",
+          "callee": "completeSet.has",
+          "lineNumber": 124
+        },
+        {
+          "caller": "buildStates",
+          "callee": "complete",
+          "lineNumber": 127
+        },
+        {
+          "caller": "buildStates",
+          "callee": "partialSet.has",
+          "lineNumber": 133
+        },
+        {
+          "caller": "buildStates",
+          "callee": "partial",
+          "lineNumber": 136
+        },
+        {
+          "caller": "buildStates",
+          "callee": "fallback",
+          "lineNumber": 144
+        },
+        {
+          "caller": "makeProfile",
+          "callee": "buildStates",
+          "lineNumber": 229
+        },
+        {
+          "caller": "makeProfile",
+          "callee": "standardComponents",
+          "lineNumber": 230
+        },
+        {
+          "caller": "average",
+          "callee": "Math.round",
+          "lineNumber": 472
+        },
+        {
+          "caller": "average",
+          "callee": "values.reduce",
+          "lineNumber": 472
+        },
+        {
+          "caller": "calculateReadinessCoverage",
+          "callee": "supportScore",
+          "lineNumber": 478
+        },
+        {
+          "caller": "calculateReadinessCoverage",
+          "callee": "average",
+          "lineNumber": 479
+        },
+        {
+          "caller": "calculateReadinessCoverage",
+          "callee": "Object.values(profile.states).map",
+          "lineNumber": 479
+        },
+        {
+          "caller": "calculateReadinessCoverage",
+          "callee": "Object.values",
+          "lineNumber": 479
+        },
+        {
+          "caller": "calculateReadinessCoverage",
+          "callee": "supportScore",
+          "lineNumber": 479
+        },
+        {
+          "caller": "calculateReadinessCoverage",
+          "callee": "supportScore",
+          "lineNumber": 480
+        },
+        {
+          "caller": "calculateReadinessCoverage",
+          "callee": "supportScore",
+          "lineNumber": 481
+        },
+        {
+          "caller": "calculateReadinessCoverage",
+          "callee": "supportScore",
+          "lineNumber": 482
+        },
+        {
+          "caller": "calculateReadinessCoverage",
+          "callee": "average",
+          "lineNumber": 483
+        },
+        {
+          "caller": "hasDarkSignals",
+          "callee": "[\n    style.globalCss,\n    style.aiRules,\n    ...Object.values(style.components).map((component) => component?.code ?? \"\"),\n  ].join",
+          "lineNumber": 489
+        },
+        {
+          "caller": "hasDarkSignals",
+          "callee": "Object.values(style.components).map",
+          "lineNumber": 492
+        },
+        {
+          "caller": "hasDarkSignals",
+          "callee": "Object.values",
+          "lineNumber": 492
+        },
+        {
+          "caller": "hasDarkSignals",
+          "callee": "/\\bdark:|prefers-color-scheme|dark mode|dark-mode|data-theme=[\"']dark/i.test",
+          "lineNumber": 494
+        },
+        {
+          "caller": "buildFallbackProfile",
+          "callee": "hasDarkSignals",
+          "lineNumber": 498
+        },
+        {
+          "caller": "buildFallbackProfile",
+          "callee": "makeProfile",
+          "lineNumber": 500
+        },
+        {
+          "caller": "buildFallbackProfile",
+          "callee": "buildStates",
+          "lineNumber": 516
+        },
+        {
+          "caller": "getFrontendReadiness",
+          "callee": "buildFallbackProfile",
+          "lineNumber": 543
+        },
+        {
+          "caller": "getFrontendReadiness",
+          "callee": "calculateReadinessCoverage",
+          "lineNumber": 546
+        },
+        {
+          "caller": "getCuratedReadinessSlugs",
+          "callee": "Object.keys",
+          "lineNumber": 555
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 4,
+        "functionCount": 15,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/registry.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 318,
+      "nonEmptyLines": 314,
+      "functions": [
+        {
+          "name": "getStyleBySlug",
+          "startLine": 316,
+          "endLine": 318,
+          "params": [
+            "slug"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "styles",
+          "line": 313,
+          "isDefault": false
+        },
+        {
+          "name": "getStyleBySlug",
+          "line": 316,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getStyleBySlug",
+          "callee": "styles.find",
+          "lineNumber": 317
+        }
+      ],
+      "metrics": {
+        "importCount": 129,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/retro-vintage.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 360,
+      "nonEmptyLines": 319,
+      "exports": [
+        {
+          "name": "retroVintage",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/risograph.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 381,
+      "nonEmptyLines": 337,
+      "exports": [
+        {
+          "name": "risograph",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/scandinavian.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 279,
+      "nonEmptyLines": 251,
+      "exports": [
+        {
+          "name": "scandinavian",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/sci-fi-hud.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 394,
+      "nonEmptyLines": 353,
+      "exports": [
+        {
+          "name": "sciFiHud",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/shopify-clean.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 343,
+      "nonEmptyLines": 309,
+      "exports": [
+        {
+          "name": "shopifyClean",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/shoujo-manga.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 464,
+      "nonEmptyLines": 423,
+      "exports": [
+        {
+          "name": "shoujoManga",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/sidebar-fixed.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 627,
+      "nonEmptyLines": 551,
+      "exports": [
+        {
+          "name": "sidebarFixed",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/sketch-style.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 523,
+      "nonEmptyLines": 459,
+      "exports": [
+        {
+          "name": "sketchStyle",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

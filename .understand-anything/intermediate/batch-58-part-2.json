@@ -1,0 +1,719 @@
+{
+  "nodes": [
+    {
+      "id": "file:app/styles/linear-style/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/linear-style/showcase/_content.tsx",
+      "summary": "Showcase content component for the Linear Style design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/linear-style/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/linear-style/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        29
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/linear-style/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/linear-style/showcase/_content.tsx",
+      "lineRange": [
+        35,
+        58
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/linear-style/showcase/_content.tsx:PriorityBadge",
+      "type": "function",
+      "name": "PriorityBadge",
+      "filePath": "app/styles/linear-style/showcase/_content.tsx",
+      "lineRange": [
+        257,
+        279
+      ],
+      "summary": "Function component PriorityBadge rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/linear-style/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/linear-style/showcase/_content.tsx",
+      "lineRange": [
+        285,
+        951
+      ],
+      "summary": "Main showcase content component rendering example cards and layout variants for the Styles design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/linear-style/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/linear-style/showcase/page.tsx",
+      "summary": "Showcase page route for the Linear Style design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/liquid-glass/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/liquid-glass/showcase/_content.tsx",
+      "summary": "Showcase content component for the Liquid Glass design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/liquid-glass/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/liquid-glass/showcase/_content.tsx",
+      "lineRange": [
+        5,
+        24
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/liquid-glass/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/liquid-glass/showcase/_content.tsx",
+      "lineRange": [
+        26,
+        49
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/liquid-glass/showcase/_content.tsx:LiquidGlassShowcase",
+      "type": "function",
+      "name": "LiquidGlassShowcase",
+      "filePath": "app/styles/liquid-glass/showcase/_content.tsx",
+      "lineRange": [
+        103,
+        1685
+      ],
+      "summary": "Main showcase component rendering example cards and layout variants for the Liquidglass design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/liquid-glass/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/liquid-glass/showcase/page.tsx",
+      "summary": "Showcase page route for the Liquid Glass design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/luxury-retail/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/luxury-retail/showcase/_content.tsx",
+      "summary": "Showcase content component for the Luxury Retail design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/luxury-retail/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/luxury-retail/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        31
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/luxury-retail/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/luxury-retail/showcase/_content.tsx",
+      "lineRange": [
+        33,
+        56
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/luxury-retail/showcase/_content.tsx:LuxuryRetailShowcase",
+      "type": "function",
+      "name": "LuxuryRetailShowcase",
+      "filePath": "app/styles/luxury-retail/showcase/_content.tsx",
+      "lineRange": [
+        139,
+        544
+      ],
+      "summary": "Main showcase component rendering example cards and layout variants for the Luxuryretail design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/luxury-retail/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/luxury-retail/showcase/page.tsx",
+      "summary": "Showcase page route for the Luxury Retail design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/macos-vibrancy/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/macos-vibrancy/showcase/_content.tsx",
+      "summary": "Showcase content component for the Macos Vibrancy design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/macos-vibrancy/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/macos-vibrancy/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        24
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/macos-vibrancy/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/macos-vibrancy/showcase/_content.tsx",
+      "lineRange": [
+        57,
+        514
+      ],
+      "summary": "Main showcase content component rendering example cards and layout variants for the Styles design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/macos-vibrancy/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/macos-vibrancy/showcase/page.tsx",
+      "summary": "Showcase page route for the Macos Vibrancy design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/magazine-grid/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/magazine-grid/showcase/_content.tsx",
+      "summary": "Showcase content component for the Magazine Grid design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/magazine-grid/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/magazine-grid/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        31
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/magazine-grid/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/magazine-grid/showcase/_content.tsx",
+      "lineRange": [
+        33,
+        56
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/magazine-grid/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/magazine-grid/showcase/_content.tsx",
+      "lineRange": [
+        208,
+        1734
+      ],
+      "summary": "Main showcase content component rendering example cards and layout variants for the Styles design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/magazine-grid/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/magazine-grid/showcase/page.tsx",
+      "summary": "Showcase page route for the Magazine Grid design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/magic-circle/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/magic-circle/showcase/_content.tsx",
+      "summary": "Showcase content component for the Magic Circle design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/magic-circle/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/magic-circle/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        26
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/magic-circle/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/magic-circle/showcase/_content.tsx",
+      "lineRange": [
+        28,
+        51
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/magic-circle/showcase/_content.tsx:HexagramSVG",
+      "type": "function",
+      "name": "HexagramSVG",
+      "filePath": "app/styles/magic-circle/showcase/_content.tsx",
+      "lineRange": [
+        57,
+        123
+      ],
+      "summary": "Function component HexagramSVG rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/styles/magic-circle/showcase/_content.tsx:PentagramSVG",
+      "type": "function",
+      "name": "PentagramSVG",
+      "filePath": "app/styles/magic-circle/showcase/_content.tsx",
+      "lineRange": [
+        125,
+        160
+      ],
+      "summary": "Function component PentagramSVG rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/magic-circle/showcase/_content.tsx:BindingRingsSVG",
+      "type": "function",
+      "name": "BindingRingsSVG",
+      "filePath": "app/styles/magic-circle/showcase/_content.tsx",
+      "lineRange": [
+        162,
+        182
+      ],
+      "summary": "Function component BindingRingsSVG rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/magic-circle/showcase/_content.tsx:WardingStarSVG",
+      "type": "function",
+      "name": "WardingStarSVG",
+      "filePath": "app/styles/magic-circle/showcase/_content.tsx",
+      "lineRange": [
+        184,
+        225
+      ],
+      "summary": "Function component WardingStarSVG rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/magic-circle/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/magic-circle/showcase/_content.tsx",
+      "lineRange": [
+        279,
+        1199
+      ],
+      "summary": "Main showcase content component rendering example cards and layout variants for the Styles design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/magic-circle/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/magic-circle/showcase/page.tsx",
+      "summary": "Showcase page route for the Magic Circle design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:app/styles/linear-style/showcase/_content.tsx",
+      "target": "function:app/styles/linear-style/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/linear-style/showcase/_content.tsx",
+      "target": "function:app/styles/linear-style/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/linear-style/showcase/_content.tsx",
+      "target": "function:app/styles/linear-style/showcase/_content.tsx:PriorityBadge",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/linear-style/showcase/_content.tsx",
+      "target": "function:app/styles/linear-style/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/linear-style/showcase/_content.tsx",
+      "target": "function:app/styles/linear-style/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/liquid-glass/showcase/_content.tsx",
+      "target": "function:app/styles/liquid-glass/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/liquid-glass/showcase/_content.tsx",
+      "target": "function:app/styles/liquid-glass/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/liquid-glass/showcase/_content.tsx",
+      "target": "function:app/styles/liquid-glass/showcase/_content.tsx:LiquidGlassShowcase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/liquid-glass/showcase/_content.tsx",
+      "target": "function:app/styles/liquid-glass/showcase/_content.tsx:LiquidGlassShowcase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/luxury-retail/showcase/_content.tsx",
+      "target": "function:app/styles/luxury-retail/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/luxury-retail/showcase/_content.tsx",
+      "target": "function:app/styles/luxury-retail/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/luxury-retail/showcase/_content.tsx",
+      "target": "function:app/styles/luxury-retail/showcase/_content.tsx:LuxuryRetailShowcase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/luxury-retail/showcase/_content.tsx",
+      "target": "function:app/styles/luxury-retail/showcase/_content.tsx:LuxuryRetailShowcase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/macos-vibrancy/showcase/_content.tsx",
+      "target": "function:app/styles/macos-vibrancy/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/macos-vibrancy/showcase/_content.tsx",
+      "target": "function:app/styles/macos-vibrancy/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/macos-vibrancy/showcase/_content.tsx",
+      "target": "function:app/styles/macos-vibrancy/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/magazine-grid/showcase/_content.tsx",
+      "target": "function:app/styles/magazine-grid/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/magazine-grid/showcase/_content.tsx",
+      "target": "function:app/styles/magazine-grid/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/magazine-grid/showcase/_content.tsx",
+      "target": "function:app/styles/magazine-grid/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/magazine-grid/showcase/_content.tsx",
+      "target": "function:app/styles/magazine-grid/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/magic-circle/showcase/_content.tsx",
+      "target": "function:app/styles/magic-circle/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/magic-circle/showcase/_content.tsx",
+      "target": "function:app/styles/magic-circle/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/magic-circle/showcase/_content.tsx",
+      "target": "function:app/styles/magic-circle/showcase/_content.tsx:HexagramSVG",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/magic-circle/showcase/_content.tsx",
+      "target": "function:app/styles/magic-circle/showcase/_content.tsx:PentagramSVG",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/magic-circle/showcase/_content.tsx",
+      "target": "function:app/styles/magic-circle/showcase/_content.tsx:BindingRingsSVG",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/magic-circle/showcase/_content.tsx",
+      "target": "function:app/styles/magic-circle/showcase/_content.tsx:WardingStarSVG",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/magic-circle/showcase/_content.tsx",
+      "target": "function:app/styles/magic-circle/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/magic-circle/showcase/_content.tsx",
+      "target": "function:app/styles/magic-circle/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

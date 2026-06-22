@@ -1,0 +1,1890 @@
+{
+  "nodes": [
+    {
+      "id": "file:components/animations/animation-preview.tsx",
+      "type": "file",
+      "name": "animation-preview.tsx",
+      "filePath": "components/animations/animation-preview.tsx",
+      "summary": "Full-page animation preview component with interactive controls and sandbox.",
+      "tags": [
+        "component",
+        "animations",
+        "code",
+        "typescript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/animations/animation-preview.tsx:PreviewChunkLoadFallback",
+      "type": "function",
+      "name": "PreviewChunkLoadFallback",
+      "filePath": "components/animations/animation-preview.tsx",
+      "lineRange": [
+        21,
+        33
+      ],
+      "summary": "Function implementing the PreviewChunkLoadFallback logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:components/animations/animation-preview.tsx:isChunkLoadError",
+      "type": "function",
+      "name": "isChunkLoadError",
+      "filePath": "components/animations/animation-preview.tsx",
+      "lineRange": [
+        35,
+        48
+      ],
+      "summary": "Function implementing the isChunkLoadError logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:components/animations/animation-preview.tsx:clearChunkReloadMarker",
+      "type": "function",
+      "name": "clearChunkReloadMarker",
+      "filePath": "components/animations/animation-preview.tsx",
+      "lineRange": [
+        54,
+        65
+      ],
+      "summary": "Function implementing the clearChunkReloadMarker logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:components/animations/animation-preview.tsx:recoverFromChunkLoadError",
+      "type": "function",
+      "name": "recoverFromChunkLoadError",
+      "filePath": "components/animations/animation-preview.tsx",
+      "lineRange": [
+        67,
+        87
+      ],
+      "summary": "Function implementing the recoverFromChunkLoadError logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:components/animations/animation-preview.tsx:dp",
+      "type": "function",
+      "name": "dp",
+      "filePath": "components/animations/animation-preview.tsx",
+      "lineRange": [
+        138,
+        152
+      ],
+      "summary": "Function implementing the dp logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:components/animations/animation-preview.tsx:AnimationPreview",
+      "type": "function",
+      "name": "AnimationPreview",
+      "filePath": "components/animations/animation-preview.tsx",
+      "lineRange": [
+        219,
+        235
+      ],
+      "summary": "Function implementing the AnimationPreview logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "class:components/animations/animation-preview.tsx:PreviewErrorBoundary",
+      "type": "class",
+      "name": "PreviewErrorBoundary",
+      "filePath": "components/animations/animation-preview.tsx",
+      "lineRange": [
+        98,
+        124
+      ],
+      "summary": "Class providing PreviewErrorBoundary functionality with 3 methods.",
+      "tags": [
+        "class",
+        "typescript",
+        "error-boundary"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/animations/animation-sandbox.tsx",
+      "type": "file",
+      "name": "animation-sandbox.tsx",
+      "filePath": "components/animations/animation-sandbox.tsx",
+      "summary": "Animation sandbox component with preview rendering and code snippet display.",
+      "tags": [
+        "component",
+        "animations",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:components/animations/animation-sandbox.tsx:AnimationSandbox",
+      "type": "function",
+      "name": "AnimationSandbox",
+      "filePath": "components/animations/animation-sandbox.tsx",
+      "lineRange": [
+        37,
+        108
+      ],
+      "summary": "Function implementing the AnimationSandbox logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/anime-utils.ts",
+      "type": "file",
+      "name": "anime-utils.ts",
+      "filePath": "lib/animations/anime-utils.ts",
+      "summary": "Utility module providing anime utils functionality.",
+      "tags": [
+        "utility",
+        "animations",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/animations/anime-utils.ts:loadAnime",
+      "type": "function",
+      "name": "loadAnime",
+      "filePath": "lib/animations/anime-utils.ts",
+      "lineRange": [
+        10,
+        13
+      ],
+      "summary": "Function implementing the loadAnime logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/anime-utils.ts:prefersReducedMotion",
+      "type": "function",
+      "name": "prefersReducedMotion",
+      "filePath": "lib/animations/anime-utils.ts",
+      "lineRange": [
+        15,
+        20
+      ],
+      "summary": "Function implementing the prefersReducedMotion logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/animations/background-gradient-shift/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/background-gradient-shift/preview.tsx",
+      "summary": "Preview component for the background-gradient-shift animation with shared wrapper and interactive display.",
+      "tags": [
+        "utility",
+        "preview",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/background-gradient-shift/preview.tsx:BackgroundGradientShiftPreview",
+      "type": "function",
+      "name": "BackgroundGradientShiftPreview",
+      "filePath": "lib/animations/background-gradient-shift/preview.tsx",
+      "lineRange": [
+        5,
+        29
+      ],
+      "summary": "Function implementing the BackgroundGradientShiftPreview logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/animations/blur-in/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/blur-in/preview.tsx",
+      "summary": "Preview component for the blur-in animation with shared wrapper and interactive display.",
+      "tags": [
+        "utility",
+        "preview",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/blur-in/preview.tsx:BlurInPreview",
+      "type": "function",
+      "name": "BlurInPreview",
+      "filePath": "lib/animations/blur-in/preview.tsx",
+      "lineRange": [
+        5,
+        34
+      ],
+      "summary": "Function implementing the BlurInPreview logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/animations/border-trace/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/border-trace/preview.tsx",
+      "summary": "Preview component for the border-trace animation with shared wrapper and interactive display.",
+      "tags": [
+        "utility",
+        "preview",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/border-trace/preview.tsx:BorderTracePreview",
+      "type": "function",
+      "name": "BorderTracePreview",
+      "filePath": "lib/animations/border-trace/preview.tsx",
+      "lineRange": [
+        5,
+        40
+      ],
+      "summary": "Function implementing the BorderTracePreview logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/bounce-in/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/bounce-in/preview.tsx",
+      "summary": "Preview component for the bounce-in animation with shared wrapper and interactive display.",
+      "tags": [
+        "utility",
+        "preview",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/bounce-in/preview.tsx:BounceInPreview",
+      "type": "function",
+      "name": "BounceInPreview",
+      "filePath": "lib/animations/bounce-in/preview.tsx",
+      "lineRange": [
+        5,
+        32
+      ],
+      "summary": "Function implementing the BounceInPreview logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/animations/collapse/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/collapse/preview.tsx",
+      "summary": "Preview component for the collapse animation with shared wrapper and interactive display.",
+      "tags": [
+        "utility",
+        "preview",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/animations/collapse/preview.tsx:CollapsePreview",
+      "type": "function",
+      "name": "CollapsePreview",
+      "filePath": "lib/animations/collapse/preview.tsx",
+      "lineRange": [
+        12,
+        108
+      ],
+      "summary": "Function implementing the CollapsePreview logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/confetti-burst/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/confetti-burst/preview.tsx",
+      "summary": "Preview component for the confetti-burst animation with shared wrapper and interactive display.",
+      "tags": [
+        "utility",
+        "preview",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/animations/confetti-burst/preview.tsx:createParticle",
+      "type": "function",
+      "name": "createParticle",
+      "filePath": "lib/animations/confetti-burst/preview.tsx",
+      "lineRange": [
+        15,
+        34
+      ],
+      "summary": "Function implementing the createParticle logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/confetti-burst/preview.tsx:ConfettiBurstPreview",
+      "type": "function",
+      "name": "ConfettiBurstPreview",
+      "filePath": "lib/animations/confetti-burst/preview.tsx",
+      "lineRange": [
+        36,
+        109
+      ],
+      "summary": "Function implementing the ConfettiBurstPreview logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/context-cursor/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/context-cursor/preview.tsx",
+      "summary": "Preview component for the context-cursor animation with shared wrapper and interactive display.",
+      "tags": [
+        "utility",
+        "preview",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/context-cursor/preview.tsx:ContextCursorPreview",
+      "type": "function",
+      "name": "ContextCursorPreview",
+      "filePath": "lib/animations/context-cursor/preview.tsx",
+      "lineRange": [
+        5,
+        17
+      ],
+      "summary": "Function implementing the ContextCursorPreview logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/animations/counter-roll/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/counter-roll/preview.tsx",
+      "summary": "Preview component for the counter-roll animation with shared wrapper and interactive display.",
+      "tags": [
+        "utility",
+        "preview",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/counter-roll/preview.tsx:CounterRollPreview",
+      "type": "function",
+      "name": "CounterRollPreview",
+      "filePath": "lib/animations/counter-roll/preview.tsx",
+      "lineRange": [
+        5,
+        33
+      ],
+      "summary": "Function implementing the CounterRollPreview logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/animations/crossfade/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/crossfade/preview.tsx",
+      "summary": "Preview component for the crossfade animation with shared wrapper and interactive display.",
+      "tags": [
+        "utility",
+        "preview",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/animations/crossfade/preview.tsx:TabPanel",
+      "type": "function",
+      "name": "TabPanel",
+      "filePath": "lib/animations/crossfade/preview.tsx",
+      "lineRange": [
+        9,
+        30
+      ],
+      "summary": "Function implementing the TabPanel logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/crossfade/preview.tsx:CrossfadePreview",
+      "type": "function",
+      "name": "CrossfadePreview",
+      "filePath": "lib/animations/crossfade/preview.tsx",
+      "lineRange": [
+        32,
+        141
+      ],
+      "summary": "Function implementing the CrossfadePreview logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/animations/cursor-aura/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/cursor-aura/preview.tsx",
+      "summary": "Preview component for the cursor-aura animation with shared wrapper and interactive display.",
+      "tags": [
+        "utility",
+        "preview",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/cursor-aura/preview.tsx:CursorAuraPreview",
+      "type": "function",
+      "name": "CursorAuraPreview",
+      "filePath": "lib/animations/cursor-aura/preview.tsx",
+      "lineRange": [
+        5,
+        15
+      ],
+      "summary": "Function implementing the CursorAuraPreview logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/animations/cursor-trail/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/cursor-trail/preview.tsx",
+      "summary": "Preview component for the cursor-trail animation with shared wrapper and interactive display.",
+      "tags": [
+        "utility",
+        "preview",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/cursor-trail/preview.tsx:CursorTrailPreview",
+      "type": "function",
+      "name": "CursorTrailPreview",
+      "filePath": "lib/animations/cursor-trail/preview.tsx",
+      "lineRange": [
+        5,
+        25
+      ],
+      "summary": "Function implementing the CursorTrailPreview logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/animations/drag-physics/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/drag-physics/preview.tsx",
+      "summary": "Preview component for the drag-physics animation with shared wrapper and interactive display.",
+      "tags": [
+        "utility",
+        "preview",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/drag-physics/preview.tsx:DragPhysicsPreview",
+      "type": "function",
+      "name": "DragPhysicsPreview",
+      "filePath": "lib/animations/drag-physics/preview.tsx",
+      "lineRange": [
+        5,
+        14
+      ],
+      "summary": "Function implementing the DragPhysicsPreview logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/animations/elastic-scale/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/elastic-scale/preview.tsx",
+      "summary": "Preview component for the elastic-scale animation with shared wrapper and interactive display.",
+      "tags": [
+        "utility",
+        "preview",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/elastic-scale/preview.tsx:ElasticScalePreview",
+      "type": "function",
+      "name": "ElasticScalePreview",
+      "filePath": "lib/animations/elastic-scale/preview.tsx",
+      "lineRange": [
+        5,
+        39
+      ],
+      "summary": "Function implementing the ElasticScalePreview logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/elastic-snap/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/elastic-snap/preview.tsx",
+      "summary": "Preview component for the elastic-snap animation with shared wrapper and interactive display.",
+      "tags": [
+        "utility",
+        "preview",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/elastic-snap/preview.tsx:ElasticSnapPreview",
+      "type": "function",
+      "name": "ElasticSnapPreview",
+      "filePath": "lib/animations/elastic-snap/preview.tsx",
+      "lineRange": [
+        7,
+        54
+      ],
+      "summary": "Function implementing the ElasticSnapPreview logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/fade-in-down/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/fade-in-down/preview.tsx",
+      "summary": "Preview component for the fade-in-down animation with shared wrapper and interactive display.",
+      "tags": [
+        "utility",
+        "preview",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/fade-in-down/preview.tsx:FadeInDownPreview",
+      "type": "function",
+      "name": "FadeInDownPreview",
+      "filePath": "lib/animations/fade-in-down/preview.tsx",
+      "lineRange": [
+        5,
+        34
+      ],
+      "summary": "Function implementing the FadeInDownPreview logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/animations/fade-in-up/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/fade-in-up/preview.tsx",
+      "summary": "Preview component for the fade-in-up animation with shared wrapper and interactive display.",
+      "tags": [
+        "utility",
+        "preview",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/fade-in-up/preview.tsx:FadeInUpPreview",
+      "type": "function",
+      "name": "FadeInUpPreview",
+      "filePath": "lib/animations/fade-in-up/preview.tsx",
+      "lineRange": [
+        5,
+        40
+      ],
+      "summary": "Function implementing the FadeInUpPreview logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/fade-out-down/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/fade-out-down/preview.tsx",
+      "summary": "Preview component for the fade-out-down animation with shared wrapper and interactive display.",
+      "tags": [
+        "utility",
+        "preview",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/fade-out-down/preview.tsx:FadeOutDownPreview",
+      "type": "function",
+      "name": "FadeOutDownPreview",
+      "filePath": "lib/animations/fade-out-down/preview.tsx",
+      "lineRange": [
+        5,
+        31
+      ],
+      "summary": "Function implementing the FadeOutDownPreview logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/animations/flip-card/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/flip-card/preview.tsx",
+      "summary": "Preview component for the flip-card animation with shared wrapper and interactive display.",
+      "tags": [
+        "utility",
+        "preview",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/flip-card/preview.tsx:FlipCardPreview",
+      "type": "function",
+      "name": "FlipCardPreview",
+      "filePath": "lib/animations/flip-card/preview.tsx",
+      "lineRange": [
+        6,
+        44
+      ],
+      "summary": "Function implementing the FlipCardPreview logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/flip-card/use-flip-card.ts",
+      "type": "file",
+      "name": "use-flip-card.ts",
+      "filePath": "lib/animations/flip-card/use-flip-card.ts",
+      "summary": "Utility module providing use flip card functionality.",
+      "tags": [
+        "utility",
+        "animations",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/animations/flip-card/use-flip-card.ts:useFlipCard",
+      "type": "function",
+      "name": "useFlipCard",
+      "filePath": "lib/animations/flip-card/use-flip-card.ts",
+      "lineRange": [
+        38,
+        85
+      ],
+      "summary": "Function implementing the useFlipCard logic within the module.",
+      "tags": [
+        "function",
+        "hook",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/glitch-text/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/glitch-text/preview.tsx",
+      "summary": "Preview component for the glitch-text animation with shared wrapper and interactive display.",
+      "tags": [
+        "utility",
+        "preview",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/glitch-text/preview.tsx:GlitchTextPreview",
+      "type": "function",
+      "name": "GlitchTextPreview",
+      "filePath": "lib/animations/glitch-text/preview.tsx",
+      "lineRange": [
+        5,
+        43
+      ],
+      "summary": "Function implementing the GlitchTextPreview logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/hover-glow/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/hover-glow/preview.tsx",
+      "summary": "Preview component for the hover-glow animation with shared wrapper and interactive display.",
+      "tags": [
+        "utility",
+        "preview",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/hover-glow/preview.tsx:HoverGlowPreview",
+      "type": "function",
+      "name": "HoverGlowPreview",
+      "filePath": "lib/animations/hover-glow/preview.tsx",
+      "lineRange": [
+        5,
+        18
+      ],
+      "summary": "Function implementing the HoverGlowPreview logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/animations/hover-lift/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/hover-lift/preview.tsx",
+      "summary": "Preview component for the hover-lift animation with shared wrapper and interactive display.",
+      "tags": [
+        "utility",
+        "preview",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/hover-lift/preview.tsx:HoverLiftPreview",
+      "type": "function",
+      "name": "HoverLiftPreview",
+      "filePath": "lib/animations/hover-lift/preview.tsx",
+      "lineRange": [
+        11,
+        31
+      ],
+      "summary": "Function implementing the HoverLiftPreview logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/animations/image-distortion/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/image-distortion/preview.tsx",
+      "summary": "Preview component for the image-distortion animation with shared wrapper and interactive display.",
+      "tags": [
+        "utility",
+        "preview",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/image-distortion/preview.tsx:ImageDistortionPreview",
+      "type": "function",
+      "name": "ImageDistortionPreview",
+      "filePath": "lib/animations/image-distortion/preview.tsx",
+      "lineRange": [
+        5,
+        14
+      ],
+      "summary": "Function implementing the ImageDistortionPreview logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/animations/magnetic-hover/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/magnetic-hover/preview.tsx",
+      "summary": "Preview component for the magnetic-hover animation with shared wrapper and interactive display.",
+      "tags": [
+        "utility",
+        "preview",
+        "code",
+        "typescript"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:lib/animations/magnetic-hover/preview.tsx:MagneticHoverPreview",
+      "type": "function",
+      "name": "MagneticHoverPreview",
+      "filePath": "lib/animations/magnetic-hover/preview.tsx",
+      "lineRange": [
+        7,
+        61
+      ],
+      "summary": "Function implementing the MagneticHoverPreview logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/animations/marquee-scroll/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/marquee-scroll/preview.tsx",
+      "summary": "Preview component for the marquee-scroll animation with shared wrapper and interactive display.",
+      "tags": [
+        "utility",
+        "preview",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/marquee-scroll/preview.tsx:MarqueeScrollPreview",
+      "type": "function",
+      "name": "MarqueeScrollPreview",
+      "filePath": "lib/animations/marquee-scroll/preview.tsx",
+      "lineRange": [
+        5,
+        28
+      ],
+      "summary": "Function implementing the MarqueeScrollPreview logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/animations/morph-shape/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/morph-shape/preview.tsx",
+      "summary": "Preview component for the morph-shape animation with shared wrapper and interactive display.",
+      "tags": [
+        "utility",
+        "preview",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/morph-shape/preview.tsx:MorphShapePreview",
+      "type": "function",
+      "name": "MorphShapePreview",
+      "filePath": "lib/animations/morph-shape/preview.tsx",
+      "lineRange": [
+        5,
+        25
+      ],
+      "summary": "Function implementing the MorphShapePreview logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/animations/morph-transition/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/morph-transition/preview.tsx",
+      "summary": "Preview component for the morph-transition animation with shared wrapper and interactive display.",
+      "tags": [
+        "utility",
+        "preview",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/morph-transition/preview.tsx:MorphTransitionPreview",
+      "type": "function",
+      "name": "MorphTransitionPreview",
+      "filePath": "lib/animations/morph-transition/preview.tsx",
+      "lineRange": [
+        5,
+        30
+      ],
+      "summary": "Function implementing the MorphTransitionPreview logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/animations/parallax-float/preview.tsx",
+      "type": "file",
+      "name": "preview.tsx",
+      "filePath": "lib/animations/parallax-float/preview.tsx",
+      "summary": "Preview component for the parallax-float animation with shared wrapper and interactive display.",
+      "tags": [
+        "utility",
+        "preview",
+        "code",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:lib/animations/parallax-float/preview.tsx:ParallaxFloatPreview",
+      "type": "function",
+      "name": "ParallaxFloatPreview",
+      "filePath": "lib/animations/parallax-float/preview.tsx",
+      "lineRange": [
+        5,
+        41
+      ],
+      "summary": "Function implementing the ParallaxFloatPreview logic within the module.",
+      "tags": [
+        "function",
+        "utility",
+        "exported"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:components/animations/animation-preview.tsx",
+      "target": "function:components/animations/animation-preview.tsx:PreviewChunkLoadFallback",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/animations/animation-preview.tsx",
+      "target": "function:components/animations/animation-preview.tsx:isChunkLoadError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/animations/animation-preview.tsx",
+      "target": "function:components/animations/animation-preview.tsx:clearChunkReloadMarker",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/animations/animation-preview.tsx",
+      "target": "function:components/animations/animation-preview.tsx:recoverFromChunkLoadError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/animations/animation-preview.tsx",
+      "target": "function:components/animations/animation-preview.tsx:dp",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/animations/animation-preview.tsx",
+      "target": "function:components/animations/animation-preview.tsx:AnimationPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/animations/animation-preview.tsx",
+      "target": "function:components/animations/animation-preview.tsx:AnimationPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/animations/animation-preview.tsx",
+      "target": "class:components/animations/animation-preview.tsx:PreviewErrorBoundary",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/animations/animation-sandbox.tsx",
+      "target": "function:components/animations/animation-sandbox.tsx:AnimationSandbox",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/animations/animation-sandbox.tsx",
+      "target": "function:components/animations/animation-sandbox.tsx:AnimationSandbox",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/anime-utils.ts",
+      "target": "function:lib/animations/anime-utils.ts:loadAnime",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/animations/anime-utils.ts",
+      "target": "function:lib/animations/anime-utils.ts:loadAnime",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/anime-utils.ts",
+      "target": "function:lib/animations/anime-utils.ts:prefersReducedMotion",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/animations/anime-utils.ts",
+      "target": "function:lib/animations/anime-utils.ts:prefersReducedMotion",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/background-gradient-shift/preview.tsx",
+      "target": "function:lib/animations/background-gradient-shift/preview.tsx:BackgroundGradientShiftPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/animations/background-gradient-shift/preview.tsx",
+      "target": "function:lib/animations/background-gradient-shift/preview.tsx:BackgroundGradientShiftPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/blur-in/preview.tsx",
+      "target": "function:lib/animations/blur-in/preview.tsx:BlurInPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/animations/blur-in/preview.tsx",
+      "target": "function:lib/animations/blur-in/preview.tsx:BlurInPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/border-trace/preview.tsx",
+      "target": "function:lib/animations/border-trace/preview.tsx:BorderTracePreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/animations/border-trace/preview.tsx",
+      "target": "function:lib/animations/border-trace/preview.tsx:BorderTracePreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/bounce-in/preview.tsx",
+      "target": "function:lib/animations/bounce-in/preview.tsx:BounceInPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/animations/bounce-in/preview.tsx",
+      "target": "function:lib/animations/bounce-in/preview.tsx:BounceInPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/collapse/preview.tsx",
+      "target": "function:lib/animations/collapse/preview.tsx:CollapsePreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/animations/collapse/preview.tsx",
+      "target": "function:lib/animations/collapse/preview.tsx:CollapsePreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/confetti-burst/preview.tsx",
+      "target": "function:lib/animations/confetti-burst/preview.tsx:createParticle",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/animations/confetti-burst/preview.tsx",
+      "target": "function:lib/animations/confetti-burst/preview.tsx:ConfettiBurstPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/animations/confetti-burst/preview.tsx",
+      "target": "function:lib/animations/confetti-burst/preview.tsx:ConfettiBurstPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/context-cursor/preview.tsx",
+      "target": "function:lib/animations/context-cursor/preview.tsx:ContextCursorPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/animations/context-cursor/preview.tsx",
+      "target": "function:lib/animations/context-cursor/preview.tsx:ContextCursorPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/counter-roll/preview.tsx",
+      "target": "function:lib/animations/counter-roll/preview.tsx:CounterRollPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/animations/counter-roll/preview.tsx",
+      "target": "function:lib/animations/counter-roll/preview.tsx:CounterRollPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/crossfade/preview.tsx",
+      "target": "function:lib/animations/crossfade/preview.tsx:TabPanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/animations/crossfade/preview.tsx",
+      "target": "function:lib/animations/crossfade/preview.tsx:CrossfadePreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/animations/crossfade/preview.tsx",
+      "target": "function:lib/animations/crossfade/preview.tsx:CrossfadePreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/cursor-aura/preview.tsx",
+      "target": "function:lib/animations/cursor-aura/preview.tsx:CursorAuraPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/animations/cursor-aura/preview.tsx",
+      "target": "function:lib/animations/cursor-aura/preview.tsx:CursorAuraPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/cursor-trail/preview.tsx",
+      "target": "function:lib/animations/cursor-trail/preview.tsx:CursorTrailPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/animations/cursor-trail/preview.tsx",
+      "target": "function:lib/animations/cursor-trail/preview.tsx:CursorTrailPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/drag-physics/preview.tsx",
+      "target": "function:lib/animations/drag-physics/preview.tsx:DragPhysicsPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/animations/drag-physics/preview.tsx",
+      "target": "function:lib/animations/drag-physics/preview.tsx:DragPhysicsPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/elastic-scale/preview.tsx",
+      "target": "function:lib/animations/elastic-scale/preview.tsx:ElasticScalePreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/animations/elastic-scale/preview.tsx",
+      "target": "function:lib/animations/elastic-scale/preview.tsx:ElasticScalePreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/elastic-snap/preview.tsx",
+      "target": "function:lib/animations/elastic-snap/preview.tsx:ElasticSnapPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/animations/elastic-snap/preview.tsx",
+      "target": "function:lib/animations/elastic-snap/preview.tsx:ElasticSnapPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/fade-in-down/preview.tsx",
+      "target": "function:lib/animations/fade-in-down/preview.tsx:FadeInDownPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/animations/fade-in-down/preview.tsx",
+      "target": "function:lib/animations/fade-in-down/preview.tsx:FadeInDownPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/fade-in-up/preview.tsx",
+      "target": "function:lib/animations/fade-in-up/preview.tsx:FadeInUpPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/animations/fade-in-up/preview.tsx",
+      "target": "function:lib/animations/fade-in-up/preview.tsx:FadeInUpPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/fade-out-down/preview.tsx",
+      "target": "function:lib/animations/fade-out-down/preview.tsx:FadeOutDownPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/animations/fade-out-down/preview.tsx",
+      "target": "function:lib/animations/fade-out-down/preview.tsx:FadeOutDownPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/flip-card/preview.tsx",
+      "target": "function:lib/animations/flip-card/preview.tsx:FlipCardPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/animations/flip-card/preview.tsx",
+      "target": "function:lib/animations/flip-card/preview.tsx:FlipCardPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/flip-card/use-flip-card.ts",
+      "target": "function:lib/animations/flip-card/use-flip-card.ts:useFlipCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/animations/flip-card/use-flip-card.ts",
+      "target": "function:lib/animations/flip-card/use-flip-card.ts:useFlipCard",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/glitch-text/preview.tsx",
+      "target": "function:lib/animations/glitch-text/preview.tsx:GlitchTextPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/animations/glitch-text/preview.tsx",
+      "target": "function:lib/animations/glitch-text/preview.tsx:GlitchTextPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/hover-glow/preview.tsx",
+      "target": "function:lib/animations/hover-glow/preview.tsx:HoverGlowPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/animations/hover-glow/preview.tsx",
+      "target": "function:lib/animations/hover-glow/preview.tsx:HoverGlowPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/hover-lift/preview.tsx",
+      "target": "function:lib/animations/hover-lift/preview.tsx:HoverLiftPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/animations/hover-lift/preview.tsx",
+      "target": "function:lib/animations/hover-lift/preview.tsx:HoverLiftPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/image-distortion/preview.tsx",
+      "target": "function:lib/animations/image-distortion/preview.tsx:ImageDistortionPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/animations/image-distortion/preview.tsx",
+      "target": "function:lib/animations/image-distortion/preview.tsx:ImageDistortionPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/magnetic-hover/preview.tsx",
+      "target": "function:lib/animations/magnetic-hover/preview.tsx:MagneticHoverPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/animations/magnetic-hover/preview.tsx",
+      "target": "function:lib/animations/magnetic-hover/preview.tsx:MagneticHoverPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/marquee-scroll/preview.tsx",
+      "target": "function:lib/animations/marquee-scroll/preview.tsx:MarqueeScrollPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/animations/marquee-scroll/preview.tsx",
+      "target": "function:lib/animations/marquee-scroll/preview.tsx:MarqueeScrollPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/morph-shape/preview.tsx",
+      "target": "function:lib/animations/morph-shape/preview.tsx:MorphShapePreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/animations/morph-shape/preview.tsx",
+      "target": "function:lib/animations/morph-shape/preview.tsx:MorphShapePreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/morph-transition/preview.tsx",
+      "target": "function:lib/animations/morph-transition/preview.tsx:MorphTransitionPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/animations/morph-transition/preview.tsx",
+      "target": "function:lib/animations/morph-transition/preview.tsx:MorphTransitionPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:lib/animations/parallax-float/preview.tsx",
+      "target": "function:lib/animations/parallax-float/preview.tsx:ParallaxFloatPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:lib/animations/parallax-float/preview.tsx",
+      "target": "function:lib/animations/parallax-float/preview.tsx:ParallaxFloatPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/animations/animation-preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/animations/animation-sandbox.tsx",
+      "target": "file:components/animations/animation-preview.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/animations/animation-sandbox.tsx",
+      "target": "file:lib/animations/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/animations/animation-sandbox.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/background-gradient-shift/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/blur-in/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/border-trace/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/bounce-in/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/collapse/preview.tsx",
+      "target": "file:lib/animations/anime-utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/collapse/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/confetti-burst/preview.tsx",
+      "target": "file:lib/animations/anime-utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/confetti-burst/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/context-cursor/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/counter-roll/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/crossfade/preview.tsx",
+      "target": "file:lib/animations/anime-utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/crossfade/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/cursor-aura/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/cursor-trail/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/drag-physics/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/elastic-scale/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/elastic-snap/preview.tsx",
+      "target": "file:lib/animations/anime-utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/elastic-snap/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/fade-in-down/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/fade-in-up/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/fade-out-down/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/flip-card/preview.tsx",
+      "target": "file:lib/animations/flip-card/use-flip-card.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/flip-card/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/glitch-text/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/hover-glow/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/hover-lift/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/image-distortion/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/magnetic-hover/preview.tsx",
+      "target": "file:lib/animations/anime-utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/magnetic-hover/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/marquee-scroll/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/morph-shape/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/morph-transition/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/animations/parallax-float/preview.tsx",
+      "target": "file:lib/animations/previews/_shared.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

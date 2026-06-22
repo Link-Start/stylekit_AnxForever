@@ -1,0 +1,2182 @@
+{
+  "nodes": [
+    {
+      "id": "file:components/favorite-button.tsx",
+      "type": "file",
+      "name": "favorite-button.tsx",
+      "filePath": "components/favorite-button.tsx",
+      "summary": "Toggle button component for adding/removing styles from user favorites.",
+      "tags": [
+        "component",
+        "favorites"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/github-star-button.tsx",
+      "type": "file",
+      "name": "github-star-button.tsx",
+      "filePath": "components/github-star-button.tsx",
+      "summary": "Component displaying GitHub star count with link to repository.",
+      "tags": [
+        "component",
+        "github"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/gradients/gradients-content.tsx",
+      "type": "file",
+      "name": "gradients-content.tsx",
+      "filePath": "components/gradients/gradients-content.tsx",
+      "summary": "Component displaying gradient style gallery with preview and code.",
+      "tags": [
+        "component",
+        "gradient"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/home/built-for-section.tsx",
+      "type": "file",
+      "name": "built-for-section.tsx",
+      "filePath": "components/home/built-for-section.tsx",
+      "summary": "Home page section describing what the platform is built for.",
+      "tags": [
+        "component",
+        "home"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/home/cta-banner.tsx",
+      "type": "file",
+      "name": "cta-banner.tsx",
+      "filePath": "components/home/cta-banner.tsx",
+      "summary": "Call-to-action banner component for the home page.",
+      "tags": [
+        "component",
+        "home"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/home/featured-carousel.tsx",
+      "type": "file",
+      "name": "featured-carousel.tsx",
+      "filePath": "components/home/featured-carousel.tsx",
+      "summary": "Featured styles carousel component for the home page.",
+      "tags": [
+        "component",
+        "home"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/home/home-content.tsx",
+      "type": "file",
+      "name": "home-content.tsx",
+      "filePath": "components/home/home-content.tsx",
+      "summary": "Main home page content component composing sections like featured carousel, style cards, and social proof.",
+      "tags": [
+        "component",
+        "home"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:components/home/home-style-card.tsx",
+      "type": "file",
+      "name": "home-style-card.tsx",
+      "filePath": "components/home/home-style-card.tsx",
+      "summary": "Individual style card component for the style listing grid.",
+      "tags": [
+        "component",
+        "home"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/home/how-it-works.tsx",
+      "type": "file",
+      "name": "how-it-works.tsx",
+      "filePath": "components/home/how-it-works.tsx",
+      "summary": "Step-by-step guide component explaining how to use StyleKit.",
+      "tags": [
+        "component",
+        "home"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/home/quick-export.tsx",
+      "type": "file",
+      "name": "quick-export.tsx",
+      "filePath": "components/home/quick-export.tsx",
+      "summary": "Component providing UI for exporting style tokens and configurations in various formats.",
+      "tags": [
+        "component",
+        "export"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:components/home/reveal-on-scroll.tsx",
+      "type": "file",
+      "name": "reveal-on-scroll.tsx",
+      "filePath": "components/home/reveal-on-scroll.tsx",
+      "summary": "Scroll-triggered reveal animation wrapper component.",
+      "tags": [
+        "component",
+        "home"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/home/social-proof.tsx",
+      "type": "file",
+      "name": "social-proof.tsx",
+      "filePath": "components/home/social-proof.tsx",
+      "summary": "Social proof section showing user count and testimonials.",
+      "tags": [
+        "component",
+        "home"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/home/style-card.tsx",
+      "type": "file",
+      "name": "style-card.tsx",
+      "filePath": "components/home/style-card.tsx",
+      "summary": "Individual style card component for the style listing grid.",
+      "tags": [
+        "component",
+        "home"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/home/thank-you-modal.tsx",
+      "type": "file",
+      "name": "thank-you-modal.tsx",
+      "filePath": "components/home/thank-you-modal.tsx",
+      "summary": "Thank you modal component shown after user actions.",
+      "tags": [
+        "component",
+        "home"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/home/trending-styles.tsx",
+      "type": "file",
+      "name": "trending-styles.tsx",
+      "filePath": "components/home/trending-styles.tsx",
+      "summary": "Trending styles display component for the home page.",
+      "tags": [
+        "component",
+        "home"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:components/i18n/html-lang-updater.tsx",
+      "type": "file",
+      "name": "html-lang-updater.tsx",
+      "filePath": "components/i18n/html-lang-updater.tsx",
+      "summary": "Internationalization component managing HTML lang attribute updates.",
+      "tags": [
+        "component",
+        "i18n"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/layout/client-scripts.tsx",
+      "type": "file",
+      "name": "client-scripts.tsx",
+      "filePath": "components/layout/client-scripts.tsx",
+      "summary": "Client-side scripts provider component injecting analytics and interaction trackers.",
+      "tags": [
+        "component",
+        "layout"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/newsletter/newsletter-signup.tsx",
+      "type": "file",
+      "name": "newsletter-signup.tsx",
+      "filePath": "components/newsletter/newsletter-signup.tsx",
+      "summary": "Newsletter signup form component with submission handling.",
+      "tags": [
+        "component",
+        "newsletter"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/page-transition.tsx",
+      "type": "file",
+      "name": "page-transition.tsx",
+      "filePath": "components/page-transition.tsx",
+      "summary": "Page transition animation wrapper component.",
+      "tags": [
+        "component",
+        "animation"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/pointer-interactions/index.ts",
+      "type": "file",
+      "name": "index.ts",
+      "filePath": "components/pointer-interactions/index.ts",
+      "summary": "Pointer interaction barrel export for cursor effects.",
+      "tags": [
+        "component",
+        "interaction"
+      ],
+      "complexity": "simple",
+      "languageNotes": "Barrel file re-exporting multiple modules."
+    },
+    {
+      "id": "file:components/providers/client-providers.tsx",
+      "type": "file",
+      "name": "client-providers.tsx",
+      "filePath": "components/providers/client-providers.tsx",
+      "summary": "Root client providers wrapper composing theme, i18n, favorites, and analytics context providers.",
+      "tags": [
+        "component",
+        "provider"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/shadows/shadows-content.tsx",
+      "type": "file",
+      "name": "shadows-content.tsx",
+      "filePath": "components/shadows/shadows-content.tsx",
+      "summary": "Component displaying shadow effect gallery with preview and code.",
+      "tags": [
+        "component",
+        "shadows"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/style-preview-switcher.tsx",
+      "type": "file",
+      "name": "style-preview-switcher.tsx",
+      "filePath": "components/style-preview-switcher.tsx",
+      "summary": "Style preview mode switcher between different rendering options.",
+      "tags": [
+        "component",
+        "style-preview"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/style-preview/__tests__/ai-implementation-panel.test.tsx",
+      "type": "file",
+      "name": "ai-implementation-panel.test.tsx",
+      "filePath": "components/style-preview/__tests__/ai-implementation-panel.test.tsx",
+      "summary": "Unit tests covering the API route handlers and request validation.",
+      "tags": [
+        "test",
+        "api-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/style-preview/__tests__/component-preview.test.tsx",
+      "type": "file",
+      "name": "component-preview.test.tsx",
+      "filePath": "components/style-preview/__tests__/component-preview.test.tsx",
+      "summary": "Unit tests covering the API route handlers and request validation.",
+      "tags": [
+        "test",
+        "api-handler"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/style-preview/__tests__/copy-identity.test.tsx",
+      "type": "file",
+      "name": "copy-identity.test.tsx",
+      "filePath": "components/style-preview/__tests__/copy-identity.test.tsx",
+      "summary": "Unit tests covering the API route handlers and request validation.",
+      "tags": [
+        "test",
+        "api-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/style-preview/__tests__/prompt-pair-exporter.test.tsx",
+      "type": "file",
+      "name": "prompt-pair-exporter.test.tsx",
+      "filePath": "components/style-preview/__tests__/prompt-pair-exporter.test.tsx",
+      "summary": "Unit tests covering the API route handlers and request validation.",
+      "tags": [
+        "test",
+        "api-handler"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/style-preview/ai-implementation-panel.tsx",
+      "type": "file",
+      "name": "ai-implementation-panel.tsx",
+      "filePath": "components/style-preview/ai-implementation-panel.tsx",
+      "summary": "AI implementation panel generating code snippets for style components.",
+      "tags": [
+        "component",
+        "style-preview"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:components/style-preview/code-block.tsx",
+      "type": "file",
+      "name": "code-block.tsx",
+      "filePath": "components/style-preview/code-block.tsx",
+      "summary": "Syntax-highlighted code block component for style previews.",
+      "tags": [
+        "component",
+        "style-preview"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/style-preview/color-palette.tsx",
+      "type": "file",
+      "name": "color-palette.tsx",
+      "filePath": "components/style-preview/color-palette.tsx",
+      "summary": "Color palette display component showing accent, surface, and text colors.",
+      "tags": [
+        "component",
+        "style-preview"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:components/style-preview/component-preview.tsx",
+      "type": "file",
+      "name": "component-preview.tsx",
+      "filePath": "components/style-preview/component-preview.tsx",
+      "summary": "Live component preview showcasing how a style renders UI elements.",
+      "tags": [
+        "component",
+        "style-preview"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/style-preview/example-prompts.tsx",
+      "type": "file",
+      "name": "example-prompts.tsx",
+      "filePath": "components/style-preview/example-prompts.tsx",
+      "summary": "Example AI prompt suggestions component for style usage.",
+      "tags": [
+        "component",
+        "style-preview"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/style-preview/prompt-pair-exporter.tsx",
+      "type": "file",
+      "name": "prompt-pair-exporter.tsx",
+      "filePath": "components/style-preview/prompt-pair-exporter.tsx",
+      "summary": "Component providing UI for exporting style tokens and configurations in various formats.",
+      "tags": [
+        "component",
+        "export"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/style-preview/quick-start-guide.tsx",
+      "type": "file",
+      "name": "quick-start-guide.tsx",
+      "filePath": "components/style-preview/quick-start-guide.tsx",
+      "summary": "Quick start guide panel for getting started with a style.",
+      "tags": [
+        "component",
+        "style-preview"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:components/favorite-button.tsx:FavoriteButton",
+      "type": "function",
+      "name": "FavoriteButton",
+      "filePath": "components/favorite-button.tsx",
+      "lineRange": [
+        12,
+        62
+      ],
+      "summary": "FavoriteButton function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/github-star-button.tsx:GitHubIcon",
+      "type": "function",
+      "name": "GitHubIcon",
+      "filePath": "components/github-star-button.tsx",
+      "lineRange": [
+        20,
+        30
+      ],
+      "summary": "GitHubIcon function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:components/github-star-button.tsx:StarIcon",
+      "type": "function",
+      "name": "StarIcon",
+      "filePath": "components/github-star-button.tsx",
+      "lineRange": [
+        32,
+        46
+      ],
+      "summary": "StarIcon function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:components/github-star-button.tsx:GitHubStarButton",
+      "type": "function",
+      "name": "GitHubStarButton",
+      "filePath": "components/github-star-button.tsx",
+      "lineRange": [
+        48,
+        101
+      ],
+      "summary": "GitHubStarButton function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/gradients/gradients-content.tsx:GradientsContent",
+      "type": "function",
+      "name": "GradientsContent",
+      "filePath": "components/gradients/gradients-content.tsx",
+      "lineRange": [
+        12,
+        139
+      ],
+      "summary": "GradientsContent function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/gradients/gradients-content.tsx:GradientCard",
+      "type": "function",
+      "name": "GradientCard",
+      "filePath": "components/gradients/gradients-content.tsx",
+      "lineRange": [
+        148,
+        217
+      ],
+      "summary": "GradientCard function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/home/built-for-section.tsx:IntegrationIcon",
+      "type": "function",
+      "name": "IntegrationIcon",
+      "filePath": "components/home/built-for-section.tsx",
+      "lineRange": [
+        21,
+        69
+      ],
+      "summary": "IntegrationIcon function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:components/home/built-for-section.tsx:BuiltForSection",
+      "type": "function",
+      "name": "BuiltForSection",
+      "filePath": "components/home/built-for-section.tsx",
+      "lineRange": [
+        71,
+        105
+      ],
+      "summary": "BuiltForSection function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:components/home/cta-banner.tsx:CTABanner",
+      "type": "function",
+      "name": "CTABanner",
+      "filePath": "components/home/cta-banner.tsx",
+      "lineRange": [
+        11,
+        54
+      ],
+      "summary": "CTABanner function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:components/home/featured-carousel.tsx:FeaturedCarousel",
+      "type": "function",
+      "name": "FeaturedCarousel",
+      "filePath": "components/home/featured-carousel.tsx",
+      "lineRange": [
+        14,
+        198
+      ],
+      "summary": "FeaturedCarousel function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/home/home-content.tsx:HomeContent",
+      "type": "function",
+      "name": "HomeContent",
+      "filePath": "components/home/home-content.tsx",
+      "lineRange": [
+        87,
+        745
+      ],
+      "summary": "HomeContent function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/home/home-content.tsx:TrendingStylesSkeleton",
+      "type": "function",
+      "name": "TrendingStylesSkeleton",
+      "filePath": "components/home/home-content.tsx",
+      "lineRange": [
+        747,
+        769
+      ],
+      "summary": "TrendingStylesSkeleton function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:components/home/home-content.tsx:HomeSupportCard",
+      "type": "function",
+      "name": "HomeSupportCard",
+      "filePath": "components/home/home-content.tsx",
+      "lineRange": [
+        771,
+        957
+      ],
+      "summary": "HomeSupportCard function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/home/home-content.tsx:MobileHomeSummarySection",
+      "type": "function",
+      "name": "MobileHomeSummarySection",
+      "filePath": "components/home/home-content.tsx",
+      "lineRange": [
+        959,
+        1041
+      ],
+      "summary": "MobileHomeSummarySection function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/home/home-style-card.tsx:HomeStyleCard",
+      "type": "function",
+      "name": "HomeStyleCard",
+      "filePath": "components/home/home-style-card.tsx",
+      "lineRange": [
+        11,
+        66
+      ],
+      "summary": "HomeStyleCard function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/home/how-it-works.tsx:HowItWorks",
+      "type": "function",
+      "name": "HowItWorks",
+      "filePath": "components/home/how-it-works.tsx",
+      "lineRange": [
+        22,
+        67
+      ],
+      "summary": "HowItWorks function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:components/home/quick-export.tsx:QuickExport",
+      "type": "function",
+      "name": "QuickExport",
+      "filePath": "components/home/quick-export.tsx",
+      "lineRange": [
+        16,
+        240
+      ],
+      "summary": "QuickExport function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/home/reveal-on-scroll.tsx:RevealOnScroll",
+      "type": "function",
+      "name": "RevealOnScroll",
+      "filePath": "components/home/reveal-on-scroll.tsx",
+      "lineRange": [
+        24,
+        97
+      ],
+      "summary": "RevealOnScroll function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/home/social-proof.tsx:SocialProof",
+      "type": "function",
+      "name": "SocialProof",
+      "filePath": "components/home/social-proof.tsx",
+      "lineRange": [
+        28,
+        101
+      ],
+      "summary": "SocialProof function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/home/thank-you-modal.tsx:ThankYouModal",
+      "type": "function",
+      "name": "ThankYouModal",
+      "filePath": "components/home/thank-you-modal.tsx",
+      "lineRange": [
+        13,
+        115
+      ],
+      "summary": "ThankYouModal function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/home/trending-styles.tsx:TrendingStyles",
+      "type": "function",
+      "name": "TrendingStyles",
+      "filePath": "components/home/trending-styles.tsx",
+      "lineRange": [
+        16,
+        220
+      ],
+      "summary": "TrendingStyles function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/i18n/html-lang-updater.tsx:HtmlLangUpdater",
+      "type": "function",
+      "name": "HtmlLangUpdater",
+      "filePath": "components/i18n/html-lang-updater.tsx",
+      "lineRange": [
+        11,
+        20
+      ],
+      "summary": "HtmlLangUpdater function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:components/layout/client-scripts.tsx:ClientScripts",
+      "type": "function",
+      "name": "ClientScripts",
+      "filePath": "components/layout/client-scripts.tsx",
+      "lineRange": [
+        22,
+        33
+      ],
+      "summary": "ClientScripts function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:components/newsletter/newsletter-signup.tsx:NewsletterSignup",
+      "type": "function",
+      "name": "NewsletterSignup",
+      "filePath": "components/newsletter/newsletter-signup.tsx",
+      "lineRange": [
+        14,
+        189
+      ],
+      "summary": "NewsletterSignup function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/page-transition.tsx:PageTransition",
+      "type": "function",
+      "name": "PageTransition",
+      "filePath": "components/page-transition.tsx",
+      "lineRange": [
+        15,
+        17
+      ],
+      "summary": "PageTransition function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:components/providers/client-providers.tsx:ClientProviders",
+      "type": "function",
+      "name": "ClientProviders",
+      "filePath": "components/providers/client-providers.tsx",
+      "lineRange": [
+        22,
+        44
+      ],
+      "summary": "ClientProviders function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:components/shadows/shadows-content.tsx:ShadowsContent",
+      "type": "function",
+      "name": "ShadowsContent",
+      "filePath": "components/shadows/shadows-content.tsx",
+      "lineRange": [
+        12,
+        91
+      ],
+      "summary": "ShadowsContent function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/shadows/shadows-content.tsx:ShadowCard",
+      "type": "function",
+      "name": "ShadowCard",
+      "filePath": "components/shadows/shadows-content.tsx",
+      "lineRange": [
+        101,
+        172
+      ],
+      "summary": "ShadowCard function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/style-preview-switcher.tsx:StylePreviewSwitcher",
+      "type": "function",
+      "name": "StylePreviewSwitcher",
+      "filePath": "components/style-preview-switcher.tsx",
+      "lineRange": [
+        33,
+        194
+      ],
+      "summary": "StylePreviewSwitcher function with 0 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/style-preview/ai-implementation-panel.tsx:buildDesignSpec",
+      "type": "function",
+      "name": "buildDesignSpec",
+      "filePath": "components/style-preview/ai-implementation-panel.tsx",
+      "lineRange": [
+        49,
+        177
+      ],
+      "summary": "buildDesignSpec function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/style-preview/ai-implementation-panel.tsx:addPromptPurpose",
+      "type": "function",
+      "name": "addPromptPurpose",
+      "filePath": "components/style-preview/ai-implementation-panel.tsx",
+      "lineRange": [
+        179,
+        233
+      ],
+      "summary": "addPromptPurpose function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/style-preview/ai-implementation-panel.tsx:AiImplementationPanel",
+      "type": "function",
+      "name": "AiImplementationPanel",
+      "filePath": "components/style-preview/ai-implementation-panel.tsx",
+      "lineRange": [
+        235,
+        546
+      ],
+      "summary": "AiImplementationPanel function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/style-preview/code-block.tsx:CodeBlock",
+      "type": "function",
+      "name": "CodeBlock",
+      "filePath": "components/style-preview/code-block.tsx",
+      "lineRange": [
+        13,
+        53
+      ],
+      "summary": "CodeBlock function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:components/style-preview/color-palette.tsx:ColorPalette",
+      "type": "function",
+      "name": "ColorPalette",
+      "filePath": "components/style-preview/color-palette.tsx",
+      "lineRange": [
+        9,
+        33
+      ],
+      "summary": "ColorPalette function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:components/style-preview/component-preview.tsx:ComponentPreview",
+      "type": "function",
+      "name": "ComponentPreview",
+      "filePath": "components/style-preview/component-preview.tsx",
+      "lineRange": [
+        15,
+        127
+      ],
+      "summary": "ComponentPreview function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/style-preview/example-prompts.tsx:ExamplePrompts",
+      "type": "function",
+      "name": "ExamplePrompts",
+      "filePath": "components/style-preview/example-prompts.tsx",
+      "lineRange": [
+        16,
+        99
+      ],
+      "summary": "ExamplePrompts function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/style-preview/prompt-pair-exporter.tsx:PromptPairExporter",
+      "type": "function",
+      "name": "PromptPairExporter",
+      "filePath": "components/style-preview/prompt-pair-exporter.tsx",
+      "lineRange": [
+        24,
+        138
+      ],
+      "summary": "PromptPairExporter function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:components/style-preview/quick-start-guide.tsx:QuickStartGuide",
+      "type": "function",
+      "name": "QuickStartGuide",
+      "filePath": "components/style-preview/quick-start-guide.tsx",
+      "lineRange": [
+        14,
+        109
+      ],
+      "summary": "QuickStartGuide function with 1 parameters.",
+      "tags": [
+        "function"
+      ],
+      "complexity": "complex"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:components/favorite-button.tsx",
+      "target": "function:components/favorite-button.tsx:FavoriteButton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/favorite-button.tsx",
+      "target": "function:components/favorite-button.tsx:FavoriteButton",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/favorite-button.tsx",
+      "target": "file:lib/favorites/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/favorite-button.tsx",
+      "target": "file:lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/github-star-button.tsx",
+      "target": "function:components/github-star-button.tsx:GitHubIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/github-star-button.tsx",
+      "target": "function:components/github-star-button.tsx:StarIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/github-star-button.tsx",
+      "target": "function:components/github-star-button.tsx:GitHubStarButton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/github-star-button.tsx",
+      "target": "function:components/github-star-button.tsx:GitHubStarButton",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/github-star-button.tsx",
+      "target": "file:lib/analytics/events.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/github-star-button.tsx",
+      "target": "file:lib/github-stars.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/gradients/gradients-content.tsx",
+      "target": "function:components/gradients/gradients-content.tsx:GradientsContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/gradients/gradients-content.tsx",
+      "target": "function:components/gradients/gradients-content.tsx:GradientsContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/gradients/gradients-content.tsx",
+      "target": "function:components/gradients/gradients-content.tsx:GradientCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/gradients/gradients-content.tsx",
+      "target": "file:lib/gradients/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/gradients/gradients-content.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/built-for-section.tsx",
+      "target": "function:components/home/built-for-section.tsx:IntegrationIcon",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/home/built-for-section.tsx",
+      "target": "function:components/home/built-for-section.tsx:BuiltForSection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/home/built-for-section.tsx",
+      "target": "function:components/home/built-for-section.tsx:BuiltForSection",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/home/built-for-section.tsx",
+      "target": "file:components/home/reveal-on-scroll.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/built-for-section.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/built-for-section.tsx",
+      "target": "file:lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/cta-banner.tsx",
+      "target": "function:components/home/cta-banner.tsx:CTABanner",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/home/cta-banner.tsx",
+      "target": "function:components/home/cta-banner.tsx:CTABanner",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/home/cta-banner.tsx",
+      "target": "file:components/home/reveal-on-scroll.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/cta-banner.tsx",
+      "target": "file:lib/analytics/events.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/cta-banner.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/featured-carousel.tsx",
+      "target": "function:components/home/featured-carousel.tsx:FeaturedCarousel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/home/featured-carousel.tsx",
+      "target": "function:components/home/featured-carousel.tsx:FeaturedCarousel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/home/featured-carousel.tsx",
+      "target": "file:components/i18n/localized-link.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/featured-carousel.tsx",
+      "target": "file:components/style-preview/style-cover-preview.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/featured-carousel.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/featured-carousel.tsx",
+      "target": "file:lib/styles/meta.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/home-content.tsx",
+      "target": "function:components/home/home-content.tsx:HomeContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/home/home-content.tsx",
+      "target": "function:components/home/home-content.tsx:HomeContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/home/home-content.tsx",
+      "target": "function:components/home/home-content.tsx:TrendingStylesSkeleton",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/home/home-content.tsx",
+      "target": "function:components/home/home-content.tsx:HomeSupportCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/home/home-content.tsx",
+      "target": "function:components/home/home-content.tsx:MobileHomeSummarySection",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/home/home-content.tsx",
+      "target": "file:components/github-star-button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/home-content.tsx",
+      "target": "file:components/home/featured-carousel.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/home-content.tsx",
+      "target": "file:components/home/home-style-card.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/home-content.tsx",
+      "target": "file:components/home/reveal-on-scroll.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/home-content.tsx",
+      "target": "file:components/home/social-proof.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/home-content.tsx",
+      "target": "file:components/home/thank-you-modal.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/home-content.tsx",
+      "target": "file:components/ui/drawer/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/home-content.tsx",
+      "target": "file:components/ui/popover/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/home-content.tsx",
+      "target": "file:lib/analytics/events.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/home-content.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/home-content.tsx",
+      "target": "file:lib/i18n/routing.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/home-content.tsx",
+      "target": "file:lib/styles/meta.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/home-content.tsx",
+      "target": "file:lib/styles/scenarios.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/home-content.tsx",
+      "target": "file:lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/home-style-card.tsx",
+      "target": "function:components/home/home-style-card.tsx:HomeStyleCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/home/home-style-card.tsx",
+      "target": "function:components/home/home-style-card.tsx:HomeStyleCard",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/home/home-style-card.tsx",
+      "target": "file:components/i18n/localized-link.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/home-style-card.tsx",
+      "target": "file:components/style-preview/style-cover-preview.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/home-style-card.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/home-style-card.tsx",
+      "target": "file:lib/styles/meta.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/home-style-card.tsx",
+      "target": "file:lib/styles/scenarios.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/how-it-works.tsx",
+      "target": "function:components/home/how-it-works.tsx:HowItWorks",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/home/how-it-works.tsx",
+      "target": "function:components/home/how-it-works.tsx:HowItWorks",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/home/how-it-works.tsx",
+      "target": "file:components/home/reveal-on-scroll.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/how-it-works.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/how-it-works.tsx",
+      "target": "file:lib/i18n/translations.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/quick-export.tsx",
+      "target": "function:components/home/quick-export.tsx:QuickExport",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/home/quick-export.tsx",
+      "target": "function:components/home/quick-export.tsx:QuickExport",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/home/quick-export.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/quick-export.tsx",
+      "target": "file:lib/styles/meta.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/reveal-on-scroll.tsx",
+      "target": "function:components/home/reveal-on-scroll.tsx:RevealOnScroll",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/home/reveal-on-scroll.tsx",
+      "target": "function:components/home/reveal-on-scroll.tsx:RevealOnScroll",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/home/reveal-on-scroll.tsx",
+      "target": "file:lib/utils.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/social-proof.tsx",
+      "target": "function:components/home/social-proof.tsx:SocialProof",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/home/social-proof.tsx",
+      "target": "function:components/home/social-proof.tsx:SocialProof",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/home/social-proof.tsx",
+      "target": "file:components/home/reveal-on-scroll.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/social-proof.tsx",
+      "target": "file:lib/github-stars.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/social-proof.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/style-card.tsx",
+      "target": "file:components/favorite-button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/style-card.tsx",
+      "target": "file:components/i18n/localized-link.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/style-card.tsx",
+      "target": "file:components/style-preview/style-cover-preview.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/style-card.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/style-card.tsx",
+      "target": "file:lib/styles/meta.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/style-card.tsx",
+      "target": "file:lib/styles/scenarios.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/thank-you-modal.tsx",
+      "target": "function:components/home/thank-you-modal.tsx:ThankYouModal",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/home/thank-you-modal.tsx",
+      "target": "function:components/home/thank-you-modal.tsx:ThankYouModal",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/home/thank-you-modal.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/thank-you-modal.tsx",
+      "target": "file:lib/site/support.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/trending-styles.tsx",
+      "target": "function:components/home/trending-styles.tsx:TrendingStyles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/home/trending-styles.tsx",
+      "target": "function:components/home/trending-styles.tsx:TrendingStyles",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/home/trending-styles.tsx",
+      "target": "file:components/home/reveal-on-scroll.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/trending-styles.tsx",
+      "target": "file:components/i18n/localized-link.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/trending-styles.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/trending-styles.tsx",
+      "target": "file:lib/styles/meta.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/home/trending-styles.tsx",
+      "target": "file:lib/swr/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/i18n/html-lang-updater.tsx",
+      "target": "function:components/i18n/html-lang-updater.tsx:HtmlLangUpdater",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/i18n/html-lang-updater.tsx",
+      "target": "function:components/i18n/html-lang-updater.tsx:HtmlLangUpdater",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/i18n/html-lang-updater.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/layout/client-scripts.tsx",
+      "target": "function:components/layout/client-scripts.tsx:ClientScripts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/layout/client-scripts.tsx",
+      "target": "function:components/layout/client-scripts.tsx:ClientScripts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/layout/client-scripts.tsx",
+      "target": "file:components/analytics/page-view-tracker.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/layout/client-scripts.tsx",
+      "target": "file:components/pointer-interactions/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/newsletter/newsletter-signup.tsx",
+      "target": "function:components/newsletter/newsletter-signup.tsx:NewsletterSignup",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/newsletter/newsletter-signup.tsx",
+      "target": "function:components/newsletter/newsletter-signup.tsx:NewsletterSignup",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/newsletter/newsletter-signup.tsx",
+      "target": "file:components/i18n/localized-link.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/newsletter/newsletter-signup.tsx",
+      "target": "file:lib/analytics/events.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/newsletter/newsletter-signup.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/page-transition.tsx",
+      "target": "function:components/page-transition.tsx:PageTransition",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/page-transition.tsx",
+      "target": "function:components/page-transition.tsx:PageTransition",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/providers/client-providers.tsx",
+      "target": "function:components/providers/client-providers.tsx:ClientProviders",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/providers/client-providers.tsx",
+      "target": "function:components/providers/client-providers.tsx:ClientProviders",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/providers/client-providers.tsx",
+      "target": "file:components/analytics/utm-provider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/providers/client-providers.tsx",
+      "target": "file:components/i18n/html-lang-updater.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/providers/client-providers.tsx",
+      "target": "file:components/page-transition.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/providers/client-providers.tsx",
+      "target": "file:components/theme-provider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/providers/client-providers.tsx",
+      "target": "file:lib/favorites/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/providers/client-providers.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/providers/client-providers.tsx",
+      "target": "file:lib/i18n/translations.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/providers/client-providers.tsx",
+      "target": "file:lib/swr/provider.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/shadows/shadows-content.tsx",
+      "target": "function:components/shadows/shadows-content.tsx:ShadowsContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/shadows/shadows-content.tsx",
+      "target": "function:components/shadows/shadows-content.tsx:ShadowsContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/shadows/shadows-content.tsx",
+      "target": "function:components/shadows/shadows-content.tsx:ShadowCard",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/shadows/shadows-content.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/shadows/shadows-content.tsx",
+      "target": "file:lib/shadows/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/style-preview-switcher.tsx",
+      "target": "function:components/style-preview-switcher.tsx:StylePreviewSwitcher",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/style-preview-switcher.tsx",
+      "target": "function:components/style-preview-switcher.tsx:StylePreviewSwitcher",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/style-preview-switcher.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/style-preview-switcher.tsx",
+      "target": "file:lib/styles/meta.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/style-preview/__tests__/ai-implementation-panel.test.tsx",
+      "target": "file:components/style-preview/ai-implementation-panel.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/style-preview/ai-implementation-panel.tsx",
+      "target": "file:components/style-preview/__tests__/ai-implementation-panel.test.tsx",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:components/style-preview/__tests__/component-preview.test.tsx",
+      "target": "file:components/style-preview/component-preview.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/style-preview/component-preview.tsx",
+      "target": "file:components/style-preview/__tests__/component-preview.test.tsx",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:components/style-preview/__tests__/copy-identity.test.tsx",
+      "target": "file:components/style-preview/example-prompts.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/style-preview/__tests__/copy-identity.test.tsx",
+      "target": "file:components/style-preview/quick-start-guide.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/style-preview/__tests__/copy-identity.test.tsx",
+      "target": "file:components/style-preview/rules-exporter.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/style-preview/example-prompts.tsx",
+      "target": "file:components/style-preview/__tests__/copy-identity.test.tsx",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:components/style-preview/quick-start-guide.tsx",
+      "target": "file:components/style-preview/__tests__/copy-identity.test.tsx",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:components/style-preview/rules-exporter.tsx",
+      "target": "file:components/style-preview/__tests__/copy-identity.test.tsx",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:components/style-preview/__tests__/prompt-pair-exporter.test.tsx",
+      "target": "file:components/style-preview/prompt-pair-exporter.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/style-preview/prompt-pair-exporter.tsx",
+      "target": "file:components/style-preview/__tests__/prompt-pair-exporter.test.tsx",
+      "type": "tested_by",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:components/style-preview/ai-implementation-panel.tsx",
+      "target": "function:components/style-preview/ai-implementation-panel.tsx:buildDesignSpec",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/style-preview/ai-implementation-panel.tsx",
+      "target": "function:components/style-preview/ai-implementation-panel.tsx:addPromptPurpose",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/style-preview/ai-implementation-panel.tsx",
+      "target": "function:components/style-preview/ai-implementation-panel.tsx:AiImplementationPanel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/style-preview/ai-implementation-panel.tsx",
+      "target": "function:components/style-preview/ai-implementation-panel.tsx:AiImplementationPanel",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/style-preview/ai-implementation-panel.tsx",
+      "target": "file:lib/analytics/events.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/style-preview/ai-implementation-panel.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/style-preview/ai-implementation-panel.tsx",
+      "target": "file:lib/styles/prompt-pair.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/style-preview/code-block.tsx",
+      "target": "function:components/style-preview/code-block.tsx:CodeBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/style-preview/code-block.tsx",
+      "target": "function:components/style-preview/code-block.tsx:CodeBlock",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/style-preview/code-block.tsx",
+      "target": "file:lib/analytics/events.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/style-preview/code-block.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/style-preview/color-palette.tsx",
+      "target": "function:components/style-preview/color-palette.tsx:ColorPalette",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/style-preview/color-palette.tsx",
+      "target": "function:components/style-preview/color-palette.tsx:ColorPalette",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/style-preview/component-preview.tsx",
+      "target": "function:components/style-preview/component-preview.tsx:ComponentPreview",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/style-preview/component-preview.tsx",
+      "target": "function:components/style-preview/component-preview.tsx:ComponentPreview",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/style-preview/component-preview.tsx",
+      "target": "file:components/style-preview/code-block.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/style-preview/component-preview.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/style-preview/component-preview.tsx",
+      "target": "file:lib/security/sanitize-html.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/style-preview/component-preview.tsx",
+      "target": "file:lib/style-preview/preview-html.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/style-preview/component-preview.tsx",
+      "target": "file:lib/styles/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/style-preview/example-prompts.tsx",
+      "target": "function:components/style-preview/example-prompts.tsx:ExamplePrompts",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/style-preview/example-prompts.tsx",
+      "target": "function:components/style-preview/example-prompts.tsx:ExamplePrompts",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/style-preview/example-prompts.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/style-preview/example-prompts.tsx",
+      "target": "file:lib/styles/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/style-preview/example-prompts.tsx",
+      "target": "file:lib/styles/style-copy-identity.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/style-preview/prompt-pair-exporter.tsx",
+      "target": "function:components/style-preview/prompt-pair-exporter.tsx:PromptPairExporter",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/style-preview/prompt-pair-exporter.tsx",
+      "target": "function:components/style-preview/prompt-pair-exporter.tsx:PromptPairExporter",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/style-preview/prompt-pair-exporter.tsx",
+      "target": "file:lib/analytics/events.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/style-preview/prompt-pair-exporter.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/style-preview/prompt-pair-exporter.tsx",
+      "target": "file:lib/styles/prompt-pair.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/style-preview/quick-start-guide.tsx",
+      "target": "function:components/style-preview/quick-start-guide.tsx:QuickStartGuide",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:components/style-preview/quick-start-guide.tsx",
+      "target": "function:components/style-preview/quick-start-guide.tsx:QuickStartGuide",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:components/style-preview/quick-start-guide.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/style-preview/quick-start-guide.tsx",
+      "target": "file:lib/styles/style-copy-identity.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

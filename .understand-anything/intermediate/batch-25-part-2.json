@@ -1,0 +1,1209 @@
+{
+  "nodes": [
+    {
+      "id": "file:lib/styles/tokens-registry-data.ts",
+      "type": "file",
+      "name": "tokens-registry-data.ts",
+      "filePath": "lib/styles/tokens-registry-data.ts",
+      "summary": "Aggregation of all style-specific token files, re-exporting them for registration in the style registry.",
+      "tags": [
+        "tokens",
+        "registry",
+        "barrel"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/tropical-paradise-tokens.ts",
+      "type": "file",
+      "name": "tropical-paradise-tokens.ts",
+      "filePath": "lib/styles/tropical-paradise-tokens.ts",
+      "summary": "Design token definitions for the \"Tropical Paradise\" style, extending base tokens with style-specific colors, typography, spacing, and effects.",
+      "tags": [
+        "tokens",
+        "style",
+        "design-tokens",
+        "tropical-paradise"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/ukiyo-e-digital-tokens.ts",
+      "type": "file",
+      "name": "ukiyo-e-digital-tokens.ts",
+      "filePath": "lib/styles/ukiyo-e-digital-tokens.ts",
+      "summary": "Design token definitions for the \"Ukiyo E Digital\" style, extending base tokens with style-specific colors, typography, spacing, and effects.",
+      "tags": [
+        "tokens",
+        "style",
+        "design-tokens",
+        "ukiyo-e-digital"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/vaporwave-tokens.ts",
+      "type": "file",
+      "name": "vaporwave-tokens.ts",
+      "filePath": "lib/styles/vaporwave-tokens.ts",
+      "summary": "Design token definitions for the \"Vaporwave\" style, extending base tokens with style-specific colors, typography, spacing, and effects.",
+      "tags": [
+        "tokens",
+        "style",
+        "design-tokens",
+        "vaporwave"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/vhs-aesthetic-tokens.ts",
+      "type": "file",
+      "name": "vhs-aesthetic-tokens.ts",
+      "filePath": "lib/styles/vhs-aesthetic-tokens.ts",
+      "summary": "Design token definitions for the \"Vhs Aesthetic\" style, extending base tokens with style-specific colors, typography, spacing, and effects.",
+      "tags": [
+        "tokens",
+        "style",
+        "design-tokens",
+        "vhs-aesthetic"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/victorian-botanical-tokens.ts",
+      "type": "file",
+      "name": "victorian-botanical-tokens.ts",
+      "filePath": "lib/styles/victorian-botanical-tokens.ts",
+      "summary": "Design token definitions for the \"Victorian Botanical\" style, extending base tokens with style-specific colors, typography, spacing, and effects.",
+      "tags": [
+        "tokens",
+        "style",
+        "design-tokens",
+        "victorian-botanical"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/visual-novel-tokens.ts",
+      "type": "file",
+      "name": "visual-novel-tokens.ts",
+      "filePath": "lib/styles/visual-novel-tokens.ts",
+      "summary": "Design token definitions for the \"Visual Novel\" style, extending base tokens with style-specific colors, typography, spacing, and effects.",
+      "tags": [
+        "tokens",
+        "style",
+        "design-tokens",
+        "visual-novel"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/wabi-sabi-tokens.ts",
+      "type": "file",
+      "name": "wabi-sabi-tokens.ts",
+      "filePath": "lib/styles/wabi-sabi-tokens.ts",
+      "summary": "Design token definitions for the \"Wabi Sabi\" style, extending base tokens with style-specific colors, typography, spacing, and effects.",
+      "tags": [
+        "tokens",
+        "style",
+        "design-tokens",
+        "wabi-sabi"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/warm-dashboard-tokens.ts",
+      "type": "file",
+      "name": "warm-dashboard-tokens.ts",
+      "filePath": "lib/styles/warm-dashboard-tokens.ts",
+      "summary": "Design token definitions for the \"Warm Dashboard\" style, extending base tokens with style-specific colors, typography, spacing, and effects.",
+      "tags": [
+        "tokens",
+        "style",
+        "design-tokens",
+        "warm-dashboard"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/watercolor-art-tokens.ts",
+      "type": "file",
+      "name": "watercolor-art-tokens.ts",
+      "filePath": "lib/styles/watercolor-art-tokens.ts",
+      "summary": "Design token definitions for the \"Watercolor Art\" style, extending base tokens with style-specific colors, typography, spacing, and effects.",
+      "tags": [
+        "tokens",
+        "style",
+        "design-tokens",
+        "watercolor-art"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/watercolor-style-tokens.ts",
+      "type": "file",
+      "name": "watercolor-style-tokens.ts",
+      "filePath": "lib/styles/watercolor-style-tokens.ts",
+      "summary": "Design token definitions for the \"Watercolor Style\" style, extending base tokens with style-specific colors, typography, spacing, and effects.",
+      "tags": [
+        "tokens",
+        "style",
+        "design-tokens",
+        "watercolor-style"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/witchcore-tokens.ts",
+      "type": "file",
+      "name": "witchcore-tokens.ts",
+      "filePath": "lib/styles/witchcore-tokens.ts",
+      "summary": "Design token definitions for the \"Witchcore\" style, extending base tokens with style-specific colors, typography, spacing, and effects.",
+      "tags": [
+        "tokens",
+        "style",
+        "design-tokens",
+        "witchcore"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/y2k-tokens.ts",
+      "type": "file",
+      "name": "y2k-tokens.ts",
+      "filePath": "lib/styles/y2k-tokens.ts",
+      "summary": "Design token definitions for the \"Y2k\" style, extending base tokens with style-specific colors, typography, spacing, and effects.",
+      "tags": [
+        "tokens",
+        "style",
+        "design-tokens",
+        "y2k"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/z-pattern-layout-tokens.ts",
+      "type": "file",
+      "name": "z-pattern-layout-tokens.ts",
+      "filePath": "lib/styles/z-pattern-layout-tokens.ts",
+      "summary": "Design token definitions for the \"Z Pattern Layout\" style, extending base tokens with style-specific colors, typography, spacing, and effects.",
+      "tags": [
+        "tokens",
+        "style",
+        "design-tokens",
+        "z-pattern-layout"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/zen-garden-tokens.ts",
+      "type": "file",
+      "name": "zen-garden-tokens.ts",
+      "filePath": "lib/styles/zen-garden-tokens.ts",
+      "summary": "Design token definitions for the \"Zen Garden\" style, extending base tokens with style-specific colors, typography, spacing, and effects.",
+      "tags": [
+        "tokens",
+        "style",
+        "design-tokens",
+        "zen-garden"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/acid-graphics-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/african-textile-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/anti-design-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/apple-style-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/arcade-crt-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/art-deco-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/art-nouveau-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/asymmetric-grid-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/bauhaus-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/bento-grid-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/blueprint-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/brutalist-web-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/card-stack-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/cel-shading-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/claymorphism-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/collage-art-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/comic-style-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/constructivism-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/corporate-clean-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/cottagecore-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/cubism-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/cyber-anime-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/cyber-chinese-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/cyber-wafuu-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/cyberpunk-neon-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/dark-academia-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/dark-mode-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/dashboard-layout-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/data-dense-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/dopamine-design-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/editorial-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/f-pattern-layout-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/film-noir-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/fluent-design-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/fresh-market-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/frutiger-aero-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/full-page-scroll-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/generative-art-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/geometric-bold-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/ghibli-style-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/github-style-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/glassmorphism-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/glitch-art-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/gothic-lolita-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/gothic-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/graffiti-street-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/hand-drawn-doodle-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/hero-fullscreen-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/holographic-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/holy-grail-layout-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/impressionist-oil-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/indian-festive-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/ink-wash-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/islamic-geometric-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/japanese-fresh-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/jrpg-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/kawaii-minimal-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/korean-minimal-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/linear-style-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/liquid-glass-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/luxury-retail-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/macos-vibrancy-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/magazine-grid-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/magic-circle-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/marble-luxury-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/masonry-flow-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/material-design-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/maximalism-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/mecha-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/medieval-manuscript-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/memphis-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/mid-century-modern-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/minimalist-flat-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/modern-gradient-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/monochrome-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/natural-organic-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/neo-brutalist-playful-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/neo-brutalist-soft-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/neo-brutalist-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/neon-gradient-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/neon-samurai-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/neon-tokyo-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/neumorphism-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/notion-style-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/op-art-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/outrun-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/paper-craft-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/parallax-sections-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/particle-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/pastel-goth-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/pixel-anime-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/pixel-art-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/pop-art-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/retro-vintage-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/risograph-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/scandinavian-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/sci-fi-hud-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/shopify-clean-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/shoujo-manga-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/sidebar-fixed-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/sketch-style-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/skeuomorphism-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/soft-ui-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/solarpunk-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/split-screen-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/steampunk-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/stripe-style-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/surrealism-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/swiss-poster-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/swiss-style-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/synthwave-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/terracotta-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/timeline-vertical-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/tropical-paradise-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/ukiyo-e-digital-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/vaporwave-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/vhs-aesthetic-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/victorian-botanical-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/visual-novel-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/wabi-sabi-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/warm-dashboard-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/watercolor-art-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/watercolor-style-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/witchcore-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/y2k-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/z-pattern-layout-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tokens-registry-data.ts",
+      "target": "file:lib/styles/zen-garden-tokens.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tropical-paradise-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/ukiyo-e-digital-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/vaporwave-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/vhs-aesthetic-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/victorian-botanical-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/visual-novel-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/wabi-sabi-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/warm-dashboard-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/watercolor-art-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/watercolor-style-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/witchcore-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/y2k-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/z-pattern-layout-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/zen-garden-tokens.ts",
+      "target": "file:lib/styles/token-defaults.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "nodes": [
+    {
+      "id": "file:lib/styles/monochrome.ts",
+      "type": "file",
+      "name": "monochrome.ts",
+      "filePath": "lib/styles/monochrome.ts",
+      "summary": "Defines the Monochrome design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/natural-organic.ts",
+      "type": "file",
+      "name": "natural-organic.ts",
+      "filePath": "lib/styles/natural-organic.ts",
+      "summary": "Defines the Natural Organic design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/neo-brutalist-playful.ts",
+      "type": "file",
+      "name": "neo-brutalist-playful.ts",
+      "filePath": "lib/styles/neo-brutalist-playful.ts",
+      "summary": "Defines the Neo Brutalist Playful design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/neo-brutalist-soft.ts",
+      "type": "file",
+      "name": "neo-brutalist-soft.ts",
+      "filePath": "lib/styles/neo-brutalist-soft.ts",
+      "summary": "Defines the Neo Brutalist Soft design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/neo-brutalist.ts",
+      "type": "file",
+      "name": "neo-brutalist.ts",
+      "filePath": "lib/styles/neo-brutalist.ts",
+      "summary": "Defines the Neo Brutalist design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/neon-gradient.ts",
+      "type": "file",
+      "name": "neon-gradient.ts",
+      "filePath": "lib/styles/neon-gradient.ts",
+      "summary": "Defines the Neon Gradient design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/neon-samurai.ts",
+      "type": "file",
+      "name": "neon-samurai.ts",
+      "filePath": "lib/styles/neon-samurai.ts",
+      "summary": "Defines the Neon Samurai design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/neon-tokyo.ts",
+      "type": "file",
+      "name": "neon-tokyo.ts",
+      "filePath": "lib/styles/neon-tokyo.ts",
+      "summary": "Defines the Neon Tokyo design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/neumorphism.ts",
+      "type": "file",
+      "name": "neumorphism.ts",
+      "filePath": "lib/styles/neumorphism.ts",
+      "summary": "Defines the Neumorphism design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/notion-style.ts",
+      "type": "file",
+      "name": "notion-style.ts",
+      "filePath": "lib/styles/notion-style.ts",
+      "summary": "Defines the Notion Style design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/op-art.ts",
+      "type": "file",
+      "name": "op-art.ts",
+      "filePath": "lib/styles/op-art.ts",
+      "summary": "Defines the Op Art design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/outrun.ts",
+      "type": "file",
+      "name": "outrun.ts",
+      "filePath": "lib/styles/outrun.ts",
+      "summary": "Defines the Outrun design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/paper-craft.ts",
+      "type": "file",
+      "name": "paper-craft.ts",
+      "filePath": "lib/styles/paper-craft.ts",
+      "summary": "Defines the Paper Craft design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/parallax-sections.ts",
+      "type": "file",
+      "name": "parallax-sections.ts",
+      "filePath": "lib/styles/parallax-sections.ts",
+      "summary": "Defines the Parallax Sections design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/particle.ts",
+      "type": "file",
+      "name": "particle.ts",
+      "filePath": "lib/styles/particle.ts",
+      "summary": "Defines the Particle design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:lib/styles/monochrome.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/natural-organic.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/neo-brutalist-playful.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/neo-brutalist-soft.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/neo-brutalist.ts",
+      "target": "file:lib/styles/atoms/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/neo-brutalist.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/neon-gradient.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/neon-samurai.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/neon-tokyo.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/neumorphism.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/notion-style.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/op-art.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/outrun.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/paper-craft.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/parallax-sections.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/particle.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

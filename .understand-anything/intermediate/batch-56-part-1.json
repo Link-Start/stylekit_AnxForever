@@ -1,0 +1,810 @@
+{
+  "nodes": [
+    {
+      "id": "file:app/styles/dashboard-layout/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/dashboard-layout/showcase/_content.tsx",
+      "summary": "Showcase content component for the Dashboard Layout design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/dashboard-layout/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/dashboard-layout/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        31
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/dashboard-layout/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/dashboard-layout/showcase/_content.tsx",
+      "lineRange": [
+        33,
+        56
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/dashboard-layout/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/dashboard-layout/showcase/_content.tsx",
+      "lineRange": [
+        246,
+        1551
+      ],
+      "summary": "Main showcase content component rendering example cards and layout variants for the Styles design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/dashboard-layout/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/dashboard-layout/showcase/page.tsx",
+      "summary": "Showcase page route for the Dashboard Layout design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/data-dense/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/data-dense/showcase/_content.tsx",
+      "summary": "Showcase content component for the Data Dense design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/data-dense/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/data-dense/showcase/_content.tsx",
+      "lineRange": [
+        8,
+        27
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/data-dense/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/data-dense/showcase/_content.tsx",
+      "lineRange": [
+        31,
+        54
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/data-dense/showcase/_content.tsx:DataDenseShowcaseContent",
+      "type": "function",
+      "name": "DataDenseShowcaseContent",
+      "filePath": "app/styles/data-dense/showcase/_content.tsx",
+      "lineRange": [
+        175,
+        597
+      ],
+      "summary": "Function component DataDenseShowcaseContent rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/data-dense/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/data-dense/showcase/page.tsx",
+      "summary": "Showcase page route for the Data Dense design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/dopamine-design/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/dopamine-design/showcase/_content.tsx",
+      "summary": "Showcase content component for the Dopamine Design design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/dopamine-design/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/dopamine-design/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        29
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/dopamine-design/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/dopamine-design/showcase/_content.tsx",
+      "lineRange": [
+        31,
+        54
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/dopamine-design/showcase/_content.tsx:GradientOrb",
+      "type": "function",
+      "name": "GradientOrb",
+      "filePath": "app/styles/dopamine-design/showcase/_content.tsx",
+      "lineRange": [
+        60,
+        90
+      ],
+      "summary": "Function component GradientOrb rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/dopamine-design/showcase/_content.tsx:GeometricDeco",
+      "type": "function",
+      "name": "GeometricDeco",
+      "filePath": "app/styles/dopamine-design/showcase/_content.tsx",
+      "lineRange": [
+        96,
+        153
+      ],
+      "summary": "Function component GeometricDeco rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/styles/dopamine-design/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/dopamine-design/showcase/_content.tsx",
+      "lineRange": [
+        240,
+        786
+      ],
+      "summary": "Main showcase content component rendering example cards and layout variants for the Styles design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/dopamine-design/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/dopamine-design/showcase/page.tsx",
+      "summary": "Showcase page route for the Dopamine Design design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/editorial/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/editorial/showcase/_content.tsx",
+      "summary": "Showcase content component for the Editorial design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/editorial/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/editorial/showcase/_content.tsx",
+      "lineRange": [
+        19,
+        35
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/editorial/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/editorial/showcase/_content.tsx",
+      "lineRange": [
+        37,
+        56
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/editorial/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/editorial/showcase/_content.tsx",
+      "lineRange": [
+        58,
+        405
+      ],
+      "summary": "Main showcase content component rendering example cards and layout variants for the Styles design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/editorial/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/editorial/showcase/page.tsx",
+      "summary": "Showcase page route for the Editorial design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/f-pattern-layout/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/f-pattern-layout/showcase/_content.tsx",
+      "summary": "Showcase content component for the F Pattern Layout design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/f-pattern-layout/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/f-pattern-layout/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        31
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/f-pattern-layout/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/f-pattern-layout/showcase/_content.tsx",
+      "lineRange": [
+        33,
+        56
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/f-pattern-layout/showcase/_content.tsx:FStrokeVisual",
+      "type": "function",
+      "name": "FStrokeVisual",
+      "filePath": "app/styles/f-pattern-layout/showcase/_content.tsx",
+      "lineRange": [
+        195,
+        298
+      ],
+      "summary": "Function component FStrokeVisual rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/styles/f-pattern-layout/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/f-pattern-layout/showcase/_content.tsx",
+      "lineRange": [
+        317,
+        2067
+      ],
+      "summary": "Main showcase content component rendering example cards and layout variants for the Styles design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/f-pattern-layout/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/f-pattern-layout/showcase/page.tsx",
+      "summary": "Showcase page route for the F Pattern Layout design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/film-noir/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/film-noir/showcase/_content.tsx",
+      "summary": "Showcase content component for the Film Noir design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/film-noir/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/film-noir/showcase/_content.tsx",
+      "lineRange": [
+        9,
+        30
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/film-noir/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/film-noir/showcase/_content.tsx",
+      "lineRange": [
+        36,
+        59
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/film-noir/showcase/_content.tsx:SectionHead",
+      "type": "function",
+      "name": "SectionHead",
+      "filePath": "app/styles/film-noir/showcase/_content.tsx",
+      "lineRange": [
+        64,
+        90
+      ],
+      "summary": "Function component SectionHead rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/film-noir/showcase/_content.tsx:FilmNoirShowcaseContent",
+      "type": "function",
+      "name": "FilmNoirShowcaseContent",
+      "filePath": "app/styles/film-noir/showcase/_content.tsx",
+      "lineRange": [
+        240,
+        1687
+      ],
+      "summary": "Function component FilmNoirShowcaseContent rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/film-noir/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/film-noir/showcase/page.tsx",
+      "summary": "Showcase page route for the Film Noir design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/fluent-design/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/fluent-design/showcase/_content.tsx",
+      "summary": "Showcase content component for the Fluent Design design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/fluent-design/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/fluent-design/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        29
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/fluent-design/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/fluent-design/showcase/_content.tsx",
+      "lineRange": [
+        31,
+        54
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/fluent-design/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/fluent-design/showcase/_content.tsx",
+      "lineRange": [
+        251,
+        1432
+      ],
+      "summary": "Main showcase content component rendering example cards and layout variants for the Styles design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:app/styles/dashboard-layout/showcase/_content.tsx",
+      "target": "function:app/styles/dashboard-layout/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/dashboard-layout/showcase/_content.tsx",
+      "target": "function:app/styles/dashboard-layout/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/dashboard-layout/showcase/_content.tsx",
+      "target": "function:app/styles/dashboard-layout/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/dashboard-layout/showcase/_content.tsx",
+      "target": "function:app/styles/dashboard-layout/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/data-dense/showcase/_content.tsx",
+      "target": "function:app/styles/data-dense/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/data-dense/showcase/_content.tsx",
+      "target": "function:app/styles/data-dense/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/data-dense/showcase/_content.tsx",
+      "target": "function:app/styles/data-dense/showcase/_content.tsx:DataDenseShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/data-dense/showcase/_content.tsx",
+      "target": "function:app/styles/data-dense/showcase/_content.tsx:DataDenseShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/dopamine-design/showcase/_content.tsx",
+      "target": "function:app/styles/dopamine-design/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/dopamine-design/showcase/_content.tsx",
+      "target": "function:app/styles/dopamine-design/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/dopamine-design/showcase/_content.tsx",
+      "target": "function:app/styles/dopamine-design/showcase/_content.tsx:GradientOrb",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/dopamine-design/showcase/_content.tsx",
+      "target": "function:app/styles/dopamine-design/showcase/_content.tsx:GeometricDeco",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/dopamine-design/showcase/_content.tsx",
+      "target": "function:app/styles/dopamine-design/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/dopamine-design/showcase/_content.tsx",
+      "target": "function:app/styles/dopamine-design/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/editorial/showcase/_content.tsx",
+      "target": "function:app/styles/editorial/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/editorial/showcase/_content.tsx",
+      "target": "function:app/styles/editorial/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/editorial/showcase/_content.tsx",
+      "target": "function:app/styles/editorial/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/editorial/showcase/_content.tsx",
+      "target": "function:app/styles/editorial/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/f-pattern-layout/showcase/_content.tsx",
+      "target": "function:app/styles/f-pattern-layout/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/f-pattern-layout/showcase/_content.tsx",
+      "target": "function:app/styles/f-pattern-layout/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/f-pattern-layout/showcase/_content.tsx",
+      "target": "function:app/styles/f-pattern-layout/showcase/_content.tsx:FStrokeVisual",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/f-pattern-layout/showcase/_content.tsx",
+      "target": "function:app/styles/f-pattern-layout/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/f-pattern-layout/showcase/_content.tsx",
+      "target": "function:app/styles/f-pattern-layout/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/film-noir/showcase/_content.tsx",
+      "target": "function:app/styles/film-noir/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/film-noir/showcase/_content.tsx",
+      "target": "function:app/styles/film-noir/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/film-noir/showcase/_content.tsx",
+      "target": "function:app/styles/film-noir/showcase/_content.tsx:SectionHead",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/film-noir/showcase/_content.tsx",
+      "target": "function:app/styles/film-noir/showcase/_content.tsx:FilmNoirShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/film-noir/showcase/_content.tsx",
+      "target": "function:app/styles/film-noir/showcase/_content.tsx:FilmNoirShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/fluent-design/showcase/_content.tsx",
+      "target": "function:app/styles/fluent-design/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/fluent-design/showcase/_content.tsx",
+      "target": "function:app/styles/fluent-design/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/fluent-design/showcase/_content.tsx",
+      "target": "function:app/styles/fluent-design/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/fluent-design/showcase/_content.tsx",
+      "target": "function:app/styles/fluent-design/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

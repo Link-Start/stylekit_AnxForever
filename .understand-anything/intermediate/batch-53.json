@@ -1,0 +1,990 @@
+{
+  "nodes": [
+    {
+      "id": "config:.github/actions/lint/action.yml",
+      "type": "config",
+      "name": "action.yml",
+      "filePath": ".github/actions/lint/action.yml",
+      "summary": "GitHub Action definition for running lint checks using setup-node and npm commands.",
+      "tags": [
+        "configuration",
+        "ci-cd",
+        "linting",
+        "github-actions"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:.github/actions/lint/index.js",
+      "type": "file",
+      "name": "index.js",
+      "filePath": ".github/actions/lint/index.js",
+      "summary": "JavaScript implementation for the GitHub lint action, running ESLint and reporting results.",
+      "tags": [
+        "ci-cd",
+        "linting",
+        "javascript",
+        "github-actions"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:.github/actions/lint/index.js:findFiles",
+      "type": "function",
+      "name": "findFiles",
+      "filePath": ".github/actions/lint/index.js",
+      "lineRange": [
+        19,
+        39
+      ],
+      "summary": "Utility function to discover target files for linting within the repository.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:.github/actions/lint/index.js:main",
+      "type": "function",
+      "name": "main",
+      "filePath": ".github/actions/lint/index.js",
+      "lineRange": [
+        41,
+        153
+      ],
+      "summary": "Entry point function for the GitHub Action script.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:.github/actions/stylekit-lint/action.yml",
+      "type": "config",
+      "name": "action.yml",
+      "filePath": ".github/actions/stylekit-lint/action.yml",
+      "summary": "Custom GitHub Action for running StyleKit-specific linting checks on the repository.",
+      "tags": [
+        "configuration",
+        "ci-cd",
+        "linting",
+        "github-actions"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "document:.github/actions/stylekit-lint/README.md",
+      "type": "document",
+      "name": "README.md",
+      "filePath": ".github/actions/stylekit-lint/README.md",
+      "summary": "Main project README providing installation instructions, quick-start guide, feature overview, and links to documentation for the StyleKit design system.",
+      "tags": [
+        "documentation",
+        "overview",
+        "getting-started"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "document:.interface-design/system.md",
+      "type": "document",
+      "name": "system.md",
+      "filePath": ".interface-design/system.md",
+      "summary": "Interface design system guide covering component patterns, layout conventions, and visual design principles.",
+      "tags": [
+        "documentation",
+        "interface-design",
+        "system"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:.understand-anything/.understandignore",
+      "type": "file",
+      "name": ".understandignore",
+      "filePath": ".understand-anything/.understandignore",
+      "summary": "Ignore rules file for the Understand-Anything analysis tool, listing paths to exclude from code scanning.",
+      "tags": [
+        "configuration",
+        "analysis",
+        "ignore-rules"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "config:.understand-anything/config.json",
+      "type": "config",
+      "name": "config.json",
+      "filePath": ".understand-anything/config.json",
+      "summary": "Configuration for the Understand-Anything analysis tool, defining project scanning parameters.",
+      "tags": [
+        "configuration",
+        "analysis",
+        "code-understanding"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/about/layout.tsx",
+      "type": "file",
+      "name": "layout.tsx",
+      "filePath": "app/about/layout.tsx",
+      "summary": "Layout component for the about route segment defining the page structure and shared UI elements.",
+      "tags": [
+        "layout",
+        "react-component",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/animations/[slug]/loading.tsx",
+      "type": "file",
+      "name": "loading.tsx",
+      "filePath": "app/animations/[slug]/loading.tsx",
+      "summary": "Loading UI component for the animations-[slug] route showing skeleton or spinner during page transitions.",
+      "tags": [
+        "loading",
+        "ui-component",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/animations/[slug]/loading.tsx:AnimationDetailLoading",
+      "type": "function",
+      "name": "AnimationDetailLoading",
+      "filePath": "app/animations/[slug]/loading.tsx",
+      "lineRange": [
+        1,
+        27
+      ],
+      "summary": "Loading skeleton component for the animation detail page.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/animations/loading.tsx",
+      "type": "file",
+      "name": "loading.tsx",
+      "filePath": "app/animations/loading.tsx",
+      "summary": "Loading UI component for the animations route showing skeleton or spinner during page transitions.",
+      "tags": [
+        "loading",
+        "ui-component",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/animations/loading.tsx:AnimationsLoading",
+      "type": "function",
+      "name": "AnimationsLoading",
+      "filePath": "app/animations/loading.tsx",
+      "lineRange": [
+        1,
+        43
+      ],
+      "summary": "Loading skeleton component for the animations listing page.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/api/github-stars/route.ts",
+      "type": "file",
+      "name": "route.ts",
+      "filePath": "app/api/github-stars/route.ts",
+      "summary": "API route handler for github-stars, implementing HTTP endpoints for external data access.",
+      "tags": [
+        "api-handler",
+        "route",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/api/github-stars/route.ts:GET",
+      "type": "function",
+      "name": "GET",
+      "filePath": "app/api/github-stars/route.ts",
+      "lineRange": [
+        7,
+        29
+      ],
+      "summary": "HTTP GET request handler for this API route.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/api/health/route.ts",
+      "type": "file",
+      "name": "route.ts",
+      "filePath": "app/api/health/route.ts",
+      "summary": "API route handler for health, implementing HTTP endpoints for external data access.",
+      "tags": [
+        "api-handler",
+        "route",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/api/health/route.ts:GET",
+      "type": "function",
+      "name": "GET",
+      "filePath": "app/api/health/route.ts",
+      "lineRange": [
+        10,
+        22
+      ],
+      "summary": "HTTP GET request handler for this API route.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/api/templates/[slug]/source/route.ts",
+      "type": "file",
+      "name": "route.ts",
+      "filePath": "app/api/templates/[slug]/source/route.ts",
+      "summary": "API route handler for templates-[slug]-source, implementing HTTP endpoints for external data access.",
+      "tags": [
+        "api-handler",
+        "route",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/api/templates/[slug]/source/route.ts:GET",
+      "type": "function",
+      "name": "GET",
+      "filePath": "app/api/templates/[slug]/source/route.ts",
+      "lineRange": [
+        7,
+        36
+      ],
+      "summary": "HTTP GET request handler for this API route.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/api/ui-plan/schema/route.ts",
+      "type": "file",
+      "name": "route.ts",
+      "filePath": "app/api/ui-plan/schema/route.ts",
+      "summary": "API route handler for ui-plan-schema, implementing HTTP endpoints for external data access.",
+      "tags": [
+        "api-handler",
+        "route",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/components/layout.tsx",
+      "type": "file",
+      "name": "layout.tsx",
+      "filePath": "app/components/layout.tsx",
+      "summary": "Layout component for the components route segment defining the page structure and shared UI elements.",
+      "tags": [
+        "layout",
+        "react-component",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/docs/layout.tsx",
+      "type": "file",
+      "name": "layout.tsx",
+      "filePath": "app/docs/layout.tsx",
+      "summary": "Layout component for the docs route segment defining the page structure and shared UI elements.",
+      "tags": [
+        "layout",
+        "react-component",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/global-error.tsx",
+      "type": "file",
+      "name": "global-error.tsx",
+      "filePath": "app/global-error.tsx",
+      "summary": "Global error boundary component rendering a full-page fallback UI when unhandled errors occur.",
+      "tags": [
+        "error-handling",
+        "boundary",
+        "react-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/global-error.tsx:GlobalError",
+      "type": "function",
+      "name": "GlobalError",
+      "filePath": "app/global-error.tsx",
+      "lineRange": [
+        6,
+        64
+      ],
+      "summary": "Global error boundary component that catches unhandled errors and displays a fallback UI.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/globals.css",
+      "type": "file",
+      "name": "globals.css",
+      "filePath": "app/globals.css",
+      "summary": "Global CSS stylesheet defining Tailwind CSS imports, CSS custom properties, base styles, and utility classes.",
+      "tags": [
+        "stylesheet",
+        "global-styles",
+        "tailwind-css"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/guide/layout.tsx",
+      "type": "file",
+      "name": "layout.tsx",
+      "filePath": "app/guide/layout.tsx",
+      "summary": "Layout component for the guide route segment defining the page structure and shared UI elements.",
+      "tags": [
+        "layout",
+        "react-component",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/opengraph-image.tsx",
+      "type": "file",
+      "name": "opengraph-image.tsx",
+      "filePath": "app/opengraph-image.tsx",
+      "summary": "Dynamic Open Graph image generation component for social media preview cards.",
+      "tags": [
+        "og-image",
+        "social-media",
+        "generation"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "function:app/opengraph-image.tsx:OGImage",
+      "type": "function",
+      "name": "OGImage",
+      "filePath": "app/opengraph-image.tsx",
+      "lineRange": [
+        7,
+        113
+      ],
+      "summary": "Open Graph image component that generates dynamic social media preview images.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/preview/layout.tsx",
+      "type": "file",
+      "name": "layout.tsx",
+      "filePath": "app/preview/layout.tsx",
+      "summary": "Layout component for the preview route segment defining the page structure and shared UI elements.",
+      "tags": [
+        "layout",
+        "react-component",
+        "typescript"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/acid-graphics/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/acid-graphics/showcase/_content.tsx",
+      "summary": "Showcase content component for the Acid Graphics design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/acid-graphics/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/acid-graphics/showcase/_content.tsx",
+      "lineRange": [
+        54,
+        75
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/acid-graphics/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/acid-graphics/showcase/_content.tsx",
+      "lineRange": [
+        77,
+        100
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/acid-graphics/showcase/_content.tsx:NeonLabel",
+      "type": "function",
+      "name": "NeonLabel",
+      "filePath": "app/styles/acid-graphics/showcase/_content.tsx",
+      "lineRange": [
+        106,
+        121
+      ],
+      "summary": "Function component NeonLabel rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/acid-graphics/showcase/_content.tsx:GlitchDot",
+      "type": "function",
+      "name": "GlitchDot",
+      "filePath": "app/styles/acid-graphics/showcase/_content.tsx",
+      "lineRange": [
+        123,
+        153
+      ],
+      "summary": "Function component GlitchDot rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/acid-graphics/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/acid-graphics/showcase/_content.tsx",
+      "lineRange": [
+        159,
+        1717
+      ],
+      "summary": "Main showcase content component rendering example cards and layout variants for the Styles design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/acid-graphics/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/acid-graphics/showcase/page.tsx",
+      "summary": "Showcase page route for the Acid Graphics design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/african-textile/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/african-textile/showcase/_content.tsx",
+      "summary": "Showcase content component for the African Textile design style, rendering multiple example cards and layout variations to demonstrate visual characteristics.",
+      "tags": [
+        "component",
+        "showcase",
+        "design-style",
+        "typescript",
+        "large-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "function:app/styles/african-textile/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/african-textile/showcase/_content.tsx",
+      "lineRange": [
+        6,
+        25
+      ],
+      "summary": "Custom hook for detecting when elements enter the viewport using IntersectionObserver.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/african-textile/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/african-textile/showcase/_content.tsx",
+      "lineRange": [
+        27,
+        50
+      ],
+      "summary": "Animated wrapper component that reveals its children with scroll-triggered animations.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/african-textile/showcase/_content.tsx:KenteStripe",
+      "type": "function",
+      "name": "KenteStripe",
+      "filePath": "app/styles/african-textile/showcase/_content.tsx",
+      "lineRange": [
+        54,
+        71
+      ],
+      "summary": "Function component KenteStripe rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/african-textile/showcase/_content.tsx:ZigzagPattern",
+      "type": "function",
+      "name": "ZigzagPattern",
+      "filePath": "app/styles/african-textile/showcase/_content.tsx",
+      "lineRange": [
+        73,
+        102
+      ],
+      "summary": "Function component ZigzagPattern rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/african-textile/showcase/_content.tsx:DiamondPattern",
+      "type": "function",
+      "name": "DiamondPattern",
+      "filePath": "app/styles/african-textile/showcase/_content.tsx",
+      "lineRange": [
+        104,
+        140
+      ],
+      "summary": "Function component DiamondPattern rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/african-textile/showcase/_content.tsx:CrossStitchPattern",
+      "type": "function",
+      "name": "CrossStitchPattern",
+      "filePath": "app/styles/african-textile/showcase/_content.tsx",
+      "lineRange": [
+        142,
+        167
+      ],
+      "summary": "Function component CrossStitchPattern rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/african-textile/showcase/_content.tsx:ChevronPattern",
+      "type": "function",
+      "name": "ChevronPattern",
+      "filePath": "app/styles/african-textile/showcase/_content.tsx",
+      "lineRange": [
+        169,
+        183
+      ],
+      "summary": "Function component ChevronPattern rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/african-textile/showcase/_content.tsx:WeaveGridPattern",
+      "type": "function",
+      "name": "WeaveGridPattern",
+      "filePath": "app/styles/african-textile/showcase/_content.tsx",
+      "lineRange": [
+        185,
+        214
+      ],
+      "summary": "Function component WeaveGridPattern rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/african-textile/showcase/_content.tsx:TrianglePattern",
+      "type": "function",
+      "name": "TrianglePattern",
+      "filePath": "app/styles/african-textile/showcase/_content.tsx",
+      "lineRange": [
+        216,
+        239
+      ],
+      "summary": "Function component TrianglePattern rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/african-textile/showcase/_content.tsx:AdinkraSymbol",
+      "type": "function",
+      "name": "AdinkraSymbol",
+      "filePath": "app/styles/african-textile/showcase/_content.tsx",
+      "lineRange": [
+        242,
+        259
+      ],
+      "summary": "Function component AdinkraSymbol rendering UI elements for the showcase module.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/african-textile/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/african-textile/showcase/_content.tsx",
+      "lineRange": [
+        262,
+        1813
+      ],
+      "summary": "Main showcase content component rendering example cards and layout variants for the Styles design style.",
+      "tags": [
+        "function",
+        "helper"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/african-textile/showcase/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/styles/african-textile/showcase/page.tsx",
+      "summary": "Showcase page route for the African Textile design style, wrapping the content component with layout and styling.",
+      "tags": [
+        "page",
+        "showcase",
+        "design-style"
+      ],
+      "complexity": "simple"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:.github/actions/lint/index.js",
+      "target": "function:.github/actions/lint/index.js:findFiles",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:.github/actions/lint/index.js",
+      "target": "function:.github/actions/lint/index.js:main",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "document:.github/actions/stylekit-lint/README.md",
+      "target": "file:src/lib/styles/index.ts",
+      "type": "documents",
+      "direction": "forward",
+      "weight": 0.5
+    },
+    {
+      "source": "file:app/animations/[slug]/loading.tsx",
+      "target": "function:app/animations/[slug]/loading.tsx:AnimationDetailLoading",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/animations/[slug]/loading.tsx",
+      "target": "function:app/animations/[slug]/loading.tsx:AnimationDetailLoading",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/animations/loading.tsx",
+      "target": "function:app/animations/loading.tsx:AnimationsLoading",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/animations/loading.tsx",
+      "target": "function:app/animations/loading.tsx:AnimationsLoading",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/api/github-stars/route.ts",
+      "target": "function:app/api/github-stars/route.ts:GET",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/api/github-stars/route.ts",
+      "target": "function:app/api/github-stars/route.ts:GET",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/api/health/route.ts",
+      "target": "function:app/api/health/route.ts:GET",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/api/health/route.ts",
+      "target": "function:app/api/health/route.ts:GET",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/api/templates/[slug]/source/route.ts",
+      "target": "function:app/api/templates/[slug]/source/route.ts:GET",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/api/templates/[slug]/source/route.ts",
+      "target": "function:app/api/templates/[slug]/source/route.ts:GET",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/api/ui-plan/schema/route.ts",
+      "target": "file:lib/schema/json-schema.json",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/global-error.tsx",
+      "target": "function:app/global-error.tsx:GlobalError",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/global-error.tsx",
+      "target": "function:app/global-error.tsx:GlobalError",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/opengraph-image.tsx",
+      "target": "function:app/opengraph-image.tsx:OGImage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/opengraph-image.tsx",
+      "target": "function:app/opengraph-image.tsx:OGImage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/acid-graphics/showcase/_content.tsx",
+      "target": "function:app/styles/acid-graphics/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/acid-graphics/showcase/_content.tsx",
+      "target": "function:app/styles/acid-graphics/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/acid-graphics/showcase/_content.tsx",
+      "target": "function:app/styles/acid-graphics/showcase/_content.tsx:NeonLabel",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/acid-graphics/showcase/_content.tsx",
+      "target": "function:app/styles/acid-graphics/showcase/_content.tsx:GlitchDot",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/acid-graphics/showcase/_content.tsx",
+      "target": "function:app/styles/acid-graphics/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/acid-graphics/showcase/_content.tsx",
+      "target": "function:app/styles/acid-graphics/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/african-textile/showcase/_content.tsx",
+      "target": "function:app/styles/african-textile/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/african-textile/showcase/_content.tsx",
+      "target": "function:app/styles/african-textile/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/african-textile/showcase/_content.tsx",
+      "target": "function:app/styles/african-textile/showcase/_content.tsx:KenteStripe",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/african-textile/showcase/_content.tsx",
+      "target": "function:app/styles/african-textile/showcase/_content.tsx:ZigzagPattern",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/african-textile/showcase/_content.tsx",
+      "target": "function:app/styles/african-textile/showcase/_content.tsx:DiamondPattern",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/african-textile/showcase/_content.tsx",
+      "target": "function:app/styles/african-textile/showcase/_content.tsx:CrossStitchPattern",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/african-textile/showcase/_content.tsx",
+      "target": "function:app/styles/african-textile/showcase/_content.tsx:ChevronPattern",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/african-textile/showcase/_content.tsx",
+      "target": "function:app/styles/african-textile/showcase/_content.tsx:WeaveGridPattern",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/african-textile/showcase/_content.tsx",
+      "target": "function:app/styles/african-textile/showcase/_content.tsx:TrianglePattern",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/african-textile/showcase/_content.tsx",
+      "target": "function:app/styles/african-textile/showcase/_content.tsx:AdinkraSymbol",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/african-textile/showcase/_content.tsx",
+      "target": "function:app/styles/african-textile/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/african-textile/showcase/_content.tsx",
+      "target": "function:app/styles/african-textile/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

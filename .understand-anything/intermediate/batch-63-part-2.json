@@ -1,0 +1,1152 @@
+{
+  "nodes": [
+    {
+      "id": "function:app/styles/warm-dashboard/showcase/page.tsx:WarmDashboardShowcase",
+      "type": "function",
+      "name": "WarmDashboardShowcase",
+      "filePath": "app/styles/warm-dashboard/showcase/page.tsx",
+      "lineRange": [
+        9,
+        11
+      ],
+      "summary": "Next.js page component rendering the Warm Dashboard showcase.",
+      "tags": [
+        "page",
+        "showcase"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/warm-dashboard/showcase/page.tsx",
+      "type": "file",
+      "name": "WarmDashboardShowcase",
+      "filePath": "app/styles/warm-dashboard/showcase/page.tsx",
+      "summary": "Next.js page route for the Warm Dashboard showcase, loading the content component with static generation and metadata.",
+      "tags": [
+        "showcase",
+        "page",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/watercolor-art/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/watercolor-art/showcase/_content.tsx",
+      "lineRange": [
+        79,
+        97
+      ],
+      "summary": "React component rendering a section of the Watercolor Art showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/watercolor-art/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/watercolor-art/showcase/_content.tsx",
+      "lineRange": [
+        99,
+        122
+      ],
+      "summary": "React component rendering a section of the Watercolor Art showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/watercolor-art/showcase/_content.tsx:ColorOrb",
+      "type": "function",
+      "name": "ColorOrb",
+      "filePath": "app/styles/watercolor-art/showcase/_content.tsx",
+      "lineRange": [
+        128,
+        146
+      ],
+      "summary": "React component rendering a section of the Watercolor Art showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/watercolor-art/showcase/_content.tsx:WashBackground",
+      "type": "function",
+      "name": "WashBackground",
+      "filePath": "app/styles/watercolor-art/showcase/_content.tsx",
+      "lineRange": [
+        164,
+        177
+      ],
+      "summary": "React component rendering a section of the Watercolor Art showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/watercolor-art/showcase/_content.tsx:BotanicalLeaf",
+      "type": "function",
+      "name": "BotanicalLeaf",
+      "filePath": "app/styles/watercolor-art/showcase/_content.tsx",
+      "lineRange": [
+        179,
+        214
+      ],
+      "summary": "React component rendering a section of the Watercolor Art showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/watercolor-art/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/watercolor-art/showcase/_content.tsx",
+      "lineRange": [
+        220,
+        1069
+      ],
+      "summary": "React component rendering a section of the Watercolor Art showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/watercolor-art/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/watercolor-art/showcase/_content.tsx",
+      "summary": "Interactive showcase page for the Watercolor Art design style, rendering inline SVG decorations, theme-specific UI components, and a full-page demo layout with animated reveal effects.",
+      "tags": [
+        "showcase",
+        "style-preview",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Large React client component (~1069 lines) with inline SVG motifs and IntersectionObserver-driven scroll animations."
+    },
+    {
+      "id": "function:app/styles/watercolor-art/showcase/page.tsx:Page",
+      "type": "function",
+      "name": "Page",
+      "filePath": "app/styles/watercolor-art/showcase/page.tsx",
+      "lineRange": [
+        14,
+        16
+      ],
+      "summary": "Next.js page component rendering the Watercolor Art showcase.",
+      "tags": [
+        "page",
+        "showcase"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/watercolor-art/showcase/page.tsx",
+      "type": "file",
+      "name": "Page",
+      "filePath": "app/styles/watercolor-art/showcase/page.tsx",
+      "summary": "Next.js page route for the Watercolor Art showcase, loading the content component with static generation and metadata.",
+      "tags": [
+        "showcase",
+        "page",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/watercolor-style/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/watercolor-style/showcase/_content.tsx",
+      "lineRange": [
+        118,
+        132
+      ],
+      "summary": "React component rendering a section of the Watercolor Style showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/watercolor-style/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/watercolor-style/showcase/_content.tsx",
+      "lineRange": [
+        136,
+        155
+      ],
+      "summary": "React component rendering a section of the Watercolor Style showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/watercolor-style/showcase/_content.tsx:WatercolorStyleShowcase",
+      "type": "function",
+      "name": "WatercolorStyleShowcase",
+      "filePath": "app/styles/watercolor-style/showcase/_content.tsx",
+      "lineRange": [
+        159,
+        1369
+      ],
+      "summary": "React component rendering a section of the Watercolor Style showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/watercolor-style/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/watercolor-style/showcase/_content.tsx",
+      "summary": "Interactive showcase page for the Watercolor Style design style, rendering inline SVG decorations, theme-specific UI components, and a full-page demo layout with animated reveal effects.",
+      "tags": [
+        "showcase",
+        "style-preview",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Large React client component (~1369 lines) with inline SVG motifs and IntersectionObserver-driven scroll animations."
+    },
+    {
+      "id": "function:app/styles/watercolor-style/showcase/page.tsx:WatercolorStyleShowcasePage",
+      "type": "function",
+      "name": "WatercolorStyleShowcasePage",
+      "filePath": "app/styles/watercolor-style/showcase/page.tsx",
+      "lineRange": [
+        14,
+        16
+      ],
+      "summary": "Next.js page component rendering the Watercolor Style showcase.",
+      "tags": [
+        "page",
+        "showcase"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/watercolor-style/showcase/page.tsx",
+      "type": "file",
+      "name": "WatercolorStyleShowcasePage",
+      "filePath": "app/styles/watercolor-style/showcase/page.tsx",
+      "summary": "Next.js page route for the Watercolor Style showcase, loading the content component with static generation and metadata.",
+      "tags": [
+        "showcase",
+        "page",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/witchcore/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/witchcore/showcase/_content.tsx",
+      "lineRange": [
+        173,
+        192
+      ],
+      "summary": "React component rendering a section of the Witchcore showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/witchcore/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/witchcore/showcase/_content.tsx",
+      "lineRange": [
+        194,
+        217
+      ],
+      "summary": "React component rendering a section of the Witchcore showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/witchcore/showcase/_content.tsx:MoonSVG",
+      "type": "function",
+      "name": "MoonSVG",
+      "filePath": "app/styles/witchcore/showcase/_content.tsx",
+      "lineRange": [
+        223,
+        239
+      ],
+      "summary": "React component rendering a section of the Witchcore showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/witchcore/showcase/_content.tsx:StarSVG",
+      "type": "function",
+      "name": "StarSVG",
+      "filePath": "app/styles/witchcore/showcase/_content.tsx",
+      "lineRange": [
+        241,
+        257
+      ],
+      "summary": "React component rendering a section of the Witchcore showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/witchcore/showcase/_content.tsx:PentagramSVG",
+      "type": "function",
+      "name": "PentagramSVG",
+      "filePath": "app/styles/witchcore/showcase/_content.tsx",
+      "lineRange": [
+        259,
+        278
+      ],
+      "summary": "React component rendering a section of the Witchcore showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/witchcore/showcase/_content.tsx:EyeSVG",
+      "type": "function",
+      "name": "EyeSVG",
+      "filePath": "app/styles/witchcore/showcase/_content.tsx",
+      "lineRange": [
+        280,
+        300
+      ],
+      "summary": "React component rendering a section of the Witchcore showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/witchcore/showcase/_content.tsx:RuneDivider",
+      "type": "function",
+      "name": "RuneDivider",
+      "filePath": "app/styles/witchcore/showcase/_content.tsx",
+      "lineRange": [
+        302,
+        317
+      ],
+      "summary": "React component rendering a section of the Witchcore showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/witchcore/showcase/_content.tsx:ShowcaseContent",
+      "type": "function",
+      "name": "ShowcaseContent",
+      "filePath": "app/styles/witchcore/showcase/_content.tsx",
+      "lineRange": [
+        323,
+        1484
+      ],
+      "summary": "React component rendering a section of the Witchcore showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/witchcore/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/witchcore/showcase/_content.tsx",
+      "summary": "Interactive showcase page for the Witchcore design style, rendering inline SVG decorations, theme-specific UI components, and a full-page demo layout with animated reveal effects.",
+      "tags": [
+        "showcase",
+        "style-preview",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Large React client component (~1484 lines) with inline SVG motifs and IntersectionObserver-driven scroll animations."
+    },
+    {
+      "id": "function:app/styles/witchcore/showcase/page.tsx:Page",
+      "type": "function",
+      "name": "Page",
+      "filePath": "app/styles/witchcore/showcase/page.tsx",
+      "lineRange": [
+        14,
+        16
+      ],
+      "summary": "Next.js page component rendering the Witchcore showcase.",
+      "tags": [
+        "page",
+        "showcase"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/witchcore/showcase/page.tsx",
+      "type": "file",
+      "name": "Page",
+      "filePath": "app/styles/witchcore/showcase/page.tsx",
+      "summary": "Next.js page route for the Witchcore showcase, loading the content component with static generation and metadata.",
+      "tags": [
+        "showcase",
+        "page",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/y2k/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/y2k/showcase/_content.tsx",
+      "lineRange": [
+        6,
+        25
+      ],
+      "summary": "React component rendering a section of the Y2K showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/y2k/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/y2k/showcase/_content.tsx",
+      "lineRange": [
+        27,
+        50
+      ],
+      "summary": "React component rendering a section of the Y2K showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/y2k/showcase/_content.tsx:Y2KShowcase",
+      "type": "function",
+      "name": "Y2KShowcase",
+      "filePath": "app/styles/y2k/showcase/_content.tsx",
+      "lineRange": [
+        52,
+        1675
+      ],
+      "summary": "React component rendering a section of the Y2K showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/y2k/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/y2k/showcase/_content.tsx",
+      "summary": "Interactive showcase page for the Y2K design style, rendering inline SVG decorations, theme-specific UI components, and a full-page demo layout with animated reveal effects.",
+      "tags": [
+        "showcase",
+        "style-preview",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Large React client component (~1675 lines) with inline SVG motifs and IntersectionObserver-driven scroll animations."
+    },
+    {
+      "id": "function:app/styles/y2k/showcase/page.tsx:Y2KShowcasePage",
+      "type": "function",
+      "name": "Y2KShowcasePage",
+      "filePath": "app/styles/y2k/showcase/page.tsx",
+      "lineRange": [
+        14,
+        16
+      ],
+      "summary": "Next.js page component rendering the Y2K showcase.",
+      "tags": [
+        "page",
+        "showcase"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/y2k/showcase/page.tsx",
+      "type": "file",
+      "name": "Y2KShowcasePage",
+      "filePath": "app/styles/y2k/showcase/page.tsx",
+      "summary": "Next.js page route for the Y2K showcase, loading the content component with static generation and metadata.",
+      "tags": [
+        "showcase",
+        "page",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/z-pattern-layout/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/z-pattern-layout/showcase/_content.tsx",
+      "lineRange": [
+        8,
+        27
+      ],
+      "summary": "React component rendering a section of the Z Pattern Layout showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/z-pattern-layout/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/z-pattern-layout/showcase/_content.tsx",
+      "lineRange": [
+        29,
+        52
+      ],
+      "summary": "React component rendering a section of the Z Pattern Layout showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/z-pattern-layout/showcase/_content.tsx:ZPatternLayoutShowcase",
+      "type": "function",
+      "name": "ZPatternLayoutShowcase",
+      "filePath": "app/styles/z-pattern-layout/showcase/_content.tsx",
+      "lineRange": [
+        137,
+        1800
+      ],
+      "summary": "React component rendering a section of the Z Pattern Layout showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/z-pattern-layout/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/z-pattern-layout/showcase/_content.tsx",
+      "summary": "Interactive showcase page for the Z Pattern Layout design style, rendering inline SVG decorations, theme-specific UI components, and a full-page demo layout with animated reveal effects.",
+      "tags": [
+        "showcase",
+        "style-preview",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Large React client component (~1800 lines) with inline SVG motifs and IntersectionObserver-driven scroll animations."
+    },
+    {
+      "id": "function:app/styles/z-pattern-layout/showcase/page.tsx:ZPatternLayoutShowcasePage",
+      "type": "function",
+      "name": "ZPatternLayoutShowcasePage",
+      "filePath": "app/styles/z-pattern-layout/showcase/page.tsx",
+      "lineRange": [
+        14,
+        16
+      ],
+      "summary": "Next.js page component rendering the Z Pattern Layout showcase.",
+      "tags": [
+        "page",
+        "showcase"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:app/styles/z-pattern-layout/showcase/page.tsx",
+      "type": "file",
+      "name": "ZPatternLayoutShowcasePage",
+      "filePath": "app/styles/z-pattern-layout/showcase/page.tsx",
+      "summary": "Next.js page route for the Z Pattern Layout showcase, loading the content component with static generation and metadata.",
+      "tags": [
+        "showcase",
+        "page",
+        "route"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/zen-garden/showcase/_content.tsx:useInView",
+      "type": "function",
+      "name": "useInView",
+      "filePath": "app/styles/zen-garden/showcase/_content.tsx",
+      "lineRange": [
+        10,
+        31
+      ],
+      "summary": "React component rendering a section of the Zen Garden showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/zen-garden/showcase/_content.tsx:RevealBlock",
+      "type": "function",
+      "name": "RevealBlock",
+      "filePath": "app/styles/zen-garden/showcase/_content.tsx",
+      "lineRange": [
+        33,
+        56
+      ],
+      "summary": "React component rendering a section of the Zen Garden showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/zen-garden/showcase/_content.tsx:RakedSandTextureSVG",
+      "type": "function",
+      "name": "RakedSandTextureSVG",
+      "filePath": "app/styles/zen-garden/showcase/_content.tsx",
+      "lineRange": [
+        62,
+        88
+      ],
+      "summary": "React component rendering a section of the Zen Garden showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/zen-garden/showcase/_content.tsx:ConcentricCirclesSVG",
+      "type": "function",
+      "name": "ConcentricCirclesSVG",
+      "filePath": "app/styles/zen-garden/showcase/_content.tsx",
+      "lineRange": [
+        90,
+        126
+      ],
+      "summary": "React component rendering a section of the Zen Garden showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/zen-garden/showcase/_content.tsx:ParallelLinesSVG",
+      "type": "function",
+      "name": "ParallelLinesSVG",
+      "filePath": "app/styles/zen-garden/showcase/_content.tsx",
+      "lineRange": [
+        128,
+        155
+      ],
+      "summary": "React component rendering a section of the Zen Garden showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/zen-garden/showcase/_content.tsx:FlowingCurvesSVG",
+      "type": "function",
+      "name": "FlowingCurvesSVG",
+      "filePath": "app/styles/zen-garden/showcase/_content.tsx",
+      "lineRange": [
+        157,
+        185
+      ],
+      "summary": "React component rendering a section of the Zen Garden showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "function:app/styles/zen-garden/showcase/_content.tsx:ZenGardenShowcase",
+      "type": "function",
+      "name": "ZenGardenShowcase",
+      "filePath": "app/styles/zen-garden/showcase/_content.tsx",
+      "lineRange": [
+        306,
+        2031
+      ],
+      "summary": "React component rendering a section of the Zen Garden showcase.",
+      "tags": [
+        "component",
+        "showcase",
+        "react"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:app/styles/zen-garden/showcase/_content.tsx",
+      "type": "file",
+      "name": "_content.tsx",
+      "filePath": "app/styles/zen-garden/showcase/_content.tsx",
+      "summary": "Interactive showcase page for the Zen Garden design style, rendering inline SVG decorations, theme-specific UI components, and a full-page demo layout with animated reveal effects.",
+      "tags": [
+        "showcase",
+        "style-preview",
+        "component"
+      ],
+      "complexity": "complex",
+      "languageNotes": "Large React client component (~2031 lines) with inline SVG motifs and IntersectionObserver-driven scroll animations."
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:app/styles/warm-dashboard/showcase/page.tsx",
+      "target": "function:app/styles/warm-dashboard/showcase/page.tsx:WarmDashboardShowcase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/warm-dashboard/showcase/page.tsx",
+      "target": "function:app/styles/warm-dashboard/showcase/page.tsx:WarmDashboardShowcase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/warm-dashboard/showcase/page.tsx",
+      "target": "file:app/styles/warm-dashboard/showcase/_content.tsx",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:app/styles/watercolor-art/showcase/_content.tsx",
+      "target": "function:app/styles/watercolor-art/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/watercolor-art/showcase/_content.tsx",
+      "target": "function:app/styles/watercolor-art/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/watercolor-art/showcase/_content.tsx",
+      "target": "function:app/styles/watercolor-art/showcase/_content.tsx:ColorOrb",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/watercolor-art/showcase/_content.tsx",
+      "target": "function:app/styles/watercolor-art/showcase/_content.tsx:WashBackground",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/watercolor-art/showcase/_content.tsx",
+      "target": "function:app/styles/watercolor-art/showcase/_content.tsx:BotanicalLeaf",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/watercolor-art/showcase/_content.tsx",
+      "target": "function:app/styles/watercolor-art/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/watercolor-art/showcase/_content.tsx",
+      "target": "function:app/styles/watercolor-art/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/watercolor-art/showcase/page.tsx",
+      "target": "function:app/styles/watercolor-art/showcase/page.tsx:Page",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/watercolor-art/showcase/page.tsx",
+      "target": "function:app/styles/watercolor-art/showcase/page.tsx:Page",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/watercolor-art/showcase/page.tsx",
+      "target": "file:app/styles/watercolor-art/showcase/_content.tsx",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:app/styles/watercolor-style/showcase/_content.tsx",
+      "target": "function:app/styles/watercolor-style/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/watercolor-style/showcase/_content.tsx",
+      "target": "function:app/styles/watercolor-style/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/watercolor-style/showcase/_content.tsx",
+      "target": "function:app/styles/watercolor-style/showcase/_content.tsx:WatercolorStyleShowcase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/watercolor-style/showcase/_content.tsx",
+      "target": "function:app/styles/watercolor-style/showcase/_content.tsx:WatercolorStyleShowcase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/watercolor-style/showcase/page.tsx",
+      "target": "function:app/styles/watercolor-style/showcase/page.tsx:WatercolorStyleShowcasePage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/watercolor-style/showcase/page.tsx",
+      "target": "function:app/styles/watercolor-style/showcase/page.tsx:WatercolorStyleShowcasePage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/watercolor-style/showcase/page.tsx",
+      "target": "file:app/styles/watercolor-style/showcase/_content.tsx",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:app/styles/witchcore/showcase/_content.tsx",
+      "target": "function:app/styles/witchcore/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/witchcore/showcase/_content.tsx",
+      "target": "function:app/styles/witchcore/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/witchcore/showcase/_content.tsx",
+      "target": "function:app/styles/witchcore/showcase/_content.tsx:MoonSVG",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/witchcore/showcase/_content.tsx",
+      "target": "function:app/styles/witchcore/showcase/_content.tsx:StarSVG",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/witchcore/showcase/_content.tsx",
+      "target": "function:app/styles/witchcore/showcase/_content.tsx:PentagramSVG",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/witchcore/showcase/_content.tsx",
+      "target": "function:app/styles/witchcore/showcase/_content.tsx:EyeSVG",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/witchcore/showcase/_content.tsx",
+      "target": "function:app/styles/witchcore/showcase/_content.tsx:RuneDivider",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/witchcore/showcase/_content.tsx",
+      "target": "function:app/styles/witchcore/showcase/_content.tsx:ShowcaseContent",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/witchcore/showcase/_content.tsx",
+      "target": "function:app/styles/witchcore/showcase/_content.tsx:ShowcaseContent",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/witchcore/showcase/page.tsx",
+      "target": "function:app/styles/witchcore/showcase/page.tsx:Page",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/witchcore/showcase/page.tsx",
+      "target": "function:app/styles/witchcore/showcase/page.tsx:Page",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/witchcore/showcase/page.tsx",
+      "target": "file:app/styles/witchcore/showcase/_content.tsx",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:app/styles/y2k/showcase/_content.tsx",
+      "target": "function:app/styles/y2k/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/y2k/showcase/_content.tsx",
+      "target": "function:app/styles/y2k/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/y2k/showcase/_content.tsx",
+      "target": "function:app/styles/y2k/showcase/_content.tsx:Y2KShowcase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/y2k/showcase/_content.tsx",
+      "target": "function:app/styles/y2k/showcase/_content.tsx:Y2KShowcase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/y2k/showcase/page.tsx",
+      "target": "function:app/styles/y2k/showcase/page.tsx:Y2KShowcasePage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/y2k/showcase/page.tsx",
+      "target": "function:app/styles/y2k/showcase/page.tsx:Y2KShowcasePage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/y2k/showcase/page.tsx",
+      "target": "file:app/styles/y2k/showcase/_content.tsx",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:app/styles/z-pattern-layout/showcase/_content.tsx",
+      "target": "function:app/styles/z-pattern-layout/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/z-pattern-layout/showcase/_content.tsx",
+      "target": "function:app/styles/z-pattern-layout/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/z-pattern-layout/showcase/_content.tsx",
+      "target": "function:app/styles/z-pattern-layout/showcase/_content.tsx:ZPatternLayoutShowcase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/z-pattern-layout/showcase/_content.tsx",
+      "target": "function:app/styles/z-pattern-layout/showcase/_content.tsx:ZPatternLayoutShowcase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/z-pattern-layout/showcase/page.tsx",
+      "target": "function:app/styles/z-pattern-layout/showcase/page.tsx:ZPatternLayoutShowcasePage",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/z-pattern-layout/showcase/page.tsx",
+      "target": "function:app/styles/z-pattern-layout/showcase/page.tsx:ZPatternLayoutShowcasePage",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    },
+    {
+      "source": "file:app/styles/z-pattern-layout/showcase/page.tsx",
+      "target": "file:app/styles/z-pattern-layout/showcase/_content.tsx",
+      "type": "depends_on",
+      "direction": "forward",
+      "weight": 0.6
+    },
+    {
+      "source": "file:app/styles/zen-garden/showcase/_content.tsx",
+      "target": "function:app/styles/zen-garden/showcase/_content.tsx:useInView",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/zen-garden/showcase/_content.tsx",
+      "target": "function:app/styles/zen-garden/showcase/_content.tsx:RevealBlock",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/zen-garden/showcase/_content.tsx",
+      "target": "function:app/styles/zen-garden/showcase/_content.tsx:RakedSandTextureSVG",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/zen-garden/showcase/_content.tsx",
+      "target": "function:app/styles/zen-garden/showcase/_content.tsx:ConcentricCirclesSVG",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/zen-garden/showcase/_content.tsx",
+      "target": "function:app/styles/zen-garden/showcase/_content.tsx:ParallelLinesSVG",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/zen-garden/showcase/_content.tsx",
+      "target": "function:app/styles/zen-garden/showcase/_content.tsx:FlowingCurvesSVG",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/zen-garden/showcase/_content.tsx",
+      "target": "function:app/styles/zen-garden/showcase/_content.tsx:ZenGardenShowcase",
+      "type": "contains",
+      "direction": "forward",
+      "weight": 1.0
+    },
+    {
+      "source": "file:app/styles/zen-garden/showcase/_content.tsx",
+      "target": "function:app/styles/zen-garden/showcase/_content.tsx:ZenGardenShowcase",
+      "type": "exports",
+      "direction": "forward",
+      "weight": 0.8
+    }
+  ]
+}

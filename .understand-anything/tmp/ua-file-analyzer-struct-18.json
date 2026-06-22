@@ -1,0 +1,3491 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 32,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "components/ui/resizable/index.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 5,
+      "nonEmptyLines": 5,
+      "exports": [
+        {
+          "name": "ResizablePanelGroup",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "ResizablePanel",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "ResizableHandle",
+          "line": 1,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 3,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "components/ui/select/index.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 12,
+      "nonEmptyLines": 12,
+      "exports": [
+        {
+          "name": "Select",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "SelectGroup",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "SelectValue",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "SelectTrigger",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "SelectContent",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "SelectLabel",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "SelectItem",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "SelectSeparator",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "SelectScrollUpButton",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "SelectScrollDownButton",
+          "line": 1,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 10,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "components/ui/table/index.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 10,
+      "nonEmptyLines": 10,
+      "exports": [
+        {
+          "name": "Table",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "TableHeader",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "TableBody",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "TableFooter",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "TableHead",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "TableRow",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "TableCell",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "TableCaption",
+          "line": 1,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 8,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "components/ui/toast/index.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 11,
+      "nonEmptyLines": 11,
+      "exports": [
+        {
+          "name": "ToastProps",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "ToastActionElement",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "ToastProvider",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "ToastViewport",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "Toast",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "ToastTitle",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "ToastDescription",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "ToastClose",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "ToastAction",
+          "line": 1,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 9,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "components/ui/tooltip/index.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 6,
+      "nonEmptyLines": 6,
+      "exports": [
+        {
+          "name": "Tooltip",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "TooltipTrigger",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "TooltipContent",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "TooltipProvider",
+          "line": 1,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 4,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "components/ui/tree/index.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 1,
+      "nonEmptyLines": 1,
+      "exports": [
+        {
+          "name": "Tree",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "TreeNode",
+          "line": 1,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/accessibility/index.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 3,
+      "nonEmptyLines": 3,
+      "exports": [
+        {
+          "name": "hexToRgb",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "relativeLuminance",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "contrastRatio",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "meetsAA",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "meetsAAA",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "extractHexFromClass",
+          "line": 1,
+          "isDefault": false
+        },
+        {
+          "name": "scoreStyle",
+          "line": 2,
+          "isDefault": false
+        },
+        {
+          "name": "scoreAllStyles",
+          "line": 2,
+          "isDefault": false
+        },
+        {
+          "name": "AccessibilityScore",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "ContrastScore",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "ReadabilityScore",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "ColorPair",
+          "line": 3,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 12,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/analytics/events.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 160,
+      "nonEmptyLines": 136,
+      "functions": [
+        {
+          "name": "isClient",
+          "startLine": 49,
+          "endLine": 51,
+          "params": []
+        },
+        {
+          "name": "trackEvent",
+          "startLine": 57,
+          "endLine": 72,
+          "params": [
+            "name",
+            "properties"
+          ]
+        },
+        {
+          "name": "trackPageView",
+          "startLine": 74,
+          "endLine": 78,
+          "params": [
+            "payload"
+          ]
+        },
+        {
+          "name": "getStoredUtmParams",
+          "startLine": 86,
+          "endLine": 94,
+          "params": []
+        },
+        {
+          "name": "queueInternalAnalyticsEvent",
+          "startLine": 96,
+          "endLine": 133,
+          "params": [
+            "name",
+            "properties"
+          ]
+        },
+        {
+          "name": "readStyleSlug",
+          "startLine": 134,
+          "endLine": 144,
+          "params": [
+            "name",
+            "properties"
+          ]
+        },
+        {
+          "name": "getOrCreateSessionId",
+          "startLine": 146,
+          "endLine": 160,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "trackEvent",
+          "line": 57,
+          "isDefault": false
+        },
+        {
+          "name": "trackPageView",
+          "line": 74,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "trackEvent",
+          "callee": "isClient",
+          "lineNumber": 61
+        },
+        {
+          "caller": "trackEvent",
+          "callee": "getStoredUtmParams",
+          "lineNumber": 63
+        },
+        {
+          "caller": "trackEvent",
+          "callee": "track",
+          "lineNumber": 69
+        },
+        {
+          "caller": "trackEvent",
+          "callee": "queueInternalAnalyticsEvent",
+          "lineNumber": 71
+        },
+        {
+          "caller": "trackPageView",
+          "callee": "isClient",
+          "lineNumber": 75
+        },
+        {
+          "caller": "trackPageView",
+          "callee": "queueInternalAnalyticsEvent",
+          "lineNumber": 77
+        },
+        {
+          "caller": "getStoredUtmParams",
+          "callee": "sessionStorage.getItem",
+          "lineNumber": 88
+        },
+        {
+          "caller": "getStoredUtmParams",
+          "callee": "JSON.parse",
+          "lineNumber": 90
+        },
+        {
+          "caller": "queueInternalAnalyticsEvent",
+          "callee": "readStyleSlug",
+          "lineNumber": 109
+        },
+        {
+          "caller": "queueInternalAnalyticsEvent",
+          "callee": "getOrCreateSessionId",
+          "lineNumber": 114
+        },
+        {
+          "caller": "queueInternalAnalyticsEvent",
+          "callee": "JSON.stringify",
+          "lineNumber": 116
+        },
+        {
+          "caller": "queueInternalAnalyticsEvent",
+          "callee": "navigator.sendBeacon",
+          "lineNumber": 120
+        },
+        {
+          "caller": "queueInternalAnalyticsEvent",
+          "callee": "fetch",
+          "lineNumber": 124
+        },
+        {
+          "caller": "readStyleSlug",
+          "callee": "slug.trim",
+          "lineNumber": 140
+        },
+        {
+          "caller": "getOrCreateSessionId",
+          "callee": "sessionStorage.getItem",
+          "lineNumber": 148
+        },
+        {
+          "caller": "getOrCreateSessionId",
+          "callee": "crypto.randomUUID",
+          "lineNumber": 153
+        },
+        {
+          "caller": "getOrCreateSessionId",
+          "callee": "Math.random().toString(36).slice",
+          "lineNumber": 154
+        },
+        {
+          "caller": "getOrCreateSessionId",
+          "callee": "Math.random().toString",
+          "lineNumber": 154
+        },
+        {
+          "caller": "getOrCreateSessionId",
+          "callee": "Math.random",
+          "lineNumber": 154
+        },
+        {
+          "caller": "getOrCreateSessionId",
+          "callee": "Date.now().toString",
+          "lineNumber": 154
+        },
+        {
+          "caller": "getOrCreateSessionId",
+          "callee": "Date.now",
+          "lineNumber": 154
+        },
+        {
+          "caller": "getOrCreateSessionId",
+          "callee": "sessionStorage.setItem",
+          "lineNumber": 155
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 7,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/analytics/utm.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 102,
+      "nonEmptyLines": 84,
+      "functions": [
+        {
+          "name": "parseUtmParams",
+          "startLine": 32,
+          "endLine": 46,
+          "params": [
+            "search"
+          ]
+        },
+        {
+          "name": "storeUtmParams",
+          "startLine": 51,
+          "endLine": 57,
+          "params": [
+            "params"
+          ]
+        },
+        {
+          "name": "getUtmParams",
+          "startLine": 62,
+          "endLine": 70,
+          "params": []
+        },
+        {
+          "name": "captureUtmParams",
+          "startLine": 76,
+          "endLine": 86,
+          "params": []
+        },
+        {
+          "name": "useUtmParams",
+          "startLine": 93,
+          "endLine": 102,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "parseUtmParams",
+          "line": 32,
+          "isDefault": false
+        },
+        {
+          "name": "storeUtmParams",
+          "line": 51,
+          "isDefault": false
+        },
+        {
+          "name": "getUtmParams",
+          "line": 62,
+          "isDefault": false
+        },
+        {
+          "name": "captureUtmParams",
+          "line": 76,
+          "isDefault": false
+        },
+        {
+          "name": "useUtmParams",
+          "line": 93,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "parseUtmParams",
+          "callee": "params.get",
+          "lineNumber": 38
+        },
+        {
+          "caller": "storeUtmParams",
+          "callee": "sessionStorage.setItem",
+          "lineNumber": 53
+        },
+        {
+          "caller": "storeUtmParams",
+          "callee": "JSON.stringify",
+          "lineNumber": 53
+        },
+        {
+          "caller": "getUtmParams",
+          "callee": "sessionStorage.getItem",
+          "lineNumber": 64
+        },
+        {
+          "caller": "getUtmParams",
+          "callee": "JSON.parse",
+          "lineNumber": 66
+        },
+        {
+          "caller": "captureUtmParams",
+          "callee": "getUtmParams",
+          "lineNumber": 79
+        },
+        {
+          "caller": "captureUtmParams",
+          "callee": "parseUtmParams",
+          "lineNumber": 82
+        },
+        {
+          "caller": "captureUtmParams",
+          "callee": "storeUtmParams",
+          "lineNumber": 84
+        },
+        {
+          "caller": "useUtmParams",
+          "callee": "useEffect",
+          "lineNumber": 94
+        },
+        {
+          "caller": "useUtmParams",
+          "callee": "captureUtmParams",
+          "lineNumber": 95
+        },
+        {
+          "caller": "useUtmParams",
+          "callee": "useMemo",
+          "lineNumber": 98
+        },
+        {
+          "caller": "useUtmParams",
+          "callee": "getUtmParams",
+          "lineNumber": 100
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 5,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/auth/supabase-browser.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 24,
+      "nonEmptyLines": 19,
+      "functions": [
+        {
+          "name": "getAuthClient",
+          "startLine": 14,
+          "endLine": 24,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "getAuthClient",
+          "line": 14,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getAuthClient",
+          "callee": "createBrowserClient",
+          "lineNumber": 22
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/auth/use-user.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 128,
+      "nonEmptyLines": 108,
+      "functions": [
+        {
+          "name": "normalizeNextPath",
+          "startLine": 25,
+          "endLine": 30,
+          "params": [
+            "nextPath"
+          ]
+        },
+        {
+          "name": "useUser",
+          "startLine": 52,
+          "endLine": 128,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "useUser",
+          "line": 52,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "normalizeNextPath",
+          "callee": "nextPath.startsWith",
+          "lineNumber": 26
+        },
+        {
+          "caller": "useUser",
+          "callee": "useState",
+          "lineNumber": 53
+        },
+        {
+          "caller": "useUser",
+          "callee": "useState",
+          "lineNumber": 54
+        },
+        {
+          "caller": "useUser",
+          "callee": "useRef",
+          "lineNumber": 57
+        },
+        {
+          "caller": "useUser",
+          "callee": "useEffect",
+          "lineNumber": 59
+        },
+        {
+          "caller": "useUser",
+          "callee": "getAuthClient",
+          "lineNumber": 63
+        },
+        {
+          "caller": "useUser",
+          "callee": "client.auth.getSession().then",
+          "lineNumber": 67
+        },
+        {
+          "caller": "useUser",
+          "callee": "client.auth.getSession",
+          "lineNumber": 67
+        },
+        {
+          "caller": "useUser",
+          "callee": "setUser",
+          "lineNumber": 70
+        },
+        {
+          "caller": "useUser",
+          "callee": "setLoading",
+          "lineNumber": 71
+        },
+        {
+          "caller": "useUser",
+          "callee": "client.auth.getUser().then",
+          "lineNumber": 72
+        },
+        {
+          "caller": "useUser",
+          "callee": "client.auth.getUser",
+          "lineNumber": 72
+        },
+        {
+          "caller": "useUser",
+          "callee": "setUser",
+          "lineNumber": 74
+        },
+        {
+          "caller": "useUser",
+          "callee": "setUser",
+          "lineNumber": 77
+        },
+        {
+          "caller": "useUser",
+          "callee": "setLoading",
+          "lineNumber": 82
+        },
+        {
+          "caller": "useUser",
+          "callee": "client.auth.onAuthStateChange",
+          "lineNumber": 89
+        },
+        {
+          "caller": "useUser",
+          "callee": "setUser",
+          "lineNumber": 90
+        },
+        {
+          "caller": "useUser",
+          "callee": "window.location.search.includes",
+          "lineNumber": 93
+        },
+        {
+          "caller": "useUser",
+          "callee": "window.history.replaceState",
+          "lineNumber": 94
+        },
+        {
+          "caller": "useUser",
+          "callee": "subscription.unsubscribe",
+          "lineNumber": 98
+        },
+        {
+          "caller": "useUser",
+          "callee": "useCallback",
+          "lineNumber": 101
+        },
+        {
+          "caller": "useUser",
+          "callee": "getAuthClient",
+          "lineNumber": 102
+        },
+        {
+          "caller": "useUser",
+          "callee": "normalizeNextPath",
+          "lineNumber": 104
+        },
+        {
+          "caller": "useUser",
+          "callee": "client.auth.signInWithOAuth",
+          "lineNumber": 106
+        },
+        {
+          "caller": "useUser",
+          "callee": "encodeURIComponent",
+          "lineNumber": 109
+        },
+        {
+          "caller": "useUser",
+          "callee": "useCallback",
+          "lineNumber": 114
+        },
+        {
+          "caller": "useUser",
+          "callee": "normalizeNextPath",
+          "lineNumber": 115
+        },
+        {
+          "caller": "useUser",
+          "callee": "encodeURIComponent",
+          "lineNumber": 116
+        },
+        {
+          "caller": "useUser",
+          "callee": "useCallback",
+          "lineNumber": 119
+        },
+        {
+          "caller": "useUser",
+          "callee": "getAuthClient",
+          "lineNumber": 120
+        },
+        {
+          "caller": "useUser",
+          "callee": "client.auth.signOut",
+          "lineNumber": 123
+        },
+        {
+          "caller": "useUser",
+          "callee": "setUser",
+          "lineNumber": 124
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/backgrounds/index.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 291,
+      "nonEmptyLines": 276,
+      "functions": [
+        {
+          "name": "getBackgroundsByCategory",
+          "startLine": 240,
+          "endLine": 242,
+          "params": [
+            "category"
+          ]
+        },
+        {
+          "name": "getBackgroundById",
+          "startLine": 245,
+          "endLine": 247,
+          "params": [
+            "id"
+          ]
+        },
+        {
+          "name": "getBackgroundsByMood",
+          "startLine": 250,
+          "endLine": 254,
+          "params": [
+            "mood"
+          ]
+        },
+        {
+          "name": "getBackgroundCategories",
+          "startLine": 257,
+          "endLine": 290,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "backgrounds",
+          "line": 25,
+          "isDefault": false
+        },
+        {
+          "name": "getBackgroundsByCategory",
+          "line": 240,
+          "isDefault": false
+        },
+        {
+          "name": "getBackgroundById",
+          "line": 245,
+          "isDefault": false
+        },
+        {
+          "name": "getBackgroundsByMood",
+          "line": 250,
+          "isDefault": false
+        },
+        {
+          "name": "getBackgroundCategories",
+          "line": 257,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getBackgroundsByCategory",
+          "callee": "backgrounds.filter",
+          "lineNumber": 241
+        },
+        {
+          "caller": "getBackgroundById",
+          "callee": "backgrounds.find",
+          "lineNumber": 246
+        },
+        {
+          "caller": "getBackgroundsByMood",
+          "callee": "backgrounds.filter",
+          "lineNumber": 251
+        },
+        {
+          "caller": "getBackgroundsByMood",
+          "callee": "b.mood.some",
+          "lineNumber": 252
+        },
+        {
+          "caller": "getBackgroundsByMood",
+          "callee": "m.toLowerCase().includes",
+          "lineNumber": 252
+        },
+        {
+          "caller": "getBackgroundsByMood",
+          "callee": "m.toLowerCase",
+          "lineNumber": 252
+        },
+        {
+          "caller": "getBackgroundsByMood",
+          "callee": "mood.toLowerCase",
+          "lineNumber": 252
+        },
+        {
+          "caller": "getBackgroundCategories",
+          "callee": "backgrounds.map",
+          "lineNumber": 283
+        },
+        {
+          "caller": "getBackgroundCategories",
+          "callee": "categories.map",
+          "lineNumber": 284
+        },
+        {
+          "caller": "getBackgroundCategories",
+          "callee": "backgrounds.filter",
+          "lineNumber": 286
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 5,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/favorites/context.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 230,
+      "nonEmptyLines": 200,
+      "functions": [
+        {
+          "name": "fetchWithAuth",
+          "startLine": 29,
+          "endLine": 45,
+          "params": [
+            "input",
+            "init"
+          ]
+        },
+        {
+          "name": "normalizeFavorites",
+          "startLine": 47,
+          "endLine": 61,
+          "params": [
+            "values"
+          ]
+        },
+        {
+          "name": "mergeFavoriteLists",
+          "startLine": 63,
+          "endLine": 65,
+          "params": [
+            "...lists"
+          ]
+        },
+        {
+          "name": "readLocalFavorites",
+          "startLine": 67,
+          "endLine": 78,
+          "params": []
+        },
+        {
+          "name": "writeLocalFavorites",
+          "startLine": 80,
+          "endLine": 86,
+          "params": [
+            "favorites"
+          ]
+        },
+        {
+          "name": "FavoritesProvider",
+          "startLine": 88,
+          "endLine": 222,
+          "params": [
+            "{ children }"
+          ]
+        },
+        {
+          "name": "useFavorites",
+          "startLine": 224,
+          "endLine": 230,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "FavoritesProvider",
+          "line": 88,
+          "isDefault": false
+        },
+        {
+          "name": "useFavorites",
+          "line": 224,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "fetchWithAuth",
+          "callee": "getAuthClient",
+          "lineNumber": 31
+        },
+        {
+          "caller": "fetchWithAuth",
+          "callee": "client.auth.getSession",
+          "lineNumber": 35
+        },
+        {
+          "caller": "fetchWithAuth",
+          "callee": "headers.set",
+          "lineNumber": 37
+        },
+        {
+          "caller": "fetchWithAuth",
+          "callee": "fetch",
+          "lineNumber": 41
+        },
+        {
+          "caller": "normalizeFavorites",
+          "callee": "Array.isArray",
+          "lineNumber": 48
+        },
+        {
+          "caller": "normalizeFavorites",
+          "callee": "value.trim",
+          "lineNumber": 54
+        },
+        {
+          "caller": "normalizeFavorites",
+          "callee": "SLUG_RE.test",
+          "lineNumber": 55
+        },
+        {
+          "caller": "normalizeFavorites",
+          "callee": "seen.has",
+          "lineNumber": 55
+        },
+        {
+          "caller": "normalizeFavorites",
+          "callee": "seen.add",
+          "lineNumber": 56
+        },
+        {
+          "caller": "normalizeFavorites",
+          "callee": "normalized.push",
+          "lineNumber": 57
+        },
+        {
+          "caller": "mergeFavoriteLists",
+          "callee": "normalizeFavorites",
+          "lineNumber": 64
+        },
+        {
+          "caller": "mergeFavoriteLists",
+          "callee": "lists.flat",
+          "lineNumber": 64
+        },
+        {
+          "caller": "readLocalFavorites",
+          "callee": "localStorage.getItem",
+          "lineNumber": 69
+        },
+        {
+          "caller": "readLocalFavorites",
+          "callee": "JSON.parse",
+          "lineNumber": 71
+        },
+        {
+          "caller": "readLocalFavorites",
+          "callee": "normalizeFavorites",
+          "lineNumber": 72
+        },
+        {
+          "caller": "writeLocalFavorites",
+          "callee": "localStorage.setItem",
+          "lineNumber": 82
+        },
+        {
+          "caller": "writeLocalFavorites",
+          "callee": "JSON.stringify",
+          "lineNumber": 82
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "useUser",
+          "lineNumber": 89
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "useState",
+          "lineNumber": 90
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "useState",
+          "lineNumber": 91
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "useState",
+          "lineNumber": 92
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "useRef",
+          "lineNumber": 93
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "useEffect",
+          "lineNumber": 96
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "setSyncing",
+          "lineNumber": 101
+        },
+        {
+          "caller": "loadServerFavorites",
+          "callee": "readLocalFavorites",
+          "lineNumber": 105
+        },
+        {
+          "caller": "loadServerFavorites",
+          "callee": "fetchWithAuth",
+          "lineNumber": 110
+        },
+        {
+          "caller": "loadServerFavorites",
+          "callee": "JSON.stringify",
+          "lineNumber": 113
+        },
+        {
+          "caller": "loadServerFavorites",
+          "callee": "fetchWithAuth",
+          "lineNumber": 117
+        },
+        {
+          "caller": "loadServerFavorites",
+          "callee": "res.json",
+          "lineNumber": 119
+        },
+        {
+          "caller": "loadServerFavorites",
+          "callee": "Array.isArray",
+          "lineNumber": 120
+        },
+        {
+          "caller": "loadServerFavorites",
+          "callee": "normalizeFavorites",
+          "lineNumber": 121
+        },
+        {
+          "caller": "loadServerFavorites",
+          "callee": "mergeFavoriteLists",
+          "lineNumber": 122
+        },
+        {
+          "caller": "loadServerFavorites",
+          "callee": "setFavorites",
+          "lineNumber": 123
+        },
+        {
+          "caller": "loadServerFavorites",
+          "callee": "localSlugs.filter",
+          "lineNumber": 127
+        },
+        {
+          "caller": "loadServerFavorites",
+          "callee": "serverSet.has",
+          "lineNumber": 127
+        },
+        {
+          "caller": "loadServerFavorites",
+          "callee": "fetchWithAuth(\"/api/favorites/merge\", {\n              method: \"POST\",\n              headers: { \"Content-Type\": \"application/json\" },\n              body: JSON.stringify({ slugs: missingLocal }),\n            }).catch",
+          "lineNumber": 129
+        },
+        {
+          "caller": "loadServerFavorites",
+          "callee": "fetchWithAuth",
+          "lineNumber": 129
+        },
+        {
+          "caller": "loadServerFavorites",
+          "callee": "JSON.stringify",
+          "lineNumber": 132
+        },
+        {
+          "caller": "loadServerFavorites",
+          "callee": "setSyncing",
+          "lineNumber": 139
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "loadServerFavorites",
+          "lineNumber": 143
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "useEffect",
+          "lineNumber": 148
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "setMounted",
+          "lineNumber": 149
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "setFavorites",
+          "lineNumber": 152
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "readLocalFavorites",
+          "lineNumber": 152
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "useEffect",
+          "lineNumber": 157
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "writeLocalFavorites",
+          "lineNumber": 159
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "useCallback",
+          "lineNumber": 163
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "setFavorites",
+          "lineNumber": 164
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "prev.includes",
+          "lineNumber": 165
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "fetchWithAuth(\"/api/favorites\", {\n        method: \"POST\",\n        headers: { \"Content-Type\": \"application/json\" },\n        body: JSON.stringify({ slug }),\n      }).catch",
+          "lineNumber": 170
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "fetchWithAuth",
+          "lineNumber": 170
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "JSON.stringify",
+          "lineNumber": 173
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "useCallback",
+          "lineNumber": 178
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "setFavorites",
+          "lineNumber": 179
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "prev.filter",
+          "lineNumber": 179
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "fetchWithAuth(`/api/favorites?slug=${encodeURIComponent(slug)}`, {\n        method: \"DELETE\",\n      }).catch",
+          "lineNumber": 182
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "fetchWithAuth",
+          "lineNumber": 182
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "encodeURIComponent",
+          "lineNumber": 182
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "useCallback",
+          "lineNumber": 188
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "setFavorites",
+          "lineNumber": 189
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "prev.includes",
+          "lineNumber": 190
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "fetchWithAuth(`/api/favorites?slug=${encodeURIComponent(slug)}`, {\n            method: \"DELETE\",\n          }).catch",
+          "lineNumber": 193
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "fetchWithAuth",
+          "lineNumber": 193
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "encodeURIComponent",
+          "lineNumber": 193
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "prev.filter",
+          "lineNumber": 197
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "fetchWithAuth(\"/api/favorites\", {\n          method: \"POST\",\n          headers: { \"Content-Type\": \"application/json\" },\n          body: JSON.stringify({ slug }),\n        }).catch",
+          "lineNumber": 200
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "fetchWithAuth",
+          "lineNumber": 200
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "JSON.stringify",
+          "lineNumber": 203
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "useCallback",
+          "lineNumber": 210
+        },
+        {
+          "caller": "FavoritesProvider",
+          "callee": "favorites.includes",
+          "lineNumber": 211
+        },
+        {
+          "caller": "useFavorites",
+          "callee": "useContext",
+          "lineNumber": 225
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 2,
+        "functionCount": 7,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/github-stars.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 105,
+      "nonEmptyLines": 84,
+      "functions": [
+        {
+          "name": "notifyListeners",
+          "startLine": 10,
+          "endLine": 12,
+          "params": []
+        },
+        {
+          "name": "getCachedCount",
+          "startLine": 14,
+          "endLine": 27,
+          "params": []
+        },
+        {
+          "name": "setCachedCount",
+          "startLine": 29,
+          "endLine": 37,
+          "params": [
+            "count"
+          ]
+        },
+        {
+          "name": "ensureCacheLoaded",
+          "startLine": 39,
+          "endLine": 47,
+          "params": []
+        },
+        {
+          "name": "subscribeGitHubStars",
+          "startLine": 49,
+          "endLine": 56,
+          "params": [
+            "listener"
+          ]
+        },
+        {
+          "name": "getGitHubStarsSnapshot",
+          "startLine": 58,
+          "endLine": 61,
+          "params": []
+        },
+        {
+          "name": "getGitHubStarsServerSnapshot",
+          "startLine": 63,
+          "endLine": 65,
+          "params": []
+        },
+        {
+          "name": "requestGitHubStars",
+          "startLine": 67,
+          "endLine": 95,
+          "params": []
+        },
+        {
+          "name": "formatGitHubStars",
+          "startLine": 97,
+          "endLine": 103,
+          "params": [
+            "count"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "subscribeGitHubStars",
+          "line": 49,
+          "isDefault": false
+        },
+        {
+          "name": "getGitHubStarsSnapshot",
+          "line": 58,
+          "isDefault": false
+        },
+        {
+          "name": "getGitHubStarsServerSnapshot",
+          "line": 63,
+          "isDefault": false
+        },
+        {
+          "name": "requestGitHubStars",
+          "line": 67,
+          "isDefault": false
+        },
+        {
+          "name": "formatGitHubStars",
+          "line": 97,
+          "isDefault": false
+        },
+        {
+          "name": "GITHUB_REPO_URL",
+          "line": 105,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "notifyListeners",
+          "callee": "listeners.forEach",
+          "lineNumber": 11
+        },
+        {
+          "caller": "notifyListeners",
+          "callee": "listener",
+          "lineNumber": 11
+        },
+        {
+          "caller": "getCachedCount",
+          "callee": "localStorage.getItem",
+          "lineNumber": 18
+        },
+        {
+          "caller": "getCachedCount",
+          "callee": "JSON.parse",
+          "lineNumber": 21
+        },
+        {
+          "caller": "getCachedCount",
+          "callee": "Date.now",
+          "lineNumber": 22
+        },
+        {
+          "caller": "setCachedCount",
+          "callee": "localStorage.setItem",
+          "lineNumber": 33
+        },
+        {
+          "caller": "setCachedCount",
+          "callee": "JSON.stringify",
+          "lineNumber": 33
+        },
+        {
+          "caller": "setCachedCount",
+          "callee": "Date.now",
+          "lineNumber": 33
+        },
+        {
+          "caller": "ensureCacheLoaded",
+          "callee": "getCachedCount",
+          "lineNumber": 43
+        },
+        {
+          "caller": "subscribeGitHubStars",
+          "callee": "ensureCacheLoaded",
+          "lineNumber": 50
+        },
+        {
+          "caller": "subscribeGitHubStars",
+          "callee": "listeners.add",
+          "lineNumber": 51
+        },
+        {
+          "caller": "subscribeGitHubStars",
+          "callee": "listeners.delete",
+          "lineNumber": 54
+        },
+        {
+          "caller": "getGitHubStarsSnapshot",
+          "callee": "ensureCacheLoaded",
+          "lineNumber": 59
+        },
+        {
+          "caller": "requestGitHubStars",
+          "callee": "ensureCacheLoaded",
+          "lineNumber": 68
+        },
+        {
+          "caller": "requestGitHubStars",
+          "callee": "fetch(\"/api/github-stars\")\n    .then((res) => {\n      if (!res.ok) {\n        throw new Error(`GitHub API ${res.status}`);\n      }\n      return res.json() as Promise<{ stargazers_count?: number | null }>;\n    })\n    .then((data) => {\n      const fresh =\n        typeof data.stargazers_count === \"number\" ? data.stargazers_count : null;\n      if (fresh === null) return memoryCount;\n\n      memoryCount = fresh;\n      setCachedCount(fresh);\n      notifyListeners();\n      return fresh;\n    })\n    .catch(() => memoryCount)\n    .finally",
+          "lineNumber": 72
+        },
+        {
+          "caller": "requestGitHubStars",
+          "callee": "fetch(\"/api/github-stars\")\n    .then((res) => {\n      if (!res.ok) {\n        throw new Error(`GitHub API ${res.status}`);\n      }\n      return res.json() as Promise<{ stargazers_count?: number | null }>;\n    })\n    .then((data) => {\n      const fresh =\n        typeof data.stargazers_count === \"number\" ? data.stargazers_count : null;\n      if (fresh === null) return memoryCount;\n\n      memoryCount = fresh;\n      setCachedCount(fresh);\n      notifyListeners();\n      return fresh;\n    })\n    .catch",
+          "lineNumber": 72
+        },
+        {
+          "caller": "requestGitHubStars",
+          "callee": "fetch(\"/api/github-stars\")\n    .then((res) => {\n      if (!res.ok) {\n        throw new Error(`GitHub API ${res.status}`);\n      }\n      return res.json() as Promise<{ stargazers_count?: number | null }>;\n    })\n    .then",
+          "lineNumber": 72
+        },
+        {
+          "caller": "requestGitHubStars",
+          "callee": "fetch(\"/api/github-stars\")\n    .then",
+          "lineNumber": 72
+        },
+        {
+          "caller": "requestGitHubStars",
+          "callee": "fetch",
+          "lineNumber": 72
+        },
+        {
+          "caller": "requestGitHubStars",
+          "callee": "res.json",
+          "lineNumber": 77
+        },
+        {
+          "caller": "requestGitHubStars",
+          "callee": "setCachedCount",
+          "lineNumber": 85
+        },
+        {
+          "caller": "requestGitHubStars",
+          "callee": "notifyListeners",
+          "lineNumber": 86
+        },
+        {
+          "caller": "formatGitHubStars",
+          "callee": "(count / 1000).toFixed(1).replace",
+          "lineNumber": 99
+        },
+        {
+          "caller": "formatGitHubStars",
+          "callee": "(count / 1000).toFixed",
+          "lineNumber": 99
+        },
+        {
+          "caller": "formatGitHubStars",
+          "callee": "String",
+          "lineNumber": 102
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 6,
+        "functionCount": 9,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/gradients/__tests__/index.test.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 28,
+      "nonEmptyLines": 22,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/gradients/index.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 402,
+      "nonEmptyLines": 382,
+      "functions": [
+        {
+          "name": "getGradientsByCategory",
+          "startLine": 321,
+          "endLine": 323,
+          "params": [
+            "category"
+          ]
+        },
+        {
+          "name": "getGradientById",
+          "startLine": 326,
+          "endLine": 328,
+          "params": [
+            "id"
+          ]
+        },
+        {
+          "name": "getGradientsByMood",
+          "startLine": 331,
+          "endLine": 335,
+          "params": [
+            "mood"
+          ]
+        },
+        {
+          "name": "generateGradientCSSVariables",
+          "startLine": 338,
+          "endLine": 344,
+          "params": [
+            "gradient"
+          ]
+        },
+        {
+          "name": "getGradientCategories",
+          "startLine": 347,
+          "endLine": 382,
+          "params": []
+        },
+        {
+          "name": "recommendGradientsForStyle",
+          "startLine": 385,
+          "endLine": 402,
+          "params": [
+            "styleSlug"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "gradients",
+          "line": 27,
+          "isDefault": false
+        },
+        {
+          "name": "getGradientsByCategory",
+          "line": 321,
+          "isDefault": false
+        },
+        {
+          "name": "getGradientById",
+          "line": 326,
+          "isDefault": false
+        },
+        {
+          "name": "getGradientsByMood",
+          "line": 331,
+          "isDefault": false
+        },
+        {
+          "name": "generateGradientCSSVariables",
+          "line": 338,
+          "isDefault": false
+        },
+        {
+          "name": "getGradientCategories",
+          "line": 347,
+          "isDefault": false
+        },
+        {
+          "name": "recommendGradientsForStyle",
+          "line": 385,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getGradientsByCategory",
+          "callee": "gradients.filter",
+          "lineNumber": 322
+        },
+        {
+          "caller": "getGradientById",
+          "callee": "gradients.find",
+          "lineNumber": 327
+        },
+        {
+          "caller": "getGradientsByMood",
+          "callee": "gradients.filter",
+          "lineNumber": 332
+        },
+        {
+          "caller": "getGradientsByMood",
+          "callee": "g.mood.some",
+          "lineNumber": 333
+        },
+        {
+          "caller": "getGradientsByMood",
+          "callee": "m.toLowerCase().includes",
+          "lineNumber": 333
+        },
+        {
+          "caller": "getGradientsByMood",
+          "callee": "m.toLowerCase",
+          "lineNumber": 333
+        },
+        {
+          "caller": "getGradientsByMood",
+          "callee": "mood.toLowerCase",
+          "lineNumber": 333
+        },
+        {
+          "caller": "generateGradientCSSVariables",
+          "callee": "gradient.colors.map((color, i) =>\r\n    `  --gradient-color-${i + 1}: ${color};`\r\n  ).join",
+          "lineNumber": 339
+        },
+        {
+          "caller": "generateGradientCSSVariables",
+          "callee": "gradient.colors.map",
+          "lineNumber": 339
+        },
+        {
+          "caller": "getGradientCategories",
+          "callee": "gradients.map",
+          "lineNumber": 375
+        },
+        {
+          "caller": "getGradientCategories",
+          "callee": "categories.map",
+          "lineNumber": 376
+        },
+        {
+          "caller": "getGradientCategories",
+          "callee": "gradients.filter",
+          "lineNumber": 378
+        },
+        {
+          "caller": "recommendGradientsForStyle",
+          "callee": "gradients.filter((g) => categories.includes(g.category)).slice",
+          "lineNumber": 401
+        },
+        {
+          "caller": "recommendGradientsForStyle",
+          "callee": "gradients.filter",
+          "lineNumber": 401
+        },
+        {
+          "caller": "recommendGradientsForStyle",
+          "callee": "categories.includes",
+          "lineNumber": 401
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 7,
+        "functionCount": 6,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/i18n/context.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 83,
+      "nonEmptyLines": 69,
+      "functions": [
+        {
+          "name": "persistLocale",
+          "startLine": 28,
+          "endLine": 38,
+          "params": [
+            "locale"
+          ]
+        },
+        {
+          "name": "I18nProvider",
+          "startLine": 40,
+          "endLine": 70,
+          "params": [
+            "{\n  children,\n  initialLocale,\n}"
+          ]
+        },
+        {
+          "name": "useI18n",
+          "startLine": 72,
+          "endLine": 78,
+          "params": []
+        },
+        {
+          "name": "useTranslation",
+          "startLine": 80,
+          "endLine": 83,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "I18nProvider",
+          "line": 40,
+          "isDefault": false
+        },
+        {
+          "name": "useI18n",
+          "line": 72,
+          "isDefault": false
+        },
+        {
+          "name": "useTranslation",
+          "line": 80,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "persistLocale",
+          "callee": "localStorage.setItem",
+          "lineNumber": 32
+        },
+        {
+          "caller": "I18nProvider",
+          "callee": "usePathname",
+          "lineNumber": 47
+        },
+        {
+          "caller": "I18nProvider",
+          "callee": "useState",
+          "lineNumber": 48
+        },
+        {
+          "caller": "I18nProvider",
+          "callee": "getLocaleFromPathname",
+          "lineNumber": 49
+        },
+        {
+          "caller": "I18nProvider",
+          "callee": "useEffect",
+          "lineNumber": 52
+        },
+        {
+          "caller": "I18nProvider",
+          "callee": "persistLocale",
+          "lineNumber": 53
+        },
+        {
+          "caller": "setLocale",
+          "callee": "setPreferredLocale",
+          "lineNumber": 57
+        },
+        {
+          "caller": "setLocale",
+          "callee": "persistLocale",
+          "lineNumber": 58
+        },
+        {
+          "caller": "useI18n",
+          "callee": "useContext",
+          "lineNumber": 73
+        },
+        {
+          "caller": "useTranslation",
+          "callee": "useI18n",
+          "lineNumber": 81
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 3,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/security/sanitize-html.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 78,
+      "nonEmptyLines": 74,
+      "functions": [
+        {
+          "name": "sanitizePreviewHtml",
+          "startLine": 52,
+          "endLine": 55,
+          "params": [
+            "html"
+          ]
+        },
+        {
+          "name": "sanitizeCss",
+          "startLine": 61,
+          "endLine": 78,
+          "params": [
+            "css"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "sanitizePreviewHtml",
+          "line": 52,
+          "isDefault": false
+        },
+        {
+          "name": "sanitizeCss",
+          "line": 61,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "sanitizePreviewHtml",
+          "callee": "String",
+          "lineNumber": 54
+        },
+        {
+          "caller": "sanitizePreviewHtml",
+          "callee": "DOMPurify.sanitize",
+          "lineNumber": 54
+        },
+        {
+          "caller": "sanitizeCss",
+          "callee": "css\n    // Remove @import rules (can load external resources)\n    .replace(/@import\\s+[^;]+;/gi, \"\")\n    // Remove url() that reference external resources (keep data: for gradients etc.)\n    .replace(\n      /url\\s*\\(\\s*(['\"]?)\\s*(?!data:image\\/)(https?:|\\/\\/|ftp:)[^)]*\\1\\s*\\)/gi,\n      \"\"\n    )\n    // Remove expression() (IE CSS expressions)\n    .replace(/expression\\s*\\([^)]*\\)/gi, \"\")\n    // Remove -moz-binding (XBL binding)\n    .replace(/-moz-binding\\s*:[^;]+;?/gi, \"\")\n    // Remove behavior (IE htc)\n    .replace",
+          "lineNumber": 64
+        },
+        {
+          "caller": "sanitizeCss",
+          "callee": "css\n    // Remove @import rules (can load external resources)\n    .replace(/@import\\s+[^;]+;/gi, \"\")\n    // Remove url() that reference external resources (keep data: for gradients etc.)\n    .replace(\n      /url\\s*\\(\\s*(['\"]?)\\s*(?!data:image\\/)(https?:|\\/\\/|ftp:)[^)]*\\1\\s*\\)/gi,\n      \"\"\n    )\n    // Remove expression() (IE CSS expressions)\n    .replace(/expression\\s*\\([^)]*\\)/gi, \"\")\n    // Remove -moz-binding (XBL binding)\n    .replace",
+          "lineNumber": 64
+        },
+        {
+          "caller": "sanitizeCss",
+          "callee": "css\n    // Remove @import rules (can load external resources)\n    .replace(/@import\\s+[^;]+;/gi, \"\")\n    // Remove url() that reference external resources (keep data: for gradients etc.)\n    .replace(\n      /url\\s*\\(\\s*(['\"]?)\\s*(?!data:image\\/)(https?:|\\/\\/|ftp:)[^)]*\\1\\s*\\)/gi,\n      \"\"\n    )\n    // Remove expression() (IE CSS expressions)\n    .replace",
+          "lineNumber": 64
+        },
+        {
+          "caller": "sanitizeCss",
+          "callee": "css\n    // Remove @import rules (can load external resources)\n    .replace(/@import\\s+[^;]+;/gi, \"\")\n    // Remove url() that reference external resources (keep data: for gradients etc.)\n    .replace",
+          "lineNumber": 64
+        },
+        {
+          "caller": "sanitizeCss",
+          "callee": "css\n    // Remove @import rules (can load external resources)\n    .replace",
+          "lineNumber": 64
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/shadows/index.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 335,
+      "nonEmptyLines": 322,
+      "functions": [
+        {
+          "name": "getShadowsByCategory",
+          "startLine": 319,
+          "endLine": 321,
+          "params": [
+            "category"
+          ]
+        },
+        {
+          "name": "getShadowById",
+          "startLine": 323,
+          "endLine": 325,
+          "params": [
+            "id"
+          ]
+        },
+        {
+          "name": "getShadowCategories",
+          "startLine": 327,
+          "endLine": 335,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "shadows",
+          "line": 23,
+          "isDefault": false
+        },
+        {
+          "name": "getShadowsByCategory",
+          "line": 319,
+          "isDefault": false
+        },
+        {
+          "name": "getShadowById",
+          "line": 323,
+          "isDefault": false
+        },
+        {
+          "name": "getShadowCategories",
+          "line": 327,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getShadowsByCategory",
+          "callee": "shadows.filter",
+          "lineNumber": 320
+        },
+        {
+          "caller": "getShadowById",
+          "callee": "shadows.find",
+          "lineNumber": 324
+        },
+        {
+          "caller": "getShadowCategories",
+          "callee": "shadows.map",
+          "lineNumber": 328
+        },
+        {
+          "caller": "getShadowCategories",
+          "callee": "categories.map",
+          "lineNumber": 329
+        },
+        {
+          "caller": "getShadowCategories",
+          "callee": "shadows.filter",
+          "lineNumber": 331
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 4,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/site/support.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 292,
+      "nonEmptyLines": 283,
+      "exports": [
+        {
+          "name": "supportPageCopy",
+          "line": 38,
+          "isDefault": false
+        },
+        {
+          "name": "supportMethods",
+          "line": 83,
+          "isDefault": false
+        },
+        {
+          "name": "supportLinks",
+          "line": 194,
+          "isDefault": false
+        },
+        {
+          "name": "thankYouEntries",
+          "line": 237,
+          "isDefault": false
+        },
+        {
+          "name": "thankYouModalConfig",
+          "line": 280,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 5,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/style-preview/preview-html.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 129,
+      "nonEmptyLines": 111,
+      "functions": [
+        {
+          "name": "generatePreviewHTML",
+          "startLine": 39,
+          "endLine": 46,
+          "params": [
+            "code"
+          ]
+        },
+        {
+          "name": "closeSelfClosingBlockElements",
+          "startLine": 48,
+          "endLine": 86,
+          "params": [
+            "html"
+          ]
+        },
+        {
+          "name": "findTagEnd",
+          "startLine": 88,
+          "endLine": 112,
+          "params": [
+            "html",
+            "start"
+          ]
+        },
+        {
+          "name": "readTagName",
+          "startLine": 114,
+          "endLine": 117,
+          "params": [
+            "tagContent"
+          ]
+        },
+        {
+          "name": "findTrailingSlashIndex",
+          "startLine": 119,
+          "endLine": 129,
+          "params": [
+            "tagContent"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "generatePreviewHTML",
+          "line": 39,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "generatePreviewHTML",
+          "callee": "closeSelfClosingBlockElements(\n    code\n      .replace(/className=/g, \"class=\")\n      .replace(/\\{`([^`]*)`\\}/g, \"$1\")\n      .replace(/\\{\\/\\*[\\s\\S]*?\\*\\/\\}/g, \"\")\n  ).trim",
+          "lineNumber": 40
+        },
+        {
+          "caller": "generatePreviewHTML",
+          "callee": "closeSelfClosingBlockElements",
+          "lineNumber": 40
+        },
+        {
+          "caller": "generatePreviewHTML",
+          "callee": "code\n      .replace(/className=/g, \"class=\")\n      .replace(/\\{`([^`]*)`\\}/g, \"$1\")\n      .replace",
+          "lineNumber": 41
+        },
+        {
+          "caller": "generatePreviewHTML",
+          "callee": "code\n      .replace(/className=/g, \"class=\")\n      .replace",
+          "lineNumber": 41
+        },
+        {
+          "caller": "generatePreviewHTML",
+          "callee": "code\n      .replace",
+          "lineNumber": 41
+        },
+        {
+          "caller": "closeSelfClosingBlockElements",
+          "callee": "html.indexOf",
+          "lineNumber": 53
+        },
+        {
+          "caller": "closeSelfClosingBlockElements",
+          "callee": "html.slice",
+          "lineNumber": 55
+        },
+        {
+          "caller": "closeSelfClosingBlockElements",
+          "callee": "html.slice",
+          "lineNumber": 59
+        },
+        {
+          "caller": "closeSelfClosingBlockElements",
+          "callee": "findTagEnd",
+          "lineNumber": 61
+        },
+        {
+          "caller": "closeSelfClosingBlockElements",
+          "callee": "html.slice",
+          "lineNumber": 63
+        },
+        {
+          "caller": "closeSelfClosingBlockElements",
+          "callee": "html.slice",
+          "lineNumber": 67
+        },
+        {
+          "caller": "closeSelfClosingBlockElements",
+          "callee": "readTagName",
+          "lineNumber": 68
+        },
+        {
+          "caller": "closeSelfClosingBlockElements",
+          "callee": "findTrailingSlashIndex",
+          "lineNumber": 69
+        },
+        {
+          "caller": "closeSelfClosingBlockElements",
+          "callee": "BLOCK_ELEMENT_NAMES.has",
+          "lineNumber": 74
+        },
+        {
+          "caller": "closeSelfClosingBlockElements",
+          "callee": "tagName.toLowerCase",
+          "lineNumber": 74
+        },
+        {
+          "caller": "closeSelfClosingBlockElements",
+          "callee": "tagContent.slice(0, slashIndex).trimEnd",
+          "lineNumber": 76
+        },
+        {
+          "caller": "closeSelfClosingBlockElements",
+          "callee": "tagContent.slice",
+          "lineNumber": 76
+        },
+        {
+          "caller": "closeSelfClosingBlockElements",
+          "callee": "html.slice",
+          "lineNumber": 79
+        },
+        {
+          "caller": "readTagName",
+          "callee": "tagContent.match",
+          "lineNumber": 115
+        },
+        {
+          "caller": "findTrailingSlashIndex",
+          "callee": "/\\s/.test",
+          "lineNumber": 122
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/locale-content.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 28,
+      "nonEmptyLines": 26,
+      "functions": [
+        {
+          "name": "localizedString",
+          "startLine": 8,
+          "endLine": 17,
+          "params": [
+            "locale",
+            "zh",
+            "en"
+          ]
+        },
+        {
+          "name": "localizedList",
+          "startLine": 19,
+          "endLine": 28,
+          "params": [
+            "locale",
+            "zh",
+            "en"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "localizedString",
+          "line": 8,
+          "isDefault": false
+        },
+        {
+          "name": "localizedList",
+          "line": 19,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/prompt-pair.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 258,
+      "nonEmptyLines": 211,
+      "functions": [
+        {
+          "name": "pickUnique",
+          "startLine": 23,
+          "endLine": 37,
+          "params": [
+            "values",
+            "limit"
+          ]
+        },
+        {
+          "name": "toBulletList",
+          "startLine": 39,
+          "endLine": 45,
+          "params": [
+            "values"
+          ]
+        },
+        {
+          "name": "hasCjk",
+          "startLine": 47,
+          "endLine": 49,
+          "params": [
+            "value"
+          ]
+        },
+        {
+          "name": "cjkRatio",
+          "startLine": 51,
+          "endLine": 56,
+          "params": [
+            "value"
+          ]
+        },
+        {
+          "name": "sanitizeEnglishRuleSource",
+          "startLine": 58,
+          "endLine": 82,
+          "params": [
+            "value"
+          ]
+        },
+        {
+          "name": "normalizeEnglishSignal",
+          "startLine": 84,
+          "endLine": 98,
+          "params": [
+            "value"
+          ]
+        },
+        {
+          "name": "buildEnglishKeywordFallback",
+          "startLine": 100,
+          "endLine": 109,
+          "params": [
+            "input"
+          ]
+        },
+        {
+          "name": "resolvePromptKeywords",
+          "startLine": 111,
+          "endLine": 124,
+          "params": [
+            "input",
+            "locale",
+            "limit"
+          ]
+        },
+        {
+          "name": "buildEnglishHardRules",
+          "startLine": 126,
+          "endLine": 137,
+          "params": [
+            "input"
+          ]
+        },
+        {
+          "name": "resolveHardRuleSource",
+          "startLine": 139,
+          "endLine": 152,
+          "params": [
+            "input",
+            "locale"
+          ]
+        },
+        {
+          "name": "buildHardPrompt",
+          "startLine": 198,
+          "endLine": 217,
+          "params": [
+            "input",
+            "locale"
+          ]
+        },
+        {
+          "name": "buildSoftPrompt",
+          "startLine": 219,
+          "endLine": 251,
+          "params": [
+            "input",
+            "locale"
+          ]
+        },
+        {
+          "name": "buildPromptPair",
+          "startLine": 253,
+          "endLine": 258,
+          "params": [
+            "input",
+            "locale"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "resolvePromptKeywords",
+          "line": 111,
+          "isDefault": false
+        },
+        {
+          "name": "buildHardPrompt",
+          "line": 198,
+          "isDefault": false
+        },
+        {
+          "name": "buildSoftPrompt",
+          "line": 219,
+          "isDefault": false
+        },
+        {
+          "name": "buildPromptPair",
+          "line": 253,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "pickUnique",
+          "callee": "value.trim",
+          "lineNumber": 28
+        },
+        {
+          "caller": "pickUnique",
+          "callee": "seen.has",
+          "lineNumber": 30
+        },
+        {
+          "caller": "pickUnique",
+          "callee": "seen.add",
+          "lineNumber": 31
+        },
+        {
+          "caller": "pickUnique",
+          "callee": "picked.push",
+          "lineNumber": 32
+        },
+        {
+          "caller": "toBulletList",
+          "callee": "values.map((value) => `- ${value}`).join",
+          "lineNumber": 44
+        },
+        {
+          "caller": "toBulletList",
+          "callee": "values.map",
+          "lineNumber": 44
+        },
+        {
+          "caller": "hasCjk",
+          "callee": "/[\\u3400-\\u9fff]/.test",
+          "lineNumber": 48
+        },
+        {
+          "caller": "cjkRatio",
+          "callee": "value.replace",
+          "lineNumber": 52
+        },
+        {
+          "caller": "cjkRatio",
+          "callee": "compact.match",
+          "lineNumber": 54
+        },
+        {
+          "caller": "sanitizeEnglishRuleSource",
+          "callee": "value.trim",
+          "lineNumber": 59
+        },
+        {
+          "caller": "sanitizeEnglishRuleSource",
+          "callee": "hasCjk",
+          "lineNumber": 61
+        },
+        {
+          "caller": "sanitizeEnglishRuleSource",
+          "callee": "trimmed\n    .replace(/\\s*[\\(（][^()（）]*[\\u3400-\\u9fff][^()（）]*[\\)）]/g, \"\")\n    .replace(/[ \\t]+/g, \" \")\n    .replace(/\\n{3,}/g, \"\\n\\n\")\n    .trim",
+          "lineNumber": 63
+        },
+        {
+          "caller": "sanitizeEnglishRuleSource",
+          "callee": "trimmed\n    .replace(/\\s*[\\(（][^()（）]*[\\u3400-\\u9fff][^()（）]*[\\)）]/g, \"\")\n    .replace(/[ \\t]+/g, \" \")\n    .replace",
+          "lineNumber": 63
+        },
+        {
+          "caller": "sanitizeEnglishRuleSource",
+          "callee": "trimmed\n    .replace(/\\s*[\\(（][^()（）]*[\\u3400-\\u9fff][^()（）]*[\\)）]/g, \"\")\n    .replace",
+          "lineNumber": 63
+        },
+        {
+          "caller": "sanitizeEnglishRuleSource",
+          "callee": "trimmed\n    .replace",
+          "lineNumber": 63
+        },
+        {
+          "caller": "sanitizeEnglishRuleSource",
+          "callee": "hasCjk",
+          "lineNumber": 69
+        },
+        {
+          "caller": "sanitizeEnglishRuleSource",
+          "callee": "cjkRatio",
+          "lineNumber": 73
+        },
+        {
+          "caller": "sanitizeEnglishRuleSource",
+          "callee": "withoutCjkParentheticals\n    .replace(/[\\u3400-\\u9fff]+/g, \"\")\n    .replace(/[ \\t]+/g, \" \")\n    .replace(/\\n{3,}/g, \"\\n\\n\")\n    .trim",
+          "lineNumber": 75
+        },
+        {
+          "caller": "sanitizeEnglishRuleSource",
+          "callee": "withoutCjkParentheticals\n    .replace(/[\\u3400-\\u9fff]+/g, \"\")\n    .replace(/[ \\t]+/g, \" \")\n    .replace",
+          "lineNumber": 75
+        },
+        {
+          "caller": "sanitizeEnglishRuleSource",
+          "callee": "withoutCjkParentheticals\n    .replace(/[\\u3400-\\u9fff]+/g, \"\")\n    .replace",
+          "lineNumber": 75
+        },
+        {
+          "caller": "sanitizeEnglishRuleSource",
+          "callee": "withoutCjkParentheticals\n    .replace",
+          "lineNumber": 75
+        },
+        {
+          "caller": "sanitizeEnglishRuleSource",
+          "callee": "hasCjk",
+          "lineNumber": 81
+        },
+        {
+          "caller": "normalizeEnglishSignal",
+          "callee": "value\n    .replace(/\\([^)]*\\)/g, \"\")\n    .replace(/^[*-]\\s+/, \"\")\n    .replace(/^(use|keep|create|build|make|prefer|prioritize|maintain|ensure|apply|combine|place|set)\\s+/i, \"\")\n    .replace(/\\s+/g, \" \")\n    .replace(/[.;:,]+$/g, \"\")\n    .trim",
+          "lineNumber": 85
+        },
+        {
+          "caller": "normalizeEnglishSignal",
+          "callee": "value\n    .replace(/\\([^)]*\\)/g, \"\")\n    .replace(/^[*-]\\s+/, \"\")\n    .replace(/^(use|keep|create|build|make|prefer|prioritize|maintain|ensure|apply|combine|place|set)\\s+/i, \"\")\n    .replace(/\\s+/g, \" \")\n    .replace",
+          "lineNumber": 85
+        },
+        {
+          "caller": "normalizeEnglishSignal",
+          "callee": "value\n    .replace(/\\([^)]*\\)/g, \"\")\n    .replace(/^[*-]\\s+/, \"\")\n    .replace(/^(use|keep|create|build|make|prefer|prioritize|maintain|ensure|apply|combine|place|set)\\s+/i, \"\")\n    .replace",
+          "lineNumber": 85
+        },
+        {
+          "caller": "normalizeEnglishSignal",
+          "callee": "value\n    .replace(/\\([^)]*\\)/g, \"\")\n    .replace(/^[*-]\\s+/, \"\")\n    .replace",
+          "lineNumber": 85
+        },
+        {
+          "caller": "normalizeEnglishSignal",
+          "callee": "value\n    .replace(/\\([^)]*\\)/g, \"\")\n    .replace",
+          "lineNumber": 85
+        },
+        {
+          "caller": "normalizeEnglishSignal",
+          "callee": "value\n    .replace",
+          "lineNumber": 85
+        },
+        {
+          "caller": "normalizeEnglishSignal",
+          "callee": "hasCjk",
+          "lineNumber": 93
+        },
+        {
+          "caller": "normalizeEnglishSignal",
+          "callee": "cleaned.split(/\\b(?:with|while|without|for|when|and|but|to)\\b/i)[0]?.trim",
+          "lineNumber": 96
+        },
+        {
+          "caller": "normalizeEnglishSignal",
+          "callee": "cleaned.split",
+          "lineNumber": 96
+        },
+        {
+          "caller": "normalizeEnglishSignal",
+          "callee": "cleaned.slice(0, 64).trim",
+          "lineNumber": 97
+        },
+        {
+          "caller": "normalizeEnglishSignal",
+          "callee": "cleaned.slice",
+          "lineNumber": 97
+        },
+        {
+          "caller": "buildEnglishKeywordFallback",
+          "callee": "input.keywords.filter",
+          "lineNumber": 101
+        },
+        {
+          "caller": "buildEnglishKeywordFallback",
+          "callee": "hasCjk",
+          "lineNumber": 101
+        },
+        {
+          "caller": "buildEnglishKeywordFallback",
+          "callee": "doSource\n    .map(normalizeEnglishSignal)\n    .filter",
+          "lineNumber": 103
+        },
+        {
+          "caller": "buildEnglishKeywordFallback",
+          "callee": "doSource\n    .map",
+          "lineNumber": 103
+        },
+        {
+          "caller": "buildEnglishKeywordFallback",
+          "callee": "Boolean",
+          "lineNumber": 105
+        },
+        {
+          "caller": "buildEnglishKeywordFallback",
+          "callee": "hasCjk",
+          "lineNumber": 106
+        },
+        {
+          "caller": "resolvePromptKeywords",
+          "callee": "buildEnglishKeywordFallback",
+          "lineNumber": 120
+        },
+        {
+          "caller": "resolvePromptKeywords",
+          "callee": "pickUnique",
+          "lineNumber": 123
+        },
+        {
+          "caller": "buildEnglishHardRules",
+          "callee": "pickUnique",
+          "lineNumber": 129
+        },
+        {
+          "caller": "buildEnglishHardRules",
+          "callee": "doSource.filter",
+          "lineNumber": 129
+        },
+        {
+          "caller": "buildEnglishHardRules",
+          "callee": "hasCjk",
+          "lineNumber": 129
+        },
+        {
+          "caller": "buildEnglishHardRules",
+          "callee": "pickUnique",
+          "lineNumber": 130
+        },
+        {
+          "caller": "buildEnglishHardRules",
+          "callee": "dontSource.filter",
+          "lineNumber": 130
+        },
+        {
+          "caller": "buildEnglishHardRules",
+          "callee": "hasCjk",
+          "lineNumber": 130
+        },
+        {
+          "caller": "buildEnglishHardRules",
+          "callee": "toBulletList",
+          "lineNumber": 133
+        },
+        {
+          "caller": "buildEnglishHardRules",
+          "callee": "toBulletList",
+          "lineNumber": 136
+        },
+        {
+          "caller": "resolveHardRuleSource",
+          "callee": "(input.enhancedRules || input.aiRules).trim",
+          "lineNumber": 141
+        },
+        {
+          "caller": "resolveHardRuleSource",
+          "callee": "sanitizeEnglishRuleSource",
+          "lineNumber": 147
+        },
+        {
+          "caller": "resolveHardRuleSource",
+          "callee": "buildEnglishHardRules",
+          "lineNumber": 151
+        },
+        {
+          "caller": "buildHardPrompt",
+          "callee": "buildStyleCopyIdentity",
+          "lineNumber": 199
+        },
+        {
+          "caller": "buildHardPrompt",
+          "callee": "resolveHardRuleSource",
+          "lineNumber": 203
+        },
+        {
+          "caller": "buildHardPrompt",
+          "callee": "text.requirements.map((r) => `- ${r}`).join",
+          "lineNumber": 213
+        },
+        {
+          "caller": "buildHardPrompt",
+          "callee": "text.requirements.map",
+          "lineNumber": 213
+        },
+        {
+          "caller": "buildSoftPrompt",
+          "callee": "buildStyleCopyIdentity",
+          "lineNumber": 220
+        },
+        {
+          "caller": "buildSoftPrompt",
+          "callee": "resolvePromptKeywords",
+          "lineNumber": 229
+        },
+        {
+          "caller": "buildSoftPrompt",
+          "callee": "pickUnique",
+          "lineNumber": 230
+        },
+        {
+          "caller": "buildSoftPrompt",
+          "callee": "pickUnique",
+          "lineNumber": 231
+        },
+        {
+          "caller": "buildSoftPrompt",
+          "callee": "toBulletList",
+          "lineNumber": 241
+        },
+        {
+          "caller": "buildSoftPrompt",
+          "callee": "toBulletList",
+          "lineNumber": 244
+        },
+        {
+          "caller": "buildSoftPrompt",
+          "callee": "toBulletList",
+          "lineNumber": 247
+        },
+        {
+          "caller": "buildSoftPrompt",
+          "callee": "text.guidance.map((g) => `- ${g}`).join",
+          "lineNumber": 250
+        },
+        {
+          "caller": "buildSoftPrompt",
+          "callee": "text.guidance.map",
+          "lineNumber": 250
+        },
+        {
+          "caller": "buildPromptPair",
+          "callee": "buildHardPrompt",
+          "lineNumber": 255
+        },
+        {
+          "caller": "buildPromptPair",
+          "callee": "buildSoftPrompt",
+          "lineNumber": 256
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 4,
+        "functionCount": 13,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/scenarios.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 200,
+      "nonEmptyLines": 180,
+      "functions": [
+        {
+          "name": "buildSearchText",
+          "startLine": 130,
+          "endLine": 143,
+          "params": [
+            "style"
+          ]
+        },
+        {
+          "name": "scoreStyleScenarios",
+          "startLine": 145,
+          "endLine": 186,
+          "params": [
+            "style"
+          ]
+        },
+        {
+          "name": "getStyleScenarios",
+          "startLine": 188,
+          "endLine": 193,
+          "params": [
+            "style",
+            "limit"
+          ]
+        },
+        {
+          "name": "getScenarioLabel",
+          "startLine": 195,
+          "endLine": 200,
+          "params": [
+            "scenario",
+            "locale"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "STYLE_SCENARIOS",
+          "line": 16,
+          "isDefault": false
+        },
+        {
+          "name": "getStyleScenarios",
+          "line": 188,
+          "isDefault": false
+        },
+        {
+          "name": "getScenarioLabel",
+          "line": 195,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "buildSearchText",
+          "callee": "[\n    style.slug,\n    style.name,\n    style.nameEn,\n    style.description,\n    style.category,\n    style.styleType,\n    ...style.tags,\n    ...style.keywords,\n  ]\n    .join(\" \")\n    .toLowerCase",
+          "lineNumber": 131
+        },
+        {
+          "caller": "buildSearchText",
+          "callee": "[\n    style.slug,\n    style.name,\n    style.nameEn,\n    style.description,\n    style.category,\n    style.styleType,\n    ...style.tags,\n    ...style.keywords,\n  ]\n    .join",
+          "lineNumber": 131
+        },
+        {
+          "caller": "scoreStyleScenarios",
+          "callee": "buildSearchText",
+          "lineNumber": 147
+        },
+        {
+          "caller": "scoreStyleScenarios",
+          "callee": "overrides.forEach",
+          "lineNumber": 150
+        },
+        {
+          "caller": "scoreStyleScenarios",
+          "callee": "scores.set",
+          "lineNumber": 151
+        },
+        {
+          "caller": "scoreStyleScenarios",
+          "callee": "SCENARIO_MATCHERS[scenario].some",
+          "lineNumber": 155
+        },
+        {
+          "caller": "scoreStyleScenarios",
+          "callee": "matcher.test",
+          "lineNumber": 156
+        },
+        {
+          "caller": "scoreStyleScenarios",
+          "callee": "scores.set",
+          "lineNumber": 159
+        },
+        {
+          "caller": "scoreStyleScenarios",
+          "callee": "scores.get",
+          "lineNumber": 159
+        },
+        {
+          "caller": "scoreStyleScenarios",
+          "callee": "scores.set",
+          "lineNumber": 164
+        },
+        {
+          "caller": "scoreStyleScenarios",
+          "callee": "scores.get",
+          "lineNumber": 164
+        },
+        {
+          "caller": "scoreStyleScenarios",
+          "callee": "scores.set",
+          "lineNumber": 165
+        },
+        {
+          "caller": "scoreStyleScenarios",
+          "callee": "scores.get",
+          "lineNumber": 165
+        },
+        {
+          "caller": "scoreStyleScenarios",
+          "callee": "scores.set",
+          "lineNumber": 166
+        },
+        {
+          "caller": "scoreStyleScenarios",
+          "callee": "scores.get",
+          "lineNumber": 166
+        },
+        {
+          "caller": "scoreStyleScenarios",
+          "callee": "scores.set",
+          "lineNumber": 171
+        },
+        {
+          "caller": "scoreStyleScenarios",
+          "callee": "scores.set",
+          "lineNumber": 172
+        },
+        {
+          "caller": "scoreStyleScenarios",
+          "callee": "scores.set",
+          "lineNumber": 174
+        },
+        {
+          "caller": "scoreStyleScenarios",
+          "callee": "scores.set",
+          "lineNumber": 175
+        },
+        {
+          "caller": "scoreStyleScenarios",
+          "callee": "scores.set",
+          "lineNumber": 177
+        },
+        {
+          "caller": "scoreStyleScenarios",
+          "callee": "scores.set",
+          "lineNumber": 178
+        },
+        {
+          "caller": "scoreStyleScenarios",
+          "callee": "scores.set",
+          "lineNumber": 180
+        },
+        {
+          "caller": "scoreStyleScenarios",
+          "callee": "scores.set",
+          "lineNumber": 181
+        },
+        {
+          "caller": "getStyleScenarios",
+          "callee": "[...scoreStyleScenarios(style).entries()]\n    .sort((left, right) => right[1] - left[1])\n    .slice(0, limit)\n    .map",
+          "lineNumber": 189
+        },
+        {
+          "caller": "getStyleScenarios",
+          "callee": "[...scoreStyleScenarios(style).entries()]\n    .sort((left, right) => right[1] - left[1])\n    .slice",
+          "lineNumber": 189
+        },
+        {
+          "caller": "getStyleScenarios",
+          "callee": "[...scoreStyleScenarios(style).entries()]\n    .sort",
+          "lineNumber": 189
+        },
+        {
+          "caller": "getStyleScenarios",
+          "callee": "scoreStyleScenarios(style).entries",
+          "lineNumber": 189
+        },
+        {
+          "caller": "getStyleScenarios",
+          "callee": "scoreStyleScenarios",
+          "lineNumber": 189
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 3,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/styles/style-copy-identity.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 16,
+      "nonEmptyLines": 15,
+      "functions": [
+        {
+          "name": "buildStyleCopyIdentity",
+          "startLine": 6,
+          "endLine": 16,
+          "params": [
+            "{\n  styleName,\n  styleSlug,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "buildStyleCopyIdentity",
+          "line": 6,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "buildStyleCopyIdentity",
+          "callee": "[\n    \"STYLEKIT_STYLE_REFERENCE\",\n    `style_name: ${styleName}`,\n    `style_slug: ${styleSlug}`,\n    `style_source: /styles/${styleSlug}`,\n  ].join",
+          "lineNumber": 10
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/swr/fetcher.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 27,
+      "nonEmptyLines": 26,
+      "functions": [
+        {
+          "name": "fetcher",
+          "startLine": 4,
+          "endLine": 27,
+          "params": [
+            "url"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "fetcher",
+          "line": 4,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "fetcher",
+          "callee": "fetch",
+          "lineNumber": 5
+        },
+        {
+          "caller": "fetcher",
+          "callee": "res.json",
+          "lineNumber": 9
+        },
+        {
+          "caller": "fetcher",
+          "callee": "payload.error.trim",
+          "lineNumber": 10
+        },
+        {
+          "caller": "fetcher",
+          "callee": "payload.message.trim",
+          "lineNumber": 14
+        },
+        {
+          "caller": "fetcher",
+          "callee": "res.json",
+          "lineNumber": 26
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/swr/provider.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 23,
+      "nonEmptyLines": 20,
+      "functions": [
+        {
+          "name": "SWRProvider",
+          "startLine": 10,
+          "endLine": 23,
+          "params": [
+            "{ children }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "SWRProvider",
+          "line": 10,
+          "isDefault": false
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/typography/index.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 507,
+      "nonEmptyLines": 488,
+      "functions": [
+        {
+          "name": "getFontPairingsByCategory",
+          "startLine": 446,
+          "endLine": 448,
+          "params": [
+            "category"
+          ]
+        },
+        {
+          "name": "getFontPairingById",
+          "startLine": 451,
+          "endLine": 453,
+          "params": [
+            "id"
+          ]
+        },
+        {
+          "name": "getFontPairingsByMood",
+          "startLine": 456,
+          "endLine": 460,
+          "params": [
+            "mood"
+          ]
+        },
+        {
+          "name": "getTypographyCategories",
+          "startLine": 463,
+          "endLine": 494,
+          "params": []
+        },
+        {
+          "name": "generateGoogleFontsLink",
+          "startLine": 497,
+          "endLine": 506,
+          "params": [
+            "pairing"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "fontPairings",
+          "line": 31,
+          "isDefault": false
+        },
+        {
+          "name": "getFontPairingsByCategory",
+          "line": 446,
+          "isDefault": false
+        },
+        {
+          "name": "getFontPairingById",
+          "line": 451,
+          "isDefault": false
+        },
+        {
+          "name": "getFontPairingsByMood",
+          "line": 456,
+          "isDefault": false
+        },
+        {
+          "name": "getTypographyCategories",
+          "line": 463,
+          "isDefault": false
+        },
+        {
+          "name": "generateGoogleFontsLink",
+          "line": 497,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "getFontPairingsByCategory",
+          "callee": "fontPairings.filter",
+          "lineNumber": 447
+        },
+        {
+          "caller": "getFontPairingById",
+          "callee": "fontPairings.find",
+          "lineNumber": 452
+        },
+        {
+          "caller": "getFontPairingsByMood",
+          "callee": "fontPairings.filter",
+          "lineNumber": 457
+        },
+        {
+          "caller": "getFontPairingsByMood",
+          "callee": "p.mood.some",
+          "lineNumber": 458
+        },
+        {
+          "caller": "getFontPairingsByMood",
+          "callee": "m.toLowerCase().includes",
+          "lineNumber": 458
+        },
+        {
+          "caller": "getFontPairingsByMood",
+          "callee": "m.toLowerCase",
+          "lineNumber": 458
+        },
+        {
+          "caller": "getFontPairingsByMood",
+          "callee": "mood.toLowerCase",
+          "lineNumber": 458
+        },
+        {
+          "caller": "getTypographyCategories",
+          "callee": "fontPairings.map",
+          "lineNumber": 487
+        },
+        {
+          "caller": "getTypographyCategories",
+          "callee": "categories.map",
+          "lineNumber": 488
+        },
+        {
+          "caller": "getTypographyCategories",
+          "callee": "fontPairings.filter",
+          "lineNumber": 490
+        },
+        {
+          "caller": "generateGoogleFontsLink",
+          "callee": "pairing.heading.family.replace",
+          "lineNumber": 498
+        },
+        {
+          "caller": "generateGoogleFontsLink",
+          "callee": "pairing.body.family.replace",
+          "lineNumber": 499
+        }
+      ],
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 6,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "tests/unit/components/pointer-interactions/pointer-interactions.test.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 90,
+      "nonEmptyLines": 76,
+      "functions": [
+        {
+          "name": "installMatchMedia",
+          "startLine": 7,
+          "endLine": 21,
+          "params": [
+            "matches"
+          ]
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "installMatchMedia",
+          "callee": "Object.defineProperty",
+          "lineNumber": 8
+        },
+        {
+          "caller": "installMatchMedia",
+          "callee": "vi.fn",
+          "lineNumber": 10
+        },
+        {
+          "caller": "installMatchMedia",
+          "callee": "vi.fn",
+          "lineNumber": 14
+        },
+        {
+          "caller": "installMatchMedia",
+          "callee": "vi.fn",
+          "lineNumber": 15
+        },
+        {
+          "caller": "installMatchMedia",
+          "callee": "vi.fn",
+          "lineNumber": 16
+        },
+        {
+          "caller": "installMatchMedia",
+          "callee": "vi.fn",
+          "lineNumber": 17
+        },
+        {
+          "caller": "installMatchMedia",
+          "callee": "vi.fn",
+          "lineNumber": 18
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "tests/unit/components/style-preview/component-preview.test.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 124,
+      "nonEmptyLines": 112,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "tests/unit/lib/prompt-pair.test.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 100,
+      "nonEmptyLines": 86,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "tests/unit/lib/sanitize-html.test.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 92,
+      "nonEmptyLines": 78,
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    }
+  ]
+}

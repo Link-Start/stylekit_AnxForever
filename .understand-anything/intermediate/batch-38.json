@@ -1,0 +1,386 @@
+{
+  "nodes": [
+    {
+      "id": "file:app/templates/minimalist-portfolio/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/templates/minimalist-portfolio/page.tsx",
+      "summary": "Full-page Minimalist Portfolio template with complete layouts, interactive components, and responsive design for the template showcase.",
+      "tags": [
+        "template",
+        "page",
+        "showcase"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/templates/music-player/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/templates/music-player/page.tsx",
+      "summary": "Full-page Music Player template with complete layouts, interactive components, and responsive design for the template showcase.",
+      "tags": [
+        "template",
+        "page",
+        "showcase"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/templates/neumorphism-landing/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/templates/neumorphism-landing/page.tsx",
+      "summary": "Full-page Neumorphism Landing template with complete layouts, interactive components, and responsive design for the template showcase.",
+      "tags": [
+        "template",
+        "page",
+        "showcase"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/templates/portfolio-gallery/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/templates/portfolio-gallery/page.tsx",
+      "summary": "Full-page Portfolio Gallery template with complete layouts, interactive components, and responsive design for the template showcase.",
+      "tags": [
+        "template",
+        "page",
+        "showcase"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/templates/pricing-page/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/templates/pricing-page/page.tsx",
+      "summary": "Full-page Pricing Page template with complete layouts, interactive components, and responsive design for the template showcase.",
+      "tags": [
+        "template",
+        "page",
+        "showcase"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/templates/real-estate/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/templates/real-estate/page.tsx",
+      "summary": "Full-page Real Estate template with complete layouts, interactive components, and responsive design for the template showcase.",
+      "tags": [
+        "template",
+        "page",
+        "showcase"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/templates/recipe-cooking/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/templates/recipe-cooking/page.tsx",
+      "summary": "Full-page Recipe Cooking template with complete layouts, interactive components, and responsive design for the template showcase.",
+      "tags": [
+        "template",
+        "page",
+        "showcase"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/templates/saas-landing/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/templates/saas-landing/page.tsx",
+      "summary": "Full-page Saas Landing template with complete layouts, interactive components, and responsive design for the template showcase.",
+      "tags": [
+        "template",
+        "page",
+        "showcase"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/templates/settings-page/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/templates/settings-page/page.tsx",
+      "summary": "Full-page Settings Page template with complete layouts, interactive components, and responsive design for the template showcase.",
+      "tags": [
+        "template",
+        "page",
+        "showcase"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/templates/shadcn-analytics/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/templates/shadcn-analytics/page.tsx",
+      "summary": "Full-page Shadcn Analytics template with complete layouts, interactive components, and responsive design for the template showcase.",
+      "tags": [
+        "template",
+        "page",
+        "showcase"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/templates/social-feed/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/templates/social-feed/page.tsx",
+      "summary": "Full-page Social Feed template with complete layouts, interactive components, and responsive design for the template showcase.",
+      "tags": [
+        "template",
+        "page",
+        "showcase"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/templates/startup-landing/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/templates/startup-landing/page.tsx",
+      "summary": "Full-page Startup Landing template with complete layouts, interactive components, and responsive design for the template showcase.",
+      "tags": [
+        "template",
+        "page",
+        "showcase"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/templates/travel-booking/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/templates/travel-booking/page.tsx",
+      "summary": "Full-page Travel Booking template with complete layouts, interactive components, and responsive design for the template showcase.",
+      "tags": [
+        "template",
+        "page",
+        "showcase"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/templates/warm-dashboard/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/templates/warm-dashboard/page.tsx",
+      "summary": "Full-page Warm Dashboard template with complete layouts, interactive components, and responsive design for the template showcase.",
+      "tags": [
+        "template",
+        "page",
+        "showcase"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:app/templates/yohaku-blog/page.tsx",
+      "type": "file",
+      "name": "page.tsx",
+      "filePath": "app/templates/yohaku-blog/page.tsx",
+      "summary": "Full-page Yohaku Blog template with complete layouts, interactive components, and responsive design for the template showcase.",
+      "tags": [
+        "template",
+        "page",
+        "showcase"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:components/scroll-back-button.tsx",
+      "type": "file",
+      "name": "scroll-back-button.tsx",
+      "filePath": "components/scroll-back-button.tsx",
+      "summary": "Scroll-aware back button that saves and restores scroll position when navigating between pages.",
+      "tags": [
+        "component",
+        "navigation",
+        "ux"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/templates/template-back-button.tsx",
+      "type": "file",
+      "name": "template-back-button.tsx",
+      "filePath": "components/templates/template-back-button.tsx",
+      "summary": "Back button component for template pages with i18n-aware navigation and scroll position restoration.",
+      "tags": [
+        "component",
+        "navigation",
+        "back-button"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:components/ui/brutal/index.tsx",
+      "type": "file",
+      "name": "index.tsx",
+      "filePath": "components/ui/brutal/index.tsx",
+      "summary": "Barrel re-export file aggregating all brutalist UI components from the brutal directory.",
+      "tags": [
+        "barrel",
+        "index",
+        "brutalist"
+      ],
+      "complexity": "simple"
+    },
+    {
+      "id": "file:lib/navigation/smart-back.ts",
+      "type": "file",
+      "name": "smart-back.ts",
+      "filePath": "lib/navigation/smart-back.ts",
+      "summary": "Smart navigation utility that intelligently chooses between browser back, saved return URL, or fallback route.",
+      "tags": [
+        "utility",
+        "navigation",
+        "routing"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:app/templates/minimalist-portfolio/page.tsx",
+      "target": "file:components/templates/template-back-button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/templates/music-player/page.tsx",
+      "target": "file:components/templates/template-back-button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/templates/neumorphism-landing/page.tsx",
+      "target": "file:components/templates/template-back-button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/templates/portfolio-gallery/page.tsx",
+      "target": "file:components/templates/template-back-button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/templates/pricing-page/page.tsx",
+      "target": "file:components/templates/template-back-button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/templates/real-estate/page.tsx",
+      "target": "file:components/templates/template-back-button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/templates/recipe-cooking/page.tsx",
+      "target": "file:components/templates/template-back-button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/templates/saas-landing/page.tsx",
+      "target": "file:components/templates/template-back-button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/templates/settings-page/page.tsx",
+      "target": "file:components/templates/template-back-button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/templates/shadcn-analytics/page.tsx",
+      "target": "file:components/templates/template-back-button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/templates/social-feed/page.tsx",
+      "target": "file:components/templates/template-back-button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/templates/startup-landing/page.tsx",
+      "target": "file:components/templates/template-back-button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/templates/travel-booking/page.tsx",
+      "target": "file:components/templates/template-back-button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/templates/warm-dashboard/page.tsx",
+      "target": "file:components/templates/template-back-button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:app/templates/yohaku-blog/page.tsx",
+      "target": "file:components/templates/template-back-button.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/scroll-back-button.tsx",
+      "target": "file:lib/navigation/smart-back.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/templates/template-back-button.tsx",
+      "target": "file:lib/i18n/context.tsx",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:components/templates/template-back-button.tsx",
+      "target": "file:lib/navigation/smart-back.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/navigation/smart-back.ts",
+      "target": "file:lib/i18n/routing.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

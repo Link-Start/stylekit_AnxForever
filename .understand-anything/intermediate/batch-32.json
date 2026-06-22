@@ -1,0 +1,553 @@
+{
+  "nodes": [
+    {
+      "id": "file:lib/styles/skeuomorphism.ts",
+      "type": "file",
+      "name": "skeuomorphism.ts",
+      "filePath": "lib/styles/skeuomorphism.ts",
+      "summary": "Defines the Skeuomorphism design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/soft-ui.ts",
+      "type": "file",
+      "name": "soft-ui.ts",
+      "filePath": "lib/styles/soft-ui.ts",
+      "summary": "Defines the Soft Ui design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/solarpunk.ts",
+      "type": "file",
+      "name": "solarpunk.ts",
+      "filePath": "lib/styles/solarpunk.ts",
+      "summary": "Defines the Solarpunk design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/split-screen.ts",
+      "type": "file",
+      "name": "split-screen.ts",
+      "filePath": "lib/styles/split-screen.ts",
+      "summary": "Defines the Split Screen design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/steampunk.ts",
+      "type": "file",
+      "name": "steampunk.ts",
+      "filePath": "lib/styles/steampunk.ts",
+      "summary": "Defines the Steampunk design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/stripe-style.ts",
+      "type": "file",
+      "name": "stripe-style.ts",
+      "filePath": "lib/styles/stripe-style.ts",
+      "summary": "Defines the Stripe Style design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/surrealism.ts",
+      "type": "file",
+      "name": "surrealism.ts",
+      "filePath": "lib/styles/surrealism.ts",
+      "summary": "Defines the Surrealism design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/swiss-poster.ts",
+      "type": "file",
+      "name": "swiss-poster.ts",
+      "filePath": "lib/styles/swiss-poster.ts",
+      "summary": "Defines the Swiss Poster design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/swiss-style.ts",
+      "type": "file",
+      "name": "swiss-style.ts",
+      "filePath": "lib/styles/swiss-style.ts",
+      "summary": "Defines the Swiss Style design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/synthwave.ts",
+      "type": "file",
+      "name": "synthwave.ts",
+      "filePath": "lib/styles/synthwave.ts",
+      "summary": "Defines the Synthwave design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/terracotta.ts",
+      "type": "file",
+      "name": "terracotta.ts",
+      "filePath": "lib/styles/terracotta.ts",
+      "summary": "Defines the Terracotta design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/timeline-vertical.ts",
+      "type": "file",
+      "name": "timeline-vertical.ts",
+      "filePath": "lib/styles/timeline-vertical.ts",
+      "summary": "Defines the Timeline Vertical design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/tropical-paradise.ts",
+      "type": "file",
+      "name": "tropical-paradise.ts",
+      "filePath": "lib/styles/tropical-paradise.ts",
+      "summary": "Defines the Tropical Paradise design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/types.ts",
+      "type": "file",
+      "name": "types.ts",
+      "filePath": "lib/styles/types.ts",
+      "summary": "Core TypeScript type definitions for the DesignStyle interface and all supporting types including StyleVariant and ComponentTemplate.",
+      "tags": [
+        "type-definition",
+        "typescript",
+        "interface"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/ukiyo-e-digital.ts",
+      "type": "file",
+      "name": "ukiyo-e-digital.ts",
+      "filePath": "lib/styles/ukiyo-e-digital.ts",
+      "summary": "Defines the Ukiyo E Digital design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/vaporwave.ts",
+      "type": "file",
+      "name": "vaporwave.ts",
+      "filePath": "lib/styles/vaporwave.ts",
+      "summary": "Defines the Vaporwave design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/vhs-aesthetic.ts",
+      "type": "file",
+      "name": "vhs-aesthetic.ts",
+      "filePath": "lib/styles/vhs-aesthetic.ts",
+      "summary": "Defines the Vhs Aesthetic design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/victorian-botanical.ts",
+      "type": "file",
+      "name": "victorian-botanical.ts",
+      "filePath": "lib/styles/victorian-botanical.ts",
+      "summary": "Defines the Victorian Botanical design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/visual-novel.ts",
+      "type": "file",
+      "name": "visual-novel.ts",
+      "filePath": "lib/styles/visual-novel.ts",
+      "summary": "Defines the Visual Novel design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/wabi-sabi.ts",
+      "type": "file",
+      "name": "wabi-sabi.ts",
+      "filePath": "lib/styles/wabi-sabi.ts",
+      "summary": "Defines the Wabi Sabi design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "complex"
+    },
+    {
+      "id": "file:lib/styles/warm-dashboard.ts",
+      "type": "file",
+      "name": "warm-dashboard.ts",
+      "filePath": "lib/styles/warm-dashboard.ts",
+      "summary": "Defines the Warm Dashboard design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/watercolor-art.ts",
+      "type": "file",
+      "name": "watercolor-art.ts",
+      "filePath": "lib/styles/watercolor-art.ts",
+      "summary": "Defines the Watercolor Art design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/watercolor-style.ts",
+      "type": "file",
+      "name": "watercolor-style.ts",
+      "filePath": "lib/styles/watercolor-style.ts",
+      "summary": "Defines the Watercolor Style design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/witchcore.ts",
+      "type": "file",
+      "name": "witchcore.ts",
+      "filePath": "lib/styles/witchcore.ts",
+      "summary": "Defines the Witchcore design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/y2k.ts",
+      "type": "file",
+      "name": "y2k.ts",
+      "filePath": "lib/styles/y2k.ts",
+      "summary": "Defines the Y2K design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/z-pattern-layout.ts",
+      "type": "file",
+      "name": "z-pattern-layout.ts",
+      "filePath": "lib/styles/z-pattern-layout.ts",
+      "summary": "Defines the Z Pattern Layout design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    },
+    {
+      "id": "file:lib/styles/zen-garden.ts",
+      "type": "file",
+      "name": "zen-garden.ts",
+      "filePath": "lib/styles/zen-garden.ts",
+      "summary": "Defines the Zen Garden design style with full component templates, design tokens, CSS variables, and AI prompting rules.",
+      "tags": [
+        "style-definition",
+        "design-system",
+        "ui-component"
+      ],
+      "complexity": "moderate"
+    }
+  ],
+  "edges": [
+    {
+      "source": "file:lib/styles/skeuomorphism.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/soft-ui.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/solarpunk.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/split-screen.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/steampunk.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/stripe-style.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/surrealism.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/swiss-poster.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/swiss-style.ts",
+      "target": "file:lib/styles/atoms/swiss-style.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/swiss-style.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/synthwave.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/terracotta.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/timeline-vertical.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/tropical-paradise.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/types.ts",
+      "target": "file:lib/styles/atoms/index.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/ukiyo-e-digital.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/vaporwave.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/vhs-aesthetic.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/victorian-botanical.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/visual-novel.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/wabi-sabi.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/warm-dashboard.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/watercolor-art.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/watercolor-style.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/witchcore.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/y2k.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/z-pattern-layout.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    },
+    {
+      "source": "file:lib/styles/zen-garden.ts",
+      "target": "file:lib/styles/types.ts",
+      "type": "imports",
+      "direction": "forward",
+      "weight": 0.7
+    }
+  ]
+}

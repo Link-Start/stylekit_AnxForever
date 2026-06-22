@@ -1,0 +1,4516 @@
+{
+  "scriptCompleted": true,
+  "filesAnalyzed": 19,
+  "filesSkipped": [],
+  "results": [
+    {
+      "path": "app/templates/minimalist-portfolio/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 747,
+      "nonEmptyLines": 696,
+      "functions": [
+        {
+          "name": "MinimalistPortfolioTemplate",
+          "startLine": 159,
+          "endLine": 747,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "MinimalistPortfolioTemplate",
+          "line": 159,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "MinimalistPortfolioTemplate",
+          "callee": "useState",
+          "lineNumber": 160
+        },
+        {
+          "caller": "MinimalistPortfolioTemplate",
+          "callee": "useState",
+          "lineNumber": 161
+        },
+        {
+          "caller": "MinimalistPortfolioTemplate",
+          "callee": "useState",
+          "lineNumber": 162
+        },
+        {
+          "caller": "MinimalistPortfolioTemplate",
+          "callee": "useState",
+          "lineNumber": 163
+        },
+        {
+          "caller": "MinimalistPortfolioTemplate",
+          "callee": "useState",
+          "lineNumber": 164
+        },
+        {
+          "caller": "toggleProject",
+          "callee": "setExpandedProject",
+          "lineNumber": 168
+        },
+        {
+          "caller": "handleFormChange",
+          "callee": "setForm",
+          "lineNumber": 173
+        },
+        {
+          "caller": "handleFormChange",
+          "callee": "setErrors",
+          "lineNumber": 175
+        },
+        {
+          "caller": "validateForm",
+          "callee": "form.name.trim",
+          "lineNumber": 185
+        },
+        {
+          "caller": "validateForm",
+          "callee": "form.name.trim",
+          "lineNumber": 185
+        },
+        {
+          "caller": "validateForm",
+          "callee": "form.email.trim",
+          "lineNumber": 189
+        },
+        {
+          "caller": "validateForm",
+          "callee": "emailRegex.test",
+          "lineNumber": 189
+        },
+        {
+          "caller": "validateForm",
+          "callee": "form.message.trim",
+          "lineNumber": 195
+        },
+        {
+          "caller": "validateForm",
+          "callee": "form.message.trim",
+          "lineNumber": 195
+        },
+        {
+          "caller": "validateForm",
+          "callee": "setErrors",
+          "lineNumber": 198
+        },
+        {
+          "caller": "validateForm",
+          "callee": "Object.keys",
+          "lineNumber": 199
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "e.preventDefault",
+          "lineNumber": 203
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "validateForm",
+          "lineNumber": 204
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "setSubmitState",
+          "lineNumber": 205
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "setTimeout",
+          "lineNumber": 206
+        },
+        {
+          "caller": "handleSubmit",
+          "callee": "setSubmitState",
+          "lineNumber": 207
+        },
+        {
+          "caller": "handleReset",
+          "callee": "setForm",
+          "lineNumber": 211
+        },
+        {
+          "caller": "handleReset",
+          "callee": "setErrors",
+          "lineNumber": 212
+        },
+        {
+          "caller": "handleReset",
+          "callee": "setSubmitState",
+          "lineNumber": 213
+        },
+        {
+          "caller": "scrollTo",
+          "callee": "document.getElementById(id)?.scrollIntoView",
+          "lineNumber": 218
+        },
+        {
+          "caller": "scrollTo",
+          "callee": "document.getElementById",
+          "lineNumber": 218
+        },
+        {
+          "caller": "scrollTo",
+          "callee": "setMobileMenuOpen",
+          "lineNumber": 219
+        },
+        {
+          "caller": "MinimalistPortfolioTemplate",
+          "callee": "scrollTo",
+          "lineNumber": 237
+        },
+        {
+          "caller": "MinimalistPortfolioTemplate",
+          "callee": "scrollTo",
+          "lineNumber": 243
+        },
+        {
+          "caller": "MinimalistPortfolioTemplate",
+          "callee": "scrollTo",
+          "lineNumber": 249
+        },
+        {
+          "caller": "MinimalistPortfolioTemplate",
+          "callee": "setMobileMenuOpen",
+          "lineNumber": 259
+        },
+        {
+          "caller": "MinimalistPortfolioTemplate",
+          "callee": "[\"work\", \"about\", \"contact\"].map",
+          "lineNumber": 269
+        },
+        {
+          "caller": "MinimalistPortfolioTemplate",
+          "callee": "scrollTo",
+          "lineNumber": 272
+        },
+        {
+          "caller": "MinimalistPortfolioTemplate",
+          "callee": "id.charAt(0).toUpperCase",
+          "lineNumber": 275
+        },
+        {
+          "caller": "MinimalistPortfolioTemplate",
+          "callee": "id.charAt",
+          "lineNumber": 275
+        },
+        {
+          "caller": "MinimalistPortfolioTemplate",
+          "callee": "id.slice",
+          "lineNumber": 275
+        },
+        {
+          "caller": "MinimalistPortfolioTemplate",
+          "callee": "scrollTo",
+          "lineNumber": 313
+        },
+        {
+          "caller": "MinimalistPortfolioTemplate",
+          "callee": "scrollTo",
+          "lineNumber": 319
+        },
+        {
+          "caller": "MinimalistPortfolioTemplate",
+          "callee": "projects.map",
+          "lineNumber": 340
+        },
+        {
+          "caller": "MinimalistPortfolioTemplate",
+          "callee": "toggleProject",
+          "lineNumber": 346
+        },
+        {
+          "caller": "MinimalistPortfolioTemplate",
+          "callee": "project.tags.map",
+          "lineNumber": 403
+        },
+        {
+          "caller": "MinimalistPortfolioTemplate",
+          "callee": "project.techStack.map",
+          "lineNumber": 422
+        },
+        {
+          "caller": "MinimalistPortfolioTemplate",
+          "callee": "skills.map",
+          "lineNumber": 507
+        },
+        {
+          "caller": "MinimalistPortfolioTemplate",
+          "callee": "[\n                    { value: \"10+\", label: \"Years experience\" },\n                    { value: \"80+\", label: \"Projects shipped\" },\n                    { value: \"30+\", label: \"Clients served\" },\n                  ].map",
+          "lineNumber": 524
+        },
+        {
+          "caller": "MinimalistPortfolioTemplate",
+          "callee": "handleFormChange",
+          "lineNumber": 615
+        },
+        {
+          "caller": "MinimalistPortfolioTemplate",
+          "callee": "handleFormChange",
+          "lineNumber": 635
+        },
+        {
+          "caller": "MinimalistPortfolioTemplate",
+          "callee": "handleFormChange",
+          "lineNumber": 654
+        },
+        {
+          "caller": "MinimalistPortfolioTemplate",
+          "callee": "handleFormChange",
+          "lineNumber": 679
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/templates/music-player/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 333,
+      "nonEmptyLines": 314,
+      "functions": [
+        {
+          "name": "MusicPlayerTemplate",
+          "startLine": 57,
+          "endLine": 284,
+          "params": []
+        },
+        {
+          "name": "SidebarContent",
+          "startLine": 286,
+          "endLine": 333,
+          "params": [
+            "{ recentPlaylists }"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "MusicPlayerTemplate",
+          "line": 57,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "MusicPlayerTemplate",
+          "callee": "useState",
+          "lineNumber": 58
+        },
+        {
+          "caller": "MusicPlayerTemplate",
+          "callee": "useState",
+          "lineNumber": 59
+        },
+        {
+          "caller": "MusicPlayerTemplate",
+          "callee": "useState",
+          "lineNumber": 60
+        },
+        {
+          "caller": "MusicPlayerTemplate",
+          "callee": "useState",
+          "lineNumber": 61
+        },
+        {
+          "caller": "MusicPlayerTemplate",
+          "callee": "useState",
+          "lineNumber": 62
+        },
+        {
+          "caller": "toggleLike",
+          "callee": "setTracks",
+          "lineNumber": 67
+        },
+        {
+          "caller": "toggleLike",
+          "callee": "prev.map",
+          "lineNumber": 68
+        },
+        {
+          "caller": "playTrack",
+          "callee": "setCurrentTrack",
+          "lineNumber": 73
+        },
+        {
+          "caller": "playTrack",
+          "callee": "setIsPlaying",
+          "lineNumber": 74
+        },
+        {
+          "caller": "playTrack",
+          "callee": "setProgress",
+          "lineNumber": 75
+        },
+        {
+          "caller": "MusicPlayerTemplate",
+          "callee": "setSidebarOpen",
+          "lineNumber": 84
+        },
+        {
+          "caller": "MusicPlayerTemplate",
+          "callee": "setSidebarOpen",
+          "lineNumber": 88
+        },
+        {
+          "caller": "MusicPlayerTemplate",
+          "callee": "setSidebarOpen",
+          "lineNumber": 113
+        },
+        {
+          "caller": "MusicPlayerTemplate",
+          "callee": "tracks.map",
+          "lineNumber": 147
+        },
+        {
+          "caller": "MusicPlayerTemplate",
+          "callee": "playTrack",
+          "lineNumber": 150
+        },
+        {
+          "caller": "MusicPlayerTemplate",
+          "callee": "e.stopPropagation",
+          "lineNumber": 176
+        },
+        {
+          "caller": "MusicPlayerTemplate",
+          "callee": "toggleLike",
+          "lineNumber": 177
+        },
+        {
+          "caller": "MusicPlayerTemplate",
+          "callee": "toggleLike",
+          "lineNumber": 206
+        },
+        {
+          "caller": "MusicPlayerTemplate",
+          "callee": "setCurrentTrack",
+          "lineNumber": 223
+        },
+        {
+          "caller": "MusicPlayerTemplate",
+          "callee": "setProgress",
+          "lineNumber": 224
+        },
+        {
+          "caller": "MusicPlayerTemplate",
+          "callee": "setIsPlaying",
+          "lineNumber": 231
+        },
+        {
+          "caller": "MusicPlayerTemplate",
+          "callee": "setCurrentTrack",
+          "lineNumber": 242
+        },
+        {
+          "caller": "MusicPlayerTemplate",
+          "callee": "setProgress",
+          "lineNumber": 243
+        },
+        {
+          "caller": "SidebarContent",
+          "callee": "[\n          { icon: Home, label: \"Home\", active: true },\n          { icon: Search, label: \"Search\", active: false },\n          { icon: Library, label: \"Your Library\", active: false },\n          { icon: Radio, label: \"Radio\", active: false },\n        ].map",
+          "lineNumber": 290
+        },
+        {
+          "caller": "SidebarContent",
+          "callee": "recentPlaylists.map",
+          "lineNumber": 318
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/templates/neumorphism-landing/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 927,
+      "nonEmptyLines": 867,
+      "functions": [
+        {
+          "name": "validateEmail",
+          "startLine": 157,
+          "endLine": 159,
+          "params": [
+            "email"
+          ]
+        },
+        {
+          "name": "NeumorphismLandingTemplate",
+          "startLine": 162,
+          "endLine": 927,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "NeumorphismLandingTemplate",
+          "line": 162,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "validateEmail",
+          "callee": "/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test",
+          "lineNumber": 158
+        },
+        {
+          "caller": "validateEmail",
+          "callee": "email.trim",
+          "lineNumber": 158
+        },
+        {
+          "caller": "NeumorphismLandingTemplate",
+          "callee": "useState",
+          "lineNumber": 164
+        },
+        {
+          "caller": "NeumorphismLandingTemplate",
+          "callee": "useState",
+          "lineNumber": 167
+        },
+        {
+          "caller": "NeumorphismLandingTemplate",
+          "callee": "useState",
+          "lineNumber": 172
+        },
+        {
+          "caller": "NeumorphismLandingTemplate",
+          "callee": "useState",
+          "lineNumber": 175
+        },
+        {
+          "caller": "NeumorphismLandingTemplate",
+          "callee": "useState",
+          "lineNumber": 178
+        },
+        {
+          "caller": "NeumorphismLandingTemplate",
+          "callee": "useState",
+          "lineNumber": 179
+        },
+        {
+          "caller": "NeumorphismLandingTemplate",
+          "callee": "useState",
+          "lineNumber": 180
+        },
+        {
+          "caller": "handleFormChange",
+          "callee": "setFormData",
+          "lineNumber": 187
+        },
+        {
+          "caller": "handleFormChange",
+          "callee": "setFormErrors",
+          "lineNumber": 189
+        },
+        {
+          "caller": "handleFormSubmit",
+          "callee": "e.preventDefault",
+          "lineNumber": 194
+        },
+        {
+          "caller": "handleFormSubmit",
+          "callee": "formData.name.trim",
+          "lineNumber": 198
+        },
+        {
+          "caller": "handleFormSubmit",
+          "callee": "formData.email.trim",
+          "lineNumber": 202
+        },
+        {
+          "caller": "handleFormSubmit",
+          "callee": "validateEmail",
+          "lineNumber": 205
+        },
+        {
+          "caller": "handleFormSubmit",
+          "callee": "setFormErrors",
+          "lineNumber": 210
+        },
+        {
+          "caller": "handleFormSubmit",
+          "callee": "setSubmitState",
+          "lineNumber": 213
+        },
+        {
+          "caller": "handleFormSubmit",
+          "callee": "setTimeout",
+          "lineNumber": 214
+        },
+        {
+          "caller": "handleFormSubmit",
+          "callee": "setSubmitState",
+          "lineNumber": 215
+        },
+        {
+          "caller": "NeumorphismLandingTemplate",
+          "callee": "NAV_LINKS.map",
+          "lineNumber": 245
+        },
+        {
+          "caller": "NeumorphismLandingTemplate",
+          "callee": "setMobileMenuOpen",
+          "lineNumber": 271
+        },
+        {
+          "caller": "NeumorphismLandingTemplate",
+          "callee": "NAV_LINKS.map",
+          "lineNumber": 287
+        },
+        {
+          "caller": "NeumorphismLandingTemplate",
+          "callee": "setMobileMenuOpen",
+          "lineNumber": 291
+        },
+        {
+          "caller": "NeumorphismLandingTemplate",
+          "callee": "[\n                  { icon: Layers, label: \"Projects\" },\n                  { icon: Users, label: \"Teams\" },\n                  { icon: BarChart2, label: \"Reports\" },\n                  { icon: Globe, label: \"Global\" },\n                ].map",
+          "lineNumber": 346
+        },
+        {
+          "caller": "NeumorphismLandingTemplate",
+          "callee": "STATS.map",
+          "lineNumber": 376
+        },
+        {
+          "caller": "NeumorphismLandingTemplate",
+          "callee": "FEATURES.map",
+          "lineNumber": 409
+        },
+        {
+          "caller": "NeumorphismLandingTemplate",
+          "callee": "setActiveFeature",
+          "lineNumber": 415
+        },
+        {
+          "caller": "NeumorphismLandingTemplate",
+          "callee": "(() => {\n                  const Icon = currentPlan.icon;\n                  return <Icon className=\"w-7 h-7 text-indigo-600\" />;\n                })",
+          "lineNumber": 436
+        },
+        {
+          "caller": "NeumorphismLandingTemplate",
+          "callee": "FEATURES.map",
+          "lineNumber": 457
+        },
+        {
+          "caller": "NeumorphismLandingTemplate",
+          "callee": "setActiveFeature",
+          "lineNumber": 463
+        },
+        {
+          "caller": "NeumorphismLandingTemplate",
+          "callee": "setBillingCycle",
+          "lineNumber": 520
+        },
+        {
+          "caller": "NeumorphismLandingTemplate",
+          "callee": "PRICING.map",
+          "lineNumber": 550
+        },
+        {
+          "caller": "NeumorphismLandingTemplate",
+          "callee": "plan.features.map",
+          "lineNumber": 617
+        },
+        {
+          "caller": "NeumorphismLandingTemplate",
+          "callee": "Array.from({ length: currentTestimonial.rating }).map",
+          "lineNumber": 672
+        },
+        {
+          "caller": "NeumorphismLandingTemplate",
+          "callee": "Array.from",
+          "lineNumber": 672
+        },
+        {
+          "caller": "NeumorphismLandingTemplate",
+          "callee": "currentTestimonial.author.charAt",
+          "lineNumber": 690
+        },
+        {
+          "caller": "NeumorphismLandingTemplate",
+          "callee": "TESTIMONIALS.map",
+          "lineNumber": 708
+        },
+        {
+          "caller": "NeumorphismLandingTemplate",
+          "callee": "setActiveTestimonial",
+          "lineNumber": 711
+        },
+        {
+          "caller": "NeumorphismLandingTemplate",
+          "callee": "t.author.split",
+          "lineNumber": 718
+        },
+        {
+          "caller": "NeumorphismLandingTemplate",
+          "callee": "setSubmitState",
+          "lineNumber": 762
+        },
+        {
+          "caller": "NeumorphismLandingTemplate",
+          "callee": "setFormData",
+          "lineNumber": 763
+        },
+        {
+          "caller": "NeumorphismLandingTemplate",
+          "callee": "new Date().getFullYear",
+          "lineNumber": 896
+        },
+        {
+          "caller": "NeumorphismLandingTemplate",
+          "callee": "[\"Privacy\", \"Terms\", \"Security\", \"Contact\"].map",
+          "lineNumber": 911
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/templates/portfolio-gallery/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 705,
+      "nonEmptyLines": 662,
+      "functions": [
+        {
+          "name": "CategoryBadge",
+          "startLine": 223,
+          "endLine": 231,
+          "params": [
+            "{ category }"
+          ]
+        },
+        {
+          "name": "ProjectCard",
+          "startLine": 233,
+          "endLine": 285,
+          "params": [
+            "{\n  project,\n  onClick,\n}"
+          ]
+        },
+        {
+          "name": "ProjectRow",
+          "startLine": 287,
+          "endLine": 328,
+          "params": [
+            "{\n  project,\n  onClick,\n}"
+          ]
+        },
+        {
+          "name": "ProjectModal",
+          "startLine": 330,
+          "endLine": 449,
+          "params": [
+            "{\n  project,\n  onClose,\n}"
+          ]
+        },
+        {
+          "name": "PortfolioGalleryTemplate",
+          "startLine": 455,
+          "endLine": 705,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "PortfolioGalleryTemplate",
+          "line": 455,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ProjectModal",
+          "callee": "project.techStack.map",
+          "lineNumber": 418
+        },
+        {
+          "caller": "ProjectModal",
+          "callee": "project.tags.map",
+          "lineNumber": 435
+        },
+        {
+          "caller": "PortfolioGalleryTemplate",
+          "callee": "useState",
+          "lineNumber": 456
+        },
+        {
+          "caller": "PortfolioGalleryTemplate",
+          "callee": "useState",
+          "lineNumber": 457
+        },
+        {
+          "caller": "PortfolioGalleryTemplate",
+          "callee": "useState",
+          "lineNumber": 458
+        },
+        {
+          "caller": "PortfolioGalleryTemplate",
+          "callee": "PROJECTS.filter",
+          "lineNumber": 463
+        },
+        {
+          "caller": "PortfolioGalleryTemplate",
+          "callee": "FILTER_CATEGORIES.map",
+          "lineNumber": 548
+        },
+        {
+          "caller": "PortfolioGalleryTemplate",
+          "callee": "setActiveCategory",
+          "lineNumber": 551
+        },
+        {
+          "caller": "PortfolioGalleryTemplate",
+          "callee": "PROJECTS.filter",
+          "lineNumber": 565
+        },
+        {
+          "caller": "PortfolioGalleryTemplate",
+          "callee": "setViewMode",
+          "lineNumber": 575
+        },
+        {
+          "caller": "PortfolioGalleryTemplate",
+          "callee": "setViewMode",
+          "lineNumber": 586
+        },
+        {
+          "caller": "PortfolioGalleryTemplate",
+          "callee": "filteredProjects.map",
+          "lineNumber": 612
+        },
+        {
+          "caller": "PortfolioGalleryTemplate",
+          "callee": "setSelectedProject",
+          "lineNumber": 616
+        },
+        {
+          "caller": "PortfolioGalleryTemplate",
+          "callee": "filteredProjects.map",
+          "lineNumber": 632
+        },
+        {
+          "caller": "PortfolioGalleryTemplate",
+          "callee": "setSelectedProject",
+          "lineNumber": 636
+        },
+        {
+          "caller": "PortfolioGalleryTemplate",
+          "callee": "setSelectedProject",
+          "lineNumber": 657
+        },
+        {
+          "caller": "PortfolioGalleryTemplate",
+          "callee": "(\n              [\n                { label: \"Dribbble\", href: \"#\" },\n                { label: \"Behance\", href: \"#\" },\n                { label: \"Instagram\", href: \"#\" },\n              ] as const\n            ).map",
+          "lineNumber": 682
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 5,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/templates/pricing-page/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 587,
+      "nonEmptyLines": 546,
+      "functions": [
+        {
+          "name": "formatPrice",
+          "startLine": 132,
+          "endLine": 136,
+          "params": [
+            "plan",
+            "cycle"
+          ]
+        },
+        {
+          "name": "renderFeatureValue",
+          "startLine": 138,
+          "endLine": 151,
+          "params": [
+            "value",
+            "highlighted"
+          ]
+        },
+        {
+          "name": "BillingToggle",
+          "startLine": 155,
+          "endLine": 205,
+          "params": [
+            "{\n  cycle,\n  onChange,\n}"
+          ]
+        },
+        {
+          "name": "PlanCard",
+          "startLine": 207,
+          "endLine": 304,
+          "params": [
+            "{\n  plan,\n  cycle,\n  isSelected,\n  onSelect,\n}"
+          ]
+        },
+        {
+          "name": "ComparisonTable",
+          "startLine": 306,
+          "endLine": 383,
+          "params": [
+            "{\n  plans: planList,\n  selectedPlan,\n}"
+          ]
+        },
+        {
+          "name": "FaqAccordion",
+          "startLine": 385,
+          "endLine": 428,
+          "params": [
+            "{ items }"
+          ]
+        },
+        {
+          "name": "PricingPageTemplate",
+          "startLine": 432,
+          "endLine": 587,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "PricingPageTemplate",
+          "line": 432,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "BillingToggle",
+          "callee": "onChange",
+          "lineNumber": 168
+        },
+        {
+          "caller": "BillingToggle",
+          "callee": "onChange",
+          "lineNumber": 176
+        },
+        {
+          "caller": "BillingToggle",
+          "callee": "onChange",
+          "lineNumber": 192
+        },
+        {
+          "caller": "PlanCard",
+          "callee": "formatPrice",
+          "lineNumber": 219
+        },
+        {
+          "caller": "PlanCard",
+          "callee": "plan.yearlyBilled.toLocaleString",
+          "lineNumber": 264
+        },
+        {
+          "caller": "PlanCard",
+          "callee": "e.stopPropagation",
+          "lineNumber": 277
+        },
+        {
+          "caller": "PlanCard",
+          "callee": "featureLabels.map",
+          "lineNumber": 290
+        },
+        {
+          "caller": "PlanCard",
+          "callee": "renderFeatureValue",
+          "lineNumber": 296
+        },
+        {
+          "caller": "ComparisonTable",
+          "callee": "useState",
+          "lineNumber": 313
+        },
+        {
+          "caller": "ComparisonTable",
+          "callee": "planList.map",
+          "lineNumber": 323
+        },
+        {
+          "caller": "ComparisonTable",
+          "callee": "featureLabels.map",
+          "lineNumber": 339
+        },
+        {
+          "caller": "ComparisonTable",
+          "callee": "setHoveredRow",
+          "lineNumber": 342
+        },
+        {
+          "caller": "ComparisonTable",
+          "callee": "setHoveredRow",
+          "lineNumber": 343
+        },
+        {
+          "caller": "ComparisonTable",
+          "callee": "planList.map",
+          "lineNumber": 362
+        },
+        {
+          "caller": "ComparisonTable",
+          "callee": "renderFeatureValue",
+          "lineNumber": 372
+        },
+        {
+          "caller": "FaqAccordion",
+          "callee": "useState",
+          "lineNumber": 386
+        },
+        {
+          "caller": "toggle",
+          "callee": "setOpenIndex",
+          "lineNumber": 389
+        },
+        {
+          "caller": "FaqAccordion",
+          "callee": "items.map",
+          "lineNumber": 394
+        },
+        {
+          "caller": "FaqAccordion",
+          "callee": "toggle",
+          "lineNumber": 404
+        },
+        {
+          "caller": "PricingPageTemplate",
+          "callee": "useState",
+          "lineNumber": 433
+        },
+        {
+          "caller": "PricingPageTemplate",
+          "callee": "useState",
+          "lineNumber": 434
+        },
+        {
+          "caller": "PricingPageTemplate",
+          "callee": "plans.map",
+          "lineNumber": 482
+        },
+        {
+          "caller": "PricingPageTemplate",
+          "callee": "setSelectedPlan",
+          "lineNumber": 488
+        },
+        {
+          "caller": "PricingPageTemplate",
+          "callee": "[\n            { stat: \"10,000+\", label: \"Teams using StyleKit\" },\n            { stat: \"99.99%\", label: \"Uptime SLA (Business)\" },\n            { stat: \"14-day\", label: \"Free trial, no card needed\" },\n            { stat: \"30-day\", label: \"Money-back guarantee\" },\n          ].map",
+          "lineNumber": 500
+        },
+        {
+          "caller": "PricingPageTemplate",
+          "callee": "new Date().getFullYear",
+          "lineNumber": 573
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 7,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/templates/real-estate/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 582,
+      "nonEmptyLines": 561,
+      "functions": [
+        {
+          "name": "PropertyCard",
+          "startLine": 117,
+          "endLine": 194,
+          "params": [
+            "{\n  property: prop,\n  index,\n  isFavorite,\n  onToggleFavorite,\n  onSelect,\n}"
+          ]
+        },
+        {
+          "name": "RealEstateTemplate",
+          "startLine": 196,
+          "endLine": 582,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "RealEstateTemplate",
+          "line": 196,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "PropertyCard",
+          "callee": "prop.price.toLocaleString",
+          "lineNumber": 134
+        },
+        {
+          "caller": "PropertyCard",
+          "callee": "e.preventDefault",
+          "lineNumber": 139
+        },
+        {
+          "caller": "PropertyCard",
+          "callee": "onSelect",
+          "lineNumber": 140
+        },
+        {
+          "caller": "PropertyCard",
+          "callee": "e.stopPropagation",
+          "lineNumber": 148
+        },
+        {
+          "caller": "PropertyCard",
+          "callee": "onToggleFavorite",
+          "lineNumber": 149
+        },
+        {
+          "caller": "PropertyCard",
+          "callee": "prop.price.toLocaleString",
+          "lineNumber": 163
+        },
+        {
+          "caller": "PropertyCard",
+          "callee": "prop.sqft.toLocaleString",
+          "lineNumber": 188
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "useState",
+          "lineNumber": 197
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "useState",
+          "lineNumber": 198
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "useState",
+          "lineNumber": 199
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "useState",
+          "lineNumber": 200
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "useState",
+          "lineNumber": 201
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "useState",
+          "lineNumber": 202
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "useState",
+          "lineNumber": 203
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "useState",
+          "lineNumber": 204
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "useState",
+          "lineNumber": 205
+        },
+        {
+          "caller": "toggleFavorite",
+          "callee": "setFavorites",
+          "lineNumber": 208
+        },
+        {
+          "caller": "toggleFavorite",
+          "callee": "prev.includes",
+          "lineNumber": 209
+        },
+        {
+          "caller": "toggleFavorite",
+          "callee": "prev.filter",
+          "lineNumber": 209
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "([\n              { key: \"browse\" as ViewMode, label: \"Browse\" },\n              { key: \"favorites\" as ViewMode, label: `Favorites${favorites.length > 0 ? ` (${favorites.length})` : \"\"}` },\n              { key: \"map\" as ViewMode, label: \"Map View\" },\n            ]).map",
+          "lineNumber": 227
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "setViewMode",
+          "lineNumber": 234
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "setSearchQuery",
+          "lineNumber": 271
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "setPriceFilter",
+          "lineNumber": 277
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "priceRanges.map",
+          "lineNumber": 280
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "setTypeFilter",
+          "lineNumber": 286
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "propertyTypes.map",
+          "lineNumber": 289
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "setBedFilter",
+          "lineNumber": 295
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "bedOptions.map",
+          "lineNumber": 298
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "setSortBy",
+          "lineNumber": 304
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "sortOptions.map",
+          "lineNumber": 307
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "properties.map",
+          "lineNumber": 334
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "favorites.includes",
+          "lineNumber": 339
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "toggleFavorite",
+          "lineNumber": 340
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "setSelectedProperty",
+          "lineNumber": 341
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "setViewMode",
+          "lineNumber": 363
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "properties\n                  .filter((p) => favorites.includes(p.title))\n                  .map",
+          "lineNumber": 371
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "properties\n                  .filter",
+          "lineNumber": 371
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "favorites.includes",
+          "lineNumber": 372
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "properties.indexOf",
+          "lineNumber": 374
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "toggleFavorite",
+          "lineNumber": 381
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "setSelectedProperty",
+          "lineNumber": 382
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "properties.map",
+          "lineNumber": 399
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "setSelectedProperty",
+          "lineNumber": 412
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "prop.price.toLocaleString",
+          "lineNumber": 422
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "setSelectedProperty",
+          "lineNumber": 447
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "setShowContact",
+          "lineNumber": 448
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "detail.price.toLocaleString",
+          "lineNumber": 466
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "detail.sqft.toLocaleString",
+          "lineNumber": 481
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "detail.features.map",
+          "lineNumber": 490
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "setShowContact",
+          "lineNumber": 501
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "toggleFavorite",
+          "lineNumber": 507
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "favorites.includes",
+          "lineNumber": 509
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "favorites.includes",
+          "lineNumber": 515
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "detail.agent.name.split(\" \").map((n) => n[0]).join",
+          "lineNumber": 524
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "detail.agent.name.split(\" \").map",
+          "lineNumber": 524
+        },
+        {
+          "caller": "RealEstateTemplate",
+          "callee": "detail.agent.name.split",
+          "lineNumber": 524
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/templates/recipe-cooking/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 417,
+      "nonEmptyLines": 403,
+      "functions": [
+        {
+          "name": "RecipeCookingTemplate",
+          "startLine": 119,
+          "endLine": 417,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "RecipeCookingTemplate",
+          "line": 119,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "RecipeCookingTemplate",
+          "callee": "useState",
+          "lineNumber": 120
+        },
+        {
+          "caller": "RecipeCookingTemplate",
+          "callee": "useState",
+          "lineNumber": 121
+        },
+        {
+          "caller": "RecipeCookingTemplate",
+          "callee": "useState",
+          "lineNumber": 122
+        },
+        {
+          "caller": "RecipeCookingTemplate",
+          "callee": "useState",
+          "lineNumber": 123
+        },
+        {
+          "caller": "RecipeCookingTemplate",
+          "callee": "useState",
+          "lineNumber": 124
+        },
+        {
+          "caller": "toggleSave",
+          "callee": "setSavedRecipes",
+          "lineNumber": 127
+        },
+        {
+          "caller": "toggleSave",
+          "callee": "prev.includes",
+          "lineNumber": 128
+        },
+        {
+          "caller": "toggleSave",
+          "callee": "prev.filter",
+          "lineNumber": 128
+        },
+        {
+          "caller": "RecipeCookingTemplate",
+          "callee": "setSearchQuery",
+          "lineNumber": 155
+        },
+        {
+          "caller": "RecipeCookingTemplate",
+          "callee": "setSidebarOpen",
+          "lineNumber": 161
+        },
+        {
+          "caller": "RecipeCookingTemplate",
+          "callee": "setSidebarOpen",
+          "lineNumber": 190
+        },
+        {
+          "caller": "RecipeCookingTemplate",
+          "callee": "categories.map",
+          "lineNumber": 198
+        },
+        {
+          "caller": "RecipeCookingTemplate",
+          "callee": "setActiveCategory",
+          "lineNumber": 202
+        },
+        {
+          "caller": "RecipeCookingTemplate",
+          "callee": "setSidebarOpen",
+          "lineNumber": 203
+        },
+        {
+          "caller": "RecipeCookingTemplate",
+          "callee": "setShowDetail",
+          "lineNumber": 226
+        },
+        {
+          "caller": "RecipeCookingTemplate",
+          "callee": "setShowDetail",
+          "lineNumber": 265
+        },
+        {
+          "caller": "RecipeCookingTemplate",
+          "callee": "toggleSave",
+          "lineNumber": 279
+        },
+        {
+          "caller": "RecipeCookingTemplate",
+          "callee": "savedRecipes.includes",
+          "lineNumber": 283
+        },
+        {
+          "caller": "RecipeCookingTemplate",
+          "callee": "detailRecipe.ingredients.map",
+          "lineNumber": 297
+        },
+        {
+          "caller": "RecipeCookingTemplate",
+          "callee": "detailRecipe.steps.map",
+          "lineNumber": 314
+        },
+        {
+          "caller": "RecipeCookingTemplate",
+          "callee": "recipes.map",
+          "lineNumber": 340
+        },
+        {
+          "caller": "RecipeCookingTemplate",
+          "callee": "toggleSave",
+          "lineNumber": 350
+        },
+        {
+          "caller": "RecipeCookingTemplate",
+          "callee": "savedRecipes.includes",
+          "lineNumber": 354
+        },
+        {
+          "caller": "RecipeCookingTemplate",
+          "callee": "difficultyColor",
+          "lineNumber": 367
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/templates/saas-landing/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 835,
+      "nonEmptyLines": 795,
+      "functions": [
+        {
+          "name": "SaasLandingTemplate",
+          "startLine": 157,
+          "endLine": 835,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "SaasLandingTemplate",
+          "line": 157,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "SaasLandingTemplate",
+          "callee": "useState",
+          "lineNumber": 159
+        },
+        {
+          "caller": "SaasLandingTemplate",
+          "callee": "useState",
+          "lineNumber": 162
+        },
+        {
+          "caller": "SaasLandingTemplate",
+          "callee": "useState",
+          "lineNumber": 163
+        },
+        {
+          "caller": "SaasLandingTemplate",
+          "callee": "useState",
+          "lineNumber": 164
+        },
+        {
+          "caller": "SaasLandingTemplate",
+          "callee": "useState",
+          "lineNumber": 167
+        },
+        {
+          "caller": "SaasLandingTemplate",
+          "callee": "useState",
+          "lineNumber": 170
+        },
+        {
+          "caller": "SaasLandingTemplate",
+          "callee": "useState",
+          "lineNumber": 173
+        },
+        {
+          "caller": "handleWaitlistSubmit",
+          "callee": "e.preventDefault",
+          "lineNumber": 177
+        },
+        {
+          "caller": "handleWaitlistSubmit",
+          "callee": "waitlistEmail.includes",
+          "lineNumber": 178
+        },
+        {
+          "caller": "handleWaitlistSubmit",
+          "callee": "setWaitlistError",
+          "lineNumber": 179
+        },
+        {
+          "caller": "handleWaitlistSubmit",
+          "callee": "setWaitlistError",
+          "lineNumber": 182
+        },
+        {
+          "caller": "handleWaitlistSubmit",
+          "callee": "setWaitlistState",
+          "lineNumber": 183
+        },
+        {
+          "caller": "handleWaitlistSubmit",
+          "callee": "setTimeout",
+          "lineNumber": 184
+        },
+        {
+          "caller": "handleWaitlistSubmit",
+          "callee": "setWaitlistState",
+          "lineNumber": 185
+        },
+        {
+          "caller": "prevTestimonial",
+          "callee": "setActiveTestimonial",
+          "lineNumber": 191
+        },
+        {
+          "caller": "nextTestimonial",
+          "callee": "setActiveTestimonial",
+          "lineNumber": 197
+        },
+        {
+          "caller": "toggleFaq",
+          "callee": "setOpenFaq",
+          "lineNumber": 204
+        },
+        {
+          "caller": "SaasLandingTemplate",
+          "callee": "setMobileMenuOpen",
+          "lineNumber": 260
+        },
+        {
+          "caller": "SaasLandingTemplate",
+          "callee": "setMobileMenuOpen",
+          "lineNumber": 277
+        },
+        {
+          "caller": "SaasLandingTemplate",
+          "callee": "setMobileMenuOpen",
+          "lineNumber": 284
+        },
+        {
+          "caller": "SaasLandingTemplate",
+          "callee": "setMobileMenuOpen",
+          "lineNumber": 291
+        },
+        {
+          "caller": "SaasLandingTemplate",
+          "callee": "setMobileMenuOpen",
+          "lineNumber": 298
+        },
+        {
+          "caller": "SaasLandingTemplate",
+          "callee": "setWaitlistEmail",
+          "lineNumber": 352
+        },
+        {
+          "caller": "SaasLandingTemplate",
+          "callee": "setWaitlistError",
+          "lineNumber": 353
+        },
+        {
+          "caller": "SaasLandingTemplate",
+          "callee": "[\"TechCorp\", \"DataFlow\", \"CloudBase\", \"ScaleUp\", \"DevOps.io\"].map",
+          "lineNumber": 412
+        },
+        {
+          "caller": "SaasLandingTemplate",
+          "callee": "features.map",
+          "lineNumber": 441
+        },
+        {
+          "caller": "SaasLandingTemplate",
+          "callee": "setBillingCycle",
+          "lineNumber": 476
+        },
+        {
+          "caller": "SaasLandingTemplate",
+          "callee": "setBillingCycle",
+          "lineNumber": 486
+        },
+        {
+          "caller": "SaasLandingTemplate",
+          "callee": "plans.map",
+          "lineNumber": 508
+        },
+        {
+          "caller": "SaasLandingTemplate",
+          "callee": "getDisplayPrice",
+          "lineNumber": 536
+        },
+        {
+          "caller": "SaasLandingTemplate",
+          "callee": "getOriginalPrice",
+          "lineNumber": 551
+        },
+        {
+          "caller": "SaasLandingTemplate",
+          "callee": "getDisplayPrice",
+          "lineNumber": 557
+        },
+        {
+          "caller": "SaasLandingTemplate",
+          "callee": "plan.features.map",
+          "lineNumber": 579
+        },
+        {
+          "caller": "SaasLandingTemplate",
+          "callee": "testimonials.map",
+          "lineNumber": 629
+        },
+        {
+          "caller": "SaasLandingTemplate",
+          "callee": "Array.from({ length: 5 }).map",
+          "lineNumber": 642
+        },
+        {
+          "caller": "SaasLandingTemplate",
+          "callee": "Array.from",
+          "lineNumber": 642
+        },
+        {
+          "caller": "SaasLandingTemplate",
+          "callee": "testimonials.map",
+          "lineNumber": 686
+        },
+        {
+          "caller": "SaasLandingTemplate",
+          "callee": "setActiveTestimonial",
+          "lineNumber": 689
+        },
+        {
+          "caller": "SaasLandingTemplate",
+          "callee": "faqItems.map",
+          "lineNumber": 718
+        },
+        {
+          "caller": "SaasLandingTemplate",
+          "callee": "toggleFaq",
+          "lineNumber": 724
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/templates/settings-page/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 787,
+      "nonEmptyLines": 738,
+      "functions": [
+        {
+          "name": "SettingsPageTemplate",
+          "startLine": 63,
+          "endLine": 787,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "SettingsPageTemplate",
+          "line": 63,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "useState",
+          "lineNumber": 64
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "useState",
+          "lineNumber": 65
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "useState",
+          "lineNumber": 66
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "useState",
+          "lineNumber": 74
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "useState",
+          "lineNumber": 75
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "useState",
+          "lineNumber": 80
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "useState",
+          "lineNumber": 83
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "useState",
+          "lineNumber": 88
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "useState",
+          "lineNumber": 93
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "useState",
+          "lineNumber": 94
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "useState",
+          "lineNumber": 101
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "useState",
+          "lineNumber": 102
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "useState",
+          "lineNumber": 103
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "useState",
+          "lineNumber": 106
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "useState",
+          "lineNumber": 107
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "useState",
+          "lineNumber": 108
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "(profileForm.firstName.charAt(0) || \"\").toUpperCase",
+          "lineNumber": 112
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "profileForm.firstName.charAt",
+          "lineNumber": 112
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "(profileForm.lastName.charAt(0) || \"\").toUpperCase",
+          "lineNumber": 113
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "profileForm.lastName.charAt",
+          "lineNumber": 113
+        },
+        {
+          "caller": "validateProfile",
+          "callee": "profileForm.firstName.trim",
+          "lineNumber": 118
+        },
+        {
+          "caller": "validateProfile",
+          "callee": "profileForm.lastName.trim",
+          "lineNumber": 119
+        },
+        {
+          "caller": "validateProfile",
+          "callee": "profileForm.email.trim",
+          "lineNumber": 120
+        },
+        {
+          "caller": "validateProfile",
+          "callee": "EMAIL_REGEX.test",
+          "lineNumber": 122
+        },
+        {
+          "caller": "handleProfileSave",
+          "callee": "validateProfile",
+          "lineNumber": 129
+        },
+        {
+          "caller": "handleProfileSave",
+          "callee": "Object.keys",
+          "lineNumber": 130
+        },
+        {
+          "caller": "handleProfileSave",
+          "callee": "setProfileErrors",
+          "lineNumber": 131
+        },
+        {
+          "caller": "handleProfileSave",
+          "callee": "setProfileErrors",
+          "lineNumber": 134
+        },
+        {
+          "caller": "handleProfileSave",
+          "callee": "setProfileSaveState",
+          "lineNumber": 135
+        },
+        {
+          "caller": "handleProfileSave",
+          "callee": "setTimeout",
+          "lineNumber": 136
+        },
+        {
+          "caller": "handleProfileSave",
+          "callee": "setProfileSaveState",
+          "lineNumber": 137
+        },
+        {
+          "caller": "handleProfileSave",
+          "callee": "setTimeout",
+          "lineNumber": 138
+        },
+        {
+          "caller": "handleProfileSave",
+          "callee": "setProfileSaveState",
+          "lineNumber": 138
+        },
+        {
+          "caller": "handleProfileCancel",
+          "callee": "setProfileForm",
+          "lineNumber": 143
+        },
+        {
+          "caller": "handleProfileCancel",
+          "callee": "setProfileErrors",
+          "lineNumber": 144
+        },
+        {
+          "caller": "handleProfileCancel",
+          "callee": "setProfileSaveState",
+          "lineNumber": 145
+        },
+        {
+          "caller": "validatePassword",
+          "callee": "passwordForm.current.trim",
+          "lineNumber": 151
+        },
+        {
+          "caller": "handlePasswordSave",
+          "callee": "validatePassword",
+          "lineNumber": 166
+        },
+        {
+          "caller": "handlePasswordSave",
+          "callee": "Object.keys",
+          "lineNumber": 167
+        },
+        {
+          "caller": "handlePasswordSave",
+          "callee": "setPasswordErrors",
+          "lineNumber": 168
+        },
+        {
+          "caller": "handlePasswordSave",
+          "callee": "setPasswordErrors",
+          "lineNumber": 171
+        },
+        {
+          "caller": "handlePasswordSave",
+          "callee": "setPasswordSaveState",
+          "lineNumber": 172
+        },
+        {
+          "caller": "handlePasswordSave",
+          "callee": "setTimeout",
+          "lineNumber": 173
+        },
+        {
+          "caller": "handlePasswordSave",
+          "callee": "setPasswordSaveState",
+          "lineNumber": 174
+        },
+        {
+          "caller": "handlePasswordSave",
+          "callee": "setPasswordForm",
+          "lineNumber": 175
+        },
+        {
+          "caller": "handlePasswordSave",
+          "callee": "setTimeout",
+          "lineNumber": 176
+        },
+        {
+          "caller": "handlePasswordSave",
+          "callee": "setPasswordSaveState",
+          "lineNumber": 176
+        },
+        {
+          "caller": "handlePlanConfirm",
+          "callee": "setCurrentPlan",
+          "lineNumber": 181
+        },
+        {
+          "caller": "handlePlanConfirm",
+          "callee": "setShowChangePlan",
+          "lineNumber": 182
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "tabs.map",
+          "lineNumber": 215
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "setActiveTab",
+          "lineNumber": 218
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "setProfileForm",
+          "lineNumber": 274
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "setProfileErrors",
+          "lineNumber": 275
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "setProfileForm",
+          "lineNumber": 294
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "setProfileErrors",
+          "lineNumber": 295
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "setProfileForm",
+          "lineNumber": 316
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "setProfileErrors",
+          "lineNumber": 317
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "setProfileForm",
+          "lineNumber": 336
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "setProfileForm",
+          "lineNumber": 350
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "[\n                    { key: \"email\" as const, title: \"Email Notifications\", desc: \"Receive notifications via email\" },\n                    { key: \"push\" as const, title: \"Push Notifications\", desc: \"Receive push notifications in browser\" },\n                    { key: \"weekly\" as const, title: \"Weekly Digest\", desc: \"Get a weekly summary of activity\" },\n                    { key: \"marketing\" as const, title: \"Marketing Emails\", desc: \"Receive product updates and offers\" },\n                  ].map",
+          "lineNumber": 383
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "setNotifications",
+          "lineNumber": 395
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "[\n                    { value: \"light\" as const, icon: Sun, label: \"Light\" },\n                    { value: \"dark\" as const, icon: Moon, label: \"Dark\" },\n                    { value: \"system\" as const, icon: Palette, label: \"System\" },\n                  ].map",
+          "lineNumber": 420
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "setTheme",
+          "lineNumber": 427
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "setPasswordForm",
+          "lineNumber": 468
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "setPasswordErrors",
+          "lineNumber": 469
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "setShowPasswords",
+          "lineNumber": 477
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "setPasswordForm",
+          "lineNumber": 500
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "setPasswordErrors",
+          "lineNumber": 501
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "setShowPasswords",
+          "lineNumber": 509
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "setPasswordForm",
+          "lineNumber": 535
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "setPasswordErrors",
+          "lineNumber": 536
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "setShowPasswords",
+          "lineNumber": 544
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "setTwoFAEnabled",
+          "lineNumber": 575
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "setShowDeleteConfirm",
+          "lineNumber": 599
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "setDeleteConfirmText",
+          "lineNumber": 612
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "setShowDeleteConfirm",
+          "lineNumber": 619
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "setDeleteConfirmText",
+          "lineNumber": 620
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "setPendingPlan",
+          "lineNumber": 659
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "setShowChangePlan",
+          "lineNumber": 660
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "[\n                      { date: \"Jan 1, 2025\", amount: \"$29.00\", status: \"Paid\" },\n                      { date: \"Dec 1, 2024\", amount: \"$29.00\", status: \"Paid\" },\n                      { date: \"Nov 1, 2024\", amount: \"$29.00\", status: \"Paid\" },\n                    ].map",
+          "lineNumber": 684
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "setShowChangePlan",
+          "lineNumber": 709
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "setShowChangePlan",
+          "lineNumber": 715
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "PLAN_OPTIONS.map",
+          "lineNumber": 724
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "setPendingPlan",
+          "lineNumber": 727
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "plan.features.map",
+          "lineNumber": 743
+        },
+        {
+          "caller": "SettingsPageTemplate",
+          "callee": "setShowChangePlan",
+          "lineNumber": 756
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/templates/shadcn-analytics/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 562,
+      "nonEmptyLines": 546,
+      "functions": [
+        {
+          "name": "AreaChartSVG",
+          "startLine": 108,
+          "endLine": 188,
+          "params": [
+            "{ data, timeRange }"
+          ]
+        },
+        {
+          "name": "ShadcnAnalyticsPage",
+          "startLine": 189,
+          "endLine": 562,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "ShadcnAnalyticsPage",
+          "line": 189,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "AreaChartSVG",
+          "callee": "useMemo",
+          "lineNumber": 109
+        },
+        {
+          "caller": "AreaChartSVG",
+          "callee": "start.setDate",
+          "lineNumber": 113
+        },
+        {
+          "caller": "AreaChartSVG",
+          "callee": "start.getDate",
+          "lineNumber": 113
+        },
+        {
+          "caller": "AreaChartSVG",
+          "callee": "data.filter",
+          "lineNumber": 114
+        },
+        {
+          "caller": "AreaChartSVG",
+          "callee": "Math.max",
+          "lineNumber": 117
+        },
+        {
+          "caller": "AreaChartSVG",
+          "callee": "filtered.flatMap",
+          "lineNumber": 117
+        },
+        {
+          "caller": "toPath",
+          "callee": "filtered\n      .map((d, i) => {\n        const x = pad.left + (i / Math.max(filtered.length - 1, 1)) * cw;\n        const y = pad.top + ch - (d[key] / maxVal) * ch;\n        return `${i === 0 ? \"M\" : \"L\"}${x.toFixed(1)},${y.toFixed(1)}`;\n      })\n      .join",
+          "lineNumber": 125
+        },
+        {
+          "caller": "toPath",
+          "callee": "filtered\n      .map",
+          "lineNumber": 125
+        },
+        {
+          "caller": "toPath",
+          "callee": "Math.max",
+          "lineNumber": 127
+        },
+        {
+          "caller": "toPath",
+          "callee": "x.toFixed",
+          "lineNumber": 129
+        },
+        {
+          "caller": "toPath",
+          "callee": "y.toFixed",
+          "lineNumber": 129
+        },
+        {
+          "caller": "toArea",
+          "callee": "toPath",
+          "lineNumber": 135
+        },
+        {
+          "caller": "AreaChartSVG",
+          "callee": "filtered.filter",
+          "lineNumber": 142
+        },
+        {
+          "caller": "AreaChartSVG",
+          "callee": "Math.max",
+          "lineNumber": 142
+        },
+        {
+          "caller": "AreaChartSVG",
+          "callee": "Math.floor",
+          "lineNumber": 142
+        },
+        {
+          "caller": "AreaChartSVG",
+          "callee": "[0, 0.25, 0.5, 0.75, 1].map",
+          "lineNumber": 157
+        },
+        {
+          "caller": "AreaChartSVG",
+          "callee": "toArea",
+          "lineNumber": 170
+        },
+        {
+          "caller": "AreaChartSVG",
+          "callee": "toArea",
+          "lineNumber": 171
+        },
+        {
+          "caller": "AreaChartSVG",
+          "callee": "toPath",
+          "lineNumber": 173
+        },
+        {
+          "caller": "AreaChartSVG",
+          "callee": "toPath",
+          "lineNumber": 174
+        },
+        {
+          "caller": "AreaChartSVG",
+          "callee": "labels.map",
+          "lineNumber": 176
+        },
+        {
+          "caller": "AreaChartSVG",
+          "callee": "filtered.indexOf",
+          "lineNumber": 177
+        },
+        {
+          "caller": "AreaChartSVG",
+          "callee": "Math.max",
+          "lineNumber": 178
+        },
+        {
+          "caller": "AreaChartSVG",
+          "callee": "new Date(d.date).toLocaleDateString",
+          "lineNumber": 179
+        },
+        {
+          "caller": "ShadcnAnalyticsPage",
+          "callee": "useState",
+          "lineNumber": 190
+        },
+        {
+          "caller": "ShadcnAnalyticsPage",
+          "callee": "useState",
+          "lineNumber": 191
+        },
+        {
+          "caller": "ShadcnAnalyticsPage",
+          "callee": "useState",
+          "lineNumber": 192
+        },
+        {
+          "caller": "ShadcnAnalyticsPage",
+          "callee": "useState",
+          "lineNumber": 193
+        },
+        {
+          "caller": "ShadcnAnalyticsPage",
+          "callee": "Math.ceil",
+          "lineNumber": 195
+        },
+        {
+          "caller": "ShadcnAnalyticsPage",
+          "callee": "tableData.slice",
+          "lineNumber": 196
+        },
+        {
+          "caller": "renderShadcnModuleContent",
+          "callee": "[\n                { stage: \"Draft\", count: 18 },\n                { stage: \"Review\", count: 11 },\n                { stage: \"Approved\", count: 26 },\n                { stage: \"Archived\", count: 9 },\n              ].map",
+          "lineNumber": 205
+        },
+        {
+          "caller": "renderShadcnModuleContent",
+          "callee": "[28, 35, 48, 42, 57, 63, 59, 68, 72, 66, 79, 74].map",
+          "lineNumber": 224
+        },
+        {
+          "caller": "renderShadcnModuleContent",
+          "callee": "[\n              { name: \"Q3 Knowledge Base\", owner: \"Eddie Lake\", status: \"In Progress\" },\n              { name: \"Policy Refactor\", owner: \"Jamik Tashpulatov\", status: \"Review\" },\n              { name: \"Data Cleanup\", owner: \"Eddie Lake\", status: \"Done\" },\n              { name: \"Audit Pack\", owner: \"Jamik Tashpulatov\", status: \"Planned\" },\n            ].map",
+          "lineNumber": 233
+        },
+        {
+          "caller": "renderShadcnModuleContent",
+          "callee": "[\n                { member: \"Eddie Lake\", capacity: 82 },\n                { member: \"Jamik Tashpulatov\", capacity: 66 },\n                { member: \"Maya Wang\", capacity: 74 },\n              ].map",
+          "lineNumber": 252
+        },
+        {
+          "caller": "renderShadcnModuleContent",
+          "callee": "[\n                \"Overview panel\",\n                \"Recent updates\",\n                \"Saved views\",\n                \"Ownership and permissions\",\n                \"Export and sharing\",\n                \"Audit history\",\n              ].map",
+          "lineNumber": 283
+        },
+        {
+          "caller": "ShadcnAnalyticsPage",
+          "callee": "navMain.map",
+          "lineNumber": 323
+        },
+        {
+          "caller": "ShadcnAnalyticsPage",
+          "callee": "setActivePage",
+          "lineNumber": 327
+        },
+        {
+          "caller": "ShadcnAnalyticsPage",
+          "callee": "navDocuments.map",
+          "lineNumber": 342
+        },
+        {
+          "caller": "ShadcnAnalyticsPage",
+          "callee": "setActivePage",
+          "lineNumber": 346
+        },
+        {
+          "caller": "ShadcnAnalyticsPage",
+          "callee": "navSecondary.map",
+          "lineNumber": 361
+        },
+        {
+          "caller": "ShadcnAnalyticsPage",
+          "callee": "setActivePage",
+          "lineNumber": 365
+        },
+        {
+          "caller": "ShadcnAnalyticsPage",
+          "callee": "setSidebarOpen",
+          "lineNumber": 395
+        },
+        {
+          "caller": "ShadcnAnalyticsPage",
+          "callee": "statCards.map",
+          "lineNumber": 410
+        },
+        {
+          "caller": "ShadcnAnalyticsPage",
+          "callee": "[\n                        { value: \"90d\", label: \"3 months\" },\n                        { value: \"30d\", label: \"30 days\" },\n                        { value: \"7d\", label: \"7 days\" },\n                      ].map",
+          "lineNumber": 448
+        },
+        {
+          "caller": "ShadcnAnalyticsPage",
+          "callee": "setTimeRange",
+          "lineNumber": 456
+        },
+        {
+          "caller": "ShadcnAnalyticsPage",
+          "callee": "pagedData.map",
+          "lineNumber": 500
+        },
+        {
+          "caller": "ShadcnAnalyticsPage",
+          "callee": "Math.min",
+          "lineNumber": 534
+        },
+        {
+          "caller": "ShadcnAnalyticsPage",
+          "callee": "setPage",
+          "lineNumber": 537
+        },
+        {
+          "caller": "ShadcnAnalyticsPage",
+          "callee": "setPage",
+          "lineNumber": 540
+        },
+        {
+          "caller": "ShadcnAnalyticsPage",
+          "callee": "Math.max",
+          "lineNumber": 540
+        },
+        {
+          "caller": "ShadcnAnalyticsPage",
+          "callee": "setPage",
+          "lineNumber": 543
+        },
+        {
+          "caller": "ShadcnAnalyticsPage",
+          "callee": "Math.min",
+          "lineNumber": 543
+        },
+        {
+          "caller": "ShadcnAnalyticsPage",
+          "callee": "setPage",
+          "lineNumber": 546
+        },
+        {
+          "caller": "ShadcnAnalyticsPage",
+          "callee": "renderShadcnModuleContent",
+          "lineNumber": 555
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 2,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/templates/social-feed/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 1099,
+      "nonEmptyLines": 1046,
+      "functions": [
+        {
+          "name": "formatCount",
+          "startLine": 211,
+          "endLine": 214,
+          "params": [
+            "n"
+          ]
+        },
+        {
+          "name": "getNotificationIcon",
+          "startLine": 216,
+          "endLine": 223,
+          "params": [
+            "type"
+          ]
+        },
+        {
+          "name": "SocialFeedTemplate",
+          "startLine": 225,
+          "endLine": 1099,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "SocialFeedTemplate",
+          "line": 225,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "formatCount",
+          "callee": "(n / 1000).toFixed(1).replace",
+          "lineNumber": 212
+        },
+        {
+          "caller": "formatCount",
+          "callee": "(n / 1000).toFixed",
+          "lineNumber": 212
+        },
+        {
+          "caller": "formatCount",
+          "callee": "String",
+          "lineNumber": 213
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "useState",
+          "lineNumber": 226
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "useState",
+          "lineNumber": 227
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "useState",
+          "lineNumber": 228
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "useState",
+          "lineNumber": 229
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "useState",
+          "lineNumber": 230
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "useState",
+          "lineNumber": 231
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "useState",
+          "lineNumber": 232
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "useState",
+          "lineNumber": 233
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "useState",
+          "lineNumber": 234
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "useState",
+          "lineNumber": 235
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "useMemo",
+          "lineNumber": 237
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "notifications.filter",
+          "lineNumber": 238
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "useMemo",
+          "lineNumber": 242
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "posts.filter",
+          "lineNumber": 243
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "useMemo",
+          "lineNumber": 247
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "posts.filter",
+          "lineNumber": 248
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "useMemo",
+          "lineNumber": 252
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "exploreSearch.trim",
+          "lineNumber": 253
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "exploreSearch.toLowerCase",
+          "lineNumber": 254
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "trendingTopics.filter",
+          "lineNumber": 255
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "t.tag.toLowerCase().includes",
+          "lineNumber": 256
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "t.tag.toLowerCase",
+          "lineNumber": 256
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "t.category.toLowerCase().includes",
+          "lineNumber": 256
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "t.category.toLowerCase",
+          "lineNumber": 256
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "useMemo",
+          "lineNumber": 260
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "exploreSearch.trim",
+          "lineNumber": 261
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "exploreSearch.toLowerCase",
+          "lineNumber": 262
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "suggestedUsers.filter",
+          "lineNumber": 263
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "u.name.toLowerCase().includes",
+          "lineNumber": 264
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "u.name.toLowerCase",
+          "lineNumber": 264
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "u.bio.toLowerCase().includes",
+          "lineNumber": 264
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "u.bio.toLowerCase",
+          "lineNumber": 264
+        },
+        {
+          "caller": "toggleLike",
+          "callee": "setPosts",
+          "lineNumber": 269
+        },
+        {
+          "caller": "toggleLike",
+          "callee": "prev.map",
+          "lineNumber": 270
+        },
+        {
+          "caller": "toggleBookmark",
+          "callee": "setPosts",
+          "lineNumber": 279
+        },
+        {
+          "caller": "toggleBookmark",
+          "callee": "prev.map",
+          "lineNumber": 280
+        },
+        {
+          "caller": "toggleRepost",
+          "callee": "setPosts",
+          "lineNumber": 285
+        },
+        {
+          "caller": "toggleRepost",
+          "callee": "prev.map",
+          "lineNumber": 286
+        },
+        {
+          "caller": "handleNewPost",
+          "callee": "newPost.trim",
+          "lineNumber": 295
+        },
+        {
+          "caller": "handleNewPost",
+          "callee": "Date.now",
+          "lineNumber": 297
+        },
+        {
+          "caller": "handleNewPost",
+          "callee": "newPost.trim",
+          "lineNumber": 302
+        },
+        {
+          "caller": "handleNewPost",
+          "callee": "setPosts",
+          "lineNumber": 310
+        },
+        {
+          "caller": "handleNewPost",
+          "callee": "setNewPost",
+          "lineNumber": 311
+        },
+        {
+          "caller": "markAllRead",
+          "callee": "setNotifications",
+          "lineNumber": 315
+        },
+        {
+          "caller": "markAllRead",
+          "callee": "prev.map",
+          "lineNumber": 315
+        },
+        {
+          "caller": "toggleFollow",
+          "callee": "setFollowedUsers",
+          "lineNumber": 319
+        },
+        {
+          "caller": "toggleFollow",
+          "callee": "next.has",
+          "lineNumber": 321
+        },
+        {
+          "caller": "toggleFollow",
+          "callee": "next.delete",
+          "lineNumber": 322
+        },
+        {
+          "caller": "toggleFollow",
+          "callee": "setProfile",
+          "lineNumber": 323
+        },
+        {
+          "caller": "toggleFollow",
+          "callee": "next.add",
+          "lineNumber": 325
+        },
+        {
+          "caller": "toggleFollow",
+          "callee": "setProfile",
+          "lineNumber": 326
+        },
+        {
+          "caller": "saveProfile",
+          "callee": "setProfile",
+          "lineNumber": 333
+        },
+        {
+          "caller": "saveProfile",
+          "callee": "setEditProfileOpen",
+          "lineNumber": 334
+        },
+        {
+          "caller": "navigateTo",
+          "callee": "setActiveView",
+          "lineNumber": 338
+        },
+        {
+          "caller": "navigateTo",
+          "callee": "setMobileMenuOpen",
+          "lineNumber": 339
+        },
+        {
+          "caller": "renderPostCard",
+          "callee": "formatCount",
+          "lineNumber": 399
+        },
+        {
+          "caller": "renderPostCard",
+          "callee": "toggleRepost",
+          "lineNumber": 403
+        },
+        {
+          "caller": "renderPostCard",
+          "callee": "formatCount",
+          "lineNumber": 420
+        },
+        {
+          "caller": "renderPostCard",
+          "callee": "toggleLike",
+          "lineNumber": 424
+        },
+        {
+          "caller": "renderPostCard",
+          "callee": "formatCount",
+          "lineNumber": 441
+        },
+        {
+          "caller": "renderPostCard",
+          "callee": "toggleBookmark",
+          "lineNumber": 446
+        },
+        {
+          "caller": "renderHomeView",
+          "callee": "setNewPost",
+          "lineNumber": 478
+        },
+        {
+          "caller": "renderHomeView",
+          "callee": "[ImageIcon, Smile].map",
+          "lineNumber": 485
+        },
+        {
+          "caller": "renderHomeView",
+          "callee": "newPost.trim",
+          "lineNumber": 496
+        },
+        {
+          "caller": "renderHomeView",
+          "callee": "posts.map",
+          "lineNumber": 505
+        },
+        {
+          "caller": "renderExploreView",
+          "callee": "setExploreSearch",
+          "lineNumber": 518
+        },
+        {
+          "caller": "renderExploreView",
+          "callee": "setExploreSearch",
+          "lineNumber": 524
+        },
+        {
+          "caller": "renderExploreView",
+          "callee": "filteredTrending.map",
+          "lineNumber": 540
+        },
+        {
+          "caller": "renderExploreView",
+          "callee": "filteredSuggestedUsers.map",
+          "lineNumber": 563
+        },
+        {
+          "caller": "renderExploreView",
+          "callee": "toggleFollow",
+          "lineNumber": 577
+        },
+        {
+          "caller": "renderExploreView",
+          "callee": "followedUsers.has",
+          "lineNumber": 579
+        },
+        {
+          "caller": "renderExploreView",
+          "callee": "followedUsers.has",
+          "lineNumber": 584
+        },
+        {
+          "caller": "renderNotificationsView",
+          "callee": "notifications.map",
+          "lineNumber": 617
+        },
+        {
+          "caller": "renderNotificationsView",
+          "callee": "getNotificationIcon",
+          "lineNumber": 618
+        },
+        {
+          "caller": "renderNotificationsView",
+          "callee": "setNotifications",
+          "lineNumber": 624
+        },
+        {
+          "caller": "renderNotificationsView",
+          "callee": "prev.map",
+          "lineNumber": 625
+        },
+        {
+          "caller": "renderBookmarksView",
+          "callee": "bookmarkedPosts.map",
+          "lineNumber": 684
+        },
+        {
+          "caller": "renderProfileView",
+          "callee": "setActiveView",
+          "lineNumber": 693
+        },
+        {
+          "caller": "renderProfileView",
+          "callee": "setEditForm",
+          "lineNumber": 714
+        },
+        {
+          "caller": "renderProfileView",
+          "callee": "setEditProfileOpen",
+          "lineNumber": 715
+        },
+        {
+          "caller": "renderProfileView",
+          "callee": "formatCount",
+          "lineNumber": 748
+        },
+        {
+          "caller": "renderProfileView",
+          "callee": "formatCount",
+          "lineNumber": 752
+        },
+        {
+          "caller": "renderProfileView",
+          "callee": "userPosts.map",
+          "lineNumber": 784
+        },
+        {
+          "caller": "renderMainContent",
+          "callee": "renderHomeView",
+          "lineNumber": 791
+        },
+        {
+          "caller": "renderMainContent",
+          "callee": "renderExploreView",
+          "lineNumber": 792
+        },
+        {
+          "caller": "renderMainContent",
+          "callee": "renderNotificationsView",
+          "lineNumber": 793
+        },
+        {
+          "caller": "renderMainContent",
+          "callee": "renderBookmarksView",
+          "lineNumber": 794
+        },
+        {
+          "caller": "renderMainContent",
+          "callee": "renderProfileView",
+          "lineNumber": 795
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "setMobileMenuOpen",
+          "lineNumber": 806
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "navigateTo",
+          "lineNumber": 814
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "setMobileMenuOpen",
+          "lineNumber": 826
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "setMobileMenuOpen",
+          "lineNumber": 832
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "navItems.map",
+          "lineNumber": 840
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "navigateTo",
+          "lineNumber": 843
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "setEditProfileOpen",
+          "lineNumber": 871
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "setEditProfileOpen",
+          "lineNumber": 877
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "setEditForm",
+          "lineNumber": 897
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "setEditForm",
+          "lineNumber": 905
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "setEditForm",
+          "lineNumber": 915
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "setEditForm",
+          "lineNumber": 924
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "navItems.map",
+          "lineNumber": 940
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "navigateTo",
+          "lineNumber": 943
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "navigateTo",
+          "lineNumber": 964
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "setTimeout",
+          "lineNumber": 965
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "document.querySelector",
+          "lineNumber": 966
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "textarea?.focus",
+          "lineNumber": 967
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "navigateTo",
+          "lineNumber": 975
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "renderMainContent",
+          "lineNumber": 991
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "trendingTopics.slice(0, 5).map",
+          "lineNumber": 1010
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "trendingTopics.slice",
+          "lineNumber": 1010
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "suggestedUsers.slice(0, 3).map",
+          "lineNumber": 1027
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "suggestedUsers.slice",
+          "lineNumber": 1027
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "toggleFollow",
+          "lineNumber": 1040
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "followedUsers.has",
+          "lineNumber": 1042
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "followedUsers.has",
+          "lineNumber": 1047
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "mobileNavItems.map",
+          "lineNumber": 1068
+        },
+        {
+          "caller": "SocialFeedTemplate",
+          "callee": "navigateTo",
+          "lineNumber": 1071
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 3,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/templates/startup-landing/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 674,
+      "nonEmptyLines": 632,
+      "functions": [
+        {
+          "name": "StartupLandingTemplate",
+          "startLine": 177,
+          "endLine": 674,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "StartupLandingTemplate",
+          "line": 177,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "StartupLandingTemplate",
+          "callee": "useState",
+          "lineNumber": 178
+        },
+        {
+          "caller": "StartupLandingTemplate",
+          "callee": "useState",
+          "lineNumber": 179
+        },
+        {
+          "caller": "StartupLandingTemplate",
+          "callee": "useState",
+          "lineNumber": 180
+        },
+        {
+          "caller": "StartupLandingTemplate",
+          "callee": "useState",
+          "lineNumber": 181
+        },
+        {
+          "caller": "StartupLandingTemplate",
+          "callee": "useState",
+          "lineNumber": 182
+        },
+        {
+          "caller": "StartupLandingTemplate",
+          "callee": "useState",
+          "lineNumber": 183
+        },
+        {
+          "caller": "toggleFaq",
+          "callee": "setOpenFaq",
+          "lineNumber": 186
+        },
+        {
+          "caller": "validateWaitlist",
+          "callee": "waitlistForm.name.trim",
+          "lineNumber": 191
+        },
+        {
+          "caller": "validateWaitlist",
+          "callee": "waitlistForm.email.trim",
+          "lineNumber": 194
+        },
+        {
+          "caller": "validateWaitlist",
+          "callee": "/^[^\\s@]+@[^\\s@]+\\.[^\\s@]+$/.test",
+          "lineNumber": 196
+        },
+        {
+          "caller": "validateWaitlist",
+          "callee": "waitlistForm.email.trim",
+          "lineNumber": 196
+        },
+        {
+          "caller": "validateWaitlist",
+          "callee": "setWaitlistErrors",
+          "lineNumber": 199
+        },
+        {
+          "caller": "validateWaitlist",
+          "callee": "Object.keys",
+          "lineNumber": 200
+        },
+        {
+          "caller": "handleWaitlistSubmit",
+          "callee": "e.preventDefault",
+          "lineNumber": 204
+        },
+        {
+          "caller": "handleWaitlistSubmit",
+          "callee": "validateWaitlist",
+          "lineNumber": 205
+        },
+        {
+          "caller": "handleWaitlistSubmit",
+          "callee": "setWaitlistState",
+          "lineNumber": 206
+        },
+        {
+          "caller": "handleWaitlistSubmit",
+          "callee": "waitlistForm.email.trim",
+          "lineNumber": 207
+        },
+        {
+          "caller": "handleWaitlistSubmit",
+          "callee": "setTimeout",
+          "lineNumber": 208
+        },
+        {
+          "caller": "handleWaitlistSubmit",
+          "callee": "setSuccessEmail",
+          "lineNumber": 209
+        },
+        {
+          "caller": "handleWaitlistSubmit",
+          "callee": "setWaitlistState",
+          "lineNumber": 210
+        },
+        {
+          "caller": "handleWaitlistSubmit",
+          "callee": "setWaitlistForm",
+          "lineNumber": 211
+        },
+        {
+          "caller": "StartupLandingTemplate",
+          "callee": "[\n              { value: \"10K+\", label: \"Active devs\" },\n              { value: \"50ms\", label: \"P99 latency\" },\n              { value: \"99.99%\", label: \"Uptime SLA\" },\n            ].map",
+          "lineNumber": 288
+        },
+        {
+          "caller": "StartupLandingTemplate",
+          "callee": "comparisonFeatures.map",
+          "lineNumber": 332
+        },
+        {
+          "caller": "StartupLandingTemplate",
+          "callee": "setBillingCycle",
+          "lineNumber": 386
+        },
+        {
+          "caller": "StartupLandingTemplate",
+          "callee": "setBillingCycle",
+          "lineNumber": 396
+        },
+        {
+          "caller": "StartupLandingTemplate",
+          "callee": "pricingTiers.map",
+          "lineNumber": 412
+        },
+        {
+          "caller": "StartupLandingTemplate",
+          "callee": "tier.features.map",
+          "lineNumber": 451
+        },
+        {
+          "caller": "StartupLandingTemplate",
+          "callee": "faqs.map",
+          "lineNumber": 485
+        },
+        {
+          "caller": "StartupLandingTemplate",
+          "callee": "toggleFaq",
+          "lineNumber": 497
+        },
+        {
+          "caller": "StartupLandingTemplate",
+          "callee": "setWaitlistForm",
+          "lineNumber": 568
+        },
+        {
+          "caller": "StartupLandingTemplate",
+          "callee": "setWaitlistErrors",
+          "lineNumber": 569
+        },
+        {
+          "caller": "StartupLandingTemplate",
+          "callee": "setWaitlistForm",
+          "lineNumber": 592
+        },
+        {
+          "caller": "StartupLandingTemplate",
+          "callee": "setWaitlistErrors",
+          "lineNumber": 593
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/templates/travel-booking/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 438,
+      "nonEmptyLines": 423,
+      "functions": [
+        {
+          "name": "TravelBookingTemplate",
+          "startLine": 91,
+          "endLine": 438,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "TravelBookingTemplate",
+          "line": 91,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "TravelBookingTemplate",
+          "callee": "useState",
+          "lineNumber": 92
+        },
+        {
+          "caller": "TravelBookingTemplate",
+          "callee": "useState",
+          "lineNumber": 93
+        },
+        {
+          "caller": "TravelBookingTemplate",
+          "callee": "useState",
+          "lineNumber": 94
+        },
+        {
+          "caller": "TravelBookingTemplate",
+          "callee": "useState",
+          "lineNumber": 95
+        },
+        {
+          "caller": "TravelBookingTemplate",
+          "callee": "useState",
+          "lineNumber": 96
+        },
+        {
+          "caller": "TravelBookingTemplate",
+          "callee": "useState",
+          "lineNumber": 97
+        },
+        {
+          "caller": "TravelBookingTemplate",
+          "callee": "useState",
+          "lineNumber": 98
+        },
+        {
+          "caller": "TravelBookingTemplate",
+          "callee": "useState",
+          "lineNumber": 99
+        },
+        {
+          "caller": "TravelBookingTemplate",
+          "callee": "useState",
+          "lineNumber": 100
+        },
+        {
+          "caller": "TravelBookingTemplate",
+          "callee": "useState",
+          "lineNumber": 101
+        },
+        {
+          "caller": "TravelBookingTemplate",
+          "callee": "setActiveTab",
+          "lineNumber": 118
+        },
+        {
+          "caller": "TravelBookingTemplate",
+          "callee": "setActiveTab",
+          "lineNumber": 119
+        },
+        {
+          "caller": "TravelBookingTemplate",
+          "callee": "setSearchDest",
+          "lineNumber": 135
+        },
+        {
+          "caller": "TravelBookingTemplate",
+          "callee": "setCheckIn",
+          "lineNumber": 144
+        },
+        {
+          "caller": "TravelBookingTemplate",
+          "callee": "setCheckOut",
+          "lineNumber": 151
+        },
+        {
+          "caller": "TravelBookingTemplate",
+          "callee": "setGuests",
+          "lineNumber": 159
+        },
+        {
+          "caller": "TravelBookingTemplate",
+          "callee": "Number",
+          "lineNumber": 159
+        },
+        {
+          "caller": "TravelBookingTemplate",
+          "callee": "[1, 2, 3, 4, 5, 6].map",
+          "lineNumber": 162
+        },
+        {
+          "caller": "TravelBookingTemplate",
+          "callee": "setShowFilters",
+          "lineNumber": 182
+        },
+        {
+          "caller": "TravelBookingTemplate",
+          "callee": "setPriceFilter",
+          "lineNumber": 190
+        },
+        {
+          "caller": "TravelBookingTemplate",
+          "callee": "priceRanges.map",
+          "lineNumber": 193
+        },
+        {
+          "caller": "TravelBookingTemplate",
+          "callee": "setRatingFilter",
+          "lineNumber": 199
+        },
+        {
+          "caller": "TravelBookingTemplate",
+          "callee": "ratings.map",
+          "lineNumber": 202
+        },
+        {
+          "caller": "TravelBookingTemplate",
+          "callee": "setSortBy",
+          "lineNumber": 209
+        },
+        {
+          "caller": "TravelBookingTemplate",
+          "callee": "sortOptions.map",
+          "lineNumber": 212
+        },
+        {
+          "caller": "TravelBookingTemplate",
+          "callee": "[\"Wifi\", \"Pool\", \"Spa\", \"Restaurant\", \"Gym\", \"Parking\"].map",
+          "lineNumber": 223
+        },
+        {
+          "caller": "TravelBookingTemplate",
+          "callee": "[\"Hotel\", \"Resort\", \"Villa\", \"Apartment\", \"Hostel\"].map",
+          "lineNumber": 232
+        },
+        {
+          "caller": "TravelBookingTemplate",
+          "callee": "[\"City Center\", \"Beach\", \"Airport\", \"Train Station\"].map",
+          "lineNumber": 241
+        },
+        {
+          "caller": "TravelBookingTemplate",
+          "callee": "destinations.map",
+          "lineNumber": 265
+        },
+        {
+          "caller": "TravelBookingTemplate",
+          "callee": "setSelectedDest",
+          "lineNumber": 271
+        },
+        {
+          "caller": "TravelBookingTemplate",
+          "callee": "e.preventDefault",
+          "lineNumber": 274
+        },
+        {
+          "caller": "TravelBookingTemplate",
+          "callee": "setSelectedDest",
+          "lineNumber": 275
+        },
+        {
+          "caller": "TravelBookingTemplate",
+          "callee": "dest.amenities.map",
+          "lineNumber": 301
+        },
+        {
+          "caller": "TravelBookingTemplate",
+          "callee": "flights.map",
+          "lineNumber": 328
+        },
+        {
+          "caller": "TravelBookingTemplate",
+          "callee": "Math.round",
+          "lineNumber": 397
+        },
+        {
+          "caller": "TravelBookingTemplate",
+          "callee": "Math.round",
+          "lineNumber": 401
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/templates/warm-dashboard/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 784,
+      "nonEmptyLines": 738,
+      "functions": [
+        {
+          "name": "statusBadge",
+          "startLine": 104,
+          "endLine": 108,
+          "params": [
+            "status"
+          ]
+        },
+        {
+          "name": "OverviewView",
+          "startLine": 112,
+          "endLine": 296,
+          "params": [
+            "{\n  dateRange,\n  setDateRange,\n  hoveredBar,\n  setHoveredBar,\n}"
+          ]
+        },
+        {
+          "name": "AnalyticsView",
+          "startLine": 298,
+          "endLine": 410,
+          "params": [
+            "{\n  hoveredBar,\n  setHoveredBar,\n}"
+          ]
+        },
+        {
+          "name": "UsersView",
+          "startLine": 412,
+          "endLine": 486,
+          "params": []
+        },
+        {
+          "name": "ReportsView",
+          "startLine": 488,
+          "endLine": 518,
+          "params": []
+        },
+        {
+          "name": "SettingsView",
+          "startLine": 520,
+          "endLine": 590,
+          "params": []
+        },
+        {
+          "name": "WarmDashboardTemplate",
+          "startLine": 604,
+          "endLine": 784,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "WarmDashboardTemplate",
+          "line": 604,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "OverviewView",
+          "callee": "Math.max",
+          "lineNumber": 125
+        },
+        {
+          "caller": "OverviewView",
+          "callee": "stats.map",
+          "lineNumber": 131
+        },
+        {
+          "caller": "OverviewView",
+          "callee": "([\"7d\", \"30d\", \"90d\"] as const).map",
+          "lineNumber": 166
+        },
+        {
+          "caller": "OverviewView",
+          "callee": "setDateRange",
+          "lineNumber": 169
+        },
+        {
+          "caller": "OverviewView",
+          "callee": "chartData.map",
+          "lineNumber": 185
+        },
+        {
+          "caller": "OverviewView",
+          "callee": "setHoveredBar",
+          "lineNumber": 192
+        },
+        {
+          "caller": "OverviewView",
+          "callee": "setHoveredBar",
+          "lineNumber": 193
+        },
+        {
+          "caller": "OverviewView",
+          "callee": "recentActivity.map",
+          "lineNumber": 226
+        },
+        {
+          "caller": "OverviewView",
+          "callee": "projects.map",
+          "lineNumber": 268
+        },
+        {
+          "caller": "AnalyticsView",
+          "callee": "Math.max",
+          "lineNumber": 305
+        },
+        {
+          "caller": "AnalyticsView",
+          "callee": "analyticsMetrics.map",
+          "lineNumber": 311
+        },
+        {
+          "caller": "AnalyticsView",
+          "callee": "analyticsChartData.map",
+          "lineNumber": 349
+        },
+        {
+          "caller": "AnalyticsView",
+          "callee": "setHoveredBar",
+          "lineNumber": 355
+        },
+        {
+          "caller": "AnalyticsView",
+          "callee": "setHoveredBar",
+          "lineNumber": 356
+        },
+        {
+          "caller": "AnalyticsView",
+          "callee": "[\n              { label: \"搜索引擎\", pct: 42, color: \"#4a9d9a\" },\n              { label: \"直接访问\", pct: 28, color: \"#e8b86d\" },\n              { label: \"社交媒体\", pct: 18, color: \"#c17767\" },\n              { label: \"邮件营销\", pct: 8, color: \"#6b8e8e\" },\n              { label: \"其他\", pct: 4, color: \"#9ca3af\" },\n            ].map",
+          "lineNumber": 385
+        },
+        {
+          "caller": "UsersView",
+          "callee": "usersData.map",
+          "lineNumber": 449
+        },
+        {
+          "caller": "UsersView",
+          "callee": "statusBadge",
+          "lineNumber": 464
+        },
+        {
+          "caller": "ReportsView",
+          "callee": "[\n            { title: \"月度用户报告\", desc: \"2026年1月\", badge: \"已生成\", badgeColor: \"bg-[#4a9d9a]/10 text-[#4a9d9a]\", icon: Users },\n            { title: \"收入分析报告\", desc: \"Q4 2025\", badge: \"已生成\", badgeColor: \"bg-[#4a9d9a]/10 text-[#4a9d9a]\", icon: TrendingUp },\n            { title: \"流量来源报告\", desc: \"近30天\", badge: \"处理中\", badgeColor: \"bg-[#e8b86d]/10 text-[#e8b86d]\", icon: BarChart3 },\n            { title: \"转化漏斗报告\", desc: \"本季度\", badge: \"计划中\", badgeColor: \"bg-gray-100 text-gray-500\", icon: Activity },\n            { title: \"安全审计报告\", desc: \"2025年度\", badge: \"已生成\", badgeColor: \"bg-[#4a9d9a]/10 text-[#4a9d9a]\", icon: Shield },\n            { title: \"团队绩效报告\", desc: \"2026年1月\", badge: \"计划中\", badgeColor: \"bg-gray-100 text-gray-500\", icon: FileText },\n          ].map",
+          "lineNumber": 495
+        },
+        {
+          "caller": "SettingsView",
+          "callee": "[\n            { label: \"邮件通知\", desc: \"接收重要事件的邮件提醒\", on: true },\n            { label: \"系统警告\", desc: \"接收系统资源异常警告\", on: true },\n            { label: \"团队动态\", desc: \"成员操作实时通知\", on: false },\n            { label: \"报告生成\", desc: \"报告完成后通知我\", on: true },\n          ].map",
+          "lineNumber": 562
+        },
+        {
+          "caller": "WarmDashboardTemplate",
+          "callee": "useState",
+          "lineNumber": 605
+        },
+        {
+          "caller": "WarmDashboardTemplate",
+          "callee": "useState",
+          "lineNumber": 606
+        },
+        {
+          "caller": "WarmDashboardTemplate",
+          "callee": "useState",
+          "lineNumber": 607
+        },
+        {
+          "caller": "WarmDashboardTemplate",
+          "callee": "useState",
+          "lineNumber": 608
+        },
+        {
+          "caller": "WarmDashboardTemplate",
+          "callee": "useState",
+          "lineNumber": 609
+        },
+        {
+          "caller": "WarmDashboardTemplate",
+          "callee": "sidebarItems.map",
+          "lineNumber": 632
+        },
+        {
+          "caller": "WarmDashboardTemplate",
+          "callee": "setActivePage",
+          "lineNumber": 637
+        },
+        {
+          "caller": "WarmDashboardTemplate",
+          "callee": "setSidebarOpen",
+          "lineNumber": 674
+        },
+        {
+          "caller": "WarmDashboardTemplate",
+          "callee": "setShowNotifications",
+          "lineNumber": 700
+        },
+        {
+          "caller": "WarmDashboardTemplate",
+          "callee": "setShowNotifications",
+          "lineNumber": 714
+        },
+        {
+          "caller": "WarmDashboardTemplate",
+          "callee": "notifications.map",
+          "lineNumber": 722
+        },
+        {
+          "caller": "WarmDashboardTemplate",
+          "callee": "setShowNotifications",
+          "lineNumber": 755
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 7,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "app/templates/yohaku-blog/page.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 744,
+      "nonEmptyLines": 687,
+      "functions": [
+        {
+          "name": "groupByYear",
+          "startLine": 155,
+          "endLine": 161,
+          "params": [
+            "items"
+          ]
+        },
+        {
+          "name": "formatDate",
+          "startLine": 163,
+          "endLine": 169,
+          "params": [
+            "dateStr"
+          ]
+        },
+        {
+          "name": "ReadingProgress",
+          "startLine": 181,
+          "endLine": 205,
+          "params": []
+        },
+        {
+          "name": "Header",
+          "startLine": 207,
+          "endLine": 261,
+          "params": [
+            "{\n  currentView,\n  onNavigate,\n}"
+          ]
+        },
+        {
+          "name": "FooterSection",
+          "startLine": 263,
+          "endLine": 285,
+          "params": []
+        },
+        {
+          "name": "HomeView",
+          "startLine": 291,
+          "endLine": 405,
+          "params": [
+            "{ onNavigate }"
+          ]
+        },
+        {
+          "name": "PostsView",
+          "startLine": 407,
+          "endLine": 476,
+          "params": [
+            "{\n  onNavigate,\n}"
+          ]
+        },
+        {
+          "name": "PostView",
+          "startLine": 478,
+          "endLine": 683,
+          "params": [
+            "{\n  postId,\n  onNavigate,\n}"
+          ]
+        },
+        {
+          "name": "YohakuBlogTemplate",
+          "startLine": 689,
+          "endLine": 744,
+          "params": []
+        }
+      ],
+      "exports": [
+        {
+          "name": "dynamic",
+          "line": 3,
+          "isDefault": false
+        },
+        {
+          "name": "YohakuBlogTemplate",
+          "line": 689,
+          "isDefault": true
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "groupByYear",
+          "callee": "(groups[p.year] ??= []).push",
+          "lineNumber": 158
+        },
+        {
+          "caller": "formatDate",
+          "callee": "d.toLocaleDateString",
+          "lineNumber": 165
+        },
+        {
+          "caller": "ReadingProgress",
+          "callee": "useState",
+          "lineNumber": 182
+        },
+        {
+          "caller": "ReadingProgress",
+          "callee": "useEffect",
+          "lineNumber": 184
+        },
+        {
+          "caller": "handleScroll",
+          "callee": "setProgress",
+          "lineNumber": 188
+        },
+        {
+          "caller": "ReadingProgress",
+          "callee": "window.addEventListener",
+          "lineNumber": 190
+        },
+        {
+          "caller": "ReadingProgress",
+          "callee": "window.removeEventListener",
+          "lineNumber": 191
+        },
+        {
+          "caller": "Header",
+          "callee": "useState",
+          "lineNumber": 214
+        },
+        {
+          "caller": "Header",
+          "callee": "useEffect",
+          "lineNumber": 216
+        },
+        {
+          "caller": "handleScroll",
+          "callee": "setScrolled",
+          "lineNumber": 218
+        },
+        {
+          "caller": "Header",
+          "callee": "window.addEventListener",
+          "lineNumber": 220
+        },
+        {
+          "caller": "Header",
+          "callee": "window.removeEventListener",
+          "lineNumber": 221
+        },
+        {
+          "caller": "Header",
+          "callee": "onNavigate",
+          "lineNumber": 237
+        },
+        {
+          "caller": "Header",
+          "callee": "navItems.map",
+          "lineNumber": 244
+        },
+        {
+          "caller": "Header",
+          "callee": "onNavigate",
+          "lineNumber": 247
+        },
+        {
+          "caller": "HomeView",
+          "callee": "posts.slice",
+          "lineNumber": 292
+        },
+        {
+          "caller": "HomeView",
+          "callee": "onNavigate",
+          "lineNumber": 322
+        },
+        {
+          "caller": "HomeView",
+          "callee": "recentPosts.map",
+          "lineNumber": 330
+        },
+        {
+          "caller": "HomeView",
+          "callee": "onNavigate",
+          "lineNumber": 333
+        },
+        {
+          "caller": "HomeView",
+          "callee": "formatDate",
+          "lineNumber": 353
+        },
+        {
+          "caller": "HomeView",
+          "callee": "[\n              {\n                text: \"The best interfaces are the ones where you don't notice the interface.\",\n                time: \"3 hours ago\",\n              },\n              {\n                text: \"Just realized that 90% of CSS complexity comes from fighting the defaults instead of understanding them.\",\n                time: \"2 days ago\",\n              },\n              {\n                text: \"Reading Dieter Rams again. 'Good design is as little design as possible' hits different after shipping 100+ components.\",\n                time: \"5 days ago\",\n              },\n            ].map",
+          "lineNumber": 369
+        },
+        {
+          "caller": "PostsView",
+          "callee": "groupByYear",
+          "lineNumber": 412
+        },
+        {
+          "caller": "PostsView",
+          "callee": "Object.keys(grouped).sort",
+          "lineNumber": 413
+        },
+        {
+          "caller": "PostsView",
+          "callee": "Object.keys",
+          "lineNumber": 413
+        },
+        {
+          "caller": "PostsView",
+          "callee": "Number",
+          "lineNumber": 413
+        },
+        {
+          "caller": "PostsView",
+          "callee": "Number",
+          "lineNumber": 413
+        },
+        {
+          "caller": "PostsView",
+          "callee": "years.map",
+          "lineNumber": 430
+        },
+        {
+          "caller": "PostsView",
+          "callee": "grouped[year].map",
+          "lineNumber": 436
+        },
+        {
+          "caller": "PostsView",
+          "callee": "onNavigate",
+          "lineNumber": 439
+        },
+        {
+          "caller": "PostsView",
+          "callee": "formatDate",
+          "lineNumber": 462
+        },
+        {
+          "caller": "PostView",
+          "callee": "posts.find",
+          "lineNumber": 485
+        },
+        {
+          "caller": "PostView",
+          "callee": "useState",
+          "lineNumber": 486
+        },
+        {
+          "caller": "PostView",
+          "callee": "useRef",
+          "lineNumber": 487
+        },
+        {
+          "caller": "PostView",
+          "callee": "useEffect",
+          "lineNumber": 489
+        },
+        {
+          "caller": "PostView",
+          "callee": "window.scrollTo",
+          "lineNumber": 490
+        },
+        {
+          "caller": "PostView",
+          "callee": "useEffect",
+          "lineNumber": 493
+        },
+        {
+          "caller": "handleScroll",
+          "callee": "contentRef.current.querySelectorAll",
+          "lineNumber": 498
+        },
+        {
+          "caller": "handleScroll",
+          "callee": "el.getBoundingClientRect",
+          "lineNumber": 501
+        },
+        {
+          "caller": "handleScroll",
+          "callee": "setActiveHeading",
+          "lineNumber": 506
+        },
+        {
+          "caller": "PostView",
+          "callee": "window.addEventListener",
+          "lineNumber": 509
+        },
+        {
+          "caller": "PostView",
+          "callee": "window.removeEventListener",
+          "lineNumber": 510
+        },
+        {
+          "caller": "PostView",
+          "callee": "onNavigate",
+          "lineNumber": 529
+        },
+        {
+          "caller": "PostView",
+          "callee": "formatDate",
+          "lineNumber": 565
+        },
+        {
+          "caller": "PostView",
+          "callee": "post.content.map",
+          "lineNumber": 579
+        },
+        {
+          "caller": "PostView",
+          "callee": "post.headings.map",
+          "lineNumber": 606
+        },
+        {
+          "caller": "PostView",
+          "callee": "e.preventDefault",
+          "lineNumber": 611
+        },
+        {
+          "caller": "PostView",
+          "callee": "document\n                          .getElementById(h.id)\n                          ?.scrollIntoView",
+          "lineNumber": 612
+        },
+        {
+          "caller": "PostView",
+          "callee": "document\n                          .getElementById",
+          "lineNumber": 612
+        },
+        {
+          "caller": "PostView",
+          "callee": "(() => {\n              const currentIdx = posts.findIndex((p) => p.id === postId);\n              const prevPost = currentIdx < posts.length - 1 ? posts[currentIdx + 1] : null;\n              const nextPost = currentIdx > 0 ? posts[currentIdx - 1] : null;\n\n              return (\n                <>\n                  <div>\n                    {prevPost && (\n                      <button\n                        onClick={() => onNavigate(\"post\" as View)}\n                        className=\"text-left group\"\n                      >\n                        <p className=\"text-[11px] text-[var(--yh-muted)] mb-1\">Previous</p>\n                        <p className=\"text-sm font-medium text-[var(--yh-text)] group-hover:text-[var(--yh-accent)] transition-colors\">\n                          {prevPost.title}\n                        </p>\n                      </button>\n                    )}\n                  </div>\n                  <div>\n                    {nextPost && (\n                      <button\n                        onClick={() => onNavigate(\"post\" as View)}\n                        className=\"text-right group\"\n                      >\n                        <p className=\"text-[11px] text-[var(--yh-muted)] mb-1\">Next</p>\n                        <p className=\"text-sm font-medium text-[var(--yh-text)] group-hover:text-[var(--yh-accent)] transition-colors\">\n                          {nextPost.title}\n                        </p>\n                      </button>\n                    )}\n                  </div>\n                </>\n              );\n            })",
+          "lineNumber": 640
+        },
+        {
+          "caller": "PostView",
+          "callee": "posts.findIndex",
+          "lineNumber": 641
+        },
+        {
+          "caller": "PostView",
+          "callee": "onNavigate",
+          "lineNumber": 650
+        },
+        {
+          "caller": "PostView",
+          "callee": "onNavigate",
+          "lineNumber": 663
+        },
+        {
+          "caller": "YohakuBlogTemplate",
+          "callee": "useState",
+          "lineNumber": 690
+        },
+        {
+          "caller": "YohakuBlogTemplate",
+          "callee": "useState",
+          "lineNumber": 691
+        },
+        {
+          "caller": "navigate",
+          "callee": "setActivePostId",
+          "lineNumber": 695
+        },
+        {
+          "caller": "navigate",
+          "callee": "setView",
+          "lineNumber": 697
+        },
+        {
+          "caller": "navigate",
+          "callee": "window.scrollTo",
+          "lineNumber": 698
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 2,
+        "functionCount": 9,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "components/scroll-back-button.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 82,
+      "nonEmptyLines": 74,
+      "functions": [
+        {
+          "name": "ScrollBackButton",
+          "startLine": 16,
+          "endLine": 82,
+          "params": [
+            "{\n  label = \"返回\",\n  href,\n  className = \"\",\n  savedReturnUrlKey,\n  fallbackHref,\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "ScrollBackButton",
+          "line": 16,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "ScrollBackButton",
+          "callee": "useRouter",
+          "lineNumber": 23
+        },
+        {
+          "caller": "ScrollBackButton",
+          "callee": "useEffect",
+          "lineNumber": 25
+        },
+        {
+          "caller": "ScrollBackButton",
+          "callee": "sessionStorage.getItem",
+          "lineNumber": 29
+        },
+        {
+          "caller": "ScrollBackButton",
+          "callee": "parseInt",
+          "lineNumber": 31
+        },
+        {
+          "caller": "ScrollBackButton",
+          "callee": "requestAnimationFrame",
+          "lineNumber": 32
+        },
+        {
+          "caller": "ScrollBackButton",
+          "callee": "window.scrollTo",
+          "lineNumber": 33
+        },
+        {
+          "caller": "ScrollBackButton",
+          "callee": "sessionStorage.removeItem",
+          "lineNumber": 35
+        },
+        {
+          "caller": "handleClick",
+          "callee": "sessionStorage.setItem",
+          "lineNumber": 44
+        },
+        {
+          "caller": "handleClick",
+          "callee": "window.scrollY.toString",
+          "lineNumber": 44
+        },
+        {
+          "caller": "handleClick",
+          "callee": "navigateBackOrFallback",
+          "lineNumber": 50
+        },
+        {
+          "caller": "handleClick",
+          "callee": "navigateBackOrFallback",
+          "lineNumber": 60
+        },
+        {
+          "caller": "handleClick",
+          "callee": "router.push",
+          "lineNumber": 67
+        },
+        {
+          "caller": "handleClick",
+          "callee": "navigateBackOrFallback",
+          "lineNumber": 69
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "components/templates/template-back-button.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 84,
+      "nonEmptyLines": 76,
+      "functions": [
+        {
+          "name": "TemplateBackButton",
+          "startLine": 61,
+          "endLine": 84,
+          "params": [
+            "{\r\n  variant = \"default\",\r\n}"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "TemplateBackButton",
+          "line": 61,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "TemplateBackButton",
+          "callee": "useI18n",
+          "lineNumber": 64
+        },
+        {
+          "caller": "TemplateBackButton",
+          "callee": "useRouter",
+          "lineNumber": 65
+        },
+        {
+          "caller": "TemplateBackButton",
+          "callee": "navigateBackOrFallback",
+          "lineNumber": 72
+        },
+        {
+          "caller": "TemplateBackButton",
+          "callee": "t",
+          "lineNumber": 81
+        }
+      ],
+      "metrics": {
+        "importCount": 2,
+        "exportCount": 1,
+        "functionCount": 1,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "components/ui/brutal/index.tsx",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 12,
+      "nonEmptyLines": 12,
+      "metrics": {
+        "importCount": 0,
+        "exportCount": 0,
+        "functionCount": 0,
+        "classCount": 0
+      }
+    },
+    {
+      "path": "lib/navigation/smart-back.ts",
+      "language": "typescript",
+      "fileCategory": "code",
+      "totalLines": 98,
+      "nonEmptyLines": 82,
+      "functions": [
+        {
+          "name": "readSavedReturnUrl",
+          "startLine": 15,
+          "endLine": 34,
+          "params": [
+            "key"
+          ]
+        },
+        {
+          "name": "canUseBrowserBack",
+          "startLine": 36,
+          "endLine": 54,
+          "params": []
+        },
+        {
+          "name": "localizeForCurrentPath",
+          "startLine": 56,
+          "endLine": 63,
+          "params": [
+            "href"
+          ]
+        },
+        {
+          "name": "navigateBackOrFallback",
+          "startLine": 65,
+          "endLine": 98,
+          "params": [
+            "router",
+            "options"
+          ]
+        }
+      ],
+      "exports": [
+        {
+          "name": "navigateBackOrFallback",
+          "line": 65,
+          "isDefault": false
+        }
+      ],
+      "callGraph": [
+        {
+          "caller": "readSavedReturnUrl",
+          "callee": "sessionStorage.getItem",
+          "lineNumber": 20
+        },
+        {
+          "caller": "localizeForCurrentPath",
+          "callee": "getLocaleFromPathname",
+          "lineNumber": 61
+        },
+        {
+          "caller": "localizeForCurrentPath",
+          "callee": "localizeHref",
+          "lineNumber": 62
+        },
+        {
+          "caller": "navigateBackOrFallback",
+          "callee": "readSavedReturnUrl",
+          "lineNumber": 77
+        },
+        {
+          "caller": "navigateBackOrFallback",
+          "callee": "sessionStorage.removeItem",
+          "lineNumber": 80
+        },
+        {
+          "caller": "navigateBackOrFallback",
+          "callee": "router.push",
+          "lineNumber": 82
+        },
+        {
+          "caller": "navigateBackOrFallback",
+          "callee": "router.push",
+          "lineNumber": 88
+        },
+        {
+          "caller": "navigateBackOrFallback",
+          "callee": "localizeForCurrentPath",
+          "lineNumber": 88
+        },
+        {
+          "caller": "navigateBackOrFallback",
+          "callee": "canUseBrowserBack",
+          "lineNumber": 92
+        },
+        {
+          "caller": "navigateBackOrFallback",
+          "callee": "router.back",
+          "lineNumber": 93
+        },
+        {
+          "caller": "navigateBackOrFallback",
+          "callee": "router.push",
+          "lineNumber": 97
+        },
+        {
+          "caller": "navigateBackOrFallback",
+          "callee": "localizeForCurrentPath",
+          "lineNumber": 97
+        }
+      ],
+      "metrics": {
+        "importCount": 1,
+        "exportCount": 1,
+        "functionCount": 4,
+        "classCount": 0
+      }
+    }
+  ]
+}
