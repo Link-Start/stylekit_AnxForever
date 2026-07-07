@@ -1,0 +1,17 @@
+{
+  "current": 12,
+  "completed": {
+    "neo-brutalist": true,
+    "editorial": true,
+    "neumorphism": true,
+    "glassmorphism": true,
+    "bento-grid": true,
+    "corporate-clean": true,
+    "minimalist-flat": true,
+    "soft-ui": true,
+    "natural-organic": true,
+    "modern-gradient": true,
+    "retro-vintage": true,
+    "dark-mode": true
+  }
+}
